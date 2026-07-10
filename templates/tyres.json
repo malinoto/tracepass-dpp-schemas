@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(2) + Annex III require unique product identifier, but only once a tyre delegated act is adopted under Art. 4; none exists."
       },
       "category": "identification",
       "categoryLabel": {
@@ -197,7 +200,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Unique operator identifier is Art. 9(2)/Annex III content, activated only by a future delegated act."
       },
       "category": "identification",
       "categoryLabel": {
@@ -300,7 +306,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Unique facility identifier is Art. 9(2)/Annex III content, activated only by a future delegated act."
       },
       "category": "identification",
       "categoryLabel": {
@@ -507,7 +516,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Economic-operator address is Annex III DPP content pending a tyre delegated act; 2020/740 requires supplier identity in EPREL but not a public street address as a distinct field."
       },
       "category": "identification",
       "categoryLabel": {
@@ -1613,7 +1625,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Origin/place of manufacture may become Annex III DPP content under a future tyre delegated act; not mandated today (no general EU origin-marking duty for tyres)."
       },
       "category": "identification",
       "categoryLabel": {
@@ -2067,7 +2082,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Data carrier is ESPR Art. 9(2)/Art. 10 DPP infrastructure, activated only by a future delegated act."
       },
       "category": "identification",
       "categoryLabel": {
@@ -2170,7 +2188,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Responsible DPP economic operator is Art. 9/Annex III content, pending a delegated act."
       },
       "category": "identification",
       "categoryLabel": {
@@ -3700,7 +3721,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Weight/mass is an ESPR Annex I resource-use parameter a future tyre delegated act may require; 'ESPR delegated act (tyres)' is not yet adopted."
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -5008,7 +5032,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1257",
+        "anticipatedNote": "Euro 7 empowers tyre abrasion limits (Art. 5/Annex) but the mg/km limits + UNECE TFTA method are set by delegated/UN acts not yet finalized."
       },
       "category": "abrasion_and_microplastics",
       "categoryLabel": {
@@ -5111,7 +5138,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1257",
+        "anticipatedNote": "Relative abrasion index tied to the same Euro 7 tyre-abrasion regime, pending the UNECE convoy/drum method finalization."
       },
       "category": "abrasion_and_microplastics",
       "categoryLabel": {
@@ -5272,7 +5302,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1257",
+        "anticipatedNote": "Method (convoy-on-road vs lab drum) is defined by the pending UNECE WP.29 tyre-abrasion UN Regulation referenced by Euro 7."
       },
       "category": "abrasion_and_microplastics",
       "categoryLabel": {
@@ -5828,7 +5861,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Material composition is an ESPR Annex I(f) substances/composition parameter a future tyre delegated act may require; Art. 7(2)(a) alone mandates nothing and the delegated act is not adopted."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -5932,7 +5968,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Total product mass is an ESPR Annex I resource-use parameter for a future tyre delegated act."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -6035,7 +6074,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Material-composition parameter (Annex I) for a future tyre delegated act; Art. 7(2)(a) mandates nothing today."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -6138,7 +6180,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Material-composition parameter (Annex I) for a future tyre delegated act; Art. 7(2)(a) mandates nothing today."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -6241,7 +6286,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Recycled-content share is ESPR Annex I(e) parameter; the cite to Art. 7(2)(b) is the wrong sub-point (7(2)(b) is the performance/durability triad, recycled content is Annex I(e))."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -7166,7 +7214,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Carbon/environmental footprint is ESPR Annex I(g) parameter a future tyre delegated act may require; PEF is the methodology not the mandate. Art. 7(2)(a) alone mandates nothing."
       },
       "category": "environmental_performance",
       "categoryLabel": {
@@ -7270,7 +7321,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Methodology disclosure accompanies a future Annex I(g) footprint requirement; not mandated today."
       },
       "category": "environmental_performance",
       "categoryLabel": {
@@ -7784,7 +7838,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Durability/expected life is an ESPR Art. 7(2)(b)(i) performance/durability parameter a future tyre delegated act may require; Art. 7(2)(a) is the wrong sub-point and nothing is mandated today."
       },
       "category": "durability_and_performance",
       "categoryLabel": {
@@ -8298,7 +8355,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Reparability/reusability (retreadability) is ESPR Art. 7(2)(b)(iii)-(iv) triad content for a future tyre delegated act; UNECE R108/R109 govern retreaded-tyre approval, not a DPP field. Art. 7(2)(c) does not exist as cited (7(2) has (a)-(c); the triad is 7(2)(b) romans)."
       },
       "category": "retreading_and_end_of_life",
       "categoryLabel": {
@@ -8605,7 +8665,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Recyclability is ESPR Annex I(a-c)/Art. 7(2)(b) end-of-life parameter for a future tyre delegated act; nothing mandated today. Cite '7(2)(c)' misuses the sub-point."
       },
       "category": "retreading_and_end_of_life",
       "categoryLabel": {
@@ -8707,7 +8770,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "End-of-life recovery-pathway breakdown is Annex I recyclability parameter content for a future tyre delegated act."
       },
       "category": "retreading_and_end_of_life",
       "categoryLabel": {
@@ -8913,7 +8979,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "End-of-life/dismantling information is Art. 7(2)(b) + Annex II(a)/Art.9 DPP content for a future tyre delegated act; '7(2)(c)' misuses the sub-point."
       },
       "category": "retreading_and_end_of_life",
       "categoryLabel": {
@@ -9557,7 +9626,7 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9"
       },
       "aiHints": {
         "alternateNames": [
@@ -10551,7 +10620,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "DPP technical/schema requirements come from ESPR Art. 10 + implementing acts on DPP technical design, not yet adopted."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -10653,7 +10725,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "DPP update/maintenance obligations are Art. 10, operative only once a tyre delegated act + DPP implementing acts apply."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -10755,7 +10830,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Differentiated access rights are ESPR Art. 10/Art. 11 DPP-infrastructure content, pending implementing/delegated acts."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -10857,7 +10935,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Machine-readable/interoperability format is Art. 10 + DPP implementing-act content, not yet adopted."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -10903,7 +10984,7 @@
     }
   ],
   "fieldCount": 95,
-  "requiredFieldCount": 70,
+  "requiredFieldCount": 43,
   "categories": [
     {
       "key": "identification",

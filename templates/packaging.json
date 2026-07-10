@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR Art. 12 mandates a QR data carrier whose linked dataset is defined by future implementing acts; the unique packaging identifier (GS1 Digital Link) is the expected carrier content, not yet enumerated. PPWR creates NO passport."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -195,7 +198,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR itself does not mandate a GTIN; a trade-item identifier is plausible content of the Art. 12 data-carrier dataset defined by future implementing acts."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -444,7 +450,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Sales/grouped/transport/e-commerce/reusable are real PPWR-defined terms (Art. 3), but Art. 3 is definitions and imposes no duty to declare a type as data; a type field is anticipated as Art. 12 dataset content."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -953,7 +962,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Physical form is plausible Art. 12 data-carrier dataset content once implementing acts define it; not mandated today."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -1055,7 +1067,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Empty-packaging weight underlies Art. 10 minimisation and is plausible Art. 12 dataset content, but no in-force PPWR provision mandates it as a declared datum."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -1260,7 +1275,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 11 governs reuse (criteria + targets from 2030); reusability is a real characteristic but declaring it as passport data is not an in-force obligation, only anticipated via Art. 11 / Art. 12 dataset."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -1362,7 +1380,10 @@
       "defaultValue": true,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Complement of reusability under Art. 11; not a mandated data field today, anticipated as dataset content."
       },
       "category": "packaging_identification",
       "categoryLabel": {
@@ -1929,7 +1950,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Harmonised material-composition identification for sorting is an Art. 12 labelling obligation whose pictograms/format are set by a future implementing act; the data field is anticipated, not in force."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2134,7 +2158,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Per-material weight share underlies recyclability (Art. 6) and recycled-content (Art. 7) assessment; plausible dataset content but not an in-force mandated field."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2236,7 +2263,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Component-level identification supports Art. 12 separate-collection/sorting labelling; anticipated as implementing-act dataset content, not mandated today."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2338,7 +2368,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "'Contact-sensitive packaging' is a real Art. 7 category driving differentiated recycled-content targets; declaring it is anticipated support for the Art. 7 obligation, not an in-force standalone field."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2891,7 +2924,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 6 establishes recyclability performance grades A-E (D/E unmarketable from 2030, C phased later), but the grading criteria come via delegated acts under Art. 6(4) not yet adopted and the grade applies from 2030 — so nothing today lets you compute or requires it."
       },
       "category": "recyclability",
       "categoryLabel": {
@@ -2993,7 +3029,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Recyclability under Art. 6 is expressed as A-E grades/design-for-recycling thresholds (grade A >=95%), not a free 'percent recyclable'; the metric depends on Art. 6(4) delegated criteria and applies from 2030."
       },
       "category": "recyclability",
       "categoryLabel": {
@@ -3095,7 +3134,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Design-for-recycling criteria are set by delegated acts under Art. 6(4), not yet adopted; compliance is undeterminable and unmandated until they exist (applies from 2030)."
       },
       "category": "recyclability",
       "categoryLabel": {
@@ -3838,7 +3880,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 7 recycled-content targets are set per plastic material category; the material-type dimension is real but the obligation (and its calculation methodology delegated act) applies from 1 Jan 2030."
       },
       "category": "recycled_content",
       "categoryLabel": {
@@ -3939,7 +3984,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 7(1) sets minimum recycled content for plastic packaging from 1 Jan 2030 (10-35% by type), with a calculation/verification methodology to be set by delegated act; not an in-force declared field today."
       },
       "category": "recycled_content",
       "categoryLabel": {
@@ -4041,7 +4089,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 7 recognises only post-consumer recyclate toward the targets; the post-consumer share is the operative Art. 7 metric but the obligation applies from 2030 via a delegated methodology."
       },
       "category": "recycled_content",
       "categoryLabel": {
@@ -4449,7 +4500,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 12 mandates harmonised sorting/disposal labelling per a future implementing act (harmonised pictograms, applies ~2028); per-component sorting identification is anticipated dataset/label content."
       },
       "category": "sorting_disposal",
       "categoryLabel": {
@@ -4550,7 +4604,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Waste-stream/bin destination is the substance of the Art. 12 harmonised sorting label, defined by a future implementing act; not in force today."
       },
       "category": "sorting_disposal",
       "categoryLabel": {
@@ -4755,7 +4812,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Consumer sorting/disposal instructions are Art. 12 harmonised-labelling content set by a future implementing act; anticipated, not in force."
       },
       "category": "sorting_disposal",
       "categoryLabel": {
@@ -4959,7 +5019,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 50 requires Member States to set up deposit-return systems (single-use plastic bottles / metal cans) by 1 Jan 2029; in-scope packaging carries DRS marking (Art. 12/Annex). The applicability flag is anticipated, tied to that future-dated regime."
       },
       "category": "sorting_disposal",
       "categoryLabel": {
@@ -5573,7 +5636,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR Art. 5(1) requires MINIMISATION of substances of concern but does not create a per-substance disclosure list; a substance-name field is at most anticipated support content. SVHC notification is separately handled by the SCIP database under the Waste Framework Directive, not PPWR."
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -5777,7 +5843,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Per-substance concentration is not a mandated PPWR disclosure field; anticipated only as evidence supporting Art. 5 minimisation. Art. 5 is correctly the substances article."
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -6286,7 +6355,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "The harmonised label under Art. 12 becomes mandatory from a date set by its implementing act (harmonised pictograms, ~2028), so a 'label applied' flag is anticipated rather than in force today."
       },
       "category": "labelling",
       "categoryLabel": {
@@ -6794,7 +6866,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 15 requires an EU Declaration of Conformity to be drawn up, but the standard EU DoC model does not require a unique DoC identifier; the 'ID' subfield is anticipated/optional, not mandated content."
       },
       "category": "declaration_of_conformity",
       "categoryLabel": {
@@ -7421,7 +7496,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 12 mandates a QR-code data carrier, but its technical specification and the effective date come via a future implementing act (~2028); the carrier-type field is anticipated, not in force."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -7523,7 +7601,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "The GS1 Digital Link URI encoded in the Art. 12 QR carrier is expected content of the future implementing-act dataset; not mandated in force today."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -8121,7 +8202,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 10 sets an empty-space ratio limit (<=50%) for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to be set by delegated act; the empty-space percentage is the operative Art. 10 metric but future-dated."
       },
       "category": "waste_reduction",
       "categoryLabel": {
@@ -8324,7 +8408,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "Art. 10 requires packaging to be minimised to the weight/volume necessary for functionality/safety/hygiene, assessed against Annex IV performance criteria from 2030; a 'weight optimised' attribute is anticipated evidence of that, not an in-force passport field."
       },
       "category": "waste_reduction",
       "categoryLabel": {
@@ -8370,7 +8457,7 @@
     }
   ],
   "fieldCount": 66,
-  "requiredFieldCount": 38,
+  "requiredFieldCount": 9,
   "categories": [
     {
       "key": "packaging_identification",

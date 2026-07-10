@@ -39,23 +39,23 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **913 fields in total. 502 are required by an instrument in force;
-28 are anticipated under a rule that has not yet been adopted.**
+Twelve JSON files, one per product category. **913 fields in total. 343 are required by an instrument in force;
+187 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 95 | 95 | Regulation (EU) 2023/1542 |
-| `chemicals` | 96 | 42 | ESPR (EU) 2024/1781 |
+| `chemicals` | 96 | 28 | ESPR (EU) 2024/1781 |
 | `construction` | 49 | 43 | CPR (EU) 2024/3110 |
-| `electronics` | 167 | 40 | ESPR (EU) 2024/1781 |
-| `fmcg` | 42 | 15 | ESPR (EU) 2024/1781 |
-| `furniture` | 79 | 52 | ESPR (EU) 2024/1781 |
-| `jewelry` | 52 | 17 | ESPR (EU) 2024/1781 |
-| `packaging` | 66 | 38 | PPWR (EU) 2025/40 |
-| `steel` | 84 | 45 | ESPR (EU) 2024/1781 |
-| `textile` | 60 | 30 | ESPR (EU) 2024/1781 |
-| `toys` | 28 | 15 | ESPR (EU) 2024/1781 |
-| `tyres` | 95 | 70 | ESPR (EU) 2024/1781 |
+| `electronics` | 167 | 20 | ESPR (EU) 2024/1781 |
+| `fmcg` | 42 | 11 | ESPR (EU) 2024/1781 |
+| `furniture` | 79 | 27 | ESPR (EU) 2024/1781 |
+| `jewelry` | 52 | 12 | ESPR (EU) 2024/1781 |
+| `packaging` | 66 | 9 | PPWR (EU) 2025/40 |
+| `steel` | 84 | 29 | ESPR (EU) 2024/1781 |
+| `textile` | 60 | 12 | ESPR (EU) 2024/1781 |
+| `toys` | 28 | 14 | ESPR (EU) 2024/1781 |
+| `tyres` | 95 | 43 | ESPR (EU) 2024/1781 |
 
 Every battery field is mandatory — Annex XIII of the Battery Regulation admits no
 optional entries.

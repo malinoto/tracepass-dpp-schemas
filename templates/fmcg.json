@@ -403,7 +403,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated as DPP identifier content under ESPR Art. 9(2)/Annex III. GS1 GTIN is a voluntary standard, not law."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -4095,7 +4098,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR Art. 7 recycled-content minima, effective 2030, methodology pending an implementing act under Art. 7(8)"
       },
       "category": "packaging",
       "categoryLabel": {
@@ -4345,7 +4351,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR Art. 6 recyclability performance grades A-E, pending a delegated act; applies from 2030"
       },
       "category": "packaging",
       "categoryLabel": {
@@ -4448,7 +4457,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32025R0040",
+        "anticipatedNote": "PPWR Art. 6/10 minimisation, pending the implementing acts"
       },
       "category": "packaging",
       "categoryLabel": {
@@ -6226,7 +6238,7 @@
     }
   ],
   "fieldCount": 42,
-  "requiredFieldCount": 15,
+  "requiredFieldCount": 11,
   "categories": [
     {
       "key": "general_info",

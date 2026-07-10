@@ -93,8 +93,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "pattern": "^https?://"
+        "required": false,
+        "pattern": "^https?://",
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(1) requires a unique product identifier, but only once a product-group delegated act triggers a DPP for steel; none adopted."
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -199,8 +202,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "pattern": "^[0-9]{14}$"
+        "required": false,
+        "pattern": "^[0-9]{14}$",
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "A GTIN-14 is one possible form of the ESPR Art. 9(1) unique identifier; the specific choice of GTIN is not mandated."
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -337,7 +343,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "GPSR Art. 9(5)",
         "annex": "EN 10204"
       },
       "aiHints": {
@@ -1175,7 +1181,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "GPSR Art. 9(5)",
         "annex": null
       },
       "aiHints": {
@@ -1670,8 +1676,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "pattern": "^[A-Z]{2}$"
+        "required": false,
+        "pattern": "^[A-Z]{2}$",
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Art. 9(2)/Annex III"
       },
       "category": "manufacturer_origin",
       "categoryLabel": {
@@ -2421,7 +2430,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32023R0956",
+        "anticipatedNote": "CBAM benchmarking distinguishes steel types via CN code, but a separate 'material type' field is not a mandated CBAM data element; folded into CN code."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2631,9 +2643,12 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
-        "max": 100
+        "max": 100,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Recycled content is ESPR Annex I product parameter (e); a delegated act may set a threshold + disclosure, but none exists for steel."
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -4171,7 +4186,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Manufacture date is generic DPP metadata a future ESPR act may specify; not mandated now."
       },
       "category": "production_data",
       "categoryLabel": {
@@ -4747,8 +4765,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32023R0956",
+        "anticipatedNote": "Grid emission factor is an input to CBAM indirect (Scope 2) emissions, which for iron/steel are NOT counted in the definitive CBAM (indirect only applies to some goods); relevant chiefly for aluminium."
       },
       "category": "production_data",
       "categoryLabel": {
@@ -4957,8 +4978,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32023R0956",
+        "anticipatedNote": "Electricity consumption feeds indirect-emissions calc; excluded for iron/steel definitive CBAM, material for aluminium only."
       },
       "category": "production_data",
       "categoryLabel": {
@@ -5562,7 +5586,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Carbon footprint is ESPR Annex I parameter; a delegated act may require a PCF for steel, but none exists. Overlaps but is not identical to CBAM embedded emissions."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -5774,8 +5801,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32023R0956",
+        "anticipatedNote": "Indirect (Scope 2) emissions are NOT required for iron/steel in the definitive CBAM (only for aluminium and certain goods)."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -7370,7 +7400,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32023R0956",
+        "anticipatedNote": "CBAM Art. 9 lets an importer DEDUCT a carbon price paid abroad; supplying it is optional (to reduce certificates), not a mandated data element."
       },
       "category": "cbam",
       "categoryLabel": {
@@ -10716,7 +10749,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(1) requires the data carrier linking to the DPP, but only once a steel delegated act triggers a DPP; none exists."
       },
       "category": "dpp_metadata",
       "categoryLabel": {
@@ -10908,7 +10944,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR foresees tiered access rights (authorities/consumers/recyclers) set per delegated act; not specified for steel yet."
       },
       "category": "dpp_metadata",
       "categoryLabel": {
@@ -11011,7 +11050,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR establishes a DPP registry, but a steel product's registry entry is required only once a delegated act mandates the passport for steel."
       },
       "category": "dpp_metadata",
       "categoryLabel": {
@@ -11115,7 +11157,10 @@
       "defaultValue": "JSON-LD",
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 10 requires DPP data to follow open standards / be machine-readable, but the concrete format is set by delegated/implementing acts not yet adopted for steel."
       },
       "category": "dpp_metadata",
       "categoryLabel": {
@@ -11220,7 +11265,10 @@
       ],
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 8 concerns information/labelling requirements a future delegated act sets, including language; nothing binds for steel yet."
       },
       "category": "dpp_metadata",
       "categoryLabel": {
@@ -11462,7 +11510,7 @@
     }
   ],
   "fieldCount": 84,
-  "requiredFieldCount": 45,
+  "requiredFieldCount": 29,
   "categories": [
     {
       "key": "product_identification",

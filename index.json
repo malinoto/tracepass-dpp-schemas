@@ -8,8 +8,8 @@
   "totals": {
     "categories": 12,
     "fields": 913,
-    "requiredFields": 502,
-    "anticipatedFields": 28
+    "requiredFields": 343,
+    "anticipatedFields": 187
   },
   "categories": [
     {
@@ -32,8 +32,8 @@
       "file": "templates/chemicals.json",
       "version": 2,
       "fieldCount": 96,
-      "requiredFieldCount": 42,
-      "anticipatedFieldCount": 1,
+      "requiredFieldCount": 28,
+      "anticipatedFieldCount": 15,
       "regulation": {
         "name": "EU ESPR - Chemicals",
         "number": "(EU) 2024/1781",
@@ -60,8 +60,8 @@
       "file": "templates/electronics.json",
       "version": 2,
       "fieldCount": 167,
-      "requiredFieldCount": 40,
-      "anticipatedFieldCount": 0,
+      "requiredFieldCount": 20,
+      "anticipatedFieldCount": 20,
       "regulation": {
         "name": "EU ESPR - Electronics",
         "number": "(EU) 2024/1781",
@@ -74,8 +74,8 @@
       "file": "templates/fmcg.json",
       "version": 2,
       "fieldCount": 42,
-      "requiredFieldCount": 15,
-      "anticipatedFieldCount": 0,
+      "requiredFieldCount": 11,
+      "anticipatedFieldCount": 4,
       "regulation": {
         "name": "EU ESPR - FMCG",
         "number": "(EU) 2024/1781",
@@ -88,8 +88,8 @@
       "file": "templates/furniture.json",
       "version": 2,
       "fieldCount": 79,
-      "requiredFieldCount": 52,
-      "anticipatedFieldCount": 1,
+      "requiredFieldCount": 27,
+      "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Furniture",
         "number": "(EU) 2024/1781",
@@ -102,8 +102,8 @@
       "file": "templates/jewelry.json",
       "version": 2,
       "fieldCount": 52,
-      "requiredFieldCount": 17,
-      "anticipatedFieldCount": 5,
+      "requiredFieldCount": 12,
+      "anticipatedFieldCount": 10,
       "regulation": {
         "name": "EU ESPR - Jewelry",
         "number": "(EU) 2024/1781",
@@ -116,8 +116,8 @@
       "file": "templates/packaging.json",
       "version": 2,
       "fieldCount": 66,
-      "requiredFieldCount": 38,
-      "anticipatedFieldCount": 0,
+      "requiredFieldCount": 9,
+      "anticipatedFieldCount": 29,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",
@@ -130,8 +130,8 @@
       "file": "templates/steel.json",
       "version": 2,
       "fieldCount": 84,
-      "requiredFieldCount": 45,
-      "anticipatedFieldCount": 0,
+      "requiredFieldCount": 29,
+      "anticipatedFieldCount": 16,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",
         "number": "(EU) 2024/1781",
@@ -144,8 +144,8 @@
       "file": "templates/textile.json",
       "version": 2,
       "fieldCount": 60,
-      "requiredFieldCount": 30,
-      "anticipatedFieldCount": 14,
+      "requiredFieldCount": 12,
+      "anticipatedFieldCount": 32,
       "regulation": {
         "name": "EU ESPR - Textiles",
         "number": "(EU) 2024/1781",
@@ -158,8 +158,8 @@
       "file": "templates/toys.json",
       "version": 2,
       "fieldCount": 28,
-      "requiredFieldCount": 15,
-      "anticipatedFieldCount": 7,
+      "requiredFieldCount": 14,
+      "anticipatedFieldCount": 8,
       "regulation": {
         "name": "EU ESPR - Toys",
         "number": "(EU) 2024/1781",
@@ -172,8 +172,8 @@
       "file": "templates/tyres.json",
       "version": 2,
       "fieldCount": 95,
-      "requiredFieldCount": 70,
-      "anticipatedFieldCount": 0,
+      "requiredFieldCount": 43,
+      "anticipatedFieldCount": 27,
       "regulation": {
         "name": "EU ESPR - Tyres",
         "number": "(EU) 2024/1781",

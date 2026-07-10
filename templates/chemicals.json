@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(1) requires a unique product identifier, but only once a product-group delegated act under Art. 4 applies to chemicals; none adopted."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -195,7 +198,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "A DPP identifier is anticipated under an ESPR Art. 9 delegated act; GTIN is a GS1 implementation choice, not itself a legal requirement."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1199,7 +1205,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "A category field would be defined by the future ESPR chemicals delegated act; not mandated today."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1809,7 +1818,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9/Annex III anticipates operator identifiers in a DPP, but only under a delegated act; not in force."
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -2214,7 +2226,10 @@
       "defaultValue": "TracePass",
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "The passport-service-provider role exists in the ESPR DPP architecture (Art. 10 area) but binds no chemicals product until a delegated act applies."
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -2417,7 +2432,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Art. 9(2)/Annex III"
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -2519,7 +2537,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32026R0405",
+        "anticipatedNote": "Detergents Reg (EU) 2026/405 mandates a digital ingredient list, but applies from 23 Sep 2029; not in force. For non-detergent chemicals, SDS section 3 (REACH Annex II) covers hazardous constituents instead."
       },
       "category": "composition",
       "categoryLabel": {
@@ -3942,7 +3963,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32026R0405",
+        "anticipatedNote": "Ingredient functional category is a Detergents Reg (EU) 2026/405 labelling concept, applicable from 23 Sep 2029; not in force."
       },
       "category": "composition",
       "categoryLabel": {
@@ -4548,7 +4572,10 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32026R0405",
+        "anticipatedNote": "Optical brightener / whitening agent disclosure is a detergents-labelling item under Reg (EU) 2026/405, applicable 23 Sep 2029; not in force."
       },
       "category": "composition",
       "categoryLabel": {
@@ -11224,7 +11251,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(3) requires a data carrier for the DPP, but only once a chemicals delegated act applies; not in force."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -11326,7 +11356,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(3) data-carrier link is anticipated under a chemicals delegated act; not in force. GS1 Digital Link is a standard, not law."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -11428,7 +11461,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "DPP validity metadata flows from the ESPR Art. 10 DPP regime; binds no chemicals product until a delegated act applies."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -11530,7 +11566,10 @@
       "defaultValue": 10,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Retention period is set by the future ESPR delegated act / Art. 10 regime; the '10 years' default is not an in-force chemicals obligation."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -11720,7 +11759,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Access-rights tiering is part of the ESPR Art. 10 DPP regime, specified per group by the delegated act; not in force for chemicals."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -11766,7 +11808,7 @@
     }
   ],
   "fieldCount": 96,
-  "requiredFieldCount": 42,
+  "requiredFieldCount": 28,
   "categories": [
     {
       "key": "product_id",

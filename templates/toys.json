@@ -3254,7 +3254,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Art. 9(2)/Annex III"
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -3601,7 +3604,7 @@
     }
   ],
   "fieldCount": 28,
-  "requiredFieldCount": 15,
+  "requiredFieldCount": 14,
   "categories": [
     {
       "key": "general_info",

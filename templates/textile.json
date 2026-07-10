@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP identifier content under ESPR Art. 9(2)/Annex III. A GTIN is not mandated by any instrument."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -231,7 +234,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 9(5)",
         "annex": "Annex III"
       },
       "aiHints": {
@@ -1059,7 +1062,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 9(5)",
         "annex": "Annex III"
       },
       "aiHints": {
@@ -1219,7 +1222,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Annex III."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -1322,7 +1328,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Annex III."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -1530,7 +1539,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(h) via Art. 7(2)(b)(i), pending a textile delegated act under Art. 4."
       },
       "category": "materials",
       "categoryLabel": {
@@ -2318,7 +2330,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(n) via Art. 7(2)(b)(i), pending a textile delegated act."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2423,7 +2438,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(m) via Art. 7(2)(b)(i), pending a textile delegated act."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2527,7 +2545,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(d), pending a textile delegated act."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2689,7 +2710,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(d), pending a textile delegated act."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2792,7 +2816,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Loosely ESPR Annex I(d) design-for-recycling; not a named parameter."
       },
       "category": "materials",
       "categoryLabel": {
@@ -2895,7 +2922,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a) durability, pending a textile delegated act."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3000,7 +3030,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Cites Art. 7(2)(c), which is the 'clear and understandable' drafting requirement — wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3104,7 +3137,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Same wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3208,7 +3244,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Same wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3311,7 +3350,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Same wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3415,7 +3457,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Same wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3519,7 +3564,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(a). Same wrong provision."
       },
       "category": "durability",
       "categoryLabel": {
@@ -4257,7 +4305,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(p) microplastic and nanoplastic release. Reg (EU) 2023/2055 restricts INTENTIONALLY ADDED microplastics; wash-shedding is unintentional and out of scope."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -4361,7 +4412,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(p). Nothing in force mandates disclosure."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -6967,7 +7021,7 @@
     }
   ],
   "fieldCount": 60,
-  "requiredFieldCount": 30,
+  "requiredFieldCount": 12,
   "categories": [
     {
       "key": "general_info",

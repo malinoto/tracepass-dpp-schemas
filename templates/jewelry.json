@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "A future jewellery DPP delegated act under ESPR Art. 4 would specify a unique product identifier; data content framed by Annex III. ESPR Art. 9(2) does not itself enumerate this field and mandates nothing absent a delegated act, of which none exists for jewellery (not an ESPR priority group)."
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -229,7 +232,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "GPSR Art. 9(5)"
       },
       "aiHints": {
         "alternateNames": [
@@ -476,7 +479,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Product-type classification is standard DPP metadata a future ESPR delegated act (Annex III) would specify; not mandated today, Art. 9(2) lists no fields."
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -817,7 +823,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "GPSR Art. 9(6)"
       },
       "aiHints": {
         "alternateNames": [
@@ -921,7 +927,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "GPSR Art. 9(6)"
       },
       "aiHints": {
         "alternateNames": [
@@ -991,7 +997,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Country of the registered economic operator is anticipated DPP data under a future ESPR delegated act (Annex III); not mandated today by Art. 9(2)."
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -6198,7 +6207,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9 addresses the DPP data carrier, but the specific carrier requirement only takes effect once a jewellery delegated act under Art. 4 exists — none does. Provision is cited correctly in substance but imposes nothing today."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -6390,7 +6402,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9 governs access rights/levels to DPP data, but concrete access requirements are set per product group by a delegated act under Art. 4, none adopted for jewellery. Cited provision is substantively right but not operative today."
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -6437,7 +6452,7 @@
     }
   ],
   "fieldCount": 52,
-  "requiredFieldCount": 17,
+  "requiredFieldCount": 12,
   "categories": [
     {
       "key": "product_identity",

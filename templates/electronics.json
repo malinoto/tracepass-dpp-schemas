@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(2)+Annex III require a unique product identifier, but only once a product-group delegated act under Art. 4 is adopted; none exists for electronics."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -198,7 +201,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Model designation is standard DPP identifying content under Annex III, pending a delegated act under Art. 4."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -925,7 +931,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content under ESPR Art. 9(2)/Annex III"
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1029,7 +1038,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Plausible DPP content under Annex III, but not enumerated by Art. 9(2) and not mandated absent a delegated act under Art. 4."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1133,7 +1145,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Country of manufacture is plausible Annex III identifying content, pending a delegated act."
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1374,7 +1389,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 9(6)",
         "annex": "Annex III"
       },
       "aiHints": {
@@ -1479,7 +1494,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 9(6)",
         "annex": "Annex III"
       },
       "aiHints": {
@@ -3143,9 +3158,12 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
-        "max": 100
+        "max": 100,
+        "anticipated": true,
+        "anticipatedUnder": "32023R1670",
+        "anticipatedNote": "A 0-100 repairability index IS mandated for smartphones and slate tablets by ecodesign Reg (EU) 2023/1670 (energy-labelling), applicable from 20 June 2025 — but under Dir 2009/125, not ESPR Art. 7, and only for that narrow product group."
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -3767,8 +3785,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Carbon/environmental footprint is an ESPR Annex I(f) parameter a delegated act may require; none is in force for electronics."
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -4123,9 +4144,12 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
-        "max": 100
+        "max": 100,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Recycled-content share is ESPR Annex I(d) parameter a delegated act may require; none in force for electronics."
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -4228,9 +4252,12 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
-        "max": 100
+        "max": 100,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Recyclability is ESPR Annex I(g) parameter a delegated act may require; none in force."
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -6461,7 +6488,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32023R1670",
+        "anticipatedNote": "Spare-parts availability lists are mandated for specific ecodesign groups (e.g. smartphones/tablets 2023/1670; displays 2019/2021) under Dir 2009/125, not ESPR, and only for those groups. The '15 for professionals, 5 for end-users' figures come from the smartphone act."
       },
       "category": "repairability",
       "categoryLabel": {
@@ -6565,8 +6595,11 @@
       "defaultValue": 7,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 7
+        "required": false,
+        "min": 7,
+        "anticipated": true,
+        "anticipatedUnder": "32023R1670",
+        "anticipatedNote": "A minimum spare-parts availability period (e.g. 7 years after last unit) is set by ecodesign acts for specific groups (smartphones/tablets 2023/1670, displays 2019/2021) under Dir 2009/125, not ESPR."
       },
       "category": "repairability",
       "categoryLabel": {
@@ -17394,7 +17427,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "WEEE 2012/19 Annex III defines six EEE categories (from 15 Aug 2018) used for reporting, but no rule requires publishing the category number in a DPP; the numbers '1-6' match Annex III."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -17558,8 +17594,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Product mass is plausible Annex III/technical DPP content a delegated act may include, but nothing in force mandates it as a passport field."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -17888,7 +17927,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Material composition/breakdown is anticipatable under ESPR Annex I(c)/(d) and dismantling-information parameters, pending a delegated act."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -18054,7 +18096,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "DPP lifecycle metadata is inherent to the ESPR passport once a delegated act under Art. 4 establishes the DPP for electronics; none exists."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -18135,7 +18180,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "DPP update metadata is inherent passport content pending a delegated act under Art. 4."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -18416,7 +18464,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(3) requires a data carrier linking to the DPP, but the requirement applies only once a delegated act under Art. 4 establishes the DPP for the group."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -18499,7 +18550,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "The carrier must encode a link to the passport (Art. 9(3)); GS1 Digital Link is a plausible standard but not itself law. Operative only under a delegated act."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -18641,7 +18695,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR requires unique identifiers issued to a standard; the specific standard (GS1 / ISO 15459) will be fixed by the delegated act / implementing rules, not yet adopted."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -18811,7 +18868,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 10 governs DPP access rights/tiering, but which data is public vs restricted is set by the product-specific delegated act; none exists for electronics."
       },
       "category": "dpp_infrastructure",
       "categoryLabel": {
@@ -19054,7 +19114,7 @@
     }
   ],
   "fieldCount": 167,
-  "requiredFieldCount": 40,
+  "requiredFieldCount": 20,
   "categories": [
     {
       "key": "product_id",

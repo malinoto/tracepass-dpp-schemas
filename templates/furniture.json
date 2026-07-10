@@ -93,7 +93,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(2) requires a future delegated act to specify a unique product identifier; the ISO/IEC 15459 half is a voluntary standard, not law"
       },
       "category": "identification",
       "categoryLabel": {
@@ -196,7 +199,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(2) lists unique operator identifier as content a future delegated act must specify"
       },
       "category": "identification",
       "categoryLabel": {
@@ -298,7 +304,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(2) unique facility identifier — future delegated act only"
       },
       "category": "identification",
       "categoryLabel": {
@@ -432,7 +441,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9(5)"
       },
       "aiHints": {
         "alternateNames": [
@@ -502,7 +511,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Model identifier — anticipated DPP content under ESPR Art. 9(2)"
       },
       "category": "identification",
       "categoryLabel": {
@@ -637,7 +649,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9(5)"
       },
       "aiHints": {
         "alternateNames": [
@@ -999,7 +1011,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Product typology will be defined by the furniture delegated act; that act does not yet exist"
       },
       "category": "identification",
       "categoryLabel": {
@@ -1133,7 +1148,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9(6)"
       },
       "aiHints": {
         "alternateNames": [
@@ -1236,7 +1251,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9(6)"
       },
       "aiHints": {
         "alternateNames": [
@@ -1509,7 +1524,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "No EU origin-marking law mandates this; anticipated only as future DPP content"
       },
       "category": "identification",
       "categoryLabel": {
@@ -1611,7 +1629,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated DPP content; not mandated by any instrument in force"
       },
       "category": "identification",
       "categoryLabel": {
@@ -1713,7 +1734,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "The economic operator responsible for the DPP is defined by ESPR Art. 2/9 for a future act; not a live field"
       },
       "category": "identification",
       "categoryLabel": {
@@ -1852,7 +1876,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 9(1) foreshadows a data carrier linked to the product identifier; specifics await implementing/delegated acts"
       },
       "category": "identification",
       "categoryLabel": {
@@ -1955,7 +1982,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(a)/(f) material composition parameters; the cited Art.7(2)(a) is wrong (that sub-point is not material composition) and no furniture act exists"
       },
       "category": "materials",
       "categoryLabel": {
@@ -2058,7 +2088,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Supporting datum for weight-based circularity metrics in a future furniture act; not independently mandated"
       },
       "category": "materials",
       "categoryLabel": {
@@ -2161,7 +2194,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(e) recycled content; cited Art.7(2)(b) is the performance/repair/EoL triad, not recycled content — wrong provision; no furniture act in force"
       },
       "category": "materials",
       "categoryLabel": {
@@ -2263,7 +2299,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Sub-metric of Annex I(e) recycled content; anticipated, not mandated; Art.7(2)(b) cite wrong"
       },
       "category": "materials",
       "categoryLabel": {
@@ -4586,7 +4625,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(b) durability / Art.7(2)(b)(i) product lifetime; cited Art.7(2)(a) is the wrong sub-point and no furniture act is in force"
       },
       "category": "durability",
       "categoryLabel": {
@@ -5607,7 +5649,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(g) carbon/environmental footprint; a future furniture act could require it. Cited Art.7(2)(a)+PEF are not a current mandate"
       },
       "category": "environmental_performance",
       "categoryLabel": {
@@ -5710,7 +5755,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex I(g), pending a furniture delegated act under Art. 4"
       },
       "category": "environmental_performance",
       "categoryLabel": {
@@ -6118,7 +6166,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(h)/(k) ease of disassembly & end-of-life info and Art.7(2)(b)(iv); cited Art.7(2)(c) is not the right sub-point and no furniture act exists"
       },
       "category": "circularity",
       "categoryLabel": {
@@ -6220,7 +6271,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(i) reparability / Art.7(2)(b)(ii); cited Art.7(2)(a) is wrong and no furniture act is in force"
       },
       "category": "circularity",
       "categoryLabel": {
@@ -6322,7 +6376,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(i)/(j) availability of spare parts; anticipated in a furniture act, not mandated today; Art.7(2)(a) cite wrong"
       },
       "category": "circularity",
       "categoryLabel": {
@@ -6424,7 +6481,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Spare-parts info is an Annex I(j) parameter a future act may require; not mandated now"
       },
       "category": "circularity",
       "categoryLabel": {
@@ -6526,7 +6586,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Maps to ESPR Annex I(k)/(l) recyclability at end of life; cited Art.7(2)(c) is not this parameter and no furniture act exists"
       },
       "category": "circularity",
       "categoryLabel": {
@@ -7066,7 +7129,7 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)"
+        "article": "GPSR Art. 9"
       },
       "aiHints": {
         "alternateNames": [
@@ -8264,7 +8327,10 @@
       "defaultValue": "1.0.0",
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 10 + DPP implementing acts (technical design, interoperability); not yet adopted"
       },
       "category": "metadata",
       "categoryLabel": {
@@ -8366,7 +8432,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art.10 requires the DPP to be kept up to date; a last-updated timestamp is a plausible implementing-act mechanic, not a field mandated today"
       },
       "category": "metadata",
       "categoryLabel": {
@@ -8468,7 +8537,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art.10 does foresee differentiated access rights to DPP data, to be specified per product group; the concept is anticipated but no furniture act defines the levels yet"
       },
       "category": "metadata",
       "categoryLabel": {
@@ -8570,7 +8642,10 @@
       "defaultValue": "JSON-LD (Schema.org aligned)",
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 10 + DPP implementing acts (machine-readable format, interoperability); not yet adopted"
       },
       "category": "metadata",
       "categoryLabel": {
@@ -8616,7 +8691,7 @@
     }
   ],
   "fieldCount": 79,
-  "requiredFieldCount": 52,
+  "requiredFieldCount": 27,
   "categories": [
     {
       "key": "identification",
