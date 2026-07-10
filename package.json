@@ -1,0 +1,44 @@
+{
+  "name": "@tracepass/dpp-schemas",
+  "version": "0.1.0",
+  "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 12 product categories, 910 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
+  "keywords": [
+    "digital-product-passport",
+    "dpp",
+    "espr",
+    "eu-regulation",
+    "battery-passport",
+    "circular-economy",
+    "compliance",
+    "json-schema",
+    "sustainability",
+    "ecodesign"
+  ],
+  "license": "Apache-2.0",
+  "author": "TracePass LTD (https://tracepass.eu)",
+  "homepage": "https://github.com/malinoto/tracepass-dpp-schemas#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malinoto/tracepass-dpp-schemas.git"
+  },
+  "bugs": "https://github.com/malinoto/tracepass-dpp-schemas/issues",
+  "exports": {
+    ".": "./index.json",
+    "./schema.json": "./schema.json",
+    "./templates/*.json": "./templates/*.json"
+  },
+  "files": [
+    "templates",
+    "schema.json",
+    "index.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "validate": "python3 -c \"import json,glob;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));[print(('ok  ' if not list(v.iter_errors(json.load(open(p)))) else 'FAIL'),p) for p in sorted(glob.glob('templates/*.json'))]\""
+  }
+}

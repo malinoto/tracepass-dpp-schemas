@@ -1,0 +1,171 @@
+{
+  "name": "EU Digital Product Passport field specifications",
+  "license": "Apache-2.0",
+  "maintainer": {
+    "name": "TracePass",
+    "url": "https://www.tracepass.eu"
+  },
+  "totals": {
+    "categories": 12,
+    "fields": 910,
+    "requiredFields": 511
+  },
+  "categories": [
+    {
+      "category": "battery",
+      "label": "Battery",
+      "file": "templates/battery.json",
+      "version": 1,
+      "fieldCount": 94,
+      "requiredFieldCount": 94,
+      "regulation": {
+        "name": "EU Battery Regulation",
+        "number": "(EU) 2023/1542",
+        "mandatoryDate": "2027-02-18"
+      }
+    },
+    {
+      "category": "chemicals",
+      "label": "Chemicals & Paints",
+      "file": "templates/chemicals.json",
+      "version": 1,
+      "fieldCount": 96,
+      "requiredFieldCount": 42,
+      "regulation": {
+        "name": "EU ESPR - Chemicals",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2029-09-01"
+      }
+    },
+    {
+      "category": "construction",
+      "label": "Construction Materials",
+      "file": "templates/construction.json",
+      "version": 1,
+      "fieldCount": 48,
+      "requiredFieldCount": 43,
+      "regulation": {
+        "name": "Construction Products Regulation",
+        "number": "(EU) 2024/3110",
+        "mandatoryDate": "2029-01-01"
+      }
+    },
+    {
+      "category": "electronics",
+      "label": "Electronics",
+      "file": "templates/electronics.json",
+      "version": 1,
+      "fieldCount": 166,
+      "requiredFieldCount": 39,
+      "regulation": {
+        "name": "EU ESPR - Electronics",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2029-01-01"
+      }
+    },
+    {
+      "category": "fmcg",
+      "label": "FMCG",
+      "file": "templates/fmcg.json",
+      "version": 1,
+      "fieldCount": 42,
+      "requiredFieldCount": 15,
+      "regulation": {
+        "name": "EU ESPR - FMCG",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2030-01-01"
+      }
+    },
+    {
+      "category": "furniture",
+      "label": "Furniture & Mattresses",
+      "file": "templates/furniture.json",
+      "version": 1,
+      "fieldCount": 80,
+      "requiredFieldCount": 54,
+      "regulation": {
+        "name": "EU ESPR - Furniture",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2030-01-01"
+      }
+    },
+    {
+      "category": "jewelry",
+      "label": "Jewelry & Precious Metals",
+      "file": "templates/jewelry.json",
+      "version": 1,
+      "fieldCount": 52,
+      "requiredFieldCount": 19,
+      "regulation": {
+        "name": "EU ESPR - Jewelry",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2030-01-01"
+      }
+    },
+    {
+      "category": "packaging",
+      "label": "Packaging",
+      "file": "templates/packaging.json",
+      "version": 1,
+      "fieldCount": 66,
+      "requiredFieldCount": 38,
+      "regulation": {
+        "name": "Packaging and Packaging Waste Regulation",
+        "number": "(EU) 2025/40",
+        "mandatoryDate": "2030-01-01"
+      }
+    },
+    {
+      "category": "steel",
+      "label": "Iron, Steel & Aluminium",
+      "file": "templates/steel.json",
+      "version": 1,
+      "fieldCount": 83,
+      "requiredFieldCount": 44,
+      "regulation": {
+        "name": "EU ESPR - Iron, Steel & Aluminium",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2028-01-01"
+      }
+    },
+    {
+      "category": "textile",
+      "label": "Textile",
+      "file": "templates/textile.json",
+      "version": 1,
+      "fieldCount": 61,
+      "requiredFieldCount": 38,
+      "regulation": {
+        "name": "EU ESPR - Textiles",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2029-01-01"
+      }
+    },
+    {
+      "category": "toys",
+      "label": "Toys",
+      "file": "templates/toys.json",
+      "version": 1,
+      "fieldCount": 27,
+      "requiredFieldCount": 15,
+      "regulation": {
+        "name": "EU ESPR - Toys",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2030-01-01"
+      }
+    },
+    {
+      "category": "tyres",
+      "label": "Tyres",
+      "file": "templates/tyres.json",
+      "version": 1,
+      "fieldCount": 95,
+      "requiredFieldCount": 70,
+      "regulation": {
+        "name": "EU ESPR - Tyres",
+        "number": "(EU) 2024/1781",
+        "mandatoryDate": "2029-01-01"
+      }
+    }
+  ]
+}
