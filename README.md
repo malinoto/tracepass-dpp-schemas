@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.tracepass.eu">
-  <img src="https://www.tracepass.eu/tracepass-logo.svg" alt="TracePass" height="64">
+  <img src="https://www.tracepass.eu/tracepass-logo.svg" alt="TracePass" height="96">
 </a>
 
 # EU Digital Product Passport — Field Specifications
