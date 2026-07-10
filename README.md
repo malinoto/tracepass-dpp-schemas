@@ -39,8 +39,8 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **913 fields in total, 513 of them
-required.**
+Twelve JSON files, one per product category. **913 fields in total. 502 are required by an instrument in force;
+28 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
@@ -49,16 +49,22 @@ required.**
 | `construction` | 49 | 43 | CPR (EU) 2024/3110 |
 | `electronics` | 167 | 40 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 15 | ESPR (EU) 2024/1781 |
-| `furniture` | 79 | 53 | ESPR (EU) 2024/1781 |
-| `jewelry` | 52 | 19 | ESPR (EU) 2024/1781 |
+| `furniture` | 79 | 52 | ESPR (EU) 2024/1781 |
+| `jewelry` | 52 | 17 | ESPR (EU) 2024/1781 |
 | `packaging` | 66 | 38 | PPWR (EU) 2025/40 |
 | `steel` | 84 | 45 | ESPR (EU) 2024/1781 |
-| `textile` | 60 | 37 | ESPR (EU) 2024/1781 |
-| `toys` | 28 | 16 | ESPR (EU) 2024/1781 |
+| `textile` | 60 | 30 | ESPR (EU) 2024/1781 |
+| `toys` | 28 | 15 | ESPR (EU) 2024/1781 |
 | `tyres` | 95 | 70 | ESPR (EU) 2024/1781 |
 
 Every battery field is mandatory — Annex XIII of the Battery Regulation admits no
 optional entries.
+
+**`required` means an instrument in force compels the data.** ESPR (EU) 2024/1781 is a
+framework: it mandates no field directly, and every Digital Product Passport obligation
+flows through a delegated act adopted under its Article 4. No product-group delegated act
+has been adopted. Fields expected under a future act carry `validation.anticipated`
+rather than `required`, with the CELEX of the instrument expected to impose them.
 
 ## What a field looks like
 
