@@ -128,7 +128,10 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -232,7 +235,10 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)"
+        "article": "GPSR Art. 9(5)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -514,7 +520,10 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -617,7 +626,10 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -720,7 +732,10 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -823,7 +838,10 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)"
+        "article": "GPSR Art. 9(6)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -927,7 +945,10 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)"
+        "article": "GPSR Art. 9(6)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1032,7 +1053,10 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1134,7 +1158,10 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1355,7 +1382,9 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1459,7 +1488,9 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1566,7 +1597,9 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1669,7 +1702,9 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1772,7 +1807,9 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1874,7 +1911,9 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -1976,7 +2015,10 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2429,7 +2471,9 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Kimberley Process; CSDDD"
+        "article": "Kimberley Process; CSDDD",
+        "kind": "scheme",
+        "source": "Kimberley Process"
       },
       "aiHints": {
         "alternateNames": [
@@ -2533,7 +2577,9 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI grading standards"
+        "article": "GIA/IGI grading standards",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -2637,7 +2683,9 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI grading standards"
+        "article": "GIA/IGI grading standards",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -2740,7 +2788,9 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI grading standards"
+        "article": "GIA/IGI grading standards",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -2843,7 +2893,9 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI grading standards"
+        "article": "GIA/IGI grading standards",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -2948,7 +3000,9 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Kimberley Process; EU Conflict Minerals (EU) 2017/821"
+        "article": "Kimberley Process; EU Conflict Minerals (EU) 2017/821",
+        "kind": "scheme",
+        "source": "Kimberley Process"
       },
       "aiHints": {
         "alternateNames": [
@@ -3313,7 +3367,9 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CIBJO Blue Books"
+        "article": "CIBJO Blue Books",
+        "kind": "scheme",
+        "source": "CIBJO Blue Books"
       },
       "aiHints": {
         "alternateNames": [
@@ -3417,7 +3473,9 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI/AGS certification"
+        "article": "GIA/IGI/AGS certification",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -3522,7 +3580,9 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CIBJO Blue Books; FTC Jewelry Guides"
+        "article": "CIBJO Blue Books; FTC Jewelry Guides",
+        "kind": "scheme",
+        "source": "CIBJO Blue Books"
       },
       "aiHints": {
         "alternateNames": [
@@ -3627,7 +3687,9 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EU Conflict Minerals (EU) 2017/821"
+        "article": "EU Conflict Minerals (EU) 2017/821",
+        "instrument": "32017R0821",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3730,7 +3792,9 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Kimberley Process; CSDDD"
+        "article": "Kimberley Process; CSDDD",
+        "kind": "scheme",
+        "source": "Kimberley Process"
       },
       "aiHints": {
         "alternateNames": [
@@ -3833,7 +3897,9 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EU Conflict Minerals Regulation (EU) 2017/821"
+        "article": "EU Conflict Minerals Regulation (EU) 2017/821",
+        "instrument": "32017R0821",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3936,7 +4002,9 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Kimberley Process Certification Scheme"
+        "article": "Kimberley Process Certification Scheme",
+        "kind": "scheme",
+        "source": "Kimberley Process"
       },
       "aiHints": {
         "alternateNames": [
@@ -4039,7 +4107,9 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Fairmined Standard; Alliance for Responsible Mining"
+        "article": "Fairmined Standard; Alliance for Responsible Mining",
+        "kind": "scheme",
+        "source": "Fairmined"
       },
       "aiHints": {
         "alternateNames": [
@@ -4142,7 +4212,9 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "RJC Code of Practices; RJC Chain of Custody"
+        "article": "RJC Code of Practices; RJC Chain of Custody",
+        "kind": "scheme",
+        "source": "Responsible Jewellery Council"
       },
       "aiHints": {
         "alternateNames": [
@@ -4245,7 +4317,9 @@
       "sortOrder": 32,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "RJC COC; EU Conflict Minerals (EU) 2017/821"
+        "article": "RJC COC; EU Conflict Minerals (EU) 2017/821",
+        "kind": "scheme",
+        "source": "Responsible Jewellery Council"
       },
       "aiHints": {
         "alternateNames": [
@@ -4348,7 +4422,10 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006, Annex XVII Entry 63"
+        "article": "REACH (EC) 1907/2006, Annex XVII Entry 63",
+        "instrument": "32006R1907",
+        "provision": "Annex XVII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4451,7 +4528,10 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006, Annex XVII Entry 23"
+        "article": "REACH (EC) 1907/2006, Annex XVII Entry 23",
+        "instrument": "32006R1907",
+        "provision": "Annex XVII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4554,7 +4634,10 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006, Annex XVII Entry 27"
+        "article": "REACH (EC) 1907/2006, Annex XVII Entry 27",
+        "instrument": "32006R1907",
+        "provision": "Annex XVII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4657,7 +4740,10 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006, Art. 33; SCIP Database"
+        "article": "REACH (EC) 1907/2006, Art. 33; SCIP Database",
+        "instrument": "32006R1907",
+        "provision": "Art. 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4760,7 +4846,9 @@
       "sortOrder": 37,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006"
+        "article": "REACH (EC) 1907/2006",
+        "instrument": "32006R1907",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4863,7 +4951,10 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)"
+        "article": "ESPR Art. 7(2)(b)",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4968,7 +5059,10 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)"
+        "article": "ESPR Art. 7(2)(c)",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5072,7 +5166,10 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)"
+        "article": "ESPR Art. 7(2)(b)",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5176,7 +5273,10 @@
       },
       "sortOrder": 41,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "care",
@@ -5281,7 +5381,10 @@
       },
       "sortOrder": 42,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "repairable",
@@ -5385,7 +5488,10 @@
       },
       "sortOrder": 43,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "resizable",
@@ -5489,7 +5595,10 @@
       },
       "sortOrder": 44,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "take back",
@@ -5593,7 +5702,10 @@
       },
       "sortOrder": 45,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "recyclability",
@@ -5696,7 +5808,9 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GIA/IGI/AGS certification"
+        "article": "GIA/IGI/AGS certification",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -5800,7 +5914,9 @@
       "sortOrder": 47,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Vienna Convention 1972 - Hallmarking"
+        "article": "Vienna Convention 1972 - Hallmarking",
+        "kind": "international",
+        "source": "Vienna Convention on hallmarking"
       },
       "aiHints": {
         "alternateNames": [
@@ -5902,7 +6018,9 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EU Conflict Minerals (EU) 2017/821"
+        "article": "EU Conflict Minerals (EU) 2017/821",
+        "instrument": "32017R0821",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6004,7 +6122,9 @@
       "sortOrder": 49,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "RJC Code of Practices"
+        "article": "RJC Code of Practices",
+        "kind": "scheme",
+        "source": "Responsible Jewellery Council"
       },
       "aiHints": {
         "alternateNames": [
@@ -6106,7 +6226,10 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6242,7 +6365,10 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(3)"
+        "article": "ESPR Art. 9(3)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(3)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6437,7 +6563,10 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(4)"
+        "article": "ESPR Art. 9(4)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(4)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

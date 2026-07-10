@@ -128,7 +128,10 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(1)"
+        "article": "ESPR Article 9(1)",
+        "instrument": "32024R1781",
+        "provision": "Article 9(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -233,7 +236,10 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, GS1"
+        "article": "ESPR Article 9, GS1",
+        "instrument": "32024R1781",
+        "provision": "Article 9, GS1",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -335,7 +341,10 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32006R1907",
+        "provision": "Art. 31 + Annex II SDS section 1.1",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -437,7 +446,10 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -538,7 +550,10 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, SDS Section 1"
+        "article": "ESPR Article 9, SDS Section 1",
+        "instrument": "32008R1272",
+        "provision": "Art. 18 (product identifiers)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -640,7 +655,10 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -742,7 +760,10 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -843,7 +864,9 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, TARIC"
+        "article": "ESPR, TARIC",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1240,7 +1263,10 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1342,7 +1368,10 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1444,7 +1473,10 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, SDS Section 1.3"
+        "article": "ESPR Article 9, SDS Section 1.3",
+        "instrument": "32008R1272",
+        "provision": "Art. 17 (label) & Art. 18",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1546,7 +1578,10 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, SDS Section 1.3"
+        "article": "ESPR Article 9, SDS Section 1.3",
+        "instrument": "32008R1272",
+        "provision": "Art. 17 (label)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1647,7 +1682,10 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 1.3",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1748,7 +1786,10 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1853,7 +1894,10 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1956,7 +2000,10 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2057,7 +2104,10 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2157,7 +2207,10 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2261,7 +2314,10 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10"
+        "article": "ESPR Article 10",
+        "instrument": "32024R1781",
+        "provision": "Article 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2362,7 +2418,10 @@
       "sortOrder": 20,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2467,7 +2526,10 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9"
+        "article": "ESPR Article 9",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2572,7 +2634,10 @@
       "sortOrder": 22,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Annex III, Detergents Reg 2026/405, SDS Section 3"
+        "article": "ESPR Annex III, Detergents Reg 2026/405, SDS Section 3",
+        "instrument": "32026R0405",
+        "provision": "Annex III",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2674,7 +2739,10 @@
       "sortOrder": 23,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CLP 1272/2008, SDS Section 3"
+        "article": "CLP 1272/2008, SDS Section 3",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 3.2",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2775,7 +2843,9 @@
       "sortOrder": 24,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CLP 1272/2008"
+        "article": "CLP 1272/2008",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2876,7 +2946,10 @@
       "sortOrder": 25,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CLP, REACH, SDS Section 3"
+        "article": "CLP, REACH, SDS Section 3",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 3.2",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2978,7 +3051,9 @@
       "sortOrder": 26,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH, SDS Section 3"
+        "article": "REACH, SDS Section 3",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -3080,7 +3155,9 @@
       "sortOrder": 27,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006"
+        "article": "REACH (EC) 1907/2006",
+        "instrument": "32006R1907",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3181,7 +3258,9 @@
       "sortOrder": 28,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3399,7 +3478,10 @@
       "sortOrder": 29,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405 Annex V, SDS Section 3"
+        "article": "Detergents Reg 2026/405 Annex V, SDS Section 3",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 3.2",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3998,7 +4080,9 @@
       "sortOrder": 30,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4100,7 +4184,9 @@
       "sortOrder": 31,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4201,7 +4287,9 @@
       "sortOrder": 32,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4302,7 +4390,9 @@
       "sortOrder": 33,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4402,7 +4492,9 @@
       "sortOrder": 34,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4503,7 +4595,9 @@
       "sortOrder": 35,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4607,7 +4701,9 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4709,7 +4805,9 @@
       "sortOrder": 37,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4810,7 +4908,9 @@
       "sortOrder": 38,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405, CLP"
+        "article": "Detergents Reg 2026/405, CLP",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4911,7 +5011,9 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405, CLP 2024/2865"
+        "article": "Detergents Reg 2026/405, CLP 2024/2865",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5013,7 +5115,9 @@
       "sortOrder": 40,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5115,7 +5219,10 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008, SDS Section 2"
+        "article": "CLP 1272/2008, SDS Section 2",
+        "instrument": "32008R1272",
+        "provision": "Title II, Arts. 9-13 (classification)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5276,7 +5383,10 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 20, SDS Section 2"
+        "article": "CLP 1272/2008 Article 20, SDS Section 2",
+        "instrument": "32008R1272",
+        "provision": "Art. 20",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5432,7 +5542,10 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 19, SDS Section 2"
+        "article": "CLP 1272/2008 Article 19, SDS Section 2",
+        "instrument": "32008R1272",
+        "provision": "Art. 19 & Annex V",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5534,7 +5647,10 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 21, SDS Section 2"
+        "article": "CLP 1272/2008 Article 21, SDS Section 2",
+        "instrument": "32008R1272",
+        "provision": "Art. 21 & Annex III",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5636,7 +5752,10 @@
       "sortOrder": 45,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 22, SDS Section 2"
+        "article": "CLP 1272/2008 Article 22, SDS Section 2",
+        "instrument": "32008R1272",
+        "provision": "Art. 22 & Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5738,7 +5857,10 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Annex II"
+        "article": "CLP 1272/2008 Annex II",
+        "instrument": "32008R1272",
+        "provision": "Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5840,7 +5962,10 @@
       "sortOrder": 47,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 45, Annex VIII"
+        "article": "CLP 1272/2008 Article 45, Annex VIII",
+        "instrument": "32008R1272",
+        "provision": "Art. 45 & Annex VIII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5942,7 +6067,10 @@
       "sortOrder": 48,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CLP Annex VIII"
+        "article": "CLP Annex VIII",
+        "instrument": "32008R1272",
+        "provision": "Annex VIII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6043,7 +6171,10 @@
       "sortOrder": 49,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 1.4, CLP"
+        "article": "SDS Section 1.4, CLP",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 1.4",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6145,7 +6276,10 @@
       "sortOrder": 50,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CLP Annex VIII, ECHA EuPCS"
+        "article": "CLP Annex VIII, ECHA EuPCS",
+        "instrument": "32008R1272",
+        "provision": "Annex VIII (product categorisation, EuPCS)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6247,7 +6381,10 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5), REACH Article 33"
+        "article": "ESPR Article 7(5), REACH Article 33",
+        "instrument": "32006R1907",
+        "provision": "Art. 33(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6349,7 +6486,10 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Article 33, ESPR"
+        "article": "REACH Article 33, ESPR",
+        "instrument": "32006R1907",
+        "provision": "Art. 33(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6450,7 +6590,10 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Article 33"
+        "article": "REACH Article 33",
+        "instrument": "32006R1907",
+        "provision": "Article 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6551,7 +6694,9 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH"
+        "article": "REACH",
+        "instrument": "32006R1907",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6798,7 +6943,10 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5), REACH Article 33"
+        "article": "ESPR Article 7(5), REACH Article 33",
+        "instrument": "32024R1781",
+        "provision": "Article 7(5), REACH Article 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6899,7 +7047,10 @@
       "sortOrder": 56,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5)(b)"
+        "article": "ESPR Article 7(5)(b)",
+        "instrument": "32024R1781",
+        "provision": "Article 7(5)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7000,7 +7151,10 @@
       "sortOrder": 57,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5)(c), SDS Section 7"
+        "article": "ESPR Article 7(5)(c), SDS Section 7",
+        "instrument": "32006R1907",
+        "provision": "Art. 33(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7102,7 +7256,10 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Article 59"
+        "article": "REACH Article 59",
+        "instrument": "32006R1907",
+        "provision": "Article 59",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7203,7 +7360,10 @@
       "sortOrder": 59,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)"
+        "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)",
+        "instrument": "32008L0098",
+        "provision": "Article 9(1)(i)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7305,7 +7465,10 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1"
+        "article": "SDS Section 9.1",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 9.1",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7407,7 +7570,9 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1"
+        "article": "SDS Section 9.1",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -7508,7 +7673,10 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1"
+        "article": "SDS Section 9.1",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 9.1",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7609,7 +7777,9 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1, CLP"
+        "article": "SDS Section 9.1, CLP",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -7710,7 +7880,9 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1"
+        "article": "SDS Section 9.1",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -7811,7 +7983,9 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1"
+        "article": "SDS Section 9.1",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -7912,7 +8086,9 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC"
+        "article": "Decopaint Directive 2004/42/EC",
+        "instrument": "32004L0042",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8014,7 +8190,10 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Annex II"
+        "article": "Decopaint Directive 2004/42/EC Annex II",
+        "instrument": "32004L0042",
+        "provision": "Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8115,7 +8294,10 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Annex I"
+        "article": "Decopaint Directive 2004/42/EC Annex I",
+        "instrument": "32004L0042",
+        "provision": "Annex I",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8536,7 +8718,9 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC"
+        "article": "Decopaint Directive 2004/42/EC",
+        "instrument": "32004L0042",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8638,7 +8822,10 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Article 3"
+        "article": "Decopaint Directive 2004/42/EC Article 3",
+        "instrument": "32004L0042",
+        "provision": "Article 3",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8739,7 +8926,10 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Annex II"
+        "article": "Decopaint Directive 2004/42/EC Annex II",
+        "instrument": "32004L0042",
+        "provision": "Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8899,7 +9089,9 @@
       "sortOrder": 72,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC"
+        "article": "Decopaint Directive 2004/42/EC",
+        "instrument": "32004L0042",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9001,7 +9193,8 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Product technical data"
+        "article": "Product technical data",
+        "kind": "specification"
       },
       "aiHints": {
         "alternateNames": [
@@ -9249,7 +9442,8 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 13300"
+        "article": "EN 13300",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -9351,7 +9545,9 @@
       "sortOrder": 75,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CLP 2024/2865 (TiO2 reclassification)"
+        "article": "CLP 2024/2865 (TiO2 reclassification)",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9453,7 +9649,8 @@
       "sortOrder": 76,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ISO 12944, ISO 2813"
+        "article": "ISO 12944, ISO 2813",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -9555,7 +9752,9 @@
       "sortOrder": 77,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9657,7 +9856,9 @@
       "sortOrder": 78,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405, OECD Guidelines"
+        "article": "Detergents Reg 2026/405, OECD Guidelines",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9759,7 +9960,9 @@
       "sortOrder": 79,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9860,7 +10063,9 @@
       "sortOrder": 80,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9962,7 +10167,9 @@
       "sortOrder": 81,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10181,7 +10388,9 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10282,7 +10491,9 @@
       "sortOrder": 83,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405"
+        "article": "Detergents Reg 2026/405",
+        "instrument": "32026R0405",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10384,7 +10595,9 @@
       "sortOrder": 84,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, SDS Section 7"
+        "article": "ESPR, SDS Section 7",
+        "kind": "specification",
+        "source": "Safety Data Sheet"
       },
       "aiHints": {
         "alternateNames": [
@@ -10486,7 +10699,10 @@
       "sortOrder": 85,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, SDS Section 1.2"
+        "article": "ESPR, SDS Section 1.2",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 1.2",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10588,7 +10804,10 @@
       "sortOrder": 86,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)"
+        "article": "ESPR Article 7(2)(b)",
+        "instrument": "32024R1781",
+        "provision": "Article 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10749,7 +10968,10 @@
       "sortOrder": 87,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)"
+        "article": "ESPR Article 7(2)(b)",
+        "instrument": "32024R1781",
+        "provision": "Article 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10850,7 +11072,10 @@
       "sortOrder": 88,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)"
+        "article": "ESPR Article 7(2)(b)",
+        "instrument": "32024R1781",
+        "provision": "Article 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10954,7 +11179,10 @@
       },
       "sortOrder": 89,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "recyclable %",
@@ -11054,7 +11282,10 @@
       "sortOrder": 90,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(c)"
+        "article": "ESPR Article 7(2)(c)",
+        "instrument": "32024R1781",
+        "provision": "Article 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11156,7 +11387,10 @@
       "sortOrder": 91,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 13"
+        "article": "SDS Section 13",
+        "instrument": "32006R1907",
+        "provision": "Annex II SDS section 13",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11286,7 +11520,10 @@
       "sortOrder": 92,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3)"
+        "article": "ESPR Article 9(3)",
+        "instrument": "32024R1781",
+        "provision": "Article 9(3)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11391,7 +11628,10 @@
       "sortOrder": 93,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3), GS1 Digital Link"
+        "article": "ESPR Article 9(3), GS1 Digital Link",
+        "instrument": "32024R1781",
+        "provision": "Article 9(3), GS1 Digital Link",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11496,7 +11736,10 @@
       "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10"
+        "article": "ESPR Article 10",
+        "instrument": "32024R1781",
+        "provision": "Article 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11601,7 +11844,10 @@
       "sortOrder": 95,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(3)"
+        "article": "ESPR Article 10(3)",
+        "instrument": "32024R1781",
+        "provision": "Article 10(3)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11794,7 +12040,10 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(4)"
+        "article": "ESPR Article 10(4)",
+        "instrument": "32024R1781",
+        "provision": "Article 10(4)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

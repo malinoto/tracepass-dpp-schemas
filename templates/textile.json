@@ -129,7 +129,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -235,7 +238,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -340,7 +346,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -444,7 +453,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -548,7 +560,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -652,7 +667,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -755,7 +773,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -858,7 +879,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -960,7 +984,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 16",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1063,7 +1090,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1258,7 +1288,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1364,7 +1397,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1467,7 +1503,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III; Regulation 1007/2011; ISO 2076"
+        "annex": "Annex III; Regulation 1007/2011; ISO 2076",
+        "instrument": "32011R1007",
+        "provision": "Arts. 9(1), 14(1), 16",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1575,7 +1614,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1682,7 +1724,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)",
-        "annex": "Annex I; ISO 3758"
+        "annex": "Annex I; ISO 3758",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1787,7 +1832,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 7(5)",
-        "annex": "Annex I; REACH Regulation"
+        "annex": "Annex I; REACH Regulation",
+        "instrument": "32006R1907",
+        "provision": "Art. 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2154,7 +2202,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2259,7 +2310,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III"
+        "annex": "Annex III",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2366,7 +2420,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I; ISO 14067"
+        "annex": "Annex I; ISO 14067",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2474,7 +2531,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I; EU PEF"
+        "annex": "Annex I; EU PEF",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2581,7 +2641,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I; JRC methodology"
+        "annex": "Annex I; JRC methodology",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2746,7 +2809,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2852,7 +2918,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2958,7 +3027,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3066,7 +3138,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 12945"
+        "annex": "Annex I; ISO 12945",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3173,7 +3248,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 12947"
+        "annex": "Annex I; ISO 12947",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3280,7 +3358,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 105-C06"
+        "annex": "Annex I; ISO 105-C06",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3386,7 +3467,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 105-B02"
+        "annex": "Annex I; ISO 105-B02",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3493,7 +3577,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 5077"
+        "annex": "Annex I; ISO 5077",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3600,7 +3687,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(c)",
-        "annex": "Annex I; ISO 13937"
+        "annex": "Annex I; ISO 13937",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3706,7 +3796,9 @@
       "sortOrder": 32,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3812,7 +3904,9 @@
       "sortOrder": 33,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3918,7 +4012,9 @@
       "sortOrder": 34,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4023,7 +4119,9 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4128,7 +4226,9 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4234,7 +4334,9 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4341,7 +4443,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4448,7 +4553,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4553,7 +4661,9 @@
       "sortOrder": 40,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4657,7 +4767,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -4761,7 +4873,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -4864,7 +4978,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -4970,7 +5086,9 @@
       "sortOrder": 44,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5076,7 +5194,9 @@
       "sortOrder": 45,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5181,7 +5301,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5285,7 +5408,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(a)",
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5391,7 +5517,9 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5613,7 +5741,9 @@
       "sortOrder": 49,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5718,7 +5848,9 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "annex": "Annex I; SA8000"
+        "annex": "Annex I; SA8000",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5825,7 +5957,9 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "annex": "Annex I"
+        "annex": "Annex I",
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5931,7 +6065,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I; PPWR"
+        "annex": "Annex I; PPWR",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6034,7 +6171,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)(b)",
-        "annex": "Annex I; PPWR"
+        "annex": "Annex I; PPWR",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6137,7 +6277,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology"
+        "annex": "Eco-score methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6386,7 +6528,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology"
+        "annex": "Eco-score methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6490,7 +6634,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology"
+        "annex": "EU PEF methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6594,7 +6740,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology"
+        "annex": "EU PEF methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6697,7 +6845,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology"
+        "annex": "EU PEF methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6800,7 +6950,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology"
+        "annex": "EU PEF methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -6904,7 +7056,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology"
+        "annex": "Eco-score methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [
@@ -7007,7 +7161,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology"
+        "annex": "Eco-score methodology",
+        "kind": "national",
+        "source": "French AGEC"
       },
       "aiHints": {
         "alternateNames": [

@@ -127,7 +127,10 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 4(5)"
+        "article": "TSD Art. 4(5)",
+        "instrument": "32009L0048",
+        "provision": "Art. 4(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -232,7 +235,10 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 4(5)"
+        "article": "TSD Art. 4(5)",
+        "instrument": "32009L0048",
+        "provision": "Art. 4(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -339,7 +345,10 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 4"
+        "article": "TSD Art. 4",
+        "instrument": "32009L0048",
+        "provision": "Art. 4(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -445,7 +454,10 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 4"
+        "article": "TSD Art. 4",
+        "instrument": "32009L0048",
+        "provision": "Art. 4(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -550,7 +562,10 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9"
+        "article": "GPSR Art. 9",
+        "instrument": "32009L0048",
+        "provision": "Art. 4(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -656,7 +671,9 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GS1 Digital Link"
+        "article": "GS1 Digital Link",
+        "kind": "scheme",
+        "source": "gemological grading (GIA/IGI/AGS)"
       },
       "aiHints": {
         "alternateNames": [
@@ -765,7 +782,10 @@
       },
       "sortOrder": 7,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "image",
@@ -870,7 +890,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 17",
-        "annex": null
+        "annex": null,
+        "instrument": "32009L0048",
+        "provision": "Art. 17",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -975,7 +998,10 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 15"
+        "article": "TSD Art. 15",
+        "instrument": "32009L0048",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1285,7 +1311,10 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 11; EN 71-1"
+        "article": "TSD Art. 11; EN 71-1",
+        "instrument": "32009L0048",
+        "provision": "Art. 11(2) and Annex V Part B",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1625,7 +1654,10 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 11; TSD Annex V"
+        "article": "TSD Art. 11; TSD Annex V",
+        "instrument": "32009L0048",
+        "provision": "Art. 11 and Annex V",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1731,7 +1763,8 @@
       "sortOrder": 12,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "EN 71-1; EN 71-2; EN 71-3"
+        "article": "EN 71-1; EN 71-2; EN 71-3",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -1838,7 +1871,10 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 20"
+        "article": "TSD Art. 20",
+        "instrument": "32009L0048",
+        "provision": "Art. 20",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1946,7 +1982,10 @@
       },
       "sortOrder": 14,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "materials",
@@ -2049,7 +2088,10 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 33"
+        "article": "REACH Art. 33",
+        "instrument": "32006R1907",
+        "provision": "Art. 33(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2153,7 +2195,10 @@
       "sortOrder": 16,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH Art. 33; SCIP Database"
+        "article": "REACH Art. 33; SCIP Database",
+        "instrument": "32006R1907",
+        "provision": "Art. 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2257,7 +2302,10 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex XVII Entry 51"
+        "article": "REACH Annex XVII Entry 51",
+        "instrument": "32006R1907",
+        "provision": "Annex XVII, entries 51 and 52",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2361,7 +2409,10 @@
       "sortOrder": 18,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "EN 71-3; TSD Appendix C"
+        "article": "EN 71-3; TSD Appendix C",
+        "instrument": "32009L0048",
+        "provision": "Annex II Part III point 13",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2468,7 +2519,10 @@
       },
       "sortOrder": 19,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "recycled content",
@@ -2661,7 +2715,10 @@
       },
       "sortOrder": 20,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "recyclability",
@@ -2763,7 +2820,9 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40"
+        "article": "PPWR (EU) 2025/40",
+        "instrument": "32025R0040",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2868,7 +2927,10 @@
       },
       "sortOrder": 22,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "CO2 footprint",
@@ -2973,7 +3035,10 @@
       },
       "sortOrder": 23,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "cleaning instructions",
@@ -3078,7 +3143,10 @@
       },
       "sortOrder": 24,
       "defaultAccessLevel": "public",
-      "regulationRef": {},
+      "regulationRef": {
+        "instrument": "32024R1781",
+        "kind": "legislation"
+      },
       "aiHints": {
         "alternateNames": [
           "lifespan",
@@ -3181,7 +3249,9 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR"
+        "article": "GPSR",
+        "instrument": "32023R0988",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3289,7 +3359,10 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9"
+        "article": "GPSR Art. 9",
+        "instrument": "32024R1781",
+        "provision": "Art. 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3393,7 +3466,10 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 6; GPSR Art. 11"
+        "article": "TSD Art. 6; GPSR Art. 11",
+        "instrument": "32023R0988",
+        "provision": "Art. 6",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3591,7 +3667,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 17",
-        "annex": null
+        "annex": null,
+        "instrument": "32009L0048",
+        "provision": "Art. 17",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

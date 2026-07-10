@@ -1,6 +1,5 @@
 {
   "_note": "Canonical registry of the legal instruments and standards a template field may cite. `regulationRef.instrument` must be one of these keys. Every CELEX below was verified to resolve against the EU Publications Office RDF store (cdm:resource_legal_id_celex). Kinds: `legislation` binds; `standard` supports a presumption of conformity but binds nothing; `scheme` is voluntary; `national` is one member state's law; `specification` is not a reference at all.",
-
   "instruments": {
     "32023R1542": {
       "kind": "legislation",
@@ -187,30 +186,137 @@
       "title": "Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading",
       "eli": "http://data.europa.eu/eli/dir/2003/87/oj",
       "createsDpp": false
+    },
+    "32004L0042": {
+      "kind": "legislation",
+      "shortName": "Decopaint Directive",
+      "title": "Directive 2004/42/EC on the limitation of emissions of volatile organic compounds due to the use of organic solvents in certain paints and varnishes",
+      "eli": "http://data.europa.eu/eli/dir/2004/42/oj",
+      "createsDpp": false
+    },
+    "32024R1257": {
+      "kind": "legislation",
+      "shortName": "Euro 7",
+      "title": "Regulation (EU) 2024/1257 on type-approval of motor vehicles and engines (Euro 7)",
+      "eli": "http://data.europa.eu/eli/reg/2024/1257/oj",
+      "createsDpp": false,
+      "note": "Tyre abrasion limits are pending a delegated act; not yet in force."
+    },
+    "32012R0528": {
+      "kind": "legislation",
+      "shortName": "Biocidal Products Regulation",
+      "title": "Regulation (EU) 528/2012 concerning the making available on the market and use of biocidal products",
+      "eli": "http://data.europa.eu/eli/reg/2012/528/oj",
+      "createsDpp": false
+    },
+    "32019R1021": {
+      "kind": "legislation",
+      "shortName": "POPs Regulation",
+      "title": "Regulation (EU) 2019/1021 on persistent organic pollutants",
+      "eli": "http://data.europa.eu/eli/reg/2019/1021/oj",
+      "createsDpp": false
+    },
+    "32018R0848": {
+      "kind": "legislation",
+      "shortName": "Organic Regulation",
+      "title": "Regulation (EU) 2018/848 on organic production and labelling of organic products",
+      "eli": "http://data.europa.eu/eli/reg/2018/848/oj",
+      "createsDpp": false
+    },
+    "32009R0661": {
+      "kind": "legislation",
+      "shortName": "General Safety Regulation (vehicles)",
+      "title": "Regulation (EC) 661/2009 concerning type-approval requirements for the general safety of motor vehicles",
+      "eli": "http://data.europa.eu/eli/reg/2009/661/oj",
+      "createsDpp": false
+    },
+    "32004R0648": {
+      "kind": "legislation",
+      "shortName": "Detergents Regulation (2004)",
+      "title": "Regulation (EC) 648/2004 on detergents",
+      "eli": "http://data.europa.eu/eli/reg/2004/648/oj",
+      "createsDpp": false,
+      "note": "Being repealed by Reg. (EU) 2026/405 from 23 Sep 2029."
+    },
+    "32023R1464": {
+      "kind": "legislation",
+      "shortName": "Formaldehyde restriction",
+      "title": "Regulation (EU) 2023/1464 amending REACH Annex XVII as regards formaldehyde and formaldehyde releasers",
+      "eli": "http://data.europa.eu/eli/reg/2023/1464/oj",
+      "createsDpp": false
+    },
+    "31989L0459": {
+      "kind": "legislation",
+      "shortName": "Tyre tread depth Directive",
+      "title": "Directive 89/459/EEC on the tread depth of tyres of certain categories of motor vehicles",
+      "eli": "http://data.europa.eu/eli/dir/1989/459/oj",
+      "createsDpp": false
+    },
+    "32023R1670": {
+      "kind": "legislation",
+      "shortName": "Smartphone Ecodesign",
+      "title": "Commission Regulation (EU) 2023/1670 laying down ecodesign requirements for smartphones and slate tablets",
+      "eli": "http://data.europa.eu/eli/reg/2023/1670/oj",
+      "createsDpp": false,
+      "note": "Under the OLD Ecodesign Directive 2009/125/EC, not ESPR. Real durability/repairability/spare-parts obligations for smartphones and tablets, but no Digital Product Passport."
     }
   },
-
   "nonLegislative": {
     "_note": "References that are not EU legislation. A field may cite one, but it must carry the right `kind` so nothing implies a legal obligation.",
     "standard": {
       "description": "Supports a presumption of conformity. Creates no obligation on its own.",
-      "examples": ["EN 15804+A2", "ISO 3758", "ISO 12945", "ISO 12947", "ISO 105-C06", "EN 71-1", "EN 1090-1", "ISO 2076", "EN 13300", "ISO 14046"]
+      "examples": [
+        "EN 15804+A2",
+        "ISO 3758",
+        "ISO 12945",
+        "ISO 12947",
+        "ISO 105-C06",
+        "EN 71-1",
+        "EN 1090-1",
+        "ISO 2076",
+        "EN 13300",
+        "ISO 14046"
+      ]
     },
     "scheme": {
       "description": "Voluntary certification or industry scheme. Not law.",
-      "examples": ["OEKO-TEX", "GOTS", "Bluesign", "FSC", "PEFC", "RJC", "Fairmined", "ResponsibleSteel", "ASI", "GPSNR", "Kimberley Process", "CIBJO Blue Books", "GIA/IGI grading"]
+      "examples": [
+        "OEKO-TEX",
+        "GOTS",
+        "Bluesign",
+        "FSC",
+        "PEFC",
+        "RJC",
+        "Fairmined",
+        "ResponsibleSteel",
+        "ASI",
+        "GPSNR",
+        "Kimberley Process",
+        "CIBJO Blue Books",
+        "GIA/IGI grading"
+      ]
     },
     "national": {
       "description": "One member state's law. Not an EU-wide obligation.",
-      "examples": ["French AGEC"]
+      "examples": [
+        "French AGEC"
+      ]
     },
     "international": {
       "description": "A convention outside EU law.",
-      "examples": ["Vienna Convention 1972 (hallmarking)"]
+      "examples": [
+        "Vienna Convention 1972 (hallmarking)"
+      ]
     },
     "specification": {
       "description": "Not a reference at all — a product spec, a safety-data-sheet section, or a note. These must be removed from regulationRef.",
-      "examples": ["Product specification", "Industry best practice", "Various", "SDS Section 9.1", "US FMVSS 575.104"]
+      "examples": [
+        "Product specification",
+        "Industry best practice",
+        "Various",
+        "SDS Section 9.1",
+        "US FMVSS 575.104"
+      ]
     }
   }
 }

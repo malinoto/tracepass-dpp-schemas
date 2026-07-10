@@ -128,7 +128,10 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -233,7 +236,10 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -485,7 +491,10 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 3"
+        "article": "PPWR Art. 3",
+        "instrument": "32025R0040",
+        "provision": "Art. 3",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -997,7 +1006,10 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1102,7 +1114,10 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1205,7 +1220,10 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1310,7 +1328,10 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11"
+        "article": "PPWR Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1415,7 +1436,10 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11"
+        "article": "PPWR Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1985,7 +2009,10 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 5, Annex VII"
+        "article": "PPWR Art. 5, Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Art. 5, Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2088,7 +2115,10 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 5"
+        "article": "PPWR Art. 5",
+        "instrument": "32025R0040",
+        "provision": "Art. 5",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2193,7 +2223,10 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2298,7 +2331,10 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2403,7 +2439,10 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 7"
+        "article": "PPWR Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2505,7 +2544,10 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII"
+        "article": "PPWR Annex VII",
+        "instrument": "32025R0040",
+        "provision": "Annex VII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2606,7 +2648,10 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6"
+        "article": "PPWR Art. 6",
+        "instrument": "32025R0040",
+        "provision": "Art. 6",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2708,7 +2753,10 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2959,7 +3007,10 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6, Annex II"
+        "article": "PPWR Art. 6, Annex II",
+        "instrument": "32025R0040",
+        "provision": "Art. 6, Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3064,7 +3115,10 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6"
+        "article": "PPWR Art. 6",
+        "instrument": "32025R0040",
+        "provision": "Art. 6",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3169,7 +3223,10 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6(4)"
+        "article": "PPWR Art. 6(4)",
+        "instrument": "32025R0040",
+        "provision": "Art. 6(4)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3271,7 +3328,10 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6"
+        "article": "PPWR Art. 6",
+        "instrument": "32025R0040",
+        "provision": "Art. 6",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3373,7 +3433,10 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6(6)"
+        "article": "PPWR Art. 6(6)",
+        "instrument": "32025R0040",
+        "provision": "Art. 6(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3475,7 +3538,10 @@
       "sortOrder": 22,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "PPWR Annex II"
+        "article": "PPWR Annex II",
+        "instrument": "32025R0040",
+        "provision": "Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3577,7 +3643,10 @@
       "sortOrder": 23,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "PPWR Annex II"
+        "article": "PPWR Annex II",
+        "instrument": "32025R0040",
+        "provision": "Annex II",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3915,7 +3984,10 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 7"
+        "article": "PPWR Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4019,7 +4091,10 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 7(1)"
+        "article": "PPWR Art. 7(1)",
+        "instrument": "32025R0040",
+        "provision": "Art. 7(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4124,7 +4199,10 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 7(1)"
+        "article": "PPWR Art. 7(1)",
+        "instrument": "32025R0040",
+        "provision": "Art. 7(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4226,7 +4304,10 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 7"
+        "article": "PPWR Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4328,7 +4409,10 @@
       "sortOrder": 28,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "PPWR Art. 7(8)"
+        "article": "PPWR Art. 7(8)",
+        "instrument": "32025R0040",
+        "provision": "Art. 7(8)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4430,7 +4514,10 @@
       "sortOrder": 29,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "PPWR Art. 7"
+        "article": "PPWR Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4535,7 +4622,10 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4639,7 +4729,10 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4742,7 +4835,10 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4847,7 +4943,10 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4949,7 +5048,10 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 8"
+        "article": "ESPR Art. 8",
+        "instrument": "32024R1781",
+        "provision": "Art. 8",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5054,7 +5156,10 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 50"
+        "article": "PPWR Art. 50",
+        "instrument": "32025R0040",
+        "provision": "Art. 50",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5157,7 +5262,10 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 50"
+        "article": "PPWR Art. 50",
+        "instrument": "32025R0040",
+        "provision": "Art. 50",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5259,7 +5367,10 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11(1)"
+        "article": "PPWR Art. 11(1)",
+        "instrument": "32025R0040",
+        "provision": "Art. 11(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5362,7 +5473,10 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11"
+        "article": "PPWR Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5464,7 +5578,10 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11"
+        "article": "PPWR Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5566,7 +5683,10 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 11"
+        "article": "PPWR Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5671,7 +5791,10 @@
       "sortOrder": 41,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(1), ESPR Art. 7"
+        "article": "PPWR Art. 5(1), ESPR Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(1), ESPR Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5773,7 +5896,10 @@
       "sortOrder": 42,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(1)"
+        "article": "PPWR Art. 5(1)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5878,7 +6004,10 @@
       "sortOrder": 43,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(1)"
+        "article": "PPWR Art. 5(1)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5980,7 +6109,10 @@
       "sortOrder": 44,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(2)"
+        "article": "PPWR Art. 5(2)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6082,7 +6214,10 @@
       "sortOrder": 45,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 5(3)"
+        "article": "PPWR Art. 5(3)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6184,7 +6319,10 @@
       "sortOrder": 46,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(2)"
+        "article": "PPWR Art. 5(2)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(4)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6286,7 +6424,10 @@
       "sortOrder": 47,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(2)"
+        "article": "PPWR Art. 5(2)",
+        "instrument": "32025R0040",
+        "provision": "Art. 5(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6390,7 +6531,10 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6492,7 +6636,10 @@
       "sortOrder": 49,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12"
+        "article": "PPWR Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6593,7 +6740,10 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 5"
+        "article": "PPWR Art. 5",
+        "instrument": "32025R0040",
+        "provision": "Art. 5",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6695,7 +6845,10 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 8"
+        "article": "PPWR Art. 8",
+        "instrument": "32025R0040",
+        "provision": "Art. 8",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6797,7 +6950,10 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 8"
+        "article": "PPWR Art. 8",
+        "instrument": "32025R0040",
+        "provision": "Art. 8",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6901,7 +7057,10 @@
       "sortOrder": 53,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15"
+        "article": "PPWR Art. 15",
+        "instrument": "32025R0040",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7003,7 +7162,10 @@
       "sortOrder": 54,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15"
+        "article": "PPWR Art. 15",
+        "instrument": "32025R0040",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7105,7 +7267,10 @@
       "sortOrder": 55,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15"
+        "article": "PPWR Art. 15",
+        "instrument": "32025R0040",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7207,7 +7372,10 @@
       "sortOrder": 56,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15"
+        "article": "PPWR Art. 15",
+        "instrument": "32025R0040",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7309,7 +7477,10 @@
       "sortOrder": 57,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15"
+        "article": "PPWR Art. 15",
+        "instrument": "32025R0040",
+        "provision": "Art. 15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7531,7 +7702,10 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12, ESPR Art. 9"
+        "article": "PPWR Art. 12, ESPR Art. 9",
+        "instrument": "32025R0040",
+        "provision": "Art. 12, ESPR Art. 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7636,7 +7810,10 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 12, ESPR Art. 9"
+        "article": "PPWR Art. 12, ESPR Art. 9",
+        "instrument": "32025R0040",
+        "provision": "Art. 12, ESPR Art. 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7739,7 +7916,10 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9"
+        "article": "ESPR Art. 9",
+        "instrument": "32024R1781",
+        "provision": "Art. 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7841,7 +8021,10 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9"
+        "article": "ESPR Art. 9",
+        "instrument": "32024R1781",
+        "provision": "Art. 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7942,7 +8125,10 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 10"
+        "article": "ESPR Art. 10",
+        "instrument": "32024R1781",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8132,7 +8318,10 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 10"
+        "article": "ESPR Art. 10",
+        "instrument": "32024R1781",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8237,7 +8426,10 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 10"
+        "article": "PPWR Art. 10",
+        "instrument": "32025R0040",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8339,7 +8531,10 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 10"
+        "article": "PPWR Art. 10",
+        "instrument": "32025R0040",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8443,7 +8638,10 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 10"
+        "article": "PPWR Art. 10",
+        "instrument": "32025R0040",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

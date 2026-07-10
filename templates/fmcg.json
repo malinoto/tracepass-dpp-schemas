@@ -125,7 +125,10 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32009R1223",
+        "provision": "Art. 19(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -228,7 +231,10 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)-(6)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -332,7 +338,10 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -438,7 +447,10 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); ISO/IEC 15459"
+        "article": "ESPR Art. 9(2); ISO/IEC 15459",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -776,7 +788,10 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -879,7 +894,10 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 1169/2011; Dir 76/211/EEC"
+        "article": "(EU) 1169/2011; Dir 76/211/EEC",
+        "instrument": "32011R1169",
+        "provision": "Art. 9(1)(e), Annex IX",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1129,7 +1147,10 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 1169/2011"
+        "article": "(EU) 1169/2011",
+        "instrument": "32011R1169",
+        "provision": "Art. 9(1)(e), Annex IX",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1231,7 +1252,10 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19; (EC) 648/2004 Art. 11"
+        "article": "(EC) 1223/2009 Art. 19; (EC) 648/2004 Art. 11",
+        "instrument": "32009R1223",
+        "provision": "Art. 19(1)(g)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1598,7 +1622,10 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex III; (EU) 2023/1545"
+        "article": "(EC) 1223/2009 Annex III; (EU) 2023/1545",
+        "instrument": "32009R1223",
+        "provision": "Annex III",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1701,7 +1728,10 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19(1)(g); (EC) 648/2004 Art. 11(6)"
+        "article": "(EC) 1223/2009 Art. 19(1)(g); (EC) 648/2004 Art. 11(6)",
+        "instrument": "32009R1223",
+        "provision": "Art. 19(1)(g)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1805,7 +1835,10 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex V; (EC) 648/2004"
+        "article": "(EC) 1223/2009 Annex V; (EC) 648/2004",
+        "instrument": "32009R1223",
+        "provision": "Annex V",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1908,7 +1941,10 @@
       "sortOrder": 12,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH Art. 33; ESPR Art. 7(5)"
+        "article": "REACH Art. 33; ESPR Art. 7(5)",
+        "instrument": "32024R1781",
+        "provision": "Art. 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2012,7 +2048,10 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex IV"
+        "article": "(EC) 1223/2009 Annex IV",
+        "instrument": "32009R1223",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2116,7 +2155,10 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 16"
+        "article": "(EC) 1223/2009 Art. 16",
+        "instrument": "32009R1223",
+        "provision": "Art. 16",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2219,7 +2261,9 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; (EU) 2024/2865"
+        "article": "CLP (EC) 1272/2008; (EU) 2024/2865",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2585,7 +2629,9 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008"
+        "article": "CLP (EC) 1272/2008",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2689,7 +2735,9 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008"
+        "article": "CLP (EC) 1272/2008",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2792,7 +2840,9 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008"
+        "article": "CLP (EC) 1272/2008",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2895,7 +2945,9 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; (EU) 2023/988"
+        "article": "CLP (EC) 1272/2008; (EU) 2023/988",
+        "instrument": "32023R0988",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2999,7 +3051,10 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008 Art. 45; (EU) 2017/542"
+        "article": "CLP (EC) 1272/2008 Art. 45; (EU) 2017/542",
+        "instrument": "32008R1272",
+        "provision": "Art. 45",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3102,7 +3157,10 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b); PEF methodology"
+        "article": "ESPR Art. 7(2)(b); PEF methodology",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3206,7 +3264,10 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b); ISO 14046"
+        "article": "ESPR Art. 7(2)(b); ISO 14046",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3309,7 +3370,10 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 648/2004 Art. 4; OECD 301B"
+        "article": "(EC) 648/2004 Art. 4; OECD 301B",
+        "instrument": "32004R0648",
+        "provision": "Art. 4",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3587,7 +3651,9 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; EU Ecolabel"
+        "article": "CLP (EC) 1272/2008; EU Ecolabel",
+        "instrument": "32008R1272",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3690,7 +3756,9 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EU Ecolabel Decision 2017/1218"
+        "article": "EU Ecolabel Decision 2017/1218",
+        "instrument": "32010R0066",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4026,7 +4094,10 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 11"
+        "article": "PPWR (EU) 2025/40 Art. 11",
+        "instrument": "32025R0040",
+        "provision": "Art. 11",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4133,7 +4204,10 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 7"
+        "article": "PPWR (EU) 2025/40 Art. 7",
+        "instrument": "32025R0040",
+        "provision": "Art. 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4386,7 +4460,10 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 6"
+        "article": "PPWR (EU) 2025/40 Art. 6",
+        "instrument": "32025R0040",
+        "provision": "Art. 6",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4492,7 +4569,10 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 10"
+        "article": "PPWR (EU) 2025/40 Art. 10",
+        "instrument": "32025R0040",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4595,7 +4675,10 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 10"
+        "article": "PPWR (EU) 2025/40 Art. 10",
+        "instrument": "32025R0040",
+        "provision": "Art. 10",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4698,7 +4781,10 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 648/2004 Art. 11(4); (EC) 1223/2009"
+        "article": "(EC) 648/2004 Art. 11(4); (EC) 1223/2009",
+        "instrument": "32009R1223",
+        "provision": "Art. 11(4)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4803,7 +4889,10 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19(1); (EU) 1169/2011"
+        "article": "(EC) 1223/2009 Art. 19(1); (EU) 1169/2011",
+        "instrument": "32011R1169",
+        "provision": "Art. 19(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4909,7 +4998,9 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2023/988; (EC) 1223/2009"
+        "article": "(EU) 2023/988; (EC) 1223/2009",
+        "instrument": "32023R0988",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5013,7 +5104,10 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2023/988 Art. 9; ESPR Art. 9(2)"
+        "article": "(EU) 2023/988 Art. 9; ESPR Art. 9(2)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5496,7 +5590,10 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)"
+        "article": "ESPR Art. 7(2)(c)",
+        "instrument": "32024R1781",
+        "provision": "Art. 7(2)(c)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5600,7 +5697,9 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) 66/2010"
+        "article": "Regulation (EC) 66/2010",
+        "instrument": "32010R0066",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5703,7 +5802,9 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2018/848; COSMOS Standard"
+        "article": "(EU) 2018/848; COSMOS Standard",
+        "instrument": "32018R0848",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5806,7 +5907,10 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 12"
+        "article": "PPWR (EU) 2025/40 Art. 12",
+        "instrument": "32025R0040",
+        "provision": "Art. 12",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5910,7 +6014,10 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 28"
+        "article": "PPWR (EU) 2025/40 Art. 28",
+        "instrument": "32025R0040",
+        "provision": "Art. 28",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6014,7 +6121,10 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 44-48"
+        "article": "PPWR (EU) 2025/40 Art. 44-48",
+        "instrument": "32025R0040",
+        "provision": "Art. 44-48",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6118,7 +6228,10 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); Reg (EU) 952/2013"
+        "article": "ESPR Art. 9(2); Reg (EU) 952/2013",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6222,7 +6335,10 @@
       "sortOrder": 42,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); ISO/IEC 15459"
+        "article": "ESPR Art. 9(2); ISO/IEC 15459",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

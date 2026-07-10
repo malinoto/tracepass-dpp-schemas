@@ -130,7 +130,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 9(1)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 9(1)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -239,7 +242,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": "GS1"
+        "annex": "GS1",
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -344,7 +350,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "EN 10204"
+        "annex": "EN 10204",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -450,7 +459,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR delegated act (TBD)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1077,7 +1088,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR, CBAM Annex I",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex I",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1182,7 +1196,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1287,7 +1304,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CBAM (EU) 2023/956 Annex I",
-        "annex": "Section 2 (iron/steel 7206-7326), Section 3 (aluminium 7601-7616)"
+        "annex": "Section 2 (iron/steel 7206-7326), Section 3 (aluminium 7601-7616)",
+        "instrument": "32023R0956",
+        "provision": "Annex I",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1392,7 +1412,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10027-1/2, EN 573-3, EN 1706",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -1499,7 +1520,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0988",
+        "provision": "Art. 16",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1605,7 +1629,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0988",
+        "provision": "Art. 16",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1713,7 +1740,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR, CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1817,7 +1846,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM Implementing Regulation",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1922,7 +1954,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2025,7 +2060,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2126,7 +2164,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2466,7 +2507,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR, CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2570,7 +2613,8 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "EN 10204, EN 10025, EN 10088 (stainless)",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2681,7 +2725,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 5(5)(j)",
-        "annex": "Delegated act TBD"
+        "annex": "Delegated act TBD",
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(j)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2787,7 +2834,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -2893,7 +2942,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3114,7 +3165,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3217,7 +3270,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "ESPR, REACH",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3324,7 +3379,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10025, EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3431,7 +3487,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3537,7 +3594,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3641,7 +3699,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10204, ISO 148-1",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3746,7 +3805,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -4114,7 +4174,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CBAM Implementing Regulation, ESPR delegated act",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4222,7 +4285,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR, EN 10204",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4326,7 +4391,8 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -4693,7 +4759,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10025, EN 10204",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -4802,7 +4869,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4908,7 +4977,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5015,7 +5086,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5119,7 +5192,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR (traceability), CBAM (precursors)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5515,7 +5590,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM (process emissions)",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5622,7 +5699,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 5(5)(b)",
-        "annex": "ISO 14067"
+        "annex": "ISO 14067",
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(b)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5729,7 +5809,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM, EU ETS",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5838,7 +5921,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM (aluminium only for CBAM; both for DPP)",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5943,7 +6028,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR (full lifecycle in DPP), CBAM (precursor emissions only)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6047,7 +6134,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM Implementing Regulation",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6326,7 +6416,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR, CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6429,7 +6521,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM (mandatory from 2026 definitive phase)",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Art. 8",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6738,7 +6833,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 7",
-        "annex": "Performance classes via delegated act"
+        "annex": "Performance classes via delegated act",
+        "instrument": "32024R1781",
+        "provision": "Article 7",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6843,7 +6941,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "EU ETS",
-        "annex": null
+        "annex": null,
+        "instrument": "32003L0087",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7063,7 +7163,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7225,7 +7328,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM (EU) 2023/956",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7329,7 +7435,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM (EU) 2023/956",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Annex IV",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7436,7 +7545,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM Article 9",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "provision": "Article 9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7540,7 +7652,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7644,7 +7758,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "CBAM",
-        "annex": null
+        "annex": null,
+        "instrument": "32023R0956",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7747,7 +7863,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "REACH (EC) 1907/2006 Article 33, ESPR Article 5(5)(f)",
-        "annex": null
+        "annex": null,
+        "instrument": "32006R1907",
+        "provision": "Art. 33",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7851,7 +7970,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "REACH Art. 33, SCIP",
-        "annex": null
+        "annex": null,
+        "instrument": "32006R1907",
+        "provision": "Art. 33, SCIP",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -7955,7 +8077,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "REACH",
-        "annex": null
+        "annex": null,
+        "instrument": "32006R1907",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8058,7 +8182,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "REACH Annex XVII",
-        "annex": null
+        "annex": null,
+        "instrument": "32006R1907",
+        "provision": "Annex XVII",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -8161,7 +8288,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8265,7 +8393,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8368,7 +8497,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8471,7 +8601,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8574,7 +8705,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8678,7 +8810,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8781,7 +8914,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8885,7 +9019,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -8989,7 +9124,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 5(5)(a)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(a)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9096,7 +9234,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 5(5)(i)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(i)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9199,7 +9340,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 5(5)(l)",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(l)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9303,7 +9447,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Industry best practice",
-        "annex": null
+        "annex": null,
+        "kind": "specification"
       },
       "aiHints": {
         "alternateNames": [
@@ -9406,7 +9551,8 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Industry standard",
-        "annex": null
+        "annex": null,
+        "kind": "specification"
       },
       "aiHints": {
         "alternateNames": [
@@ -9510,7 +9656,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13-15",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Art. 13-15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9613,7 +9762,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -9834,7 +9985,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 10204:2004",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -9939,7 +10091,8 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "EN 10204, ESPR",
-        "annex": null
+        "annex": null,
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -10044,7 +10197,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Voluntary (ResponsibleSteel International Production Standard)",
-        "annex": null
+        "annex": null,
+        "kind": "scheme",
+        "source": "ResponsibleSteel"
       },
       "aiHints": {
         "alternateNames": [
@@ -10147,7 +10302,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Voluntary (ASI Performance Standard V3, ASI CoC Standard V2.1)",
-        "annex": null
+        "annex": null,
+        "kind": "scheme",
+        "source": "Aluminium Stewardship Initiative"
       },
       "aiHints": {
         "alternateNames": [
@@ -10251,7 +10408,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "EU ETS Directive 2003/87/EC",
-        "annex": null
+        "annex": null,
+        "instrument": "32003L0087",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10355,7 +10514,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Various ISO standards",
-        "annex": null
+        "annex": null,
+        "kind": "specification"
       },
       "aiHints": {
         "alternateNames": [
@@ -10458,7 +10618,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Various",
-        "annex": null
+        "annex": null,
+        "kind": "specification"
       },
       "aiHints": {
         "alternateNames": [
@@ -10561,7 +10722,10 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "ESPR Article 5(5)(o)",
-        "annex": "GS1 EPCIS 2.0"
+        "annex": "GS1 EPCIS 2.0",
+        "instrument": "32024R1781",
+        "provision": "Article 5(5)(o)",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10785,7 +10949,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -10980,7 +11146,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11086,7 +11254,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11193,7 +11363,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11301,7 +11473,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ESPR Article 8",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R1781",
+        "provision": "Article 8",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -11497,7 +11672,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13-15",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R3110",
+        "provision": "Arts. 8-9",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [

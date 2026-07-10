@@ -126,7 +126,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "GS1 Digital Link, ISO 15459"
+        "annex": "GS1 Digital Link, ISO 15459",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -231,7 +233,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "GTIN"
+        "annex": "GTIN",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -336,7 +340,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "GS1 AI 10"
+        "annex": "GS1 AI 10",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -441,7 +447,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110 delegated act",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -545,7 +553,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -650,7 +660,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -754,7 +766,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1062,7 +1076,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex VII"
+        "annex": "Annex VII",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1166,7 +1182,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 1"
+        "annex": "Annex I, Requirement 1",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1271,7 +1289,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 2"
+        "annex": "Annex I, Requirement 2",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1377,7 +1397,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 3"
+        "annex": "Annex I, Requirement 3",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1483,7 +1505,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 4"
+        "annex": "Annex I, Requirement 4",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1588,7 +1612,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 5"
+        "annex": "Annex I, Requirement 5",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1693,7 +1719,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 6"
+        "annex": "Annex I, Requirement 6",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1799,7 +1827,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 7"
+        "annex": "Annex I, Requirement 7",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -1905,7 +1935,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2010,7 +2041,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2113,7 +2145,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2216,7 +2249,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2320,7 +2354,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2423,7 +2458,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2526,7 +2562,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2629,7 +2666,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2732,7 +2770,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2835,7 +2874,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -2939,7 +2979,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3043,7 +3084,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3147,7 +3189,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3745,7 +3788,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -3852,7 +3896,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 7"
+        "annex": "Annex I, Requirement 7",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -3957,7 +4003,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "REACH, SCIP",
-        "annex": "CPR 2024/3110"
+        "annex": "CPR 2024/3110",
+        "instrument": "32006R1907",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4063,7 +4111,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 7"
+        "annex": "Annex I, Requirement 7",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4168,7 +4218,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 7"
+        "annex": "Annex I, Requirement 7",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4272,7 +4324,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": "Annex I, Requirement 7"
+        "annex": "Annex I, Requirement 7",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4377,7 +4431,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804+A2, Module D",
-        "annex": ""
+        "annex": "",
+        "kind": "standard"
       },
       "aiHints": {
         "alternateNames": [
@@ -4482,7 +4537,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4674,7 +4731,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13-15",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R3110",
+        "provision": "Art. 13-15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -4954,7 +5014,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5059,7 +5121,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5164,7 +5228,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5269,7 +5335,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110, AVCP 3+",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5374,7 +5442,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5479,7 +5549,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5583,7 +5655,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5687,7 +5761,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5791,7 +5867,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -5897,7 +5975,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6002,7 +6082,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CPR 2024/3110",
-        "annex": ""
+        "annex": "",
+        "instrument": "32024R3110",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
@@ -6112,7 +6194,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13-15",
-        "annex": null
+        "annex": null,
+        "instrument": "32024R3110",
+        "provision": "Art. 13-15",
+        "kind": "legislation"
       },
       "aiHints": {
         "alternateNames": [
