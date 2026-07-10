@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tracepass.eu/schema/dpp-template/v1.json",
+  "title": "DPP Category Template",
+  "description": "A machine-readable field specification for one Digital Product Passport product category under EU law. Each field carries its regulatory citation, datatype, validation rules, access level, and localized labels.",
+  "type": "object",
+  "required": [
+    "category",
+    "categoryLabel",
+    "version",
+    "isLatest",
+    "regulation",
+    "fields",
+    "fieldCount",
+    "requiredFieldCount",
+    "categories",
+    "createdBy"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "Stable machine key for the product category.",
+      "examples": ["battery", "textile", "steel"]
+    },
+    "categoryLabel": {
+      "$ref": "#/$defs/localizedString",
+      "description": "Human-readable category name, keyed by ISO 639-1 locale."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Template version. Increments when fields are added, removed, or their validation changes."
+    },
+    "isLatest": {
+      "type": "boolean",
+      "description": "True for the current version of this category."
+    },
+    "regulation": {
+      "type": "object",
+      "description": "The EU instrument that mandates this category's passport.",
+      "required": ["name", "number", "effectiveDate", "mandatoryDate"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "examples": ["EU Battery Regulation"] },
+        "number": { "type": "string", "examples": ["(EU) 2023/1542", "(EU) 2024/1781"] },
+        "effectiveDate": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 date (YYYY-MM-DD). A string, not a timestamp."
+        },
+        "mandatoryDate": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 date (YYYY-MM-DD) from which the passport is legally required."
+        }
+      }
+    },
+    "fields": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/templateField" }
+    },
+    "fieldCount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Must equal fields.length."
+    },
+    "requiredFieldCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Must equal the count of fields whose validation.required is true."
+    },
+    "categories": {
+      "type": "array",
+      "description": "Field-group sections, in display order. Older templates store plain strings; newer ones store objects carrying localized headers.",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          {
+            "type": "object",
+            "required": ["key"],
+            "additionalProperties": false,
+            "properties": {
+              "key": { "type": "string" },
+              "label": { "$ref": "#/$defs/localizedString" },
+              "fieldCount": { "type": "integer", "minimum": 0 },
+              "sortOrder": { "type": "integer" }
+            }
+          }
+        ]
+      }
+    },
+    "createdBy": { "type": "string" },
+    "changelog": { "type": "string" },
+    "_note": {
+      "type": "string",
+      "description": "Free-text annotation for maintainers. Not consumed by any code."
+    }
+  },
+  "$defs": {
+    "localizedString": {
+      "type": "object",
+      "description": "Locale code to translated string, restricted to the 24 official EU languages. 'en' is always present; other locales are provided where translated.",
+      "required": ["en"],
+      "propertyNames": {
+        "enum": [
+          "bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr",
+          "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt",
+          "ro", "sk", "sl", "sv"
+        ]
+      },
+      "additionalProperties": { "type": "string" }
+    },
+    "templateField": {
+      "type": "object",
+      "required": [
+        "key",
+        "label",
+        "dataType",
+        "validation",
+        "category",
+        "categoryLabel",
+        "sortOrder",
+        "defaultAccessLevel"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "Stable machine key, unique within the template.",
+          "examples": ["batteryCapacity", "carbonFootprint"]
+        },
+        "label": { "$ref": "#/$defs/localizedString" },
+        "description": { "$ref": "#/$defs/localizedString" },
+        "placeholder": { "$ref": "#/$defs/localizedString" },
+        "dataType": {
+          "type": "string",
+          "enum": [
+            "string",
+            "number",
+            "boolean",
+            "date",
+            "enum",
+            "multi_enum",
+            "array",
+            "object",
+            "url",
+            "file_reference"
+          ]
+        },
+        "unit": {
+          "type": ["string", "null"],
+          "description": "Unit of measure for numeric fields. Explicitly null when the field has no unit.",
+          "examples": ["kWh", "kg CO2e", "mm"]
+        },
+        "translatable": {
+          "type": "boolean",
+          "description": "Whether this field's value is free text that should be translated for multilingual passports."
+        },
+        "defaultValue": {
+          "description": "Any JSON value matching dataType, or null when the field has no default."
+        },
+        "enumOptions": {
+          "type": ["array", "null"],
+          "description": "Permitted values when dataType is 'enum' or 'multi_enum'. Explicitly null otherwise.",
+          "items": {
+            "type": "object",
+            "required": ["value", "label"],
+            "additionalProperties": false,
+            "properties": {
+              "value": { "type": "string" },
+              "label": { "$ref": "#/$defs/localizedString" }
+            }
+          }
+        },
+        "validation": {
+          "type": "object",
+          "description": "Constraints on the field's value. Every constraint other than `required` is optional and is explicitly null when it does not apply.",
+          "required": ["required"],
+          "additionalProperties": false,
+          "properties": {
+            "required": { "type": "boolean" },
+            "minLength": { "type": ["integer", "null"], "minimum": 0 },
+            "maxLength": { "type": ["integer", "null"], "minimum": 0 },
+            "min": { "type": ["number", "null"] },
+            "max": { "type": ["number", "null"] },
+            "pattern": {
+              "type": ["string", "null"],
+              "description": "ECMAScript regular expression the value must match."
+            }
+          }
+        },
+        "category": {
+          "type": "string",
+          "description": "Field-group key this field belongs to. Matches an entry in the template's `categories`."
+        },
+        "categoryLabel": { "$ref": "#/$defs/localizedString" },
+        "sortOrder": { "type": "integer" },
+        "defaultAccessLevel": {
+          "type": "string",
+          "enum": ["public", "restricted", "authority"],
+          "description": "Who may read this field by default. 'public' is visible to anyone scanning the QR code; 'restricted' requires a granted token; 'authority' is for market-surveillance bodies."
+        },
+        "regulationRef": {
+          "type": ["object", "null"],
+          "description": "Where in the instrument this field is mandated. The reason this data is worth citing.",
+          "additionalProperties": false,
+          "properties": {
+            "article": { "type": ["string", "null"], "examples": ["Art. 77"] },
+            "annex": { "type": ["string", "null"], "examples": ["Annex XIII"] },
+            "description": { "type": ["string", "null"] }
+          }
+        },
+        "aiHints": {
+          "type": "object",
+          "description": "Hints for automated extraction of this field from unstructured supplier documents.",
+          "required": ["alternateNames", "extractionPriority"],
+          "additionalProperties": false,
+          "properties": {
+            "alternateNames": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Synonyms a datasheet might use for this field."
+            },
+            "expectedFormat": { "type": "string" },
+            "extractionPriority": {
+              "type": "integer",
+              "description": "Higher runs first when extraction budget is limited."
+            }
+          }
+        }
+      }
+    }
+  }
+}
