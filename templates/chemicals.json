@@ -10893,7 +10893,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -10924,9 +10927,7 @@
       },
       "sortOrder": 89,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Article 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "recyclable %",
@@ -11128,7 +11129,7 @@
       "sortOrder": 91,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(f), SDS Section 13"
+        "article": "SDS Section 13"
       },
       "aiHints": {
         "alternateNames": [

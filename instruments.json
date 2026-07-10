@@ -1,0 +1,216 @@
+{
+  "_note": "Canonical registry of the legal instruments and standards a template field may cite. `regulationRef.instrument` must be one of these keys. Every CELEX below was verified to resolve against the EU Publications Office RDF store (cdm:resource_legal_id_celex). Kinds: `legislation` binds; `standard` supports a presumption of conformity but binds nothing; `scheme` is voluntary; `national` is one member state's law; `specification` is not a reference at all.",
+
+  "instruments": {
+    "32023R1542": {
+      "kind": "legislation",
+      "shortName": "Battery Regulation",
+      "title": "Regulation (EU) 2023/1542 concerning batteries and waste batteries",
+      "eli": "http://data.europa.eu/eli/reg/2023/1542/oj",
+      "createsDpp": true,
+      "dppProvision": "Art. 77(1)",
+      "dppMandatoryFrom": "2027-02-18"
+    },
+    "32024R1781": {
+      "kind": "legislation",
+      "shortName": "ESPR",
+      "title": "Regulation (EU) 2024/1781 establishing a framework for the setting of ecodesign requirements",
+      "eli": "http://data.europa.eu/eli/reg/2024/1781/oj",
+      "createsDpp": "framework-only",
+      "note": "Imposes no data field directly. Every DPP obligation flows through a delegated act adopted under Art. 4, and none has been adopted for any product group. Art. 7(2) has sub-points (a), (b), (c) only — there is no 7(2)(d) or 7(2)(e). Annex I lists the product parameters (a)-(t), including (p) microplastic and nanoplastic release."
+    },
+    "32024R3110": {
+      "kind": "legislation",
+      "shortName": "CPR",
+      "title": "Regulation (EU) 2024/3110 laying down harmonised rules for the marketing of construction products",
+      "eli": "http://data.europa.eu/eli/reg/2024/3110/oj",
+      "createsDpp": "deferred",
+      "note": "Chapter X (Arts. 75-79) establishes a construction DPP, but the manufacturer duty at Art. 15(7) clocks to 18 months after the Art. 75(1) delegated act, which is not adopted. No operative passport obligation today. CE marking is conditional on coverage by a harmonised technical specification or an ETA."
+    },
+    "32025R0040": {
+      "kind": "legislation",
+      "shortName": "PPWR",
+      "title": "Regulation (EU) 2025/40 on packaging and packaging waste",
+      "eli": "http://data.europa.eu/eli/reg/2025/40/oj",
+      "createsDpp": false,
+      "note": "Imposes marking, labelling and a QR data carrier (Art. 12). There is no packaging passport. 'Passport' appears only as a cross-reference to ESPR's."
+    },
+    "32023R0988": {
+      "kind": "legislation",
+      "shortName": "GPSR",
+      "title": "Regulation (EU) 2023/988 on general product safety",
+      "eli": "http://data.europa.eu/eli/reg/2023/988/oj",
+      "createsDpp": false,
+      "note": "Art. 9(5) type/batch/serial or other identifying element; Art. 9(6) manufacturer name, trade mark, postal and electronic address; Art. 11 the same for an importer, conditional on one existing; Art. 16 an EU-established responsible economic operator must exist. Introduces no CE marking."
+    },
+    "32019R1020": {
+      "kind": "legislation",
+      "shortName": "Market surveillance",
+      "title": "Regulation (EU) 2019/1020 on market surveillance and compliance of products",
+      "eli": "http://data.europa.eu/eli/reg/2019/1020/oj",
+      "createsDpp": false,
+      "note": "Art. 4 applies only to the closed list of product categories in Art. 4(5) — largely CE-marked ones. It does NOT bite on textiles. For a non-listed product the EU-responsible-person duty comes from GPSR Art. 16 instead. Art. 4(1)-(2) is the basis for the cross-cutting CC-1 rule."
+    },
+    "32006R1907": {
+      "kind": "legislation",
+      "shortName": "REACH",
+      "title": "Regulation (EC) 1907/2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals",
+      "eli": "http://data.europa.eu/eli/reg/2006/1907/oj",
+      "createsDpp": false,
+      "note": "Art. 33(1) discloses to B2B recipients only, and requires the substance name plus safe-use information — not CAS number and concentration. Art. 33(2) to consumers is on request, free, within 45 days. Annex XVII carries the restrictions."
+    },
+    "32008R1272": {
+      "kind": "legislation",
+      "shortName": "CLP",
+      "title": "Regulation (EC) 1272/2008 on classification, labelling and packaging of substances and mixtures",
+      "eli": "http://data.europa.eu/eli/reg/2008/1272/oj",
+      "createsDpp": false
+    },
+    "32011L0065": {
+      "kind": "legislation",
+      "shortName": "RoHS",
+      "title": "Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical and electronic equipment",
+      "eli": "http://data.europa.eu/eli/dir/2011/65/oj",
+      "createsDpp": false
+    },
+    "32012L0019": {
+      "kind": "legislation",
+      "shortName": "WEEE",
+      "title": "Directive 2012/19/EU on waste electrical and electronic equipment",
+      "eli": "http://data.europa.eu/eli/dir/2012/19/oj",
+      "createsDpp": false,
+      "note": "Art. 14 the crossed-out wheelie-bin marking; Art. 16 producer registration; Annex III the equipment categories."
+    },
+    "32020R0740": {
+      "kind": "legislation",
+      "shortName": "Tyre labelling",
+      "title": "Regulation (EU) 2020/740 on the labelling of tyres with respect to fuel efficiency and other parameters",
+      "eli": "http://data.europa.eu/eli/reg/2020/740/oj",
+      "createsDpp": false
+    },
+    "32023R1115": {
+      "kind": "legislation",
+      "shortName": "EUDR",
+      "title": "Regulation (EU) 2023/1115 on deforestation-free products",
+      "eli": "http://data.europa.eu/eli/reg/2023/1115/oj",
+      "createsDpp": false
+    },
+    "32017R0821": {
+      "kind": "legislation",
+      "shortName": "Conflict Minerals",
+      "title": "Regulation (EU) 2017/821 laying down supply chain due diligence obligations for importers of tin, tantalum, tungsten and gold",
+      "eli": "http://data.europa.eu/eli/reg/2017/821/oj",
+      "createsDpp": false
+    },
+    "32026R0405": {
+      "kind": "legislation",
+      "shortName": "Detergents Regulation",
+      "title": "Regulation (EU) 2026/405 on detergents and surfactants",
+      "eli": "http://data.europa.eu/eli/reg/2026/405/oj",
+      "createsDpp": true,
+      "dppMandatoryFrom": "2029-09-23",
+      "note": "Mandates a real DPP with a QR data carrier and a central-registry entry, replacing the EU declaration of conformity. The specific article number is not yet verified against primary text."
+    },
+    "32009L0048": {
+      "kind": "legislation",
+      "shortName": "Toy Safety Directive",
+      "title": "Directive 2009/48/EC on the safety of toys",
+      "eli": "http://data.europa.eu/eli/dir/2009/48/oj",
+      "createsDpp": false,
+      "note": "Art. 17 mandates CE marking unconditionally. Still the operative instrument."
+    },
+    "32025R2509": {
+      "kind": "legislation",
+      "shortName": "Toy Safety Regulation",
+      "title": "Regulation (EU) 2025/2509 on the safety of toys",
+      "eli": "http://data.europa.eu/eli/reg/2025/2509/oj",
+      "createsDpp": true,
+      "note": "In force 1 Jan 2026, applies ~2030. This — not ESPR — is the source of the toy passport."
+    },
+    "32011R1007": {
+      "kind": "legislation",
+      "shortName": "Textile labelling",
+      "title": "Regulation (EU) 1007/2011 on fibre names and related labelling of textile products",
+      "eli": "http://data.europa.eu/eli/reg/2011/1007/oj",
+      "createsDpp": false,
+      "note": "Arts. 9(1), 14(1), 16 require fibre names and percentages on a durable, legible, consumer-visible physical label attached to the product. Recording the data in a passport does NOT discharge the obligation. Care labelling is out of scope — it appears only in the Art. 24 review clause."
+    },
+    "32011R1169": {
+      "kind": "legislation",
+      "shortName": "Food information",
+      "title": "Regulation (EU) 1169/2011 on the provision of food information to consumers",
+      "eli": "http://data.europa.eu/eli/reg/2011/1169/oj",
+      "createsDpp": false
+    },
+    "32009R1223": {
+      "kind": "legislation",
+      "shortName": "Cosmetics Regulation",
+      "title": "Regulation (EC) 1223/2009 on cosmetic products",
+      "eli": "http://data.europa.eu/eli/reg/2009/1223/oj",
+      "createsDpp": false
+    },
+    "32008L0098": {
+      "kind": "legislation",
+      "shortName": "Waste Framework Directive",
+      "title": "Directive 2008/98/EC on waste",
+      "eli": "http://data.europa.eu/eli/dir/2008/98/oj",
+      "createsDpp": false,
+      "note": "Art. 9(1)(i) is the basis for SCIP notification to ECHA for SVHCs above 0.1% w/w."
+    },
+    "32023R2055": {
+      "kind": "legislation",
+      "shortName": "Microplastics restriction",
+      "title": "Regulation (EU) 2023/2055 amending REACH Annex XVII as regards synthetic polymer microparticles",
+      "eli": "http://data.europa.eu/eli/reg/2023/2055/oj",
+      "createsDpp": false,
+      "note": "Restricts INTENTIONALLY ADDED microplastics. Textile wash-shedding is unintentional and out of scope."
+    },
+    "32010R0066": {
+      "kind": "scheme",
+      "shortName": "EU Ecolabel",
+      "title": "Regulation (EC) 66/2010 on the EU Ecolabel",
+      "eli": "http://data.europa.eu/eli/reg/2010/66/oj",
+      "createsDpp": false,
+      "note": "Voluntary. Awarding the label is regulated; carrying it is not required of any product."
+    },
+    "32023R0956": {
+      "kind": "legislation",
+      "shortName": "CBAM",
+      "title": "Regulation (EU) 2023/956 establishing a carbon border adjustment mechanism",
+      "eli": "http://data.europa.eu/eli/reg/2023/956/oj",
+      "createsDpp": false,
+      "note": "The EU publishes no RDF vocabulary for CBAM terms. Cite the instrument; the concepts have no dereferenceable IRI."
+    },
+    "32003L0087": {
+      "kind": "legislation",
+      "shortName": "EU ETS",
+      "title": "Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading",
+      "eli": "http://data.europa.eu/eli/dir/2003/87/oj",
+      "createsDpp": false
+    }
+  },
+
+  "nonLegislative": {
+    "_note": "References that are not EU legislation. A field may cite one, but it must carry the right `kind` so nothing implies a legal obligation.",
+    "standard": {
+      "description": "Supports a presumption of conformity. Creates no obligation on its own.",
+      "examples": ["EN 15804+A2", "ISO 3758", "ISO 12945", "ISO 12947", "ISO 105-C06", "EN 71-1", "EN 1090-1", "ISO 2076", "EN 13300", "ISO 14046"]
+    },
+    "scheme": {
+      "description": "Voluntary certification or industry scheme. Not law.",
+      "examples": ["OEKO-TEX", "GOTS", "Bluesign", "FSC", "PEFC", "RJC", "Fairmined", "ResponsibleSteel", "ASI", "GPSNR", "Kimberley Process", "CIBJO Blue Books", "GIA/IGI grading"]
+    },
+    "national": {
+      "description": "One member state's law. Not an EU-wide obligation.",
+      "examples": ["French AGEC"]
+    },
+    "international": {
+      "description": "A convention outside EU law.",
+      "examples": ["Vienna Convention 1972 (hallmarking)"]
+    },
+    "specification": {
+      "description": "Not a reference at all — a product spec, a safety-data-sheet section, or a note. These must be removed from regulationRef.",
+      "examples": ["Product specification", "Industry best practice", "Various", "SDS Section 9.1", "US FMVSS 575.104"]
+    }
+  }
+}

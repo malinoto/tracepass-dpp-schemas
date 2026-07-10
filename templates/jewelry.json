@@ -5133,7 +5133,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -5164,9 +5167,7 @@
       },
       "sortOrder": 41,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "care",
@@ -5237,7 +5238,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -5268,9 +5272,7 @@
       },
       "sortOrder": 42,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "repairable",
@@ -5340,7 +5342,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -5371,9 +5376,7 @@
       },
       "sortOrder": 43,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "resizable",
@@ -5443,7 +5446,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -5474,9 +5480,7 @@
       },
       "sortOrder": 44,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "take back",
@@ -5546,7 +5550,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -5577,9 +5584,7 @@
       },
       "sortOrder": 45,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "recyclability",
@@ -6432,7 +6437,7 @@
     }
   ],
   "fieldCount": 52,
-  "requiredFieldCount": 19,
+  "requiredFieldCount": 17,
   "categories": [
     {
       "key": "product_identity",

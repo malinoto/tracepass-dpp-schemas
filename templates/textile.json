@@ -1634,7 +1634,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 7(2)(b)(ii) use and maintenance information, pending a delegated act. No EU instrument mandates care labelling: ISO 3758 is a standard, GINETEX symbols are industry IP, and Reg. (EU) 1007/2011 mentions care labels only in its Art. 24 review clause."
       },
       "category": "care_instructions",
       "categoryLabel": {
@@ -3620,7 +3623,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -3652,7 +3658,6 @@
       "sortOrder": 32,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -3724,7 +3729,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -3756,7 +3764,6 @@
       "sortOrder": 33,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -3828,7 +3835,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -3860,7 +3870,6 @@
       "sortOrder": 34,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -3931,7 +3940,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -3963,7 +3975,6 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4034,7 +4045,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4066,7 +4080,6 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4138,7 +4151,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4170,7 +4186,6 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(d)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4449,7 +4464,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4481,7 +4499,6 @@
       "sortOrder": 40,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4585,7 +4602,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "French AGEC / Art. 7(2)(e)",
+        "article": "French AGEC",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4689,7 +4706,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "French AGEC / Art. 7(2)(e)",
+        "article": "French AGEC",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4792,7 +4809,7 @@
       "sortOrder": 43,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "French AGEC / Art. 7(2)(e)",
+        "article": "French AGEC",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4864,7 +4881,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4896,7 +4916,6 @@
       "sortOrder": 44,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -4968,7 +4987,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -5000,7 +5022,6 @@
       "sortOrder": 45,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -5281,7 +5302,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -5313,7 +5337,6 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -5501,7 +5524,10 @@
         }
       ],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -5533,7 +5559,6 @@
       "sortOrder": 49,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -5604,7 +5629,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -5636,7 +5664,6 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I; SA8000"
       },
       "aiHints": {
@@ -5709,7 +5736,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "materials",
       "categoryLabel": {
@@ -5741,7 +5771,6 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(e)",
         "annex": "Annex I"
       },
       "aiHints": {
@@ -6938,7 +6967,7 @@
     }
   ],
   "fieldCount": 60,
-  "requiredFieldCount": 37,
+  "requiredFieldCount": 30,
   "categories": [
     {
       "key": "general_info",

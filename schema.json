@@ -342,7 +342,7 @@
         },
         "validation": {
           "type": "object",
-          "description": "Constraints on the field's value. Every constraint other than `required` is optional and is explicitly null when it does not apply.",
+          "description": "Constraints on the field's value, and whether the law requires it. `required` means an instrument IN FORCE compels the data; `anticipated` means a named future instrument is expected to. They are mutually exclusive.",
           "required": [
             "required"
           ],
@@ -383,6 +383,18 @@
                 "null"
               ],
               "description": "ECMAScript regular expression the value must match."
+            },
+            "anticipated": {
+              "type": "boolean",
+              "description": "A named future instrument is expected to require this data, and none in force does. Does not block publishing. Never set alongside `required: true`."
+            },
+            "anticipatedUnder": {
+              "type": "string",
+              "description": "CELEX id of the instrument expected to impose it, e.g. \"32024R1781\"."
+            },
+            "anticipatedNote": {
+              "type": "string",
+              "description": "Why it is expected — e.g. \"ESPR Annex I(p), pending a delegated act under Art. 4\"."
             }
           }
         },
@@ -410,7 +422,7 @@
             "object",
             "null"
           ],
-          "description": "Where in the instrument this field is mandated. The reason this data is worth citing.",
+          "description": "Where this field's obligation comes from. `article` is the legacy unstructured form, retained until every template carries `instrument` + `provision` + `kind`.",
           "additionalProperties": false,
           "properties": {
             "article": {
@@ -436,6 +448,43 @@
                 "string",
                 "null"
               ]
+            },
+            "instrument": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "CELEX id of the instrument, e.g. \"32023R1542\"."
+            },
+            "provision": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "The provision within it, e.g. \"Art. 77(1)\"."
+            },
+            "kind": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "legislation",
+                "standard",
+                "scheme",
+                "national",
+                "international",
+                "specification",
+                null
+              ],
+              "description": "What kind of claim this reference is. `legislation` binds; `standard` supports a presumption of conformity but binds nothing; `scheme` is voluntary; `national` is one member state's law; `international` is a convention outside EU law; `specification` is not a reference at all."
+            },
+            "source": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Free-text name when the reference is not EU legislation."
             }
           }
         },

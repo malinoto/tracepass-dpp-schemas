@@ -127,7 +127,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "TSD Art. 4(5)"
       },
       "aiHints": {
         "alternateNames": [
@@ -232,7 +232,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)"
+        "article": "TSD Art. 4(5)"
       },
       "aiHints": {
         "alternateNames": [
@@ -339,7 +339,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); TSD Art. 4"
+        "article": "TSD Art. 4"
       },
       "aiHints": {
         "alternateNames": [
@@ -445,7 +445,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); TSD Art. 4"
+        "article": "TSD Art. 4"
       },
       "aiHints": {
         "alternateNames": [
@@ -550,7 +550,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9; ESPR Art. 9(2)"
+        "article": "GPSR Art. 9"
       },
       "aiHints": {
         "alternateNames": [
@@ -731,7 +731,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -762,9 +765,7 @@
       },
       "sortOrder": 7,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 9"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "image",
@@ -974,7 +975,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 15; ESPR Art. 9"
+        "article": "TSD Art. 15"
       },
       "aiHints": {
         "alternateNames": [
@@ -1911,7 +1912,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "materials",
       "categoryLabel": {
@@ -1942,9 +1946,7 @@
       },
       "sortOrder": 14,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(a)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "materials",
@@ -2047,7 +2049,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 33; ESPR Art. 7(5)"
+        "article": "REACH Art. 33"
       },
       "aiHints": {
         "alternateNames": [
@@ -2432,7 +2434,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2463,9 +2468,7 @@
       },
       "sortOrder": 19,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "recycled content",
@@ -2624,7 +2627,10 @@
         }
       ],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2655,9 +2661,7 @@
       },
       "sortOrder": 20,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "recyclability",
@@ -2830,7 +2834,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2861,9 +2868,7 @@
       },
       "sortOrder": 22,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(d)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "CO2 footprint",
@@ -2934,7 +2939,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "durability",
       "categoryLabel": {
@@ -2965,9 +2973,7 @@
       },
       "sortOrder": 23,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(e)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "cleaning instructions",
@@ -3038,7 +3044,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
       },
       "category": "durability",
       "categoryLabel": {
@@ -3069,9 +3078,7 @@
       },
       "sortOrder": 24,
       "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR Art. 7(2)(e)"
-      },
+      "regulationRef": {},
       "aiHints": {
         "alternateNames": [
           "lifespan",
@@ -3174,7 +3181,7 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(f); GPSR"
+        "article": "GPSR"
       },
       "aiHints": {
         "alternateNames": [
@@ -3279,7 +3286,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2); GPSR Art. 9"
+        "article": "GPSR Art. 9"
       },
       "aiHints": {
         "alternateNames": [
@@ -3594,7 +3601,7 @@
     }
   ],
   "fieldCount": 28,
-  "requiredFieldCount": 16,
+  "requiredFieldCount": 15,
   "categories": [
     {
       "key": "general_info",

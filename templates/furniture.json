@@ -7749,7 +7749,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 7(2)(b)(ii) use and maintenance information, pending a delegated act. No EU instrument mandates care labelling: ISO 3758 is a standard, GINETEX symbols are industry IP, and Reg. (EU) 1007/2011 mentions care labels only in its Art. 24 review clause."
       },
       "category": "use_and_care",
       "categoryLabel": {
@@ -8613,7 +8616,7 @@
     }
   ],
   "fieldCount": 79,
-  "requiredFieldCount": 53,
+  "requiredFieldCount": 52,
   "categories": [
     {
       "key": "identification",
