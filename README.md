@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-910-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-913-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-12-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,22 +39,22 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **910 fields in total, 511 of them
+Twelve JSON files, one per product category. **913 fields in total, 513 of them
 required.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 94 | 94 | Regulation (EU) 2023/1542 |
+| `battery` | 95 | 95 | Regulation (EU) 2023/1542 |
 | `chemicals` | 96 | 42 | ESPR (EU) 2024/1781 |
-| `construction` | 48 | 43 | CPR (EU) 2024/3110 |
-| `electronics` | 166 | 39 | ESPR (EU) 2024/1781 |
+| `construction` | 49 | 43 | CPR (EU) 2024/3110 |
+| `electronics` | 167 | 40 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 15 | ESPR (EU) 2024/1781 |
-| `furniture` | 80 | 54 | ESPR (EU) 2024/1781 |
+| `furniture` | 79 | 53 | ESPR (EU) 2024/1781 |
 | `jewelry` | 52 | 19 | ESPR (EU) 2024/1781 |
 | `packaging` | 66 | 38 | PPWR (EU) 2025/40 |
-| `steel` | 83 | 44 | ESPR (EU) 2024/1781 |
-| `textile` | 61 | 38 | ESPR (EU) 2024/1781 |
-| `toys` | 27 | 15 | ESPR (EU) 2024/1781 |
+| `steel` | 84 | 45 | ESPR (EU) 2024/1781 |
+| `textile` | 60 | 37 | ESPR (EU) 2024/1781 |
+| `toys` | 28 | 16 | ESPR (EU) 2024/1781 |
 | `tyres` | 95 | 70 | ESPR (EU) 2024/1781 |
 
 Every battery field is mandatory — Annex XIII of the Battery Regulation admits no

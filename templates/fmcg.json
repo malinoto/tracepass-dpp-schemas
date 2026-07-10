@@ -26,7 +26,7 @@
     "es": "FMCG",
     "sv": "FMCG"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - FMCG",
@@ -3062,7 +3062,7 @@
         "sv": "Produktens klimatavtryck i kg CO2-eq per funktionell enhet, beräknat enligt EU:s metodik Product Environmental Footprint"
       },
       "dataType": "number",
-      "unit": "kg CO2-eq",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": null,
@@ -6500,5 +6500,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial FMCG DPP template based on ESPR + sector-specific EU regulations (Cosmetics 1223/2009, Detergents 648/2004, CLP 1272/2008, PPWR 2025/40, REACH, General Product Safety 2023/988, EU Ecolabel)"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

@@ -26,7 +26,7 @@
     "sl": "Pnevmatike",
     "sv": "Däck"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Tyres",
@@ -1144,7 +1144,7 @@
       }
     },
     {
-      "key": "batchOrSerialNumber",
+      "key": "batchLotNumber",
       "label": {
         "en": "Batch or Serial Number",
         "bg": "Партиден или сериен номер",
@@ -7109,7 +7109,7 @@
       }
     },
     {
-      "key": "carbonFootprintKgCo2e",
+      "key": "carbonFootprint",
       "label": {
         "en": "Carbon Footprint (kg CO2e)",
         "bg": "Въглероден отпечатък (kg CO2e)",
@@ -7368,7 +7368,7 @@
         "sv": "Uppskattad bränslebesparing under däckets livslängd jämfört med referensdäck klass E (liter)"
       },
       "dataType": "number",
-      "unit": "liters",
+      "unit": "L",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -10698,7 +10698,7 @@
       }
     },
     {
-      "key": "accessRights",
+      "key": "accessLevel",
       "label": {
         "en": "Access Rights",
         "bg": "Права за достъп",
@@ -11267,5 +11267,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial tyres DPP template"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

@@ -26,7 +26,7 @@
     "sl": "Gradbeni materiali",
     "sv": "Byggmaterial"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "Construction Products Regulation",
@@ -1867,7 +1867,7 @@
         "sv": "Total global uppvärmningspotential inklusive fossila, biogena och markanvändningskomponenter"
       },
       "dataType": "number",
-      "unit": "kg CO2 eq.",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -1972,7 +1972,7 @@
         "sv": "Global uppvärmningspotential från fossila bränslen"
       },
       "dataType": "number",
-      "unit": "kg CO2 eq.",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -2075,7 +2075,7 @@
         "sv": "Global uppvärmningspotential från biogena kolkällor"
       },
       "dataType": "number",
-      "unit": "kg CO2 eq.",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -2178,7 +2178,7 @@
         "sv": "Global uppvärmningspotential från markanvändning och förändrad markanvändning"
       },
       "dataType": "number",
-      "unit": "kg CO2 eq.",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -4638,35 +4638,6 @@
             "sl": "Ni relevantno",
             "sv": "Ej tillämpligt"
           }
-        },
-        {
-          "value": "expired",
-          "label": {
-            "en": "Expired",
-            "bg": "Изтекло",
-            "de": "Abgelaufen",
-            "lt": "Pasibaigęs",
-            "es": "Expirado",
-            "hr": "Isteklo",
-            "cs": "Vypršelo",
-            "da": "Udløbet",
-            "nl": "Verlopen",
-            "et": "Aegunud",
-            "fi": "Vanhentunut",
-            "fr": "Expiré",
-            "el": "Έληξε",
-            "hu": "Lejárt",
-            "ga": "As feidhm",
-            "it": "Scaduto",
-            "lv": "Beidzies termiņš",
-            "mt": "Skadut",
-            "pl": "Wygasły",
-            "pt": "Expirado",
-            "ro": "Expirat",
-            "sk": "Platnosť vypršala",
-            "sl": "Poteklo",
-            "sv": "Utgången"
-          }
         }
       ],
       "validation": {
@@ -4702,8 +4673,8 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
-        "annex": ""
+        "article": "Art. 13-15",
+        "annex": null
       },
       "aiHints": {
         "alternateNames": [
@@ -6044,9 +6015,117 @@
         "expectedFormat": "Free text description of intended use(s)",
         "extractionPriority": 7
       }
+    },
+    {
+      "key": "ceMarking",
+      "label": {
+        "en": "CE Marking",
+        "bg": "CE маркиране",
+        "de": "CE-Kennzeichnung",
+        "hr": "CE Oznaka",
+        "cs": "Značení CE",
+        "da": "CE-mærkning",
+        "nl": "CE-markering",
+        "et": "CE märge",
+        "fi": "CE-merkintä",
+        "fr": "Marquage CE",
+        "hu": "CE jelölés",
+        "ga": "Marcála CE",
+        "it": "Marcatura CE",
+        "lv": "CE marķējums",
+        "lt": "CE žyma",
+        "mt": "CE Marking",
+        "pl": "Oznakowanie CE",
+        "pt": "Marcação CE",
+        "ro": "CE Marking",
+        "sk": "CE Marking",
+        "sl": "CE Marking",
+        "es": "Marcado CE",
+        "sv": "CE-märkning",
+        "el": "Σήμανση CE"
+      },
+      "description": {
+        "en": "Whether the battery bears the CE marking",
+        "hr": "Ima li baterija CE oznaku",
+        "cs": "Zda baterie nese značku CE",
+        "da": "Hvorvidt batteriet bærer CE-mærkningen",
+        "nl": "Of de batterij de CE-markering draagt",
+        "et": "Kas akul on CE märge",
+        "fi": "Onko akkuun merkitty CE-merkintä",
+        "fr": "Si la batterie porte le marquage CE",
+        "hu": "Az akkumulátor CE jelöléssel ellátott-e",
+        "ga": "An bhfuil an marcála CE ar an mbataora",
+        "it": "Se la batteria reca la marcatura CE",
+        "lv": "Vai akumulators satur CE marķējumu",
+        "lt": "Ar akumulator turi CE žymą",
+        "mt": "Jekk il-batterija għandha l-marki CE",
+        "pl": "Czy bateria nosi oznakowanie CE",
+        "pt": "Se a bateria apresenta a marcação CE",
+        "ro": "Dacă bateria poartă marcajul CE",
+        "sk": "Či batéria nesie označenie CE",
+        "sl": "Ali ima baterija oznako CE",
+        "es": "Si la batería lleva el marcado CE",
+        "sv": "Om batteriet har CE-märkningen",
+        "el": "Αν η μπαταρία φέρει τη σήμανση CE"
+      },
+      "dataType": "boolean",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "minLength": null,
+        "maxLength": null,
+        "min": null,
+        "max": null,
+        "pattern": null
+      },
+      "category": "compliance",
+      "categoryLabel": {
+        "en": "Compliance & Certification",
+        "bg": "Съответствие и сертификация",
+        "de": "Konformität und Zertifizierung",
+        "lt": "Atitiktis ir sertifikavimas",
+        "es": "Cumplimiento y Certificación",
+        "hr": "Usklađenost i certifikacija",
+        "cs": "Soulad a certifikace",
+        "da": "Overholdelse og certificering",
+        "nl": "Naleving en certificering",
+        "et": "Vastavus ja sertifitseerimine",
+        "fi": "Vaatimustenmukaisuus ja sertifiointi",
+        "fr": "Conformité et certification",
+        "el": "Συμμόρφωση και πιστοποίηση",
+        "hu": "Megfelelőség és tanúsítás",
+        "ga": "Comhlíonadh agus deimhniú",
+        "it": "Conformità e certificazione",
+        "lv": "Atbilstība un sertifikācija",
+        "mt": "Konformità u ċertifikazzjoni",
+        "pl": "Zgodność i certyfikacja",
+        "pt": "Conformidade e certificação",
+        "ro": "Conformitate și certificare",
+        "sk": "Súlad a certifikácia",
+        "sl": "Skladnost in certificiranje",
+        "sv": "Överensstämmelse och certifiering"
+      },
+      "sortOrder": 37,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 13-15",
+        "annex": null
+      },
+      "aiHints": {
+        "alternateNames": [
+          "CE mark",
+          "CE marking",
+          "CE"
+        ],
+        "expectedFormat": "true or false",
+        "extractionPriority": 6
+      }
     }
   ],
-  "fieldCount": 48,
+  "fieldCount": 49,
   "requiredFieldCount": 43,
   "categories": [
     {
@@ -6237,5 +6316,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial construction materials DPP template"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

@@ -26,7 +26,7 @@
     "sl": "Kemikalije in barve",
     "sv": "Kemikalier och färger"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Chemicals",
@@ -240,7 +240,7 @@
       }
     },
     {
-      "key": "batchId",
+      "key": "batchLotNumber",
       "label": {
         "en": "Batch / Lot ID",
         "bg": "Партиден номер",
@@ -10524,7 +10524,7 @@
         "sv": "Produktens koldioxidavtryck i kg CO2-ekvivalent."
       },
       "dataType": "number",
-      "unit": "kg CO2eq",
+      "unit": "kg CO2e",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -10937,7 +10937,7 @@
       }
     },
     {
-      "key": "recycledContentPercent",
+      "key": "recycledContentPercentage",
       "label": {
         "en": "Recycled Content (%)",
         "bg": "Съдържание на рециклирани материали (%)",
@@ -12141,5 +12141,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial chemicals DPP template"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

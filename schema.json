@@ -21,7 +21,11 @@
     "category": {
       "type": "string",
       "description": "Stable machine key for the product category.",
-      "examples": ["battery", "textile", "steel"]
+      "examples": [
+        "battery",
+        "textile",
+        "steel"
+      ]
     },
     "categoryLabel": {
       "$ref": "#/$defs/localizedString",
@@ -39,11 +43,27 @@
     "regulation": {
       "type": "object",
       "description": "The EU instrument that mandates this category's passport.",
-      "required": ["name", "number", "effectiveDate", "mandatoryDate"],
+      "required": [
+        "name",
+        "number",
+        "effectiveDate",
+        "mandatoryDate"
+      ],
       "additionalProperties": false,
       "properties": {
-        "name": { "type": "string", "examples": ["EU Battery Regulation"] },
-        "number": { "type": "string", "examples": ["(EU) 2023/1542", "(EU) 2024/1781"] },
+        "name": {
+          "type": "string",
+          "examples": [
+            "EU Battery Regulation"
+          ]
+        },
+        "number": {
+          "type": "string",
+          "examples": [
+            "(EU) 2023/1542",
+            "(EU) 2024/1781"
+          ]
+        },
         "effectiveDate": {
           "type": "string",
           "format": "date",
@@ -59,7 +79,9 @@
     "fields": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/$defs/templateField" }
+      "items": {
+        "$ref": "#/$defs/templateField"
+      }
     },
     "fieldCount": {
       "type": "integer",
@@ -76,23 +98,40 @@
       "description": "Field-group sections, in display order. Older templates store plain strings; newer ones store objects carrying localized headers.",
       "items": {
         "oneOf": [
-          { "type": "string" },
+          {
+            "type": "string"
+          },
           {
             "type": "object",
-            "required": ["key"],
+            "required": [
+              "key"
+            ],
             "additionalProperties": false,
             "properties": {
-              "key": { "type": "string" },
-              "label": { "$ref": "#/$defs/localizedString" },
-              "fieldCount": { "type": "integer", "minimum": 0 },
-              "sortOrder": { "type": "integer" }
+              "key": {
+                "type": "string"
+              },
+              "label": {
+                "$ref": "#/$defs/localizedString"
+              },
+              "fieldCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sortOrder": {
+                "type": "integer"
+              }
             }
           }
         ]
       }
     },
-    "createdBy": { "type": "string" },
-    "changelog": { "type": "string" },
+    "createdBy": {
+      "type": "string"
+    },
+    "changelog": {
+      "type": "string"
+    },
     "_note": {
       "type": "string",
       "description": "Free-text annotation for maintainers. Not consumed by any code."
@@ -102,15 +141,40 @@
     "localizedString": {
       "type": "object",
       "description": "Locale code to translated string, restricted to the 24 official EU languages. 'en' is always present; other locales are provided where translated.",
-      "required": ["en"],
+      "required": [
+        "en"
+      ],
       "propertyNames": {
         "enum": [
-          "bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr",
-          "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt",
-          "ro", "sk", "sl", "sv"
+          "bg",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "et",
+          "fi",
+          "fr",
+          "ga",
+          "hr",
+          "hu",
+          "it",
+          "lt",
+          "lv",
+          "mt",
+          "nl",
+          "pl",
+          "pt",
+          "ro",
+          "sk",
+          "sl",
+          "sv"
         ]
       },
-      "additionalProperties": { "type": "string" }
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "templateField": {
       "type": "object",
@@ -129,11 +193,20 @@
         "key": {
           "type": "string",
           "description": "Stable machine key, unique within the template.",
-          "examples": ["batteryCapacity", "carbonFootprint"]
+          "examples": [
+            "batteryCapacity",
+            "carbonFootprint"
+          ]
         },
-        "label": { "$ref": "#/$defs/localizedString" },
-        "description": { "$ref": "#/$defs/localizedString" },
-        "placeholder": { "$ref": "#/$defs/localizedString" },
+        "label": {
+          "$ref": "#/$defs/localizedString"
+        },
+        "description": {
+          "$ref": "#/$defs/localizedString"
+        },
+        "placeholder": {
+          "$ref": "#/$defs/localizedString"
+        },
         "dataType": {
           "type": "string",
           "enum": [
@@ -150,9 +223,92 @@
           ]
         },
         "unit": {
-          "type": ["string", "null"],
-          "description": "Unit of measure for numeric fields. Explicitly null when the field has no unit.",
-          "examples": ["kWh", "kg CO2e", "mm"]
+          "description": "Unit of measure. Must be a canonical key from units.json — the historical free-text spellings are no longer permitted. `null` when the field has no unit.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "enum": [
+                "%",
+                "% P2O5",
+                "%/month",
+                "Ah",
+                "EUR/tCO2",
+                "GB",
+                "J",
+                "L",
+                "MJ",
+                "MPa",
+                "Mohs",
+                "N",
+                "N/kN",
+                "Ohm",
+                "TB",
+                "V",
+                "W",
+                "Wh/kg",
+                "ct",
+                "cycles",
+                "dB",
+                "dB(A)",
+                "g",
+                "g/L",
+                "g/cm³",
+                "gCO2/kWh",
+                "grade",
+                "hours",
+                "inches",
+                "kPa",
+                "kWh",
+                "kWh/t",
+                "kg",
+                "kg CFC-11 eq.",
+                "kg CO2e",
+                "kg CO2e/kWh",
+                "kg N eq.",
+                "kg NMVOC eq.",
+                "kg P eq.",
+                "kg Sb eq.",
+                "kg/24h",
+                "kg/m3",
+                "kgCO2e/kg",
+                "km",
+                "km/h",
+                "l eq",
+                "l/wash",
+                "m",
+                "m3 world eq.",
+                "mAh",
+                "mL",
+                "mPa·s",
+                "mPt",
+                "mg/kg",
+                "mg/kg per wash",
+                "mg/km",
+                "mg/m3",
+                "millesimal",
+                "minutes",
+                "mm",
+                "mol H+ eq.",
+                "mol N eq.",
+                "months",
+                "m²/L",
+                "points",
+                "ppm",
+                "rpm",
+                "tCO2/t",
+                "tCO2e/t",
+                "ug/cm2/week",
+                "ug/m3",
+                "weight_%",
+                "working days",
+                "years",
+                "°C"
+              ]
+            }
+          ]
         },
         "translatable": {
           "type": "boolean",
@@ -162,31 +318,70 @@
           "description": "Any JSON value matching dataType, or null when the field has no default."
         },
         "enumOptions": {
-          "type": ["array", "null"],
+          "type": [
+            "array",
+            "null"
+          ],
           "description": "Permitted values when dataType is 'enum' or 'multi_enum'. Explicitly null otherwise.",
           "items": {
             "type": "object",
-            "required": ["value", "label"],
+            "required": [
+              "value",
+              "label"
+            ],
             "additionalProperties": false,
             "properties": {
-              "value": { "type": "string" },
-              "label": { "$ref": "#/$defs/localizedString" }
+              "value": {
+                "type": "string"
+              },
+              "label": {
+                "$ref": "#/$defs/localizedString"
+              }
             }
           }
         },
         "validation": {
           "type": "object",
           "description": "Constraints on the field's value. Every constraint other than `required` is optional and is explicitly null when it does not apply.",
-          "required": ["required"],
+          "required": [
+            "required"
+          ],
           "additionalProperties": false,
           "properties": {
-            "required": { "type": "boolean" },
-            "minLength": { "type": ["integer", "null"], "minimum": 0 },
-            "maxLength": { "type": ["integer", "null"], "minimum": 0 },
-            "min": { "type": ["number", "null"] },
-            "max": { "type": ["number", "null"] },
+            "required": {
+              "type": "boolean"
+            },
+            "minLength": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "maxLength": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "min": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
             "pattern": {
-              "type": ["string", "null"],
+              "type": [
+                "string",
+                "null"
+              ],
               "description": "ECMAScript regular expression the value must match."
             }
           }
@@ -195,35 +390,74 @@
           "type": "string",
           "description": "Field-group key this field belongs to. Matches an entry in the template's `categories`."
         },
-        "categoryLabel": { "$ref": "#/$defs/localizedString" },
-        "sortOrder": { "type": "integer" },
+        "categoryLabel": {
+          "$ref": "#/$defs/localizedString"
+        },
+        "sortOrder": {
+          "type": "integer"
+        },
         "defaultAccessLevel": {
           "type": "string",
-          "enum": ["public", "restricted", "authority"],
+          "enum": [
+            "public",
+            "restricted",
+            "authority"
+          ],
           "description": "Who may read this field by default. 'public' is visible to anyone scanning the QR code; 'restricted' requires a granted token; 'authority' is for market-surveillance bodies."
         },
         "regulationRef": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "description": "Where in the instrument this field is mandated. The reason this data is worth citing.",
           "additionalProperties": false,
           "properties": {
-            "article": { "type": ["string", "null"], "examples": ["Art. 77"] },
-            "annex": { "type": ["string", "null"], "examples": ["Annex XIII"] },
-            "description": { "type": ["string", "null"] }
+            "article": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Art. 77"
+              ]
+            },
+            "annex": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "examples": [
+                "Annex XIII"
+              ]
+            },
+            "description": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
           }
         },
         "aiHints": {
           "type": "object",
           "description": "Hints for automated extraction of this field from unstructured supplier documents.",
-          "required": ["alternateNames", "extractionPriority"],
+          "required": [
+            "alternateNames",
+            "extractionPriority"
+          ],
           "additionalProperties": false,
           "properties": {
             "alternateNames": {
               "type": "array",
-              "items": { "type": "string" },
+              "items": {
+                "type": "string"
+              },
               "description": "Synonyms a datasheet might use for this field."
             },
-            "expectedFormat": { "type": "string" },
+            "expectedFormat": {
+              "type": "string"
+            },
             "extractionPriority": {
               "type": "integer",
               "description": "Higher runs first when extraction budget is limited."

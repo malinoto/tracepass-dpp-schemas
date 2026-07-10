@@ -26,7 +26,7 @@
     "sl": "Pohištvo in vzmetnice",
     "sv": "Möbler och madrasser"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Furniture",
@@ -548,7 +548,7 @@
       }
     },
     {
-      "key": "batchOrSerialNumber",
+      "key": "batchLotNumber",
       "label": {
         "en": "Batch or Serial Number",
         "bg": "Партиден или сериен номер",
@@ -5550,7 +5550,7 @@
       }
     },
     {
-      "key": "carbonFootprintKgCo2e",
+      "key": "carbonFootprint",
       "label": {
         "en": "Carbon Footprint (kg CO2e)",
         "bg": "Въглероден отпечатък (kg CO2e)",
@@ -6011,7 +6011,7 @@
         "sv": "Total vattenförbrukning vid tillverkning per enhet"
       },
       "dataType": "number",
-      "unit": "liters",
+      "unit": "L",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
@@ -6974,108 +6974,6 @@
         ],
         "expectedFormat": "Valid HTTPS URL",
         "extractionPriority": 4
-      }
-    },
-    {
-      "key": "ceMarking",
-      "label": {
-        "en": "CE Marking",
-        "bg": "CE маркиране",
-        "de": "CE-Kennzeichnung",
-        "it": "Marcatura CE",
-        "hr": "CE oznaka",
-        "cs": "Označení CE",
-        "da": "CE-mærkning",
-        "nl": "CE-markering",
-        "et": "CE-märgis",
-        "fi": "CE-merkintä",
-        "fr": "Marquage CE",
-        "el": "Σήμανση CE",
-        "hu": "CE-jelölés",
-        "ga": "Marcáil CE",
-        "es": "Marcado CE",
-        "lt": "CE ženklinimas",
-        "lv": "CE marķējums",
-        "mt": "Markatura CE",
-        "pl": "Oznakowanie CE",
-        "pt": "Marcação CE",
-        "ro": "Marcajul CE",
-        "sk": "Označenie CE",
-        "sl": "Oznaka CE",
-        "sv": "CE-märkning"
-      },
-      "description": {
-        "en": "Whether product carries CE marking (if applicable under product safety regulation)",
-        "it": "Se il prodotto reca marcatura CE (se applicabile secondo la normativa sulla sicurezza dei prodotti)",
-        "hr": "Nosi li proizvod CE oznaku (ako je primjenjivo prema propisima o sigurnosti proizvoda)",
-        "cs": "Zda produkt nese označení CE (pokud se uplatňuje podle nařízení o bezpečnosti výrobků)",
-        "da": "Om produktet bærer CE-mærkning (hvis relevant iht. produktsikkerhedsforordning)",
-        "nl": "Of het product CE-markering draagt (indien van toepassing onder productveiligheidsregelgeving)",
-        "et": "Kas toode kannab CE-märgist (kui kohaldatav tooteohutusmääruse alusel)",
-        "fi": "Onko tuotteessa CE-merkintä (jos sovellettavissa tuoteturvallisuusasetuksen nojalla)",
-        "fr": "Si le produit porte le marquage CE (le cas échéant selon le règlement sur la sécurité des produits)",
-        "el": "Εάν το προϊόν φέρει σήμανση CE (εφόσον ισχύει βάσει κανονισμού ασφάλειας προϊόντων)",
-        "hu": "A termék viseli-e a CE-jelölést (ha alkalmazható a termékbiztonsági rendelet alapján)",
-        "ga": "An bhfuil marcáil CE ar an táirge (más infheidhme faoi rialachán sábháilteachta táirgí)",
-        "es": "Si el producto lleva marcado CE (cuando proceda conforme a la normativa de seguridad de productos)",
-        "lt": "Ar produktas pažymėtas CE ženklu (jei taikoma pagal produktų saugos reglamentą)",
-        "lv": "Vai produkts ir CE marķēts (ja piemērojams saskaņā ar produktu drošības regulu)",
-        "mt": "Jekk il-prodott iġorrx il-markatura CE (jekk applikabbli taħt ir-regolament tas-sigurtà tal-prodott)",
-        "pl": "Czy produkt posiada oznakowanie CE (jeżeli ma zastosowanie na mocy rozporządzenia w sprawie bezpieczeństwa produktów)",
-        "pt": "Se o produto exibe marcação CE (quando aplicável, nos termos do regulamento de segurança dos produtos)",
-        "ro": "Dacă produsul poartă marcajul CE (dacă este aplicabil conform regulamentului privind siguranța produselor)",
-        "sk": "Či produkt nesie označenie CE (ak je to relevantné podľa nariadenia o bezpečnosti výrobkov)",
-        "sl": "Ali je izdelek opremljen z oznako CE (kjer je to primerno na podlagi uredbe o varnosti izdelkov)",
-        "sv": "Om produkten bär CE-märkning (om tillämpligt enligt produktsäkerhetsförordning)"
-      },
-      "dataType": "boolean",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": true
-      },
-      "category": "compliance",
-      "categoryLabel": {
-        "en": "Compliance & Safety",
-        "bg": "Съответствие и безопасност",
-        "de": "Konformität & Sicherheit",
-        "it": "Conformità e Sicurezza",
-        "hr": "Usklađenost i sigurnost",
-        "cs": "Soulad a bezpečnost",
-        "da": "Overholdelse og sikkerhed",
-        "nl": "Naleving en veiligheid",
-        "et": "Vastavus ja ohutus",
-        "fi": "Vaatimustenmukaisuus ja turvallisuus",
-        "fr": "Conformité et sécurité",
-        "el": "Συμμόρφωση και ασφάλεια",
-        "hu": "Megfelelőség és biztonság",
-        "ga": "Comhlíonadh agus sábháilteacht",
-        "es": "Cumplimiento y seguridad",
-        "lt": "Atitiktis ir sauga",
-        "lv": "Atbilstība un drošība",
-        "mt": "Konformità u sigurtà",
-        "pl": "Zgodność i bezpieczeństwo",
-        "pt": "Conformidade e segurança",
-        "ro": "Conformitate și siguranță",
-        "sk": "Súlad a bezpečnosť",
-        "sl": "Skladnost in varnost",
-        "sv": "Efterlevnad och säkerhet"
-      },
-      "sortOrder": 65,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "General Product Safety Regulation (EU) 2023/988"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "CE mark",
-          "CE certified",
-          "CE compliant"
-        ],
-        "expectedFormat": "true/false",
-        "extractionPriority": 8
       }
     },
     {
@@ -8510,7 +8408,7 @@
       }
     },
     {
-      "key": "accessRights",
+      "key": "accessLevel",
       "label": {
         "en": "Access Rights",
         "bg": "Права за достъп",
@@ -8714,8 +8612,8 @@
       }
     }
   ],
-  "fieldCount": 80,
-  "requiredFieldCount": 54,
+  "fieldCount": 79,
+  "requiredFieldCount": 53,
   "categories": [
     {
       "key": "identification",
@@ -9079,5 +8977,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial furniture DPP template"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

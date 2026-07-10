@@ -26,7 +26,7 @@
     "es": "Joyería y metales preciosos",
     "sv": "Smycken och ädelmetaller"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Jewelry",
@@ -625,7 +625,7 @@
       }
     },
     {
-      "key": "batchNumber",
+      "key": "batchLotNumber",
       "label": {
         "en": "Batch Number",
         "bg": "Партиден номер",
@@ -6706,5 +6706,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial jewelry DPP template"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

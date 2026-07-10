@@ -1,0 +1,285 @@
+{
+  "_note": "Canonical unit registry. `unit` on a TemplateField must be one of these keys. Aliases are the historical spellings each key replaces.",
+  "units": {
+    "%": {
+      "qudt": "http://qudt.org/vocab/unit/PERCENT"
+    },
+    "weight_%": {
+      "qudt": "http://qudt.org/vocab/unit/PERCENT",
+      "note": "Mass fraction expressed as a percentage."
+    },
+    "%/month": {
+      "qudt": "http://qudt.org/vocab/unit/PERCENT-PER-MO"
+    },
+    "ppm": {
+      "qudt": "http://qudt.org/vocab/unit/PPM"
+    },
+    "years": {
+      "qudt": "http://qudt.org/vocab/unit/YR"
+    },
+    "months": {
+      "qudt": "http://qudt.org/vocab/unit/MO"
+    },
+    "hours": {
+      "qudt": "http://qudt.org/vocab/unit/HR"
+    },
+    "minutes": {
+      "qudt": "http://qudt.org/vocab/unit/MIN"
+    },
+    "kg": {
+      "qudt": "http://qudt.org/vocab/unit/KiloGM"
+    },
+    "g": {
+      "qudt": "http://qudt.org/vocab/unit/GM"
+    },
+    "W": {
+      "qudt": "http://qudt.org/vocab/unit/W"
+    },
+    "V": {
+      "qudt": "http://qudt.org/vocab/unit/V"
+    },
+    "Ohm": {
+      "qudt": "http://qudt.org/vocab/unit/OHM"
+    },
+    "kWh": {
+      "qudt": "http://qudt.org/vocab/unit/KiloW-HR"
+    },
+    "MJ": {
+      "qudt": "http://qudt.org/vocab/unit/MegaJ"
+    },
+    "J": {
+      "qudt": "http://qudt.org/vocab/unit/J"
+    },
+    "Ah": {
+      "qudt": "http://qudt.org/vocab/unit/A-HR"
+    },
+    "mAh": {
+      "qudt": "http://qudt.org/vocab/unit/MilliA-HR"
+    },
+    "Wh/kg": {
+      "qudt": "http://qudt.org/vocab/unit/W-HR-PER-KiloGM"
+    },
+    "MPa": {
+      "qudt": "http://qudt.org/vocab/unit/MegaPA"
+    },
+    "kPa": {
+      "qudt": "http://qudt.org/vocab/unit/KiloPA"
+    },
+    "N": {
+      "qudt": "http://qudt.org/vocab/unit/N"
+    },
+    "°C": {
+      "qudt": "http://qudt.org/vocab/unit/DEG_C"
+    },
+    "dB": {
+      "qudt": "http://qudt.org/vocab/unit/DeciB"
+    },
+    "mm": {
+      "qudt": "http://qudt.org/vocab/unit/MilliM"
+    },
+    "m": {
+      "qudt": "http://qudt.org/vocab/unit/M"
+    },
+    "km": {
+      "qudt": "http://qudt.org/vocab/unit/KiloM"
+    },
+    "inches": {
+      "qudt": "http://qudt.org/vocab/unit/IN"
+    },
+    "km/h": {
+      "qudt": "http://qudt.org/vocab/unit/KiloM-PER-HR"
+    },
+    "rpm": {
+      "qudt": "http://qudt.org/vocab/unit/REV-PER-MIN"
+    },
+    "L": {
+      "qudt": "http://qudt.org/vocab/unit/L",
+      "aliases": [
+        "litres",
+        "liters"
+      ]
+    },
+    "mL": {
+      "qudt": "http://qudt.org/vocab/unit/MilliL"
+    },
+    "g/L": {
+      "qudt": "http://qudt.org/vocab/unit/GM-PER-L"
+    },
+    "g/cm³": {
+      "qudt": "http://qudt.org/vocab/unit/GM-PER-CentiM3"
+    },
+    "kg/m3": {
+      "qudt": "http://qudt.org/vocab/unit/KiloGM-PER-M3"
+    },
+    "kg/24h": {
+      "qudt": "http://qudt.org/vocab/unit/KiloGM-PER-DAY"
+    },
+    "mg/m3": {
+      "qudt": "http://qudt.org/vocab/unit/MilliGM-PER-M3"
+    },
+    "ug/m3": {
+      "qudt": "http://qudt.org/vocab/unit/MicroGM-PER-M3"
+    },
+    "mg/kg": {
+      "qudt": "http://qudt.org/vocab/unit/MilliGM-PER-KiloGM"
+    },
+    "mPa·s": {
+      "qudt": "http://qudt.org/vocab/unit/MilliPA-SEC"
+    },
+    "ug/cm2/week": {
+      "qudt": "http://qudt.org/vocab/unit/MicroGM-PER-CentiM2",
+      "note": "Per-week rate; QUDT has the areal density, not the rate."
+    },
+    "GB": {
+      "qudt": "http://qudt.org/vocab/unit/GigaBYTE"
+    },
+    "TB": {
+      "qudt": "http://qudt.org/vocab/unit/TeraBYTE"
+    },
+    "kg CO2e": {
+      "declaredBy": "EF 3.1 / EN 15804+A2",
+      "aliases": [
+        "kg CO2eq",
+        "kg CO2 eq.",
+        "kg CO2-eq"
+      ],
+      "note": "QUDT has no CO2-equivalent UNIT. qudt:CO2Equivalent is a quantity kind (unit/CO2Equivalent is 404)."
+    },
+    "kg CFC-11 eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Ozone depletion potential reference unit."
+    },
+    "mol H+ eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Acidification potential."
+    },
+    "mol N eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Terrestrial eutrophication."
+    },
+    "kg N eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Marine eutrophication."
+    },
+    "kg P eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Freshwater eutrophication."
+    },
+    "kg NMVOC eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Photochemical ozone formation."
+    },
+    "kg Sb eq.": {
+      "declaredBy": "EN 15804+A2",
+      "note": "Abiotic depletion, elements."
+    },
+    "m3 world eq.": {
+      "declaredBy": "EF 3.1 / ISO 14046 (AWARE)",
+      "aliases": [
+        "m3 eq"
+      ],
+      "note": "Water-scarcity impact in cubic-metre world equivalents. NOT a volume. Distinct from 'l eq' by a factor of 1000."
+    },
+    "mPt": {
+      "declaredBy": "EF 3.1",
+      "note": "Weighted single score, millipoints."
+    },
+    "points": {
+      "declaredBy": "house",
+      "aliases": [
+        "points (0-100)"
+      ],
+      "note": "Dimensionless score. The 0-100 range belongs in validation.min/max, not the unit."
+    },
+    "cycles": {
+      "declaredBy": "house",
+      "note": "QUDT unit/CYCLE is 404."
+    },
+    "grade": {
+      "declaredBy": "house",
+      "note": "Ordinal class (e.g. PPWR recyclability A-E)."
+    },
+    "Mohs": {
+      "declaredBy": "house",
+      "note": "Ordinal hardness scale."
+    },
+    "ct": {
+      "declaredBy": "house",
+      "note": "Metric carat. QUDT unit/CARAT_Metric is 404."
+    },
+    "millesimal": {
+      "declaredBy": "house",
+      "note": "Precious-metal fineness (parts per thousand)."
+    },
+    "working days": {
+      "declaredBy": "house"
+    },
+    "dB(A)": {
+      "declaredBy": "house",
+      "note": "A-weighted sound level. Distinct from dB — do NOT alias."
+    },
+    "m²/L": {
+      "declaredBy": "house",
+      "note": "Coverage/spreading rate. QUDT unit/M2-PER-L is 404."
+    },
+    "% P2O5": {
+      "declaredBy": "house",
+      "note": "Phosphorus pentoxide equivalent mass fraction."
+    },
+    "N/kN": {
+      "declaredBy": "house",
+      "note": "Rolling-resistance coefficient (UNECE R117)."
+    },
+    "mg/km": {
+      "declaredBy": "house",
+      "note": "Tyre abrasion rate (Euro 7)."
+    },
+    "mg/kg per wash": {
+      "declaredBy": "house",
+      "note": "Microfibre release rate."
+    },
+    "l/wash": {
+      "declaredBy": "house"
+    },
+    "kg CO2e/kWh": {
+      "declaredBy": "EF 3.1",
+      "note": "Carbon intensity of energy."
+    },
+    "gCO2/kWh": {
+      "declaredBy": "EF 3.1"
+    },
+    "tCO2e/t": {
+      "declaredBy": "CBAM (EU) 2023/956",
+      "note": "Specific embedded emissions as CO2-EQUIVALENT (includes non-CO2 GHGs)."
+    },
+    "kgCO2e/kg": {
+      "declaredBy": "CBAM (EU) 2023/956",
+      "note": "Per-kilogram normalised footprint. Distinct from kg CO2e."
+    },
+    "kWh/t": {
+      "declaredBy": "house",
+      "note": "Specific energy consumption."
+    },
+    "EUR/tCO2": {
+      "declaredBy": "CBAM (EU) 2023/956",
+      "note": "Carbon price paid."
+    },
+    "l eq": {
+      "declaredBy": "ISO 14046 (AWARE)",
+      "note": "Water-scarcity impact in LITRE equivalents. Same impact category as 'm3 world eq.' but 1/1000 the magnitude — never alias the two."
+    },
+    "tCO2/t": {
+      "declaredBy": "CBAM (EU) 2023/956",
+      "note": "Specific embedded emissions of CO2 ONLY. Not interchangeable with tCO2e/t — different substance scope."
+    }
+  },
+  "aliases": {
+    "litres": "L",
+    "liters": "L",
+    "kg CO2eq": "kg CO2e",
+    "kg CO2 eq.": "kg CO2e",
+    "kg CO2-eq": "kg CO2e",
+    "m3 eq": "m3 world eq.",
+    "points (0-100)": "points"
+  }
+}

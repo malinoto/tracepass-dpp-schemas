@@ -26,7 +26,7 @@
     "sv": "Batteri",
     "el": "Μπαταρία"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",
@@ -2635,8 +2635,8 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 17",
-        "annex": "Annex VI"
+        "article": "Art. 20",
+        "annex": null
       },
       "aiHints": {
         "alternateNames": [
@@ -10898,6 +10898,201 @@
       }
     },
     {
+      "key": "ceMarkingStatus",
+      "label": {
+        "en": "CE Marking Status",
+        "bg": "Статус на CE маркиране",
+        "de": "CE-Kennzeichnungsstatus",
+        "lt": "CE ženklo būsena",
+        "es": "Estado del Marcado CE",
+        "hr": "Status CE oznake",
+        "cs": "Stav označení CE",
+        "da": "CE-mærkningsstatus",
+        "nl": "Status CE-markering",
+        "et": "CE-märgistuse olek",
+        "fi": "CE-merkinnän tila",
+        "fr": "Statut du marquage CE",
+        "el": "Κατάσταση σήμανσης CE",
+        "hu": "CE-jelölés állapota",
+        "ga": "Stádas marcála CE",
+        "it": "Stato della marcatura CE",
+        "lv": "CE marķējuma statuss",
+        "mt": "Status tal-Immarkar CE",
+        "pl": "Status oznakowania CE",
+        "pt": "Estado da marcação CE",
+        "ro": "Statutul marcajului CE",
+        "sk": "Stav označenia CE",
+        "sl": "Status oznake CE",
+        "sv": "CE-märkningsstatus"
+      },
+      "description": {
+        "en": "Whether the product bears CE marking and its validity",
+        "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
+        "es": "Si el producto lleva marcado CE y su validez",
+        "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
+        "cs": "Zda výrobek nese označení CE a jeho platnost",
+        "da": "Hvorvidt produktet bærer CE-mærkning og dens gyldighed",
+        "nl": "Of het product CE-markering draagt en de geldigheid ervan",
+        "et": "Kas tootel on CE-märgistus ja selle kehtivus",
+        "fi": "Onko tuotteessa CE-merkintä ja sen voimassaolo",
+        "fr": "Si le produit porte le marquage CE et sa validité",
+        "el": "Εάν το προϊόν φέρει σήμανση CE και η εγκυρότητά της",
+        "hu": "Visel-e a termék CE-jelölést és annak érvényessége",
+        "ga": "An bhfuil marcáil CE ar an táirge agus a bailíocht",
+        "it": "Se il prodotto reca la marcatura CE e la sua validità",
+        "lv": "Vai produktam ir CE marķējums un tā derīgums",
+        "mt": "Jekk il-prodott iġorrx il-markatura CE u l-validità tagħha",
+        "pl": "Czy produkt jest opatrzony oznakowaniem CE oraz jego ważność",
+        "pt": "Se o produto ostenta a marcação CE e a sua validade",
+        "ro": "Dacă produsul poartă marcajul CE și valabilitatea acestuia",
+        "sk": "Či produkt nesie označenie CE a jeho platnosť",
+        "sl": "Ali ima izdelek oznako CE in njena veljavnost",
+        "sv": "Om produkten är CE-märkt och märkningens giltighet"
+      },
+      "dataType": "enum",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [
+        {
+          "value": "marked",
+          "label": {
+            "en": "CE Marked",
+            "bg": "CE маркирано",
+            "de": "CE-gekennzeichnet",
+            "lt": "CE žymėtas",
+            "es": "Marcado CE",
+            "hr": "Označeno CE",
+            "cs": "Označeno CE",
+            "da": "CE-mærket",
+            "nl": "CE-gemarkeerd",
+            "et": "CE-märgistatud",
+            "fi": "CE-merkitty",
+            "fr": "Marqué CE",
+            "el": "Φέρει σήμανση CE",
+            "hu": "CE-jelölt",
+            "ga": "Marcáilte CE",
+            "it": "Marcato CE",
+            "lv": "CE marķēts",
+            "mt": "Immarkat CE",
+            "pl": "Oznakowany CE",
+            "pt": "Com marcação CE",
+            "ro": "Marcat CE",
+            "sk": "Označený CE",
+            "sl": "Označeno CE",
+            "sv": "CE-märkt"
+          }
+        },
+        {
+          "value": "pending",
+          "label": {
+            "en": "Pending",
+            "bg": "В процес",
+            "de": "Ausstehend",
+            "lt": "Laukiama",
+            "es": "Pendiente",
+            "hr": "U tijeku",
+            "cs": "Probíhá",
+            "da": "Afventer",
+            "nl": "In behandeling",
+            "et": "Menetluses",
+            "fi": "Odottaa",
+            "fr": "En attente",
+            "el": "Εκκρεμεί",
+            "hu": "Folyamatban",
+            "ga": "Ar feitheamh",
+            "it": "In sospeso",
+            "lv": "Gaida apstrādi",
+            "mt": "Pendenti",
+            "pl": "Oczekujące",
+            "pt": "Pendente",
+            "ro": "În așteptare",
+            "sk": "Čaká na spracovanie",
+            "sl": "V obdelavi",
+            "sv": "Väntande"
+          }
+        },
+        {
+          "value": "not_applicable",
+          "label": {
+            "en": "Not Applicable",
+            "bg": "Неприложимо",
+            "de": "Nicht zutreffend",
+            "lt": "Netaikoma",
+            "es": "No Aplicable",
+            "hr": "Nije primjenjivo",
+            "cs": "Neaplikovatelné",
+            "da": "Ikke relevant",
+            "nl": "Niet van toepassing",
+            "et": "Ei kohaldata",
+            "fi": "Ei sovellettavissa",
+            "fr": "Sans objet",
+            "el": "Μη εφαρμόσιμο",
+            "hu": "Nem alkalmazható",
+            "ga": "Neamhbhainteach",
+            "it": "Non applicabile",
+            "lv": "Nav piemērojams",
+            "mt": "Mhux Applikabbli",
+            "pl": "Nie dotyczy",
+            "pt": "Não aplicável",
+            "ro": "Nu se aplică",
+            "sk": "Neuplatňuje sa",
+            "sl": "Ni relevantno",
+            "sv": "Ej tillämpligt"
+          }
+        }
+      ],
+      "validation": {
+        "required": true,
+        "minLength": null,
+        "maxLength": null,
+        "min": null,
+        "max": null,
+        "pattern": null
+      },
+      "category": "labels_markings",
+      "categoryLabel": {
+        "en": "Labels, Symbols & Conformity",
+        "bg": "Етикети, символи и съответствие",
+        "de": "Kennzeichnungen, Symbole & Konformität",
+        "hr": "Oznake, simboli i sukladnost",
+        "cs": "Štítky, symboly a shoda",
+        "da": "Mærker, symboler og overensstemmelse",
+        "nl": "Labels, symbolen en conformiteit",
+        "et": "Sildid, sümbolid ja vastavus",
+        "fi": "Merkinnät, symbolit ja vaatimustenmukaisuus",
+        "fr": "Étiquettes, symboles et conformité",
+        "hu": "Címkék, szimbólumok és megfelelőség",
+        "ga": "Lipéid, Siombail agus Comhfhonméad",
+        "it": "Etichette, Simboli e Conformità",
+        "lv": "Etiķetes, simboli un atbilstība",
+        "lt": "Žymos, simboliai ir atitiktis",
+        "mt": "Etiketti, Simboli u Konformità",
+        "pl": "Etykiety, symbole i zgodność",
+        "pt": "Etiquetas, Símbolos e Conformidade",
+        "ro": "Etichete, Simboluri și Conformitate",
+        "sk": "Označenia, symboly a zhoda",
+        "sl": "Oznake, simboli in skladnost",
+        "es": "Etiquetas, Símbolos y Conformidad",
+        "sv": "Etiketter, symboler och överensstämmelse",
+        "el": "Σημάνσεις, σύμβολα και συμμόρφωση"
+      },
+      "sortOrder": 22,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 20",
+        "annex": null
+      },
+      "aiHints": {
+        "alternateNames": [
+          "CE marking status",
+          "conformity assessment status"
+        ],
+        "expectedFormat": "marked | pending | not_applicable",
+        "extractionPriority": 6
+      }
+    },
+    {
       "key": "extinguishingAgent",
       "label": {
         "en": "Extinguishing Agent",
@@ -11009,8 +11204,8 @@
       }
     }
   ],
-  "fieldCount": 94,
-  "requiredFieldCount": 94,
+  "fieldCount": 95,
+  "requiredFieldCount": 95,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",
@@ -11022,5 +11217,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "Initial battery passport template based on Battery Pass Consortium Content Guidance v1.0"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }

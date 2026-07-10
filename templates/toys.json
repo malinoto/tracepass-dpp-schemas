@@ -26,7 +26,7 @@
     "es": "Juguetes",
     "sv": "Leksaker"
   },
-  "version": 1,
+  "version": 2,
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Toys",
@@ -459,7 +459,7 @@
       }
     },
     {
-      "key": "batchNumber",
+      "key": "batchLotNumber",
       "label": {
         "en": "Batch / Serial Number",
         "bg": "Партида / Сериен номер",
@@ -868,7 +868,8 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 16; ESPR Art. 9"
+        "article": "Art. 17",
+        "annex": null
       },
       "aiHints": {
         "alternateNames": [
@@ -2374,7 +2375,7 @@
       }
     },
     {
-      "key": "recycledContentPercent",
+      "key": "recycledContentPercentage",
       "label": {
         "en": "Recycled Content (%)",
         "bg": "Рециклирано съдържание (%)",
@@ -3395,10 +3396,205 @@
         "expectedFormat": "Object with keys: name (string), address (string), email (string), eoriNumber (string)",
         "extractionPriority": 3
       }
+    },
+    {
+      "key": "ceMarkingStatus",
+      "label": {
+        "en": "CE Marking Status",
+        "bg": "Статус на CE маркиране",
+        "de": "CE-Kennzeichnungsstatus",
+        "lt": "CE ženklo būsena",
+        "es": "Estado del Marcado CE",
+        "hr": "Status CE oznake",
+        "cs": "Stav označení CE",
+        "da": "CE-mærkningsstatus",
+        "nl": "Status CE-markering",
+        "et": "CE-märgistuse olek",
+        "fi": "CE-merkinnän tila",
+        "fr": "Statut du marquage CE",
+        "el": "Κατάσταση σήμανσης CE",
+        "hu": "CE-jelölés állapota",
+        "ga": "Stádas marcála CE",
+        "it": "Stato della marcatura CE",
+        "lv": "CE marķējuma statuss",
+        "mt": "Status tal-Immarkar CE",
+        "pl": "Status oznakowania CE",
+        "pt": "Estado da marcação CE",
+        "ro": "Statutul marcajului CE",
+        "sk": "Stav označenia CE",
+        "sl": "Status oznake CE",
+        "sv": "CE-märkningsstatus"
+      },
+      "description": {
+        "en": "Whether the product bears CE marking and its validity",
+        "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
+        "es": "Si el producto lleva marcado CE y su validez",
+        "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
+        "cs": "Zda výrobek nese označení CE a jeho platnost",
+        "da": "Hvorvidt produktet bærer CE-mærkning og dens gyldighed",
+        "nl": "Of het product CE-markering draagt en de geldigheid ervan",
+        "et": "Kas tootel on CE-märgistus ja selle kehtivus",
+        "fi": "Onko tuotteessa CE-merkintä ja sen voimassaolo",
+        "fr": "Si le produit porte le marquage CE et sa validité",
+        "el": "Εάν το προϊόν φέρει σήμανση CE και η εγκυρότητά της",
+        "hu": "Visel-e a termék CE-jelölést és annak érvényessége",
+        "ga": "An bhfuil marcáil CE ar an táirge agus a bailíocht",
+        "it": "Se il prodotto reca la marcatura CE e la sua validità",
+        "lv": "Vai produktam ir CE marķējums un tā derīgums",
+        "mt": "Jekk il-prodott iġorrx il-markatura CE u l-validità tagħha",
+        "pl": "Czy produkt jest opatrzony oznakowaniem CE oraz jego ważność",
+        "pt": "Se o produto ostenta a marcação CE e a sua validade",
+        "ro": "Dacă produsul poartă marcajul CE și valabilitatea acestuia",
+        "sk": "Či produkt nesie označenie CE a jeho platnosť",
+        "sl": "Ali ima izdelek oznako CE in njena veljavnost",
+        "sv": "Om produkten är CE-märkt och märkningens giltighet"
+      },
+      "dataType": "enum",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [
+        {
+          "value": "marked",
+          "label": {
+            "en": "CE Marked",
+            "bg": "CE маркирано",
+            "de": "CE-gekennzeichnet",
+            "lt": "CE žymėtas",
+            "es": "Marcado CE",
+            "hr": "Označeno CE",
+            "cs": "Označeno CE",
+            "da": "CE-mærket",
+            "nl": "CE-gemarkeerd",
+            "et": "CE-märgistatud",
+            "fi": "CE-merkitty",
+            "fr": "Marqué CE",
+            "el": "Φέρει σήμανση CE",
+            "hu": "CE-jelölt",
+            "ga": "Marcáilte CE",
+            "it": "Marcato CE",
+            "lv": "CE marķēts",
+            "mt": "Immarkat CE",
+            "pl": "Oznakowany CE",
+            "pt": "Com marcação CE",
+            "ro": "Marcat CE",
+            "sk": "Označený CE",
+            "sl": "Označeno CE",
+            "sv": "CE-märkt"
+          }
+        },
+        {
+          "value": "pending",
+          "label": {
+            "en": "Pending",
+            "bg": "В процес",
+            "de": "Ausstehend",
+            "lt": "Laukiama",
+            "es": "Pendiente",
+            "hr": "U tijeku",
+            "cs": "Probíhá",
+            "da": "Afventer",
+            "nl": "In behandeling",
+            "et": "Menetluses",
+            "fi": "Odottaa",
+            "fr": "En attente",
+            "el": "Εκκρεμεί",
+            "hu": "Folyamatban",
+            "ga": "Ar feitheamh",
+            "it": "In sospeso",
+            "lv": "Gaida apstrādi",
+            "mt": "Pendenti",
+            "pl": "Oczekujące",
+            "pt": "Pendente",
+            "ro": "În așteptare",
+            "sk": "Čaká na spracovanie",
+            "sl": "V obdelavi",
+            "sv": "Väntande"
+          }
+        },
+        {
+          "value": "not_applicable",
+          "label": {
+            "en": "Not Applicable",
+            "bg": "Неприложимо",
+            "de": "Nicht zutreffend",
+            "lt": "Netaikoma",
+            "es": "No Aplicable",
+            "hr": "Nije primjenjivo",
+            "cs": "Neaplikovatelné",
+            "da": "Ikke relevant",
+            "nl": "Niet van toepassing",
+            "et": "Ei kohaldata",
+            "fi": "Ei sovellettavissa",
+            "fr": "Sans objet",
+            "el": "Μη εφαρμόσιμο",
+            "hu": "Nem alkalmazható",
+            "ga": "Neamhbhainteach",
+            "it": "Non applicabile",
+            "lv": "Nav piemērojams",
+            "mt": "Mhux Applikabbli",
+            "pl": "Nie dotyczy",
+            "pt": "Não aplicável",
+            "ro": "Nu se aplică",
+            "sk": "Neuplatňuje sa",
+            "sl": "Ni relevantno",
+            "sv": "Ej tillämpligt"
+          }
+        }
+      ],
+      "validation": {
+        "required": true,
+        "minLength": null,
+        "maxLength": null,
+        "min": null,
+        "max": null,
+        "pattern": null
+      },
+      "category": "safety",
+      "categoryLabel": {
+        "en": "Safety & Compliance",
+        "bg": "Безопасност и съответствие",
+        "de": "Sicherheit & Konformität",
+        "nl": "Veiligheid en naleving",
+        "it": "Sicurezza e Conformità",
+        "hr": "Sigurnost i sukladnost",
+        "cs": "Bezpečnost a shoda",
+        "da": "Sikkerhed og overensstemmelse",
+        "et": "Ohutus ja vastavus",
+        "fi": "Turvallisuus ja vaatimustenmukaisuus",
+        "fr": "Sécurité et conformité",
+        "el": "Ασφάλεια και συμμόρφωση",
+        "hu": "Biztonság és megfelelőség",
+        "ga": "Sábháilteacht agus comhlíonadh",
+        "lv": "Drošība un atbilstība",
+        "lt": "Sauga ir atitiktis",
+        "mt": "Sigurtà u konformità",
+        "pl": "Bezpieczeństwo i zgodność",
+        "pt": "Segurança e conformidade",
+        "ro": "Siguranță și conformitate",
+        "sk": "Bezpečnosť a súlad",
+        "sl": "Varnost in skladnost",
+        "es": "Seguridad y conformidad",
+        "sv": "Säkerhet och efterlevnad"
+      },
+      "sortOrder": 9,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 17",
+        "annex": null
+      },
+      "aiHints": {
+        "alternateNames": [
+          "CE marking status",
+          "conformity assessment status"
+        ],
+        "expectedFormat": "marked | pending | not_applicable",
+        "extractionPriority": 6
+      }
     }
   ],
-  "fieldCount": 27,
-  "requiredFieldCount": 15,
+  "fieldCount": 28,
+  "requiredFieldCount": 16,
   "categories": [
     {
       "key": "general_info",
@@ -3612,5 +3808,5 @@
     }
   ],
   "createdBy": "system",
-  "changelog": "Initial toys DPP template based on ESPR + Toy Safety Directive + EN 71"
+  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
 }
