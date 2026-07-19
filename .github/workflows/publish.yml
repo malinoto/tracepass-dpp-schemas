@@ -1,0 +1,80 @@
+# Publishes @tracepass/dpp-schemas to npm on every v*.*.* tag push, with an
+# npm provenance attestation. Provenance lets anyone cryptographically verify
+# the package was built by this exact workflow, from this exact repository and
+# commit — see https://docs.npmjs.com/generating-provenance-statements.
+#
+# ─── ONE-TIME SETUP ────────────────────────────────────────────────────────────
+#
+# OIDC Trusted Publishing (no long-lived secrets):
+#
+#   1. https://www.npmjs.com/package/@tracepass/dpp-schemas/access
+#      (the package already exists from the bootstrap publish).
+#   2. Trusted Publishers → Add a publisher → GitHub Actions.
+#   3. Organization or user: malinoto
+#      Repository:           tracepass-dpp-schemas
+#      Workflow filename:    publish.yml   (filename only)
+#      Environment name:     (leave blank)
+#   4. Allowed actions: tick npm publish.
+#   5. Save. The repo must be PUBLIC for provenance to be accepted.
+#
+# ─── RELEASE FLOW ──────────────────────────────────────────────────────────────
+#
+#   npm version patch        # bumps package.json + creates the git tag
+#   git push && git push origin v$(node -p "require('./package.json').version")
+#
+# The workflow validates the 12 templates against schema.json, then publishes.
+
+name: Publish
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Required to mint an OIDC token for npm provenance attestation.
+      id-token: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 'lts/*'
+          # Without registry-url, `npm publish` 404s before it can attempt the
+          # OIDC exchange.
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Upgrade npm
+        # Trusted publishing via OIDC needs npm CLI >= 11.5.1.
+        run: npm install --global npm@latest
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install validator
+        run: pip install jsonschema
+
+      - name: Validate templates against schema.json
+        # Fails the release if any of the 12 templates no longer conforms.
+        run: |
+          npm run validate | tee /tmp/validate.out
+          if grep -q FAIL /tmp/validate.out; then
+            echo "::error::One or more templates failed schema validation"
+            exit 1
+          fi
+
+      - name: Publish to npm
+        # No NODE_AUTH_TOKEN: an empty token would make npm reject with
+        # ENEEDAUTH before attempting OIDC. Absent ⇒ OIDC engages cleanly.
+        # Provenance comes from publishConfig.provenance: true in package.json.
+        run: npm publish
