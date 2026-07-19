@@ -1,7 +1,7 @@
 {
   "name": "@tracepass/dpp-schemas",
   "version": "0.1.0",
-  "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 12 product categories, 910 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
+  "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 12 product categories, 913 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
   "keywords": [
     "digital-product-passport",
     "dpp",
@@ -31,6 +31,8 @@
     "templates",
     "schema.json",
     "index.json",
+    "instruments.json",
+    "units.json",
     "README.md",
     "LICENSE"
   ],
