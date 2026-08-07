@@ -26,7 +26,7 @@
     "sv": "Batteri",
     "el": "Μπαταρία"
   },
-  "version": 2,
+  "version": 3,
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",
@@ -98,7 +98,7 @@
         "max": null,
         "minLength": 1,
         "maxLength": 255,
-        "pattern": "^https://id\\.gs1\\.org/.*$"
+        "pattern": "^https://[^/]+/01/\\d{14}(/.*)?$"
       },
       "category": "general_info",
       "categoryLabel": {
@@ -131,9 +131,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": null,
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Art. 77(3)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -769,7 +769,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": 5,
@@ -881,7 +881,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": 1,
@@ -1543,10 +1543,10 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "article": "Art. 38(6)",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex VI Part A",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1802,11 +1802,11 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(c)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -1914,10 +1914,10 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(1)",
+        "article": "Art. 13(4)",
         "annex": "Annex VI",
         "instrument": "32023R1542",
-        "provision": "Art. 13(1)",
+        "provision": "Art. 13(4)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1989,7 +1989,7 @@
       "defaultValue": false,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
@@ -2026,10 +2026,10 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(4)",
+        "article": "Art. 13(5)",
         "annex": "Annex VI",
         "instrument": "32023R1542",
-        "provision": "Art. 13(4)",
+        "provision": "Art. 13(5)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -2100,7 +2100,7 @@
       "defaultValue": false,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
@@ -2137,10 +2137,10 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(4)",
+        "article": "Art. 13(5)",
         "annex": "Annex VI",
         "instrument": "32023R1542",
-        "provision": "Art. 13(4)",
+        "provision": "Art. 13(5)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -2211,12 +2211,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "labels_markings",
       "categoryLabel": {
@@ -2770,12 +2772,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -2883,12 +2887,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -2995,12 +3001,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3106,12 +3114,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3218,12 +3228,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3534,12 +3546,14 @@
         }
       ],
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3647,12 +3661,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": "^https?://.*$",
+        "anticipated": true,
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3759,12 +3775,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": "^https?://.*$",
+        "anticipated": true,
+        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -3871,12 +3889,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": "^https?://.*$",
+        "anticipated": true,
+        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -3982,12 +4002,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": "^https?://.*$",
+        "anticipated": true,
+        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4131,10 +4153,10 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "article": "Art. 38(6)",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex VI Part A",
         "kind": "legislation"
       },
       "aiHints": {
@@ -4246,11 +4268,11 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -4358,11 +4380,11 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -4470,11 +4492,11 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -4582,10 +4604,10 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "article": "Art. 38(6)",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex VI Part A",
         "kind": "legislation"
       },
       "aiHints": {
@@ -4698,10 +4720,10 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "article": "Art. 38(6)",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex VI Part A",
         "kind": "legislation"
       },
       "aiHints": {
@@ -5589,11 +5611,11 @@
       "sortOrder": 45,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(c)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -5812,11 +5834,11 @@
       "sortOrder": 47,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(b)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -5924,11 +5946,11 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 2(d)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6347,11 +6369,11 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(g)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6459,11 +6481,11 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(h)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6571,11 +6593,11 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(h)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6683,11 +6705,11 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(h)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6794,11 +6816,11 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(i)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -6906,11 +6928,11 @@
       "sortOrder": 56,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(i)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7092,12 +7114,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -7129,11 +7156,11 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(n)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7241,11 +7268,11 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(o)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7353,11 +7380,11 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(o)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7465,11 +7492,11 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(o)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7875,12 +7902,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -7912,11 +7944,11 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(j)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -7987,12 +8019,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -8024,11 +8061,11 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -8099,12 +8136,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": 1,
         "maxLength": 2000,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -8136,11 +8178,11 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(j)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -8211,12 +8253,17 @@
       "defaultValue": 80,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "notApplicable",
+          "industrial_gt_2kwh": "notApplicable"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -8249,9 +8296,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 1(k)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -8360,11 +8407,11 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(l)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -8471,11 +8518,11 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(l)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -8545,12 +8592,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -8582,11 +8634,11 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(p)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -8657,7 +8709,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -8694,11 +8746,11 @@
       "sortOrder": 72,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(m)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -9110,7 +9162,7 @@
       "defaultValue": 100,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -9147,11 +9199,11 @@
       "sortOrder": 75,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(b)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -9223,12 +9275,17 @@
       "defaultValue": 100,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "notApplicable",
+          "industrial_gt_2kwh": "notApplicable"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9261,9 +9318,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(b)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -9334,12 +9391,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9372,9 +9434,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(b)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -9445,12 +9507,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9483,9 +9550,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(b)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -9556,7 +9623,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -9667,12 +9734,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9705,9 +9777,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(b)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -9778,12 +9850,17 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9815,11 +9892,11 @@
       "sortOrder": 81,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -9889,12 +9966,17 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -9926,11 +10008,11 @@
       "sortOrder": 82,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10000,12 +10082,17 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -10037,11 +10124,11 @@
       "sortOrder": 83,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10111,7 +10198,7 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -10148,11 +10235,11 @@
       "sortOrder": 84,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(a)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10222,12 +10309,17 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -10260,9 +10352,9 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(b)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -10333,7 +10425,7 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -10370,10 +10462,10 @@
       "sortOrder": 86,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "article": "Annex XIII 4(d)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 4(d)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -10445,7 +10537,7 @@
       "defaultValue": 0,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -10482,11 +10574,11 @@
       "sortOrder": 87,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(d)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10668,7 +10760,7 @@
       "defaultValue": [],
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": 0,
@@ -10705,11 +10797,11 @@
       "sortOrder": 89,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(d)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10781,7 +10873,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -10818,11 +10910,11 @@
       "sortOrder": 90,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(d)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -10894,7 +10986,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
@@ -10931,11 +11023,11 @@
       "sortOrder": 91,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VII",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "provision": "Annex XIII 4(d)",
+        "kind": "legislation",
+        "article": "Art. 77"
       },
       "aiHints": {
         "alternateNames": [
@@ -11487,10 +11579,2155 @@
         "expectedFormat": "e.g. 'Water mist or CO2; fire class D'",
         "extractionPriority": 6
       }
+    },
+    {
+      "key": "renewableContentShare",
+      "label": {
+        "en": "Share of Renewable Content"
+      },
+      "description": {
+        "en": "Percentage share of renewable content in the battery (Annex XIII 1(f))"
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": true,
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "materials_composition",
+      "categoryLabel": {
+        "en": "Materials Composition & Recycled Content",
+        "bg": "Материален състав и рециклирано съдържание",
+        "de": "Materialzusammensetzung & Recyclinggehalt",
+        "hr": "Sastav materijala i reciklirani sadržaj",
+        "cs": "Složení materiálu a obsah recyklovaného obsahu",
+        "da": "Materialsammensætning og genbrugsindhold",
+        "nl": "Materiaalsamenstelling en gerecycleerd gehalte",
+        "et": "Materjali koostis ja ringlussevõetud sisu",
+        "fi": "Materiaalin koostumus ja kierrätetty sisältö",
+        "fr": "Composition des matériaux et contenu recyclé",
+        "hu": "Anyagösszetétel és újrahasznosított tartalom",
+        "ga": "Comhdhéanamh Ábhair agus Ábhar Athchúrsáilte",
+        "it": "Composizione dei Materiali e Contenuto Riciclato",
+        "lv": "Materiāla sastāvs un pārstrādātais saturs",
+        "lt": "Medžiagų sudėtis ir perdirbtas turinys",
+        "mt": "Kompożizzjoni tal-Materjali u Kontenut Riċiklat",
+        "pl": "Skład materiałowy i zawartość materiałów z recyklingu",
+        "pt": "Composição de Materiais e Conteúdo Reciclado",
+        "ro": "Compoziția materialelor și conținut reciclat",
+        "sk": "Zloženie materiálov a recyklovaný obsah",
+        "sl": "Sestava materialov in reciklirana vsebina",
+        "es": "Composición de Materiales y Contenido Reciclado",
+        "sv": "Materialsammansättning och återvunnet innehåll",
+        "el": "Σύνθεση υλικών και ανακυκλωμένο περιεχόμενο"
+      },
+      "sortOrder": 95,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 1(f)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 1(f)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "renewable content",
+          "renewable share",
+          "share of renewable",
+          "renewable material percentage"
+        ],
+        "expectedFormat": "Percentage 0-100",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "roundTripEfficiencyAtHalfCycleLife",
+      "label": {
+        "en": "Round-Trip Energy Efficiency at 50% of Cycle-Life"
+      },
+      "description": {
+        "en": "Energy round-trip efficiency measured at 50% of the battery's rated cycle-life (Annex XIII 1(n) DP 37). Distinct from the t=0 measurement in initialEnergyRoundTripEfficiency."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 96,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 1(n)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 1(n)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "round trip efficiency at 50% cycle life",
+          "energy efficiency at half life",
+          "RTE at 50% cycles",
+          "efficiency at half cycle life"
+        ],
+        "expectedFormat": "Percentage 0-100",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "componentPartNumbers",
+      "label": {
+        "en": "Part Numbers for Components"
+      },
+      "description": {
+        "en": "Part numbers for components subject to replacement, per Annex XIII 2(b). Structured list with component name and part number."
+      },
+      "dataType": "array",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": true,
+        "minLength": null,
+        "maxLength": null,
+        "min": null,
+        "max": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbronefficiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörösgadaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 97,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 2(b)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 2(b)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "part numbers",
+          "component part numbers",
+          "replacement part numbers",
+          "parts list"
+        ],
+        "expectedFormat": "Array of objects with componentName and partNumber",
+        "extractionPriority": 4
+      }
+    },
+    {
+      "key": "dynamicPowerCapability",
+      "label": {
+        "en": "Power Capability (Dynamic, in W)"
+      },
+      "description": {
+        "en": "In-service power capability in watts, measured dynamically per Annex XIII 4(a) DP 53. Distinct from originalPowerCapability which is the static nameplate value at manufacture."
+      },
+      "dataType": "number",
+      "unit": "W",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 98,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(a)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(a)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "dynamic power",
+          "in-service power",
+          "current power capability",
+          "power in watts"
+        ],
+        "expectedFormat": "Power in Watts (W)",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "dynamicEnergyRoundTripEfficiency",
+      "label": {
+        "en": "Energy Round-Trip Efficiency (Dynamic, %)"
+      },
+      "description": {
+        "en": "Where applicable, in-service energy round-trip efficiency percentage per Annex XIII 4(a) DP 57. Conditional for all three battery categories."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 99,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(a)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(a)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "dynamic energy round trip efficiency",
+          "in-service energy efficiency",
+          "round trip efficiency percentage",
+          "energy RTE"
+        ],
+        "expectedFormat": "Percentage 0-100",
+        "extractionPriority": 4
+      }
+    },
+    {
+      "key": "dynamicRatedCapacity",
+      "label": {
+        "en": "Rated Capacity (Dynamic, in Ah)"
+      },
+      "description": {
+        "en": "In-service capacity in ampere-hours, measured dynamically per Annex XIII 4(a) DP 51. The guidance defines it as \"same as data point 11 (capacity), but now dynamic\" — so it is the same quantity as ratedCapacity (Annex XIII 1(g)) re-measured in service, not a second nameplate figure."
+      },
+      "dataType": "number",
+      "unit": "Ah",
+      "translatable": false,
+      "defaultValue": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 101,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(a)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(a)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "dynamic capacity",
+          "in-service capacity",
+          "measured capacity",
+          "current capacity"
+        ],
+        "expectedFormat": "Capacity in ampere-hours (Ah)",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "dynamicInternalResistance",
+      "label": {
+        "en": "Internal Resistance (Dynamic, in Ω)"
+      },
+      "description": {
+        "en": "In-service internal resistance in ohms, measured dynamically per Annex XIII 4(a) DP 55. Distinct from initialInternalResistancePack (Annex XIII 1(o)), the static value at manufacture, and from currentInternalResistancePack (Annex XIII 4(b)), which is the state-of-health reading that must not be filled for EV."
+      },
+      "dataType": "number",
+      "unit": "Ohm",
+      "translatable": false,
+      "defaultValue": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 102,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(a)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(a)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "dynamic internal resistance",
+          "in-service resistance",
+          "measured internal resistance"
+        ],
+        "expectedFormat": "Resistance in ohms (Ω)",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "dynamicExpectedLifetimeCycles",
+      "label": {
+        "en": "Expected Lifetime (Dynamic, in cycles)"
+      },
+      "description": {
+        "en": "Expected remaining lifetime in cycles under the battery's design reference conditions, per Annex XIII 4(a) DP 59 — the in-service re-estimate. Distinct from expectedLifetimeCycles (Annex XIII 1(j)), the design figure declared at manufacture. Excluded for non-cycle applications."
+      },
+      "dataType": "number",
+      "unit": "cycles",
+      "translatable": false,
+      "defaultValue": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 103,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(a)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(a)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "dynamic expected lifetime",
+          "remaining cycles",
+          "in-service cycle life"
+        ],
+        "expectedFormat": "Whole number of cycles",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "remainingRoundTripEfficiency",
+      "label": {
+        "en": "Remaining Round-Trip Efficiency"
+      },
+      "description": {
+        "en": "Where possible, the remaining energy round-trip efficiency as part of the state-of-health information per Annex XIII 4(b) DP 64. Applies to LMT batteries (mandatory); conditional for industrial; not applicable to EV."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "required",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и издръжливост",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Izvedba i trajnost",
+        "cs": "Výkon a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíocht agus Inbhuanaitheacht",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un izturība",
+        "lt": "Efektyvumas ir ilgaamžiškumas",
+        "mt": "Prestazzjonijiet u Durabbiltà",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkon a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Rendimiento y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Απόδοση και αντοχή"
+      },
+      "sortOrder": 100,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(b)",
+        "annex": "Annex XIII",
+        "kind": "legislation",
+        "article": "Annex XIII 4(b)"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "remaining round trip efficiency",
+          "remaining RTE",
+          "remaining energy efficiency",
+          "remaining round-trip efficiency"
+        ],
+        "expectedFormat": "Percentage 0-100",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "preConsumerRecycledNickelShare",
+      "label": {
+        "en": "Pre-Consumer Recycled Nickel Share",
+        "bg": "Дял на рециклиран никел от предпотребителски отпадъци",
+        "de": "Vorverbraucher-Recyclinganteil — Nickel",
+        "hr": "Predpotrošački udio recikliranog nickela",
+        "cs": "Předspotřebitelský podíl recyklovaného nickelu",
+        "da": "Forforbruger genanvendt nickel",
+        "nl": "Pre-consument gerecycled nickel",
+        "et": "Tarbijaeelne ringlusnickel",
+        "fi": "Esikulüttajan kierrätetty nickel",
+        "fr": "Part pré-consommateur de nickel recyclé",
+        "hu": "Fogyasztás előtti jrahasznosított nickel",
+        "ga": "Sciar Nickel Athchúrsáilte Réamh-Tomhaltóra",
+        "it": "Quota Pre-Consumatore di Nickel Riciclato",
+        "lv": "Pirmspatēriņa pārstrādāts nickels",
+        "lt": "Ikivartotojinis perdirbtas nickels",
+        "mt": "Sehem Nickel Riċiklat Qabel il-Konsum",
+        "pl": "Przedkonsumencki recykling nickelu",
+        "pt": "Quota Pré-Consumidor de Nickel Reciclado",
+        "ro": "Cotă Pre-Consum de Nickel Reciclat",
+        "sk": "Predspotrebitelský podiel recyklovaného nickelu",
+        "sl": "Predpotrošniški delež predelanega nickela",
+        "es": "Cuota Pre-Consumidor de Nickel Reciclado",
+        "sv": "Förkonsument återvunnet nickel",
+        "el": "Μερίδιο ανακυκλωμένου νικελίου από απόβλητα προ της κατανάλωσης"
+      },
+      "description": {
+        "en": "Percentage of Nickel from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentNickel figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak nickel iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento nickel z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af nickel fra pre-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage nickel uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Nickel protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Nickeln osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de nickel issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
+        "hu": "A pre-consumer újrahasznosított hulladékból származó nickel százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán nickel ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di nickel da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
+        "lv": "Nickel procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Nickel procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' nickel minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent nickel z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de nickel proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de nickel din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel nickel z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek nickel iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de nickel de residuos reciclados pre-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel nickel från pre-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο νικελίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 104,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1); Art. 3, 1(51)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "pre-consumer recycled nickel",
+          "pre-consumer nickel content",
+          "nickel from pre-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "preConsumerRecycledCobaltShare",
+      "label": {
+        "en": "Pre-Consumer Recycled Cobalt Share",
+        "bg": "Дял на рециклиран кобалт от предпотребителски отпадъци",
+        "de": "Vorverbraucher-Recyclinganteil — Cobalt",
+        "hr": "Predpotrošački udio recikliranog cobalta",
+        "cs": "Předspotřebitelský podíl recyklovaného cobaltu",
+        "da": "Forforbruger genanvendt cobalt",
+        "nl": "Pre-consument gerecycled cobalt",
+        "et": "Tarbijaeelne ringluscobalt",
+        "fi": "Esikulüttajan kierrätetty cobalt",
+        "fr": "Part pré-consommateur de cobalt recyclé",
+        "hu": "Fogyasztás előtti jrahasznosított cobalt",
+        "ga": "Sciar Cobalt Athchúrsáilte Réamh-Tomhaltóra",
+        "it": "Quota Pre-Consumatore di Cobalt Riciclato",
+        "lv": "Pirmspatēriņa pārstrādāts cobalts",
+        "lt": "Ikivartotojinis perdirbtas cobalts",
+        "mt": "Sehem Cobalt Riċiklat Qabel il-Konsum",
+        "pl": "Przedkonsumencki recykling cobaltu",
+        "pt": "Quota Pré-Consumidor de Cobalt Reciclado",
+        "ro": "Cotă Pre-Consum de Cobalt Reciclat",
+        "sk": "Predspotrebitelský podiel recyklovaného cobaltu",
+        "sl": "Predpotrošniški delež predelanega cobalta",
+        "es": "Cuota Pre-Consumidor de Cobalt Reciclado",
+        "sv": "Förkonsument återvunnet cobalt",
+        "el": "Μερίδιο ανακυκλωμένου κοβαλτίου από απόβλητα προ της κατανάλωσης"
+      },
+      "description": {
+        "en": "Percentage of Cobalt from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentCobalt figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak cobalt iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento cobalt z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af cobalt fra pre-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage cobalt uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Cobalt protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Cobaltn osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de cobalt issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
+        "hu": "A pre-consumer újrahasznosított hulladékból származó cobalt százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán cobalt ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di cobalt da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
+        "lv": "Cobalt procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Cobalt procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' cobalt minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent cobalt z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de cobalt proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de cobalt din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel cobalt z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek cobalt iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de cobalt de residuos reciclados pre-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel cobalt från pre-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο κοβαλτίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 105,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1); Art. 3, 1(51)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "pre-consumer recycled cobalt",
+          "pre-consumer cobalt content",
+          "cobalt from pre-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "preConsumerRecycledLithiumShare",
+      "label": {
+        "en": "Pre-Consumer Recycled Lithium Share",
+        "bg": "Дял на рециклиран литий от предпотребителски отпадъци",
+        "de": "Vorverbraucher-Recyclinganteil — Lithium",
+        "hr": "Predpotrošački udio recikliranog lithiuma",
+        "cs": "Předspotřebitelský podíl recyklovaného lithiumu",
+        "da": "Forforbruger genanvendt lithium",
+        "nl": "Pre-consument gerecycled lithium",
+        "et": "Tarbijaeelne ringluslithium",
+        "fi": "Esikulüttajan kierrätetty lithium",
+        "fr": "Part pré-consommateur de lithium recyclé",
+        "hu": "Fogyasztás előtti jrahasznosított lithium",
+        "ga": "Sciar Lithium Athchúrsáilte Réamh-Tomhaltóra",
+        "it": "Quota Pre-Consumatore di Lithium Riciclato",
+        "lv": "Pirmspatēriņa pārstrādāts lithiums",
+        "lt": "Ikivartotojinis perdirbtas lithiums",
+        "mt": "Sehem Lithium Riċiklat Qabel il-Konsum",
+        "pl": "Przedkonsumencki recykling lithiumu",
+        "pt": "Quota Pré-Consumidor de Lithium Reciclado",
+        "ro": "Cotă Pre-Consum de Lithium Reciclat",
+        "sk": "Predspotrebitelský podiel recyklovaného lithiumu",
+        "sl": "Predpotrošniški delež predelanega lithiuma",
+        "es": "Cuota Pre-Consumidor de Lithium Reciclado",
+        "sv": "Förkonsument återvunnet lithium",
+        "el": "Μερίδιο ανακυκλωμένου λιθίου από απόβλητα προ της κατανάλωσης"
+      },
+      "description": {
+        "en": "Percentage of Lithium from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentLithium figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak lithium iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento lithium z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af lithium fra pre-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage lithium uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Lithium protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Lithiumn osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de lithium issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
+        "hu": "A pre-consumer újrahasznosított hulladékból származó lithium százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán lithium ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di lithium da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
+        "lv": "Lithium procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Lithium procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' lithium minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent lithium z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de lithium proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de lithium din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel lithium z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek lithium iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de lithium de residuos reciclados pre-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel lithium från pre-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο λιθίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 106,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1); Art. 3, 1(51)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "pre-consumer recycled lithium",
+          "pre-consumer lithium content",
+          "lithium from pre-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "postConsumerRecycledNickelShare",
+      "label": {
+        "en": "Post-Consumer Recycled Nickel Share",
+        "bg": "Дял на рециклиран никел от следпотребителски отпадъци",
+        "de": "Nachverbraucher-Recyclinganteil — Nickel",
+        "hr": "Postpotrošački udio recikliranog nickela",
+        "cs": "Pospotřebitelský podíl recyklovaného nickelu",
+        "da": "Efterforbruger genanvendt nickel",
+        "nl": "Post-consument gerecycled nickel",
+        "et": "Tarbijajärgne ringlusnickel",
+        "fi": "Jälkikulüttajan kierrätetty nickel",
+        "fr": "Part post-consommateur de nickel recyclé",
+        "hu": "Fogyasztás utáni újrahasznosított nickel",
+        "ga": "Sciar Nickel Athchúrsáilte Iar-Thomhaltóra",
+        "it": "Quota Post-Consumatore di Nickel Riciclato",
+        "lv": "Pēcpatēriņa pārstrādāts nickels",
+        "lt": "Povartotojinis perdirbtas nickels",
+        "mt": "Sehem Nickel Riċiklat Wara l-Konsum",
+        "pl": "Pokonsumencki recykling nickelu",
+        "pt": "Quota Pós-Consumidor de Nickel Reciclado",
+        "ro": "Cotă Post-Consum de Nickel Reciclat",
+        "sk": "Pospotřebitelský podiel recyklovaného nickelu",
+        "sl": "Popotrošniški delež predelanega nickela",
+        "es": "Cuota Post-Consumidor de Nickel Reciclado",
+        "sv": "Efterkonsument återvunnet nickel",
+        "el": "Μερίδιο ανακυκλωμένου νικελίου από απόβλητα μετά την κατανάλωση"
+      },
+      "description": {
+        "en": "Percentage of Nickel from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentNickel figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak nickel iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento nickel z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af nickel fra post-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage nickel uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Nickel protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Nickeln osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de nickel issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
+        "hu": "A post-consumer újrahasznosított hulladékból származó nickel százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán nickel ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di nickel da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
+        "lv": "Nickel procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Nickel procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' nickel minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent nickel z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de nickel proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de nickel din deșeuri reciclate post-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel nickel z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek nickel iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de nickel de residuos reciclados post-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel nickel från post-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο νικελίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 107,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "post-consumer recycled nickel",
+          "post-consumer nickel content",
+          "nickel from post-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "postConsumerRecycledCobaltShare",
+      "label": {
+        "en": "Post-Consumer Recycled Cobalt Share",
+        "bg": "Дял на рециклиран кобалт от следпотребителски отпадъци",
+        "de": "Nachverbraucher-Recyclinganteil — Cobalt",
+        "hr": "Postpotrošački udio recikliranog cobalta",
+        "cs": "Pospotřebitelský podíl recyklovaného cobaltu",
+        "da": "Efterforbruger genanvendt cobalt",
+        "nl": "Post-consument gerecycled cobalt",
+        "et": "Tarbijajärgne ringluscobalt",
+        "fi": "Jälkikulüttajan kierrätetty cobalt",
+        "fr": "Part post-consommateur de cobalt recyclé",
+        "hu": "Fogyasztás utáni újrahasznosított cobalt",
+        "ga": "Sciar Cobalt Athchúrsáilte Iar-Thomhaltóra",
+        "it": "Quota Post-Consumatore di Cobalt Riciclato",
+        "lv": "Pēcpatēriņa pārstrādāts cobalts",
+        "lt": "Povartotojinis perdirbtas cobalts",
+        "mt": "Sehem Cobalt Riċiklat Wara l-Konsum",
+        "pl": "Pokonsumencki recykling cobaltu",
+        "pt": "Quota Pós-Consumidor de Cobalt Reciclado",
+        "ro": "Cotă Post-Consum de Cobalt Reciclat",
+        "sk": "Pospotřebitelský podiel recyklovaného cobaltu",
+        "sl": "Popotrošniški delež predelanega cobalta",
+        "es": "Cuota Post-Consumidor de Cobalt Reciclado",
+        "sv": "Efterkonsument återvunnet cobalt",
+        "el": "Μερίδιο ανακυκλωμένου κοβαλτίου από απόβλητα μετά την κατανάλωση"
+      },
+      "description": {
+        "en": "Percentage of Cobalt from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentCobalt figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak cobalt iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento cobalt z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af cobalt fra post-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage cobalt uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Cobalt protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Cobaltn osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de cobalt issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
+        "hu": "A post-consumer újrahasznosított hulladékból származó cobalt százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán cobalt ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di cobalt da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
+        "lv": "Cobalt procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Cobalt procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' cobalt minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent cobalt z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de cobalt proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de cobalt din deșeuri reciclate post-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel cobalt z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek cobalt iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de cobalt de residuos reciclados post-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel cobalt från post-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο κοβαλτίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 108,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "post-consumer recycled cobalt",
+          "post-consumer cobalt content",
+          "cobalt from post-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "postConsumerRecycledLithiumShare",
+      "label": {
+        "en": "Post-Consumer Recycled Lithium Share",
+        "bg": "Дял на рециклиран литий от следпотребителски отпадъци",
+        "de": "Nachverbraucher-Recyclinganteil — Lithium",
+        "hr": "Postpotrošački udio recikliranog lithiuma",
+        "cs": "Pospotřebitelský podíl recyklovaného lithiumu",
+        "da": "Efterforbruger genanvendt lithium",
+        "nl": "Post-consument gerecycled lithium",
+        "et": "Tarbijajärgne ringluslithium",
+        "fi": "Jälkikulüttajan kierrätetty lithium",
+        "fr": "Part post-consommateur de lithium recyclé",
+        "hu": "Fogyasztás utáni újrahasznosított lithium",
+        "ga": "Sciar Lithium Athchúrsáilte Iar-Thomhaltóra",
+        "it": "Quota Post-Consumatore di Lithium Riciclato",
+        "lv": "Pēcpatēriņa pārstrādāts lithiums",
+        "lt": "Povartotojinis perdirbtas lithiums",
+        "mt": "Sehem Lithium Riċiklat Wara l-Konsum",
+        "pl": "Pokonsumencki recykling lithiumu",
+        "pt": "Quota Pós-Consumidor de Lithium Reciclado",
+        "ro": "Cotă Post-Consum de Lithium Reciclat",
+        "sk": "Pospotřebitelský podiel recyklovaného lithiumu",
+        "sl": "Popotrošniški delež predelanega lithiuma",
+        "es": "Cuota Post-Consumidor de Lithium Reciclado",
+        "sv": "Efterkonsument återvunnet lithium",
+        "el": "Μερίδιο ανακυκλωμένου λιθίου από απόβλητα μετά την κατανάλωση"
+      },
+      "description": {
+        "en": "Percentage of Lithium from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentLithium figure by splitting it into waste-origin streams per Annex XIII 1(e).",
+        "hr": "Postotak lithium iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
+        "cs": "Procento lithium z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
+        "da": "Procentdel af lithium fra post-consumer genanvendt affald i batteriets aktive materialer.",
+        "nl": "Percentage lithium uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
+        "et": "Lithium protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
+        "fi": "Lithiumn osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
+        "fr": "Pourcentage de lithium issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
+        "hu": "A post-consumer újrahasznosított hulladékból származó lithium százalékos aránya az akkumulátor aktív anyagaiban.",
+        "ga": "Céatadán lithium ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
+        "it": "Percentuale di lithium da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
+        "lv": "Lithium procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
+        "lt": "Lithium procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
+        "mt": "Perċentwal ta' lithium minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
+        "pl": "Procent lithium z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
+        "pt": "Percentagem de lithium proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
+        "ro": "Procentul de lithium din deșeuri reciclate post-consumer în materialele active ale bateriei.",
+        "sk": "Percentuálny podiel lithium z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
+        "sl": "Odstotek lithium iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
+        "es": "Porcentaje de lithium de residuos reciclados post-consumer en los materiales activos de la batería.",
+        "sv": "Procentandel lithium från post-consumer återvunnet avfall i batteriets aktiva material.",
+        "el": "Το μερίδιο λιθίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "%",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": 100,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 109,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 8(1)",
+        "annex": "Annex XIII (1e)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1e)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "post-consumer recycled lithium",
+          "post-consumer lithium content",
+          "lithium from post-consumer waste"
+        ],
+        "expectedFormat": "Percentage value (0-100)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "originalPowerCapabilityAt80Soc",
+      "label": {
+        "en": "Original Power Capability at 80% SoC",
+        "bg": "Начален капацитет на мощност при 80% СОЗ",
+        "de": "Ursprüngliche Leistungsfähigkeit bei 80 % SoC",
+        "hr": "Izvorna sposobnost snage pri 80% SoC",
+        "cs": "Původní výkon při 80 % SoC",
+        "da": "Oprindelig effektkapacitet ved 80 % SoC",
+        "nl": "Oorspronkelijke vermogenscapaciteit bij 80 % SoC",
+        "et": "Algne võimsusevõime 80% laetuse juures",
+        "fi": "Alkuperäinen tehonsuorituskyky 80 % SoC:lla",
+        "fr": "Capacité de puissance d’origine à 80 % d’état de charge",
+        "hu": "Eredeti teljesítmény-képesség 80%-os SoC-nál",
+        "ga": "Cumas Cumhachta Bunaidh ag 80% SoC",
+        "it": "Capacità di Potenza Originale all’80% SoC",
+        "lv": "Sākotnējā jaudas spēja pie 80% SoC",
+        "lt": "Pradinė galios gebėjimas esant 80% įkrovos",
+        "mt": "Kapaċità ta’ Qawwa Oriġinali fl-80% SoC",
+        "pl": "Pierwotna zdolność mocy przy 80% SoC",
+        "pt": "Capacidade de Potência Original a 80% SoC",
+        "ro": "Capacitate de Putere Originală la 80% SoC",
+        "sk": "Pôvodná výkonová kapacita pri 80% SoC",
+        "sl": "Izvirna zmogljivost moči pri 80% SoC",
+        "es": "Capacidad de Potencia Original al 80% SoC",
+        "sv": "Ursprunglig effektkapacitet vid 80% SoC",
+        "el": "Αρχική ικανότητα ισχύος στο 80% SoC"
+      },
+      "description": {
+        "en": "Power capability of the battery at 80% state of charge (Watts). Together with the 20% SoC figure forms the OriginalPowerCapability GEFEG composite required by Annex XIII 1(i).",
+        "hr": "Sposobnost snage baterije pri 80% stanja napunjenosti (Wati).",
+        "cs": "Výkon baterie při 80% stavu nabítí (Watty).",
+        "da": "Batteriets effektkapacitet ved 80% ladetilstand (Watt).",
+        "nl": "Vermogenscapaciteit van de batterij bij 80% laadtoestand (Watt).",
+        "et": "Aku võimsusevõime 80% laadimisseisundis (Vatid).",
+        "fi": "Akun tehonsuorituskyky 80% lataustilassa (Wattia).",
+        "fr": "Capacité de puissance de la batterie à 80 % d’état de charge (Watts).",
+        "hu": "Az akkumulátor teljesítmény-képessége 80%-os SoC-nál (Watt).",
+        "ga": "Cumas cumhachta an chaidhnra ag 80% staid luchtú (Watts).",
+        "it": "Capacità di potenza della batteria all’80% dello stato di carica (Watt).",
+        "lv": "Akumulātora jaudas spēja pie 80% uzlādes stāvokļa (Vati).",
+        "lt": "Akumuliatoriaus galios gebėjimas 80% įkrovos būsenoje (Vatai).",
+        "mt": "Kapaċità ta’ qawwa tal-batterija fl-80% tal-istat tal-bžieq (Watts).",
+        "pl": "Zdolność mocy baterii przy 80% stanu naładowania (Waty).",
+        "pt": "Capacidade de potência da bateria a 80% do estado de carga (Watts).",
+        "ro": "Capacitate de putere a bateriei la 80% stare de încărcare (Wați).",
+        "sk": "Výkonová kapacita batérie pri 80% stave nabitia (Wattov).",
+        "sl": "Zmogljivost moči baterije pri 80% stanju polnjenja (Wati).",
+        "es": "Capacidad de potencia de la batería al 80% del estado de carga (Vatios).",
+        "sv": "Batteriets effektkapacitet vid 80% laddningstillstånd (Watt).",
+        "el": "Ικανότητα ισχύος της μπαταρίας στο 80% κατάστασης φόρτισης (Watt)."
+      },
+      "dataType": "number",
+      "unit": "W",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 110,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 10, Annex IV Part B (4)",
+        "annex": "Annex XIII (1i)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1i)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "power at 80% SoC",
+          "power capability 80 SoC",
+          "watt at 80 percent state of charge"
+        ],
+        "expectedFormat": "Numeric value in Watts",
+        "extractionPriority": 7
+      }
+    },
+    {
+      "key": "originalPowerCapabilityAt20Soc",
+      "label": {
+        "en": "Original Power Capability at 20% SoC",
+        "bg": "Начален капацитет на мощност при 20% СОЗ",
+        "de": "Ursprüngliche Leistungsfähigkeit bei 20 % SoC",
+        "hr": "Izvorna sposobnost snage pri 20% SoC",
+        "cs": "Původní výkon při 20 % SoC",
+        "da": "Oprindelig effektkapacitet ved 20 % SoC",
+        "nl": "Oorspronkelijke vermogenscapaciteit bij 20 % SoC",
+        "et": "Algne võimsusevõime 20% laetuse juures",
+        "fi": "Alkuperäinen tehonsuorituskyky 20 % SoC:lla",
+        "fr": "Capacité de puissance d’origine à 20 % d’état de charge",
+        "hu": "Eredeti teljesítmény-képesség 20%-os SoC-nál",
+        "ga": "Cumas Cumhachta Bunaidh ag 20% SoC",
+        "it": "Capacità di Potenza Originale al 20% SoC",
+        "lv": "Sākotnējā jaudas spēja pie 20% SoC",
+        "lt": "Pradinė galios gebėjimas esant 20% įkrovos",
+        "mt": "Kapaċità ta’ Qawwa Oriġinali fil-20% SoC",
+        "pl": "Pierwotna zdolność mocy przy 20% SoC",
+        "pt": "Capacidade de Potência Original a 20% SoC",
+        "ro": "Capacitate de Putere Originală la 20% SoC",
+        "sk": "Pôvodná výkonová kapacita pri 20% SoC",
+        "sl": "Izvirna zmogljivost moči pri 20% SoC",
+        "es": "Capacidad de Potencia Original al 20% SoC",
+        "sv": "Ursprunglig effektkapacitet vid 20% SoC",
+        "el": "Αρχική ικανότητα ισχύος στο 20% SoC"
+      },
+      "description": {
+        "en": "Power capability of the battery at 20% state of charge (Watts). Together with the 80% SoC figure forms the OriginalPowerCapability GEFEG composite required by Annex XIII 1(i).",
+        "hr": "Sposobnost snage baterije pri 20% stanja napunjenosti (Wati).",
+        "cs": "Výkon baterie při 20% stavu nabítí (Watty).",
+        "da": "Batteriets effektkapacitet ved 20% ladetilstand (Watt).",
+        "nl": "Vermogenscapaciteit van de batterij bij 20% laadtoestand (Watt).",
+        "et": "Aku võimsusevõime 20% laadimisseisundis (Vatid).",
+        "fi": "Akun tehonsuorituskyky 20% lataustilassa (Wattia).",
+        "fr": "Capacité de puissance de la batterie à 20 % d’état de charge (Watts).",
+        "hu": "Az akkumulátor teljesítmény-képessége 20%-os SoC-nál (Watt).",
+        "ga": "Cumas cumhachta an chaidhnra ag 20% staid luchtú (Watts).",
+        "it": "Capacità di potenza della batteria al 20% dello stato di carica (Watt).",
+        "lv": "Akumulātora jaudas spēja pie 20% uzlādes stāvokļa (Vati).",
+        "lt": "Akumuliatoriaus galios gebėjimas 20% įkrovos būsenoje (Vatai).",
+        "mt": "Kapaċità ta’ qawwa tal-batterija fil-20% tal-istat tal-bžieq (Watts).",
+        "pl": "Zdolność mocy baterii przy 20% stanu naładowania (Waty).",
+        "pt": "Capacidade de potência da bateria a 20% do estado de carga (Watts).",
+        "ro": "Capacitate de putere a bateriei la 20% stare de încărcare (Wați).",
+        "sk": "Výkonová kapacita batérie pri 20% stave nabitia (Wattov).",
+        "sl": "Zmogljivost moči baterije pri 20% stanju polnjenja (Wati).",
+        "es": "Capacidad de potencia de la batería al 20% del estado de carga (Vatios).",
+        "sv": "Batteriets effektkapacitet vid 20% laddningstillstånd (Watt).",
+        "el": "Ικανότητα ισχύος της μπαταρίας στο 20% κατάστασης φόρτισης (Watt)."
+      },
+      "dataType": "number",
+      "unit": "W",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 111,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 10, Annex IV Part B (4)",
+        "annex": "Annex XIII (1i)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1i)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "power at 20% SoC",
+          "power capability 20 SoC",
+          "watt at 20 percent state of charge"
+        ],
+        "expectedFormat": "Numeric value in Watts",
+        "extractionPriority": 7
+      }
+    },
+    {
+      "key": "temperatureInformation",
+      "label": {
+        "en": "Temperature Information",
+        "bg": "Информация за температурата",
+        "de": "Temperaturinformation",
+        "hr": "Temperaturne informacije",
+        "cs": "Informace o teplotě",
+        "da": "Temperaturoplysninger",
+        "nl": "Temperatuurinformatie",
+        "et": "Temperatuuriteave",
+        "fi": "Lämpötilatieto",
+        "fr": "Informations sur la température",
+        "hu": "Hőmérsékleti információ",
+        "ga": "Faisnéis Teochta",
+        "it": "Informazioni sulla Temperatura",
+        "lv": "Temperatūras informācija",
+        "lt": "Temperatūros informacija",
+        "mt": "Informazzjoni dwar it-Temperatura",
+        "pl": "Informacje o temperaturze",
+        "pt": "Informação de Temperatura",
+        "ro": "Informații privind Temperatura",
+        "sk": "Informácie o teplote",
+        "sl": "Temperaturne informacije",
+        "es": "Información de Temperatura",
+        "sv": "Temperaturinformation",
+        "el": "Πληροφορίες θερμοκρασίας"
+      },
+      "description": {
+        "en": "Single Celsius temperature figure characterising the battery's thermal operating or design condition (integer, can be negative). Distinct from temperatureConditionsHistorical, which is a descriptive record of historical temperature ranges.",
+        "hr": "Jedinstven temperaturni podatak u Celzijusima koji karakterizira toplinske uvjete baterije.",
+        "cs": "Jednočíselná teplotní hodnota v Celsiích charakterizující teplotní podmínky baterie.",
+        "da": "Enkelt Celsius temperaturtal der karakteriserer batteriets termiske driftsforhold.",
+        "nl": "Enkel Celsius temperatuurcijfer dat de thermische bedrijfsomstandigheden van de batterij karakteriseert.",
+        "et": "Üksik Celsiuse temperatuuri näitaja, mis iseloomustab aku termilisi tööstingimusi.",
+        "fi": "Yksittäinen Celsius-lämpötilaluku, joka kuvaa akun lämpötilaolosuhteita.",
+        "fr": "Température unique en Celsius caractérisant les conditions thermiques de la batterie.",
+        "hu": "Egy Celsius hőmérsékleti érték, amely az akkumulátor hőmérsékleti állapotát jellemzi.",
+        "ga": "Figiúr teochta aonair Celsius a léiríonn coinníollacha teirmeacha na cadhnra.",
+        "it": "Singolo valore di temperatura in Celsius che caratterizza le condizioni termiche della batteria.",
+        "lv": "Vienots Celsija temperatūras rādītājs, kas raksturo akumulatora termiskos darbības apstākļus.",
+        "lt": "Vienas Celsijaus temperatūros skaičius, apibūdinantis akumuliatoriaus terminius veikimo sąlygas.",
+        "mt": "Figura unika ta' temperatura f'Celsius li tikkaratterizza l-kundizzjonijiet termali tal-batterija.",
+        "pl": "Pojedyncza liczba temperatury w Celsjuszach charakteryzująca warunki termiczne baterii.",
+        "pt": "Temperatura única em Celsius que caracteriza as condições térmicas da bateria.",
+        "ro": "Temperatură unică în Celsius care caracterizează condițiile termice ale bateriei.",
+        "sk": "Jednočíselná hodnota teploty v Celziusoch charakterizujúca teplotné podmienky batérie.",
+        "sl": "Enojna temperatura v Celzijih, ki označuje termalne pogoje baterije.",
+        "es": "Temperatura única en Celsius que caracteriza las condiciones térmicas de la batería.",
+        "sv": "Enstaka Celsius-temperaturvärde som karakteriserar batteriets termiska driftförhållanden.",
+        "el": "Μονή τιμή θερμοκρασίας Κελσίου που χαρακτηρίζει τις θερμικές συνθήκες λειτουργίας της μπαταρίας."
+      },
+      "dataType": "number",
+      "unit": "°C",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": null,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 112,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Annex XIII (4d)",
+        "annex": "Annex XIII (4d)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (4d)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "temperature information",
+          "operating temperature",
+          "design temperature"
+        ],
+        "expectedFormat": "Integer value in degrees Celsius (can be negative)",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "cadmiumLeadSymbolsUrl",
+      "label": {
+        "en": "Cadmium and Lead Symbols URL",
+        "bg": "URL на символи за кадмий и олово",
+        "de": "URL der Cadmium- und Bleisymbole",
+        "hr": "URL simbola kadmija i olova",
+        "cs": "URL symbolů kadmia a olova",
+        "da": "URL for cadmium- og blysymboler",
+        "nl": "URL cadmium- en loodsymbolen",
+        "et": "Kaadmiumi ja plii sümbolite URL",
+        "fi": "Kadmium- ja lyijysümbolien URL-osoite",
+        "fr": "URL des symboles cadmium et plomb",
+        "hu": "Kadmium és ólom szimbólumok URL-je",
+        "ga": "URL Siombailí Caidmiam agus Luaidhe",
+        "it": "URL Simboli Cadmio e Piombo",
+        "lv": "Kadmija un svina simbolu URL",
+        "lt": "Kadmio ir švino simbolių URL",
+        "mt": "URL tas-Simboli tal-Kadmju u l-Ċomb",
+        "pl": "Adres URL symboli kadmu i ołowiu",
+        "pt": "URL dos Símbolos de Cádmio e Chumbo",
+        "ro": "URL Simboluri Cadmiu şi Plumb",
+        "sk": "URL symbolov kadmia a olova",
+        "sl": "URL simbolov kadmija in svinca",
+        "es": "URL de Símbolos de Cadmio y Plomo",
+        "sv": "URL för kadmium- och blysymboler",
+        "el": "URL συμβόλων καδμίου και μολύβδου"
+      },
+      "description": {
+        "en": "URI linking to the artwork or documentation for the cadmium and lead chemical symbols required to be marked on the battery per Art. 13(5). Complements the cadmiumSymbol and leadSymbol boolean fields, which only indicate presence.",
+        "hr": "URI koji upućuje na oznake za kemijske simbole kadmija i olova prema čl. 13(5).",
+        "cs": "URI odkazující na dokumentaci pro chemické symboly kadmia a olova dle čl. 13(5).",
+        "da": "URI der linker til dokumentation for cadmium- og blysymboler iflølge art. 13(5).",
+        "nl": "URI die linkt naar de documentatie voor cadmium- en loodsymbolen conform art. 13(5).",
+        "et": "URI, mis viitab kaadmiumi ja plii keemiliste sümbolite dokumentatsioonile vastavalt art. 13(5).",
+        "fi": "URI, joka linkittää kadmium- ja lyijysümbolien dokumentaatioon art. 13(5) mukaisesti.",
+        "fr": "URI renvoyant à la documentation pour les symboles chimiques du cadmium et du plomb selon l’art. 13(5).",
+        "hu": "URI, amely a kadmium és ólom szimbólumok dokumentaciójára mutat az art. 13(5) szerint.",
+        "ga": "URI ag nascúdh le doiciéadú d’fhocail cheimiceúcha caidmiam agus luaidhe de réir art. 13(5).",
+        "it": "URI che collega alla documentazione per i simboli chimici di cadmio e piombo ai sensi dell’art. 13(5).",
+        "lv": "URI, kas saista ar kadmija un svina ķīmiski simbolu dokumentāciju saskaņā ar 13(5) pantu.",
+        "lt": "URI, susietas su kadmio ir švino cheminių simbolių dokumentacija pagal 13(5) str.",
+        "mt": "URI li jgħaqqad mad-dokumentazzjoni tas-simboli kimiċi tal-kadmju u l-ċomb skont l-art. 13(5).",
+        "pl": "URI łączący z dokumentacją symboli chemicznych kadmu i ołowiu zgodnie z art. 13(5).",
+        "pt": "URI que liga à documentação dos símbolos químicos de cádmio e chumbo conforme art. 13(5).",
+        "ro": "URI care face legătura cu documentația simbolurilor chimice ale cadmiului şi plumbului conform art. 13(5).",
+        "sk": "URI odkazujúci na dokumentáciu chemických symbolov kadmia a olova podļa čl. 13(5).",
+        "sl": "URI, ki se nanaša na dokumentacijo kemičnih simbolov kadmija in svinca v skladu z 13(5).",
+        "es": "URI que enlaza a la documentación de los símbolos químicos de cadmio y plomo según art. 13(5).",
+        "sv": "URI som länkar till dokumentation för kadmium- och blysymboler enligt art. 13(5).",
+        "el": "URI που συνδέεται με τη τεκμηρίωση χημικών συμβόλων καδμίου και μολύβδου κατά το άρθρο 13(5)."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": null,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": "^https?://.*$"
+      },
+      "category": "labels_markings",
+      "categoryLabel": {
+        "en": "Labels, Symbols & Conformity",
+        "bg": "Етикети, символи и съответствие",
+        "de": "Kennzeichnungen, Symbole & Konformität",
+        "hr": "Oznake, simboli i sukladnost",
+        "cs": "Štítky, symboly a shoda",
+        "da": "Mærker, symboler og overensstemmelse",
+        "nl": "Labels, symbolen en conformiteit",
+        "et": "Sildid, sümbolid ja vastavus",
+        "fi": "Merkinnät, symbolit ja vaatimustenmukaisuus",
+        "fr": "Étiquettes, symboles et conformité",
+        "hu": "Címkék, szimbólumok és megfelelőség",
+        "ga": "Lipéid, Siombail agus Comhfhonméad",
+        "it": "Etichette, Simboli e Conformità",
+        "lv": "Etiķetes, simboli un atbilstība",
+        "lt": "Žymos, simboliai ir atitiktis",
+        "mt": "Etiketti, Simboli u Konformità",
+        "pl": "Etykiety, symbole i zgodność",
+        "pt": "Etiquetas, Símbolos e Conformidade",
+        "ro": "Etichete, Simboluri și Conformitate",
+        "sk": "Označenia, symboly a zhoda",
+        "sl": "Oznake, simboli in skladnost",
+        "es": "Etiquetas, Símbolos y Conformidad",
+        "sv": "Etiketter, symboler och överensstämmelse",
+        "el": "Σημάνσεις, σύμβολα και συμμόρφωση"
+      },
+      "sortOrder": 113,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Art. 13(5)",
+        "annex": "Annex XIII (1s)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (1s)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "cadmium lead symbol link",
+          "Cd Pb symbol URL",
+          "chemical symbols URL"
+        ],
+        "expectedFormat": "Full URL to the cadmium/lead symbol artwork",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "componentPartNumbersUrl",
+      "label": {
+        "en": "Component Part Numbers URL",
+        "bg": "URL на номера на части на компоненти",
+        "de": "URL der Bauteil-Teilenummern",
+        "hr": "URL broja dijelova komponenata",
+        "cs": "URL čísel dílů komponent",
+        "da": "URL for komponentdelsnumre",
+        "nl": "URL onderdeel-nummers componenten",
+        "et": "Komponentide osanumbrite URL",
+        "fi": "Komponenttien osanumeroiden URL-osoite",
+        "fr": "URL des numéros de pièces des composants",
+        "hu": "Alkatrész-komponens számok URL-je",
+        "ga": "URL Uimhreacha Páirteanna Comhpháirteanna",
+        "it": "URL Numeri di Parte dei Componenti",
+        "lv": "Komponentu detaļu numuru URL",
+        "lt": "Komponentų dalių numerių URL",
+        "mt": "URL tan-Numri tal-Partijiet tal-Komponenti",
+        "pl": "Adres URL numerów części komponentów",
+        "pt": "URL dos Números de Peça dos Componentes",
+        "ro": "URL Numerele de Piese ale Componentelor",
+        "sk": "URL čísel dielov komponentov",
+        "sl": "URL števlk delov komponent",
+        "es": "URL de Números de Pieza de Componentes",
+        "sv": "URL för komponentdelsnummer",
+        "el": "URL αριθμών μερών εξαρτημάτων"
+      },
+      "description": {
+        "en": "URI linking to a list of part numbers for components and spare parts of the battery per Annex XIII 2(b). Complements the componentPartNumbers array field, which holds the structured part-number list; this URI field satisfies the GEFEG format:uri requirement.",
+        "hr": "URI koji upućuje na popis broja dijelova za komponente i rezervne dijelove baterije prema Aneksu XIII 2(b).",
+        "cs": "URI odkazující na seznam čísel dílů pro komponenty a náhradní díly baterie dle přílohy XIII 2(b).",
+        "da": "URI der linker til en liste over delsnumre for komponenter og reservedele til batteriet iflølge bilag XIII 2(b).",
+        "nl": "URI die linkt naar een lijst van onderdeel-nummers voor componenten en reserveonderdelen van de batterij conform bijlage XIII 2(b).",
+        "et": "URI, mis viitab aku komponentide ja varuosade osanumbrite loendile vastavalt XIII lisa 2(b).",
+        "fi": "URI, joka linkittää akun komponenttien ja varaosien osanumeroluetteloon liitteen XIII 2(b) mukaisesti.",
+        "fr": "URI renvoyant à la liste des numéros de pièces pour les composants et pièces de rechange de la batterie selon l’annexe XIII 2(b).",
+        "hu": "URI, amely az akkumulátor komponenseinek alkatrész-szám-listájára mutat a XIII. melléklet 2(b) szerint.",
+        "ga": "URI ag nascúdh le liosta de na huimhreacha páirteanna do chomhpháirteanna agus spárpháirteanna na cadhnra de réir Iarscríbhinn XIII 2(b).",
+        "it": "URI che collega a un elenco di numeri di parte per componenti e pezzi di ricambio della batteria ai sensi dell’allegato XIII 2(b).",
+        "lv": "URI, kas saista ar komponentu un rezerves daļu numuru sarakstu saskaņā ar XIII pielikuma 2(b).",
+        "lt": "URI, susietas su komponentų ir atsarginių dalių numerių sąrašu pagal XIII priedo 2(b).",
+        "mt": "URI li jgħaqqad ma’ lista tan-numri tal-partijiet għal komponenti u biċiet ta’ bdil tal-batterija skont l-Anness XIII 2(b).",
+        "pl": "URI łączący z listą numerów części dla komponentów i części zamiennych baterii zgodnie z załącznikiem XIII 2(b).",
+        "pt": "URI que liga a uma lista de números de peça para componentes e peças de reposição da bateria conforme Anexo XIII 2(b).",
+        "ro": "URI care face legătura cu o listă de numere de piese pentru componente şi piese de schimb ale bateriei conform Anexei XIII 2(b).",
+        "sk": "URI odkazujúci na zoznam čísel dielov pre komponenty a náhradné diely batérie podļa prílohy XIII 2(b).",
+        "sl": "URI, ki se nanaša na seznam števlk delov za komponente in nadomestne dele baterije v skladu s Prilogo XIII 2(b).",
+        "es": "URI que enlaza a una lista de números de pieza para componentes y piezas de repuesto de la batería según el Anexo XIII 2(b).",
+        "sv": "URI som länkar till en lista med delsnummer för komponenter och reservdelar till batteriet enligt bilaga XIII 2(b).",
+        "el": "URI που συνδέεται με κατάλογο αριθμών μερών εξαρτημάτων και ανταλλακτικών σύμφωνα με το Παράρτημα XIII 2(β)."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": null,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": "^https?://.*$"
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 114,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Annex XIII (2b)",
+        "annex": "Annex XIII (2b)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (2b)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "parts list URL",
+          "component part numbers link",
+          "spare parts catalog URL"
+        ],
+        "expectedFormat": "Full URL to the component parts list",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "sparePartsSourcesUrl",
+      "label": {
+        "en": "Spare Parts Sources URL",
+        "bg": "URL на източници на резервни части",
+        "de": "URL der Ersatzteilquellen",
+        "hr": "URL izvora rezervnih dijelova",
+        "cs": "URL zdrojů náhradních dílů",
+        "da": "URL for reservedelskilder",
+        "nl": "URL bronnen reserveonderdelen",
+        "et": "Varuosade allikate URL",
+        "fi": "Varaosien lähteiden URL-osoite",
+        "fr": "URL des sources de pièces de rechange",
+        "hu": "Pótalkatalészek forrásainak URL-je",
+        "ga": "URL Foinsí Spárpháirteanna",
+        "it": "URL Fonti Pezzi di Ricambio",
+        "lv": "Rezerves daļu avotu URL",
+        "lt": "Atsarginių dalių šaltinių URL",
+        "mt": "URL tal-Sorsi tal-Biċiet ta’ Bdil",
+        "pl": "Adres URL źródeł części zamiennych",
+        "pt": "URL das Fontes de Peças de Reposição",
+        "ro": "URL Sursele de Piese de Schimb",
+        "sk": "URL zdrojov náhradných dielov",
+        "sl": "URL virov nadomestnih delov",
+        "es": "URL de Fuentes de Repuestos",
+        "sv": "URL för källor till reservdelar",
+        "el": "URL πηγών ανταλλακτικών"
+      },
+      "description": {
+        "en": "URI linking to information on sources where spare parts can be obtained for the battery per Annex XIII 2(b). When present, takes precedence over the URL derived from the sparePartsInformation.catalogUrl field in the GEFEG export.",
+        "hr": "URI koji upućuje na izvore rezervnih dijelova za bateriju prema Aneksu XIII 2(b).",
+        "cs": "URI odkazující na zdroje náhradních dílů pro baterii dle přílohy XIII 2(b).",
+        "da": "URI der linker til information om reservedelskilder til batteriet iflølge bilag XIII 2(b).",
+        "nl": "URI die linkt naar informatie over bronnen van reserveonderdelen voor de batterij conform bijlage XIII 2(b).",
+        "et": "URI, mis viitab aku varuosade allikate teabele vastavalt XIII lisa 2(b).",
+        "fi": "URI, joka linkittää akun varaosien lähteitä koskevaan tietoon liitteen XIII 2(b) mukaisesti.",
+        "fr": "URI renvoyant aux informations sur les sources de pièces de rechange pour la batterie selon l’annexe XIII 2(b).",
+        "hu": "URI, amely az akkumulátor pótalkatalészei forrásaira vonatkozó információkra mutat a XIII. melléklet 2(b) szerint.",
+        "ga": "URI ag nascúdh le faisnéis ar fhoinsí spárpháirteanna don chaidhnra de réir Iarscríbhinn XIII 2(b).",
+        "it": "URI che collega alle informazioni sulle fonti di pezzi di ricambio per la batteria ai sensi dell’allegato XIII 2(b).",
+        "lv": "URI, kas saista ar informāciju par rezerves daļu avotiem saskaņā ar XIII pielikuma 2(b).",
+        "lt": "URI, susietas su informacija apie atsarginių dalių šaltinius pagal XIII priedo 2(b).",
+        "mt": "URI li jgħaqqad ma’ informazzjoni dwar sorsi ta’ biċiet ta’ bdil skont l-Anness XIII 2(b).",
+        "pl": "URI łączący z informacjami o źródłach części zamiennych baterii zgodnie z załącznikiem XIII 2(b).",
+        "pt": "URI que liga às informações sobre fontes de peças de reposição para a bateria conforme Anexo XIII 2(b).",
+        "ro": "URI care face legătura cu informații despre sursele de piese de schimb pentru baterie conform Anexei XIII 2(b).",
+        "sk": "URI odkazujúci na informácie o zdrojoch náhradných dielov pre batériu podļa prílohy XIII 2(b).",
+        "sl": "URI, ki se nanaša na informacije o virih nadomestnih delov za baterijo v skladu s Prilogo XIII 2(b).",
+        "es": "URI que enlaza a información sobre fuentes de repuestos para la batería según el Anexo XIII 2(b).",
+        "sv": "URI som länkar till information om källor till reservdelar för batteriet enligt bilaga XIII 2(b).",
+        "el": "URI που συνδέεται με πληροφορίες για πηγές ανταλλακτικών σύμφωνα με το Παράρτημα XIII 2(β)."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "required",
+          "LMT": "required",
+          "industrial_gt_2kwh": "required"
+        },
+        "min": null,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": "^https?://.*$"
+      },
+      "category": "end_of_life",
+      "categoryLabel": {
+        "en": "Circularity & Resource Efficiency",
+        "bg": "Кръгова икономика и ресурсна ефективност",
+        "de": "Kreislaufwirtschaft & Ressourceneffizienz",
+        "hr": "Kružna gospodarstva i učinkovitost resursa",
+        "cs": "Oběhové hospodářství a efektivita zdrojů",
+        "da": "Økonomi og ressourceeffektivitet",
+        "nl": "Circulariteit en hulpbroneffiëntie",
+        "et": "Ringlusemajandus ja ressursi efektiivsus",
+        "fi": "Kiertotalous ja resurssin tehokkuus",
+        "fr": "Circularité et efficacité des ressources",
+        "hu": "Körkörös gazdaság és erőforrás-hatékonyság",
+        "ga": "Foluain agus Éifeachtúlacht Acmhainní",
+        "it": "Circolarità e Efficienza delle Risorse",
+        "lv": "Aprites ekonomika un resursu efektivitāte",
+        "lt": "Apyvartinumas ir išteklių efektyvumas",
+        "mt": "Ċirkularità u Effiċjenza tar-Risorsi",
+        "pl": "Gospodarność i efektywność zasobów",
+        "pt": "Circularidade e Eficiência de Recursos",
+        "ro": "Circularitate și Eficiență a Resurselor",
+        "sk": "Obehovosť a efektívnosť zdrojov",
+        "sl": "Krožnost in učinkovitost virov",
+        "es": "Circularidad y Eficiencia de Recursos",
+        "sv": "Cirkularitet och resurseffektivitet",
+        "el": "Κυκλικότητα και αποδοτικότητα πόρων"
+      },
+      "sortOrder": 115,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Annex XIII (2b)",
+        "annex": "Annex XIII (2b)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (2b)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "spare parts sources link",
+          "spare parts information URL",
+          "repair parts URL"
+        ],
+        "expectedFormat": "Full URL to spare parts source information",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "accidentsInformationUrl",
+      "label": {
+        "en": "Accidents Information URL",
+        "bg": "URL на информация за инциденти",
+        "de": "URL der Unfallinformationen",
+        "hr": "URL informacija o nezgodama",
+        "cs": "URL informací o nehodách",
+        "da": "URL for ulykkesoplysninger",
+        "nl": "URL ongevalleninformatie",
+        "et": "Õnnetusjuhtumite teabe URL",
+        "fi": "Onnettomuustietojen URL-osoite",
+        "fr": "URL des informations sur les accidents",
+        "hu": "Baleseti információk URL-je",
+        "ga": "URL Faisnéis Timpiscí",
+        "it": "URL Informazioni sugli Incidenti",
+        "lv": "Negadījumu informācijas URL",
+        "lt": "Avarijų informacijos URL",
+        "mt": "URL tal-Informazzjoni dwar l-Inċidenti",
+        "pl": "Adres URL informacji o wypadkach",
+        "pt": "URL de Informações sobre Acidentes",
+        "ro": "URL Informații privind Accidentele",
+        "sk": "URL informácií o nehodách",
+        "sl": "URL informacij o nesrečah",
+        "es": "URL de Información sobre Accidentes",
+        "sv": "URL för olycksinformation",
+        "el": "URL πληροφοριών ατυχημάτων"
+      },
+      "description": {
+        "en": "URI linking to information on accidents relating to the battery per Annex XIII 4(d). Complements the negativeEvents array field, which holds structured event records; this URI field satisfies the GEFEG format:uri requirement.",
+        "hr": "URI koji upućuje na informacije o nesrećama vezanim uz bateriju prema Aneksu XIII 4(d).",
+        "cs": "URI odkazující na informace o nehodách týkajících se baterie dle přílohy XIII 4(d).",
+        "da": "URI der linker til information om ulykker med batteriet iflølge bilag XIII 4(d).",
+        "nl": "URI die linkt naar informatie over ongelukken met betrekking tot de batterij conform bijlage XIII 4(d).",
+        "et": "URI, mis viitab akuga seotud õnnetusjuhtumite teabele vastavalt XIII lisa 4(d).",
+        "fi": "URI, joka linkittää akkuun liittyviin onnettomuustietoihin liitteen XIII 4(d) mukaisesti.",
+        "fr": "URI renvoyant aux informations sur les accidents liés à la batterie selon l’annexe XIII 4(d).",
+        "hu": "URI, amely az akkumulátorral kapcsolatos balesetekre vonatkozó információkra mutat a XIII. melléklet 4(d) szerint.",
+        "ga": "URI ag nascúdh le faisnéis ar thimpiscí a bhaineann leis an gcaidhnra de réir Iarscríbhinn XIII 4(d).",
+        "it": "URI che collega alle informazioni sugli incidenti relativi alla batteria ai sensi dell’allegato XIII 4(d).",
+        "lv": "URI, kas saista ar informāciju par negadījumiem, kas saistīti ar akumulātoru saskaņā ar XIII pielikuma 4(d).",
+        "lt": "URI, susietas su informacija apie su akumuliatoriumi susijusias avarijas pagal XIII priedo 4(d).",
+        "mt": "URI li jgħaqqad ma’ informazzjoni dwar inċidenti relatati mal-batterija skont l-Anness XIII 4(d).",
+        "pl": "URI łączący z informacjami o wypadkach dotyczących baterii zgodnie z załącznikiem XIII 4(d).",
+        "pt": "URI que liga a informações sobre acidentes relacionados com a bateria conforme Anexo XIII 4(d).",
+        "ro": "URI care face legătura cu informații despre accidente legate de baterie conform Anexei XIII 4(d).",
+        "sk": "URI odkazujúci na informácie o nehodách týkajúcich sa batérie podļa prílohy XIII 4(d).",
+        "sl": "URI, ki se nanaša na informacije o nesrečah v zvezi z baterijo v skladu s Prilogo XIII 4(d).",
+        "es": "URI que enlaza a información sobre accidentes relacionados con la batería según el Anexo XIII 4(d).",
+        "sv": "URI som länkar till information om olyckor relaterade till batteriet enligt bilaga XIII 4(d).",
+        "el": "URI που συνδέεται με πληροφορίες για ατυχήματα σχετικά με την μπαταρία σύμφωνα με το Παράρτημα XIII 4(δ)."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        },
+        "min": null,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": "^https?://.*$"
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 116,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Annex XIII (4d)",
+        "annex": "Annex XIII (4d)",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII (4d)",
+        "kind": "legislation"
+      },
+      "aiHints": {
+        "alternateNames": [
+          "accidents information link",
+          "accident history URL",
+          "safety incidents URL"
+        ],
+        "expectedFormat": "Full URL to accidents/incidents information",
+        "extractionPriority": 5
+      }
     }
   ],
-  "fieldCount": 95,
-  "requiredFieldCount": 95,
+  "fieldCount": 117,
+  "requiredFieldCount": 59,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",
@@ -11502,5 +13739,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "v2: canonical field keys, closed unit vocabulary, CE marking split into ceMarking (boolean) + ceMarkingStatus (enum) in the five categories that carry a CE obligation."
+  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps."
 }

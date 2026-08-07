@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-913-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-935-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-12-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,12 +39,12 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **913 fields in total. 343 are required by an instrument in force;
-187 are anticipated under a rule that has not yet been adopted.**
+Twelve JSON files, one per product category. **935 fields in total. 307 are required by an instrument in force;
+198 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 95 | 95 | Regulation (EU) 2023/1542 |
+| `battery` | 117 | 59 | Regulation (EU) 2023/1542 |
 | `chemicals` | 96 | 28 | ESPR (EU) 2024/1781 |
 | `construction` | 49 | 43 | CPR (EU) 2024/3110 |
 | `electronics` | 167 | 20 | ESPR (EU) 2024/1781 |
@@ -65,6 +65,16 @@ framework: it mandates no field directly, and every Digital Product Passport obl
 flows through a delegated act adopted under its Article 4. No product-group delegated act
 has been adopted. Fields expected under a future act carry `validation.anticipated`
 rather than `required`, with the CELEX of the instrument expected to impose them.
+
+**An obligation does not always apply uniformly across a category.** Where the governing
+instrument distinguishes sub-categories, the field carries `validation.requiredBy` — a map
+from sub-category to `required`, `conditional`, or `notApplicable`. Battery uses the
+Regulation (EU) 2023/1542 split (`EV`, `LMT`, `industrial_gt_2kwh`): everything applies to
+EV batteries, LMT is exempt from the capacity-threshold-for-exhaustion field, and industrial
+batteries are largely conditional on gates such as having a battery management system or
+containing Annex X materials. `conditional` means the instrument compels the field only when
+its stated gate is met — so a passport legitimately leaves it empty otherwise. Fields with no
+`requiredBy` apply to the whole category.
 
 ## What a field looks like
 

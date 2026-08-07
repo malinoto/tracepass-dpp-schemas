@@ -395,6 +395,19 @@
             "anticipatedNote": {
               "type": "string",
               "description": "Why it is expected — e.g. \"ESPR Annex I(p), pending a delegated act under Art. 4\"."
+            },
+            "requiredBy": {
+              "type": "object",
+              "description": "Per-sub-category applicability, where one obligation does not apply uniformly across a category. Present only on fields whose governing instrument distinguishes sub-categories; absent means `required`/`anticipated` applies to the whole category. Battery uses the Regulation (EU) 2023/1542 split: EV batteries, light means of transport (LMT), and industrial batteries over 2 kWh.",
+              "additionalProperties": {
+                "type": "string",
+                "enum": [
+                  "required",
+                  "conditional",
+                  "notApplicable"
+                ],
+                "description": "`required` — the instrument compels it for this sub-category. `conditional` — compelled only when a stated gate is met (e.g. the battery has a BMS, is rechargeable, or contains Annex X materials). `notApplicable` — the provision does not reach this sub-category."
+              }
             }
           }
         },

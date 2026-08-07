@@ -1,6 +1,6 @@
 {
   "name": "@tracepass/dpp-schemas",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 12 product categories, 913 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
   "keywords": [
     "digital-product-passport",
@@ -42,6 +42,9 @@
     "provenance": true
   },
   "scripts": {
-    "validate": "python3 -c \"import json,glob;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));[print(('ok  ' if not list(v.iter_errors(json.load(open(p)))) else 'FAIL'),p) for p in sorted(glob.glob('templates/*.json'))]\""
+    "validate": "python3 -c \"import json,glob,sys;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));bad=0\nfor p in sorted(glob.glob('templates/*.json')):\n    e=list(v.iter_errors(json.load(open(p))));bad+=bool(e);print(('FAIL' if e else 'ok  '),p)\n    [print('     ',str(x.absolute_path),x.message[:120]) for x in e[:3]]\nsys.exit(1 if bad else 0)\"",
+    "build:index": "node scripts/build-index.mjs",
+    "check:index": "node scripts/build-index.mjs --check",
+    "check": "npm run validate && npm run check:index"
   }
 }
