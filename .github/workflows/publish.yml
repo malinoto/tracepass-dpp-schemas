@@ -19,10 +19,18 @@
 #
 # ─── RELEASE FLOW ──────────────────────────────────────────────────────────────
 #
+#   npm run build:index      # regenerate the manifest if templates changed
+#   npm run check            # validate templates + manifest freshness
 #   npm version patch        # bumps package.json + creates the git tag
 #   git push && git push origin v$(node -p "require('./package.json').version")
 #
-# The workflow validates the 12 templates against schema.json, then publishes.
+# If package.json was already bumped by hand, skip `npm version` and tag
+# directly: git tag -a v<version> && git push origin v<version>. Tag and
+# package.json version MUST match — the tag is what triggers this workflow,
+# but npm publishes whatever package.json says.
+#
+# The workflow re-runs `npm run check` before publishing, so a stale index.json
+# or a non-conforming template fails the release rather than shipping.
 
 name: Publish
 
@@ -64,14 +72,12 @@ jobs:
       - name: Install validator
         run: pip install jsonschema
 
-      - name: Validate templates against schema.json
-        # Fails the release if any of the 12 templates no longer conforms.
-        run: |
-          npm run validate | tee /tmp/validate.out
-          if grep -q FAIL /tmp/validate.out; then
-            echo "::error::One or more templates failed schema validation"
-            exit 1
-          fi
+      - name: Validate templates and manifest
+        # Fails the release if any of the 12 templates no longer conforms to
+        # schema.json, or if index.json disagrees with what the templates
+        # actually contain. `npm run check` exits non-zero on either, so the
+        # published counts can never drift from the published data.
+        run: npm run check
 
       - name: Publish to npm
         # No NODE_AUTH_TOKEN: an empty token would make npm reject with
