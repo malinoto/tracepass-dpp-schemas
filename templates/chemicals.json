@@ -1334,7 +1334,6 @@
       "unit": null,
       "translatable": true,
       "defaultValue": null,
-      "enumOptions": [],
       "validation": {
         "required": false
       },
@@ -11349,7 +11348,7 @@
         "sl": "Navodila za pravilno odstranjevanje izdelka in njegove embalaže.",
         "sv": "Anvisningar för korrekt bortskaffande av produkten och dess förpackning."
       },
-      "dataType": "string",
+      "dataType": "url",
       "unit": null,
       "translatable": true,
       "defaultValue": null,

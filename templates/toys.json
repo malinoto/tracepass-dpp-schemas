@@ -2587,7 +2587,7 @@
         "sl": "Ocena, kako enostavno je mogoče igračo reciklirati ob koncu življenjske dobe",
         "sv": "Bedömning av hur enkelt leksaken kan återvinnas vid livscykelns slut"
       },
-      "dataType": "enum",
+      "dataType": "object",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -3103,7 +3103,7 @@
         "sl": "Pričakovana uporabna življenjska doba igrače v običajnih pogojih uporabe",
         "sv": "Förväntad användbar livslängd för leksaken under normala användningsförhållanden"
       },
-      "dataType": "string",
+      "dataType": "object",
       "unit": null,
       "translatable": true,
       "defaultValue": null,

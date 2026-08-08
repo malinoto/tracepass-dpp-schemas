@@ -2022,7 +2022,7 @@
         "sl": "URL izjave EU o skladnosti",
         "sv": "URL till EU-försäkran om överensstämmelse"
       },
-      "dataType": "url",
+      "dataType": "object",
       "unit": null,
       "translatable": false,
       "defaultValue": null,

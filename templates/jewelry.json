@@ -5555,7 +5555,7 @@
         "es": "URL del programa de devolución o reciclaje del fabricante",
         "sv": "URL till tillverkarens återtagnings- eller återvinningsprogram"
       },
-      "dataType": "url",
+      "dataType": "object",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
