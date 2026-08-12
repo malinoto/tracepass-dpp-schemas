@@ -5768,7 +5768,7 @@
         "el": "Πληροφορίες ανταλλακτικών"
       },
       "description": {
-        "en": "Spare parts catalog with supplier contact information",
+        "en": "Spare parts catalogue plus the contact details of sources for replacement spares — postal address and e-mail, not only a web link",
         "hr": "Katalog dijelova za zamjenu s kontaktnom informacijom dobavljača",
         "cs": "Katalog náhradních dílů s kontaktními informacemi dodavatele",
         "da": "Katalog over reservedele med leverandørens kontaktoplysninger",
@@ -5845,9 +5845,11 @@
           "spare parts",
           "replacement parts",
           "parts catalog",
-          "spare parts catalog"
+          "spare parts catalog",
+          "spare parts contact",
+          "sources for replacement spares"
         ],
-        "expectedFormat": "Object with fields: catalogUrl, supplierName, supplierContact",
+        "expectedFormat": "Object with fields: catalogUrl (URL), supplierName (string), supplierPostalAddress (string — full postal address), supplierEmail (string — email), supplierPhone (string, optional). Legacy `supplierContact` free text is accepted but should be split into the typed fields above. Annex XIII 2(b) asks for contact DETAILS, so a bare URL is not sufficient on its own.",
         "extractionPriority": 4
       }
     },
@@ -7677,7 +7679,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -7714,11 +7716,12 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
-        "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -7790,7 +7793,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -7827,11 +7830,12 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
-        "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -8821,7 +8825,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 1,
         "max": null,
         "minLength": null,
@@ -8858,11 +8862,12 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
-        "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -9050,7 +9055,7 @@
         }
       ],
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
@@ -9087,11 +9092,12 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
-        "annex": "Annex VI",
-        "instrument": "32023R1542",
-        "provision": "Art. 77",
-        "kind": "legislation"
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13962,8 +13968,8 @@
       }
     }
   ],
-  "fieldCount": 117,
-  "requiredFieldCount": 59,
+  "fieldCount": 119,
+  "requiredFieldCount": 54,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",

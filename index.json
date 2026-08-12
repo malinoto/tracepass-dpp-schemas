@@ -8,7 +8,7 @@
   "totals": {
     "categories": 12,
     "fields": 937,
-    "requiredFields": 306,
+    "requiredFields": 302,
     "anticipatedFields": 198
   },
   "categories": [
@@ -18,7 +18,7 @@
       "file": "templates/battery.json",
       "version": 4,
       "fieldCount": 119,
-      "requiredFieldCount": 58,
+      "requiredFieldCount": 54,
       "anticipatedFieldCount": 11,
       "regulation": {
         "name": "EU Battery Regulation",

@@ -39,12 +39,12 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **937 fields in total. 306 are required by an instrument in force;
+Twelve JSON files, one per product category. **937 fields in total. 302 are required by an instrument in force;
 198 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 119 | 58 | Regulation (EU) 2023/1542 |
+| `battery` | 119 | 54 | Regulation (EU) 2023/1542 |
 | `chemicals` | 96 | 28 | ESPR (EU) 2024/1781 |
 | `construction` | 49 | 43 | CPR (EU) 2024/3110 |
 | `electronics` | 167 | 20 | ESPR (EU) 2024/1781 |
