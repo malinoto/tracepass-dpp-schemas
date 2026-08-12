@@ -7003,7 +7003,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": null,
         "minLength": null,
@@ -10480,6 +10480,242 @@
       }
     },
     {
+      "key": "capacityThroughput",
+      "label": {
+        "en": "Capacity Throughput",
+        "bg": "Пропуснат капацитет",
+        "de": "Kapazitätsdurchsatz",
+        "hr": "Propusnost kapaciteta",
+        "cs": "Průchozí kapacita",
+        "da": "Kapacitetsgennemstrømning",
+        "nl": "Capaciteitsdoorvoer",
+        "et": "Mahtuvuse läbilaskevõime",
+        "fi": "Kapasiteetin läpimeno",
+        "fr": "Débit de capacité",
+        "hu": "Kapacitásátbocsátás",
+        "ga": "Tréchur Acmhainne",
+        "it": "Capacità Erogata Cumulativa",
+        "lv": "Jaudas caurlaide",
+        "lt": "Talpos pralaidumas",
+        "mt": "Throughput ta' Kapaċità",
+        "pl": "Przepustowość pojemności",
+        "pt": "Débito de Capacidade",
+        "ro": "Debit de Capacitate",
+        "sk": "Priechodná kapacita",
+        "sl": "Prepustnost zmogljivosti",
+        "es": "Capacidad Acumulada Entregada",
+        "sv": "Kapacitetsgenomströmning",
+        "el": "Συνολική διακίνηση χωρητικότητας"
+      },
+      "description": {
+        "en": "Cumulative charge passed through the battery over its life, in ampere-hours",
+        "hr": "Kumulativni naboj propušten kroz bateriju tijekom njezina vijeka, u amper-satima",
+        "cs": "Kumulativní náboj, který prošel baterií za dobu její životnosti, v ampérhodinách",
+        "da": "Akkumuleret ladning gennem batteriet i dets levetid, i amperetimer",
+        "nl": "Cumulatieve lading die tijdens de levensduur door de batterij is gegaan, in ampère-uur",
+        "et": "Aku eluea jooksul läbinud kumulatiivne laeng amper-tundides",
+        "fi": "Akun elinkaaren aikana läpi kulkenut kumulatiivinen varaus ampeeritunteina",
+        "fr": "Charge cumulée ayant transité par la batterie au cours de sa vie, en ampères-heures",
+        "hu": "Az akkumulátoron élettartama során átáramlott összesített töltés amperórában",
+        "ga": "Lucht carnach a chuaigh tríd an gcadhnra le linn a shaoil, in ampéar-uaireanta",
+        "it": "Carica cumulativa transitata nella batteria durante la sua vita, in ampere-ora",
+        "lv": "Kumulatīvais lādiņš, kas izgājis cauri akumulatoram tā kalpošanas laikā, ampērstundās",
+        "lt": "Kaupiamasis krūvis, praėjęs per bateriją per jos tarnavimo laiką, ampervalandėmis",
+        "mt": "Ċarġ kumulattiv li għadda mill-batterija matul ħajjitha, f'amp-siegħat",
+        "pl": "Skumulowany ładunek, który przepłynął przez baterię w czasie jej życia, w amperogodzinach",
+        "pt": "Carga cumulativa que passou pela bateria ao longo da sua vida, em ampere-hora",
+        "ro": "Sarcina cumulată care a trecut prin baterie pe durata vieții sale, în amperi-oră",
+        "sk": "Kumulatívny náboj, ktorý prešiel batériou počas jej životnosti, v ampérhodinách",
+        "sl": "Kumulativni naboj, ki je prešel skozi baterijo v njeni življenjski dobi, v ampernih urah",
+        "es": "Carga acumulada que ha pasado por la batería durante su vida, en amperios-hora",
+        "sv": "Ackumulerad laddning genom batteriet under dess livslängd, i amperetimmar",
+        "el": "Συσσωρευμένο φορτίο που διήλθε από την μπαταρία κατά τη διάρκεια ζωής της, σε αμπερώρες"
+      },
+      "dataType": "number",
+      "unit": "Ah",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 87,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "GEFEG BatteryPass-Ready data model — required for LMT and stationary industrial >2kWh, not defined for EV. No corresponding data point in the Commission's Annex XIII list (DG GROW v1.0, 28 Jul 2026)."
+      },
+      "aiHints": {
+        "alternateNames": [
+          "charge throughput",
+          "cumulative capacity",
+          "total Ah throughput",
+          "amp-hour throughput"
+        ],
+        "expectedFormat": "Cumulative non-negative number (Ah)",
+        "extractionPriority": 6
+      }
+    },
+    {
+      "key": "energyThroughput",
+      "label": {
+        "en": "Energy Throughput",
+        "bg": "Пропусната енергия",
+        "de": "Energiedurchsatz",
+        "hr": "Propusnost energije",
+        "cs": "Průchozí energie",
+        "da": "Energigennemstrømning",
+        "nl": "Energiedoorvoer",
+        "et": "Energia läbilaskevõime",
+        "fi": "Energian läpimeno",
+        "fr": "Débit d'énergie",
+        "hu": "Energiaátbocsátás",
+        "ga": "Tréchur Fuinnimh",
+        "it": "Energia Erogata Cumulativa",
+        "lv": "Enerģijas caurlaide",
+        "lt": "Energijos pralaidumas",
+        "mt": "Throughput ta' Enerġija",
+        "pl": "Przepustowość energii",
+        "pt": "Débito de Energia",
+        "ro": "Debit de Energie",
+        "sk": "Priechodná energia",
+        "sl": "Prepustnost energije",
+        "es": "Energía Acumulada Entregada",
+        "sv": "Energigenomströmning",
+        "el": "Συνολική διακίνηση ενέργειας"
+      },
+      "description": {
+        "en": "Cumulative energy passed through the battery over its life, in kilowatt-hours",
+        "hr": "Kumulativna energija propuštena kroz bateriju tijekom njezina vijeka, u kilovat-satima",
+        "cs": "Kumulativní energie, která prošla baterií za dobu její životnosti, v kilowatthodinách",
+        "da": "Akkumuleret energi gennem batteriet i dets levetid, i kilowatttimer",
+        "nl": "Cumulatieve energie die tijdens de levensduur door de batterij is gegaan, in kilowattuur",
+        "et": "Aku eluea jooksul läbinud kumulatiivne energia kilovatt-tundides",
+        "fi": "Akun elinkaaren aikana läpi kulkenut kumulatiivinen energia kilowattitunteina",
+        "fr": "Énergie cumulée ayant transité par la batterie au cours de sa vie, en kilowattheures",
+        "hu": "Az akkumulátoron élettartama során átáramlott összesített energia kilowattórában",
+        "ga": "Fuinneamh carnach a chuaigh tríd an gcadhnra le linn a shaoil, in cileavata-uaireanta",
+        "it": "Energia cumulativa transitata nella batteria durante la sua vita, in chilowattora",
+        "lv": "Kumulatīvā enerģija, kas izgājusi cauri akumulatoram tā kalpošanas laikā, kilovatstundās",
+        "lt": "Kaupiamoji energija, praėjusi per bateriją per jos tarnavimo laiką, kilovatvalandėmis",
+        "mt": "Enerġija kumulattiva li għaddiet mill-batterija matul ħajjitha, f'kilowatt-siegħat",
+        "pl": "Skumulowana energia, która przepłynęła przez baterię w czasie jej życia, w kilowatogodzinach",
+        "pt": "Energia cumulativa que passou pela bateria ao longo da sua vida, em quilowatt-hora",
+        "ro": "Energia cumulată care a trecut prin baterie pe durata vieții sale, în kilowați-oră",
+        "sk": "Kumulatívna energia, ktorá prešla batériou počas jej životnosti, v kilowatthodinách",
+        "sl": "Kumulativna energija, ki je prešla skozi baterijo v njeni življenjski dobi, v kilovatnih urah",
+        "es": "Energía acumulada que ha pasado por la batería durante su vida, en kilovatios-hora",
+        "sv": "Ackumulerad energi genom batteriet under dess livslängd, i kilowattimmar",
+        "el": "Συσσωρευμένη ενέργεια που διήλθε από την μπαταρία κατά τη διάρκεια ζωής της, σε κιλοβατώρες"
+      },
+      "dataType": "number",
+      "unit": "kWh",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 88,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "article": null,
+        "description": "GEFEG BatteryPass-Ready data model — required for LMT and stationary industrial >2kWh, not defined for EV. No corresponding data point in the Commission's Annex XIII list (DG GROW v1.0, 28 Jul 2026)."
+      },
+      "aiHints": {
+        "alternateNames": [
+          "cumulative energy",
+          "total energy throughput",
+          "kWh throughput",
+          "lifetime energy delivered"
+        ],
+        "expectedFormat": "Cumulative non-negative number (kWh)",
+        "extractionPriority": 6
+      }
+    },
+    {
       "key": "numberOfChargingEvents",
       "label": {
         "en": "Number of Charging Events",
@@ -10571,7 +10807,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 87,
+      "sortOrder": 89,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
@@ -10682,7 +10918,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 88,
+      "sortOrder": 90,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 77",
@@ -10794,7 +11030,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 89,
+      "sortOrder": 91,
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "annex": "Annex XIII",
@@ -10907,7 +11143,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 90,
+      "sortOrder": 92,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
@@ -11020,7 +11256,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 91,
+      "sortOrder": 93,
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "annex": "Annex XIII",
@@ -11134,7 +11370,7 @@
         "sv": "Allmän information",
         "el": "Γενικές πληροφορίες"
       },
-      "sortOrder": 93,
+      "sortOrder": 95,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Annex XIII point 1",
@@ -11248,7 +11484,7 @@
         "sv": "Allmän information",
         "el": "Γενικές πληροφορίες"
       },
-      "sortOrder": 94,
+      "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
@@ -11560,7 +11796,7 @@
         "sv": "Etiketter, symboler och överensstämmelse",
         "el": "Σημάνσεις, σύμβολα και συμμόρφωση"
       },
-      "sortOrder": 92,
+      "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Annex XIII point 1(i)",
@@ -11628,7 +11864,7 @@
         "sv": "Materialsammansättning och återvunnet innehåll",
         "el": "Σύνθεση υλικών και ανακυκλωμένο περιεχόμενο"
       },
-      "sortOrder": 95,
+      "sortOrder": 97,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -11701,7 +11937,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 96,
+      "sortOrder": 98,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -11769,7 +12005,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 97,
+      "sortOrder": 99,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -11842,7 +12078,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 98,
+      "sortOrder": 100,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -11910,7 +12146,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 99,
+      "sortOrder": 101,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -11982,7 +12218,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 101,
+      "sortOrder": 103,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -12054,7 +12290,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 102,
+      "sortOrder": 104,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -12125,7 +12361,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 103,
+      "sortOrder": 105,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -12197,7 +12433,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Απόδοση και αντοχή"
       },
-      "sortOrder": 100,
+      "sortOrder": 102,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "instrument": "32023R1542",
@@ -12314,7 +12550,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 104,
+      "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1); Art. 3, 1(51)",
@@ -12430,7 +12666,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 105,
+      "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1); Art. 3, 1(51)",
@@ -12546,7 +12782,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 106,
+      "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1); Art. 3, 1(51)",
@@ -12662,7 +12898,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 107,
+      "sortOrder": 109,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1)",
@@ -12778,7 +13014,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 108,
+      "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1)",
@@ -12894,7 +13130,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 109,
+      "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8(1)",
@@ -13010,7 +13246,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 110,
+      "sortOrder": 112,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 10, Annex IV Part B (4)",
@@ -13126,7 +13362,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 111,
+      "sortOrder": 113,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 10, Annex IV Part B (4)",
@@ -13242,7 +13478,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 112,
+      "sortOrder": 114,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Annex XIII (4d)",
@@ -13358,7 +13594,7 @@
         "sv": "Etiketter, symboler och överensstämmelse",
         "el": "Σημάνσεις, σύμβολα και συμμόρφωση"
       },
-      "sortOrder": 113,
+      "sortOrder": 115,
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13(5)",
@@ -13474,7 +13710,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 114,
+      "sortOrder": 116,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Annex XIII (2b)",
@@ -13590,7 +13826,7 @@
         "sv": "Cirkularitet och resurseffektivitet",
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
-      "sortOrder": 115,
+      "sortOrder": 117,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Annex XIII (2b)",
@@ -13706,7 +13942,7 @@
         "sv": "Prestanda och hållbarhet",
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
-      "sortOrder": 116,
+      "sortOrder": 118,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Annex XIII (4d)",
