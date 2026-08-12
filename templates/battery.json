@@ -26,7 +26,7 @@
     "sv": "Batteri",
     "el": "Μπαταρία"
   },
-  "version": 3,
+  "version": 4,
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",

@@ -16,7 +16,7 @@
       "category": "battery",
       "label": "Battery",
       "file": "templates/battery.json",
-      "version": 3,
+      "version": 4,
       "fieldCount": 117,
       "requiredFieldCount": 59,
       "anticipatedFieldCount": 11,

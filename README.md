@@ -57,8 +57,12 @@ Twelve JSON files, one per product category. **935 fields in total. 307 are requ
 | `toys` | 28 | 14 | ESPR (EU) 2024/1781 |
 | `tyres` | 95 | 43 | ESPR (EU) 2024/1781 |
 
-Every battery field is mandatory — Annex XIII of the Battery Regulation admits no
-optional entries.
+Battery is the only category whose obligation is already in force — Regulation (EU)
+2023/1542 Art. 77 applies from 18 February 2027, rather than awaiting a delegated
+act. That is why its `required` count is the highest of the twelve. It is not the
+case that every battery field is required: the template also carries fields that are
+`anticipated` (pending the carbon-footprint and due-diligence implementing acts) and
+fields that apply only to some battery sub-categories via `validation.requiredBy`.
 
 **`required` means an instrument in force compels the data.** ESPR (EU) 2024/1781 is a
 framework: it mandates no field directly, and every Digital Product Passport obligation
