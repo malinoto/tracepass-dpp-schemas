@@ -118,7 +118,8 @@ are `"day"` or `"year"`; absent means `"day"`:
 - **`"day"`** — a real statutory date. Battery is `2027-02-18`, set by ESPR Article 77.
 - **`"year"`** — only the year is known, because the governing delegated or implementing
   act is not yet adopted. The day and month are filler. **Do not render these as a
-  deadline.** Ten of the twelve categories are currently `"year"`.
+  deadline.** Eleven of the twelve categories are currently `"year"`; only battery is
+  `"day"`.
 
 ```python
 r = template["regulation"]
@@ -127,6 +128,14 @@ if r.get("datePrecision", "day") == "year":
 else:
     print(f"DPP obligation from {r['effectiveDate']}")              # "2027-02-18"
 ```
+
+> **Upgrading from 0.3.x?** The date values did not change and no key was removed, so
+> code that reads this data keeps working. One case does break: if you **vendored a copy
+> of `schema.json` from 0.3.x** and validate 0.4.0 template data against it, eleven of
+> the twelve templates are rejected — that version closed the `regulation` object with
+> `additionalProperties: false`, so the new precision keys are refused. Take the
+> `schema.json` shipped in this package alongside the data. From 0.4.1 the `regulation`
+> object is open, so later additive keys will not do this again.
 
 **`regulationRef`** is the reason this data is worth having. Every field says which
 article and annex mandates it, so a compliance report can cite its source rather than

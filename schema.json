@@ -42,14 +42,14 @@
     },
     "regulation": {
       "type": "object",
-      "description": "The EU instrument that mandates this category's passport.",
+      "description": "The EU instrument that mandates this category's passport. Deliberately open to extra properties, unlike the rest of this schema: the regulatory picture gains detail as delegated and implementing acts land, and a closed object makes every additive key a breaking change for anyone validating newer data against a pinned older copy of this file. Adding a key here is a MINOR bump; removing or retyping one is MAJOR.",
       "required": [
         "name",
         "number",
         "effectiveDate",
         "mandatoryDate"
       ],
-      "additionalProperties": false,
+      "additionalProperties": true,
       "properties": {
         "name": {
           "type": "string",
