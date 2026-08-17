@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 12,
-    "fields": 937,
+    "fields": 939,
     "requiredFields": 302,
-    "anticipatedFields": 198
+    "anticipatedFields": 200
   },
   "categories": [
     {
@@ -32,9 +32,9 @@
       "label": "Chemicals & Paints",
       "file": "templates/chemicals.json",
       "version": 2,
-      "fieldCount": 96,
+      "fieldCount": 98,
       "requiredFieldCount": 28,
-      "anticipatedFieldCount": 15,
+      "anticipatedFieldCount": 17,
       "regulation": {
         "name": "EU ESPR - Chemicals",
         "number": "(EU) 2024/1781",
