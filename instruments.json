@@ -259,6 +259,14 @@
       "eli": "http://data.europa.eu/eli/reg/2023/1670/oj",
       "createsDpp": false,
       "note": "Under the OLD Ecodesign Directive 2009/125/EC, not ESPR. Real durability/repairability/spare-parts obligations for smartphones and tablets, but no Digital Product Passport."
+    },
+    "32019R0424": {
+      "kind": "legislation",
+      "shortName": "Server & Data Storage Ecodesign",
+      "title": "Commission Regulation (EU) 2019/424 laying down ecodesign requirements for servers and data storage products",
+      "eli": "http://data.europa.eu/eli/reg/2019/424/oj",
+      "createsDpp": false,
+      "note": "Adopted under the repealed Directive 2009/125/EC and KEPT IN FORCE by ESPR Art. 79 until repealed or replaced by an ESPR delegated act. Source of the PSU efficiency load points (10/20/50/100 % of rated output), power factor, idle-state power and server product-type parameters. Not a passport instrument."
     }
   },
   "nonLegislative": {
