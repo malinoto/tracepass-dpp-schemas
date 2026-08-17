@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 12,
-    "fields": 939,
-    "requiredFields": 302,
-    "anticipatedFields": 200
+    "fields": 940,
+    "requiredFields": 300,
+    "anticipatedFields": 202
   },
   "categories": [
     {
@@ -84,8 +84,8 @@
       "file": "templates/fmcg.json",
       "version": 2,
       "fieldCount": 42,
-      "requiredFieldCount": 11,
-      "anticipatedFieldCount": 4,
+      "requiredFieldCount": 9,
+      "anticipatedFieldCount": 6,
       "regulation": {
         "name": "EU ESPR - FMCG",
         "number": "(EU) 2024/1781",
@@ -117,7 +117,7 @@
       "label": "Jewelry & Precious Metals",
       "file": "templates/jewelry.json",
       "version": 2,
-      "fieldCount": 52,
+      "fieldCount": 53,
       "requiredFieldCount": 12,
       "anticipatedFieldCount": 10,
       "regulation": {
