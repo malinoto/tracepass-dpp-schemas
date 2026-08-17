@@ -2589,7 +2589,7 @@
         "sl": "Ocena, kako enostavno je mogoče igračo reciklirati ob koncu življenjske dobe",
         "sv": "Bedömning av hur enkelt leksaken kan återvinnas vid livscykelns slut"
       },
-      "dataType": "object",
+      "dataType": "enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
