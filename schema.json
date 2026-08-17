@@ -544,7 +544,33 @@
             }
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "$comment": "Options and dataType must agree. Options on a non-enum field are inert: they render in the CSV template and the picker while nothing validates against them. toys.recyclabilityAssessment shipped for several releases with a full enumOptions set and dataType 'object' — this schema passed it every time, and only the platform's own enum-integrity test caught it.",
+          "if": {
+            "properties": {
+              "enumOptions": {
+                "type": "array",
+                "minItems": 1
+              }
+            },
+            "required": [
+              "enumOptions"
+            ]
+          },
+          "then": {
+            "properties": {
+              "dataType": {
+                "enum": [
+                  "enum",
+                  "multi_enum"
+                ]
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }
