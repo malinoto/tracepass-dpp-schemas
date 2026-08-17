@@ -3479,9 +3479,10 @@
       "sortOrder": 29,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405 Annex V, SDS Section 3",
-        "instrument": "32006R1907",
-        "provision": "Annex II SDS section 3.2",
+        "article": "Detergents Reg (EU) 2026/405 Annex V Part A 1(h)(i)",
+        "instrument": "32026R0405",
+        "provision": "Annex V Part A, point 1(h)(i)",
+        "annex": "Annex V",
         "kind": "legislation"
       },
       "aiHints": {
