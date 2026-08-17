@@ -105,7 +105,28 @@ its stated gate is met — so a passport legitimately leaves it empty otherwise.
 }
 ```
 
-Four things are worth pointing out.
+Five things are worth pointing out.
+
+**`regulation.effectiveDate` is the date the passport obligation begins — not the date
+the regulation applies.** Those are different dates and can sit years apart. PPWR
+(EU) 2025/40 has applied since 12 August 2026, but its packaging DPP provisions phase
+in from 2027, so `packaging` carries `2027`, not `2026-08-12`.
+
+Read both dates with their precision marker. `datePrecision` / `mandatoryDatePrecision`
+are `"day"` or `"year"`; absent means `"day"`:
+
+- **`"day"`** — a real statutory date. Battery is `2027-02-18`, set by ESPR Article 77.
+- **`"year"`** — only the year is known, because the governing delegated or implementing
+  act is not yet adopted. The day and month are filler. **Do not render these as a
+  deadline.** Ten of the twelve categories are currently `"year"`.
+
+```python
+r = template["regulation"]
+if r.get("datePrecision", "day") == "year":
+    print(f"DPP obligation expected in {r['effectiveDate'][:4]}")   # "2027"
+else:
+    print(f"DPP obligation from {r['effectiveDate']}")              # "2027-02-18"
+```
 
 **`regulationRef`** is the reason this data is worth having. Every field says which
 article and annex mandates it, so a compliance report can cite its source rather than

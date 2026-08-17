@@ -67,12 +67,30 @@
         "effectiveDate": {
           "type": "string",
           "format": "date",
-          "description": "ISO 8601 date (YYYY-MM-DD). A string, not a timestamp."
+          "description": "ISO 8601 date (YYYY-MM-DD). A string, not a timestamp. This is the date the DIGITAL PRODUCT PASSPORT obligation begins for the category — NOT the date the instrument itself enters into force or starts applying. The two can differ by years: PPWR (EU) 2025/40 has applied since 2026-08-12, but its packaging DPP provisions phase in from 2027. Read with datePrecision: where that is \"year\", only the year is significant and the day/month are filler."
+        },
+        "datePrecision": {
+          "type": "string",
+          "enum": [
+            "day",
+            "year"
+          ],
+          "default": "day",
+          "description": "How much of effectiveDate is real. \"day\" = a specific statutory date (e.g. battery, 2027-02-18, ESPR Art. 77). \"year\" = only the year is known, because the governing delegated or implementing act is not yet adopted; the day/month are placeholders and MUST NOT be presented to end users as a deadline."
         },
         "mandatoryDate": {
           "type": "string",
           "format": "date",
-          "description": "ISO 8601 date (YYYY-MM-DD) from which the passport is legally required."
+          "description": "ISO 8601 date (YYYY-MM-DD) from which the passport is legally required. Read with mandatoryDatePrecision — see datePrecision for the semantics."
+        },
+        "mandatoryDatePrecision": {
+          "type": "string",
+          "enum": [
+            "day",
+            "year"
+          ],
+          "default": "day",
+          "description": "How much of mandatoryDate is real. Same semantics as datePrecision."
         }
       }
     },

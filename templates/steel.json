@@ -32,7 +32,9 @@
     "name": "EU ESPR - Iron, Steel & Aluminium",
     "number": "(EU) 2024/1781",
     "effectiveDate": "2027-01-01",
-    "mandatoryDate": "2028-01-01"
+    "datePrecision": "year",
+    "mandatoryDate": "2028-01-01",
+    "mandatoryDatePrecision": "year"
   },
   "fields": [
     {

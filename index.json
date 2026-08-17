@@ -39,7 +39,9 @@
         "name": "EU ESPR - Chemicals",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2029-09-01",
-        "mandatoryDate": "2029-09-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2029-09-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -54,7 +56,9 @@
         "name": "Construction Products Regulation",
         "number": "(EU) 2024/3110",
         "effectiveDate": "2029-01-01",
-        "mandatoryDate": "2029-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2029-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -69,7 +73,9 @@
         "name": "EU ESPR - Electronics",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2028-01-01",
-        "mandatoryDate": "2029-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2029-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -84,7 +90,9 @@
         "name": "EU ESPR - FMCG",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2028-01-01",
-        "mandatoryDate": "2030-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2030-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -99,7 +107,9 @@
         "name": "EU ESPR - Furniture",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2029-01-01",
-        "mandatoryDate": "2030-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2030-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -114,7 +124,9 @@
         "name": "EU ESPR - Jewelry",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2030-01-01",
-        "mandatoryDate": "2030-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2030-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -129,7 +141,9 @@
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",
         "effectiveDate": "2027-01-01",
-        "mandatoryDate": "2030-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2030-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -144,7 +158,9 @@
         "name": "EU ESPR - Iron, Steel & Aluminium",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2027-01-01",
-        "mandatoryDate": "2028-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2028-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -159,7 +175,9 @@
         "name": "EU ESPR - Textiles",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2028-01-01",
-        "mandatoryDate": "2029-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2029-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -174,7 +192,9 @@
         "name": "EU ESPR - Toys",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2030-01-01",
-        "mandatoryDate": "2030-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2030-01-01",
+        "mandatoryDatePrecision": "year"
       }
     },
     {
@@ -189,7 +209,9 @@
         "name": "EU ESPR - Tyres",
         "number": "(EU) 2024/1781",
         "effectiveDate": "2028-01-01",
-        "mandatoryDate": "2029-01-01"
+        "datePrecision": "year",
+        "mandatoryDate": "2029-01-01",
+        "mandatoryDatePrecision": "year"
       }
     }
   ]

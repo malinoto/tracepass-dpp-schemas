@@ -32,7 +32,9 @@
     "name": "Construction Products Regulation",
     "number": "(EU) 2024/3110",
     "effectiveDate": "2029-01-01",
-    "mandatoryDate": "2029-01-01"
+    "datePrecision": "year",
+    "mandatoryDate": "2029-01-01",
+    "mandatoryDatePrecision": "year"
   },
   "fields": [
     {
