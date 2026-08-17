@@ -639,7 +639,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -674,8 +674,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
-        "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 952/2013 (UCC) — customs classification declared by the declarant at import",
+        "kind": "legislation",
+        "description": "The TARIC code is declared to customs by the importer or declarant, not published by the manufacturer."
       },
       "aiHints": {
         "alternateNames": [
@@ -918,6 +919,64 @@
             "sk": "Chladnička",
             "sl": "Hladilnik",
             "sv": "Kylskåp"
+          }
+        },
+        {
+          "value": "television",
+          "label": {
+            "bg": "Телевизор",
+            "cs": "Televize",
+            "da": "Fjernsyn",
+            "de": "Fernseher",
+            "el": "Τηλεόραση",
+            "en": "Television",
+            "es": "Televisor",
+            "et": "Teler",
+            "fi": "Televisio",
+            "fr": "Téléviseur",
+            "ga": "Teilifís",
+            "hr": "Televizor",
+            "hu": "Televízió",
+            "it": "Televisore",
+            "lt": "Televizorius",
+            "lv": "Televizors",
+            "mt": "Televiżjoni",
+            "nl": "Televisie",
+            "pl": "Telewizor",
+            "pt": "Televisor",
+            "ro": "Televizor",
+            "sk": "Televízor",
+            "sl": "Televizor",
+            "sv": "Television"
+          }
+        },
+        {
+          "value": "monitor",
+          "label": {
+            "bg": "Монитор",
+            "cs": "Monitor",
+            "da": "Skærm",
+            "de": "Monitor",
+            "el": "Οθόνη",
+            "en": "Monitor",
+            "es": "Monitor",
+            "et": "Monitor",
+            "fi": "Näyttö",
+            "fr": "Moniteur",
+            "ga": "Monatóir",
+            "hr": "Monitor",
+            "hu": "Monitor",
+            "it": "Monitor",
+            "lt": "Monitorius",
+            "lv": "Monitors",
+            "mt": "Monitor",
+            "nl": "Monitor",
+            "pl": "Monitor",
+            "pt": "Monitor",
+            "ro": "Monitor",
+            "sk": "Monitor",
+            "sl": "Monitor",
+            "sv": "Bildskärm"
           }
         },
         {
@@ -2030,7 +2089,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -2065,8 +2124,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
-        "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "provision": "RoHS Dir. 2011/65/EU Art. 13 + EMC Dir. 2014/30/EU Art. 15 — DoC drawn up and kept, produced on request",
+        "kind": "legislation",
+        "description": "The Declaration of Conformity is drawn up and held by the manufacturer and produced to authorities on request, not published."
       },
       "aiHints": {
         "alternateNames": [
@@ -2169,10 +2229,10 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 16-17",
+        "article": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
         "annex": null,
-        "instrument": "32024R1781",
-        "provision": "Art. 16-17",
+        "instrument": "32011L0065",
+        "provision": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
         "kind": "legislation"
       },
       "aiHints": {
@@ -2350,7 +2410,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -2385,8 +2445,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
-        "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "provision": "RoHS Dir. 2011/65/EU Art. 7(b) + Annex VI — technical documentation kept 10 years, produced on request",
+        "kind": "legislation",
+        "description": "The technical file is held by the manufacturer and produced to authorities on request; it is never published."
       },
       "aiHints": {
         "alternateNames": [
@@ -2456,7 +2517,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -2491,8 +2552,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
-        "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 9(7) — instructions and safety information, where the product's risks require them",
+        "kind": "legislation",
+        "description": "Instructions must accompany the product where safety requires it, in a language the consumer understands; this is risk-conditional."
       },
       "aiHints": {
         "alternateNames": [
@@ -2874,7 +2936,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -2910,7 +2972,8 @@
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "ESPR Arts. 7 and 9 mandate no data on their own and no Art. 4 delegated act covers electronics, so no durability class is legally required."
       },
       "aiHints": {
         "alternateNames": [
@@ -3126,7 +3189,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -3162,7 +3225,8 @@
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force requires a repairability class for electronics; national schemes are not an EU duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -3547,7 +3611,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "energy_efficiency",
       "categoryLabel": {
@@ -3582,8 +3646,9 @@
         "article": "Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2017/1369 Arts. 3(1) and 4 — physical energy label supplied with the product and EPREL registration",
+        "kind": "legislation",
+        "description": "The energy class is discharged by the printed label and the EPREL entry, and only for product groups with a delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -3655,7 +3720,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0
       },
       "category": "energy_efficiency",
@@ -3691,8 +3756,9 @@
         "article": "Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2017/1369 Arts. 12 and 4 — product information sheet registered in EPREL",
+        "kind": "legislation",
+        "description": "Annual consumption goes on the label and in the EPREL product information sheet."
       },
       "aiHints": {
         "alternateNames": [
@@ -4129,7 +4195,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -4165,7 +4231,8 @@
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force imposes a carbon-footprint class on electronics; only the Battery Regulation does so, for batteries."
       },
       "aiHints": {
         "alternateNames": [
@@ -4992,7 +5059,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "smartphone_tablet",
       "categoryLabel": {
@@ -5027,8 +5094,9 @@
         "article": "Art. 11",
         "annex": "Reg. 2023/1670",
         "instrument": "32023R1542",
-        "provision": "Batteries Reg (EU) 2023/1542 Art. 11",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2023/1542 Art. 11 — removability and replaceability, for products incorporating a portable battery, from 18 February 2027",
+        "kind": "legislation",
+        "description": "A design obligation on the appliance plus instructions supplied with it, binding only where a portable battery is incorporated."
       },
       "aiHints": {
         "alternateNames": [
@@ -14428,7 +14496,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "hazardous_substances",
       "categoryLabel": {
@@ -14463,8 +14531,9 @@
         "article": "Art. 4",
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
-        "provision": "RoHS Dir 2011/65/EU Art. 4(1)",
-        "kind": "legislation"
+        "provision": "RoHS Dir. 2011/65/EU Art. 4(1) — substance restriction evidenced through the DoC and CE marking",
+        "kind": "legislation",
+        "description": "RoHS Art. 4(1) is a restriction to stay under, evidenced by the Declaration of Conformity and the CE mark."
       },
       "aiHints": {
         "alternateNames": [
@@ -15731,7 +15800,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "hazardous_substances",
       "categoryLabel": {
@@ -15766,8 +15835,9 @@
         "article": "Art. 33",
         "annex": "Reg. 1907/2006 REACH",
         "instrument": "32006R1907",
-        "provision": "REACH Reg 1907/2006 Art. 33(1); WFD Dir 2008/98 Art. 9(1)(i) (SCIP)",
-        "kind": "legislation"
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -15902,7 +15972,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "hazardous_substances",
       "categoryLabel": {
@@ -15937,8 +16007,9 @@
         "article": "Art. 33",
         "annex": "Reg. 1907/2006 REACH",
         "instrument": "32006R1907",
-        "provision": "REACH Reg 1907/2006 Art. 33(1)",
-        "kind": "legislation"
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -15987,7 +16058,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "critical_raw_materials",
       "categoryLabel": {
@@ -16022,8 +16093,9 @@
         "article": "Art. 27",
         "annex": "Reg. 2024/1252 CRMA",
         "instrument": "32024R1781",
-        "provision": "Art. 27",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2024/1252 (CRMA) Art. 28 — permanent-magnet information, applicable from 24 May 2029 for covered categories",
+        "kind": "legislation",
+        "description": "The CRMA magnet-information duty is not yet applicable and attaches to a label and data carrier for specified categories."
       },
       "aiHints": {
         "alternateNames": [
@@ -17970,7 +18042,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -18005,8 +18077,9 @@
         "article": "Art. 16",
         "annex": "Dir. 2012/19/EU",
         "instrument": "32012L0019",
-        "provision": "WEEE Dir 2012/19/EU Art. 16(2)",
-        "kind": "legislation"
+        "provision": "WEEE Dir. 2012/19/EU Art. 16(2) — producer registration in each Member State's national register",
+        "kind": "legislation",
+        "description": "The obligation is discharged by the national register entry; the number is that register's record."
       },
       "aiHints": {
         "alternateNames": [
@@ -18489,7 +18562,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -18524,8 +18597,9 @@
         "article": "Art. 14",
         "annex": "Dir. 2012/19/EU",
         "instrument": "32012L0019",
-        "provision": "WEEE Dir 2012/19/EU Art. 14(4) + Annex IX",
-        "kind": "legislation"
+        "provision": "WEEE Dir. 2012/19/EU Art. 14(4) + Annex IX — crossed-out wheeled bin symbol marked on the product",
+        "kind": "legislation",
+        "description": "A physical symbol printed on the equipment; a passport boolean does not affix it."
       },
       "aiHints": {
         "alternateNames": [
@@ -18829,125 +18903,154 @@
       "description": {
         "en": "Type of physical data carrier used to link to the DPP"
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "QR",
+          "value": "qr_code",
           "label": {
-            "en": "QR Code",
+            "en": "QR code",
             "bg": "QR код",
             "de": "QR-Code",
+            "fr": "Code QR",
+            "hr": "QR kod",
             "cs": "QR kód",
             "da": "QR-kode",
-            "el": "Κωδικός QR",
-            "es": "Código QR",
+            "nl": "QR-code",
             "et": "QR-kood",
             "fi": "QR-koodi",
-            "fr": "Code QR",
-            "ga": "Cód QR",
-            "hr": "QR kod",
+            "el": "Κωδικός QR",
             "hu": "QR-kód",
+            "ga": "Cód QR",
             "it": "Codice QR",
-            "lt": "QR kodas",
             "lv": "QR kods",
+            "lt": "QR kodas",
             "mt": "Kodiċi QR",
-            "nl": "QR-code",
             "pl": "Kod QR",
             "pt": "Código QR",
             "ro": "Cod QR",
             "sk": "QR kód",
             "sl": "Koda QR",
+            "es": "Código QR",
             "sv": "QR-kod"
           }
         },
         {
-          "value": "DataMatrix",
+          "value": "data_matrix",
           "label": {
             "en": "Data Matrix",
             "bg": "Data Matrix",
             "de": "Data Matrix",
+            "fr": "Data Matrix",
+            "hr": "Data Matrix",
             "cs": "Data Matrix",
             "da": "Data Matrix",
-            "el": "Data Matrix",
-            "es": "Data Matrix",
+            "nl": "Data Matrix",
             "et": "Data Matrix",
             "fi": "Data Matrix",
-            "fr": "Data Matrix",
-            "ga": "Data Matrix",
-            "hr": "Data Matrix",
+            "el": "Data Matrix",
             "hu": "Data Matrix",
+            "ga": "Data Matrix",
             "it": "Data Matrix",
-            "lt": "Data Matrix",
             "lv": "Data Matrix",
+            "lt": "Data Matrix",
             "mt": "Data Matrix",
-            "nl": "Data Matrix",
             "pl": "Data Matrix",
             "pt": "Data Matrix",
             "ro": "Data Matrix",
             "sk": "Data Matrix",
             "sl": "Data Matrix",
+            "es": "Data Matrix",
             "sv": "Data Matrix"
           }
         },
         {
-          "value": "RFID",
+          "value": "nfc_tag",
           "label": {
-            "en": "RFID",
-            "bg": "RFID",
-            "de": "RFID",
-            "cs": "RFID",
-            "da": "RFID",
-            "el": "RFID",
-            "es": "RFID",
-            "et": "RFID",
-            "fi": "RFID",
-            "fr": "RFID",
-            "ga": "RFID",
-            "hr": "RFID",
-            "hu": "RFID",
-            "it": "RFID",
-            "lt": "RFID",
-            "lv": "RFID",
-            "mt": "RFID",
-            "nl": "RFID",
-            "pl": "RFID",
-            "pt": "RFID",
-            "ro": "RFID",
-            "sk": "RFID",
-            "sl": "RFID",
-            "sv": "RFID"
+            "en": "NFC tag",
+            "bg": "NFC таг",
+            "de": "NFC-Tag",
+            "fr": "Étiquette NFC",
+            "hr": "NFC oznaka",
+            "cs": "NFC štítek",
+            "da": "NFC-tag",
+            "nl": "NFC-tag",
+            "et": "NFC-silt",
+            "fi": "NFC-tunniste",
+            "el": "Ετικέτα NFC",
+            "hu": "NFC-címke",
+            "ga": "Clib NFC",
+            "it": "Tag NFC",
+            "lv": "NFC birka",
+            "lt": "NFC žyma",
+            "mt": "Tikketta NFC",
+            "pl": "Znacznik NFC",
+            "pt": "Etiqueta NFC",
+            "ro": "Etichetă NFC",
+            "sk": "NFC štítok",
+            "sl": "Oznaka NFC",
+            "es": "Etiqueta NFC",
+            "sv": "NFC-tagg"
           }
         },
         {
-          "value": "NFC",
+          "value": "rfid_tag",
           "label": {
-            "en": "NFC",
-            "bg": "NFC",
-            "de": "NFC",
-            "cs": "NFC",
-            "da": "NFC",
-            "el": "NFC",
-            "es": "NFC",
-            "et": "NFC",
-            "fi": "NFC",
-            "fr": "NFC",
-            "ga": "NFC",
-            "hr": "NFC",
-            "hu": "NFC",
-            "it": "NFC",
-            "lt": "NFC",
-            "lv": "NFC",
-            "mt": "NFC",
-            "nl": "NFC",
-            "pl": "NFC",
-            "pt": "NFC",
-            "ro": "NFC",
-            "sk": "NFC",
-            "sl": "NFC",
-            "sv": "NFC"
+            "en": "RFID tag",
+            "bg": "RFID таг",
+            "de": "RFID-Tag",
+            "fr": "Étiquette RFID",
+            "hr": "RFID oznaka",
+            "cs": "RFID štítek",
+            "da": "RFID-tag",
+            "nl": "RFID-tag",
+            "et": "RFID-silt",
+            "fi": "RFID-tunniste",
+            "el": "Ετικέτα RFID",
+            "hu": "RFID-címke",
+            "ga": "Clib RFID",
+            "it": "Tag RFID",
+            "lv": "RFID birka",
+            "lt": "RFID žyma",
+            "mt": "Tikketta RFID",
+            "pl": "Znacznik RFID",
+            "pt": "Etiqueta RFID",
+            "ro": "Etichetă RFID",
+            "sk": "RFID štítok",
+            "sl": "Oznaka RFID",
+            "es": "Etiqueta RFID",
+            "sv": "RFID-tagg"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "en": "Other",
+            "bg": "Друго",
+            "de": "Andere",
+            "fr": "Autre",
+            "hr": "Drugo",
+            "cs": "Jiné",
+            "da": "Andet",
+            "nl": "Anders",
+            "et": "Muu",
+            "fi": "Muu",
+            "el": "Άλλο",
+            "hu": "Egyéb",
+            "ga": "Eile",
+            "it": "Altro",
+            "lv": "Cits",
+            "lt": "Kita",
+            "mt": "Oħra",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "es": "Otro",
+            "sv": "Annat"
           }
         }
       ],
@@ -19600,10 +19703,10 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 16-17",
+        "article": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
         "annex": null,
-        "instrument": "32024R1781",
-        "provision": "Art. 16-17",
+        "instrument": "32011L0065",
+        "provision": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
         "kind": "legislation"
       },
       "aiHints": {
@@ -19617,7 +19720,7 @@
     }
   ],
   "fieldCount": 167,
-  "requiredFieldCount": 20,
+  "requiredFieldCount": 4,
   "categories": [
     {
       "key": "product_id",

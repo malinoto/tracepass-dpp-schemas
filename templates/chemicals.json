@@ -866,8 +866,8 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, TARIC",
-        "instrument": "32024R1781",
+        "article": "Combined Nomenclature / TARIC — Council Reg (EEC) 2658/87 Annex I",
+        "instrument": "31987R2658",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1787,8 +1787,8 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
+        "article": "GPSR (EU) 2023/988 Art. 9(5)-(6) (manufacturer contact details)",
+        "instrument": "32023R0988",
         "provision": "Article 9",
         "kind": "legislation"
       },
@@ -6945,8 +6945,8 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 33; ESPR Art. 7(5) (framework)",
-        "instrument": "32024R1781",
+        "article": "REACH Art. 33 (duty to communicate SVHC in articles)",
+        "instrument": "32006R1907",
         "provision": "Article 7(5), REACH Article 33",
         "kind": "legislation"
       },

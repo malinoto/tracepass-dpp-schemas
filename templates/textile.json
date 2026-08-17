@@ -242,7 +242,7 @@
         "article": "GPSR Art. 9(5)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation"
       },
       "aiHints": {
@@ -350,7 +350,7 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation"
       },
       "aiHints": {
@@ -564,7 +564,7 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation"
       },
       "aiHints": {
@@ -671,7 +671,7 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation"
       },
       "aiHints": {
@@ -742,7 +742,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -777,8 +777,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 11",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 11 — importer identity, only where there is an EU importer",
+        "kind": "legislation",
+        "description": "Conditional: no EU importer, no duty. Marked required unconditionally, it demands data that does not exist for a domestic manufacturer."
       },
       "aiHints": {
         "alternateNames": [
@@ -848,7 +849,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -883,8 +884,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 11",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 11 — importer address, only where there is an EU importer",
+        "kind": "legislation",
+        "description": "Conditional: no EU importer, no duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -953,7 +955,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -988,8 +990,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 16",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 16 — an EU-established responsible economic operator must EXIST",
+        "kind": "legislation",
+        "description": "An existence duty on the supply chain, not a label line or a passport field. Note it does NOT rest on Reg. (EU) 2019/1020 Art. 4 — textiles are not on the Art. 4(5) list."
       },
       "aiHints": {
         "alternateNames": [
@@ -1094,7 +1097,7 @@
         "article": "GPSR Art. 9(5)",
         "annex": "Annex III",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product identification",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1472,7 +1475,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "materials",
       "categoryLabel": {
@@ -1507,8 +1510,9 @@
         "article": "Art. 9(2)",
         "annex": "Annex III; Regulation 1007/2011; ISO 2076",
         "instrument": "32011R1007",
-        "provision": "Arts. 9(1), 14(1), 16",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 1007/2011 Arts. 9(1), 14(1), 16 — a durable, legible label physically attached to the product, in the language of the Member State",
+        "kind": "legislation",
+        "description": "Fibre composition is discharged by the durable physical label attached to the garment. Recording it here does not satisfy 1007/2011 — the label is still required."
       },
       "aiHints": {
         "alternateNames": [
@@ -1801,7 +1805,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "materials",
       "categoryLabel": {
@@ -1836,8 +1840,9 @@
         "article": "Art. 7(5)",
         "annex": "Annex I; REACH Regulation",
         "instrument": "32006R1907",
-        "provision": "Art. 33",
-        "kind": "legislation"
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -2171,7 +2176,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -2207,7 +2212,8 @@
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "OEKO-TEX, GOTS, Bluesign and the EU Ecolabel are voluntary schemes; ESPR Art. 9(2) mandates no data."
       },
       "aiHints": {
         "alternateNames": [
@@ -2279,7 +2285,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -2315,7 +2321,8 @@
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU origin-marking law exists for textiles — a 'made in' regulation was proposed repeatedly and never adopted."
       },
       "aiHints": {
         "alternateNames": [
@@ -7179,7 +7186,7 @@
     }
   ],
   "fieldCount": 60,
-  "requiredFieldCount": 12,
+  "requiredFieldCount": 5,
   "categories": [
     {
       "key": "general_info",

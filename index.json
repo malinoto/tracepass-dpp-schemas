@@ -8,7 +8,7 @@
   "totals": {
     "categories": 12,
     "fields": 940,
-    "requiredFields": 300,
+    "requiredFields": 165,
     "anticipatedFields": 202
   },
   "categories": [
@@ -50,7 +50,7 @@
       "file": "templates/construction.json",
       "version": 2,
       "fieldCount": 49,
-      "requiredFieldCount": 43,
+      "requiredFieldCount": 4,
       "anticipatedFieldCount": 0,
       "regulation": {
         "name": "Construction Products Regulation",
@@ -67,7 +67,7 @@
       "file": "templates/electronics.json",
       "version": 2,
       "fieldCount": 167,
-      "requiredFieldCount": 20,
+      "requiredFieldCount": 4,
       "anticipatedFieldCount": 20,
       "regulation": {
         "name": "EU ESPR - Electronics",
@@ -101,7 +101,7 @@
       "file": "templates/furniture.json",
       "version": 2,
       "fieldCount": 79,
-      "requiredFieldCount": 27,
+      "requiredFieldCount": 4,
       "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Furniture",
@@ -118,7 +118,7 @@
       "file": "templates/jewelry.json",
       "version": 2,
       "fieldCount": 53,
-      "requiredFieldCount": 12,
+      "requiredFieldCount": 3,
       "anticipatedFieldCount": 10,
       "regulation": {
         "name": "EU ESPR - Jewelry",
@@ -169,7 +169,7 @@
       "file": "templates/textile.json",
       "version": 2,
       "fieldCount": 60,
-      "requiredFieldCount": 12,
+      "requiredFieldCount": 5,
       "anticipatedFieldCount": 32,
       "regulation": {
         "name": "EU ESPR - Textiles",
@@ -189,12 +189,10 @@
       "requiredFieldCount": 14,
       "anticipatedFieldCount": 8,
       "regulation": {
-        "name": "EU ESPR - Toys",
-        "number": "(EU) 2024/1781",
-        "effectiveDate": "2030-01-01",
-        "datePrecision": "year",
-        "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year"
+        "name": "Toy Safety Regulation",
+        "number": "(EU) 2025/2509",
+        "effectiveDate": "2030-08-01",
+        "mandatoryDate": "2030-08-01"
       }
     },
     {
@@ -203,7 +201,7 @@
       "file": "templates/tyres.json",
       "version": 2,
       "fieldCount": 95,
-      "requiredFieldCount": 43,
+      "requiredFieldCount": 2,
       "anticipatedFieldCount": 27,
       "regulation": {
         "name": "EU ESPR - Tyres",

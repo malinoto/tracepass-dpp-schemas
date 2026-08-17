@@ -127,10 +127,11 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "annex": "GS1 Digital Link, ISO 15459",
-        "instrument": "32024R3110",
-        "kind": "legislation"
+        "instrument": "32023R0988",
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element"
       },
       "aiHints": {
         "alternateNames": [
@@ -234,10 +235,11 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR (EU) 2023/988 Art. 9(5) — product type identification",
         "annex": "GTIN",
-        "instrument": "32024R3110",
-        "kind": "legislation"
+        "instrument": "32023R0988",
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product type identification"
       },
       "aiHints": {
         "alternateNames": [
@@ -309,7 +311,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -344,7 +346,9 @@
         "article": "CPR 2024/3110",
         "annex": "GS1 AI 10",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
+        "description": "GPSR Art. 9(5) is satisfied by any one identifying element, so a batch number is not separately mandated where a unique product identifier is present."
       },
       "aiHints": {
         "alternateNames": [
@@ -554,10 +558,11 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "annex": "",
-        "instrument": "32024R3110",
-        "kind": "legislation"
+        "instrument": "32023R0988",
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address"
       },
       "aiHints": {
         "alternateNames": [
@@ -735,7 +740,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -770,7 +775,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force requires publishing the place of manufacture; GPSR Art. 9(6) requires the manufacturer's address, not the factory location."
       },
       "aiHints": {
         "alternateNames": [
@@ -1045,7 +1051,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -1080,7 +1086,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex VII",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Annex VII — product-family taxonomy for harmonised technical specifications",
+        "description": "The Annex VII family taxonomy scopes harmonised specifications; it is not a standalone disclosure duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1151,7 +1159,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1186,7 +1194,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 1",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1258,7 +1268,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1293,7 +1303,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 2",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1366,7 +1378,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1401,7 +1413,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 3",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1474,7 +1488,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1509,7 +1523,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 4",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1581,7 +1597,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1616,7 +1632,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 5",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1688,7 +1706,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1723,7 +1741,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 6",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1796,7 +1816,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "performance",
       "categoryLabel": {
@@ -1831,7 +1851,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 7",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -1904,7 +1926,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2010,7 +2032,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2114,7 +2136,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2218,7 +2240,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2323,7 +2345,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2427,7 +2449,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2531,7 +2553,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2635,7 +2657,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2739,7 +2761,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2843,7 +2865,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -2948,7 +2970,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -3053,7 +3075,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -3158,7 +3180,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -3757,7 +3779,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -3865,7 +3887,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -3900,7 +3922,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 7",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -3972,7 +3996,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4007,7 +4031,9 @@
         "article": "REACH, SCIP",
         "annex": "CPR 2024/3110",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -4080,7 +4106,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4115,7 +4141,9 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 7",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — declared in the Declaration of Performance, where a harmonised technical specification covers the characteristic",
+        "description": "Declared in the Declaration of Performance for characteristics covered by a harmonised technical specification; the CPR passport duty is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -4187,7 +4215,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4222,7 +4250,8 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 7",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force requires repair or reuse instructions for construction products; the CPR provisions that would are deferred."
       },
       "aiHints": {
         "alternateNames": [
@@ -4293,7 +4322,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4328,7 +4357,8 @@
         "article": "CPR 2024/3110",
         "annex": "Annex I, Requirement 7",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force mandates demolition or end-of-life guidance for construction products."
       },
       "aiHints": {
         "alternateNames": [
@@ -4400,7 +4430,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "circularity",
       "categoryLabel": {
@@ -4583,7 +4613,7 @@
         "sv": "CE-märkningsstatus"
       },
       "description": {
-        "en": "Whether the product bears CE marking and its validity",
+        "en": "Whether the product bears CE marking and its validity CE marking is affixed to the product or its packaging and is obligatory only where a harmonised specification or ETA covers the product.",
         "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
         "es": "Si el producto lleva marcado CE y su validez",
         "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
@@ -4700,7 +4730,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -4735,7 +4765,7 @@
         "article": "Art. 13-15",
         "annex": null,
         "instrument": "32024R3110",
-        "provision": "Art. 13-15",
+        "provision": "CPR (EU) 2024/3110 Arts. 13-17 — CE marking, only where a harmonised technical specification or a European Technical Assessment covers the product",
         "kind": "legislation"
       },
       "aiHints": {
@@ -4983,7 +5013,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -5018,7 +5048,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 + Annex IX — AVCP system stated in the Declaration of Performance",
+        "description": "The AVCP system is recorded in the Declaration of Performance, not published as a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -5090,7 +5122,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -5125,7 +5157,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — notified body identified in the Declaration of Performance",
+        "description": "The notified body's name and number appear in the Declaration of Performance and alongside the CE marking."
       },
       "aiHints": {
         "alternateNames": [
@@ -5197,7 +5231,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -5232,7 +5266,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 22 — technical documentation held and produced to authorities on request",
+        "description": "Test and assessment reports are technical-file content produced on request, not published."
       },
       "aiHints": {
         "alternateNames": [
@@ -5304,7 +5340,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -5339,7 +5375,8 @@
         "article": "CPR 2024/3110, AVCP 3+",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Environmental product declarations under EN 15804+A2 are voluntary; no EU instrument in force mandates one."
       },
       "aiHints": {
         "alternateNames": [
@@ -5411,7 +5448,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -5446,7 +5483,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CPR (EU) 2024/3110 Art. 13 — harmonised technical specification cited in the Declaration of Performance",
+        "description": "The applicable harmonised standard is cited in the Declaration of Performance, which is the instrument discharging the duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -5624,7 +5663,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_safety",
       "categoryLabel": {
@@ -5659,7 +5698,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(7) — instructions and safety information, where the product's risks require them",
+        "description": "GPSR requires instructions accompany the product where safety requires it; it is not unconditional for every construction product."
       },
       "aiHints": {
         "alternateNames": [
@@ -5730,7 +5771,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_safety",
       "categoryLabel": {
@@ -5765,7 +5806,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No EU instrument in force requires maintenance guidance for construction products."
       },
       "aiHints": {
         "alternateNames": [
@@ -5836,7 +5878,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_safety",
       "categoryLabel": {
@@ -5871,7 +5913,9 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "CLP (EC) 1272/2008 Arts. 17-19 — hazard label on the product; REACH Art. 31 — safety data sheet supplied to recipients",
+        "description": "Hazard communication is discharged by the physical CLP label and the safety data sheet supplied down the chain."
       },
       "aiHints": {
         "alternateNames": [
@@ -6083,10 +6127,11 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR (EU) 2023/988 Art. 9(7) — information enabling assessment of the product's risks in its intended and reasonably foreseeable use",
         "annex": "",
-        "instrument": "32024R3110",
-        "kind": "legislation"
+        "instrument": "32023R0988",
+        "kind": "legislation",
+        "provision": "GPSR (EU) 2023/988 Art. 9(7) — information enabling assessment of the product's risks in its intended and reasonably foreseeable use"
       },
       "aiHints": {
         "alternateNames": [
@@ -6213,7 +6258,7 @@
     }
   ],
   "fieldCount": 49,
-  "requiredFieldCount": 43,
+  "requiredFieldCount": 4,
   "categories": [
     {
       "key": "product_identification",

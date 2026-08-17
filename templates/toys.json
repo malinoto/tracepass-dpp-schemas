@@ -29,12 +29,10 @@
   "version": 2,
   "isLatest": true,
   "regulation": {
-    "name": "EU ESPR - Toys",
-    "number": "(EU) 2024/1781",
-    "effectiveDate": "2030-01-01",
-    "datePrecision": "year",
-    "mandatoryDate": "2030-01-01",
-    "mandatoryDatePrecision": "year"
+    "name": "Toy Safety Regulation",
+    "number": "(EU) 2025/2509",
+    "effectiveDate": "2030-08-01",
+    "mandatoryDate": "2030-08-01"
   },
   "fields": [
     {

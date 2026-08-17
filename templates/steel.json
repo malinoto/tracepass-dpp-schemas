@@ -6417,9 +6417,9 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, CBAM",
+        "article": "CBAM Reg (EU) 2023/956 Annex IV (embedded emissions calculation)",
         "annex": null,
-        "instrument": "32024R1781",
+        "instrument": "32023R0956",
         "kind": "legislation"
       },
       "aiHints": {

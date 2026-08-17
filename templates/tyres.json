@@ -455,9 +455,9 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II; ESPR 2024/1781",
-        "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex II",
+        "article": "GPSR (EU) 2023/988 Art. 9(6); Reg (EU) 2020/740 Annex II",
+        "instrument": "32023R0988",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation"
       },
       "aiHints": {
@@ -839,7 +839,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -873,8 +873,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Annex II (product information sheet — commercial name/trade designation)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -946,7 +947,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -980,8 +981,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex II (tyre type identifier registered in EPREL)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -1140,7 +1142,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1174,8 +1176,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Art. 2",
         "instrument": "32020R0740",
-        "provision": "Art. 2 (definitions of C1/C2/C3) + scope",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 2 — C1/C2/C3 definitions determining which label applies",
+        "kind": "legislation",
+        "description": "A scoping definition governing which label applies, not a disclosure duty of its own."
       },
       "aiHints": {
         "alternateNames": [
@@ -1279,7 +1282,7 @@
       "regulationRef": {
         "article": "GPSR (EU) 2023/988 Art. 9",
         "instrument": "32023R0988",
-        "provision": "Art. 9(2)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1352,7 +1355,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1386,8 +1389,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II; UNECE Reg. 30/54",
         "instrument": "32020R0740",
-        "provision": "Annex II (product information sheet) + UNECE R30/R54 date-of-manufacture marking",
-        "kind": "legislation"
+        "provision": "UNECE R30 / R54 — marking moulded on the tyre sidewall under type approval",
+        "kind": "legislation",
+        "description": "Discharged by the marking moulded into the sidewall under type approval, not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -1458,7 +1462,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1492,8 +1496,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Annex II",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -1778,7 +1783,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1812,8 +1817,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Art. 4(2)",
         "instrument": "32020R0740",
-        "provision": "Art. 4(2) + Art. 10 (registration in EPREL before placing on market)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "The duty IS the EPREL database entry; the number is its receipt. Publishing it here does not create or replace the registration."
       },
       "aiHints": {
         "alternateNames": [
@@ -1884,7 +1890,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1918,7 +1924,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740",
         "instrument": "32020R0740",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "description": "The link points at EPREL, which is itself the vehicle discharging the duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1982,100 +1990,42 @@
         "sl": "Vrsta nosilca podatkov, ki povezuje z DPP (koda QR, RFID ipd.)",
         "sv": "Databärartyp som länkar till DPP (QR-kod, RFID m.m.)"
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "QR code (GS1 Digital Link)",
+          "value": "qr_code",
           "label": {
-            "en": "QR code (GS1 Digital Link)",
-            "bg": "QR code (GS1 Digital Link)",
-            "de": "QR code (GS1 Digital Link)",
-            "fr": "QR code (GS1 Digital Link)",
-            "hr": "QR code (GS1 Digital Link)",
-            "cs": "QR code (GS1 Digital Link)",
-            "da": "QR code (GS1 Digital Link)",
-            "nl": "QR code (GS1 Digital Link)",
-            "et": "QR code (GS1 Digital Link)",
-            "fi": "QR code (GS1 Digital Link)",
-            "el": "QR code (GS1 Digital Link)",
-            "hu": "QR code (GS1 Digital Link)",
-            "ga": "QR code (GS1 Digital Link)",
-            "it": "QR code (GS1 Digital Link)",
-            "lv": "QR code (GS1 Digital Link)",
-            "lt": "QR code (GS1 Digital Link)",
-            "mt": "QR code (GS1 Digital Link)",
-            "pl": "QR code (GS1 Digital Link)",
-            "pt": "QR code (GS1 Digital Link)",
-            "ro": "QR code (GS1 Digital Link)",
-            "sk": "QR code (GS1 Digital Link)",
-            "sl": "QR code (GS1 Digital Link)",
-            "es": "QR code (GS1 Digital Link)",
-            "sv": "QR code (GS1 Digital Link)"
+            "en": "QR code",
+            "bg": "QR код",
+            "de": "QR-Code",
+            "fr": "Code QR",
+            "hr": "QR kod",
+            "cs": "QR kód",
+            "da": "QR-kode",
+            "nl": "QR-code",
+            "et": "QR-kood",
+            "fi": "QR-koodi",
+            "el": "Κωδικός QR",
+            "hu": "QR-kód",
+            "ga": "Cód QR",
+            "it": "Codice QR",
+            "lv": "QR kods",
+            "lt": "QR kodas",
+            "mt": "Kodiċi QR",
+            "pl": "Kod QR",
+            "pt": "Código QR",
+            "ro": "Cod QR",
+            "sk": "QR kód",
+            "sl": "Koda QR",
+            "es": "Código QR",
+            "sv": "QR-kod"
           }
         },
         {
-          "value": "RFID",
-          "label": {
-            "en": "RFID",
-            "bg": "RFID",
-            "de": "RFID",
-            "fr": "RFID",
-            "hr": "RFID",
-            "cs": "RFID",
-            "da": "RFID",
-            "nl": "RFID",
-            "et": "RFID",
-            "fi": "RFID",
-            "el": "RFID",
-            "hu": "RFID",
-            "ga": "RFID",
-            "it": "RFID",
-            "lv": "RFID",
-            "lt": "RFID",
-            "mt": "RFID",
-            "pl": "RFID",
-            "pt": "RFID",
-            "ro": "RFID",
-            "sk": "RFID",
-            "sl": "RFID",
-            "es": "RFID",
-            "sv": "RFID"
-          }
-        },
-        {
-          "value": "NFC",
-          "label": {
-            "en": "NFC",
-            "bg": "NFC",
-            "de": "NFC",
-            "fr": "NFC",
-            "hr": "NFC",
-            "cs": "NFC",
-            "da": "NFC",
-            "nl": "NFC",
-            "et": "NFC",
-            "fi": "NFC",
-            "el": "NFC",
-            "hu": "NFC",
-            "ga": "NFC",
-            "it": "NFC",
-            "lv": "NFC",
-            "lt": "NFC",
-            "mt": "NFC",
-            "pl": "NFC",
-            "pt": "NFC",
-            "ro": "NFC",
-            "sk": "NFC",
-            "sl": "NFC",
-            "es": "NFC",
-            "sv": "NFC"
-          }
-        },
-        {
-          "value": "Data Matrix",
+          "value": "data_matrix",
           "label": {
             "en": "Data Matrix",
             "bg": "Data Matrix",
@@ -2104,32 +2054,90 @@
           }
         },
         {
-          "value": "Other",
+          "value": "nfc_tag",
+          "label": {
+            "en": "NFC tag",
+            "bg": "NFC таг",
+            "de": "NFC-Tag",
+            "fr": "Étiquette NFC",
+            "hr": "NFC oznaka",
+            "cs": "NFC štítek",
+            "da": "NFC-tag",
+            "nl": "NFC-tag",
+            "et": "NFC-silt",
+            "fi": "NFC-tunniste",
+            "el": "Ετικέτα NFC",
+            "hu": "NFC-címke",
+            "ga": "Clib NFC",
+            "it": "Tag NFC",
+            "lv": "NFC birka",
+            "lt": "NFC žyma",
+            "mt": "Tikketta NFC",
+            "pl": "Znacznik NFC",
+            "pt": "Etiqueta NFC",
+            "ro": "Etichetă NFC",
+            "sk": "NFC štítok",
+            "sl": "Oznaka NFC",
+            "es": "Etiqueta NFC",
+            "sv": "NFC-tagg"
+          }
+        },
+        {
+          "value": "rfid_tag",
+          "label": {
+            "en": "RFID tag",
+            "bg": "RFID таг",
+            "de": "RFID-Tag",
+            "fr": "Étiquette RFID",
+            "hr": "RFID oznaka",
+            "cs": "RFID štítek",
+            "da": "RFID-tag",
+            "nl": "RFID-tag",
+            "et": "RFID-silt",
+            "fi": "RFID-tunniste",
+            "el": "Ετικέτα RFID",
+            "hu": "RFID-címke",
+            "ga": "Clib RFID",
+            "it": "Tag RFID",
+            "lv": "RFID birka",
+            "lt": "RFID žyma",
+            "mt": "Tikketta RFID",
+            "pl": "Znacznik RFID",
+            "pt": "Etiqueta RFID",
+            "ro": "Etichetă RFID",
+            "sk": "RFID štítok",
+            "sl": "Oznaka RFID",
+            "es": "Etiqueta RFID",
+            "sv": "RFID-tagg"
+          }
+        },
+        {
+          "value": "other",
           "label": {
             "en": "Other",
-            "bg": "Other",
-            "de": "Other",
-            "fr": "Other",
-            "hr": "Other",
-            "cs": "Other",
-            "da": "Other",
-            "nl": "Other",
-            "et": "Other",
-            "fi": "Other",
-            "el": "Other",
-            "hu": "Other",
-            "ga": "Other",
-            "it": "Other",
-            "lv": "Other",
-            "lt": "Other",
-            "mt": "Other",
-            "pl": "Other",
-            "pt": "Other",
-            "ro": "Other",
-            "sk": "Other",
-            "sl": "Other",
-            "es": "Other",
-            "sv": "Other"
+            "bg": "Друго",
+            "de": "Andere",
+            "fr": "Autre",
+            "hr": "Drugo",
+            "cs": "Jiné",
+            "da": "Andet",
+            "nl": "Anders",
+            "et": "Muu",
+            "fi": "Muu",
+            "el": "Άλλο",
+            "hu": "Egyéb",
+            "ga": "Eile",
+            "it": "Altro",
+            "lv": "Cits",
+            "lt": "Kita",
+            "mt": "Oħra",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "es": "Otro",
+            "sv": "Annat"
           }
         }
       ],
@@ -2351,7 +2359,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -2385,8 +2393,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II; UNECE Reg. 30/54",
         "instrument": "32020R0740",
-        "provision": "Annex II (product information sheet — tyre size designation)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -2457,7 +2466,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -2491,8 +2500,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Annex II (product information sheet — load-capacity index)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -2563,7 +2573,7 @@
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "Standard Load (SL)",
+          "value": "standard_load",
           "label": {
             "en": "Standard Load (SL)",
             "bg": "Standard Load (SL)",
@@ -2592,7 +2602,7 @@
           }
         },
         {
-          "value": "Extra Load (XL)",
+          "value": "extra_load",
           "label": {
             "en": "Extra Load (XL)",
             "bg": "Extra Load (XL)",
@@ -2621,7 +2631,7 @@
           }
         },
         {
-          "value": "Reinforced (RF)",
+          "value": "reinforced",
           "label": {
             "en": "Reinforced (RF)",
             "bg": "Reinforced (RF)",
@@ -2651,7 +2661,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -2685,8 +2695,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Annex II",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -2759,7 +2770,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -2793,8 +2804,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
-        "provision": "Annex II (product information sheet — speed category symbol)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -2962,13 +2974,13 @@
         "sl": "Vrsta konstrukcije pnevmatike (radialna / diagonalna / diagonalna z opasom)",
         "sv": "Däckkonstruktionstyp (radial / diagonal / diagonal bälteskonstruktion)"
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "Radial (R)",
+          "value": "radial",
           "label": {
             "en": "Radial (R)",
             "bg": "Radial (R)",
@@ -2997,7 +3009,7 @@
           }
         },
         {
-          "value": "Diagonal (D)",
+          "value": "diagonal",
           "label": {
             "en": "Diagonal (D)",
             "bg": "Diagonal (D)",
@@ -3026,7 +3038,7 @@
           }
         },
         {
-          "value": "Bias-belted (B)",
+          "value": "bias_belted",
           "label": {
             "en": "Bias-belted (B)",
             "bg": "Bias-belted (B)",
@@ -3053,10 +3065,68 @@
             "es": "Bias-belted (B)",
             "sv": "Bias-belted (B)"
           }
+        },
+        {
+          "value": "tubeless",
+          "label": {
+            "bg": "Безкамерна",
+            "cs": "Bezdušová",
+            "da": "Slangeløs",
+            "de": "Schlauchlos",
+            "el": "Χωρίς σαμπρέλα",
+            "en": "Tubeless",
+            "es": "Sin cámara",
+            "et": "Lohuta",
+            "fi": "Sisärenkaaton",
+            "fr": "Tubeless",
+            "ga": "Gan feadán",
+            "hr": "Bez zračnice",
+            "hu": "Tömlő nélküli",
+            "it": "Tubeless",
+            "lt": "Bekamerė",
+            "lv": "Bezkameras",
+            "mt": "Mingħajr tubu",
+            "nl": "Tubeless",
+            "pl": "Bezdętkowa",
+            "pt": "Sem câmara",
+            "ro": "Fără cameră",
+            "sk": "Bezdušová",
+            "sl": "Brez zračnice",
+            "sv": "Slanglös"
+          }
+        },
+        {
+          "value": "tube_type",
+          "label": {
+            "bg": "С вътрешна гума",
+            "cs": "Dušová",
+            "da": "Med slange",
+            "de": "Mit Schlauch",
+            "el": "Με σαμπρέλα",
+            "en": "Tube type",
+            "es": "Con cámara",
+            "et": "Lohuga",
+            "fi": "Sisärenkaalla",
+            "fr": "Avec chambre à air",
+            "ga": "Le feadán",
+            "hr": "Sa zračnicom",
+            "hu": "Tömlős",
+            "it": "Con camera d'aria",
+            "lt": "Su kamera",
+            "lv": "Ar kameru",
+            "mt": "Bit-tubu",
+            "nl": "Met binnenband",
+            "pl": "Dętkowa",
+            "pt": "Com câmara",
+            "ro": "Cu cameră",
+            "sk": "Dušová",
+            "sl": "Z zračnico",
+            "sv": "Med slang"
+          }
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -3161,7 +3231,7 @@
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "Summer",
+          "value": "summer",
           "label": {
             "en": "Summer",
             "bg": "Летни",
@@ -3190,7 +3260,7 @@
           }
         },
         {
-          "value": "Winter",
+          "value": "winter",
           "label": {
             "en": "Winter",
             "bg": "Зимни",
@@ -3219,7 +3289,7 @@
           }
         },
         {
-          "value": "All-Season",
+          "value": "all_season",
           "label": {
             "en": "All-season",
             "bg": "Всесезонни",
@@ -3248,7 +3318,7 @@
           }
         },
         {
-          "value": "All-Terrain",
+          "value": "all_terrain",
           "label": {
             "en": "All-Terrain",
             "bg": "Всетерен",
@@ -3278,7 +3348,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -3383,7 +3453,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -3487,7 +3557,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -3591,7 +3661,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -3694,7 +3764,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "tyre_dimensions_and_specifications",
       "categoryLabel": {
@@ -4052,7 +4122,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -4086,8 +4156,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex I Part A",
         "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex I Part A (fuel-efficiency/rolling-resistance class)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part A — class shown on the tyre label and registered in EPREL",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4158,7 +4229,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -4192,8 +4263,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex I Part A; UNECE Reg. 117 Annex 6",
         "instrument": "32020R0740",
-        "provision": "Annex I Part A + Annex II; measured per UNECE R117 Annex 6",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Annex I Part A + Annex II — measured value in the EPREL product information sheet",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4410,7 +4482,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -4444,8 +4516,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex I Part B",
         "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex I Part B (wet-grip class)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part B — class shown on the tyre label and registered in EPREL",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4710,7 +4783,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -4744,8 +4817,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex I Part C",
         "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex I Part C (external rolling-noise class)",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part C — class shown on the tyre label and registered in EPREL",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4816,7 +4890,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -4850,8 +4924,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Annex I Part C; UNECE Reg. 117 Annex 3",
         "instrument": "32020R0740",
-        "provision": "Annex I Part C + Annex II (measured dB value); measured per UNECE R117 Annex 3",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Annex I Part C — measured dB value on the label and in EPREL",
+        "kind": "legislation",
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4893,7 +4968,7 @@
         "sv": "Snögrepp"
       },
       "description": {
-        "en": "Whether tyre has 3PMSF (3 Peak Mountain Snow Flake) certification for severe snow conditions",
+        "en": "Whether tyre has 3PMSF (3 Peak Mountain Snow Flake) certification for severe snow conditions The 3PMSF pictogram is printed on the label and moulded on the sidewall, and only for tyres meeting the snow classification.",
         "hr": "Ima li guma 3PMSF (3 Peak Mountain Snow Flake) certifikat za teške snježne uvjete",
         "cs": "Zda má pneumatika certifikaci 3PMSF (3 Peak Mountain Snow Flake) pro náročné sněhové podmínky",
         "da": "Om dækket har 3PMSF (3 Peak Mountain Snow Flake)-certificering til ekstreme snevejr",
@@ -4922,7 +4997,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -5000,7 +5075,7 @@
         "sv": "Isgrepp"
       },
       "description": {
-        "en": "Whether tyre is certified for ice grip performance (Nordic ice conditions)",
+        "en": "Whether tyre is certified for ice grip performance (Nordic ice conditions) The ice-grip marking appears on the label and sidewall for qualifying C1 tyres only.",
         "hr": "Je li guma certificirana za performanse prianjanja na ledu (nordijski uvjeti na ledu)",
         "cs": "Zda je pneumatika certifikována pro přilnavost na ledu (severské podmínky na ledu)",
         "da": "Om dækket er certificeret til isgrebsevne (nordiske isforhold)",
@@ -5029,7 +5104,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "eu_label_performance",
       "categoryLabel": {
@@ -6835,7 +6910,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -6869,8 +6944,9 @@
       "regulationRef": {
         "article": "REACH Regulation (EC) 1907/2006 Annex XVII Entry 50",
         "instrument": "32006R1907",
-        "provision": "Annex XVII Entry 50 (PAH limits in extender oils/tyres)",
-        "kind": "legislation"
+        "provision": "REACH Annex XVII entry 50 — restriction on PAH content in extender oils and tyres",
+        "kind": "legislation",
+        "description": "Annex XVII sets a limit to stay under with test evidence retained, not a duty to publish the measured value."
       },
       "aiHints": {
         "alternateNames": [
@@ -6941,7 +7017,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -6975,8 +7051,9 @@
       "regulationRef": {
         "article": "ESPR 2024/1781 Art. 7(5); REACH Art. 33",
         "instrument": "32006R1907",
-        "provision": "Art. 33 (SVHC in articles >0.1% w/w communication) + SCIP database notification",
-        "kind": "legislation"
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -7152,7 +7229,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -7186,8 +7263,9 @@
       "regulationRef": {
         "article": "REACH Annex XVII; RoHS alignment",
         "instrument": "32006R1907",
-        "provision": "Annex XVII",
-        "kind": "legislation"
+        "provision": "REACH Annex XVII — market-placement restriction; evidence retained by the manufacturer",
+        "kind": "legislation",
+        "description": "Annex XVII is a restriction with records held, not a published compliance flag; RoHS does not apply to tyres."
       },
       "aiHints": {
         "alternateNames": [
@@ -7258,7 +7336,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -7292,7 +7370,9 @@
       "regulationRef": {
         "article": "Regulation (EC) 1907/2006 REACH",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "REACH (EC) 1907/2006 — registration and restriction obligations evidenced in the manufacturer's records",
+        "description": "A blanket REACH compliance boolean corresponds to no disclosure duty in the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -7789,7 +7869,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental_performance",
       "categoryLabel": {
@@ -7823,8 +7903,9 @@
       "regulationRef": {
         "article": "EUDR 2023/1115 (rubber is a covered commodity)",
         "instrument": "32023R1115",
-        "provision": "Art. 3 + Art. 4 (due-diligence statement) + Annex I (natural rubber covered)",
-        "kind": "legislation"
+        "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+        "kind": "legislation",
+        "description": "Discharged by the operator's due-diligence statement lodged in the EUDR Information System."
       },
       "aiHints": {
         "alternateNames": [
@@ -8215,7 +8296,7 @@
       "defaultValue": 1.6,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability_and_performance",
       "categoryLabel": {
@@ -8249,7 +8330,9 @@
       "regulationRef": {
         "article": "Directive 89/459/EEC",
         "instrument": "31989L0459",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Dir. 2014/45/EU Annex I — roadworthiness test requirement on the vehicle in use",
+        "description": "Minimum tread depth is checked at periodic vehicle inspection; it is not a manufacturer disclosure. Dir. 89/459/EEC is superseded."
       },
       "aiHints": {
         "alternateNames": [
@@ -8320,7 +8403,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability_and_performance",
       "categoryLabel": {
@@ -8355,7 +8438,8 @@
         "article": "ESPR 2024/1781 Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "ESPR Art. 7 mandates no data on its own and no tyre delegated act exists; the statutory guarantee under Dir. (EU) 2019/771 binds the seller."
       },
       "aiHints": {
         "alternateNames": [
@@ -9061,7 +9145,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "retreading_and_end_of_life",
       "categoryLabel": {
@@ -9095,7 +9179,9 @@
       "regulationRef": {
         "article": "Waste Framework Directive 2008/98/EC; national EPR schemes",
         "instrument": "32008L0098",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "WFD Dir. 2008/98/EC Art. 8a — extended producer responsibility discharged through national EPR scheme registration",
+        "description": "End-of-life tyre obligations are met by joining and reporting to the national producer-responsibility scheme."
       },
       "aiHints": {
         "alternateNames": [
@@ -9478,7 +9564,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_and_type_approval",
       "categoryLabel": {
@@ -9582,7 +9668,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_and_type_approval",
       "categoryLabel": {
@@ -9616,7 +9702,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2024/1257",
         "instrument": "32024R1257",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EU) 2024/1257 — tyre abrasion limits not yet in force",
+        "description": "Euro 7 tyre abrasion requirements are not yet applicable, so no compliance statement is legally required today."
       },
       "aiHints": {
         "alternateNames": [
@@ -9686,7 +9774,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_and_type_approval",
       "categoryLabel": {
@@ -9720,8 +9808,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 Art. 4",
         "instrument": "32020R0740",
-        "provision": "Art. 4",
-        "kind": "legislation"
+        "provision": "Reg. (EU) 2020/740 Arts. 4 and 6 — label displayed in visual form at the point of sale",
+        "kind": "legislation",
+        "description": "The duty is discharged by displaying the label, not by hosting an image of it."
       },
       "aiHints": {
         "alternateNames": [
@@ -9792,7 +9881,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_and_type_approval",
       "categoryLabel": {
@@ -9826,8 +9915,9 @@
       "regulationRef": {
         "article": "GPSR Art. 9",
         "instrument": "32023R0988",
-        "provision": "Art. 9",
-        "kind": "legislation"
+        "provision": "UNECE R30 / R54 — type approval evidenced by the approval mark on the sidewall and the approval dossier",
+        "kind": "legislation",
+        "description": "Tyre conformity is evidenced by the E-mark and the type-approval dossier; there is no EU DoC publication duty for tyres."
       },
       "aiHints": {
         "alternateNames": [
@@ -9897,7 +9987,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_and_type_approval",
       "categoryLabel": {
@@ -9931,7 +10021,9 @@
       "regulationRef": {
         "article": "Regulation (EC) 1907/2006",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "REACH (EC) 1907/2006 — obligations evidenced in the manufacturer's records",
+        "description": "No REACH provision requires publishing a compliance boolean."
       },
       "aiHints": {
         "alternateNames": [
@@ -10105,7 +10197,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_safety",
       "categoryLabel": {
@@ -10209,7 +10301,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_safety",
       "categoryLabel": {
@@ -10312,7 +10404,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_safety",
       "categoryLabel": {
@@ -10624,7 +10716,7 @@
       "translatable": true,
       "defaultValue": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_safety",
       "categoryLabel": {
@@ -10658,8 +10750,9 @@
       "regulationRef": {
         "article": "General Product Safety Regulation (EU) 2023/988",
         "instrument": "32023R0988",
-        "provision": "GPSR Art. 9 (safety information/warnings & instructions to accompany the product)",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 9(7) — warnings and safety information, where the product's risks require them",
+        "kind": "legislation",
+        "description": "GPSR requires warnings accompany the product where its risks require them; it is not an unconditional field."
       },
       "aiHints": {
         "alternateNames": [
@@ -11296,7 +11389,7 @@
     }
   ],
   "fieldCount": 95,
-  "requiredFieldCount": 43,
+  "requiredFieldCount": 2,
   "categories": [
     {
       "key": "identification",

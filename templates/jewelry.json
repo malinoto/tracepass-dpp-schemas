@@ -484,6 +484,151 @@
             "es": "Conjunto",
             "sv": "Set"
           }
+        },
+        {
+          "value": "cross",
+          "label": {
+            "bg": "Кръст",
+            "cs": "Kříž",
+            "da": "Kors",
+            "de": "Kreuz",
+            "el": "Σταυρός",
+            "en": "Cross",
+            "es": "Cruz",
+            "et": "Rist",
+            "fi": "Risti",
+            "fr": "Croix",
+            "ga": "Cros",
+            "hr": "Križ",
+            "hu": "Kereszt",
+            "it": "Croce",
+            "lt": "Kryžius",
+            "lv": "Krusts",
+            "mt": "Salib",
+            "nl": "Kruis",
+            "pl": "Krzyż",
+            "pt": "Cruz",
+            "ro": "Cruce",
+            "sk": "Kríž",
+            "sl": "Križ",
+            "sv": "Kors"
+          }
+        },
+        {
+          "value": "brooch",
+          "label": {
+            "bg": "Брошка",
+            "cs": "Brož",
+            "da": "Broche",
+            "de": "Brosche",
+            "el": "Καρφίτσα",
+            "en": "Brooch",
+            "es": "Broche",
+            "et": "Pross",
+            "fi": "Rintakoru",
+            "fr": "Broche",
+            "ga": "Bróiste",
+            "hr": "Broš",
+            "hu": "Bross",
+            "it": "Spilla",
+            "lt": "Sagė",
+            "lv": "Brošas",
+            "mt": "Brooch",
+            "nl": "Broche",
+            "pl": "Broszka",
+            "pt": "Broche",
+            "ro": "Broșă",
+            "sk": "Brošňa",
+            "sl": "Broška",
+            "sv": "Brosch"
+          }
+        },
+        {
+          "value": "anklet",
+          "label": {
+            "bg": "Гривна за глезен",
+            "cs": "Nákotník",
+            "da": "Ankelkæde",
+            "de": "Fußkettchen",
+            "el": "Ποδόδεσμος",
+            "en": "Anklet",
+            "es": "Tobillera",
+            "et": "Pahkluukett",
+            "fi": "Nilkkakoru",
+            "fr": "Bracelet de cheville",
+            "ga": "Muinchille rúitín",
+            "hr": "Nanogica",
+            "hu": "Bokalánc",
+            "it": "Cavigliera",
+            "lt": "Kojos apyrankė",
+            "lv": "Potītes rotas",
+            "mt": "Ċurkett tal-għaksa",
+            "nl": "Enkelbandje",
+            "pl": "Bransoletka na kostkę",
+            "pt": "Tornozeleira",
+            "ro": "Brățară de gleznă",
+            "sk": "Náramok na členok",
+            "sl": "Zapestnica za gleženj",
+            "sv": "Ankelkedja"
+          }
+        },
+        {
+          "value": "charm",
+          "label": {
+            "bg": "Талисман",
+            "cs": "Přívěsek charm",
+            "da": "Charm",
+            "de": "Anhänger-Charm",
+            "el": "Γούρι",
+            "en": "Charm",
+            "es": "Abalorio",
+            "et": "Ripats-charm",
+            "fi": "Riipus",
+            "fr": "Breloque",
+            "ga": "Charm",
+            "hr": "Privjesak",
+            "hu": "Charm",
+            "it": "Charm",
+            "lt": "Pakabukas",
+            "lv": "Šarms",
+            "mt": "Charm",
+            "nl": "Bedel",
+            "pl": "Charms",
+            "pt": "Berloque",
+            "ro": "Talisman",
+            "sk": "Prívesok charm",
+            "sl": "Obesek charm",
+            "sv": "Berlock"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "bg": "Друго",
+            "cs": "Jiné",
+            "da": "Andet",
+            "de": "Andere",
+            "el": "Άλλο",
+            "en": "Other",
+            "es": "Otro",
+            "et": "Muu",
+            "fi": "Muu",
+            "fr": "Autre",
+            "ga": "Eile",
+            "hr": "Drugo",
+            "hu": "Egyéb",
+            "it": "Altro",
+            "lt": "Kita",
+            "lv": "Cits",
+            "mt": "Oħra",
+            "nl": "Anders",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "sv": "Annat"
+          }
         }
       ],
       "validation": {
@@ -1352,7 +1497,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "metal_composition",
       "categoryLabel": {
@@ -1458,7 +1603,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "metal_composition",
       "categoryLabel": {
@@ -1567,7 +1712,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "metal_composition",
       "categoryLabel": {
@@ -1672,7 +1817,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "metal_composition",
       "categoryLabel": {
@@ -2408,6 +2553,615 @@
             "sl": "Akvamarin",
             "es": "Aguamarina",
             "sv": "Akvamarin"
+          }
+        },
+        {
+          "value": "amber",
+          "label": {
+            "bg": "Кехлибар",
+            "cs": "Jantar",
+            "da": "Rav",
+            "de": "Bernstein",
+            "el": "Κεχριμπάρι",
+            "en": "Amber",
+            "es": "Ámbar",
+            "et": "Merevaik",
+            "fi": "Meripihka",
+            "fr": "Ambre",
+            "ga": "Ómra",
+            "hr": "Jantar",
+            "hu": "Borostyán",
+            "it": "Ambra",
+            "lt": "Gintaras",
+            "lv": "Dzintars",
+            "mt": "Ambra",
+            "nl": "Barnsteen",
+            "pl": "Bursztyn",
+            "pt": "Âmbar",
+            "ro": "Chihlimbar",
+            "sk": "Jantár",
+            "sl": "Jantar",
+            "sv": "Bärnsten"
+          }
+        },
+        {
+          "value": "quartz",
+          "label": {
+            "bg": "Кварц",
+            "cs": "Křemen",
+            "da": "Kvarts",
+            "de": "Quarz",
+            "el": "Χαλαζίας",
+            "en": "Quartz",
+            "es": "Cuarzo",
+            "et": "Kvarts",
+            "fi": "Kvartsi",
+            "fr": "Quartz",
+            "ga": "Grianchloch",
+            "hr": "Kvarc",
+            "hu": "Kvarc",
+            "it": "Quarzo",
+            "lt": "Kvarcas",
+            "lv": "Kvarcs",
+            "mt": "Kwarz",
+            "nl": "Kwarts",
+            "pl": "Kwarc",
+            "pt": "Quartzo",
+            "ro": "Cuarț",
+            "sk": "Kremeň",
+            "sl": "Kremen",
+            "sv": "Kvarts"
+          }
+        },
+        {
+          "value": "agate",
+          "label": {
+            "bg": "Ахат",
+            "cs": "Achát",
+            "da": "Agat",
+            "de": "Achat",
+            "el": "Αχάτης",
+            "en": "Agate",
+            "es": "Ágata",
+            "et": "Ahhaat",
+            "fi": "Akaatti",
+            "fr": "Agate",
+            "ga": "Agáit",
+            "hr": "Ahat",
+            "hu": "Achát",
+            "it": "Agata",
+            "lt": "Agatas",
+            "lv": "Ahāts",
+            "mt": "Agata",
+            "nl": "Agaat",
+            "pl": "Agat",
+            "pt": "Ágata",
+            "ro": "Agat",
+            "sk": "Achát",
+            "sl": "Ahat",
+            "sv": "Agat"
+          }
+        },
+        {
+          "value": "moonstone",
+          "label": {
+            "bg": "Лунен камък",
+            "cs": "Měsíční kámen",
+            "da": "Månesten",
+            "de": "Mondstein",
+            "el": "Φεγγαρόπετρα",
+            "en": "Moonstone",
+            "es": "Piedra de luna",
+            "et": "Kuukivi",
+            "fi": "Kuukivi",
+            "fr": "Pierre de lune",
+            "ga": "Cloch ghealaí",
+            "hr": "Mjesečev kamen",
+            "hu": "Holdkő",
+            "it": "Pietra di luna",
+            "lt": "Mėnulio akmuo",
+            "lv": "Mēness akmens",
+            "mt": "Ġebla tal-qamar",
+            "nl": "Maansteen",
+            "pl": "Kamień księżycowy",
+            "pt": "Pedra da lua",
+            "ro": "Piatra lunii",
+            "sk": "Mesačný kameň",
+            "sl": "Meseckov kamen",
+            "sv": "Månsten"
+          }
+        },
+        {
+          "value": "citrine",
+          "label": {
+            "bg": "Цитрин",
+            "cs": "Citrín",
+            "da": "Citrin",
+            "de": "Citrin",
+            "el": "Κιτρίνης",
+            "en": "Citrine",
+            "es": "Citrino",
+            "et": "Tsitriin",
+            "fi": "Sitriini",
+            "fr": "Citrine",
+            "ga": "Citrín",
+            "hr": "Citrin",
+            "hu": "Citrin",
+            "it": "Citrino",
+            "lt": "Citrinas",
+            "lv": "Citrīns",
+            "mt": "Ċitrina",
+            "nl": "Citrien",
+            "pl": "Cytryn",
+            "pt": "Citrino",
+            "ro": "Citrin",
+            "sk": "Citrín",
+            "sl": "Citrin",
+            "sv": "Citrin"
+          }
+        },
+        {
+          "value": "labradorite",
+          "label": {
+            "bg": "Лабрадорит",
+            "cs": "Labradorit",
+            "da": "Labradorit",
+            "de": "Labradorit",
+            "el": "Λαβραδορίτης",
+            "en": "Labradorite",
+            "es": "Labradorita",
+            "et": "Labradoriit",
+            "fi": "Labradoriitti",
+            "fr": "Labradorite",
+            "ga": "Labradoirít",
+            "hr": "Labradorit",
+            "hu": "Labradorit",
+            "it": "Labradorite",
+            "lt": "Labradoritas",
+            "lv": "Labradorīts",
+            "mt": "Labradorite",
+            "nl": "Labradoriet",
+            "pl": "Labradoryt",
+            "pt": "Labradorite",
+            "ro": "Labradorit",
+            "sk": "Labradorit",
+            "sl": "Labradorit",
+            "sv": "Labradorit"
+          }
+        },
+        {
+          "value": "malachite",
+          "label": {
+            "bg": "Малахит",
+            "cs": "Malachit",
+            "da": "Malakit",
+            "de": "Malachit",
+            "el": "Μαλαχίτης",
+            "en": "Malachite",
+            "es": "Malaquita",
+            "et": "Malahhiit",
+            "fi": "Malakiitti",
+            "fr": "Malachite",
+            "ga": "Malacít",
+            "hr": "Malahit",
+            "hu": "Malachit",
+            "it": "Malachite",
+            "lt": "Malachitas",
+            "lv": "Malahīts",
+            "mt": "Malakite",
+            "nl": "Malachiet",
+            "pl": "Malachit",
+            "pt": "Malaquita",
+            "ro": "Malachit",
+            "sk": "Malachit",
+            "sl": "Malahit",
+            "sv": "Malakit"
+          }
+        },
+        {
+          "value": "peridot",
+          "label": {
+            "bg": "Перидот",
+            "cs": "Peridot",
+            "da": "Peridot",
+            "de": "Peridot",
+            "el": "Περίδοτος",
+            "en": "Peridot",
+            "es": "Peridoto",
+            "et": "Peridoot",
+            "fi": "Peridootti",
+            "fr": "Péridot",
+            "ga": "Peiridít",
+            "hr": "Peridot",
+            "hu": "Peridot",
+            "it": "Peridoto",
+            "lt": "Peridotas",
+            "lv": "Peridots",
+            "mt": "Peridot",
+            "nl": "Peridoot",
+            "pl": "Perydot",
+            "pt": "Peridoto",
+            "ro": "Peridot",
+            "sk": "Peridot",
+            "sl": "Peridot",
+            "sv": "Peridot"
+          }
+        },
+        {
+          "value": "jasper",
+          "label": {
+            "bg": "Яспис",
+            "cs": "Jaspis",
+            "da": "Jaspis",
+            "de": "Jaspis",
+            "el": "Ίασπις",
+            "en": "Jasper",
+            "es": "Jaspe",
+            "et": "Jaspis",
+            "fi": "Jaspis",
+            "fr": "Jaspe",
+            "ga": "Iaspar",
+            "hr": "Jaspis",
+            "hu": "Jáspis",
+            "it": "Diaspro",
+            "lt": "Jaspis",
+            "lv": "Jašma",
+            "mt": "Jaspru",
+            "nl": "Jaspis",
+            "pl": "Jaspis",
+            "pt": "Jaspe",
+            "ro": "Jasp",
+            "sk": "Jaspis",
+            "sl": "Jaspis",
+            "sv": "Jaspis"
+          }
+        },
+        {
+          "value": "turquoise",
+          "label": {
+            "bg": "Тюркоаз",
+            "cs": "Tyrkys",
+            "da": "Turkis",
+            "de": "Türkis",
+            "el": "Τουρκουάζ",
+            "en": "Turquoise",
+            "es": "Turquesa",
+            "et": "Türkiis",
+            "fi": "Turkoosi",
+            "fr": "Turquoise",
+            "ga": "Turcaid",
+            "hr": "Tirkiz",
+            "hu": "Türkiz",
+            "it": "Turchese",
+            "lt": "Turkis",
+            "lv": "Tirkīzs",
+            "mt": "Turkważ",
+            "nl": "Turkoois",
+            "pl": "Turkus",
+            "pt": "Turquesa",
+            "ro": "Turcoaz",
+            "sk": "Tyrkys",
+            "sl": "Turkiz",
+            "sv": "Turkos"
+          }
+        },
+        {
+          "value": "chrysocolla",
+          "label": {
+            "bg": "Хризокола",
+            "cs": "Chryzokol",
+            "da": "Chrysocolla",
+            "de": "Chrysokoll",
+            "el": "Χρυσόκολλα",
+            "en": "Chrysocolla",
+            "es": "Crisocola",
+            "et": "Krüsokolla",
+            "fi": "Krysokolla",
+            "fr": "Chrysocolle",
+            "ga": "Crísocalla",
+            "hr": "Krizokola",
+            "hu": "Krizokolla",
+            "it": "Crisocolla",
+            "lt": "Chrizokola",
+            "lv": "Hrizokolla",
+            "mt": "Krisokolla",
+            "nl": "Chrysocolla",
+            "pl": "Chryzokola",
+            "pt": "Crisocola",
+            "ro": "Crisocol",
+            "sk": "Chryzokol",
+            "sl": "Krizokola",
+            "sv": "Krysokolla"
+          }
+        },
+        {
+          "value": "carnelian",
+          "label": {
+            "bg": "Карнеол",
+            "cs": "Karneol",
+            "da": "Karneol",
+            "de": "Karneol",
+            "el": "Καρνεόλης",
+            "en": "Carnelian",
+            "es": "Cornalina",
+            "et": "Karneool",
+            "fi": "Karneoli",
+            "fr": "Cornaline",
+            "ga": "Cairnéalán",
+            "hr": "Karneol",
+            "hu": "Karneol",
+            "it": "Corniola",
+            "lt": "Karneolis",
+            "lv": "Karneols",
+            "mt": "Karnelja",
+            "nl": "Karneool",
+            "pl": "Karneol",
+            "pt": "Cornalina",
+            "ro": "Carneol",
+            "sk": "Karneol",
+            "sl": "Karneol",
+            "sv": "Karneol"
+          }
+        },
+        {
+          "value": "pearl",
+          "label": {
+            "bg": "Перла",
+            "cs": "Perla",
+            "da": "Perle",
+            "de": "Perle",
+            "el": "Μαργαριτάρι",
+            "en": "Pearl",
+            "es": "Perla",
+            "et": "Pärl",
+            "fi": "Helmi",
+            "fr": "Perle",
+            "ga": "Péarla",
+            "hr": "Biser",
+            "hu": "Gyöngy",
+            "it": "Perla",
+            "lt": "Perlas",
+            "lv": "Pērle",
+            "mt": "Perla",
+            "nl": "Parel",
+            "pl": "Perła",
+            "pt": "Pérola",
+            "ro": "Perlă",
+            "sk": "Perla",
+            "sl": "Biser",
+            "sv": "Pärla"
+          }
+        },
+        {
+          "value": "lapis_lazuli",
+          "label": {
+            "bg": "Лазурит",
+            "cs": "Lazurit",
+            "da": "Lapis lazuli",
+            "de": "Lapislazuli",
+            "el": "Λαζουρίτης",
+            "en": "Lapis lazuli",
+            "es": "Lapislázuli",
+            "et": "Lasuriit",
+            "fi": "Lapislatsuli",
+            "fr": "Lapis-lazuli",
+            "ga": "Lapis lazuli",
+            "hr": "Lapis lazuli",
+            "hu": "Lazurit",
+            "it": "Lapislazzuli",
+            "lt": "Lazuritas",
+            "lv": "Lazurīts",
+            "mt": "Lapis lazuli",
+            "nl": "Lapis lazuli",
+            "pl": "Lazuryt",
+            "pt": "Lápis-lazúli",
+            "ro": "Lapis lazuli",
+            "sk": "Lazurit",
+            "sl": "Lazurit",
+            "sv": "Lapis lazuli"
+          }
+        },
+        {
+          "value": "jade",
+          "label": {
+            "bg": "Нефрит",
+            "cs": "Nefrit",
+            "da": "Jade",
+            "de": "Jade",
+            "el": "Νεφρίτης",
+            "en": "Jade",
+            "es": "Jade",
+            "et": "Nefriit",
+            "fi": "Jade",
+            "fr": "Jade",
+            "ga": "Iáid",
+            "hr": "Žad",
+            "hu": "Jade",
+            "it": "Giada",
+            "lt": "Nefritas",
+            "lv": "Nefrīts",
+            "mt": "Ġada",
+            "nl": "Jade",
+            "pl": "Jadeit",
+            "pt": "Jade",
+            "ro": "Jad",
+            "sk": "Nefrit",
+            "sl": "Žad",
+            "sv": "Jade"
+          }
+        },
+        {
+          "value": "tigers_eye",
+          "label": {
+            "bg": "Тигрово око",
+            "cs": "Tygří oko",
+            "da": "Tigerøje",
+            "de": "Tigerauge",
+            "el": "Μάτι τίγρης",
+            "en": "Tiger's eye",
+            "es": "Ojo de tigre",
+            "et": "Tiigrisilm",
+            "fi": "Tiikerinsilmä",
+            "fr": "Œil-de-tigre",
+            "ga": "Súil an tíogair",
+            "hr": "Tigrovo oko",
+            "hu": "Tigrisszem",
+            "it": "Occhio di tigre",
+            "lt": "Tigro akis",
+            "lv": "Tīģeracs",
+            "mt": "Għajn tat-tigra",
+            "nl": "Tijgeroog",
+            "pl": "Tygrysie oko",
+            "pt": "Olho de tigre",
+            "ro": "Ochi de tigru",
+            "sk": "Tigrie oko",
+            "sl": "Tigrovo oko",
+            "sv": "Tigeröga"
+          }
+        },
+        {
+          "value": "falcons_eye",
+          "label": {
+            "bg": "Соколово око",
+            "cs": "Sokolí oko",
+            "da": "Falkeøje",
+            "de": "Falkenauge",
+            "el": "Μάτι γερακιού",
+            "en": "Falcon's eye",
+            "es": "Ojo de halcón",
+            "et": "Pistrikusilm",
+            "fi": "Haukansilmä",
+            "fr": "Œil-de-faucon",
+            "ga": "Súil an fhabhcúin",
+            "hr": "Sokolovo oko",
+            "hu": "Sólyomszem",
+            "it": "Occhio di falco",
+            "lt": "Sakalo akis",
+            "lv": "Vanagacs",
+            "mt": "Għajn tal-falkun",
+            "nl": "Valkenoog",
+            "pl": "Sokole oko",
+            "pt": "Olho de falcão",
+            "ro": "Ochi de șoim",
+            "sk": "Sokolie oko",
+            "sl": "Sokolje oko",
+            "sv": "Falköga"
+          }
+        },
+        {
+          "value": "obsidian",
+          "label": {
+            "bg": "Обсидиан",
+            "cs": "Obsidián",
+            "da": "Obsidian",
+            "de": "Obsidian",
+            "el": "Οψιδιανός",
+            "en": "Obsidian",
+            "es": "Obsidiana",
+            "et": "Obsidiaan",
+            "fi": "Obsidiaani",
+            "fr": "Obsidienne",
+            "ga": "Obsaidian",
+            "hr": "Opsidijan",
+            "hu": "Obszidián",
+            "it": "Ossidiana",
+            "lt": "Obsidianas",
+            "lv": "Obsidiāns",
+            "mt": "Ossidjana",
+            "nl": "Obsidiaan",
+            "pl": "Obsydian",
+            "pt": "Obsidiana",
+            "ro": "Obsidian",
+            "sk": "Obsidián",
+            "sl": "Obsidijan",
+            "sv": "Obsidian"
+          }
+        },
+        {
+          "value": "moldavite",
+          "label": {
+            "bg": "Молдавит",
+            "cs": "Vltavín",
+            "da": "Moldavit",
+            "de": "Moldavit",
+            "el": "Μολδαβίτης",
+            "en": "Moldavite",
+            "es": "Moldavita",
+            "et": "Moldaviit",
+            "fi": "Moldaviitti",
+            "fr": "Moldavite",
+            "ga": "Moldaivít",
+            "hr": "Moldavit",
+            "hu": "Moldavit",
+            "it": "Moldavite",
+            "lt": "Moldavitas",
+            "lv": "Moldavīts",
+            "mt": "Moldavite",
+            "nl": "Moldaviet",
+            "pl": "Mołdawit",
+            "pt": "Moldavita",
+            "ro": "Moldavit",
+            "sk": "Vltavín",
+            "sl": "Moldavit",
+            "sv": "Moldavit"
+          }
+        },
+        {
+          "value": "rose_quartz",
+          "label": {
+            "bg": "Розов кварц",
+            "cs": "Růženín",
+            "da": "Rosenkvarts",
+            "de": "Rosenquarz",
+            "el": "Ροζ χαλαζίας",
+            "en": "Rose quartz",
+            "es": "Cuarzo rosa",
+            "et": "Roosa kvarts",
+            "fi": "Ruusukvartsi",
+            "fr": "Quartz rose",
+            "ga": "Grianchloch rósach",
+            "hr": "Ružičasti kvarc",
+            "hu": "Rózsakvarc",
+            "it": "Quarzo rosa",
+            "lt": "Rožinis kvarcas",
+            "lv": "Rozā kvarcs",
+            "mt": "Kwarz roża",
+            "nl": "Rozenkwarts",
+            "pl": "Kwarc różowy",
+            "pt": "Quartzo rosa",
+            "ro": "Cuarț roz",
+            "sk": "Ruženín",
+            "sl": "Rožnati kremen",
+            "sv": "Rosenkvarts"
+          }
+        },
+        {
+          "value": "rock_crystal",
+          "label": {
+            "bg": "Планински кристал",
+            "cs": "Křišťál",
+            "da": "Bjergkrystal",
+            "de": "Bergkristall",
+            "el": "Ορεία κρύσταλλος",
+            "en": "Rock crystal",
+            "es": "Cristal de roca",
+            "et": "Mäekristall",
+            "fi": "Vuorikristalli",
+            "fr": "Cristal de roche",
+            "ga": "Criostal carraige",
+            "hr": "Gorski kristal",
+            "hu": "Hegyikristály",
+            "it": "Cristallo di rocca",
+            "lt": "Kalnų krištolas",
+            "lv": "Kalnu kristāls",
+            "mt": "Kristall tal-blat",
+            "nl": "Bergkristal",
+            "pl": "Kryształ górski",
+            "pt": "Cristal de rocha",
+            "ro": "Cristal de stâncă",
+            "sk": "Krištáľ",
+            "sl": "Gorski kristal",
+            "sv": "Bergkristall"
           }
         },
         {
@@ -3867,7 +4621,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "provenance",
       "categoryLabel": {
@@ -3901,7 +4655,9 @@
       "regulationRef": {
         "article": "EU Conflict Minerals Regulation (EU) 2017/821",
         "instrument": "32017R0821",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Art. 3 (binds Union importers of tin, tantalum, tungsten and gold above Annex I volume thresholds)",
+        "description": "Reg (EU) 2017/821 imposes supply-chain due diligence on Union IMPORTERS of 3TG above Annex I volume thresholds — not a per-product attestation on finished jewellery. Collect where you have it; it does not discharge the importer's duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -4392,7 +5148,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substance_compliance",
       "categoryLabel": {
@@ -4426,8 +5182,9 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006, Annex XVII Entry 63",
         "instrument": "32006R1907",
-        "provision": "Annex XVII",
-        "kind": "legislation"
+        "provision": "Annex XVII Entry 63 (metal parts of jewellery: max 0.05% w/w)",
+        "kind": "legislation",
+        "description": "A market-placement restriction: jewellery metal parts must not exceed 0.05% w/w lead. The duty is to stay under the limit and hold the evidence, not to publish the measured value."
       },
       "aiHints": {
         "alternateNames": [
@@ -4498,7 +5255,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substance_compliance",
       "categoryLabel": {
@@ -4532,8 +5289,9 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006, Annex XVII Entry 23",
         "instrument": "32006R1907",
-        "provision": "Annex XVII",
-        "kind": "legislation"
+        "provision": "Annex XVII Entry 23 (max 0.01% w/w)",
+        "kind": "legislation",
+        "description": "A market-placement restriction: max 0.01% w/w cadmium. The duty is to stay under the limit and hold the evidence, not to publish the measured value."
       },
       "aiHints": {
         "alternateNames": [
@@ -4604,7 +5362,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substance_compliance",
       "categoryLabel": {
@@ -4638,8 +5396,9 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006, Annex XVII Entry 27",
         "instrument": "32006R1907",
-        "provision": "Annex XVII",
-        "kind": "legislation"
+        "provision": "Annex XVII Entry 27 (skin contact: <0.5 µg/cm²/week; body piercing: <0.2 µg/cm²/week)",
+        "kind": "legislation",
+        "description": "A market-placement restriction, conditional on prolonged skin contact or body piercing. The duty is to stay under the migration limit and hold the evidence, not to publish the measured rate."
       },
       "aiHints": {
         "alternateNames": [
@@ -4710,7 +5469,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substance_compliance",
       "categoryLabel": {
@@ -4744,8 +5503,9 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006, Art. 33; SCIP Database",
         "instrument": "32006R1907",
-        "provision": "Art. 33",
-        "kind": "legislation"
+        "provision": "Art. 33(2) (on request, within 45 days, above 0.1% w/w; minimum content is the substance name)",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an ON-REQUEST duty above 0.1% w/w, answered within 45 days with at minimum the substance name — not proactive publication. Holding this makes answering a request fast; it is not itself the discharge."
       },
       "aiHints": {
         "alternateNames": [
@@ -6295,39 +7055,154 @@
         "es": "Tipo de soporte de datos físico que enlaza con este DPP (QR en etiqueta/caja, NFC en embalaje)",
         "sv": "Typ av fysisk databärare som länkar till denna DPP (QR på etikett/kartong, NFC i förpackning)"
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "qr_hangtag",
+          "value": "qr_code",
           "label": {
-            "en": "QR hangtag"
+            "en": "QR code",
+            "bg": "QR код",
+            "de": "QR-Code",
+            "fr": "Code QR",
+            "hr": "QR kod",
+            "cs": "QR kód",
+            "da": "QR-kode",
+            "nl": "QR-code",
+            "et": "QR-kood",
+            "fi": "QR-koodi",
+            "el": "Κωδικός QR",
+            "hu": "QR-kód",
+            "ga": "Cód QR",
+            "it": "Codice QR",
+            "lv": "QR kods",
+            "lt": "QR kodas",
+            "mt": "Kodiċi QR",
+            "pl": "Kod QR",
+            "pt": "Código QR",
+            "ro": "Cod QR",
+            "sk": "QR kód",
+            "sl": "Koda QR",
+            "es": "Código QR",
+            "sv": "QR-kod"
           }
         },
         {
-          "value": "qr_box",
+          "value": "data_matrix",
           "label": {
-            "en": "QR box"
+            "en": "Data Matrix",
+            "bg": "Data Matrix",
+            "de": "Data Matrix",
+            "fr": "Data Matrix",
+            "hr": "Data Matrix",
+            "cs": "Data Matrix",
+            "da": "Data Matrix",
+            "nl": "Data Matrix",
+            "et": "Data Matrix",
+            "fi": "Data Matrix",
+            "el": "Data Matrix",
+            "hu": "Data Matrix",
+            "ga": "Data Matrix",
+            "it": "Data Matrix",
+            "lv": "Data Matrix",
+            "lt": "Data Matrix",
+            "mt": "Data Matrix",
+            "pl": "Data Matrix",
+            "pt": "Data Matrix",
+            "ro": "Data Matrix",
+            "sk": "Data Matrix",
+            "sl": "Data Matrix",
+            "es": "Data Matrix",
+            "sv": "Data Matrix"
           }
         },
         {
-          "value": "nfc_packaging",
+          "value": "nfc_tag",
           "label": {
-            "en": "NFC packaging"
+            "en": "NFC tag",
+            "bg": "NFC таг",
+            "de": "NFC-Tag",
+            "fr": "Étiquette NFC",
+            "hr": "NFC oznaka",
+            "cs": "NFC štítek",
+            "da": "NFC-tag",
+            "nl": "NFC-tag",
+            "et": "NFC-silt",
+            "fi": "NFC-tunniste",
+            "el": "Ετικέτα NFC",
+            "hu": "NFC-címke",
+            "ga": "Clib NFC",
+            "it": "Tag NFC",
+            "lv": "NFC birka",
+            "lt": "NFC žyma",
+            "mt": "Tikketta NFC",
+            "pl": "Znacznik NFC",
+            "pt": "Etiqueta NFC",
+            "ro": "Etichetă NFC",
+            "sk": "NFC štítok",
+            "sl": "Oznaka NFC",
+            "es": "Etiqueta NFC",
+            "sv": "NFC-tagg"
           }
         },
         {
-          "value": "laser_engraved_qr",
+          "value": "rfid_tag",
           "label": {
-            "en": "Laser engraved QR"
+            "en": "RFID tag",
+            "bg": "RFID таг",
+            "de": "RFID-Tag",
+            "fr": "Étiquette RFID",
+            "hr": "RFID oznaka",
+            "cs": "RFID štítek",
+            "da": "RFID-tag",
+            "nl": "RFID-tag",
+            "et": "RFID-silt",
+            "fi": "RFID-tunniste",
+            "el": "Ετικέτα RFID",
+            "hu": "RFID-címke",
+            "ga": "Clib RFID",
+            "it": "Tag RFID",
+            "lv": "RFID birka",
+            "lt": "RFID žyma",
+            "mt": "Tikketta RFID",
+            "pl": "Znacznik RFID",
+            "pt": "Etiqueta RFID",
+            "ro": "Etichetă RFID",
+            "sk": "RFID štítok",
+            "sl": "Oznaka RFID",
+            "es": "Etiqueta RFID",
+            "sv": "RFID-tagg"
           }
         },
         {
-          "value": "certificate_card_qr",
+          "value": "other",
           "label": {
-            "en": "Certificate card QR"
+            "en": "Other",
+            "bg": "Друго",
+            "de": "Andere",
+            "fr": "Autre",
+            "hr": "Drugo",
+            "cs": "Jiné",
+            "da": "Andet",
+            "nl": "Anders",
+            "et": "Muu",
+            "fi": "Muu",
+            "el": "Άλλο",
+            "hu": "Egyéb",
+            "ga": "Eile",
+            "it": "Altro",
+            "lv": "Cits",
+            "lt": "Kita",
+            "mt": "Oħra",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "es": "Otro",
+            "sv": "Annat"
           }
         }
       ],
@@ -6809,7 +7684,7 @@
     }
   ],
   "fieldCount": 53,
-  "requiredFieldCount": 12,
+  "requiredFieldCount": 3,
   "categories": [
     {
       "key": "product_identity",

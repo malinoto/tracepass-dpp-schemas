@@ -454,7 +454,7 @@
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product identification",
         "kind": "legislation"
       },
       "aiHints": {
@@ -668,7 +668,7 @@
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation"
       },
       "aiHints": {
@@ -740,7 +740,7 @@
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "Domestic seating",
+          "value": "domestic_seating",
           "label": {
             "en": "Domestic seating",
             "bg": "Седалка за дома",
@@ -769,7 +769,7 @@
           }
         },
         {
-          "value": "Commercial seating",
+          "value": "commercial_seating",
           "label": {
             "en": "Commercial seating",
             "bg": "Седалка за обществени помещения",
@@ -798,7 +798,7 @@
           }
         },
         {
-          "value": "Domestic table",
+          "value": "domestic_table",
           "label": {
             "en": "Domestic table",
             "bg": "Маса за дома",
@@ -827,7 +827,7 @@
           }
         },
         {
-          "value": "Commercial table",
+          "value": "commercial_table",
           "label": {
             "en": "Commercial table",
             "bg": "Маса за обществени помещения",
@@ -856,7 +856,7 @@
           }
         },
         {
-          "value": "Bed frame",
+          "value": "bed_frame",
           "label": {
             "en": "Bed frame",
             "bg": "Рамка за легло",
@@ -885,7 +885,7 @@
           }
         },
         {
-          "value": "Mattress",
+          "value": "mattress",
           "label": {
             "en": "Mattress",
             "bg": "Матрак",
@@ -914,7 +914,7 @@
           }
         },
         {
-          "value": "Storage furniture",
+          "value": "storage_furniture",
           "label": {
             "en": "Storage furniture",
             "bg": "Мебели за съхранение",
@@ -943,7 +943,7 @@
           }
         },
         {
-          "value": "Shelving",
+          "value": "shelving",
           "label": {
             "en": "Shelving",
             "bg": "Рафтове",
@@ -972,7 +972,7 @@
           }
         },
         {
-          "value": "Outdoor furniture",
+          "value": "outdoor_furniture",
           "label": {
             "en": "Outdoor furniture",
             "bg": "Градинско обзавеждане",
@@ -1001,7 +1001,7 @@
           }
         },
         {
-          "value": "Other",
+          "value": "other",
           "label": {
             "en": "Other",
             "bg": "Друго",
@@ -1172,7 +1172,7 @@
       "regulationRef": {
         "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1278,7 +1278,7 @@
       "regulationRef": {
         "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1876,45 +1876,154 @@
         "sl": "Vrsta nosilca podatkov (koda QR, RFID, NFC, Data Matrix, GS1 Digital Link)",
         "sv": "Typ av databärare (QR-kod, RFID, NFC, Data Matrix, GS1 Digital Link)"
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "QR code",
+          "value": "qr_code",
           "label": {
-            "en": "QR code"
+            "en": "QR code",
+            "bg": "QR код",
+            "de": "QR-Code",
+            "fr": "Code QR",
+            "hr": "QR kod",
+            "cs": "QR kód",
+            "da": "QR-kode",
+            "nl": "QR-code",
+            "et": "QR-kood",
+            "fi": "QR-koodi",
+            "el": "Κωδικός QR",
+            "hu": "QR-kód",
+            "ga": "Cód QR",
+            "it": "Codice QR",
+            "lv": "QR kods",
+            "lt": "QR kodas",
+            "mt": "Kodiċi QR",
+            "pl": "Kod QR",
+            "pt": "Código QR",
+            "ro": "Cod QR",
+            "sk": "QR kód",
+            "sl": "Koda QR",
+            "es": "Código QR",
+            "sv": "QR-kod"
           }
         },
         {
-          "value": "QR code (GS1 Digital Link)",
+          "value": "data_matrix",
           "label": {
-            "en": "QR code (GS1 Digital Link)"
+            "en": "Data Matrix",
+            "bg": "Data Matrix",
+            "de": "Data Matrix",
+            "fr": "Data Matrix",
+            "hr": "Data Matrix",
+            "cs": "Data Matrix",
+            "da": "Data Matrix",
+            "nl": "Data Matrix",
+            "et": "Data Matrix",
+            "fi": "Data Matrix",
+            "el": "Data Matrix",
+            "hu": "Data Matrix",
+            "ga": "Data Matrix",
+            "it": "Data Matrix",
+            "lv": "Data Matrix",
+            "lt": "Data Matrix",
+            "mt": "Data Matrix",
+            "pl": "Data Matrix",
+            "pt": "Data Matrix",
+            "ro": "Data Matrix",
+            "sk": "Data Matrix",
+            "sl": "Data Matrix",
+            "es": "Data Matrix",
+            "sv": "Data Matrix"
           }
         },
         {
-          "value": "Data Matrix",
+          "value": "nfc_tag",
           "label": {
-            "en": "Data Matrix"
+            "en": "NFC tag",
+            "bg": "NFC таг",
+            "de": "NFC-Tag",
+            "fr": "Étiquette NFC",
+            "hr": "NFC oznaka",
+            "cs": "NFC štítek",
+            "da": "NFC-tag",
+            "nl": "NFC-tag",
+            "et": "NFC-silt",
+            "fi": "NFC-tunniste",
+            "el": "Ετικέτα NFC",
+            "hu": "NFC-címke",
+            "ga": "Clib NFC",
+            "it": "Tag NFC",
+            "lv": "NFC birka",
+            "lt": "NFC žyma",
+            "mt": "Tikketta NFC",
+            "pl": "Znacznik NFC",
+            "pt": "Etiqueta NFC",
+            "ro": "Etichetă NFC",
+            "sk": "NFC štítok",
+            "sl": "Oznaka NFC",
+            "es": "Etiqueta NFC",
+            "sv": "NFC-tagg"
           }
         },
         {
-          "value": "RFID",
+          "value": "rfid_tag",
           "label": {
-            "en": "RFID"
+            "en": "RFID tag",
+            "bg": "RFID таг",
+            "de": "RFID-Tag",
+            "fr": "Étiquette RFID",
+            "hr": "RFID oznaka",
+            "cs": "RFID štítek",
+            "da": "RFID-tag",
+            "nl": "RFID-tag",
+            "et": "RFID-silt",
+            "fi": "RFID-tunniste",
+            "el": "Ετικέτα RFID",
+            "hu": "RFID-címke",
+            "ga": "Clib RFID",
+            "it": "Tag RFID",
+            "lv": "RFID birka",
+            "lt": "RFID žyma",
+            "mt": "Tikketta RFID",
+            "pl": "Znacznik RFID",
+            "pt": "Etiqueta RFID",
+            "ro": "Etichetă RFID",
+            "sk": "RFID štítok",
+            "sl": "Oznaka RFID",
+            "es": "Etiqueta RFID",
+            "sv": "RFID-tagg"
           }
         },
         {
-          "value": "NFC",
+          "value": "other",
           "label": {
-            "en": "NFC"
-          }
-        },
-        {
-          "value": "Other",
-          "label": {
-            "en": "Other"
+            "en": "Other",
+            "bg": "Друго",
+            "de": "Andere",
+            "fr": "Autre",
+            "hr": "Drugo",
+            "cs": "Jiné",
+            "da": "Andet",
+            "nl": "Anders",
+            "et": "Muu",
+            "fi": "Muu",
+            "el": "Άλλο",
+            "hu": "Egyéb",
+            "ga": "Eile",
+            "it": "Altro",
+            "lv": "Cits",
+            "lt": "Kita",
+            "mt": "Oħra",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "es": "Otro",
+            "sv": "Annat"
           }
         }
       ],
@@ -2671,7 +2780,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -2705,8 +2814,9 @@
       "regulationRef": {
         "article": "EUDR 2023/1115; EU Ecolabel Decision 2016/1332",
         "instrument": "32023R1115",
-        "provision": "Art. 9(1)(a)",
-        "kind": "legislation"
+        "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+        "kind": "legislation",
+        "description": "Discharged by the operator's due-diligence statement lodged in the EUDR Information System, not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -2776,7 +2886,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -2810,7 +2920,9 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2016/1332 Criterion 1; EUDR 2023/1115",
         "instrument": "32023R1115",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "FSC / PEFC are voluntary certification schemes; EUDR mandates due diligence, not certification",
+        "description": "EUDR requires due diligence and mandates no certification scheme; FSC and PEFC are voluntary."
       },
       "aiHints": {
         "alternateNames": [
@@ -2881,7 +2993,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -2985,7 +3097,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -3019,8 +3131,9 @@
       "regulationRef": {
         "article": "EUDR 2023/1115 Art. 4",
         "instrument": "32023R1115",
-        "provision": "Art. 9(1)(d)",
-        "kind": "legislation"
+        "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+        "kind": "legislation",
+        "description": "Discharged by the operator's due-diligence statement lodged in the EUDR Information System, not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -3090,7 +3203,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -3124,8 +3237,9 @@
       "regulationRef": {
         "article": "EUDR 2023/1115 Art. 3",
         "instrument": "32023R1115",
-        "provision": "Art. 3",
-        "kind": "legislation"
+        "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+        "kind": "legislation",
+        "description": "Discharged by the operator's due-diligence statement lodged in the EUDR Information System, not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -3195,7 +3309,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "wood_and_forestry",
       "categoryLabel": {
@@ -3229,8 +3343,9 @@
       "regulationRef": {
         "article": "EUDR 2023/1115 Art. 9(1)(d)",
         "instrument": "32023R1115",
-        "provision": "Art. 9(1)(d)",
-        "kind": "legislation"
+        "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+        "kind": "legislation",
+        "description": "Lodged in the operator's EUDR due-diligence statement. Plot geolocation is also commercially sensitive and does not belong on a public passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -3301,7 +3416,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -3335,8 +3450,9 @@
       "regulationRef": {
         "article": "ESPR 2024/1781 Art. 7(5); REACH Art. 33",
         "instrument": "32006R1907",
-        "provision": "Art. 33",
-        "kind": "legislation"
+        "provision": "REACH (EC) 1907/2006 Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
+        "kind": "legislation",
+        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -3407,7 +3523,7 @@
       "defaultValue": null,
       "enumOptions": [
         {
-          "value": "E0.5",
+          "value": "e0_5",
           "label": {
             "en": "E0.5 (≤0.05 ppm)",
             "bg": "E0.5 (≤0.05 ppm)",
@@ -3436,7 +3552,7 @@
           }
         },
         {
-          "value": "E1",
+          "value": "e1",
           "label": {
             "en": "E1 (≤0.124 mg/m³)",
             "bg": "E1 (≤0.124 mg/m³)",
@@ -3465,7 +3581,7 @@
           }
         },
         {
-          "value": "E2",
+          "value": "e2",
           "label": {
             "en": "E2 (>0.124 mg/m³)",
             "bg": "E2 (>0.124 mg/m³)",
@@ -3494,7 +3610,7 @@
           }
         },
         {
-          "value": "Super E0",
+          "value": "super_e0",
           "label": {
             "en": "Super E0",
             "bg": "Super E0",
@@ -3523,7 +3639,7 @@
           }
         },
         {
-          "value": "CARB Phase 2",
+          "value": "carb_phase_2",
           "label": {
             "en": "CARB Phase 2",
             "bg": "CARB Phase 2",
@@ -3552,7 +3668,7 @@
           }
         },
         {
-          "value": "N/A",
+          "value": "not_applicable",
           "label": {
             "en": "N/A",
             "bg": "Неприложимо",
@@ -3582,7 +3698,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -3616,8 +3732,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2023/1464 (REACH Entry 77); EN 717-1; EN 13986",
         "instrument": "32023R1464",
-        "provision": "REACH Annex XVII entry 77",
-        "kind": "legislation"
+        "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
+        "kind": "legislation",
+        "description": "Annex XVII entry 77 is an emission limit to stay under with test evidence retained; the E0.5/E1 class scheme is EN 13986, a voluntary standard."
       },
       "aiHints": {
         "alternateNames": [
@@ -3687,7 +3804,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -3721,8 +3838,9 @@
       "regulationRef": {
         "article": "Regulation (EU) 2023/1464; EN 717-1",
         "instrument": "32023R1464",
-        "provision": "REACH Annex XVII entry 77",
-        "kind": "legislation"
+        "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
+        "kind": "legislation",
+        "description": "A limit to stay under with evidence retained, not a duty to publish the measured value."
       },
       "aiHints": {
         "alternateNames": [
@@ -3792,7 +3910,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -3826,7 +3944,9 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2016/1332 Criterion 4; EN 16516",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -3999,7 +4119,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -4033,8 +4153,9 @@
       "regulationRef": {
         "article": "POPs Regulation (EU) 2019/1021; REACH Annex XVII; ECHA Flame Retardant Strategy 2023",
         "instrument": "32019R1021",
-        "provision": "Annex I",
-        "kind": "legislation"
+        "provision": "POPs Reg. (EU) 2019/1021 Annex I — market restriction",
+        "kind": "legislation",
+        "description": "POPs Annex I restricts placing on the market; it is not a disclosure duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -4075,28 +4196,28 @@
         "sv": "PBDE-halt (mg/kg)"
       },
       "description": {
-        "en": "Total PBDE (polybrominated diphenyl ethers) content in mg/kg. Max 500 mg/kg unintentional limit.",
-        "it": "Contenuto totale di PBDE (eteri difenilici polibromati) in mg/kg. Limite non intenzionale massimo 500 mg/kg.",
-        "hr": "Ukupni sadržaj PBDE (polibromirani difenil eteri) u mg/kg. Maks. 500 mg/kg nenamjerna granica.",
-        "cs": "Celkový obsah PBDE (polybromované difenylethery) v mg/kg. Maximální nezáměrný limit 500 mg/kg.",
-        "da": "Samlet PBDE-indhold (polybromerede diphenylethere) i mg/kg. Maks. 500 mg/kg utilsigtet grænse.",
-        "nl": "Totaal PBDE-gehalte (polybroomdifenylethers) in mg/kg. Max. 500 mg/kg onbedoelde grens.",
-        "et": "PBDE (polübroomitud difenüüleetrite) kogusisaldus mg/kg. Tahtmatu piirnorm 500 mg/kg.",
-        "fi": "Kokonais-PBDE-pitoisuus (polybromatut difenyylieetterit) mg/kg. Tahaton raja enintään 500 mg/kg.",
-        "fr": "Teneur totale en PBDE (éthers diphényliques polybromés) en mg/kg. Limite involontaire maximale de 500 mg/kg.",
-        "el": "Συνολικό περιεχόμενο PBDE (πολυβρωμοδιφαινυλαιθέρες) σε mg/kg. Μέγιστο όριο ακούσιας 500 mg/kg.",
-        "hu": "Teljes PBDE- (polibrómozott difenil-éterek) tartalom mg/kg-ban. Nem szándékos határérték max. 500 mg/kg.",
-        "ga": "Ábhar iomlán PBDE (éitir dhé-fhéinile pholabrómaithe) i mg/kg. Uasteorainn neamhd-intinneach 500 mg/kg.",
-        "es": "Contenido total de PBDE (éteres difenílicos polibromados) en mg/kg. Límite máximo no intencionado de 500 mg/kg.",
-        "lt": "Bendras PBDE (polibromintų difenileterių) kiekis mg/kg. Didžiausia netyčinė riba 500 mg/kg.",
-        "lv": "Kopējais PBDE (polibromēto difenilēteru) saturs mg/kg. Maksimālais nejaušais ierobežojums 500 mg/kg.",
-        "mt": "Kontenut totali ta' PBDE (eteri difeniliċi polibrominati) f'mg/kg. Limitu massimu mhux intenzjonali ta' 500 mg/kg.",
-        "pl": "Całkowita zawartość PBDE (polibromowanych difenyloeterów) w mg/kg. Maksymalny niezamierzony limit 500 mg/kg.",
-        "pt": "Teor total de PBDE (éteres difenílicos polibromados) em mg/kg. Limite máximo não intencional de 500 mg/kg.",
-        "ro": "Conținut total de PBDE (eteri difenilici polibromurați) în mg/kg. Limită maximă neintenționată de 500 mg/kg.",
-        "sk": "Celkový obsah PBDE (polybrómovaných difenyléterov) v mg/kg. Maximálny nezamýšľaný limit 500 mg/kg.",
-        "sl": "Skupna vsebnost PBDE (polibromiranih difenil etrov) v mg/kg. Največja nenamerna meja 500 mg/kg.",
-        "sv": "Total PBDE-halt (polybromerade difenyletrar) i mg/kg. Max oavsiktlig gräns 500 mg/kg."
+        "en": "Total PBDE (polybrominated diphenyl ethers) content in mg/kg. Unintentional trace limit 10 mg/kg; higher phased limits apply to articles containing recycled material.",
+        "it": "Contenuto totale di PBDE (eteri difenilici polibromurati) in mg/kg. Limite per tracce non intenzionali 10 mg/kg; agli articoli contenenti materiale riciclato si applicano limiti più elevati e graduali.",
+        "hr": "Ukupni sadržaj PBDE (polibromirani difenil eteri) u mg/kg. Granica nenamjernih tragova 10 mg/kg; na proizvode s recikliranim materijalom primjenjuju se više, postupne granice.",
+        "cs": "Celkový obsah PBDE (polybromované difenylethery) v mg/kg. Limit nezáměrných stop 10 mg/kg; na výrobky s recyklovaným materiálem se vztahují vyšší postupné limity.",
+        "da": "Samlet indhold af PBDE (polybromerede diphenylethere) i mg/kg. Grænse for utilsigtede spor 10 mg/kg; for artikler med genanvendt materiale gælder højere, gradvise grænser.",
+        "nl": "Totaal PBDE-gehalte (polybroomdifenylethers) in mg/kg. Limiet voor onbedoelde sporen 10 mg/kg; voor artikelen met gerecycled materiaal gelden hogere, gefaseerde limieten.",
+        "et": "PBDE (polübroomitud difenüüleetrid) kogusisaldus mg/kg. Tahtmatute jälgede piirmäär 10 mg/kg; ringlussevõetud materjali sisaldavatele toodetele kohaldatakse kõrgemaid, järkjärgulisi piirmäärasid.",
+        "fi": "PBDE-yhdisteiden (polybromatut difenyylieetterit) kokonaispitoisuus mg/kg. Tahattomien jäämien raja 10 mg/kg; kierrätysmateriaalia sisältäviin tuotteisiin sovelletaan korkeampia, vaiheittaisia rajoja.",
+        "fr": "Teneur totale en PBDE (éthers diphényliques polybromés) en mg/kg. Limite de traces non intentionnelles 10 mg/kg ; des limites plus élevées et progressives s'appliquent aux articles contenant des matières recyclées.",
+        "el": "Συνολική περιεκτικότητα σε PBDE (πολυβρωμιωμένοι διφαινυλαιθέρες) σε mg/kg. Όριο ακούσιων ιχνών 10 mg/kg· για είδη με ανακυκλωμένο υλικό ισχύουν υψηλότερα, σταδιακά όρια.",
+        "hu": "Teljes PBDE- (polibrómozott difenil-éterek) tartalom mg/kg-ban. Nem szándékos nyomok határértéke 10 mg/kg; az újrahasznosított anyagot tartalmazó cikkekre magasabb, szakaszos határértékek vonatkoznak.",
+        "ga": "Cion iomlán PBDE (éitir dhé-fheinile polabróimínithe) in mg/kg. Teorainn rian neamhbheartaithe 10 mg/kg; baineann teorainneacha níos airde, céimnithe le hearraí ina bhfuil ábhar athchúrsáilte.",
+        "es": "Contenido total de PBDE (éteres difenílicos polibromados) en mg/kg. Límite de trazas no intencionadas 10 mg/kg; a los artículos con material reciclado se aplican límites superiores y escalonados.",
+        "lt": "Bendras PBDE (polibromintų difenil eterių) kiekis mg/kg. Netyčinių pėdsakų riba 10 mg/kg; gaminiams su perdirbtomis medžiagomis taikomos didesnės, laipsniškos ribos.",
+        "lv": "Kopējais PBDE (polibromētie difenilēteri) saturs mg/kg. Neparedzētu pēdu robeža 10 mg/kg; izstrādājumiem ar pārstrādātu materiālu piemēro augstākas, pakāpeniskas robežvērtības.",
+        "mt": "Kontenut totali ta' PBDE (eteri difenilići polibrominati) f'mg/kg. Limitu ta' traċċi mhux intenzjonati 10 mg/kg; għal oġġetti b'materjal riċiklat japplikaw limiti ogħla u gradwali.",
+        "pl": "Całkowita zawartość PBDE (polibromowane difenyloetery) w mg/kg. Limit niezamierzonych śladów 10 mg/kg; do wyrobów zawierających materiał z recyklingu stosuje się wyższe limity etapowe.",
+        "pt": "Teor total de PBDE (éteres difenílicos polibromados) em mg/kg. Limite de vestígios não intencionais 10 mg/kg; aplicam-se limites superiores e faseados aos artigos com material reciclado.",
+        "ro": "Conținutul total de PBDE (eteri difenilici polibromurați) în mg/kg. Limita pentru urme neintenționate 10 mg/kg; articolelor cu material reciclat li se aplică limite mai mari, eșalonate.",
+        "sk": "Celkový obsah PBDE (polybrómované difenylétery) v mg/kg. Limit nezámerných stôp 10 mg/kg; na výrobky s recyklovaným materiálom sa vzťahujú vyššie postupné limity.",
+        "sl": "Skupna vsebnost PBDE (polibromirani difenil etri) v mg/kg. Mejna vrednost nenamernih sledi 10 mg/kg; za izdelke z reciklirano vsebino veljajo višje, postopne mejne vrednosti.",
+        "sv": "Total halt av PBDE (polybromerade difenyletrar) i mg/kg. Gräns för oavsiktliga spår 10 mg/kg; för varor med återvunnet material gäller högre, stegvisa gränser."
       },
       "dataType": "number",
       "unit": "mg/kg",
@@ -4104,7 +4225,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -4138,8 +4259,9 @@
       "regulationRef": {
         "article": "POPs Regulation (EU) 2019/1021; Delegated Regulation (EU) 2025/1482",
         "instrument": "32019R1021",
-        "provision": "Annex I (as amended by 32025R1482)",
-        "kind": "legislation"
+        "provision": "POPs Reg. (EU) 2019/1021 Annex I (as amended by Del. Reg. (EU) 2025/1482) — unintentional trace limit 10 mg/kg",
+        "kind": "legislation",
+        "description": "A market restriction to stay under, with higher phased limits for articles containing recycled material; not a duty to publish the measured value."
       },
       "aiHints": {
         "alternateNames": [
@@ -4313,7 +4435,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability",
       "categoryLabel": {
@@ -4416,7 +4538,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability",
       "categoryLabel": {
@@ -4624,7 +4746,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability",
       "categoryLabel": {
@@ -4808,7 +4930,7 @@
         "sv": "Garantiperiod (år)"
       },
       "description": {
-        "en": "Commercial warranty period offered",
+        "en": "Commercial warranty period offered ESPR Art. 7(2)(a) mandates no data on its own and no furniture delegated act exists; the statutory guarantee under Dir. (EU) 2019/771 binds the seller.",
         "it": "Periodo di garanzia commerciale offerto",
         "hr": "Komercijalno jamstveno razdoblje koje se nudi",
         "cs": "Nabízená obchodní záruční doba",
@@ -4837,7 +4959,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "durability",
       "categoryLabel": {
@@ -5047,7 +5169,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "mattress_specific",
       "categoryLabel": {
@@ -5081,7 +5203,9 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU; delegated act (mattresses)",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -5151,7 +5275,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "mattress_specific",
       "categoryLabel": {
@@ -5185,7 +5309,9 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -5563,7 +5689,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "mattress_specific",
       "categoryLabel": {
@@ -5597,7 +5723,9 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU Criterion 5",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -7257,7 +7385,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -7292,7 +7420,8 @@
         "article": "GPSR Art. 9",
         "instrument": "32023R0988",
         "provision": "Art. 9",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Furniture carries no CE obligation, so there is no EU declaration of conformity to publish; GPSR Art. 9 introduces none."
       },
       "aiHints": {
         "alternateNames": [
@@ -7673,7 +7802,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -7707,7 +7836,9 @@
       "regulationRef": {
         "article": "Regulation (EC) 1907/2006 REACH",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "provision": "REACH (EC) 1907/2006 — obligations evidenced in the manufacturer's records",
+        "description": "A blanket REACH compliance boolean corresponds to no disclosure duty in the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -7882,7 +8013,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_care",
       "categoryLabel": {
@@ -8196,7 +8327,7 @@
       "translatable": true,
       "defaultValue": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_and_care",
       "categoryLabel": {
@@ -8230,8 +8361,9 @@
       "regulationRef": {
         "article": "General Product Safety Regulation (EU) 2023/988",
         "instrument": "32023R0988",
-        "provision": "Art. 9(7)",
-        "kind": "legislation"
+        "provision": "GPSR (EU) 2023/988 Art. 9(7) — warnings and safety information, where the product's risks require them",
+        "kind": "legislation",
+        "description": "GPSR requires warnings accompany the product where its risks require them; it is not unconditional."
       },
       "aiHints": {
         "alternateNames": [
@@ -8975,7 +9107,7 @@
     }
   ],
   "fieldCount": 79,
-  "requiredFieldCount": 27,
+  "requiredFieldCount": 4,
   "categories": [
     {
       "key": "identification",

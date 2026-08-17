@@ -124,7 +124,9 @@
       "title": "Regulation (EU) 2025/2509 on the safety of toys",
       "eli": "http://data.europa.eu/eli/reg/2025/2509/oj",
       "createsDpp": true,
-      "note": "In force 1 Jan 2026, applies ~2030. This — not ESPR — is the source of the toy passport."
+      "note": "In force 1 Jan 2026 for the notified-body articles (28-44, 49-55); the Regulation applies from 1 Aug 2030. The toy DPP REPLACES the EU declaration of conformity under Directive 2009/48/EC. This — not ESPR — is the source of the toy passport. The Directive remains the operative product-requirement instrument until then and creates no passport.",
+      "dppMandatoryFrom": "2030-08-01",
+      "dppProvision": "Art. 20 (DPP) — applies with the Regulation from 1 Aug 2030"
     },
     "32011R1007": {
       "kind": "legislation",
@@ -267,6 +269,22 @@
       "eli": "http://data.europa.eu/eli/reg/2019/424/oj",
       "createsDpp": false,
       "note": "Adopted under the repealed Directive 2009/125/EC and KEPT IN FORCE by ESPR Art. 79 until repealed or replaced by an ESPR delegated act. Source of the PSU efficiency load points (10/20/50/100 % of rated output), power factor, idle-state power and server product-type parameters. Not a passport instrument."
+    },
+    "32013R0952": {
+      "kind": "legislation",
+      "shortName": "Union Customs Code",
+      "title": "Regulation (EU) No 952/2013 laying down the Union Customs Code",
+      "eli": "http://data.europa.eu/eli/reg/2013/952/oj",
+      "createsDpp": false,
+      "note": "Source of non-preferential origin rules (Arts. 59-63) — the basis for a country-of-origin field. Not a passport instrument."
+    },
+    "31987R2658": {
+      "kind": "legislation",
+      "shortName": "Combined Nomenclature",
+      "title": "Council Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the Common Customs Tariff",
+      "eli": "http://data.europa.eu/eli/reg/1987/2658/oj",
+      "createsDpp": false,
+      "note": "Annex I is the CN/TARIC commodity-code list. Both ESPR Art. 8(a) and Detergents Annex VI Part A(f) require the commodity code by reference to it. Not a passport instrument."
     }
   },
   "nonLegislative": {
