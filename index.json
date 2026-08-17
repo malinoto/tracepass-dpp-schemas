@@ -6,10 +6,10 @@
     "url": "https://www.tracepass.eu"
   },
   "totals": {
-    "categories": 12,
-    "fields": 940,
-    "requiredFields": 165,
-    "anticipatedFields": 202
+    "categories": 13,
+    "fields": 1004,
+    "requiredFields": 190,
+    "anticipatedFields": 214
   },
   "categories": [
     {
@@ -28,23 +28,6 @@
       }
     },
     {
-      "category": "chemicals",
-      "label": "Chemicals & Paints",
-      "file": "templates/chemicals.json",
-      "version": 2,
-      "fieldCount": 98,
-      "requiredFieldCount": 28,
-      "anticipatedFieldCount": 17,
-      "regulation": {
-        "name": "EU ESPR - Chemicals",
-        "number": "(EU) 2024/1781",
-        "effectiveDate": "2029-09-01",
-        "datePrecision": "year",
-        "mandatoryDate": "2029-09-01",
-        "mandatoryDatePrecision": "year"
-      }
-    },
-    {
       "category": "construction",
       "label": "Construction Materials",
       "file": "templates/construction.json",
@@ -59,6 +42,21 @@
         "datePrecision": "year",
         "mandatoryDate": "2029-01-01",
         "mandatoryDatePrecision": "year"
+      }
+    },
+    {
+      "category": "detergents",
+      "label": "Detergents & Surfactants",
+      "file": "templates/detergents.json",
+      "version": 1,
+      "fieldCount": 87,
+      "requiredFieldCount": 28,
+      "anticipatedFieldCount": 17,
+      "regulation": {
+        "name": "Detergents Regulation",
+        "number": "(EU) 2026/405",
+        "effectiveDate": "2029-09-23",
+        "mandatoryDate": "2029-09-23"
       }
     },
     {
@@ -144,6 +142,21 @@
         "datePrecision": "year",
         "mandatoryDate": "2030-01-01",
         "mandatoryDatePrecision": "year"
+      }
+    },
+    {
+      "category": "paints-coatings",
+      "label": "Paints & Coatings",
+      "file": "templates/paints-coatings.json",
+      "version": 1,
+      "fieldCount": 75,
+      "requiredFieldCount": 25,
+      "anticipatedFieldCount": 12,
+      "regulation": {
+        "name": "Decopaint Directive",
+        "number": "2004/42/EC",
+        "effectiveDate": "2010-01-01",
+        "mandatoryDate": "2010-01-01"
       }
     },
     {
