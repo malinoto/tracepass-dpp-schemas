@@ -7062,7 +7062,7 @@
           "REACH candidate list",
           "hazardous substances"
         ],
-        "expectedFormat": "Array of objects with substance_name, cas_number, concentration_percentage, component_location",
+        "expectedFormat": "Array of objects: [{substanceName: 'DEHP', casNumber: '117-81-7', concentrationPercent: 0.15, locationInProduct: 'Sidewall compound'}]",
         "extractionPriority": 8
       }
     },

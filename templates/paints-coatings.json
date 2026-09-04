@@ -2944,7 +2944,8 @@
       "regulationRef": {
         "article": "REACH, SDS Section 3",
         "kind": "specification",
-        "source": "Safety Data Sheet"
+        "source": "Safety Data Sheet",
+        "description": "The EC (EINECS/ELINCS) number is a substance identifier carried on the Safety Data Sheet, not a datum any instrument requires in a passport. REACH is named because the SDS exists under it; the duty is the SDS, not this field."
       },
       "aiHints": {
         "alternateNames": [
@@ -4529,7 +4530,7 @@
           "SVHC list",
           "candidate list substances"
         ],
-        "expectedFormat": "Array of SVHC objects",
+        "expectedFormat": "Array of objects: [{substanceName: 'Formaldehyde', casNumber: '50-00-0', ecNumber: '200-001-8', concentrationPercent: 0.15, locationInProduct: 'Preservative'}]. The svhcSubstanceName / svhcCasNumber / svhcEcNumber / svhcConcentrationRange / svhcLocationInProduct fields describe a SINGLE substance; use this array when more than one is present.",
         "extractionPriority": 9
       }
     },
@@ -5916,7 +5917,8 @@
       "regulationRef": {
         "article": "SDS Section 9.1, CLP",
         "kind": "specification",
-        "source": "Safety Data Sheet"
+        "source": "Safety Data Sheet",
+        "description": "Flash point is an SDS section 9.1 physical property. CLP is named because it drives the flammability classification derived FROM this value; CLP itself imposes no duty to publish the figure."
       },
       "aiHints": {
         "alternateNames": [

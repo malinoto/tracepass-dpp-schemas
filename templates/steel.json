@@ -7984,7 +7984,7 @@
           "SCIP substances",
           "hazardous substances"
         ],
-        "expectedFormat": "Array of {substanceName, casNumber, ecNumber, concentrationPct, locationInProduct}",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lead', casNumber: '7439-92-1', ecNumber: '231-100-4', concentrationPercent: 0.15, locationInProduct: 'Coating'}]",
         "extractionPriority": 7
       }
     },

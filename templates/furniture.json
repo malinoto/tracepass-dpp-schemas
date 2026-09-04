@@ -455,7 +455,8 @@
         "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — product identification",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 9(5) requires a type, batch or serial number (or other identifying element) that is easily visible and legible to consumers — on the product, or on its packaging or an accompanying document. The duty is to IDENTIFY the product, not specifically to publish in a passport; carrying it here satisfies the identification and is the natural home for it. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -669,7 +670,8 @@
         "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 9(5) requires a type, batch or serial number (or other identifying element) that is easily visible and legible to consumers — on the product, or on its packaging or an accompanying document. The duty is to IDENTIFY the product, not specifically to publish in a passport; carrying it here satisfies the identification and is the natural home for it. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1173,7 +1175,8 @@
         "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 9(6) requires the manufacturer's name, registered trade name or trade mark and postal/electronic address, placed on the product or, where not possible, on the packaging or an accompanying document. As with 9(5) the duty attaches to the CARRIER, not to a passport; the passport is a compliant place to put it. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1279,7 +1282,8 @@
         "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 9(6) requires the manufacturer's name, registered trade name or trade mark and postal/electronic address, placed on the product or, where not possible, on the packaging or an accompanying document. As with 9(5) the duty attaches to the CARRIER, not to a passport; the passport is a compliant place to put it. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -3461,7 +3465,7 @@
           "REACH candidate list",
           "hazardous substances"
         ],
-        "expectedFormat": "Array of objects: {substance_name, cas_number, concentration_percentage, component_location}",
+        "expectedFormat": "Array of objects: [{substanceName: 'Formaldehyde', casNumber: '50-00-0', concentrationPercent: 0.15, locationInProduct: 'Adhesive'}]",
         "extractionPriority": 9
       }
     },
