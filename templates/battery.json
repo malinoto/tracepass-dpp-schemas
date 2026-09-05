@@ -811,7 +811,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
-        "description": "Art. 38(7) requires the manufacturer to indicate a postal address, and where available an electronic address, ON the battery or its packaging or in an accompanying document. It is an economic-operator contact duty discharged by marking, not an Annex XIII passport item; publishing it here exceeds the duty and is good practice rather than compliance."
+        "description": "It requires the manufacturer to indicate a postal address, and where available an electronic address, ON the battery or its packaging or in an accompanying document. It is an economic-operator contact duty discharged by marking, not an Annex XIII passport item; publishing it here exceeds the duty and is good practice rather than compliance."
       },
       "aiHints": {
         "alternateNames": [
@@ -924,7 +924,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
-        "description": "Art. 38(7) names a postal and, where available, electronic address on the battery, its packaging or an accompanying document. A website is not among the required particulars and is not Annex XIII passport content."
+        "description": "It names a postal and, where available, electronic address on the battery, its packaging or an accompanying document. A website is not among the required particulars and is not Annex XIII passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -2033,7 +2033,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 13(5)",
         "kind": "legislation",
-        "description": "Art. 13(5) is a duty to PRINT the chemical symbol on the battery — 'Cd' above 0.002% cadmium — beneath the separate-collection symbol and at least a quarter of its size. The obligation is discharged by the mark, not by a passport field; Annex XIII 1(q) cross-references these marking requirements, which the corrigendum of 10 April 2026 corrected to Art. 13(4) and (5)."
+        "description": "It is a duty to PRINT the chemical symbol on the battery — 'Cd' above 0.002% cadmium — beneath the separate-collection symbol and at least a quarter of its size. The obligation is discharged by the mark, not by a passport field; Annex XIII 1(q) cross-references these marking requirements, which the corrigendum of 10 April 2026 corrected to Art. 13(4) and (5)."
       },
       "aiHints": {
         "alternateNames": [
@@ -2145,7 +2145,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 13(5)",
         "kind": "legislation",
-        "description": "Art. 13(5) requires the 'Pb' symbol to be printed on batteries containing more than 0.004% lead, beneath the separate-collection symbol. A physical marking duty, not passport data; Annex XIII 1(q) merely cross-references it."
+        "description": "It requires the 'Pb' symbol to be printed on batteries containing more than 0.004% lead, beneath the separate-collection symbol. A physical marking duty, not passport data; Annex XIII 1(q) merely cross-references it."
       },
       "aiHints": {
         "alternateNames": [
@@ -3600,7 +3600,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 7(2)",
         "kind": "legislation",
-        "description": "Art. 7(2) performance classes are carried into the passport by Annex XIII 1(c), but the classes themselves are established by a delegated act that has not been adopted. There is no class to declare until it is."
+        "description": "Performance classes are carried into the passport by Annex XIII 1(c), but the classes themselves are established by a delegated act that has not been adopted. There is no class to declare until it is."
       },
       "aiHints": {
         "alternateNames": [
@@ -3946,7 +3946,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 52",
         "kind": "legislation",
-        "description": "Art. 52 requires the policy to exist and be verified; what Annex XIII 1(d) carries into the passport is the Art. 52(3) REPORT on that policy, not the policy document. Publishing the policy itself is voluntary."
+        "description": "It requires the policy to exist and be verified; what Annex XIII 1(d) carries into the passport is the Art. 52(3) REPORT on that policy, not the policy document. Publishing the policy itself is voluntary."
       },
       "aiHints": {
         "alternateNames": [
@@ -7179,7 +7179,7 @@
         "provision": "Annex XIII 1(n)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 1(n) — 'initial round trip energy efficiency and at 50% of cycle-life' — is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "Initial round trip energy efficiency, and the same at 50% of cycle-life, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -7970,7 +7970,7 @@
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 1(j) — 'expected battery lifetime expressed in cycles, and reference test used' — is publicly accessible passport content from 18 Feb 2027. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "Expected battery lifetime in cycles, together with the reference test used, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8206,7 +8206,7 @@
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 1(j) requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra."
+        "description": "It requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra."
       },
       "aiHints": {
         "alternateNames": [
@@ -8324,7 +8324,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(k)",
         "kind": "legislation",
-        "description": "Annex XIII 1(k) — capacity threshold for exhaustion — is publicly accessible passport content, and the Annex scopes it explicitly to ELECTRIC VEHICLE batteries only. That is why it is not required category-wide; see validation.requiredBy."
+        "description": "The capacity threshold for exhaustion is publicly accessible passport content, and the Annex scopes it explicitly to ELECTRIC VEHICLE batteries only. That is why it is not required category-wide; see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8664,7 +8664,7 @@
         "provision": "Annex XIII 1(p)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 1(p) — the c-rate of the relevant cycle-life test — is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "The c-rate of the relevant cycle-life test is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8777,7 +8777,7 @@
         "provision": "Annex XIII 1(m)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 1(m) — the period for which the commercial warranty for calendar life applies — is publicly accessible passport content from 18 Feb 2027. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "The period for which the commercial warranty for calendar life applies is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9233,7 +9233,7 @@
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 4(b) — state of health pursuant to Art. 14 — is per-battery data the Regulation restricts to persons with a legitimate interest. Art. 14 separately requires the BMS to hold the underlying data with read-only access."
+        "description": "State of health pursuant to Art. 14 is per-battery data that the Regulation restricts to persons with a legitimate interest, never the public. Art. 14 separately requires the battery management system to hold the underlying data with read-only access."
       },
       "aiHints": {
         "alternateNames": [
@@ -10507,7 +10507,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "description": "Annex XIII 4(d) covers data resulting from use, including the number of charging and discharging cycles. Per-battery data, accessible only to persons with a legitimate interest."
+        "description": "It covers data resulting from use, including the number of charging and discharging cycles. Per-battery data, accessible only to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -10856,7 +10856,7 @@
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 4(d) — data resulting from use, including charging and discharging cycles. Per-battery data restricted to persons with a legitimate interest."
+        "description": "Data resulting from use, including charging and discharging cycles. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11080,7 +11080,7 @@
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 4(d) names negative events such as accidents explicitly. Per-battery data restricted to persons with a legitimate interest."
+        "description": "It names negative events such as accidents explicitly. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11194,7 +11194,7 @@
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 4(d) covers periodically recorded operating information including the state of charge. Per-battery data restricted to persons with a legitimate interest."
+        "description": "It covers periodically recorded operating information including the state of charge. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11308,7 +11308,7 @@
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "article": "Art. 77",
-        "description": "Annex XIII 4(d) covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest."
+        "description": "It covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [

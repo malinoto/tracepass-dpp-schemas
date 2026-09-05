@@ -1610,7 +1610,7 @@
         "instrument": "32020R0740",
         "provision": "Annex II",
         "kind": "legislation",
-        "description": "Annex II governs the tyre label's format and content. The production period is part of how a tyre type is identified for labelling and for the EPREL entry, not a datum the Regulation requires to be published as product data."
+        "description": "It governs the tyre label's format and content. The production period is part of how a tyre type is identified for labelling and for the EPREL entry, not a datum the Regulation requires to be published as product data."
       },
       "aiHints": {
         "alternateNames": [
@@ -4636,7 +4636,7 @@
         "instrument": "32020R0740",
         "provision": "Annex I",
         "kind": "legislation",
-        "description": "Annex I Part B defines the wet grip CLASSES, and what the Regulation requires is that the class appear on the tyre label and in the product information sheet, with the supporting data in the EPREL product database. The underlying index is the measured input to that class rather than the declared value."
+        "description": "Part B defines the wet grip CLASSES, and what the Regulation requires is that the class appear on the tyre label and in the product information sheet, with the supporting data in the EPREL product database. The underlying index is the measured input to that class rather than the declared value."
       },
       "aiHints": {
         "alternateNames": [

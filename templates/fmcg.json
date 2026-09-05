@@ -1637,7 +1637,7 @@
         "instrument": "32009R1223",
         "provision": "Annex III",
         "kind": "legislation",
-        "description": "Annex III lists substances restricted in cosmetics subject to conditions, and where a listed fragrance allergen is present above the annex threshold its name must appear in the Art. 19(1)(g) ingredient list ON THE PACKAGING. The duty is discharged by that pack labelling, not by publishing an allergen list here."
+        "description": "Lists substances restricted in cosmetics subject to conditions, and where a listed fragrance allergen is present above the annex threshold its name must appear in the Art. 19(1)(g) ingredient list ON THE PACKAGING. The duty is discharged by that pack labelling, not by publishing an allergen list here."
       },
       "aiHints": {
         "alternateNames": [
@@ -1744,7 +1744,7 @@
         "instrument": "32009R1223",
         "provision": "Art. 19(1)(g)",
         "kind": "legislation",
-        "description": "Art. 19(1)(g) requires the ingredient list on the container or packaging, and allows perfume and aromatic compositions to be given as 'parfum' or 'aroma' rather than itemised. So the Regulation deliberately does NOT require a full fragrance breakdown; publishing one exceeds the duty."
+        "description": "It requires the ingredient list on the container or packaging, and allows perfume and aromatic compositions to be given as 'parfum' or 'aroma' rather than itemised. So the Regulation deliberately does NOT require a full fragrance breakdown; publishing one exceeds the duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1852,7 +1852,7 @@
         "instrument": "32009R1223",
         "provision": "Annex V",
         "kind": "legislation",
-        "description": "Annex V is the positive list of preservatives permitted in cosmetics, with their conditions and maximum concentrations. It is a composition restriction — use only what is listed, within its limits — and the disclosure that follows is the Art. 19(1)(g) ingredient list on the pack."
+        "description": "It is the positive list of preservatives permitted in cosmetics, with their conditions and maximum concentrations. It is a composition restriction — use only what is listed, within its limits — and the disclosure that follows is the Art. 19(1)(g) ingredient list on the pack."
       },
       "aiHints": {
         "alternateNames": [
@@ -2067,7 +2067,7 @@
         "instrument": "32009R1223",
         "provision": "Annex IV",
         "kind": "legislation",
-        "description": "Annex IV is the positive list of permitted colorants. Like Annex V it restricts what may be used rather than requiring a separate declaration; the ingredient list on the packaging is where colorants are disclosed."
+        "description": "It is the positive list of permitted colorants. Like Annex V it restricts what may be used rather than requiring a separate declaration; the ingredient list on the packaging is where colorants are disclosed."
       },
       "aiHints": {
         "alternateNames": [
@@ -4236,7 +4236,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "Art. 7 sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). The duty binds the packaging, not the packaged product, and is not in force."
+        "description": "It sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). The duty binds the packaging, not the packaged product, and is not in force."
       },
       "aiHints": {
         "alternateNames": [
@@ -4493,7 +4493,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 6",
         "kind": "legislation",
-        "description": "Art. 6 recyclability grades A-E depend on design-for-recycling criteria set by delegated acts under Art. 6(4), not adopted, and apply from 2030. Nothing today lets the grade be computed or requires it."
+        "description": "Recyclability grades A-E depend on design-for-recycling criteria set by delegated acts under Art. 6(4), not adopted, and apply from 2030. Nothing today lets the grade be computed or requires it."
       },
       "aiHints": {
         "alternateNames": [
@@ -4710,7 +4710,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
-        "description": "Art. 10 requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, and caps empty space for grouped, transport and e-commerce packaging from 2030. The ratio expresses that future assessment; it is not a mandated declaration."
+        "description": "It requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, and caps empty space for grouped, transport and e-commerce packaging from 2030. The ratio expresses that future assessment; it is not a mandated declaration."
       },
       "aiHints": {
         "alternateNames": [
@@ -6056,7 +6056,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 28",
         "kind": "legislation",
-        "description": "Art. 28 concerns refill systems and the requirements that apply where an operator offers one. Offering refill is a business choice, not an obligation, so declaring its availability is voluntary information rather than compliance data."
+        "description": "It concerns refill systems and the requirements that apply where an operator offers one. Offering refill is a business choice, not an obligation, so declaring its availability is voluntary information rather than compliance data."
       },
       "aiHints": {
         "alternateNames": [

@@ -499,7 +499,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 3",
         "kind": "legislation",
-        "description": "Art. 3 defines sales, grouped, transport, e-commerce and reusable packaging, but a definitions article imposes no duty to declare which one applies. The distinction does carry legal weight elsewhere — transport packaging is outside the Art. 12(1) label except for e-commerce — so the value is worth holding even though declaring it is not an obligation."
+        "description": "It defines sales, grouped, transport, e-commerce and reusable packaging, but a definitions article imposes no duty to declare which one applies. The distinction does carry legal weight elsewhere — transport packaging is outside the Art. 12(1) label except for e-commerce — so the value is worth holding even though declaring it is not an obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -1340,7 +1340,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 11",
         "kind": "legislation",
-        "description": "Art. 11 sets reuse criteria and targets from 2030. Reusability is a real regulatory characteristic — Art. 12(2) makes reusable packaging the one case where a data carrier is mandatory — but that duty is a label plus carrier for users, from 12 Feb 2029 or 30 months after the Art. 12(6) act, whichever is the latest. Declaring the flag as passport data is not itself an obligation."
+        "description": "It sets reuse criteria and targets from 2030. Reusability is a real regulatory characteristic — Art. 12(2) makes reusable packaging the one case where a data carrier is mandatory — but that duty is a label plus carrier for users, from 12 Feb 2029 or 30 months after the Art. 12(6) act, whichever is the latest. Declaring the flag as passport data is not itself an obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -3136,7 +3136,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 6",
         "kind": "legislation",
-        "description": "Art. 6 expresses recyclability as A-E design-for-recycling grades, not as a free percentage. A percent-recyclable figure is not the regulatory metric and no provision requires it; the grade it approximates depends on unadopted Art. 6(4) criteria and applies from 2030."
+        "description": "Expresses recyclability as A-E design-for-recycling grades, not as a free percentage. A percent-recyclable figure is not the regulatory metric and no provision requires it; the grade it approximates depends on unadopted Art. 6(4) criteria and applies from 2030."
       },
       "aiHints": {
         "alternateNames": [
@@ -3351,7 +3351,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 6",
         "kind": "legislation",
-        "description": "Art. 6 recyclability is assessed against design-for-recycling criteria set by delegated acts under Art. 6(4), which are not adopted. Naming the standard used records method rather than discharging an obligation."
+        "description": "Recyclability is assessed against design-for-recycling criteria set by delegated acts under Art. 6(4), which are not adopted. Naming the standard used records method rather than discharging an obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -3457,7 +3457,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 6(6)",
         "kind": "legislation",
-        "description": "Art. 6(6) adds the 'recycled at scale' condition, which bites from 2035 and later than the design-for-recycling grades themselves. Both depend on criteria that delegated acts have yet to set, so neither is determinable today."
+        "description": "It adds the 'recycled at scale' condition, which bites from 2035 and later than the design-for-recycling grades themselves. Both depend on criteria that delegated acts have yet to set, so neither is determinable today."
       },
       "aiHints": {
         "alternateNames": [
@@ -3563,7 +3563,7 @@
         "instrument": "32025R0040",
         "provision": "Annex II",
         "kind": "legislation",
-        "description": "Annex II supports the Art. 6 recyclability assessment. The assessment methodology comes by delegated act under Art. 6(4) and applies from 2030; no provision in force requires publishing a sorting-efficiency figure."
+        "description": "Supports the Art. 6 recyclability assessment. The assessment methodology comes by delegated act under Art. 6(4) and applies from 2030; no provision in force requires publishing a sorting-efficiency figure."
       },
       "aiHints": {
         "alternateNames": [
@@ -3669,7 +3669,7 @@
         "instrument": "32025R0040",
         "provision": "Annex II",
         "kind": "legislation",
-        "description": "Annex II feeds the Art. 6 recyclability grading, whose criteria are not yet set. Recyclate quality is an input to that future assessment rather than a declared datum."
+        "description": "Feeds the Art. 6 recyclability grading, whose criteria are not yet set. Recyclate quality is an input to that future assessment rather than a declared datum."
       },
       "aiHints": {
         "alternateNames": [
@@ -4011,7 +4011,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "Art. 7 sets recycled-content minima per plastic material category, so the material dimension is real, but the obligation applies from 1 Jan 2030 and its calculation methodology comes by delegated act under Art. 7(8). Nothing in force requires declaring the category."
+        "description": "It sets recycled-content minima per plastic material category, so the material dimension is real, but the obligation applies from 1 Jan 2030 and its calculation methodology comes by delegated act under Art. 7(8). Nothing in force requires declaring the category."
       },
       "aiHints": {
         "alternateNames": [
@@ -4119,7 +4119,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 7(1)",
         "kind": "legislation",
-        "description": "Art. 7(1) sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). Where a share of recycled content IS voluntarily labelled, Art. 12(4) requires that label to follow the Art. 7(8) methodology — a conditional format rule, not a duty to declare."
+        "description": "It sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). Where a share of recycled content IS voluntarily labelled, Art. 12(4) requires that label to follow the Art. 7(8) methodology — a conditional format rule, not a duty to declare."
       },
       "aiHints": {
         "alternateNames": [
@@ -4334,7 +4334,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "Art. 7 counts only POST-consumer recyclate toward its targets, so a pre-consumer share does not contribute to the obligation at all. The targets themselves apply from 1 Jan 2030 under a delegated methodology."
+        "description": "Counts only POST-consumer recyclate toward its targets, so a pre-consumer share does not contribute to the obligation at all. The targets themselves apply from 1 Jan 2030 under a delegated methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -4440,7 +4440,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 7(8)",
         "kind": "legislation",
-        "description": "Art. 7(8) requires the Commission to set the calculation, verification and reporting methodology for recycled content by delegated act. That act is not adopted, so no certification scheme is prescribed and none can be mandated."
+        "description": "It requires the Commission to set the calculation, verification and reporting methodology for recycled content by delegated act. That act is not adopted, so no certification scheme is prescribed and none can be mandated."
       },
       "aiHints": {
         "alternateNames": [
@@ -5194,7 +5194,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 50",
         "kind": "legislation",
-        "description": "Art. 50 requires Member States to establish deposit-and-return systems for single-use plastic bottles and metal cans by 1 Jan 2029. In-scope packaging must bear a clear national DRS label under Art. 12(1); the applicability flag supports that marking rather than being separately mandated. Note DRS packaging is excluded from the Art. 12(1) material-composition label."
+        "description": "It requires Member States to establish deposit-and-return systems for single-use plastic bottles and metal cans by 1 Jan 2029. In-scope packaging must bear a clear national DRS label under Art. 12(1); the applicability flag supports that marking rather than being separately mandated. Note DRS packaging is excluded from the Art. 12(1) material-composition label."
       },
       "aiHints": {
         "alternateNames": [
@@ -5301,7 +5301,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 50",
         "kind": "legislation",
-        "description": "Art. 50 requires Member States to establish deposit-and-return systems by 1 Jan 2029, and Art. 12(1) requires in-scope packaging to bear a clear national DRS label. The system is identified by that national marking, not by a scheme identifier in a passport."
+        "description": "It requires Member States to establish deposit-and-return systems by 1 Jan 2029, and Art. 12(1) requires in-scope packaging to bear a clear national DRS label. The system is identified by that national marking, not by a scheme identifier in a passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -5407,7 +5407,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 11(1)",
         "kind": "legislation",
-        "description": "Art. 11(1) is a DEFINITIONAL test — packaging 'shall be considered to be reusable where' it meets criteria including being designed for as many rotations as possible. Meeting the criteria confers the status; the Regulation sets no minimum rotation count to declare, and rotation targets sit in the Art. 11 regime from 2030."
+        "description": "It is a DEFINITIONAL test — packaging 'shall be considered to be reusable where' it meets criteria including being designed for as many rotations as possible. Meeting the criteria confers the status; the Regulation sets no minimum rotation count to declare, and rotation targets sit in the Art. 11 regime from 2030."
       },
       "aiHints": {
         "alternateNames": [
@@ -5514,7 +5514,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 11",
         "kind": "legislation",
-        "description": "Art. 11 governs reuse systems and Annex VI distinguishes open and closed loops with and without a system operator. Naming the system is operationally useful; the Art. 12(2) carrier duty for reusable packaging is what the Regulation actually requires, from 12 Feb 2029 or 30 months after the implementing act, whichever is the latest."
+        "description": "It governs reuse systems and Annex VI distinguishes open and closed loops with and without a system operator. Naming the system is operationally useful; the Art. 12(2) carrier duty for reusable packaging is what the Regulation actually requires, from 12 Feb 2029 or 30 months after the implementing act, whichever is the latest."
       },
       "aiHints": {
         "alternateNames": [
@@ -5941,7 +5941,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 5(1)",
         "kind": "legislation",
-        "description": "Art. 5(1) requires substances of concern in packaging to be MINIMISED, not itemised. The disclosure route is the Art. 12(1) digital marking of such packaging, whose methodology is due by 1 Jan 2030 under Art. 12(7) and must then carry the substance name and concentration per material per unit. A CAS number is not itself mandated."
+        "description": "It requires substances of concern in packaging to be MINIMISED, not itemised. The disclosure route is the Art. 12(1) digital marking of such packaging, whose methodology is due by 1 Jan 2030 under Art. 12(7) and must then carry the substance name and concentration per material per unit. A CAS number is not itself mandated."
       },
       "aiHints": {
         "alternateNames": [
@@ -6897,7 +6897,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 8",
         "kind": "legislation",
-        "description": "Art. 8 governs compostable packaging, and Art. 12(1) requires the label of packaging covered by Art. 9(1) to indicate that the material is compostable, not suitable for home composting, and not to be discarded in nature. The duty lands on that label rather than on a certification flag in a passport."
+        "description": "It governs compostable packaging, and Art. 12(1) requires the label of packaging covered by Art. 9(1) to indicate that the material is compostable, not suitable for home composting, and not to be discarded in nature. The duty lands on that label rather than on a certification flag in a passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -7111,7 +7111,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 15",
         "kind": "legislation",
-        "description": "Art. 15 requires an EU declaration of conformity to be drawn up, and that is the obligation — a document held by the manufacturer, not published data. The standard EU DoC model requires no unique identifier, so this subfield is a convenience for referencing it."
+        "description": "It requires an EU declaration of conformity to be drawn up, and that is the obligation — a document held by the manufacturer, not published data. The standard EU DoC model requires no unique identifier, so this subfield is a convenience for referencing it."
       },
       "aiHints": {
         "alternateNames": [
@@ -7532,7 +7532,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 15",
         "kind": "legislation",
-        "description": "Art. 15 requires the EU declaration of conformity to be DRAWN UP and kept, with the technical documentation, at the disposal of market surveillance authorities. It is a held document; publishing a link is voluntary transparency."
+        "description": "It requires the EU declaration of conformity to be DRAWN UP and kept, with the technical documentation, at the disposal of market surveillance authorities. It is a held document; publishing a link is voluntary transparency."
       },
       "aiHints": {
         "alternateNames": [
@@ -8517,7 +8517,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
-        "description": "Art. 10 caps the empty-space ratio at 50% for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to be set by delegated act. The ratio is the operative metric of that future obligation, not a datum required today."
+        "description": "It caps the empty-space ratio at 50% for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to be set by delegated act. The ratio is the operative metric of that future obligation, not a datum required today."
       },
       "aiHints": {
         "alternateNames": [
@@ -8623,7 +8623,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
-        "description": "Art. 10 caps the empty-space ratio at 50% for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to come by delegated act. The cap is a design limit to meet, not a value to declare."
+        "description": "It caps the empty-space ratio at 50% for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to come by delegated act. The cap is a design limit to meet, not a value to declare."
       },
       "aiHints": {
         "alternateNames": [
@@ -8731,7 +8731,7 @@
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
-        "description": "Art. 10 requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, assessed against the Annex IV criteria from 2030. The duty is to design to that limit and hold the assessment, not to publish an optimisation flag."
+        "description": "It requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, assessed against the Annex IV criteria from 2030. The duty is to design to that limit and hold the assessment, not to publish an optimisation flag."
       },
       "aiHints": {
         "alternateNames": [
