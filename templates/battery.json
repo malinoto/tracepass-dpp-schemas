@@ -1802,7 +1802,7 @@
         "el": "Γενικές πληροφορίες"
       },
       "sortOrder": 13,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -4281,7 +4281,7 @@
         "el": "Υλικά και σύνθεση"
       },
       "sortOrder": 33,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -4393,7 +4393,7 @@
         "el": "Υλικά και σύνθεση"
       },
       "sortOrder": 34,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -4505,7 +4505,7 @@
         "el": "Υλικά και σύνθεση"
       },
       "sortOrder": 35,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -5847,7 +5847,7 @@
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
       "sortOrder": 47,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -8081,7 +8081,7 @@
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
       "sortOrder": 66,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -12052,7 +12052,7 @@
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
       "sortOrder": 99,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(b)",
@@ -12125,7 +12125,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 100,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
@@ -12194,7 +12194,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 101,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
@@ -12267,7 +12267,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 103,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
@@ -12340,7 +12340,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 104,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
@@ -12412,7 +12412,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 105,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
@@ -12485,7 +12485,7 @@
         "el": "Απόδοση και αντοχή"
       },
       "sortOrder": 102,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
