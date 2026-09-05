@@ -3352,7 +3352,8 @@
         "annex": "Annex I",
         "instrument": "32023R1670",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A 0-100 repairability index is real, but it belongs to Reg (EU) 2023/1670 for smartphones and slate tablets under the old Ecodesign Directive 2009/125/EC — not to ESPR, and not to servers. That regulation creates no digital product passport; the index is displayed through the energy label and the EPREL product database. Outside that narrow product group nothing mandates the index at all."
       },
       "aiHints": {
         "alternateNames": [
@@ -6787,7 +6788,8 @@
         "annex": "Reg. 2023/1670",
         "instrument": "32023R1670",
         "provision": "Art. 11",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Spare-parts availability lists are mandated for specific ecodesign product groups (smartphones and tablets under Reg (EU) 2023/1670; displays under 2019/2021) via Dir 2009/125/EC, and are made available to professional repairers rather than published as passport data. No such duty applies to electronics generally."
       },
       "aiHints": {
         "alternateNames": [
@@ -6898,7 +6900,8 @@
         "annex": "Reg. 2023/1670",
         "instrument": "32023R1670",
         "provision": "Art. 11",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Minimum spare-parts availability periods are set per ecodesign product group — seven years after the last unit for smartphones and tablets under Reg (EU) 2023/1670. The duty is to keep the parts available, discharged toward professional repairers; the period is not a mandated passport field."
       },
       "aiHints": {
         "alternateNames": [
@@ -8081,7 +8084,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(e) names PSU efficiency at 10%, 20%, 50% and 100% of rated output power, expressed in % to one decimal place, as information manufacturers must provide. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8188,7 +8192,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(e) names PSU efficiency at 10%, 20%, 50% and 100% of rated output power as information manufacturers must provide. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8294,7 +8299,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(e) names PSU efficiency at 10%, 20%, 50% and 100% of rated output power as information manufacturers must provide. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8400,7 +8406,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(e) names PSU efficiency at 10%, 20%, 50% and 100% of rated output power as information manufacturers must provide. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8507,7 +8514,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(f) requires the power factor at 50% of the rated load level, rounded to three decimal places. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8614,7 +8622,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(g) requires the PSU rated power output in Watts, rounded to the nearest integer. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8721,7 +8730,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(h) requires idle state power in Watts to one decimal place, and 3.1(l) the same at the higher boundary temperature of the declared operating condition class. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -8828,7 +8838,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(m) requires the active state efficiency and the performance in active state of the server. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -9108,7 +9119,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(k) requires the declared operating condition class as detailed in the Annex's Table 6. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -9214,7 +9226,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The temperature range follows from the Annex II point 3.1(k) declared operating condition class, and 3.1(l) requires idle state power at that class's higher boundary temperature. The class is the mandated datum; the range expresses it."
       },
       "aiHints": {
         "alternateNames": [
@@ -9437,7 +9450,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 3.1(a) requires the product type. It must be published in the instruction manuals and on the manufacturer's, authorised representative's and importer's FREE-ACCESS WEBSITES, from placing on the market until at least eight years after the last unit of the model. A passport is a legitimate way to discharge that publication duty, though the act does not name one. Applies from 1 March 2020 to servers and online data storage products, except custom-made one-off units."
       },
       "aiHints": {
         "alternateNames": [
@@ -9544,7 +9558,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The Annex II point 3.1 information list does not enumerate processor sockets. The closest mandated items are 3.1(i), the list of components attracting additional idle power allowances, and 3.1(p), the configurations represented by a product-family model. A socket count is useful configuration detail rather than a required datum."
       },
       "aiHints": {
         "alternateNames": [
@@ -9650,7 +9665,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Not enumerated in the Annex II point 3.1 information list. It is relevant to 3.1(i) idle-power allowances and to the low-end/high-end product-family configurations that 3.1 requires be reported, but is not itself a mandated field."
       },
       "aiHints": {
         "alternateNames": [
@@ -9756,7 +9772,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Additional memory is named in Annex II point 3.1(i) only as a component attracting an additional idle power allowance. The module inventory itself is not a mandated disclosure."
       },
       "aiHints": {
         "alternateNames": [
@@ -9863,7 +9880,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Not enumerated in the Annex II point 3.1 information list; memory appears there as a driver of idle power allowances under 3.1(i) rather than as a declared capacity."
       },
       "aiHints": {
         "alternateNames": [
@@ -9970,7 +9988,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "HDDs and SSDs are named in Annex II point 3.1(i) as components attracting additional idle power allowances. The device inventory is not itself a mandated disclosure, though data storage devices are one of the components that must remain disassemblable under point 1.2.1."
       },
       "aiHints": {
         "alternateNames": [
@@ -10077,7 +10096,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Not enumerated in the Annex II point 3.1 information list. Storage appears there only through the idle-power allowances of 3.1(i)."
       },
       "aiHints": {
         "alternateNames": [
@@ -10184,7 +10204,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "An additional PSU is named in Annex II point 3.1(i) as attracting an idle power allowance, and where a model belongs to a server product family 3.1(g) requires all PSUs offered in that family to be reported with their efficiency and power factor. A bare unit count is not itself mandated."
       },
       "aiHints": {
         "alternateNames": [
@@ -10290,7 +10311,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Not enumerated in the Annex II point 3.1 information list. Expansion and graphics cards appear in point 1.2.1 as components that must remain disassemblable, and additional I/O devices in 3.1(i) as an idle-power allowance."
       },
       "aiHints": {
         "alternateNames": [
@@ -10396,7 +10418,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Data storage devices are point 1.2.1(a). That point is a DESIGN requirement: from 1 March 2020 manufacturers must ensure joining, fastening or sealing techniques do not prevent its disassembly for repair or reuse. The duty is to build it that way, not to declare that you did. What must be published is the disassembly INSTRUCTIONS under Annex II point 3.3, and those go to registered repairers and recyclers rather than the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -10502,7 +10525,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Memory is point 1.2.1(b). That point is a DESIGN requirement: from 1 March 2020 manufacturers must ensure joining, fastening or sealing techniques do not prevent its disassembly for repair or reuse. The duty is to build it that way, not to declare that you did. What must be published is the disassembly INSTRUCTIONS under Annex II point 3.3, and those go to registered repairers and recyclers rather than the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -10607,7 +10631,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The processor (CPU) is point 1.2.1(c). That point is a DESIGN requirement: from 1 March 2020 manufacturers must ensure joining, fastening or sealing techniques do not prevent its disassembly for repair or reuse. The duty is to build it that way, not to declare that you did. What must be published is the disassembly INSTRUCTIONS under Annex II point 3.3, and those go to registered repairers and recyclers rather than the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -10713,7 +10738,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Expansion and graphics cards are point 1.2.1(e). That point is a DESIGN requirement: from 1 March 2020 manufacturers must ensure joining, fastening or sealing techniques do not prevent its disassembly for repair or reuse. The duty is to build it that way, not to declare that you did. What must be published is the disassembly INSTRUCTIONS under Annex II point 3.3, and those go to registered repairers and recyclers rather than the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -10819,7 +10845,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The PSU is point 1.2.1(f). That point is a DESIGN requirement: from 1 March 2020 manufacturers must ensure joining, fastening or sealing techniques do not prevent its disassembly for repair or reuse. The duty is to build it that way, not to declare that you did. What must be published is the disassembly INSTRUCTIONS under Annex II point 3.3, and those go to registered repairers and recyclers rather than the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -10924,7 +10951,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Two distinct duties meet here. Annex II point 1.2.2 requires the secure data deletion FUNCTIONALITY to exist from 1 March 2020 — a design duty. Point 3.1(n) then requires information ABOUT it to be published, including how to use it, the techniques used and the supported standards, on the free-access website for at least eight years after the last unit. Only the second is a disclosure obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11030,7 +11058,8 @@
         "annex": "Reg. 2019/424",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II point 1.2.3 requires the latest available firmware to be made available from two years after first placing on the market until at least eight years after the last unit, free of charge or at fair and non-discriminatory cost, with security updates free throughout. The duty is to supply the firmware, not to declare that you support it."
       },
       "aiHints": {
         "alternateNames": [
@@ -14821,7 +14850,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -14929,7 +14959,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15037,7 +15068,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15145,7 +15177,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15253,7 +15286,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15359,7 +15393,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15465,7 +15500,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15572,7 +15608,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15657,7 +15694,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15742,7 +15780,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex II is a restriction list — the maximum concentration tolerated by weight in homogeneous materials — not a disclosure list. Art. 7 discharges it through internal production control (module A), technical documentation, an EU declaration of conformity and the CE marking, kept for 10 years at the disposal of market surveillance authorities. Staying under the limit and holding the evidence is the obligation; publishing the measured value is not required."
       },
       "aiHints": {
         "alternateNames": [
@@ -15825,7 +15864,8 @@
         "annex": "Dir. 2011/65/EU",
         "instrument": "32011L0065",
         "provision": "Annex III",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "RoHS Annex III lists the applications exempted from the Art. 4(1) restriction, each with its own scope and expiry. Relying on an exemption is recorded in the technical documentation supporting the EU declaration of conformity; the Directive requires no public declaration of which exemption a product uses."
       },
       "aiHints": {
         "alternateNames": [
@@ -18087,7 +18127,8 @@
         "annex": "Dir. 2012/19/EU",
         "instrument": "32012L0019",
         "provision": "Annex III",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "WEEE Annex III defines the six EEE categories used from 15 August 2018, and they matter for producer registration and reporting to the national WEEE register — 27 national registers, not a Union database. No provision requires publishing the category number as product data; the consumer-facing WEEE duty is the crossed-out wheeled bin mark."
       },
       "aiHints": {
         "alternateNames": [
