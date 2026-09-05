@@ -810,7 +810,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 38(7) requires the manufacturer to indicate a postal address, and where available an electronic address, ON the battery or its packaging or in an accompanying document. It is an economic-operator contact duty discharged by marking, not an Annex XIII passport item; publishing it here exceeds the duty and is good practice rather than compliance."
       },
       "aiHints": {
         "alternateNames": [
@@ -922,7 +923,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 38(7) names a postal and, where available, electronic address on the battery, its packaging or an accompanying document. A website is not among the required particulars and is not Annex XIII passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -2030,7 +2032,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 13(5)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 13(5) is a duty to PRINT the chemical symbol on the battery — 'Cd' above 0.002% cadmium — beneath the separate-collection symbol and at least a quarter of its size. The obligation is discharged by the mark, not by a passport field; Annex XIII 1(q) cross-references these marking requirements, which the corrigendum of 10 April 2026 corrected to Art. 13(4) and (5)."
       },
       "aiHints": {
         "alternateNames": [
@@ -2141,7 +2144,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 13(5)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 13(5) requires the 'Pb' symbol to be printed on batteries containing more than 0.004% lead, beneath the separate-collection symbol. A physical marking duty, not passport data; Annex XIII 1(q) merely cross-references it."
       },
       "aiHints": {
         "alternateNames": [
@@ -2254,7 +2258,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(3)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 7(1) requires a carbon footprint declaration and Annex XIII 1(c) carries that information into the passport, but the declaration's format and the calculation methodology come from a delegated act that is not adopted. The label form in particular does not yet exist to be produced."
       },
       "aiHints": {
         "alternateNames": [
@@ -2815,7 +2820,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(c) makes the Art. 7(1) and (2) carbon footprint information passport content, so this is a genuine future passport field — but the Art. 7(1) declaration depends on a calculation methodology delegated act that has not been adopted, so nothing today fixes how the figure is computed."
       },
       "aiHints": {
         "alternateNames": [
@@ -2930,7 +2936,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c). The per-stage breakdown follows the calculation methodology that the unadopted delegated act will set."
       },
       "aiHints": {
         "alternateNames": [
@@ -3044,7 +3051,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -3157,7 +3165,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -3271,7 +3280,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -3589,7 +3599,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(2)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 7(2) performance classes are carried into the passport by Annex XIII 1(c), but the classes themselves are established by a delegated act that has not been adopted. There is no class to declare until it is."
       },
       "aiHints": {
         "alternateNames": [
@@ -3704,7 +3715,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The supporting study is the evidence behind the Art. 7(1) declaration rather than a declared Annex XIII item. Publishing a link is voluntary transparency."
       },
       "aiHints": {
         "alternateNames": [
@@ -3818,7 +3830,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 52",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but Art. 52 applies from 18 Aug 2027 and the report is due in the passport from Aug 2028, later than the passport itself."
       },
       "aiHints": {
         "alternateNames": [
@@ -3932,7 +3945,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 52",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 52 requires the policy to exist and be verified; what Annex XIII 1(d) carries into the passport is the Art. 52(3) REPORT on that policy, not the policy document. Publishing the policy itself is voluntary."
       },
       "aiHints": {
         "alternateNames": [
@@ -4045,7 +4059,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 52",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Third-party verification is part of the Art. 52 due diligence regime, and its results support the Art. 52(3) report that Annex XIII 1(d) carries. The audit output itself is not separately enumerated as passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -7046,7 +7061,8 @@
         "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 77",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 1 is passport content that must be PUBLICLY accessible, and this is one of its items. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -7162,7 +7178,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(n)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 1(n) — 'initial round trip energy efficiency and at 50% of cycle-life' — is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -7952,7 +7969,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 1(j) — 'expected battery lifetime expressed in cycles, and reference test used' — is publicly accessible passport content from 18 Feb 2027. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8069,7 +8087,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8186,7 +8205,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 1(j) requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra."
       },
       "aiHints": {
         "alternateNames": [
@@ -8303,7 +8323,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(k)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(k) — capacity threshold for exhaustion — is publicly accessible passport content, and the Annex scopes it explicitly to ELECTRIC VEHICLE batteries only. That is why it is not required category-wide; see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8642,7 +8663,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(p)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 1(p) — the c-rate of the relevant cycle-life test — is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -8754,7 +8776,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(m)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 1(m) — the period for which the commercial warranty for calendar life applies — is publicly accessible passport content from 18 Feb 2027. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9209,7 +9232,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 4(b) — state of health pursuant to Art. 14 — is per-battery data the Regulation restricts to persons with a legitimate interest. Art. 14 separately requires the BMS to hold the underlying data with read-only access."
       },
       "aiHints": {
         "alternateNames": [
@@ -9327,7 +9351,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9443,7 +9468,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9559,7 +9585,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9670,7 +9697,8 @@
         "annex": "Annex VII",
         "instrument": "32023R1542",
         "provision": "Art. 77",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Remaining energy is part of the Art. 14 state-of-health parameter set that Annex XIII 4(b) makes available to persons with a legitimate interest only. It is per-battery data, never public passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -9786,7 +9814,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -9902,7 +9931,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -10018,7 +10048,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -10134,7 +10165,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -10245,7 +10277,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -10361,7 +10394,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -10472,7 +10506,8 @@
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 4(d) covers data resulting from use, including the number of charging and discharging cycles. Per-battery data, accessible only to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -10820,7 +10855,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 4(d) — data resulting from use, including charging and discharging cycles. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11043,7 +11079,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 4(d) names negative events such as accidents explicitly. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11156,7 +11193,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 4(d) covers periodically recorded operating information including the state of charge. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11269,7 +11307,8 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77"
+        "article": "Art. 77",
+        "description": "Annex XIII 4(d) covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
         "alternateNames": [
@@ -11950,7 +11989,8 @@
         "provision": "Annex XIII 1(n)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 1(n)"
+        "article": "Annex XIII 1(n)",
+        "description": "The second half of Annex XIII 1(n), which requires round trip energy efficiency both initially and at 50% of cycle-life. Publicly accessible passport content from 18 Feb 2027."
       },
       "aiHints": {
         "alternateNames": [
@@ -12091,7 +12131,8 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)"
+        "article": "Annex XIII 4(a)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12159,7 +12200,8 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)"
+        "article": "Annex XIII 4(a)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12231,7 +12273,8 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)"
+        "article": "Annex XIII 4(a)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12303,7 +12346,8 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)"
+        "article": "Annex XIII 4(a)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12374,7 +12418,8 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)"
+        "article": "Annex XIII 4(a)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12446,7 +12491,8 @@
         "provision": "Annex XIII 4(b)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(b)"
+        "article": "Annex XIII 4(b)",
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
@@ -12563,7 +12609,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) carries the recycled content information contained in the Art. 8(1) documentation into the passport. Art. 8 recognises PRE-consumer and post-consumer recyclate differently, and the share targets themselves phase in from 18 Aug 2031, so the passport item exists before the minima bite."
       },
       "aiHints": {
         "alternateNames": [
@@ -12679,7 +12726,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation. The Art. 8 minimum shares apply from 18 Aug 2031."
       },
       "aiHints": {
         "alternateNames": [
@@ -12795,7 +12843,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation. The Art. 8 minimum shares apply from 18 Aug 2031."
       },
       "aiHints": {
         "alternateNames": [
@@ -12911,7 +12960,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; post-consumer recyclate is the share the Art. 8 targets are written against, applying from 18 Aug 2031."
       },
       "aiHints": {
         "alternateNames": [
@@ -13027,7 +13077,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; the Art. 8 minimum shares apply from 18 Aug 2031."
       },
       "aiHints": {
         "alternateNames": [
@@ -13143,7 +13194,8 @@
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; the Art. 8 minimum shares apply from 18 Aug 2031."
       },
       "aiHints": {
         "alternateNames": [
@@ -13259,7 +13311,8 @@
         "annex": "Annex XIII (1i)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1i)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(i) requires original power capability in Watts and its limits, with temperature range where relevant. The per-state-of-charge breakdown is how that item is expressed; it is publicly accessible passport content from 18 Feb 2027."
       },
       "aiHints": {
         "alternateNames": [
@@ -13375,7 +13428,8 @@
         "annex": "Annex XIII (1i)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1i)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(i) requires original power capability in Watts and its limits. The per-state-of-charge breakdown expresses that item; publicly accessible passport content from 18 Feb 2027."
       },
       "aiHints": {
         "alternateNames": [
@@ -13491,7 +13545,8 @@
         "annex": "Annex XIII (4d)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (4d)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 4(d) covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest; distinct from the Annex XIII 1(l) non-use temperature range, which is public."
       },
       "aiHints": {
         "alternateNames": [
@@ -13607,7 +13662,8 @@
         "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1s)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 1(s) carries the Art. 74(1)(a)-(f) waste-management information into the publicly accessible passport, and 1(q) cross-references the Art. 13(4) and (5) marking requirements. The Cd/Pb symbols themselves are discharged by printing them on the battery; a link documents that marking rather than replacing it."
       },
       "aiHints": {
         "alternateNames": [
@@ -13723,7 +13779,8 @@
         "annex": "Annex XIII (2b)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 2(b) — part numbers for components and contact details of sources for replacement spares — is passport content accessible only to persons with a legitimate interest and the Commission, not to the public."
       },
       "aiHints": {
         "alternateNames": [
@@ -13839,7 +13896,8 @@
         "annex": "Annex XIII (2b)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 2(b) covers contact details of sources for replacement spares, accessible only to persons with a legitimate interest and the Commission."
       },
       "aiHints": {
         "alternateNames": [
@@ -13955,7 +14013,8 @@
         "annex": "Annex XIII (4d)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (4d)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex XIII 4(d) names negative events such as accidents as per-battery data accessible only to persons with a legitimate interest. A link is a delivery convenience; the access restriction still governs what it resolves to."
       },
       "aiHints": {
         "alternateNames": [

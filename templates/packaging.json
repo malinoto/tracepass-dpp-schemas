@@ -133,7 +133,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "PPWR creates no packaging passport. Art. 12 mandates a harmonised pictogram label, and the QR carrier it allows for sorting information is permissive ('economic operators may place a QR code'); only reusable packaging under Art. 12(2) must carry one. A unique packaging identifier is expected content of a carrier dataset that the Art. 12(6) implementing act has not yet defined."
       },
       "aiHints": {
         "alternateNames": [
@@ -241,7 +242,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "PPWR mandates no trade-item identifier anywhere. A GTIN is plausible content of the Art. 12 carrier dataset once the Art. 12(6) implementing act defines it, and is useful for linking to the packaged product's own carrier under the Art. 12(5) single-carrier rule, but nothing in force requires publishing it."
       },
       "aiHints": {
         "alternateNames": [
@@ -496,7 +498,8 @@
         "article": "PPWR Art. 3",
         "instrument": "32025R0040",
         "provision": "Art. 3",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 3 defines sales, grouped, transport, e-commerce and reusable packaging, but a definitions article imposes no duty to declare which one applies. The distinction does carry legal weight elsewhere — transport packaging is outside the Art. 12(1) label except for e-commerce — so the value is worth holding even though declaring it is not an obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -1011,7 +1014,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "No PPWR provision requires the physical form to be declared as data. It is plausible content of the Art. 12 carrier dataset once the implementing act defines one."
       },
       "aiHints": {
         "alternateNames": [
@@ -1119,7 +1123,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Empty-packaging weight is an input to the Art. 10 minimisation assessment rather than a declared datum. Art. 10 applies from 2030 and its calculation methodology comes by delegated act, so no in-force provision requires publishing this weight."
       },
       "aiHints": {
         "alternateNames": [
@@ -1333,7 +1338,8 @@
         "article": "PPWR Art. 11",
         "instrument": "32025R0040",
         "provision": "Art. 11",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 11 sets reuse criteria and targets from 2030. Reusability is a real regulatory characteristic — Art. 12(2) makes reusable packaging the one case where a data carrier is mandatory — but that duty is a label plus carrier for users, from 12 Feb 2029 or 30 months after the Art. 12(6) act, whichever is the latest. Declaring the flag as passport data is not itself an obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -1441,7 +1447,8 @@
         "article": "PPWR Art. 11",
         "instrument": "32025R0040",
         "provision": "Art. 11",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The complement of the Art. 11 reuse characteristic. No provision requires declaring it; its practical use is distinguishing packaging that falls outside the Art. 12(2) reusable label and carrier duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -2014,7 +2021,8 @@
         "article": "PPWR Art. 5, Annex VII",
         "instrument": "32025R0040",
         "provision": "Art. 5, Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Material composition is the subject of the Art. 12(1) harmonised label, which is discharged by a PICTOGRAM on the packaging, not by publishing a data field. The identification methodology comes from the Art. 12(7) implementing act due 12 Aug 2026 and not yet adopted, and the label applies from 12 Aug 2028 or 24 months after that act, whichever is the latest."
       },
       "aiHints": {
         "alternateNames": [
@@ -2228,7 +2236,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Per-material weight share is an input to the Art. 6 recyclability and Art. 7 recycled-content assessments, both of which apply from 2030 under criteria set by delegated acts. No in-force provision requires declaring the share itself."
       },
       "aiHints": {
         "alternateNames": [
@@ -2336,7 +2345,8 @@
         "article": "PPWR Annex VII",
         "instrument": "32025R0040",
         "provision": "Annex VII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Component identification supports the separate-collection sorting information that Art. 12(1) allows on a voluntary QR code. Since that carrier is permissive and its dataset undefined, naming components is useful practice rather than a duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -2444,7 +2454,8 @@
         "article": "PPWR Art. 7",
         "instrument": "32025R0040",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "'Contact-sensitive packaging' is a real Art. 7 category, because it carries different recycled-content targets. It is a scoping concept for that obligation, not a datum PPWR requires anyone to declare, and Art. 7 applies from 1 Jan 2030."
       },
       "aiHints": {
         "alternateNames": [
@@ -3012,7 +3023,8 @@
         "article": "PPWR Art. 6, Annex II",
         "instrument": "32025R0040",
         "provision": "Art. 6, Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 6 establishes recyclability performance grades A-E, with grades D and E unmarketable from 2030. The grading criteria come by delegated act under Art. 6(4), which is not adopted — so today the grade cannot be computed, let alone required."
       },
       "aiHints": {
         "alternateNames": [
@@ -3120,7 +3132,8 @@
         "article": "PPWR Art. 6",
         "instrument": "32025R0040",
         "provision": "Art. 6",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 6 expresses recyclability as A-E design-for-recycling grades, not as a free percentage. A percent-recyclable figure is not the regulatory metric and no provision requires it; the grade it approximates depends on unadopted Art. 6(4) criteria and applies from 2030."
       },
       "aiHints": {
         "alternateNames": [
@@ -3228,7 +3241,8 @@
         "article": "PPWR Art. 6(4)",
         "instrument": "32025R0040",
         "provision": "Art. 6(4)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Design-for-recycling criteria are set by delegated acts under Art. 6(4), which are not adopted. Compliance is undeterminable until they exist, and the underlying obligation applies from 2030."
       },
       "aiHints": {
         "alternateNames": [
@@ -3989,7 +4003,8 @@
         "article": "PPWR Art. 7",
         "instrument": "32025R0040",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 7 sets recycled-content minima per plastic material category, so the material dimension is real, but the obligation applies from 1 Jan 2030 and its calculation methodology comes by delegated act under Art. 7(8). Nothing in force requires declaring the category."
       },
       "aiHints": {
         "alternateNames": [
@@ -4096,7 +4111,8 @@
         "article": "PPWR Art. 7(1)",
         "instrument": "32025R0040",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 7(1) sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). Where a share of recycled content IS voluntarily labelled, Art. 12(4) requires that label to follow the Art. 7(8) methodology — a conditional format rule, not a duty to declare."
       },
       "aiHints": {
         "alternateNames": [
@@ -4204,7 +4220,8 @@
         "article": "PPWR Art. 7(1)",
         "instrument": "32025R0040",
         "provision": "Art. 7(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Only post-consumer recyclate counts toward the Art. 7 targets, so this is the operative metric of that obligation — but the obligation applies from 2030 through a delegated methodology that does not yet exist."
       },
       "aiHints": {
         "alternateNames": [
@@ -4627,7 +4644,8 @@
         "article": "PPWR Art. 12",
         "instrument": "32025R0040",
         "provision": "Art. 12",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Per-component sorting destination is exactly what the Art. 12(1) voluntary QR code may carry ('information on the destination of each separate component'). The regulation permits this carrier rather than requiring it."
       },
       "aiHints": {
         "alternateNames": [
@@ -4734,7 +4752,8 @@
         "article": "PPWR Art. 12",
         "instrument": "32025R0040",
         "provision": "Art. 12",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Waste-stream destination is the substance of the Art. 12(1) harmonised sorting label, delivered as a pictogram whose format the Art. 12(6) implementing act will set. The duty is to mark the packaging, not to publish the destination as data."
       },
       "aiHints": {
         "alternateNames": [
@@ -4948,7 +4967,8 @@
         "article": "PPWR Art. 12",
         "instrument": "32025R0040",
         "provision": "Art. 12",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Consumer sorting and disposal guidance is Art. 12(1) harmonised-label content, set by the Art. 12(6) implementing act due 12 Aug 2026 and not yet adopted. Art. 12(5) also requires that information to be available before purchase in online sales, which a passport can satisfy — but the obligation itself is not in force."
       },
       "aiHints": {
         "alternateNames": [
@@ -5162,7 +5182,8 @@
         "article": "PPWR Art. 50",
         "instrument": "32025R0040",
         "provision": "Art. 50",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 50 requires Member States to establish deposit-and-return systems for single-use plastic bottles and metal cans by 1 Jan 2029. In-scope packaging must bear a clear national DRS label under Art. 12(1); the applicability flag supports that marking rather than being separately mandated. Note DRS packaging is excluded from the Art. 12(1) material-composition label."
       },
       "aiHints": {
         "alternateNames": [
@@ -5797,7 +5818,8 @@
         "article": "PPWR Art. 5(1), ESPR Art. 7",
         "instrument": "32025R0040",
         "provision": "Art. 5(1), ESPR Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 5(1) requires substances of concern to be MINIMISED, not itemised. The disclosure route is Art. 12(1) second subparagraph: such packaging must be marked using digital marking technologies per the Art. 12(7) methodology, which is due by 1 Jan 2030 and must carry at least the name and concentration per material per packaging unit. Separately, SVHCs above 0.1% w/w are notified to ECHA's SCIP database under the Waste Framework Directive — neither duty is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -6010,7 +6032,8 @@
         "article": "PPWR Art. 5(1)",
         "instrument": "32025R0040",
         "provision": "Art. 5(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Concentration becomes a marking element only through the Art. 12(7) substances methodology due by 1 Jan 2030, which requires name and concentration per material in a packaging unit. Until then Art. 5(1) is a minimisation duty with no per-substance disclosure list, so a product-level concentration is voluntary and its eventual shape provisional."
       },
       "aiHints": {
         "alternateNames": [
@@ -6537,7 +6560,8 @@
         "article": "PPWR Art. 12",
         "instrument": "32025R0040",
         "provision": "Art. 12",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The Art. 12(1) harmonised label becomes mandatory from 12 Aug 2028 or 24 months after the Art. 12(6)/(7) implementing acts, whichever is the latest. Those acts are due 12 Aug 2026 and unadopted, so the date is not yet fixed and a 'label applied' flag records readiness rather than compliance with anything in force."
       },
       "aiHints": {
         "alternateNames": [
@@ -7063,7 +7087,8 @@
         "article": "PPWR Art. 15",
         "instrument": "32025R0040",
         "provision": "Art. 15",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 15 requires an EU declaration of conformity to be drawn up, and that is the obligation — a document held by the manufacturer, not published data. The standard EU DoC model requires no unique identifier, so this subfield is a convenience for referencing it."
       },
       "aiHints": {
         "alternateNames": [
@@ -7739,7 +7764,8 @@
         "article": "PPWR Art. 12, ESPR Art. 9",
         "instrument": "32025R0040",
         "provision": "Art. 12, ESPR Art. 9",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 12 mandates no carrier for general packaging: the Art. 12(1) sorting QR is permissive and the material-composition duty is a pictogram. Only Art. 12(2) reusable packaging must carry one, from 12 Feb 2029 or 30 months after the Art. 12(6) act, whichever is the latest. The carrier's technical specification comes from that same unadopted act."
       },
       "aiHints": {
         "alternateNames": [
@@ -7847,7 +7873,8 @@
         "article": "PPWR Art. 12, ESPR Art. 9",
         "instrument": "32025R0040",
         "provision": "Art. 12, ESPR Art. 9",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The URI encoded in a packaging carrier is content of a dataset the Art. 12(6) implementing act has not yet defined. Where the packaged product carries its own carrier under other Union law, Art. 12(5) requires a SINGLE carrier serving both, with the two easily distinguishable — so this value cannot be designed in isolation from the product's."
       },
       "aiHints": {
         "alternateNames": [
@@ -8465,7 +8492,8 @@
         "article": "PPWR Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 10 caps the empty-space ratio at 50% for grouped, transport and e-commerce packaging from 2030, with the calculation methodology to be set by delegated act. The ratio is the operative metric of that future obligation, not a datum required today."
       },
       "aiHints": {
         "alternateNames": [
@@ -8677,7 +8705,8 @@
         "article": "PPWR Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 10 requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, assessed against the Annex IV criteria from 2030. The duty is to design to that limit and hold the assessment, not to publish an optimisation flag."
       },
       "aiHints": {
         "alternateNames": [
