@@ -2750,7 +2750,8 @@
       "regulationRef": {
         "article": "CLP 1272/2008",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP governs how a substance is IDENTIFIED on the label and in classification, through the Art. 18(3) product identifier rules — a name, not an amount. It creates no duty to publish an IUPAC name as product data; the label and the safety data sheet are the channels through which composition information reaches users."
       },
       "aiHints": {
         "alternateNames": [
@@ -3063,7 +3064,8 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A REACH registration number is assigned to the registrant and appears in section 1 of the safety data sheet supplied down the chain under Art. 31. REACH creates no duty to publish it as product data, and for a mixture it is the constituent substances that carry registrations, not the product."
       },
       "aiHints": {
         "alternateNames": [
@@ -3166,7 +3168,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405, CLP",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Preservatives reach consumers through the CLP label and, where applicable, sector labelling rules; CLP itself creates no separate duty to publish a preservative list as product data. Its labelling duty is discharged by what is affixed to the package."
       },
       "aiHints": {
         "alternateNames": [
@@ -3269,7 +3272,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405, CLP 2024/2865",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Fragrance allergen disclosure is a LABELLING duty in the sector instruments that impose it, not a CLP one — CLP's own obligation is the hazard label. Publishing the list here is useful to allergic users but is not how the duty is discharged."
       },
       "aiHints": {
         "alternateNames": [
@@ -4012,7 +4016,8 @@
         "article": "CLP 1272/2008 Annex II",
         "instrument": "32008R1272",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Annex II covers supplemental label information — EUH statements and similar. The obligation is to place that text ON THE LABEL; a passport copy repeats it rather than discharging it."
       },
       "aiHints": {
         "alternateNames": [
@@ -4222,7 +4227,8 @@
         "article": "CLP Annex VIII",
         "instrument": "32008R1272",
         "provision": "Annex VIII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Annex VIII governs notification of hazardous mixtures to the bodies appointed under Art. 45 for emergency health response. The duty is discharged by NOTIFYING those bodies — a database entry — and the resulting UFI belongs on the label. Publishing the notification reference in a passport neither creates nor satisfies the obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -4848,7 +4854,8 @@
       "regulationRef": {
         "article": "REACH",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 33 is the SVHC communication duty and it is narrower than it looks: to business recipients, and to consumers ON REQUEST within 45 days, for articles containing an SVHC above 0.1% w/w, with a minimum content of the substance NAME. Publishing an EC number proactively exceeds what any in-force provision requires."
       },
       "aiHints": {
         "alternateNames": [
@@ -5412,7 +5419,8 @@
         "article": "REACH Article 59",
         "instrument": "32006R1907",
         "provision": "Article 59",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 59 governs how a substance is added to the candidate list. The date of inclusion determines when the Art. 33 communication and SCIP notification duties bite for that substance; it is a fact about the list rather than a datum the manufacturer is required to publish."
       },
       "aiHints": {
         "alternateNames": [
@@ -5516,7 +5524,8 @@
         "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Article 9(1)(i)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The SCIP database notification is required by Waste Framework Directive Art. 9(1)(i), in force since 5 January 2021, for articles containing candidate-list substances above 0.1% w/w. The duty is discharged by notifying ECHA — a database entry — not by publishing the resulting identifier."
       },
       "aiHints": {
         "alternateNames": [
@@ -7597,7 +7606,8 @@
         "article": "ESPR Annex III, Detergents Reg 2026/405, SDS Section 3",
         "instrument": "32026R0405",
         "provision": "Annex III",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex VI Part A point (h) makes a FULL LIST of intentionally added substances, identified per CLP Art. 18(3), genuine passport content — one of the nine Part A points. Note the inversion against the label: the passport carries the full list but no amounts, while Annex V Part A carries banded concentrations for a narrower set. Applies from 23 Sep 2029."
       },
       "aiHints": {
         "alternateNames": [
@@ -7701,7 +7711,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "An INCI name is a cosmetics naming convention. Under Reg (EU) 2026/405 the passport identifies substances per CLP Art. 18(3) (Annex VI Part A point (h)), not by INCI, so this is a convenience field rather than a mandated one."
       },
       "aiHints": {
         "alternateNames": [
@@ -8524,7 +8535,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Functional categories such as surfactant or enzyme are an Annex V Part A LABELLING construct. Annex VI Part A — the passport dataset — asks for a list of intentionally added substances, not a functional breakdown. Applies from 23 Sep 2029 and lands on the label."
       },
       "aiHints": {
         "alternateNames": [
@@ -8628,7 +8640,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Banded ingredient content is an Annex V Part A LABEL obligation. There is no concentration or percentage anywhere in Annex VI Part A, so a total-surfactant figure discharges the labelling duty, not the passport one."
       },
       "aiHints": {
         "alternateNames": [
@@ -8731,7 +8744,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
       },
       "aiHints": {
         "alternateNames": [
@@ -8834,7 +8848,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
       },
       "aiHints": {
         "alternateNames": [
@@ -8936,7 +8951,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
       },
       "aiHints": {
         "alternateNames": [
@@ -9039,7 +9055,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
       },
       "aiHints": {
         "alternateNames": [
@@ -9145,7 +9162,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Optical brightener disclosure is an Annex V Part A labelling item under Reg (EU) 2026/405, applying from 23 Sep 2029. It is not among the nine Annex VI Part A passport points."
       },
       "aiHints": {
         "alternateNames": [
@@ -9249,7 +9267,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Enzymes appear as an Annex V Part A labelling category. The passport's own duty is the Annex VI Part A point (h) list of intentionally added substances; a separate enzyme field is label-shaped, not passport-shaped."
       },
       "aiHints": {
         "alternateNames": [
@@ -9352,7 +9371,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex VI Part A point (i) requires all intentionally added micro-organisms with their taxonomic classification — genus, species, and strain name or code. Genuine passport content under Reg (EU) 2026/405, applying from 23 Sep 2029."
       },
       "aiHints": {
         "alternateNames": [
@@ -9456,7 +9476,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Surfactant biodegradability is a market-placement CONDITION — a surfactant must meet the ultimate-biodegradation criterion to be placed on the market, with the test evidence held in the technical documentation. Passing is the duty; publishing the result is not among the Annex VI Part A passport points."
       },
       "aiHints": {
         "alternateNames": [
@@ -9560,7 +9581,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405, OECD Guidelines",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The test method underpins the biodegradability evidence held in the technical documentation. It is not an Annex VI Part A passport point and not label content."
       },
       "aiHints": {
         "alternateNames": [
@@ -9664,7 +9686,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The measured degradation figure is evidence supporting the biodegradability condition, held in the technical documentation rather than published. Annex VI Part A carries no percentages."
       },
       "aiHints": {
         "alternateNames": [
@@ -9767,7 +9790,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The pass threshold is a property of the test criterion, not of the product. It is neither Annex V Part A label content nor an Annex VI Part A passport point."
       },
       "aiHints": {
         "alternateNames": [
@@ -9871,7 +9895,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Dosage instructions are Annex V Part A LABEL content for consumer laundry detergents, expressed for the reference conditions the annex sets. The passport dataset in Annex VI Part A does not include dosage."
       },
       "aiHints": {
         "alternateNames": [
@@ -10092,7 +10117,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Water hardness is a reference condition for the Annex V Part A dosage statement on the LABEL, not an Annex VI Part A passport point."
       },
       "aiHints": {
         "alternateNames": [
@@ -10195,7 +10221,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405",
         "instrument": "32026R0405",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The number of standard machine loads per package is an Annex V Part A LABEL statement for consumer laundry detergents. It is not passport content under Annex VI Part A."
       },
       "aiHints": {
         "alternateNames": [
@@ -10518,7 +10545,8 @@
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (e)",
         "annex": "Annex VI",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex VI Part A point (e) requires the passport to state that it is issued under the sole responsibility of the manufacturer. Genuine passport content, applying from 23 Sep 2029."
       },
       "aiHints": {
         "alternateNames": [],
@@ -10625,7 +10653,8 @@
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (g)",
         "annex": "Annex VI",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex VI Part A point (g) requires a statement that compliance has been demonstrated, with references to the other Union law complied with. Genuine passport content, applying from 23 Sep 2029."
       },
       "aiHints": {
         "alternateNames": [],

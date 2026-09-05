@@ -2750,7 +2750,8 @@
       "regulationRef": {
         "article": "CLP 1272/2008",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP governs how a substance is IDENTIFIED on the label and in classification, through the Art. 18(3) product identifier rules — a name, not an amount. It creates no duty to publish an IUPAC name as product data; the label and the safety data sheet are the channels through which composition information reaches users."
       },
       "aiHints": {
         "alternateNames": [
@@ -3063,7 +3064,8 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A REACH registration number is assigned to the registrant and appears in section 1 of the safety data sheet supplied down the chain under Art. 31. REACH creates no duty to publish it as product data, and for a mixture it is the constituent substances that carry registrations, not the product."
       },
       "aiHints": {
         "alternateNames": [
@@ -3166,7 +3168,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405, CLP",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Preservatives reach consumers through the CLP label and, where applicable, sector labelling rules; CLP itself creates no separate duty to publish a preservative list as product data. Its labelling duty is discharged by what is affixed to the package."
       },
       "aiHints": {
         "alternateNames": [
@@ -3269,7 +3272,8 @@
       "regulationRef": {
         "article": "Detergents Reg 2026/405, CLP 2024/2865",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Fragrance allergen disclosure is a LABELLING duty in the sector instruments that impose it, not a CLP one — CLP's own obligation is the hazard label. Publishing the list here is useful to allergic users but is not how the duty is discharged."
       },
       "aiHints": {
         "alternateNames": [
@@ -4012,7 +4016,8 @@
         "article": "CLP 1272/2008 Annex II",
         "instrument": "32008R1272",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Annex II covers supplemental label information — EUH statements and similar. The obligation is to place that text ON THE LABEL; a passport copy repeats it rather than discharging it."
       },
       "aiHints": {
         "alternateNames": [
@@ -4222,7 +4227,8 @@
         "article": "CLP Annex VIII",
         "instrument": "32008R1272",
         "provision": "Annex VIII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Annex VIII governs notification of hazardous mixtures to the bodies appointed under Art. 45 for emergency health response. The duty is discharged by NOTIFYING those bodies — a database entry — and the resulting UFI belongs on the label. Publishing the notification reference in a passport neither creates nor satisfies the obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -4848,7 +4854,8 @@
       "regulationRef": {
         "article": "REACH",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 33 is the SVHC communication duty and it is narrower than it looks: to business recipients, and to consumers ON REQUEST within 45 days, for articles containing an SVHC above 0.1% w/w, with a minimum content of the substance NAME. Publishing an EC number proactively exceeds what any in-force provision requires."
       },
       "aiHints": {
         "alternateNames": [
@@ -5412,7 +5419,8 @@
         "article": "REACH Article 59",
         "instrument": "32006R1907",
         "provision": "Article 59",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 59 governs how a substance is added to the candidate list. The date of inclusion determines when the Art. 33 communication and SCIP notification duties bite for that substance; it is a fact about the list rather than a datum the manufacturer is required to publish."
       },
       "aiHints": {
         "alternateNames": [
@@ -5516,7 +5524,8 @@
         "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Article 9(1)(i)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The SCIP database notification is required by Waste Framework Directive Art. 9(1)(i), in force since 5 January 2021, for articles containing candidate-list substances above 0.1% w/w. The duty is discharged by notifying ECHA — a database entry — not by publishing the resulting identifier."
       },
       "aiHints": {
         "alternateNames": [
@@ -7593,7 +7602,8 @@
       "regulationRef": {
         "article": "Decopaint Directive 2004/42/EC",
         "instrument": "32004L0042",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Directive 2004/42/EC Art. 4 requires the LABEL to indicate the maximum VOC content in g/l in a ready-to-use condition. The duty is discharged by that label; the Directive creates no passport and no separate publication duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -7698,7 +7708,8 @@
         "article": "Decopaint Directive 2004/42/EC Annex II",
         "instrument": "32004L0042",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 4(a) requires the LABEL to indicate the relevant VOC limit values from Annex II alongside the subcategory. The limit itself is set by Annex II; Art. 3 makes staying under it a condition of placing the product on the market."
       },
       "aiHints": {
         "alternateNames": [
@@ -7802,7 +7813,8 @@
         "article": "Decopaint Directive 2004/42/EC Annex I",
         "instrument": "32004L0042",
         "provision": "Annex I",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex I defines the product categories and subcategories in scope, and Art. 4(a) requires the subcategory to appear on the LABEL. It is a scoping and labelling construct rather than passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -8225,7 +8237,8 @@
       "regulationRef": {
         "article": "Decopaint Directive 2004/42/EC",
         "instrument": "32004L0042",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The Directive's operative distinction is the Annex I subcategory, which Art. 4(a) puts on the label. A free product-type description is not a mandated datum."
       },
       "aiHints": {
         "alternateNames": [
@@ -8330,7 +8343,8 @@
         "article": "Decopaint Directive 2004/42/EC Article 3",
         "instrument": "32004L0042",
         "provision": "Article 3",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "This is the exact datum Art. 4(b) requires on the LABEL — the maximum VOC content in g/l of the product in a ready-to-use condition. Real mandated data, discharged by affixing the label rather than by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -8434,7 +8448,8 @@
         "article": "Decopaint Directive 2004/42/EC Annex II",
         "instrument": "32004L0042",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The Annex II limit value for the product's subcategory, which Art. 4(a) requires on the LABEL. Art. 3 permits placing on the market only where the VOC content does not exceed it — a market-placement condition backed by a labelling duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -8596,7 +8611,8 @@
       "regulationRef": {
         "article": "Decopaint Directive 2004/42/EC",
         "instrument": "32004L0042",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex I distinguishes water-borne from solvent-borne products because they carry different Annex II limit values, so the distinction has legal effect — but what Art. 4 requires on the label is the subcategory and the VOC figures, not the solvent type itself."
       },
       "aiHints": {
         "alternateNames": [
@@ -9052,7 +9068,8 @@
       "regulationRef": {
         "article": "CLP 2024/2865 (TiO2 reclassification)",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Titanium dioxide carries CLP classification and labelling consequences in certain forms, and any applicable hazard statement belongs on the LABEL. CLP creates no duty to publish a content figure as product data."
       },
       "aiHints": {
         "alternateNames": [
