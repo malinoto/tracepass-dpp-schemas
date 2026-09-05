@@ -1636,7 +1636,8 @@
         "article": "(EC) 1223/2009 Annex III; (EU) 2023/1545",
         "instrument": "32009R1223",
         "provision": "Annex III",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex III lists substances restricted in cosmetics subject to conditions, and where a listed fragrance allergen is present above the annex threshold its name must appear in the Art. 19(1)(g) ingredient list ON THE PACKAGING. The duty is discharged by that pack labelling, not by publishing an allergen list here."
       },
       "aiHints": {
         "alternateNames": [
@@ -1742,7 +1743,8 @@
         "article": "(EC) 1223/2009 Art. 19(1)(g); (EC) 648/2004 Art. 11(6)",
         "instrument": "32009R1223",
         "provision": "Art. 19(1)(g)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 19(1)(g) requires the ingredient list on the container or packaging, and allows perfume and aromatic compositions to be given as 'parfum' or 'aroma' rather than itemised. So the Regulation deliberately does NOT require a full fragrance breakdown; publishing one exceeds the duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1849,7 +1851,8 @@
         "article": "(EC) 1223/2009 Annex V; (EC) 648/2004",
         "instrument": "32009R1223",
         "provision": "Annex V",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex V is the positive list of preservatives permitted in cosmetics, with their conditions and maximum concentrations. It is a composition restriction — use only what is listed, within its limits — and the disclosure that follows is the Art. 19(1)(g) ingredient list on the pack."
       },
       "aiHints": {
         "alternateNames": [
@@ -2063,7 +2066,8 @@
         "article": "(EC) 1223/2009 Annex IV",
         "instrument": "32009R1223",
         "provision": "Annex IV",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex IV is the positive list of permitted colorants. Like Annex V it restricts what may be used rather than requiring a separate declaration; the ingredient list on the packaging is where colorants are disclosed."
       },
       "aiHints": {
         "alternateNames": [
@@ -2170,7 +2174,8 @@
         "article": "(EC) 1223/2009 Art. 16",
         "instrument": "32009R1223",
         "provision": "Art. 16",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Two duties apply and neither is a passport. Nanomaterials must be notified electronically to the Commission before placing on the market, and in the Art. 19(1)(g) ingredient list a nanomaterial's name is followed by '(nano)' ON THE PACK."
       },
       "aiHints": {
         "alternateNames": [
@@ -2275,7 +2280,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008; (EU) 2024/2865",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP's operative duty is to classify the substance or mixture and to communicate the resulting classification through the LABEL and the safety data sheet. Publishing the classification as product data neither creates nor discharges that obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -2643,7 +2649,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Hazard pictograms are label elements: CLP requires them to be affixed on the package. A passport copy repeats the information without discharging the labelling duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -2749,7 +2756,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Hazard statements (H-phrases) are CLP label elements, required on the package alongside the pictogram, signal word and precautionary statements. The label is the vehicle."
       },
       "aiHints": {
         "alternateNames": [
@@ -2854,7 +2862,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Precautionary statements (P-phrases) are CLP label elements required on the package. Reproducing them here is useful to a reader but is not how the duty is met."
       },
       "aiHints": {
         "alternateNames": [
@@ -2959,7 +2968,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008; (EU) 2023/988",
         "instrument": "32023R0988",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR Art. 9 requires safety information and instructions to ACCOMPANY the product where needed for safe use. The duty is discharged by supplying them with the product; a passport copy is a convenience."
       },
       "aiHints": {
         "alternateNames": [
@@ -3066,7 +3076,8 @@
         "article": "CLP (EC) 1272/2008 Art. 45; (EU) 2017/542",
         "instrument": "32008R1272",
         "provision": "Art. 45",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The unique formula identifier exists to link a product to the mixture information notified to the bodies appointed under CLP Art. 45 for emergency health response. The duties are to NOTIFY those bodies and to place the UFI on the label; publishing it in a passport does neither."
       },
       "aiHints": {
         "alternateNames": [
@@ -3387,7 +3398,8 @@
         "article": "(EC) 648/2004 Art. 4; OECD 301B",
         "instrument": "32004R0648",
         "provision": "Art. 4",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EC) 648/2004 is the PREVIOUS Detergents Regulation, superseded by Reg (EU) 2026/405 which applies from 23 Sep 2029. Its surfactant biodegradability rule is a market-placement condition — the surfactant must pass, with the evidence held in the technical documentation — not a duty to publish the result."
       },
       "aiHints": {
         "alternateNames": [
@@ -3667,7 +3679,8 @@
       "regulationRef": {
         "article": "CLP (EC) 1272/2008; EU Ecolabel",
         "instrument": "32008R1272",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Aquatic hazard is a CLP classification, communicated through the hazard statement and pictogram on the LABEL and through the safety data sheet. CLP requires no separate publication of toxicity data as product information."
       },
       "aiHints": {
         "alternateNames": [
@@ -3772,7 +3785,8 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2017/1218",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The EU Ecolabel is a VOLUNTARY scheme. Reg (EC) 66/2010 has a real CELEX, so citing it looks legislative while imposing no obligation on a product that does not seek the label. Critical dilution volume is a criterion for award, not a legal requirement."
       },
       "aiHints": {
         "alternateNames": [
@@ -4221,7 +4235,8 @@
         "article": "PPWR (EU) 2025/40 Art. 7",
         "instrument": "32025R0040",
         "provision": "Art. 7",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 7 sets minimum recycled content for plastic packaging from 1 Jan 2030, with the calculation and verification methodology to be set by delegated act under Art. 7(8). The duty binds the packaging, not the packaged product, and is not in force."
       },
       "aiHints": {
         "alternateNames": [
@@ -4477,7 +4492,8 @@
         "article": "PPWR (EU) 2025/40 Art. 6",
         "instrument": "32025R0040",
         "provision": "Art. 6",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 6 recyclability grades A-E depend on design-for-recycling criteria set by delegated acts under Art. 6(4), not adopted, and apply from 2030. Nothing today lets the grade be computed or requires it."
       },
       "aiHints": {
         "alternateNames": [
@@ -4586,7 +4602,8 @@
         "article": "PPWR (EU) 2025/40 Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Packaging weight is an input to the Art. 10 minimisation assessment, which applies from 2030 against the Annex IV criteria under a delegated methodology. No in-force provision requires declaring it, and the duty attaches to the packaging rather than to this product."
       },
       "aiHints": {
         "alternateNames": [
@@ -4692,7 +4709,8 @@
         "article": "PPWR (EU) 2025/40 Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 10 requires packaging to be minimised to the weight and volume necessary for functionality, safety and hygiene, and caps empty space for grouped, transport and e-commerce packaging from 2030. The ratio expresses that future assessment; it is not a mandated declaration."
       },
       "aiHints": {
         "alternateNames": [
@@ -4798,7 +4816,8 @@
         "article": "(EC) 648/2004 Art. 11(4); (EC) 1223/2009",
         "instrument": "32009R1223",
         "provision": "Art. 11(4)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 19 requires particulars concerning precautions for use to appear on the container and packaging. Usage or dosage guidance is delivered through that pack labelling rather than as published product data."
       },
       "aiHints": {
         "alternateNames": [
@@ -4906,7 +4925,8 @@
         "article": "(EC) 1223/2009 Art. 19(1); (EU) 1169/2011",
         "instrument": "32011R1169",
         "provision": "Art. 19(1)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EU) 1169/2011 Art. 19(1) concerns food information; where a date of minimum durability or use-by date is required it must appear ON THE FOOD LABEL. A shelf-life duration in months is a derived figure, and the labelling duty is discharged on pack."
       },
       "aiHints": {
         "alternateNames": [
@@ -5014,7 +5034,8 @@
       "regulationRef": {
         "article": "(EU) 2023/988; (EC) 1223/2009",
         "instrument": "32023R0988",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR requires the instructions and safety information needed for safe use to accompany the product. Storage guidance is part of that accompanying information rather than mandated passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -5714,7 +5735,8 @@
       "regulationRef": {
         "article": "Regulation (EC) 66/2010",
         "instrument": "32010R0066",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A licence number exists only where the manufacturer has voluntarily applied for and been awarded the EU Ecolabel. Nothing requires seeking it, so nothing requires publishing it."
       },
       "aiHints": {
         "alternateNames": [
@@ -5819,7 +5841,8 @@
       "regulationRef": {
         "article": "(EU) 2018/848; COSMOS Standard",
         "instrument": "32018R0848",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Organic certification under Reg (EU) 2018/848 applies to operators who choose to place products on the market as organic; the control body's code then appears in the labelling that regime prescribes. It is conditional on a voluntary claim, not a general duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -6032,7 +6055,8 @@
         "article": "PPWR (EU) 2025/40 Art. 28",
         "instrument": "32025R0040",
         "provision": "Art. 28",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Art. 28 concerns refill systems and the requirements that apply where an operator offers one. Offering refill is a business choice, not an obligation, so declaring its availability is voluntary information rather than compliance data."
       },
       "aiHints": {
         "alternateNames": [
@@ -6139,7 +6163,8 @@
         "article": "PPWR (EU) 2025/40 Art. 44-48",
         "instrument": "32025R0040",
         "provision": "Art. 44-48",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "PPWR Arts. 44-48 place extended-producer-responsibility and take-back duties on producers and Member States, and Art. 50 requires deposit-and-return systems by 1 Jan 2029. These bind the producer's registration and the national scheme; a participation flag on a product passport neither creates nor discharges them."
       },
       "aiHints": {
         "alternateNames": [

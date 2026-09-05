@@ -455,7 +455,8 @@
         "article": "CPR 2024/3110 delegated act",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR Art. 9(5) is satisfied by ANY ONE identifying element — type, batch, serial number or other — marked on the product. Where a unique product identifier is already present, a serial number is not separately mandated."
       },
       "aiHints": {
         "alternateNames": [
@@ -669,7 +670,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "An authorised representative acts under a written mandate where the manufacturer appoints one; there is no duty to appoint. Where a representative or importer exists, the identification duty is discharged by marking the product, its packaging or an accompanying document."
       },
       "aiHints": {
         "alternateNames": [
@@ -4571,7 +4573,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The CPR's environmental duties run through the Declaration of Performance for characteristics covered by a harmonised technical specification, and the packaging of a construction product is governed by PPWR rather than the CPR. No in-force provision requires a packaging environmental analysis as passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -4766,7 +4769,8 @@
         "annex": null,
         "instrument": "32024R3110",
         "provision": "CPR (EU) 2024/3110 Arts. 13-17 — CE marking, only where a harmonised technical specification or a European Technical Assessment covers the product",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. The duty is to affix the mark and draw up the Declaration of Performance behind it, not to publish a status flag."
       },
       "aiHints": {
         "alternateNames": [
@@ -5592,7 +5596,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A European Assessment Document underpins a European Technical Assessment, which a manufacturer requests voluntarily where no harmonised standard covers the product. Obtaining an ETA is a choice; referencing the EAD is not a mandated disclosure."
       },
       "aiHints": {
         "alternateNames": [
@@ -6023,7 +6028,8 @@
         "article": "CPR 2024/3110",
         "annex": "",
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A commercial warranty is a contractual matter. The CPR requires the Declaration of Performance, not warranty terms, and no in-force construction provision makes warranty information passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -6244,7 +6250,8 @@
         "annex": null,
         "instrument": "32024R3110",
         "provision": "Art. 13-15",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The CE mark is affixed to the product; the obligation is discharged by that mark and by the Declaration of Performance supporting it, and only where a harmonised technical specification or an ETA covers the product."
       },
       "aiHints": {
         "alternateNames": [

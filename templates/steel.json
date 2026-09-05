@@ -2518,7 +2518,8 @@
         "article": "ESPR, CBAM",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CBAM identifies goods by CN code, which already carries the steel-type distinction. A separate material-type field is not a CBAM data element, and CBAM in any case binds the importer's declaration rather than the producer's passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -4886,7 +4887,8 @@
         "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A grid emission factor is an input to INDIRECT (Scope 2) emissions. Indirect emissions are not counted for iron and steel in the definitive CBAM regime — they matter chiefly for aluminium — and the reporting duty falls on the importing declarant in any case."
       },
       "aiHints": {
         "alternateNames": [
@@ -5104,7 +5106,8 @@
         "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Electricity consumption feeds the indirect-emissions calculation, which the definitive CBAM excludes for iron and steel. Material for aluminium; not a mandated steel datum, and the duty holder is the importer."
       },
       "aiHints": {
         "alternateNames": [
@@ -5941,7 +5944,8 @@
         "article": "CBAM (aluminium only for CBAM; both for DPP)",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Indirect (Scope 2) emissions are NOT required for iron and steel under the definitive CBAM — only for aluminium and certain other goods. Where they are required, the duty is the importer's CBAM declaration, not a manufacturer's passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -6963,7 +6967,8 @@
         "article": "EU ETS",
         "annex": null,
         "instrument": "32003L0087",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Product benchmarks under the EU ETS govern free allocation to installation operators. They are an allocation instrument addressed to the operator and the competent authority, not product information a manufacturer must publish."
       },
       "aiHints": {
         "alternateNames": [
@@ -7568,7 +7573,8 @@
         "annex": null,
         "instrument": "32023R0956",
         "provision": "Article 9",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CBAM Art. 9 lets an authorised declarant claim a REDUCTION for a carbon price already paid in the country of origin. Supplying the figure serves the importer's interest in surrendering fewer certificates; it is an optional claim, not a mandated disclosure."
       },
       "aiHints": {
         "alternateNames": [
@@ -7674,7 +7680,8 @@
         "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "An EORI number identifies the IMPORTER, who is the CBAM duty holder. It is a property of the declarant rather than of the steel, and it belongs in the CBAM declaration."
       },
       "aiHints": {
         "alternateNames": [
@@ -7780,7 +7787,8 @@
         "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The CBAM registry account belongs to the authorised declarant — the importer. Nothing requires a producer to publish it, and it identifies a party rather than a product."
       },
       "aiHints": {
         "alternateNames": [
@@ -7993,7 +8001,8 @@
         "annex": null,
         "instrument": "32006R1907",
         "provision": "Art. 33, SCIP",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 33 requires communication to business recipients, and to consumers ON REQUEST within 45 days, for candidate-list substances above 0.1% w/w, with a minimum content of the substance NAME. SCIP notification to ECHA is the database side. Publishing a full substance list proactively exceeds both."
       },
       "aiHints": {
         "alternateNames": [
@@ -8099,7 +8108,8 @@
         "article": "REACH",
         "annex": null,
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A REACH registration number is assigned to the registrant and travels in section 1 of the safety data sheet. REACH requires no publication of it as product data."
       },
       "aiHints": {
         "alternateNames": [
@@ -9788,7 +9798,8 @@
         "article": "CPR",
         "annex": null,
         "instrument": "32024R3110",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Under the CPR a Declaration of Performance is required where a harmonised technical specification or a European Technical Assessment covers the product, and the duty is to DRAW IT UP and supply it. Steel structural products can fall in scope; publishing a link supports that duty without replacing it, and the CPR passport itself is deferred pending the Art. 75(1) delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -10434,7 +10445,8 @@
         "article": "EU ETS Directive 2003/87/EC",
         "annex": null,
         "instrument": "32003L0087",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "EU ETS binds the OPERATOR of an installation through a greenhouse gas emissions permit and an annual verified emissions report to the competent authority. The installation identifier belongs to that regime; publishing it in a product passport neither creates nor discharges the duty, and steel covered by the ETS is treated accordingly under CBAM."
       },
       "aiHints": {
         "alternateNames": [

@@ -4452,7 +4452,8 @@
       "regulationRef": {
         "article": "EU Conflict Minerals (EU) 2017/821",
         "instrument": "32017R0821",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EU) 2017/821 binds UNION IMPORTERS of tin, tantalum, tungsten and gold above the Annex I volume thresholds, requiring supply-chain due diligence. It is not a per-product origin attestation on finished jewellery, and the duty holder is the importer of the mineral rather than the jeweller."
       },
       "aiHints": {
         "alternateNames": [
@@ -5617,7 +5618,8 @@
       "regulationRef": {
         "article": "REACH (EC) 1907/2006",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH restrictions relevant to jewellery — lead, cadmium and nickel release under Annex XVII — are market-placement limits. Compliance is demonstrated by staying within them and holding the test evidence for authorities; REACH requires no publication of test reports."
       },
       "aiHints": {
         "alternateNames": [
@@ -6797,7 +6799,8 @@
       "regulationRef": {
         "article": "EU Conflict Minerals (EU) 2017/821",
         "instrument": "32017R0821",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EU) 2017/821 requires Union importers of 3TG minerals above the Annex I thresholds to operate and report on a due diligence system. It creates no 'conflict-free' certificate for a finished product, and no in-force provision requires publishing one — though buyers increasingly ask, which is a commercial reason to hold it rather than a legal one."
       },
       "aiHints": {
         "alternateNames": [

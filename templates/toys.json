@@ -1875,7 +1875,8 @@
         "article": "TSD Art. 20",
         "instrument": "32009L0048",
         "provision": "Art. 20",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Toy Safety Directive 2009/48/EC Art. 20 concerns EC type-examination, which is required only where no harmonised standard covers the toy or the manufacturer has not applied it. Where a notified body IS involved, its number accompanies the CE marking; there is no general duty to publish its identity."
       },
       "aiHints": {
         "alternateNames": [
@@ -2200,7 +2201,8 @@
         "article": "REACH Art. 33; SCIP Database",
         "instrument": "32006R1907",
         "provision": "Art. 33",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 33 requires communication to business recipients, and to consumers ON REQUEST within 45 days, for candidate-list substances above 0.1% w/w, with the substance NAME as the minimum content. Toy-specific chemical limits are separately enforced as composition restrictions rather than disclosure duties."
       },
       "aiHints": {
         "alternateNames": [
@@ -2826,7 +2828,8 @@
       "regulationRef": {
         "article": "PPWR (EU) 2025/40",
         "instrument": "32025R0040",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The packaging of a toy is governed by PPWR, which creates no packaging passport: its Art. 12 material-composition duty is a harmonised PICTOGRAM label whose format awaits an implementing act. Nothing requires declaring the packaging material as toy product data."
       },
       "aiHints": {
         "alternateNames": [
@@ -3258,7 +3261,8 @@
       "regulationRef": {
         "article": "GPSR",
         "instrument": "32023R0988",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR requires the information needed for safe use to accompany the product. Disposal guidance for a toy is not separately mandated; where the toy contains batteries or electronics, the separate-collection marking duties of those regimes apply instead."
       },
       "aiHints": {
         "alternateNames": [
@@ -3477,7 +3481,8 @@
         "article": "TSD Art. 6; GPSR Art. 11",
         "instrument": "32023R0988",
         "provision": "Art. 6",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR Art. 6 places duties on the importer, and identification is CONDITIONAL — where there is no EU importer there is no duty. Where one exists, the name and address are marked on the product, its packaging or an accompanying document rather than published as passport data."
       },
       "aiHints": {
         "alternateNames": [

@@ -1609,7 +1609,8 @@
         "article": "Regulation (EU) 2020/740 Annex II",
         "instrument": "32020R0740",
         "provision": "Annex II",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex II governs the tyre label's format and content. The production period is part of how a tyre type is identified for labelling and for the EPREL entry, not a datum the Regulation requires to be published as product data."
       },
       "aiHints": {
         "alternateNames": [
@@ -4634,7 +4635,8 @@
         "article": "Regulation (EU) 2020/740 Annex I Part B",
         "instrument": "32020R0740",
         "provision": "Annex I",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex I Part B defines the wet grip CLASSES, and what the Regulation requires is that the class appear on the tyre label and in the product information sheet, with the supporting data in the EPREL product database. The underlying index is the measured input to that class rather than the declared value."
       },
       "aiHints": {
         "alternateNames": [
@@ -5042,7 +5044,8 @@
         "article": "Regulation (EU) 2020/740 Annex I Part D; UNECE Reg. 117",
         "instrument": "32020R0740",
         "provision": "Art. 4 + Annex I (3PMSF snow-grip pictogram where applicable)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex I Part D requires snow grip to be tested per Annex 7 to UNECE Regulation No 117, and a tyre meeting the minimum index is classified for severe snow use and carries the 3PMSF PICTOGRAM on the tyre label. The duty is discharged by that pictogram, not by publishing a value."
       },
       "aiHints": {
         "alternateNames": [
@@ -5149,7 +5152,8 @@
         "article": "Regulation (EU) 2020/740 Annex I Part E; ISO 19447",
         "instrument": "32020R0740",
         "provision": "Art. 4 + Annex I (ice-grip marking, C1 tyres, per ISO 19447)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Annex I Part E requires ice grip to be tested by reliable, accurate and reproducible methods reflecting the state of the art, and a qualifying C1 tyre carries the ice-grip PICTOGRAM on the label. Like snow grip, the obligation is a mark rather than a published figure."
       },
       "aiHints": {
         "alternateNames": [
@@ -5257,7 +5261,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2024/1257 (Euro 7); UNECE TFTA methodology",
         "instrument": "32024R1257",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Euro 7 (Reg (EU) 2024/1257) defines tyre abrasion as the mass of material lost and emitted into the environment, and provides for abrasion LIMITS per tyre class — but those limits and their measurement method come from UN WP.29, due 1 July 2026 for C1, 1 April 2028 for C2 and 1 April 2030 for C3, with a Commission delegated act only as a fallback. There is no limit to meet and no prescribed method to report against yet."
       },
       "aiHints": {
         "alternateNames": [
@@ -5365,7 +5370,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2024/1257; UNECE TFTA convoy method",
         "instrument": "32024R1257",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A relative abrasion index depends on the same pending UN WP.29 method as the absolute rate. Until that method exists an index has no defined basis, and Euro 7 is a type-approval regulation that would bind the vehicle or tyre approval rather than a product passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -5531,7 +5537,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2024/1257; UNECE WP.29",
         "instrument": "32024R1257",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The method — convoy-on-road versus laboratory drum — is exactly what the pending UN WP.29 work under Euro 7 must settle. Naming a method today records the basis of a voluntary measurement rather than compliance with a prescribed one."
       },
       "aiHints": {
         "alternateNames": [
@@ -5885,7 +5892,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2024/1257 (Euro 7) - pending delegated act",
         "instrument": "32024R1257",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Euro 7's recital ties tyre abrasion to the Union objective of reducing microplastics released into the environment by 30% by 2030, but the Regulation creates no emission CLASS for tyres. Any grading would follow the pending WP.29 limits."
       },
       "aiHints": {
         "alternateNames": [
@@ -7176,7 +7184,8 @@
       "regulationRef": {
         "article": "REACH evaluation; ECHA substance evaluation",
         "instrument": "32006R1907",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH creates no general duty to publish a substance concentration as product data. Its disclosure duties are Art. 33 communication — to business recipients, and to consumers ON REQUEST within 45 days, for candidate-list substances above 0.1% w/w, with a minimum content of the substance NAME — plus SCIP notification to ECHA. Neither is discharged by publishing a concentration here. Check the current candidate list and Annex XVII entries before treating this field as compliance-bearing."
       },
       "aiHints": {
         "alternateNames": [
@@ -7715,7 +7724,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 informational",
         "instrument": "32020R0740",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EU) 2020/740 requires the fuel efficiency CLASS (Annex I Part A) on the label, in the product information sheet and in EPREL. A lifetime fuel-saving estimate is a derived marketing figure that the Regulation neither defines nor requires, and technical promotional material must show the label rather than substitute for it."
       },
       "aiHints": {
         "alternateNames": [
@@ -7819,7 +7829,8 @@
       "regulationRef": {
         "article": "Regulation (EU) 2020/740 informational",
         "instrument": "32020R0740",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "A derived estimate, not a regulated parameter. What Reg (EU) 2020/740 mandates is the fuel efficiency class on the label, the product information sheet and the EPREL entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -10567,7 +10578,8 @@
       "regulationRef": {
         "article": "Regulation (EC) No 661/2009",
         "instrument": "32009R0661",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Reg (EC) 661/2009 required tyre pressure monitoring systems on vehicles and has been replaced by Reg (EU) 2019/2144 for general vehicle safety. Either way the duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data."
       },
       "aiHints": {
         "alternateNames": [
