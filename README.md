@@ -6,12 +6,12 @@
 
 # EU Digital Product Passport — Field Specifications
 
-**Machine-readable field specs for 12 product categories, with every field traced to the article of EU law that mandates it.**
+**Machine-readable field specs for 13 product categories, with every field traced to the article of EU law that mandates it.**
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-937-informational)](#whats-in-here)
-[![Categories](https://img.shields.io/badge/categories-12-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-1004-informational)](#whats-in-here)
+[![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
 
@@ -39,28 +39,31 @@ this repository contains.
 
 ## What's in here
 
-Twelve JSON files, one per product category. **937 fields in total. 302 are required by an instrument in force;
-198 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **1,004 fields in total. 190 are required by
+an instrument in force; 214 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 119 | 54 | Regulation (EU) 2023/1542 |
-| `chemicals` | 96 | 28 | ESPR (EU) 2024/1781 |
-| `construction` | 49 | 43 | CPR (EU) 2024/3110 |
-| `electronics` | 167 | 20 | ESPR (EU) 2024/1781 |
-| `fmcg` | 42 | 11 | ESPR (EU) 2024/1781 |
-| `furniture` | 79 | 27 | ESPR (EU) 2024/1781 |
-| `jewelry` | 52 | 12 | ESPR (EU) 2024/1781 |
+| `construction` | 49 | 4 | CPR (EU) 2024/3110 |
+| `detergents` | 87 | 28 | Regulation (EU) 2026/405 |
+| `electronics` | 167 | 4 | ESPR (EU) 2024/1781 |
+| `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
+| `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
+| `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
 | `packaging` | 66 | 9 | PPWR (EU) 2025/40 |
+| `paints-coatings` | 75 | 25 | Directive 2004/42/EC |
 | `steel` | 84 | 29 | ESPR (EU) 2024/1781 |
-| `textile` | 60 | 12 | ESPR (EU) 2024/1781 |
-| `toys` | 28 | 14 | ESPR (EU) 2024/1781 |
-| `tyres` | 95 | 43 | ESPR (EU) 2024/1781 |
+| `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
+| `toys` | 28 | 14 | Regulation (EU) 2025/2509 |
+| `tyres` | 95 | 2 | ESPR (EU) 2024/1781 |
 
-Battery is the only category whose obligation is already in force — Regulation (EU)
-2023/1542 Art. 77 applies from 18 February 2027, rather than awaiting a delegated
-act. That is why its `required` count is the highest of the twelve. It is not the
-case that every battery field is required: the template also carries fields that are
+Battery carries the most required fields because Regulation (EU) 2023/1542 Art. 77 sets a
+real statutory date — 18 February 2027 — rather than awaiting a delegated act. The other
+categories with dated obligations are `detergents`, `toys` and `paints-coatings`; the
+remaining nine await an ESPR delegated act and so carry mostly `anticipated` fields.
+
+It is not the case that every battery field is required: the template also carries fields that are
 `anticipated` (pending the carbon-footprint and due-diligence implementing acts) and
 fields that apply only to some battery sub-categories via `validation.requiredBy`.
 
@@ -115,11 +118,13 @@ in from 2027, so `packaging` carries `2027`, not `2026-08-12`.
 Read both dates with their precision marker. `datePrecision` / `mandatoryDatePrecision`
 are `"day"` or `"year"`; absent means `"day"`:
 
-- **`"day"`** — a real statutory date. Battery is `2027-02-18`, set by ESPR Article 77.
+- **`"day"`** — a real statutory date. Battery is `2027-02-18`, set by Regulation (EU)
+  2023/1542 Article 77.
 - **`"year"`** — only the year is known, because the governing delegated or implementing
   act is not yet adopted. The day and month are filler. **Do not render these as a
-  deadline.** Eleven of the twelve categories are currently `"year"`; only battery is
-  `"day"`.
+  deadline.** Nine of the thirteen categories are currently `"year"`. The four with a real
+  statutory date are `battery` (2027-02-18), `detergents` (2029-09-23), `toys`
+  (2030-08-01), and `paints-coatings` (2010-01-01, an instrument long in force).
 
 ```python
 r = template["regulation"]
@@ -186,7 +191,7 @@ npm install @tracepass/dpp-schemas
 ## Validating the specs themselves
 
 [`schema.json`](./schema.json) is a JSON Schema (Draft 2020-12) describing the template
-format. All 12 templates validate against it — which is how the format stays honest.
+format. All 13 templates validate against it — which is how the format stays honest.
 
 ```bash
 pip install jsonschema

@@ -60,12 +60,43 @@ const next = {
 
 const serialised = JSON.stringify(next, null, 2) + '\n'
 
+// The README publishes these counts by hand, so index.json being correct is not
+// enough — the badges and the category table drifted a whole category behind the
+// data while this check stayed green. Gate the prose on the same source.
+const checkReadme = () => {
+  const readmePath = join(root, 'README.md')
+  const readme = readFileSync(readmePath, 'utf8')
+  const { totals } = next
+  const claims = [
+    ['fields badge', `badge/fields-${totals.fields}-`],
+    ['categories badge', `badge/categories-${totals.categories}-`],
+    ['headline', `specs for ${totals.categories} product categories`],
+    [
+      'totals sentence',
+      `**${totals.fields.toLocaleString('en-US')} fields in total. ${totals.requiredFields} are required by`,
+    ],
+    ['anticipated total', `${totals.anticipatedFields} are anticipated`],
+  ]
+  for (const c of categories) {
+    claims.push([
+      `${c.category} row`,
+      `| \`${c.category}\` | ${c.fieldCount} | ${c.requiredFieldCount} |`,
+    ])
+  }
+  const stale = claims.filter(([, needle]) => !readme.includes(needle))
+  for (const [label, needle] of stale) {
+    console.error(`README ${label} is stale — expected to find: ${needle}`)
+  }
+  return stale.length
+}
+
 if (process.argv.includes('--check')) {
   if (readFileSync(indexPath, 'utf8') !== serialised) {
     console.error('index.json is stale — run `npm run build:index`.')
     process.exit(1)
   }
-  console.log('index.json is current.')
+  if (checkReadme() > 0) process.exit(1)
+  console.log('index.json is current, and the README agrees with it.')
 } else {
   writeFileSync(indexPath, serialised)
   const { totals } = next
