@@ -10576,10 +10576,10 @@
       "sortOrder": 88,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) No 661/2009",
-        "instrument": "32009R0661",
+        "article": "Regulation (EU) 2019/2144 Art. 6",
+        "instrument": "32019R2144",
         "kind": "legislation",
-        "description": "Reg (EC) 661/2009 required tyre pressure monitoring systems on vehicles and has been replaced by Reg (EU) 2019/2144 for general vehicle safety. Either way the duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data."
+        "description": "TPMS is required by Reg (EU) 2019/2144 (General Safety Regulation), which repealed Reg (EC) 661/2009 with effect from 6 July 2022; references to the old regulation are construed as references to this one. The duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data."
       },
       "aiHints": {
         "alternateNames": [
