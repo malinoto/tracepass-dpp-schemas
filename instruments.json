@@ -225,13 +225,6 @@
       "eli": "http://data.europa.eu/eli/reg/2018/848/oj",
       "createsDpp": false
     },
-    "32009R0661": {
-      "kind": "legislation",
-      "shortName": "General Safety Regulation (vehicles)",
-      "title": "Regulation (EC) 661/2009 concerning type-approval requirements for the general safety of motor vehicles",
-      "eli": "http://data.europa.eu/eli/reg/2009/661/oj",
-      "createsDpp": false
-    },
     "32004R0648": {
       "kind": "legislation",
       "shortName": "Detergents Regulation (2004)",
@@ -285,6 +278,34 @@
       "eli": "http://data.europa.eu/eli/reg/1987/2658/oj",
       "createsDpp": false,
       "note": "Annex I is the CN/TARIC commodity-code list. Both ESPR Art. 8(a) and Detergents Annex VI Part A(f) require the commodity code by reference to it. Not a passport instrument."
+    },
+    "32019R2144": {
+      "kind": "legislation",
+      "shortName": "General Safety Regulation (vehicles)",
+      "title": "Regulation (EU) 2019/2144 on type-approval requirements for the general safety of motor vehicles",
+      "eli": "http://data.europa.eu/eli/reg/2019/2144/oj",
+      "createsDpp": false
+    },
+    "32017R1369": {
+      "kind": "legislation",
+      "shortName": "Energy Labelling Regulation",
+      "title": "Regulation (EU) 2017/1369 setting a framework for energy labelling",
+      "eli": "http://data.europa.eu/eli/reg/2017/1369/oj",
+      "createsDpp": false
+    },
+    "32024R1252": {
+      "kind": "legislation",
+      "shortName": "Critical Raw Materials Act",
+      "title": "Regulation (EU) 2024/1252 establishing a framework for ensuring a secure and sustainable supply of critical raw materials",
+      "eli": "http://data.europa.eu/eli/reg/2024/1252/oj",
+      "createsDpp": false
+    },
+    "32014L0045": {
+      "kind": "legislation",
+      "shortName": "Roadworthiness Testing Directive",
+      "title": "Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers",
+      "eli": "http://data.europa.eu/eli/dir/2014/45/oj",
+      "createsDpp": false
     }
   },
   "nonLegislative": {
