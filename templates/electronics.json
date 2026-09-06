@@ -676,9 +676,9 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "UCC Art. 57",
         "annex": "Annex III",
-        "instrument": "32024R1781",
+        "instrument": "32013R0952",
         "provision": "Reg. (EU) 952/2013 (UCC) — customs classification declared by the declarant at import",
         "kind": "legislation",
         "description": "The TARIC code is declared to customs by the importer or declarant, not published by the manufacturer."
@@ -2134,9 +2134,9 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "RoHS Art. 13",
         "annex": "Annex III",
-        "instrument": "32024R1781",
+        "instrument": "32011L0065",
         "provision": "RoHS Dir. 2011/65/EU Art. 13 + EMC Dir. 2014/30/EU Art. 15 — DoC drawn up and kept, produced on request",
         "kind": "legislation",
         "description": "The Declaration of Conformity is drawn up and held by the manufacturer and produced to authorities on request, not published."
@@ -2456,9 +2456,9 @@
       "sortOrder": 20,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "RoHS Art. 7(b) + Annex VI",
         "annex": "Annex III",
-        "instrument": "32024R1781",
+        "instrument": "32011L0065",
         "provision": "RoHS Dir. 2011/65/EU Art. 7(b) + Annex VI — technical documentation kept 10 years, produced on request",
         "kind": "legislation",
         "description": "The technical file is held by the manufacturer and produced to authorities on request; it is never published."
@@ -2563,9 +2563,9 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 9(7)",
         "annex": "Annex III",
-        "instrument": "32024R1781",
+        "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(7) — instructions and safety information, where the product's risks require them",
         "kind": "legislation",
         "description": "Instructions must accompany the product where safety requires it, in a language the consumer understands; this is risk-conditional."
@@ -3659,9 +3659,9 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "Energy Labelling Arts. 3(1) and 4",
         "annex": "Annex I",
-        "instrument": "32024R1781",
+        "instrument": "32017R1369",
         "provision": "Reg. (EU) 2017/1369 Arts. 3(1) and 4 — physical energy label supplied with the product and EPREL registration",
         "kind": "legislation",
         "description": "The energy class is discharged by the printed label and the EPREL entry, and only for product groups with a delegated act."
@@ -3769,9 +3769,9 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "Energy Labelling Arts. 12 and 4",
         "annex": "Annex I",
-        "instrument": "32024R1781",
+        "instrument": "32017R1369",
         "provision": "Reg. (EU) 2017/1369 Arts. 12 and 4 — product information sheet registered in EPREL",
         "kind": "legislation",
         "description": "Annual consumption goes on the label and in the EPREL product information sheet."
@@ -16205,12 +16205,12 @@
       "sortOrder": 132,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 27",
+        "article": "CRMA Art. 28",
         "annex": "Reg. 2024/1252 CRMA",
-        "instrument": "32024R1781",
+        "instrument": "32024R1252",
         "provision": "Reg. (EU) 2024/1252 (CRMA) Art. 28 — permanent-magnet information, applicable from 24 May 2029 for covered categories",
         "kind": "legislation",
-        "description": "The CRMA magnet-information duty is not yet applicable and attaches to a label and data carrier for specified categories."
+        "description": "CRMA Art. 28 ('Recyclability of permanent magnets') requires labelling (para 1) and a data carrier linked to a unique product identifier (paras 3-4) for listed product categories. Not yet applicable: it starts two years after the entry into force of the implementing act setting the label format, which Art. 28(2) requires the Commission to adopt by 24 November 2026. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [

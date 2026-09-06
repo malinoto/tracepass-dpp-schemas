@@ -343,9 +343,9 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR Art. 9(5)",
         "annex": "GS1 AI 10",
-        "instrument": "32024R3110",
+        "instrument": "32023R0988",
         "kind": "legislation",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "description": "GPSR Art. 9(5) is satisfied by any one identifying element, so a batch number is not separately mandated where a unique product identifier is present."
@@ -5700,9 +5700,9 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "GPSR Art. 9(7)",
         "annex": "",
-        "instrument": "32024R3110",
+        "instrument": "32023R0988",
         "kind": "legislation",
         "provision": "GPSR (EU) 2023/988 Art. 9(7) — instructions and safety information, where the product's risks require them",
         "description": "GPSR requires instructions accompany the product where safety requires it; it is not unconditional for every construction product."
@@ -5915,9 +5915,9 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR 2024/3110",
+        "article": "CLP Arts. 17-19",
         "annex": "",
-        "instrument": "32024R3110",
+        "instrument": "32008R1272",
         "kind": "legislation",
         "provision": "CLP (EC) 1272/2008 Arts. 17-19 — hazard label on the product; REACH Art. 31 — safety data sheet supplied to recipients",
         "description": "Hazard communication is discharged by the physical CLP label and the safety data sheet supplied down the chain."

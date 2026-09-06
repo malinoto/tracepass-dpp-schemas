@@ -8360,11 +8360,11 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Directive 89/459/EEC",
-        "instrument": "31989L0459",
+        "article": "Roadworthiness Dir. Annex I",
+        "instrument": "32014L0045",
         "kind": "legislation",
         "provision": "Dir. 2014/45/EU Annex I — roadworthiness test requirement on the vehicle in use",
-        "description": "Minimum tread depth is checked at periodic vehicle inspection; it is not a manufacturer disclosure. Dir. 89/459/EEC is superseded."
+        "description": "Minimum tread depth is a roadworthiness INSPECTION item — Dir. 2014/45/EU Annex I lists 'tyre tread depth not in accordance with the requirements' as a test defect, checked on the vehicle in use. It is not a tyre-manufacturer disclosure. Verified against the EUR-Lex text. (The previous citation, Dir. 89/459/EEC, is the historic tread-depth instrument and is not the operative one for this duty.)"
       },
       "aiHints": {
         "alternateNames": [
