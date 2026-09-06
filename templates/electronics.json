@@ -16033,12 +16033,11 @@
       "sortOrder": 130,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 9(1)(i)",
-        "annex": "Dir. 2008/98/EC (WFD)",
-        "instrument": "32024R1781",
+        "article": "Waste Framework Directive 2008/98/EC Art. 9(1)(i)",
+        "instrument": "32008L0098",
         "provision": "Art. 9(1)(i)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "The SCIP notification duty is created by WFD Art. 9(1)(i), inserted by Dir. (EU) 2018/851, which requires any supplier of an article within REACH Art. 33(1) to submit the information to ECHA; Art. 9(2) requires ECHA to establish and maintain that database. ESPR does not create this duty — it only contemplates the Commission LINKING the passport to existing systems. The duty is discharged by the ECHA notification, not by the passport. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
