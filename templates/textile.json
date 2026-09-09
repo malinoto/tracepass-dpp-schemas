@@ -1848,12 +1848,11 @@
       "sortOrder": 16,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 7(5)",
-        "annex": "Annex I; REACH Regulation",
+        "article": "REACH (EC) 1907/2006 Art. 33(1); POPs Regulation (EU) 2019/1021 Annex I (PFOS)",
         "instrument": "32006R1907",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
+        "provision": "REACH Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here. POPs Reg. (EU) 2019/1021 Annex I separately restricts PFOS with a limit written for this category — below 1 ug/m2 of coated material for textiles and other coated materials — but that is a market restriction, not a disclosure duty, so it does not make this field required."
       },
       "aiHints": {
         "alternateNames": [
