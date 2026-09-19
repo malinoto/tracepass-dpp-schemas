@@ -8,8 +8,8 @@
   "totals": {
     "categories": 13,
     "fields": 1004,
-    "requiredFields": 190,
-    "anticipatedFields": 214
+    "requiredFields": 188,
+    "anticipatedFields": 216
   },
   "categories": [
     {
@@ -133,8 +133,8 @@
       "file": "templates/packaging.json",
       "version": 2,
       "fieldCount": 66,
-      "requiredFieldCount": 9,
-      "anticipatedFieldCount": 29,
+      "requiredFieldCount": 7,
+      "anticipatedFieldCount": 31,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",

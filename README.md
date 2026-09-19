@@ -39,8 +39,8 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **1,004 fields in total. 190 are required by
-an instrument in force; 214 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **1,004 fields in total. 188 are required by
+an instrument in force; 216 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
@@ -51,7 +51,7 @@ an instrument in force; 214 are anticipated under a rule that has not yet been a
 | `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
 | `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
 | `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
-| `packaging` | 66 | 9 | PPWR (EU) 2025/40 |
+| `packaging` | 66 | 7 | PPWR (EU) 2025/40 |
 | `paints-coatings` | 75 | 25 | Directive 2004/42/EC |
 | `steel` | 84 | 29 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 5 | ESPR (EU) 2024/1781 |

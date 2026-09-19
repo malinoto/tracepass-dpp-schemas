@@ -8180,7 +8180,10 @@
       "defaultValue": 5,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for packaging; none is adopted. ESPR Art. 10 sets essential requirements for a passport, but Art. 9(1) makes the passport duty itself flow from the applicable Art. 4 delegated act — so Art. 10 attaches only where a passport is already mandated. Packaging is governed by PPWR (EU) 2025/40, which creates no passport, so no retention obligation binds today."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -8215,7 +8218,8 @@
         "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Voluntary today. ESPR Art. 10 sets passport retention requirements, but they attach only where Art. 9(1) mandates a passport via an Art. 4 delegated act — and none is adopted for packaging, which PPWR governs without creating a passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -8373,7 +8377,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for packaging; none is adopted. ESPR Art. 10(1)(g) regulates access to passport data, but only for a passport mandated under Art. 9(1) via an Art. 4 delegated act. PPWR (EU) 2025/40 governs packaging and creates no passport, so no access-tier obligation binds today."
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -8408,7 +8415,8 @@
         "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Art. 10",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Voluntary today. ESPR Art. 10(1)(g) governs access to passport data, but only for a passport mandated under Art. 9(1) via an Art. 4 delegated act — none is adopted for packaging, which PPWR governs without creating a passport."
       },
       "aiHints": {
         "alternateNames": [
@@ -8745,7 +8753,7 @@
     }
   ],
   "fieldCount": 66,
-  "requiredFieldCount": 9,
+  "requiredFieldCount": 7,
   "categories": [
     {
       "key": "packaging_identification",
