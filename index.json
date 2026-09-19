@@ -9,7 +9,7 @@
     "categories": 13,
     "fields": 1004,
     "requiredFields": 188,
-    "anticipatedFields": 216
+    "anticipatedFields": 215
   },
   "categories": [
     {
@@ -133,8 +133,8 @@
       "file": "templates/packaging.json",
       "version": 2,
       "fieldCount": 66,
-      "requiredFieldCount": 7,
-      "anticipatedFieldCount": 31,
+      "requiredFieldCount": 8,
+      "anticipatedFieldCount": 30,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",
@@ -165,7 +165,7 @@
       "file": "templates/steel.json",
       "version": 2,
       "fieldCount": 84,
-      "requiredFieldCount": 29,
+      "requiredFieldCount": 28,
       "anticipatedFieldCount": 16,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",

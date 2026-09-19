@@ -11676,7 +11676,7 @@
         }
       ],
       "validation": {
-        "required": true,
+        "required": false,
         "minLength": null,
         "maxLength": null,
         "min": null,
@@ -11716,8 +11716,9 @@
         "article": "Art. 13-15",
         "annex": null,
         "instrument": "32024R3110",
-        "provision": "Arts. 8-9",
-        "kind": "legislation"
+        "provision": "CPR (EU) 2024/3110 Arts. 8-9 — CE marking, only where a harmonised technical specification or a European Technical Assessment covers the product",
+        "kind": "legislation",
+        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. For steel this is the sub-case — structural steelwork under a harmonised standard (paradigm EN 1090-1) is covered; mill products and much rebar are not. Never model steel as always-CE or never-CE, which is why not_applicable is an enum member and why the field cannot be required."
       },
       "aiHints": {
         "alternateNames": [
@@ -11730,7 +11731,7 @@
     }
   ],
   "fieldCount": 84,
-  "requiredFieldCount": 29,
+  "requiredFieldCount": 28,
   "categories": [
     {
       "key": "product_identification",

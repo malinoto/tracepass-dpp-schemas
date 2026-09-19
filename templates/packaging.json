@@ -8180,8 +8180,8 @@
       "defaultValue": 5,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
+        "required": true,
+        "anticipated": false,
         "anticipatedUnder": "32024R1781",
         "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for packaging; none is adopted. ESPR Art. 10 sets essential requirements for a passport, but Art. 9(1) makes the passport duty itself flow from the applicable Art. 4 delegated act — so Art. 10 attaches only where a passport is already mandated. Packaging is governed by PPWR (EU) 2025/40, which creates no passport, so no retention obligation binds today."
       },
@@ -8215,11 +8215,11 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 10",
-        "instrument": "32024R1781",
-        "provision": "Art. 10",
+        "article": "PPWR Art. 15(3)",
+        "instrument": "32025R0040",
+        "provision": "PPWR (EU) 2025/40 Art. 15(3) — manufacturers shall keep the technical documentation and EU declaration of conformity for 5 years (single-use) or 10 years (reusable) from placing on the market",
         "kind": "legislation",
-        "description": "Voluntary today. ESPR Art. 10 sets passport retention requirements, but they attach only where Art. 9(1) mandates a passport via an Art. 4 delegated act — and none is adopted for packaging, which PPWR governs without creating a passport."
+        "description": "In force and unconditional: Art. 15(3) binds every packaging manufacturer today, with no delegated act and no passport precondition, and fixes the 5/10-year split this field records. The duty is to RETAIN the technical documentation and DoC, not to publish a retention figure — but the period is determined by law rather than chosen, so the value is not voluntary. Previously cited to ESPR Art. 10, which cannot bind packaging: ESPR passport-retention attaches only where an Art. 4 delegated act mandates a passport, and none does for packaging."
       },
       "aiHints": {
         "alternateNames": [
@@ -8753,7 +8753,7 @@
     }
   ],
   "fieldCount": 66,
-  "requiredFieldCount": 7,
+  "requiredFieldCount": 8,
   "categories": [
     {
       "key": "packaging_identification",
