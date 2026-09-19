@@ -3785,7 +3785,7 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2017/1218",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "description": "The EU Ecolabel is a VOLUNTARY scheme. Reg (EC) 66/2010 has a real CELEX, so citing it looks legislative while imposing no obligation on a product that does not seek the label. Critical dilution volume is a criterion for award, not a legal requirement."
       },
       "aiHints": {
@@ -5735,7 +5735,7 @@
       "regulationRef": {
         "article": "Regulation (EC) 66/2010",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "description": "A licence number exists only where the manufacturer has voluntarily applied for and been awarded the EU Ecolabel. Nothing requires seeking it, so nothing requires publishing it."
       },
       "aiHints": {

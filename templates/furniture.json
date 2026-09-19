@@ -3965,7 +3965,7 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2016/1332 Criterion 4; EN 16516",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
         "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
@@ -5228,7 +5228,7 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU; delegated act (mattresses)",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
         "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
@@ -5334,7 +5334,7 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
         "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
@@ -5748,7 +5748,7 @@
       "regulationRef": {
         "article": "EU Ecolabel Decision 2014/391/EU Criterion 5",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
         "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
       },
@@ -7563,7 +7563,7 @@
       "regulationRef": {
         "article": "Regulation (EC) No 66/2010; Decision 2016/1332",
         "instrument": "32010R0066",
-        "kind": "legislation",
+        "kind": "scheme",
         "description": "Reg (EC) No 66/2010 is a VOLUNTARY scheme — a licence exists only if the manufacturer applied and was awarded one. Nothing requires holding an Ecolabel, so nothing requires publishing the number. Decision 2016/1332 sets the furniture criteria for those who opt in."
       },
       "aiHints": {
