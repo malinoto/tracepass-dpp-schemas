@@ -34,7 +34,8 @@
     "effectiveDate": "2027-01-01",
     "datePrecision": "year",
     "mandatoryDate": "2030-01-01",
-    "mandatoryDatePrecision": "year"
+    "mandatoryDatePrecision": "year",
+    "dateBasis": "indicative"
   },
   "fields": [
     {

@@ -32,7 +32,8 @@
     "name": "Detergents Regulation",
     "number": "(EU) 2026/405",
     "effectiveDate": "2029-09-23",
-    "mandatoryDate": "2029-09-23"
+    "mandatoryDate": "2029-09-23",
+    "dateBasis": "statutory"
   },
   "fields": [
     {

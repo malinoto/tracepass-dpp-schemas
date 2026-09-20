@@ -32,7 +32,8 @@
     "name": "Decopaint Directive",
     "number": "2004/42/EC",
     "effectiveDate": "2010-01-01",
-    "mandatoryDate": "2010-01-01"
+    "mandatoryDate": "2010-01-01",
+    "dateBasis": "indicative"
   },
   "fields": [
     {

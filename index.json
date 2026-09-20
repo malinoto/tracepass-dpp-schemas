@@ -24,7 +24,8 @@
         "name": "EU Battery Regulation",
         "number": "(EU) 2023/1542",
         "effectiveDate": "2027-02-18",
-        "mandatoryDate": "2027-02-18"
+        "mandatoryDate": "2027-02-18",
+        "dateBasis": "statutory"
       }
     },
     {
@@ -41,7 +42,8 @@
         "effectiveDate": "2029-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2029-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -56,7 +58,8 @@
         "name": "Detergents Regulation",
         "number": "(EU) 2026/405",
         "effectiveDate": "2029-09-23",
-        "mandatoryDate": "2029-09-23"
+        "mandatoryDate": "2029-09-23",
+        "dateBasis": "statutory"
       }
     },
     {
@@ -73,7 +76,8 @@
         "effectiveDate": "2028-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2029-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -90,7 +94,8 @@
         "effectiveDate": "2028-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -107,7 +112,8 @@
         "effectiveDate": "2029-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -124,7 +130,8 @@
         "effectiveDate": "2030-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -141,7 +148,8 @@
         "effectiveDate": "2027-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -156,7 +164,8 @@
         "name": "Decopaint Directive",
         "number": "2004/42/EC",
         "effectiveDate": "2010-01-01",
-        "mandatoryDate": "2010-01-01"
+        "mandatoryDate": "2010-01-01",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -173,7 +182,8 @@
         "effectiveDate": "2027-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2028-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -190,7 +200,8 @@
         "effectiveDate": "2028-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2029-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     },
     {
@@ -205,7 +216,8 @@
         "name": "Toy Safety Regulation",
         "number": "(EU) 2025/2509",
         "effectiveDate": "2030-08-01",
-        "mandatoryDate": "2030-08-01"
+        "mandatoryDate": "2030-08-01",
+        "dateBasis": "statutory"
       }
     },
     {
@@ -222,7 +234,8 @@
         "effectiveDate": "2028-01-01",
         "datePrecision": "year",
         "mandatoryDate": "2029-01-01",
-        "mandatoryDatePrecision": "year"
+        "mandatoryDatePrecision": "year",
+        "dateBasis": "indicative"
       }
     }
   ]

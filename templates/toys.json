@@ -32,7 +32,8 @@
     "name": "Toy Safety Regulation",
     "number": "(EU) 2025/2509",
     "effectiveDate": "2030-08-01",
-    "mandatoryDate": "2030-08-01"
+    "mandatoryDate": "2030-08-01",
+    "dateBasis": "statutory"
   },
   "fields": [
     {
