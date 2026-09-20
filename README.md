@@ -59,9 +59,11 @@ an instrument in force; 215 are anticipated under a rule that has not yet been a
 | `tyres` | 95 | 2 | ESPR (EU) 2024/1781 |
 
 Battery carries the most required fields because Regulation (EU) 2023/1542 Art. 77 sets a
-real statutory date — 18 February 2027 — rather than awaiting a delegated act. The other
-categories with dated obligations are `detergents`, `toys` and `paints-coatings`; the
-remaining nine await an ESPR delegated act and so carry mostly `anticipated` fields.
+real statutory date — 18 February 2027 — rather than awaiting a delegated act. The only
+other categories whose passport duty rests on an adopted instrument are `detergents` and
+`toys` (`dateBasis: "statutory"`); the remaining ten are `"indicative"` — either awaiting
+an ESPR delegated act, or citing an instrument that creates no passport duty at all
+(`paints-coatings`, `packaging`, `construction`).
 
 It is not the case that every battery field is required: the template also carries fields that are
 `anticipated` (pending the carbon-footprint and due-diligence implementing acts) and
@@ -122,9 +124,22 @@ are `"day"` or `"year"`; absent means `"day"`:
   2023/1542 Article 77.
 - **`"year"`** — only the year is known, because the governing delegated or implementing
   act is not yet adopted. The day and month are filler. **Do not render these as a
-  deadline.** Nine of the thirteen categories are currently `"year"`. The four with a real
-  statutory date are `battery` (2027-02-18), `detergents` (2029-09-23), `toys`
-  (2030-08-01), and `paints-coatings` (2010-01-01, an instrument long in force).
+  deadline.** Nine of the thirteen categories are currently `"year"`; the other four
+  carry an exact date.
+
+**`datePrecision` is not the same question as `dateBasis`, and you usually want the
+latter.** Precision asks *how exact is this date*; basis asks *does an adopted
+instrument set it at all*. `dateBasis: "statutory"` means a provision in force fixes
+the date and it can be cited — exactly three categories: `battery` (2027-02-18,
+Reg (EU) 2023/1542 Art. 77(1)), `detergents` (2029-09-23) and `toys` (2030-08-01).
+The other ten are `"indicative"`: no adopted act sets the date, so it is a planning
+target with no legal force.
+
+The two are independent, and `paints-coatings` is why the distinction matters — it has
+`datePrecision: "day"` (2010-01-01 is exact) but `dateBasis: "indicative"`, because the
+Decopaint Directive creates no passport duty at all. An exact date for an obligation
+that does not exist. Filter on `dateBasis`, not on precision, when you need to know
+what is actually mandated.
 
 ```python
 r = template["regulation"]
