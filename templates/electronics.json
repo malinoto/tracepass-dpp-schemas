@@ -1491,10 +1491,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(6)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR (EU) 2023/988 has exactly one annex — unnumbered, a correlation table — so it is never a data source. Every obligation of this kind is article-based; the article is in `provision`."
       },
       "aiHints": {
         "alternateNames": [
@@ -1599,10 +1599,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(6)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR (EU) 2023/988 has exactly one annex — unnumbered, a correlation table — so it is never a data source. Every obligation of this kind is article-based; the article is in `provision`."
       },
       "aiHints": {
         "alternateNames": [
@@ -2565,7 +2565,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(7)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(7) — instructions and safety information, where the product's risks require them",
         "kind": "legislation",

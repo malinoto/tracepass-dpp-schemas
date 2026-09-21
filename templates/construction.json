@@ -129,10 +129,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "annex": "GS1 Digital Link, ISO 15459",
         "instrument": "32023R0988",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element"
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
+        "description": "Carried as a GS1 Digital Link URI / ISO 15459 identifier. Those are the identifier schemes used to express the value; the obligation itself is GPSR Art. 9(5), which names no scheme."
       },
       "aiHints": {
         "alternateNames": [
@@ -237,10 +237,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR (EU) 2023/988 Art. 9(5) — product type identification",
-        "annex": "GTIN",
         "instrument": "32023R0988",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product type identification"
+        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product type identification",
+        "description": "Typically carried as a GTIN. GPSR Art. 9(5) requires a product type identification but prescribes no identifier scheme."
       },
       "aiHints": {
         "alternateNames": [

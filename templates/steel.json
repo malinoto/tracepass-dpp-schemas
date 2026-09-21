@@ -355,10 +355,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "EN 10204",
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Usually the heat/batch number carried on an EN 10204 inspection document. EN 10204 is the document standard, not the source of the obligation, which is GPSR Art. 9(5)."
       },
       "aiHints": {
         "alternateNames": [
@@ -1310,10 +1310,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "CBAM (EU) 2023/956 Annex I",
-        "annex": "Section 2 (iron/steel 7206-7326), Section 3 (aluminium 7601-7616)",
         "instrument": "32023R0956",
         "provision": "Annex I",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CBAM Annex I scopes iron and steel at CN 7206-7326 (Section 2) and aluminium at 7601-7616 (Section 3); the CN code itself is the customs classification."
       },
       "aiHints": {
         "alternateNames": [

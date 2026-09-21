@@ -242,7 +242,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation",
@@ -351,7 +350,6 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
         "kind": "legislation",
@@ -567,7 +565,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation",
@@ -675,7 +672,6 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
         "kind": "legislation",
@@ -782,7 +778,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 11 — importer identity, only where there is an EU importer",
         "kind": "legislation",
@@ -889,7 +884,6 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 11 — importer address, only where there is an EU importer",
         "kind": "legislation",
@@ -995,7 +989,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 9(2)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 16 — an EU-established responsible economic operator must EXIST",
         "kind": "legislation",
@@ -1102,7 +1095,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "Annex III",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — product identification",
         "kind": "legislation",
