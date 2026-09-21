@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-1004-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-1005-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,12 +39,12 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **1,004 fields in total. 188 are required by
+Thirteen JSON files, one per product category. **1,005 fields in total. 189 are required by
 an instrument in force; 215 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 119 | 54 | Regulation (EU) 2023/1542 |
+| `battery` | 120 | 55 | Regulation (EU) 2023/1542 |
 | `construction` | 49 | 4 | CPR (EU) 2024/3110 |
 | `detergents` | 87 | 28 | Regulation (EU) 2026/405 |
 | `electronics` | 167 | 4 | ESPR (EU) 2024/1781 |
