@@ -5405,11 +5405,12 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 74",
-        "annex": "Annex VI",
+        "article": "Art. 74(1)(a)",
+        "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
-        "provision": "Art. 74",
-        "kind": "legislation"
+        "provision": "Annex XIII (1s)",
+        "kind": "legislation",
+        "description": "Annex XIII 1(s) carries the Art. 74(1)(a)-(f) waste-management information into the publicly accessible passport. Point (a) is the end user's role in contributing to waste prevention. The previous citation named Annex VI, which is the Art. 13 labelling annex (Part A general information label, Part B collection symbol, Part C QR code) and carries no Art. 74 content."
       },
       "aiHints": {
         "alternateNames": [
@@ -5516,11 +5517,12 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 74",
-        "annex": "Annex VI",
+        "article": "Art. 74(1)(b)",
+        "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
-        "provision": "Art. 74",
-        "kind": "legislation"
+        "provision": "Annex XIII (1s)",
+        "kind": "legislation",
+        "description": "Annex XIII 1(s) carries the Art. 74(1)(a)-(f) waste-management information into the publicly accessible passport. Point (b) is the end user's role in contributing to the separate collection of waste batteries. The previous citation named Annex VI, which is the Art. 13 labelling annex and carries no Art. 74 content."
       },
       "aiHints": {
         "alternateNames": [
