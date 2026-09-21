@@ -345,11 +345,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "GPSR Art. 9(5)",
-        "annex": "GS1 AI 10",
         "instrument": "32023R0988",
         "kind": "legislation",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "description": "GPSR Art. 9(5) is satisfied by any one identifying element, so a batch number is not separately mandated where a unique product identifier is present."
+        "description": "GPSR Art. 9(5) is satisfied by any one identifying element, so a batch number is not separately mandated where a unique product identifier is present. The batch number is typically carried as GS1 Application Identifier (10); that is the identifier scheme, not the source of the obligation."
       },
       "aiHints": {
         "alternateNames": [
