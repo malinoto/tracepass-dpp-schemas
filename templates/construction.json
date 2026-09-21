@@ -4031,11 +4031,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "REACH, SCIP",
-        "annex": "CPR 2024/3110",
         "instrument": "32006R1907",
         "kind": "legislation",
         "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
-        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here. Operative instrument for this field: CPR 2024/3110."
       },
       "aiHints": {
         "alternateNames": [

@@ -6320,9 +6320,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: Eco-score methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -6571,9 +6571,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: Eco-score methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -6677,9 +6677,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: EU PEF methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -6783,9 +6783,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: EU PEF methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -6888,9 +6888,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: EU PEF methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -6993,9 +6993,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "EU PEF methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: EU PEF methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -7099,9 +7099,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: Eco-score methodology."
       },
       "aiHints": {
         "alternateNames": [
@@ -7204,9 +7204,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "French AGEC",
-        "annex": "Eco-score methodology",
         "kind": "national",
-        "source": "French AGEC"
+        "source": "French AGEC",
+        "description": "Reference: Eco-score methodology."
       },
       "aiHints": {
         "alternateNames": [
