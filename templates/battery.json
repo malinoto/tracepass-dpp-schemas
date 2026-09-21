@@ -245,9 +245,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Art. 77(3)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -358,9 +357,8 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Art. 77(3)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -470,9 +468,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(7)",
+        "provision": "Annex VI Part A (1)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -583,9 +581,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(7)",
+        "provision": "Annex VI Part A (1)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -695,9 +693,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(7)",
+        "provision": "Annex VI Part A (1)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -808,7 +806,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
@@ -921,7 +918,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
@@ -1035,9 +1031,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(6)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(6)",
+        "provision": "Annex VI Part A (4)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1147,9 +1143,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(6)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(6)",
+        "provision": "Annex VI Part A (3)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1435,9 +1431,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 1",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 1",
+        "provision": "Annex VI Part A (2)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -1918,10 +1914,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13(4)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 13(4)",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(q)",
+        "kind": "legislation",
+        "description": "Annex XIII 1(q) carries the Art. 13 marking requirements into the passport; corrigendum 32023R1542R(13) corrected the cross-reference to Art. 13(4) and (5). The symbol itself is discharged by printing it on the battery, not by this field."
       },
       "aiHints": {
         "alternateNames": [
@@ -2030,9 +2027,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13(5)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 13(5)",
+        "provision": "Annex XIII 1(q)",
         "kind": "legislation",
         "description": "It is a duty to PRINT the chemical symbol on the battery — 'Cd' above 0.002% cadmium — beneath the separate-collection symbol and at least a quarter of its size. The obligation is discharged by the mark, not by a passport field; Annex XIII 1(q) cross-references these marking requirements, which the corrigendum of 10 April 2026 corrected to Art. 13(4) and (5)."
       },
@@ -2142,9 +2139,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13(5)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 13(5)",
+        "provision": "Annex XIII 1(q)",
         "kind": "legislation",
         "description": "It requires the 'Pb' symbol to be printed on batteries containing more than 0.004% lead, beneath the separate-collection symbol. A physical marking duty, not passport data; Annex XIII 1(q) merely cross-references it."
       },
@@ -2256,7 +2253,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(3)",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(3)",
         "kind": "legislation",
@@ -2369,10 +2365,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 13",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 13",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(s)",
+        "kind": "legislation",
+        "description": "Art. 74(1)(e) requires the meaning of the labels and symbols to be explained to end users, and Annex XIII 1(s) carries Art. 74(1)(a)-(f) into the publicly accessible passport. It routes through Art. 13 for what the symbols ARE, but reaches the passport via 1(s)."
       },
       "aiHints": {
         "alternateNames": [
@@ -2480,10 +2477,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 18",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 18",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(r)",
+        "kind": "legislation",
+        "description": "Annex XIII 1(r) names 'the EU declaration of conformity referred to in Article 18' as publicly accessible passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -2592,10 +2590,11 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 18",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 18",
-        "kind": "legislation"
+        "provision": "Annex XIII 3",
+        "kind": "legislation",
+        "description": "Annex XIII point 3 is the notified-bodies/market-surveillance/Commission tier, and its single item is the results of test reports proving compliance. Distinct from the 1(r) declaration of conformity, which is public."
       },
       "aiHints": {
         "alternateNames": [
@@ -2818,9 +2817,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "Annex XIII 1(c) makes the Art. 7(1) and (2) carbon footprint information passport content, so this is a genuine future passport field — but the Art. 7(1) declaration depends on a calculation methodology delegated act that has not been adopted, so nothing today fixes how the figure is computed."
       },
@@ -2934,9 +2933,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c). The per-stage breakdown follows the calculation methodology that the unadopted delegated act will set."
       },
@@ -3049,9 +3048,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
@@ -3163,9 +3162,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
@@ -3278,9 +3277,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "A lifecycle stage of the Art. 7(1) declaration, carried into the passport by Annex XIII 1(c), pending the calculation methodology delegated act."
       },
@@ -3597,9 +3596,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(2)",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 7(2)",
+        "provision": "Annex XIII 1(c)",
         "kind": "legislation",
         "description": "Performance classes are carried into the passport by Annex XIII 1(c), but the classes themselves are established by a delegated act that has not been adopted. There is no class to declare until it is."
       },
@@ -3713,7 +3712,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 7(1)",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
         "kind": "legislation",
@@ -3828,9 +3826,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 52",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 52",
+        "provision": "Annex XIII 1(d)",
         "kind": "legislation",
         "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but Art. 52 applies from 18 Aug 2027 and the report is due in the passport from Aug 2028, later than the passport itself."
       },
@@ -3943,9 +3941,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 52",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 52",
+        "provision": "Annex XIII 1(d)",
         "kind": "legislation",
         "description": "It requires the policy to exist and be verified; what Annex XIII 1(d) carries into the passport is the Art. 52(3) REPORT on that policy, not the policy document. Publishing the policy itself is voluntary."
       },
@@ -4057,9 +4055,9 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 52",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 52",
+        "provision": "Annex XIII 1(d)",
         "kind": "legislation",
         "description": "Third-party verification is part of the Art. 52 due diligence regime, and its results support the Art. 52(3) report that Annex XIII 1(d) carries. The audit output itself is not separately enumerated as passport content."
       },
@@ -4850,10 +4848,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 77",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The SCIP notification number is an ECHA database reference under the Waste Framework Directive Art. 9(1)(i), not an enumerated Annex XIII point. It is carried here as supporting substance data rather than as a passport item the Battery Regulation names."
       },
       "aiHints": {
         "alternateNames": [
@@ -4962,9 +4960,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 8",
+        "provision": "Annex XIII 1(e)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -5073,9 +5071,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 8",
+        "provision": "Annex XIII 1(e)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -5184,9 +5182,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 8",
+        "provision": "Annex XIII 1(e)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -5295,9 +5293,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 8",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 8",
+        "provision": "Annex XIII 1(e)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -5858,7 +5856,6 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Art. 11",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 11",
         "kind": "legislation"
@@ -6195,10 +6192,11 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Art. 8",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 8",
-        "kind": "legislation"
+        "provision": "Annex XIII 1(e)",
+        "kind": "legislation",
+        "description": "Annex XIII 1(e) carries the Art. 8(1) recycled-content figures into the passport by reference to the documentation that evidences them, which is what this link points at."
       },
       "aiHints": {
         "alternateNames": [
@@ -6394,7 +6392,6 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 11",
-        "annex": "Annex VI",
         "instrument": "32023R1542",
         "provision": "Art. 11",
         "kind": "legislation"
@@ -7177,9 +7174,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 1(i)",
         "kind": "legislation",
         "description": "Annex XIII point 1 is passport content that must be PUBLICLY accessible, and this is one of its items. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries (Art. 77); the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
@@ -7742,9 +7739,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 77",
-        "annex": "Annex VI",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 77",
+        "provision": "Annex XIII 1(o)",
         "kind": "legislation"
       },
       "aiHints": {
@@ -11652,9 +11649,9 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Art. 38(7)",
-        "annex": "Annex VI",
+        "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Art. 38(7)",
+        "provision": "Annex VI Part A (1)",
         "kind": "legislation"
       },
       "aiHints": {
