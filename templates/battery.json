@@ -11865,7 +11865,30 @@
     {
       "key": "renewableContentShare",
       "label": {
-        "en": "Share of Renewable Content"
+        "en": "Share of Renewable Content",
+        "bg": "Дял на възобновяемо съдържание",
+        "hr": "Udio obnovljivog sadržaja",
+        "cs": "Podíl obnovitelného obsahu",
+        "da": "Andel af vedvarende indhold",
+        "nl": "Aandeel hernieuwbare inhoud",
+        "et": "Taastuva sisu osakaal",
+        "fi": "Uusiutuvan sisällön osuus",
+        "fr": "Part de contenu renouvelable",
+        "de": "Anteil erneuerbarer Inhalte",
+        "el": "Μερίδιο ανανεώσιμου περιεχομένου",
+        "hu": "Megújuló tartalom aránya",
+        "ga": "Sciar den Inneachar In-athnuaite",
+        "it": "Quota di Contenuto Rinnovabile",
+        "lv": "Atjaunojamā satura īpatsvars",
+        "lt": "Atsinaujinančio turinio dalis",
+        "mt": "Sehem tal-Kontenut Rinnovabbli",
+        "pl": "Udział zawartości odnawialnej",
+        "pt": "Quota de Conteúdo Renovável",
+        "ro": "Cotă de Conținut Regenerabil",
+        "sk": "Podiel obnoviteľného obsahu",
+        "sl": "Delež obnovljive vsebine",
+        "es": "Cuota de Contenido Renovable",
+        "sv": "Andel förnybart innehåll"
       },
       "description": {
         "en": "Percentage share of renewable content in the battery (Annex XIII 1(f))"
@@ -11933,7 +11956,30 @@
     {
       "key": "roundTripEfficiencyAtHalfCycleLife",
       "label": {
-        "en": "Round-Trip Energy Efficiency at 50% of Cycle-Life"
+        "en": "Round-Trip Energy Efficiency at 50% of Cycle-Life",
+        "bg": "Енергийна ефективност на пълен цикъл при 50% от жизнения цикъл",
+        "hr": "Efikasnost energije u krugovima pri 50% životnog vijeka ciklusa",
+        "cs": "Účinnost zpáteční energie při 50 % životnosti v cyklech",
+        "da": "Round-trip-energieffektivitet ved 50 % af cykluslevetiden",
+        "nl": "Energieronde-tripefficiëntie bij 50% van de cycluslevensduur",
+        "et": "Energia ringkäigu efektiivsus 50% tsüklielueast",
+        "fi": "Energian kiertokulun hyötysuhde 50 %:ssa syklien eliniästä",
+        "fr": "Rendement énergétique aller-retour à 50 % de la durée de vie en cycles",
+        "de": "Energieumwandlungswirkungsgrad bei 50 % der Zyklenlebensdauer",
+        "el": "Απόδοση πλήρους κύκλου ενέργειας στο 50% της διάρκειας ζωής κύκλων",
+        "hu": "Energia körforgásos hatékonysága a ciklusélettartam 50%-ánál",
+        "ga": "Éifeachtúlacht Fuinnimh Tur-Thuras ag 50% den Saolré Timthriallta",
+        "it": "Efficienza Energetica Round-Trip al 50% della Vita in Cicli",
+        "lv": "Enerģijas aprites efektivitāte pie 50% ciklu darbmūža",
+        "lt": "Energijos grąžinimo efektyvumas ties 50% ciklų gyvavimo laiko",
+        "mt": "Effiċjenza tal-Round-Trip tal-Enerġija f'50% tal-Ħajja taċ-Ċikli",
+        "pl": "Wydajność energii w cyklu przy 50% żywotności cyklicznej",
+        "pt": "Eficiência Energética de Ida e Volta a 50% da Vida em Ciclos",
+        "ro": "Eficiență Rotund-Trip Energie la 50% din Durata de Viață în Cicluri",
+        "sk": "Účinnosť obehu energie pri 50 % životnosti v cykloch",
+        "sl": "Učinkovitost krožne potnje energije pri 50 % življenjske dobe ciklov",
+        "es": "Eficiencia de Viaje Redondo de Energía al 50% de la Vida en Ciclos",
+        "sv": "Energieffektivitet för rundtransport vid 50 % av cykellivslängden"
       },
       "description": {
         "en": "Energy round-trip efficiency measured at 50% of the battery's rated cycle-life (Annex XIII 1(n) DP 37). Distinct from the t=0 measurement in initialEnergyRoundTripEfficiency."
@@ -12007,7 +12053,30 @@
     {
       "key": "componentPartNumbers",
       "label": {
-        "en": "Part Numbers for Components"
+        "en": "Part Numbers for Components",
+        "bg": "Номера на части на компоненти",
+        "hr": "Brojevi dijelova komponenata",
+        "cs": "Čísla dílů komponent",
+        "da": "Komponentdelsnumre",
+        "nl": "Onderdeel-nummers componenten",
+        "et": "Komponentide osanumbrid",
+        "fi": "Komponenttien osanumerot",
+        "fr": "Numéros de pièces des composants",
+        "de": "Bauteil-Teilenummern",
+        "el": "Αριθμοί μερών εξαρτημάτων",
+        "hu": "Alkatrész-komponens számok",
+        "ga": "Uimhreacha Páirteanna Comhpháirteanna",
+        "it": "Numeri di Parte dei Componenti",
+        "lv": "Komponentu detaļu numuri",
+        "lt": "Komponentų dalių numeriai",
+        "mt": "Numri tal-Partijiet tal-Komponenti",
+        "pl": "Numery części komponentów",
+        "pt": "Números de Peça dos Componentes",
+        "ro": "Numerele de Piese ale Componentelor",
+        "sk": "Čísla dielov komponentov",
+        "sl": "Števlke delov komponent",
+        "es": "Números de Pieza de Componentes",
+        "sv": "Komponentdelsnummer"
       },
       "description": {
         "en": "Part numbers for components subject to replacement, per Annex XIII 2(b). Structured list with component name and part number."
@@ -12075,7 +12144,30 @@
     {
       "key": "dynamicPowerCapability",
       "label": {
-        "en": "Power Capability (Dynamic, in W)"
+        "en": "Power Capability (Dynamic, in W)",
+        "bg": "Мощност (динамично, в W)",
+        "hr": "Mogućnost snage (dinamički, u W)",
+        "cs": "Výkonová schopnost (dynamicky, v W)",
+        "da": "Energievne (dynamisk, i W)",
+        "nl": "Vermogen (dynamisch, in W)",
+        "et": "Võimsuse võimekus (dünaamiline, W)",
+        "fi": "Tehon toimintakyky (dynaaminen, W)",
+        "fr": "Capacité de puissance (dynamique, en W)",
+        "de": "Leistungsfähigkeit (dynamisch, in W)",
+        "el": "Ικανότητα ισχύος (δυναμικά, σε W)",
+        "hu": "Teljesítménylehetőség (dinamikus, W)",
+        "ga": "Inneachar Cumhachta (dinimiciúil, in W)",
+        "it": "Capacità di Potenza (dinamico, in W)",
+        "lv": "Jaudas spēja (dinamisks, W)",
+        "lt": "Galingas gebėjimas (dinaminis, W)",
+        "mt": "Kapaċità ta' Enerġija (dinamiku, f'W)",
+        "pl": "Zdolność mocy (dynamicznie, w W)",
+        "pt": "Capacidade de Potência (dinâmico, em W)",
+        "ro": "Capacitate de Putere (dinamic, în W)",
+        "sk": "Výkonová kapacita (dynamicky, v W)",
+        "sl": "Sposobnost moči (dinamično, v W)",
+        "es": "Capacidad de Potencia (dinámico, en W)",
+        "sv": "Kraftkapacitet (dynamisk, i W)"
       },
       "description": {
         "en": "In-service power capability in watts, measured dynamically per Annex XIII 4(a) DP 53. Distinct from originalPowerCapability which is the static nameplate value at manufacture."
@@ -12149,7 +12241,30 @@
     {
       "key": "dynamicEnergyRoundTripEfficiency",
       "label": {
-        "en": "Energy Round-Trip Efficiency (Dynamic, %)"
+        "en": "Energy Round-Trip Efficiency (Dynamic, %)",
+        "bg": "Енергийна ефективност на пълен цикъл (динамично, %)",
+        "hr": "Efikasnost energije u krugovima (dinamički, %)",
+        "cs": "Účinnost zpáteční energie (dynamicky, %)",
+        "da": "Round-trip-energieffektivitet (dynamisk, %)",
+        "nl": "Energieronde-tripefficiëntie (dynamisch, %)",
+        "et": "Energia ringkäigu efektiivsus (dünaamiline, %)",
+        "fi": "Energian kiertokulun hyötysuhde (dynaaminen, %)",
+        "fr": "Rendement énergétique aller-retour (dynamique, %)",
+        "de": "Energieumwandlungswirkungsgrad (dynamisch, %)",
+        "el": "Απόδοση πλήρους κύκλου ενέργειας (δυναμικά, %)",
+        "hu": "Energia körforgásos hatékonysága (dinamikus, %)",
+        "ga": "Éifeachtúlacht Fuinnimh Tur-Thuras (dinimiciúil, %)",
+        "it": "Efficienza Energetica Round-Trip (dinamico, %)",
+        "lv": "Enerģijas aprites efektivitāte (dinamisks, %)",
+        "lt": "Energijos grąžinimo efektyvumas (dinaminis, %)",
+        "mt": "Effiċjenza tal-Round-Trip tal-Enerġija (dinamiku, %)",
+        "pl": "Wydajność energii w cyklu (dynamicznie, %)",
+        "pt": "Eficiência Energética de Ida e Volta (dinâmico, %)",
+        "ro": "Eficiență Rotund-Trip Energie (dinamic, %)",
+        "sk": "Účinnosť obehu energie (dynamicky, %)",
+        "sl": "Učinkovitost krožne potnje energije (dinamično, %)",
+        "es": "Eficiencia de Viaje Redondo de Energía (dinámico, %)",
+        "sv": "Energieffektivitet för rundtransport (dynamisk, %)"
       },
       "description": {
         "en": "Where applicable, in-service energy round-trip efficiency percentage per Annex XIII 4(a) DP 57. Conditional for all three battery categories."
@@ -12218,7 +12333,30 @@
     {
       "key": "dynamicRatedCapacity",
       "label": {
-        "en": "Rated Capacity (Dynamic, in Ah)"
+        "en": "Rated Capacity (Dynamic, in Ah)",
+        "bg": "Номинален капацитет (динамично, в Ah)",
+        "hr": "Nazivni kapacitet (dinamički, u Ah)",
+        "cs": "Jmenovitá kapacita (dynamicky, v Ah)",
+        "da": "Nominel kapacitet (dynamisk, i Ah)",
+        "nl": "Nominale capaciteit (dynamisch, in Ah)",
+        "et": "Nimetatud maht (dünaamiline, Ah)",
+        "fi": "Nimelliskapasiteetti (dynaaminen, Ah)",
+        "fr": "Capacité nominale (dynamique, en Ah)",
+        "de": "Nennkapazität (dynamisch, in Ah)",
+        "el": "Ονομαστική χωρητικότητα (δυναμικά, σε Ah)",
+        "hu": "Névleges kapacitás (dinamikus, Ah)",
+        "ga": "Acmhainn Rátáilte (dinimiciúil, in Ah)",
+        "it": "Capacità Nominale (dinamico, in Ah)",
+        "lv": "Nominālā jauda (dinamisks, Ah)",
+        "lt": "Vardinė talpa (dinaminis, Ah)",
+        "mt": "Kapacità Valutata (dinamiku, f'Ah)",
+        "pl": "Pojemność znamionowa (dynamicznie, w Ah)",
+        "pt": "Capacidade Nominal (dinâmico, em Ah)",
+        "ro": "Capacitate Nominală (dinamic, în Ah)",
+        "sk": "Nominálna kapacita (dynamicky, v Ah)",
+        "sl": "Nazivna zmogljivost (dinamično, v Ah)",
+        "es": "Capacidad Nominal (dinámico, en Ah)",
+        "sv": "Klassificerad kapacitet (dynamisk, i Ah)"
       },
       "description": {
         "en": "In-service capacity in ampere-hours, measured dynamically per Annex XIII 4(a) DP 51. The guidance defines it as \"same as data point 11 (capacity), but now dynamic\" — so it is the same quantity as ratedCapacity (Annex XIII 1(g)) re-measured in service, not a second nameplate figure."
@@ -12291,7 +12429,30 @@
     {
       "key": "dynamicInternalResistance",
       "label": {
-        "en": "Internal Resistance (Dynamic, in Ω)"
+        "en": "Internal Resistance (Dynamic, in Ω)",
+        "bg": "Вътрешно съпротивление (динамично, в Ω)",
+        "hr": "Interni otpor (dinamički, u Ω)",
+        "cs": "Vnitřní odpor (dynamicky, v Ω)",
+        "da": "Indre modstand (dynamisk, i Ω)",
+        "nl": "Interne weerstand (dynamisch, in Ω)",
+        "et": "Sisemine takistus (dünaamiline, Ω)",
+        "fi": "Sisäinen resistanssi (dynaaminen, Ω)",
+        "fr": "Résistance interne (dynamique, en Ω)",
+        "de": "Innenwiderstand (dynamisch, in Ω)",
+        "el": "Εσωτερική αντίσταση (δυναμικά, σε Ω)",
+        "hu": "Belső ellenállás (dinamikus, Ω)",
+        "ga": "Frithsheasmhachta Inmheánach (dinimiciúil, in Ω)",
+        "it": "Resistenza Interna (dinamico, in Ω)",
+        "lv": "Iekšējā pretestība (dinamisks, Ω)",
+        "lt": "Vidinė varža (dinaminis, Ω)",
+        "mt": "Reżistenza Interna (dinamiku, f'Ω)",
+        "pl": "Opór wewnętrzny (dynamicznie, w Ω)",
+        "pt": "Resistência Interna (dinâmico, em Ω)",
+        "ro": "Rezistență Internă (dinamic, în Ω)",
+        "sk": "Vnútorný odpor (dynamicky, v Ω)",
+        "sl": "Notranji upor (dinamično, v Ω)",
+        "es": "Resistencia Interna (dinámico, en Ω)",
+        "sv": "Inre resistans (dynamisk, i Ω)"
       },
       "description": {
         "en": "In-service internal resistance in ohms, measured dynamically per Annex XIII 4(a) DP 55. Distinct from initialInternalResistancePack (Annex XIII 1(o)), the static value at manufacture, and from currentInternalResistancePack (Annex XIII 4(b)), which is the state-of-health reading that must not be filled for EV."
@@ -12363,7 +12524,30 @@
     {
       "key": "dynamicExpectedLifetimeCycles",
       "label": {
-        "en": "Expected Lifetime (Dynamic, in cycles)"
+        "en": "Expected Lifetime (Dynamic, in cycles)",
+        "bg": "Очаквана продължителност (динамично, в цикли)",
+        "hr": "Očekivani životni vijek (dinamički, u ciklusima)",
+        "cs": "Očekávaná životnost (dynamicky, v cyklech)",
+        "da": "Forventet levetid (dynamisk, i cyklusser)",
+        "nl": "Verwachte levensduur (dynamisch, in cycli)",
+        "et": "Eeldatav eluiga (dünaamiline, tsüklites)",
+        "fi": "Odotettu elinkaari (dynaaminen, sykleinä)",
+        "fr": "Durée de vie prévue (dynamique, en cycles)",
+        "de": "Erwartete Lebensdauer (dynamisch, in Zyklen)",
+        "el": "Αναμενόμενη διάρκεια ζωής (δυναμικά, σε κύκλους)",
+        "hu": "Várható élettartam (dinamikus, ciklusban)",
+        "ga": "Saolré Ionchais (dinimiciúil, i dtimthriallta)",
+        "it": "Durata Prevista (dinamico, in cicli)",
+        "lv": "Paredzamais dzīves ilgums (dinamisks, ciklos)",
+        "lt": "Laukiamas gyvavimo laikas (dinaminis, ciklais)",
+        "mt": "Ħajja Mistiħqqa (dinamiku, f'ċikli)",
+        "pl": "Oczekiwany czas trwania (dynamicznie, w cyklach)",
+        "pt": "Duração Esperada (dinâmico, em ciclos)",
+        "ro": "Durată de Viață Așteptată (dinamic, în cicluri)",
+        "sk": "Očakávaná životnosť (dynamicky, v cykloch)",
+        "sl": "Pričakovana življenjska doba (dinamično, v ciklih)",
+        "es": "Vida Útil Esperada (dinámico, en ciclos)",
+        "sv": "Förväntad livslängd (dynamisk, i cykler)"
       },
       "description": {
         "en": "Expected remaining lifetime in cycles under the battery's design reference conditions, per Annex XIII 4(a) DP 59 — the in-service re-estimate. Distinct from expectedLifetimeCycles (Annex XIII 1(j)), the design figure declared at manufacture. Excluded for non-cycle applications."
@@ -12435,7 +12619,30 @@
     {
       "key": "remainingRoundTripEfficiency",
       "label": {
-        "en": "Remaining Round-Trip Efficiency"
+        "en": "Remaining Round-Trip Efficiency",
+        "bg": "Остатъчна ефективност на пълен цикъл",
+        "hr": "Preostala efikasnost energije u krugovima",
+        "cs": "Zbývající účinnost zpáteční energie",
+        "da": "Resterende round-trip-effektivitet",
+        "nl": "Resterende ronde-tripefficiëntie",
+        "et": "Järelejäänud ringkäigu efektiivsus",
+        "fi": "Jäljellä oleva kiertokulun hyötysuhde",
+        "fr": "Rendement aller-retour restant",
+        "de": "Verbleibender Energieumwandlungswirkungsgrad",
+        "el": "Εναπομένουσα απόδοση πλήρους κύκλου",
+        "hu": "Fennmaradó körforgásos hatékonyság",
+        "ga": "Éifeachtúlacht Tur-Thuras Fhanúil",
+        "it": "Efficienza Round-Trip Rimanente",
+        "lv": "Atlikusī aprites efektivitāte",
+        "lt": "Likutinis grąžinimo efektyvumas",
+        "mt": "Effiċjenza tal-Round-Trip li Jifdal",
+        "pl": "Pozostała wydajność energii w cyklu",
+        "pt": "Eficiência de Ida e Volta Restante",
+        "ro": "Eficiență Rotund-Trip Rămasă",
+        "sk": "Zvyšná účinnosť obehu energie",
+        "sl": "Preostala učinkovitost krožne potnje energije",
+        "es": "Eficiencia de Viaje Redondo Restante",
+        "sv": "Återstående energieffektivitet för rundtransport"
       },
       "description": {
         "en": "Where possible, the remaining energy round-trip efficiency as part of the state-of-health information per Annex XIII 4(b) DP 64. Applies to LMT batteries (mandatory); conditional for industrial; not applicable to EV."
