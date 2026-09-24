@@ -18136,7 +18136,7 @@
         "sv": "Produktvikt"
       },
       "description": {
-        "en": "Total weight of the product"
+        "en": "Net weight of the product as placed on the market, in kg: the product with every part supplied with it (a TV's stand, detachable feet, batteries or remote control shipped in the box), excluding packaging. This is the basis WEEE placed-on-market reporting uses. It is TracePass's field definition, not a legal one. When a spec sheet gives several weights (\"set weight with stand\" vs \"without stand\", or \"package weight\"), use the with-stand figure and never the package weight."
       },
       "dataType": "number",
       "unit": "kg",
@@ -18191,9 +18191,10 @@
           "weight",
           "mass",
           "product mass",
-          "net weight"
+          "net weight",
+          "set weight with stand"
         ],
-        "expectedFormat": "Numeric value in kg",
+        "expectedFormat": "Numeric value in kg — the product with its supplied parts (e.g. TV set weight WITH stand), excluding packaging",
         "extractionPriority": 7
       }
     },
