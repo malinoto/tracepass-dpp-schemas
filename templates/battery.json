@@ -26,7 +26,7 @@
     "sv": "Batteri",
     "el": "Μπαταρία"
   },
-  "version": 4,
+  "version": 5,
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",
@@ -3793,7 +3793,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -3908,7 +3908,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4022,7 +4022,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Due diligence format pending the implementing act (DP 19). Supply-chain due diligence postponed to Aug 2027; passport report due Aug 2028."
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4922,12 +4922,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5033,12 +5035,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5144,12 +5148,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5255,12 +5261,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "anticipated": true,
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -6154,12 +6162,14 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": "^https?://.*$",
+        "anticipated": true,
+        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027 pending the Art. 8 delegated act. Required when those shares become required."
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -14351,7 +14361,7 @@
     }
   ],
   "fieldCount": 120,
-  "requiredFieldCount": 55,
+  "requiredFieldCount": 50,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",
@@ -14363,5 +14373,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps."
+  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1)."
 }
