@@ -1,0 +1,601 @@
+{
+  "_note": "Registry of the technical standards a template field or a DPP system may relate to. Keys are UNDATED designations; editions are listed per entry. A standard never makes a field required - only `regulationRef.kind: legislation` can. `ojCitation` is present only where an implementing decision published the reference in the Official Journal, which is what confers a presumption of conformity. `verified: true` means title and status were checked against the OJ or the standard's own text; `false` means `subject` is a descriptive label, not the official title. Every CEN/CENELEC member adopts an EN identically as a national standard (e.g. DIN EN, BDS EN) - those are aliases of the same text, recorded under `nationalAdoptions` where confirmed, not separate standards.",
+  "kinds": {
+    "harmonised-standard": "An EN whose reference is published in the OJ under an EU act; conformity gives a presumption of conformity with the provisions named.",
+    "european-standard": "A published EN (or EN ISO / EN IEC) not cited in the OJ for DPP purposes.",
+    "international-standard": "ISO, IEC or ISO/IEC standard.",
+    "national-standard": "A standard of one national body with no EN equivalent.",
+    "industry-specification": "A specification by an industry body (e.g. GS1), not a formal standard.",
+    "un-regulation": "A UN Regulation annexed to the UNECE 1958 Agreement (vehicle type approval); binding where applied, not a standard."
+  },
+  "committees": {
+    "CEN/CLC/JTC 24": {
+      "name": "Digital Product Passport – Framework and System",
+      "secretariat": "DIN",
+      "mandate": "Standardisation request M/604 (C(2024) 5423, amended by C(2025) 8024)"
+    },
+    "ISO/IEC JTC 5": {
+      "name": "Digital Product Passport",
+      "secretariat": "DIN",
+      "notes": "Joint ISO/IEC committee created in 2026; work reported to start Q3 2026 with first results from 2028. No confirmed transfer of the EN 18xxx series to ISO."
+    },
+    "DKE/GG_DPP": {
+      "name": "German mirror committee for CEN/CLC/JTC 24",
+      "secretariat": "DIN/DKE"
+    }
+  },
+  "standards": {
+    "BS 5852": {
+      "kind": "national-standard",
+      "family": "furniture",
+      "body": "BSI (GB)",
+      "subject": "Ignitability of upholstered seating (UK market)",
+      "verified": false
+    },
+    "EN 10025": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 459",
+      "subject": "Hot rolled products of structural steels",
+      "verified": false
+    },
+    "EN 10027-1": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 459",
+      "subject": "Designation systems for steels – steel names",
+      "verified": false
+    },
+    "EN 10027-2": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 459",
+      "subject": "Designation systems for steels – steel numbers",
+      "verified": false
+    },
+    "EN 10088": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 459",
+      "subject": "Stainless steels",
+      "verified": false
+    },
+    "EN 10204": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 459",
+      "subject": "Metallic products – types of inspection documents",
+      "verified": false
+    },
+    "EN 1021-1": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – ignitability of upholstered furniture – cigarette source",
+      "verified": false
+    },
+    "EN 1021-2": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – ignitability of upholstered furniture – match-flame equivalent",
+      "verified": false
+    },
+    "EN 1090-1": {
+      "kind": "european-standard",
+      "family": "construction",
+      "body": "CEN/TC 135",
+      "subject": "Execution of steel and aluminium structures – conformity assessment of structural components",
+      "verified": false
+    },
+    "EN 12520": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – domestic seating – strength, durability and safety",
+      "verified": false
+    },
+    "EN 12521": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – domestic tables – strength, durability and safety",
+      "verified": false
+    },
+    "EN 13300": {
+      "kind": "european-standard",
+      "family": "paints-coatings",
+      "body": "CEN/TC 139",
+      "subject": "Paints – water-borne coatings for interior walls and ceilings – classification",
+      "verified": false
+    },
+    "EN 13986": {
+      "kind": "european-standard",
+      "family": "construction",
+      "body": "CEN/TC 112",
+      "subject": "Wood-based panels for use in construction",
+      "verified": false
+    },
+    "EN 15804": {
+      "kind": "european-standard",
+      "family": "environmental-footprint",
+      "body": "CEN/TC 350",
+      "subject": "Environmental product declarations – core rules for construction products (A2 amendment)",
+      "verified": false
+    },
+    "EN 16139": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – non-domestic seating – strength, durability and safety",
+      "verified": false
+    },
+    "EN 16516": {
+      "kind": "european-standard",
+      "family": "construction",
+      "body": "CEN/TC 351",
+      "subject": "Construction products – determination of emissions into indoor air",
+      "verified": false
+    },
+    "EN 1706": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 132",
+      "subject": "Aluminium castings – chemical composition and mechanical properties",
+      "verified": false
+    },
+    "EN 1725": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Domestic furniture – beds and mattresses – safety requirements and test methods",
+      "verified": false
+    },
+    "EN 18216": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital product passport – Data exchange protocols",
+      "scope": "Protocols and data formats for exchanging DPP data between systems and actors.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18216:2026",
+        "ojTitle": "Digital product passport – Data exchange protocols"
+      },
+      "nationalAdoptions": {
+        "DE": "DIN EN 18216:2026-09"
+      },
+      "verified": true
+    },
+    "EN 18219": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital product passport – Unique identifiers",
+      "scope": "Unique product, operator and facility identifiers (model / batch / item level); admits several identifier schemes, GS1 Digital Link and IEC 61406 among them.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18219:2026",
+        "ojTitle": "Digital product passport – Unique identifiers"
+      },
+      "nationalAdoptions": {
+        "DE": "DIN EN 18219:2026-09"
+      },
+      "verified": true
+    },
+    "EN 18220": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital product passport – Data carriers",
+      "scope": "Data carriers linking the physical product to its passport: QR code, Data Matrix, NFC / HF and UHF RFID, print quality.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18220:2026",
+        "ojTitle": "Digital product passport – Data carriers"
+      },
+      "nationalAdoptions": {
+        "DE": "DIN EN 18220:2026-09"
+      },
+      "verified": true
+    },
+    "EN 18221": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital product passport – data storage, archiving, and data persistence",
+      "scope": "Storage, archiving, persistence and back-up of DPP data across the decentralised architecture.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18221:2026",
+        "ojTitle": "Digital product passport – Data storage, archiving, and persistence"
+      },
+      "nationalAdoptions": {},
+      "verified": true,
+      "notes": "Normatively references EN 18239 and EN 18246, which are not yet cited in the OJ."
+    },
+    "EN 18222": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital Product Passport – Application Programming Interfaces (APIs) for the product passport lifecycle management and searchability",
+      "scope": "APIs for passport lifecycle management, resolution, searchability and data access.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18222:2026",
+        "ojTitle": "Digital Product Passport – Application Programming Interfaces (APIs) for product passport lifecycle management and searchability"
+      },
+      "nationalAdoptions": {},
+      "verified": true
+    },
+    "EN 18223": {
+      "kind": "harmonised-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "published",
+      "edition": "2026",
+      "title": "Digital Product Passport – System interoperability",
+      "scope": "Semantic, technical and organisational interoperability; common information model, metadata and dictionaries.",
+      "ojCitation": {
+        "decision": "32026D1736",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/1736/oj",
+        "published": "2026-07-15",
+        "presumptionFor": {
+          "instrument": "32024R1781",
+          "provisions": [
+            "Art. 10",
+            "Art. 11"
+          ]
+        },
+        "reference": "EN 18223:2026",
+        "ojTitle": "Digital Product Passport – System interoperability"
+      },
+      "nationalAdoptions": {},
+      "verified": true
+    },
+    "EN 18239": {
+      "kind": "european-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "draft",
+      "edition": null,
+      "title": "Digital Product Passport – Access rights management, information system security, and business confidentiality",
+      "scope": "Access-rights management, information-system security, data protection and business confidentiality (ESPR Art. 11).",
+      "ojCitation": null,
+      "nationalAdoptions": {},
+      "verified": true,
+      "notes": "prEN when the six were cited. An implementing decision citing it is on the Commission's timeline for September 2026; not in the OJ yet."
+    },
+    "EN 18246": {
+      "kind": "european-standard",
+      "family": "dpp-system",
+      "body": "CEN/CLC/JTC 24",
+      "status": "draft",
+      "edition": null,
+      "title": "Digital product passport – Data authentication, reliability and integrity",
+      "scope": "Mechanisms to authenticate passport data, assess reliability and detect unauthorised change (ESPR Art. 11).",
+      "ojCitation": null,
+      "nationalAdoptions": {},
+      "verified": true,
+      "notes": "prEN when the six were cited. An implementing decision citing it is on the Commission's timeline for September 2026; not in the OJ yet."
+    },
+    "EN 1957": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "CEN/TC 207",
+      "subject": "Furniture – beds and mattresses – test methods for functional characteristics",
+      "verified": false
+    },
+    "EN 573-3": {
+      "kind": "european-standard",
+      "family": "metals",
+      "body": "CEN/TC 132",
+      "subject": "Aluminium – chemical composition of wrought products",
+      "verified": false
+    },
+    "EN 71-1": {
+      "kind": "european-standard",
+      "family": "toys",
+      "body": "CEN/TC 52",
+      "subject": "Safety of toys – mechanical and physical properties",
+      "verified": false
+    },
+    "EN 71-2": {
+      "kind": "european-standard",
+      "family": "toys",
+      "body": "CEN/TC 52",
+      "subject": "Safety of toys – flammability",
+      "verified": false
+    },
+    "EN 71-3": {
+      "kind": "european-standard",
+      "family": "toys",
+      "body": "CEN/TC 52",
+      "subject": "Safety of toys – migration of certain elements",
+      "verified": false
+    },
+    "EN 717-1": {
+      "kind": "european-standard",
+      "family": "construction",
+      "body": "CEN/TC 112",
+      "subject": "Wood-based panels – formaldehyde release by the chamber method",
+      "verified": false
+    },
+    "EN IEC 61406-1": {
+      "kind": "european-standard",
+      "family": "identification-and-carriers",
+      "body": "IEC TC 65 / CENELEC",
+      "subject": "Identification Link – Part 1",
+      "editions": [
+        "2022"
+      ],
+      "verified": false
+    },
+    "EN IEC 61406-2": {
+      "kind": "european-standard",
+      "family": "identification-and-carriers",
+      "body": "IEC TC 65 / CENELEC",
+      "subject": "Identification Link – Part 2",
+      "editions": [
+        "2024"
+      ],
+      "verified": false
+    },
+    "EN ISO 845": {
+      "kind": "european-standard",
+      "family": "furniture",
+      "body": "ISO/TC 61 / CEN",
+      "subject": "Cellular plastics and rubbers – apparent density",
+      "verified": false
+    },
+    "GS1 Digital Link": {
+      "kind": "industry-specification",
+      "family": "identification-and-carriers",
+      "body": "GS1",
+      "subject": "GS1 Digital Link URI Syntax",
+      "editions": [
+        "1.6.0",
+        "1.7.0"
+      ],
+      "notes": "EN 18219 cites 1.6.0; 1.7.0 was ratified August 2026.",
+      "verified": false
+    },
+    "ISO 105-C06": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – colour fastness to domestic and commercial laundering",
+      "verified": false
+    },
+    "ISO 12944": {
+      "kind": "international-standard",
+      "family": "paints-coatings",
+      "body": "ISO/TC 35",
+      "subject": "Corrosion protection of steel structures by protective paint systems",
+      "verified": false
+    },
+    "ISO 12945": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – pilling",
+      "verified": false
+    },
+    "ISO 12947": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – abrasion resistance (Martindale)",
+      "verified": false
+    },
+    "ISO 13937": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – tear properties of fabrics",
+      "verified": false
+    },
+    "ISO 14025": {
+      "kind": "international-standard",
+      "family": "environmental-footprint",
+      "body": "ISO/TC 207",
+      "subject": "Type III environmental declarations",
+      "verified": false
+    },
+    "ISO 14046": {
+      "kind": "international-standard",
+      "family": "environmental-footprint",
+      "body": "ISO/TC 207",
+      "subject": "Water footprint",
+      "verified": false
+    },
+    "ISO 14067": {
+      "kind": "international-standard",
+      "family": "environmental-footprint",
+      "body": "ISO/TC 207",
+      "subject": "Carbon footprint of products",
+      "verified": false
+    },
+    "ISO 148-1": {
+      "kind": "international-standard",
+      "family": "metals",
+      "body": "ISO/TC 164",
+      "subject": "Charpy pendulum impact test",
+      "verified": false
+    },
+    "ISO 19447": {
+      "kind": "international-standard",
+      "family": "tyres",
+      "body": "ISO/TC 31",
+      "subject": "Tyres – ice-grip test method for C1 tyres",
+      "verified": false
+    },
+    "ISO 2076": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – man-made fibres – generic names",
+      "verified": false
+    },
+    "ISO 2813": {
+      "kind": "international-standard",
+      "family": "paints-coatings",
+      "body": "ISO/TC 35",
+      "subject": "Paints and varnishes – specular gloss",
+      "verified": false
+    },
+    "ISO 3758": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – care labelling code using symbols",
+      "verified": false
+    },
+    "ISO 5077": {
+      "kind": "international-standard",
+      "family": "textiles",
+      "body": "ISO/TC 38",
+      "subject": "Textiles – dimensional change in washing and drying",
+      "verified": false
+    },
+    "ISO/IEC 15418": {
+      "kind": "international-standard",
+      "family": "identification-and-carriers",
+      "body": "ISO/IEC JTC 1/SC 31",
+      "subject": "GS1 Application Identifiers and ASC MH10 Data Identifiers",
+      "editions": [
+        "2016"
+      ],
+      "verified": false
+    },
+    "ISO/IEC 15459": {
+      "kind": "international-standard",
+      "family": "identification-and-carriers",
+      "body": "ISO/IEC JTC 1/SC 31",
+      "subject": "Unique identification (parts 1–6)",
+      "citedBy": [
+        "32023R1542 Art. 77(3)",
+        "32024R1781 Annex III"
+      ],
+      "editions": [
+        "2014",
+        "2015"
+      ],
+      "notes": "The identifier benchmark named by Battery Regulation Art. 77(3) and ESPR Annex III until replaced; Art. 77(3) allows 'or their equivalent'.",
+      "verified": false
+    },
+    "ISO/IEC 16022": {
+      "kind": "international-standard",
+      "family": "identification-and-carriers",
+      "body": "ISO/IEC JTC 1/SC 31",
+      "subject": "Data Matrix bar code symbology specification",
+      "editions": [
+        "2024"
+      ],
+      "verified": false
+    },
+    "ISO/IEC 18004": {
+      "kind": "international-standard",
+      "family": "identification-and-carriers",
+      "body": "ISO/IEC JTC 1/SC 31",
+      "subject": "QR Code bar code symbology specification",
+      "editions": [
+        "2024"
+      ],
+      "verified": false
+    },
+    "ISO/IEC 18975": {
+      "kind": "international-standard",
+      "family": "identification-and-carriers",
+      "body": "ISO/IEC JTC 1/SC 31",
+      "subject": "Encoding and resolving identifiers over HTTP",
+      "editions": [
+        "2024"
+      ],
+      "verified": false
+    },
+    "UNECE R108": {
+      "kind": "un-regulation",
+      "family": "tyres",
+      "body": "UNECE WP.29",
+      "subject": "Retreaded tyres for passenger cars (C1)",
+      "verified": false
+    },
+    "UNECE R109": {
+      "kind": "un-regulation",
+      "family": "tyres",
+      "body": "UNECE WP.29",
+      "subject": "Retreaded tyres for commercial vehicles (C2/C3)",
+      "verified": false
+    },
+    "UNECE R30": {
+      "kind": "un-regulation",
+      "family": "tyres",
+      "body": "UNECE WP.29",
+      "subject": "Pneumatic tyres for passenger cars (C1)",
+      "verified": false
+    },
+    "UNECE R54": {
+      "kind": "un-regulation",
+      "family": "tyres",
+      "body": "UNECE WP.29",
+      "subject": "Pneumatic tyres for commercial vehicles (C2/C3)",
+      "verified": false
+    }
+  }
+}

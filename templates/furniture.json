@@ -135,7 +135,10 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR Art. 9(2) does NOT mandate this datum. It tells the Commission what a DELEGATED ACT must specify — 'the requirements related to the digital product passport laid down in the delegated acts adopted pursuant to Article 4 shall … specify the following: (a) the data to be included …'. No furniture/textile delegated act is adopted, so nothing here is legally required yet. Anticipated under the coming act; voluntary today. Verified against the EUR-Lex text."
+        "description": "ESPR Art. 9(2) does NOT mandate this datum. It tells the Commission what a DELEGATED ACT must specify — 'the requirements related to the digital product passport laid down in the delegated acts adopted pursuant to Article 4 shall … specify the following: (a) the data to be included …'. No furniture/textile delegated act is adopted, so nothing here is legally required yet. Anticipated under the coming act; voluntary today. Verified against the EUR-Lex text.",
+        "standards": [
+          "ISO/IEC 15459"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3756,7 +3759,11 @@
         "instrument": "32023R1464",
         "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
         "kind": "legislation",
-        "description": "Annex XVII entry 77 is an emission limit to stay under with test evidence retained; the E0.5/E1 class scheme is EN 13986, a voluntary standard."
+        "description": "Annex XVII entry 77 is an emission limit to stay under with test evidence retained; the E0.5/E1 class scheme is EN 13986, a voluntary standard.",
+        "standards": [
+          "EN 13986",
+          "EN 717-1"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3862,7 +3869,10 @@
         "instrument": "32023R1464",
         "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
         "kind": "legislation",
-        "description": "A limit to stay under with evidence retained, not a duty to publish the measured value."
+        "description": "A limit to stay under with evidence retained, not a duty to publish the measured value.",
+        "standards": [
+          "EN 717-1"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3968,7 +3978,10 @@
         "instrument": "32010R0066",
         "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
-        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory."
+        "description": "The EU Ecolabel is a voluntary scheme: holding the label creates duties, not holding it creates none. A real CELEX here does not make the field mandatory.",
+        "standards": [
+          "EN 16516"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4071,7 +4084,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "EN 16516; EU Ecolabel Criterion 4",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 16516"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4491,7 +4507,13 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 12520:2024 / EN 12521:2023 / EN 1725:2024 / EN 16139:2013",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 12520",
+          "EN 12521",
+          "EN 1725",
+          "EN 16139"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4594,7 +4616,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 12520:2024",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 12520"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4698,7 +4723,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 12520:2024; EN 12521:2023",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 12520",
+          "EN 12521"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4802,7 +4831,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 12520:2024; EN 1725:2024",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 12520",
+          "EN 1725"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5439,7 +5472,10 @@
       "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "EN ISO 845",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN ISO 845"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5854,7 +5890,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 1957:2012 (mattress testing)",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 1957"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6176,7 +6215,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 15804; ISO 14025",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804",
+          "ISO 14025"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7772,7 +7815,12 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 1021-1:2014; EN 1021-2:2014; BS 5852 (UK market)",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 1021-1",
+          "EN 1021-2",
+          "BS 5852"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8087,7 +8135,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 12520:2024; EN 16139:2013",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 12520",
+          "EN 16139"
+        ]
       },
       "aiHints": {
         "alternateNames": [

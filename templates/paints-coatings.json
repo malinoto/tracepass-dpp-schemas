@@ -8965,7 +8965,10 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "EN 13300",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 13300"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9173,7 +9176,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "ISO 12944, ISO 2813",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "ISO 12944",
+          "ISO 2813"
+        ]
       },
       "aiHints": {
         "alternateNames": [

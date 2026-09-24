@@ -135,7 +135,10 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "standards": [
+          "ISO/IEC 15459"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1398,7 +1401,11 @@
         "instrument": "32020R0740",
         "provision": "UNECE R30 / R54 — marking moulded on the tyre sidewall under type approval",
         "kind": "legislation",
-        "description": "Discharged by the marking moulded into the sidewall under type approval, not by a passport entry."
+        "description": "Discharged by the marking moulded into the sidewall under type approval, not by a passport entry.",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2406,7 +2413,11 @@
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
-        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
+        "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field.",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2921,7 +2932,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3170,7 +3185,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3497,7 +3516,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3601,7 +3624,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3705,7 +3732,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5154,7 +5185,10 @@
         "instrument": "32020R0740",
         "provision": "Art. 4 + Annex I (ice-grip marking, C1 tyres, per ISO 19447)",
         "kind": "legislation",
-        "description": "Annex I Part E requires ice grip to be tested by reliable, accurate and reproducible methods reflecting the state of the art, and a qualifying C1 tyre carries the ice-grip PICTOGRAM on the label. Like snow grip, the obligation is a mark rather than a published figure."
+        "description": "Annex I Part E requires ice grip to be tested by reliable, accurate and reproducible methods reflecting the state of the art, and a qualifying C1 tyre carries the ice-grip PICTOGRAM on the label. Like snow grip, the obligation is a mark rather than a published figure.",
+        "standards": [
+          "ISO 19447"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8685,7 +8719,11 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "standards": [
+          "UNECE R108",
+          "UNECE R109"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8789,7 +8827,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 108 (C1) / Reg. 109 (C2/C3)",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R108",
+          "UNECE R109"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9634,7 +9676,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30 (C1) / Reg. 54 (C2/C3)",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9954,7 +10000,11 @@
         "instrument": "32023R0988",
         "provision": "UNECE R30 / R54 — type approval evidenced by the approval mark on the sidewall and the approval dossier",
         "kind": "legislation",
-        "description": "Tyre conformity is evidenced by the E-mark and the type-approval dossier; there is no EU DoC publication duty for tyres."
+        "description": "Tyre conformity is evidenced by the E-mark and the type-approval dossier; there is no EU DoC publication duty for tyres.",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -10267,7 +10317,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54; product specification",
-        "kind": "specification"
+        "kind": "specification",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -10371,7 +10425,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -10474,7 +10532,11 @@
       "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "UNECE Reg. 30/54",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "UNECE R30",
+          "UNECE R54"
+        ]
       },
       "aiHints": {
         "alternateNames": [

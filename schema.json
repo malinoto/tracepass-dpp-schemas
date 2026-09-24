@@ -525,6 +525,14 @@
                 "null"
               ],
               "description": "Free-text name when the reference is not EU legislation."
+            },
+            "standards": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true,
+              "description": "Keys into `standards.json` for the technical standards this field relates to (test method, declaration format, identifier scheme). Relating to a standard never makes a field required — only `kind: legislation` can — and naming one is not a claim of conformity."
             }
           }
         },

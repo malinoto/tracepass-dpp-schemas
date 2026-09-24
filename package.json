@@ -32,6 +32,7 @@
     "schema.json",
     "index.json",
     "instruments.json",
+    "standards.json",
     "units.json",
     "README.md",
     "LICENSE"
@@ -45,6 +46,7 @@
     "validate": "python3 -c \"import json,glob,sys;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));bad=0\nfor p in sorted(glob.glob('templates/*.json')):\n    e=list(v.iter_errors(json.load(open(p))));bad+=bool(e);print(('FAIL' if e else 'ok  '),p)\n    [print('     ',str(x.absolute_path),x.message[:120]) for x in e[:3]]\nsys.exit(1 if bad else 0)\"",
     "build:index": "node scripts/build-index.mjs",
     "check:index": "node scripts/build-index.mjs --check",
-    "check": "npm run validate && npm run check:index"
+    "check": "npm run validate && npm run check:index && npm run check:standards",
+    "check:standards": "node scripts/check-standards.mjs"
   }
 }

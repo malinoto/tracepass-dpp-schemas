@@ -357,7 +357,10 @@
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
         "kind": "legislation",
-        "description": "Usually the heat/batch number carried on an EN 10204 inspection document. EN 10204 is the document standard, not the source of the obligation, which is GPSR Art. 9(5)."
+        "description": "Usually the heat/batch number carried on an EN 10204 inspection document. EN 10204 is the document standard, not the source of the obligation, which is GPSR Art. 9(5).",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1418,7 +1421,13 @@
       "regulationRef": {
         "article": "EN 10027-1/2, EN 573-3, EN 1706",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10027-1",
+          "EN 10027-2",
+          "EN 573-3",
+          "EN 1706"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2624,7 +2633,12 @@
       "regulationRef": {
         "article": "EN 10204, EN 10025, EN 10088 (stainless)",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204",
+          "EN 10025",
+          "EN 10088"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3394,7 +3408,11 @@
       "regulationRef": {
         "article": "EN 10025, EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204",
+          "EN 10025"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3502,7 +3520,10 @@
       "regulationRef": {
         "article": "EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3609,7 +3630,10 @@
       "regulationRef": {
         "article": "EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3714,7 +3738,11 @@
       "regulationRef": {
         "article": "EN 10204, ISO 148-1",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204",
+          "ISO 148-1"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3820,7 +3848,10 @@
       "regulationRef": {
         "article": "EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4302,7 +4333,10 @@
         "annex": null,
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4407,7 +4441,10 @@
       "regulationRef": {
         "article": "EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4775,7 +4812,11 @@
       "regulationRef": {
         "article": "EN 10025, EN 10204",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204",
+          "EN 10025"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5721,7 +5762,10 @@
         "instrument": "32024R1781",
         "provision": "Article 5(5)(b)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Reference: ISO 14067."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Reference: ISO 14067.",
+        "standards": [
+          "ISO 14067"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8316,7 +8360,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8421,7 +8468,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8525,7 +8575,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8629,7 +8682,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8733,7 +8789,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8838,7 +8897,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8942,7 +9004,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9047,7 +9112,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -10018,7 +10086,10 @@
       "regulationRef": {
         "article": "EN 10204:2004",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -10124,7 +10195,10 @@
       "regulationRef": {
         "article": "EN 10204, ESPR",
         "annex": null,
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 10204"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11714,7 +11788,10 @@
         "instrument": "32024R3110",
         "provision": "CPR (EU) 2024/3110 Arts. 8-9 — CE marking, only where a harmonised technical specification or a European Technical Assessment covers the product",
         "kind": "legislation",
-        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. For steel this is the sub-case — structural steelwork under a harmonised standard (paradigm EN 1090-1) is covered; mill products and much rebar are not. Never model steel as always-CE or never-CE, which is why not_applicable is an enum member and why the field cannot be required."
+        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. For steel this is the sub-case — structural steelwork under a harmonised standard (paradigm EN 1090-1) is covered; mill products and much rebar are not. Never model steel as always-CE or never-CE, which is why not_applicable is an enum member and why the field cannot be required.",
+        "standards": [
+          "EN 1090-1"
+        ]
       },
       "aiHints": {
         "alternateNames": [

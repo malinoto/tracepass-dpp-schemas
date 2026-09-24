@@ -66,7 +66,8 @@ an ESPR delegated act, or citing an instrument that creates no passport duty at 
 (`paints-coatings`, `packaging`, `construction`).
 
 It is not the case that every battery field is required: the template also carries fields that are
-`anticipated` (pending the carbon-footprint and due-diligence implementing acts) and
+`anticipated` (pending the carbon-footprint and due-diligence acts, and — per the
+Commission's data-points guidance v2.0 — the Article 8 recycled-content act) and
 fields that apply only to some battery sub-categories via `validation.requiredBy`.
 
 **`required` means an instrument in force compels the data.** ESPR (EU) 2024/1781 is a
@@ -84,6 +85,37 @@ batteries are largely conditional on gates such as having a battery management s
 containing Annex X materials. `conditional` means the instrument compels the field only when
 its stated gate is met — so a passport legitimately leaves it empty otherwise. Fields with no
 `requiredBy` apply to the whole category.
+
+## Standards
+
+[`standards.json`](./standards.json) is a registry of the technical standards a field — or
+a DPP system — relates to. A field names them in `regulationRef.standards`, as keys into the
+registry:
+
+```jsonc
+"regulationRef": {
+  "article": "EN 10204, EN 10025, EN 10088 (stainless)",   // human-facing, unchanged
+  "kind": "standard",
+  "standards": ["EN 10204", "EN 10025", "EN 10088"]          // machine-facing
+}
+```
+
+- **A standard never makes a field required.** Only `kind: "legislation"` can. A standard
+  supports a presumption of conformity; it binds nothing on its own.
+- **Only an Official Journal citation confers that presumption.** Entries with
+  `kind: "harmonised-standard"` carry `ojCitation` — the implementing decision and the
+  provisions it covers. Today that is the six CEN/CLC/JTC 24 system standards
+  (EN 18216, 18219, 18220, 18221, 18222, 18223) cited by Implementing Decision (EU)
+  2026/1736 for ESPR Articles 10 and 11. EN 18239 and EN 18246 are still drafts.
+- **National adoptions are aliases, not separate standards.** Every CEN/CENELEC member
+  publishes an EN unchanged (DIN EN 18219, BDS EN …); confirmed ones are listed under
+  `nationalAdoptions`.
+- **`verified: true`** means the title and status were checked against the OJ or the
+  standard's own text. Otherwise `subject` is a descriptive label, not the official title.
+- **Naming a standard is not a conformity claim** — for this dataset or for any system
+  built on it.
+
+`npm run check:standards` fails if any field references a key the registry does not hold.
 
 ## What a field looks like
 

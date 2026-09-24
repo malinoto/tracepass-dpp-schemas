@@ -1316,7 +1316,10 @@
         "article": "TSD Art. 11; EN 71-1",
         "instrument": "32009L0048",
         "provision": "Art. 11(2) and Annex V Part B",
-        "kind": "legislation"
+        "kind": "legislation",
+        "standards": [
+          "EN 71-1"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1766,7 +1769,12 @@
       "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "EN 71-1; EN 71-2; EN 71-3",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 71-1",
+          "EN 71-2",
+          "EN 71-3"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2417,7 +2425,10 @@
         "article": "EN 71-3; TSD Appendix C",
         "instrument": "32009L0048",
         "provision": "Annex II Part III point 13",
-        "kind": "legislation"
+        "kind": "legislation",
+        "standards": [
+          "EN 71-3"
+        ]
       },
       "aiHints": {
         "alternateNames": [

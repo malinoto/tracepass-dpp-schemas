@@ -132,7 +132,10 @@
         "instrument": "32023R0988",
         "kind": "legislation",
         "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "description": "Carried as a GS1 Digital Link URI / ISO 15459 identifier. Those are the identifier schemes used to express the value; the obligation itself is GPSR Art. 9(5), which names no scheme."
+        "description": "Carried as a GS1 Digital Link URI / ISO 15459 identifier. Those are the identifier schemes used to express the value; the obligation itself is GPSR Art. 9(5), which names no scheme.",
+        "standards": [
+          "ISO/IEC 15459"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1962,7 +1965,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2068,7 +2074,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2172,7 +2181,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2276,7 +2288,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2381,7 +2396,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2485,7 +2503,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2589,7 +2610,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2693,7 +2717,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2797,7 +2824,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2901,7 +2931,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3006,7 +3039,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3111,7 +3147,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3216,7 +3255,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -3815,7 +3857,10 @@
       "regulationRef": {
         "article": "EN 15804+A2",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4465,7 +4510,10 @@
       "regulationRef": {
         "article": "EN 15804+A2, Module D",
         "annex": "",
-        "kind": "standard"
+        "kind": "standard",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5379,7 +5427,10 @@
         "annex": "",
         "instrument": "32024R3110",
         "kind": "legislation",
-        "description": "Environmental product declarations under EN 15804+A2 are voluntary; no EU instrument in force mandates one."
+        "description": "Environmental product declarations under EN 15804+A2 are voluntary; no EU instrument in force mandates one.",
+        "standards": [
+          "EN 15804"
+        ]
       },
       "aiHints": {
         "alternateNames": [
