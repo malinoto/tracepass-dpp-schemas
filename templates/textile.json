@@ -1945,11 +1945,11 @@
       "sortOrder": 16,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006 Art. 33(1); POPs Regulation (EU) 2019/1021 Annex I (PFOS)",
+        "article": "REACH (EC) 1907/2006 Art. 33(1); POPs Regulation (EU) 2019/1021 Annex I (PFOS, PFOA, PFHxS)",
         "instrument": "32006R1907",
         "provision": "REACH Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here. POPs Reg. (EU) 2019/1021 Annex I separately restricts PFOS with a limit written for this category — below 1 ug/m2 of coated material for textiles and other coated materials — but that is a market restriction, not a disclosure duty, so it does not make this field required."
+        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here. POPs Reg. (EU) 2019/1021 Annex I separately restricts PFOS, with a limit written for this category (below 1 ug/m2 of coated material for textiles and other coated materials), and, since Delegated Regulations (EU) 2020/784 and (EU) 2023/1608, PFOA and PFHxS: each tolerated only as an unintentional trace at or below 0.025 mg/kg for the acid and its salts and 1 mg/kg for related compounds. These are market restrictions, not disclosure duties, so they do not make this field required."
       },
       "aiHints": {
         "alternateNames": [
