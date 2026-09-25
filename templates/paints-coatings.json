@@ -6955,111 +6955,6 @@
       }
     },
     {
-      "key": "vocContent",
-      "label": {
-        "en": "VOC Content",
-        "bg": "Съдържание на ЛОС",
-        "de": "VOC-Gehalt",
-        "nl": "VOC-gehalte",
-        "hr": "Sadržaj HOS-a",
-        "cs": "Obsah VOC",
-        "da": "VOC-indhold",
-        "et": "LOÜ sisaldus",
-        "fi": "VOC-pitoisuus",
-        "fr": "Teneur en COV",
-        "el": "Περιεκτικότητα σε ΠΟΕ",
-        "hu": "VOC-tartalom",
-        "ga": "Cion VOC",
-        "it": "Contenuto di COV",
-        "es": "Contenido de COV",
-        "lt": "LOJ kiekis",
-        "lv": "GOS saturs",
-        "mt": "Kontenut ta' VOC",
-        "pl": "Zawartość LZO",
-        "pt": "Teor de COV",
-        "ro": "Conținut de COV",
-        "sk": "Obsah VOC",
-        "sl": "Vsebnost HOS",
-        "sv": "VOC-halt"
-      },
-      "description": {
-        "en": "Volatile Organic Compound content of the paint or varnish as formulated. The ready-to-use limit is in vocContentReadyToUse (Decopaint Directive Art. 4(b)); this field records the measured value.",
-        "nl": "Gehalte aan vluchtige organische stoffen van de verf of lak als geformuleerd. De gebruiksklare limiet staat in vocContentReadyToUse (Decopaint-richtlijn art. 4(b)); dit veld registreert de gemeten waarde.",
-        "hr": "Sadržaj hlapivih organskih spojeva boje ili laka kako je formuliran. Ograničenje za upotrebu nalaze se u vocContentReadyToUse (direktiva Decopaint čl. 4(b)); ovo polje bilježi izmjerenu vrijednost.",
-        "cs": "Obsah těkavých organických sloučenin nátěrové hmoty nebo laku ve formulovaném stavu. Limit pro použití je v poli vocContentReadyToUse (směrnice Decopaint čl. 4(b)); toto pole zaznamenává naměřenou hodnotu.",
-        "da": "Indhold af flygtige organiske forbindelser i maling eller fernis som formuleret. Grænsen for klar til brug er i vocContentReadyToUse (Decopaint-direktivet art. 4(b)); dette felt registrerer den målte værdi.",
-        "et": "Lenduvate orgaaniliste ühendite sisaldus formuleeritud värvides või lakis. Kasutamisvalmis piirnorm on väljal vocContentReadyToUse (Decopaint direktiiv art 4(b)); see väli salvestab mõõdetud väärtuse.",
-        "fi": "Haihtuvien orgaanisten yhdisteiden pitoisuus maalissa tai lakassa formuloidussa muodossa. Käyttövalmiin raja on kentässä vocContentReadyToUse (Decopaint-direktiivi 4 art. (b)); tähän kenttään kirjataan mitattu arvo.",
-        "fr": "Teneur en composés organiques volatils de la peinture ou du vernis tels que formulés. La limite pour les produits prêts à l'emploi figure dans vocContentReadyToUse (directive Decopaint art. 4(b)); ce champ enregistre la valeur mesurée.",
-        "el": "Περιεχόμενο πτητικών οργανικών ενώσεων του χρώματος ή βερνικιού ως διατυπωμένο. Το όριο για έτοιμο προς χρήση βρίσκεται στο vocContentReadyToUse (οδηγία Decopaint άρθρο 4(β))· το πεδίο καταγράφει τη μετρηθείσα τιμή.",
-        "hu": "Az illékony szerves vegyületek tartalma a formulált festékben vagy lakban. A felhasználásra kész korlát a vocContentReadyToUse mezőben van (Decopaint irányelv 4. cikk (b)); ez a mező a mért értéket rögzíti.",
-        "ga": "Ábhar comhdhúl orgánach so-ghalaithe sa péint nó san aeróic mar a foirmíodh. Tá an teorainn ullmhaithe in vocContentReadyToUse (Treoir Decopaint alt 4(b)); taifeadann an réimse seo an luach tomhasta.",
-        "it": "Contenuto di composti organici volatili della pittura o della vernice nella formulazione. Il limite pronto all'uso si trova in vocContentReadyToUse (direttiva Decopaint art. 4(b)); questo campo registra il valore misurato.",
-        "es": "Contenido de compuestos orgánicos volátiles de la pintura o el barniz según su formulación. El límite listo para usar figura en vocContentReadyToUse (directiva Decopaint art. 4(b)); este campo registra el valor medido.",
-        "lt": "Lakiųjų organinių junginių kiekis formuluotame dažuose ar lakuose. Naudojimui paruošto ribinė vertė yra laukelyje vocContentReadyToUse (Decopaint direktyva 4 str. (b)); šis laukelis fiksuoja išmatuotą vertę.",
-        "lv": "Gaistošo organisko savienojumu saturs formulētā krāsā vai lakā. Gatava lietošanai robežvērtība ir laukā vocContentReadyToUse (Decopaint direktīva 4. panta (b) punkts); šis lauks reģistrē izmērīto vērtību.",
-        "mt": "Kontenut ta' komposti organiċi volatili tal-kulur jew tal-verniċ kif iformulat. Il-limitu tal-lest għall-użu jinsab f'vocContentReadyToUse (Direttiva Decopaint art. 4(b)); dan il-qasam jirreġistra l-valur imkejjel.",
-        "pl": "Zawartość lotnych związków organicznych w farbie lub lakierze w postaci formulowanej. Limit do użytku gotowego znajduje się w vocContentReadyToUse (dyrektywa Decopaint art. 4(b)); to pole rejestruje zmierzoną wartość.",
-        "pt": "Teor de compostos orgânicos voláteis da tinta ou verniz tal como formulado. O limite para utilização pronta está em vocContentReadyToUse (Diretiva Decopaint art. 4.º(b)); este campo regista o valor medido.",
-        "ro": "Conținut de compuși organici volatili al vopselei sau al lacului conform formulei. Limita gata de utilizare se află în vocContentReadyToUse (Directiva Decopaint art. 4(b)); acest câmp înregistrează valoarea măsurată.",
-        "sk": "Obsah prchavých organických zlúčenín farby alebo laku v formulovanom stave. Limit pre použitie je v poli vocContentReadyToUse (smernica Decopaint čl. 4(b)); toto pole zaznamenáva nameraná hodnota.",
-        "sl": "Vsebnost hlapnih organskih spojin v formuliranem barvilu ali laku. Meja za pripravljen za uporabo je v vocContentReadyToUse (direktiva Decopaint člen 4(b)); to polje beleži izmerjeno vrednost.",
-        "sv": "Halt av flyktiga organiska föreningar i den formulerade färgen eller lacken. Gränsen för bruksfärdigt finns i vocContentReadyToUse (Decopaint-direktivet art. 4(b)); det här fältet registrerar det uppmätta värdet."
-      },
-      "dataType": "number",
-      "unit": "g/L",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "physical_chemical",
-      "categoryLabel": {
-        "en": "Physical/Chemical Properties",
-        "bg": "Физико-химични свойства",
-        "de": "Physikalische/chemische Eigenschaften",
-        "nl": "Fysisch/Chemische Eigenschappen",
-        "hr": "Fizikalna/kemijska svojstva",
-        "cs": "Fyzikální/chemické vlastnosti",
-        "da": "Fysiske/kemiske egenskaber",
-        "et": "Füüsikalised/keemilised omadused",
-        "fi": "Fysikaaliset/kemialliset ominaisuudet",
-        "fr": "Propriétés physiques/chimiques",
-        "el": "Φυσικές/χημικές ιδιότητες",
-        "hu": "Fizikai/kémiai tulajdonságok",
-        "ga": "Airíonna fisiceacha/ceimiceacha",
-        "it": "Proprietà fisiche/chimiche",
-        "es": "Propiedades físicas/químicas",
-        "lt": "Fizinės ir cheminės savybės",
-        "lv": "Fizikālās un ķīmiskās īpašības",
-        "mt": "Proprjetajiet fiżiċi/kimiċi",
-        "pl": "Właściwości fizyczne/chemiczne",
-        "pt": "Propriedades físico-químicas",
-        "ro": "Proprietăți fizico-chimice",
-        "sk": "Fyzikálne a chemické vlastnosti",
-        "sl": "Fizikalne in kemijske lastnosti",
-        "sv": "Fysikaliska/kemiska egenskaper"
-      },
-      "sortOrder": 65,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC",
-        "instrument": "32004L0042",
-        "kind": "legislation",
-        "description": "Directive 2004/42/EC Art. 4 requires the LABEL to indicate the maximum VOC content in g/l in a ready-to-use condition. The duty is discharged by that label; the Directive creates no passport and no separate publication duty."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "VOC",
-          "volatile organic compounds",
-          "organic solvents"
-        ],
-        "expectedFormat": "Numeric in g/L",
-        "extractionPriority": 8
-      }
-    },
-    {
       "key": "vocLimit",
       "label": {
         "en": "VOC Limit",
@@ -7784,11 +7679,11 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Article 3",
+        "article": "Decopaint Directive 2004/42/EC Arts. 3(1), 4(b)",
         "instrument": "32004L0042",
-        "provision": "Article 3",
+        "provision": "Art. 3(1), Art. 4(b)",
         "kind": "legislation",
-        "description": "This is the exact datum Art. 4(b) requires on the LABEL — the maximum VOC content in g/l of the product in a ready-to-use condition. Real mandated data, discharged by affixing the label rather than by publishing here."
+        "description": "Art. 3(1): the Annex II limit applies to the VOC content of the product in its ready-for-use condition. Art. 4(b): the label shows 'the maximum content of VOC in g/l of the product in a ready to use condition'."
       },
       "aiHints": {
         "alternateNames": [
@@ -8531,7 +8426,7 @@
       }
     }
   ],
-  "fieldCount": 70,
+  "fieldCount": 69,
   "requiredFieldCount": 15,
   "categories": [
     "composition",

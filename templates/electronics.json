@@ -3784,115 +3784,6 @@
       }
     },
     {
-      "key": "waterConsumption",
-      "label": {
-        "en": "Water Consumption",
-        "bg": "Консумация на вода",
-        "de": "Wasserverbrauch",
-        "cs": "Spotřeba vody",
-        "da": "Vandforbrug",
-        "el": "Κατανάλωση νερού",
-        "es": "Consumo de agua",
-        "et": "Veetarbimine",
-        "fi": "Vedenkulutus",
-        "fr": "Consommation d'eau",
-        "ga": "Tomhaltas uisce",
-        "hr": "Potrošnja vode",
-        "hu": "Vízfogyasztás",
-        "it": "Consumo di acqua",
-        "lt": "Vandens suvartojimas",
-        "lv": "Ūdens patēriņš",
-        "mt": "Konsum tal-ilma",
-        "nl": "Waterverbruik",
-        "pl": "Zużycie wody",
-        "pt": "Consumo de água",
-        "ro": "Consum de apă",
-        "sk": "Spotreba vody",
-        "sl": "Poraba vode",
-        "sv": "Vattenförbrukning"
-      },
-      "description": {
-        "en": "Water consumed per cycle or per year (appliances only)",
-        "cs": "Spotřeba vody na cyklus nebo za rok (pouze spotřebiče)",
-        "da": "Vandforbrug pr. cyklus eller pr. år (kun hvidevarer)",
-        "el": "Κατανάλωση νερού ανά κύκλο ή ανά έτος (μόνο συσκευές)",
-        "es": "Agua consumida por ciclo o por año (solo electrodomésticos)",
-        "et": "Veetarve tsükli või aasta kohta (ainult kodumasinad)",
-        "fi": "Vedenkulutus jaksoa tai vuotta kohti (vain kodinkoneet)",
-        "fr": "Eau consommée par cycle ou par an (appareils uniquement)",
-        "ga": "Uisce a ídítear in aghaidh an timthrialla nó in aghaidh na bliana (fearais amháin)",
-        "hr": "Potrošnja vode po ciklusu ili godini (samo kućanski aparati)",
-        "hu": "Vízfogyasztás ciklusonként vagy évente (csak háztartási gépek)",
-        "it": "Acqua consumata per ciclo o all'anno (solo elettrodomestici)",
-        "lt": "Vandens sąnaudos per ciklą arba per metus (tik buitinė technika)",
-        "lv": "Ūdens patēriņš ciklā vai gadā (tikai sadzīves tehnikai)",
-        "mt": "Ilma kkunsmat għal kull ċiklu jew fis-sena (apparat biss)",
-        "nl": "Waterverbruik per cyclus of per jaar (alleen apparaten)",
-        "pl": "Zużycie wody na cykl lub na rok (tylko urządzenia AGD)",
-        "pt": "Água consumida por ciclo ou por ano (apenas eletrodomésticos)",
-        "ro": "Apă consumată pe ciclu sau pe an (doar pentru aparate)",
-        "sk": "Spotreba vody na cyklus alebo za rok (len spotrebiče)",
-        "sl": "Poraba vode na cikel ali letno (samo gospodinjski aparati)",
-        "sv": "Vattenförbrukning per cykel eller per år (endast hushållsapparater)"
-      },
-      "dataType": "number",
-      "unit": "L",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 0
-      },
-      "category": "energy_efficiency",
-      "categoryLabel": {
-        "en": "Energy Efficiency",
-        "bg": "Енергийна ефективност",
-        "de": "Energieeffizienz",
-        "cs": "Energetická účinnost",
-        "da": "Energieffektivitet",
-        "el": "Ενεργειακή απόδοση",
-        "es": "Eficiencia energética",
-        "et": "Energiatõhusus",
-        "fi": "Energiatehokkuus",
-        "fr": "Efficacité énergétique",
-        "ga": "Éifeachtúlacht fuinnimh",
-        "hr": "Energetska učinkovitost",
-        "hu": "Energiahatékonyság",
-        "it": "Efficienza energetica",
-        "lt": "Energijos vartojimo efektyvumas",
-        "lv": "Energoefektivitāte",
-        "mt": "Effiċjenza enerġetika",
-        "nl": "Energie-efficiëntie",
-        "pl": "Efektywność energetyczna",
-        "pt": "Eficiência energética",
-        "ro": "Eficiență energetică",
-        "sk": "Energetická efektívnosť",
-        "sl": "Energijska učinkovitost",
-        "sv": "Energieffektivitet"
-      },
-      "sortOrder": 28,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Art. 7",
-        "annex": "Annex I",
-        "instrument": "32024R1781",
-        "provision": "Art. 7",
-        "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "water use",
-          "water per cycle",
-          "litres per cycle",
-          "water usage"
-        ],
-        "expectedFormat": "Numeric value in litres",
-        "extractionPriority": 6
-      }
-    },
-    {
       "key": "carbonFootprint",
       "label": {
         "en": "Carbon Footprint",
@@ -19256,7 +19147,7 @@
       }
     }
   ],
-  "fieldCount": 162,
+  "fieldCount": 161,
   "requiredFieldCount": 4,
   "categories": [
     {

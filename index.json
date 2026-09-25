@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 990,
-    "requiredFields": 164,
-    "anticipatedFields": 217
+    "fields": 988,
+    "requiredFields": 152,
+    "anticipatedFields": 229
   },
   "categories": [
     {
@@ -67,7 +67,7 @@
       "label": "Electronics",
       "file": "templates/electronics.json",
       "version": 2,
-      "fieldCount": 162,
+      "fieldCount": 161,
       "requiredFieldCount": 4,
       "anticipatedFieldCount": 19,
       "regulation": {
@@ -157,7 +157,7 @@
       "label": "Paints & Coatings",
       "file": "templates/paints-coatings.json",
       "version": 1,
-      "fieldCount": 70,
+      "fieldCount": 69,
       "requiredFieldCount": 15,
       "anticipatedFieldCount": 12,
       "regulation": {
@@ -174,8 +174,8 @@
       "file": "templates/steel.json",
       "version": 2,
       "fieldCount": 84,
-      "requiredFieldCount": 28,
-      "anticipatedFieldCount": 15,
+      "requiredFieldCount": 16,
+      "anticipatedFieldCount": 27,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",
         "number": "(EU) 2024/1781",

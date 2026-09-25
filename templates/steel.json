@@ -1063,7 +1063,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -1278,8 +1281,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "pattern": "^[0-9]{8}$"
+        "required": false,
+        "pattern": "^[0-9]{8}$",
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -1828,7 +1834,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "manufacturer_origin",
       "categoryLabel": {
@@ -4189,7 +4198,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "production_data",
       "categoryLabel": {
@@ -5620,7 +5632,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "production_data",
       "categoryLabel": {
@@ -5841,8 +5856,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -6167,7 +6185,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -6449,7 +6470,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -6554,7 +6578,10 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -7197,7 +7224,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -7362,7 +7392,10 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "cbam",
       "categoryLabel": {
@@ -7468,8 +7501,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
-        "min": 0
+        "required": false,
+        "min": 0,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "CBAM (EU) 2023/956 applies to goods originating in a third country imported into the EU (Art. 2(1)) and binds the authorised CBAM declarant's annual declaration (Art. 6), not a product passport; for a product made in the EU it does not apply. An ESPR iron and steel delegated act under Art. 4 is planned and not adopted, and which of these data it will require is not known."
       },
       "category": "cbam",
       "categoryLabel": {
@@ -11808,7 +11844,7 @@
     }
   ],
   "fieldCount": 84,
-  "requiredFieldCount": 28,
+  "requiredFieldCount": 16,
   "categories": [
     {
       "key": "product_identification",
