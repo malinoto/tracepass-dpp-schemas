@@ -438,7 +438,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -470,10 +470,27 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(6); Reg (EU) 2020/740 Annex II",
-        "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
-        "kind": "legislation"
+        "article": "32020R0740 Annex III(a)",
+        "instrument": "32020R0740",
+        "provision": "Annex III(a)",
+        "kind": "legislation",
+        "description": "Tyre labelling Reg (EU) 2020/740 puts the supplier's trade name in the product information sheet (Annex III(a)). GPSR Art. 9(6) does not apply to tyres, which sit under harmonisation law. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32020R0740",
+            "provision": "Annex III(a)",
+            "carrier": "document",
+            "condition": "C1, C2 and C3 tyres: the product information sheet",
+            "quote": "the trade name or trademark of the supplier or of the manufacturer if it is not the same as that of the supplier"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1290,7 +1307,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "identification",
       "categoryLabel": {
@@ -1322,10 +1339,11 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9",
-        "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "kind": "legislation"
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "Neither GPSR (switched off for tyres by Art. 2(1)(b)) nor Reg (EU) 2020/740 requires a batch number. No adopted act creates a passport for this category, so nothing here is passport-mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -11474,7 +11492,7 @@
     }
   ],
   "fieldCount": 93,
-  "requiredFieldCount": 2,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "identification",

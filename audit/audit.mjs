@@ -397,7 +397,7 @@ function audit(dir, label) {
       console.log(`    ${f.cat.padEnd(12)} ${f.a} ~ ${f.b}  [${f.unit}; ${f.shape}]`);
   }
   if (findings.unverified.length) {
-    console.log(`\n[13] required field without a verification quote (${findings.unverified.length}) — quote the operative sentence in regulationRef.verification, or fix the baseline`);
+    console.log(`\n[13]/[16] required vs recorded obligations (${findings.unverified.length}) — a required field needs an unconditional passport obligation in regulationRef.obligations; an optional one must not have one`);
     for (const f of findings.unverified) console.log(`    ${f.id.padEnd(46)} ${f.why}`);
   }
   if (findings.carrier.length) {

@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 972,
-    "requiredFields": 131,
-    "anticipatedFields": 221
+    "fields": 987,
+    "requiredFields": 65,
+    "anticipatedFields": 220
   },
   "categories": [
     {
@@ -18,7 +18,7 @@
       "file": "templates/battery.json",
       "version": 5,
       "fieldCount": 120,
-      "requiredFieldCount": 50,
+      "requiredFieldCount": 38,
       "anticipatedFieldCount": 16,
       "regulation": {
         "name": "EU Battery Regulation",
@@ -34,7 +34,7 @@
       "file": "templates/construction.json",
       "version": 2,
       "fieldCount": 49,
-      "requiredFieldCount": 4,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {
         "name": "Construction Products Regulation",
@@ -51,7 +51,7 @@
       "label": "Detergents & Surfactants",
       "file": "templates/detergents.json",
       "version": 1,
-      "fieldCount": 75,
+      "fieldCount": 76,
       "requiredFieldCount": 12,
       "anticipatedFieldCount": 10,
       "regulation": {
@@ -68,7 +68,7 @@
       "file": "templates/electronics.json",
       "version": 2,
       "fieldCount": 160,
-      "requiredFieldCount": 4,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 19,
       "regulation": {
         "name": "EU ESPR - Electronics",
@@ -86,7 +86,7 @@
       "file": "templates/fmcg.json",
       "version": 2,
       "fieldCount": 42,
-      "requiredFieldCount": 9,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 6,
       "regulation": {
         "name": "EU ESPR - FMCG",
@@ -104,7 +104,7 @@
       "file": "templates/furniture.json",
       "version": 2,
       "fieldCount": 79,
-      "requiredFieldCount": 4,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Furniture",
@@ -122,7 +122,7 @@
       "file": "templates/jewelry.json",
       "version": 2,
       "fieldCount": 53,
-      "requiredFieldCount": 3,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 10,
       "regulation": {
         "name": "EU ESPR - Jewelry",
@@ -140,7 +140,7 @@
       "file": "templates/packaging.json",
       "version": 2,
       "fieldCount": 64,
-      "requiredFieldCount": 8,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 29,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
@@ -174,7 +174,7 @@
       "file": "templates/steel.json",
       "version": 2,
       "fieldCount": 84,
-      "requiredFieldCount": 16,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 27,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",
@@ -192,7 +192,7 @@
       "file": "templates/textile.json",
       "version": 2,
       "fieldCount": 60,
-      "requiredFieldCount": 5,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 32,
       "regulation": {
         "name": "EU ESPR - Textiles",
@@ -209,9 +209,9 @@
       "label": "Toys",
       "file": "templates/toys.json",
       "version": 2,
-      "fieldCount": 28,
-      "requiredFieldCount": 14,
-      "anticipatedFieldCount": 8,
+      "fieldCount": 42,
+      "requiredFieldCount": 15,
+      "anticipatedFieldCount": 7,
       "regulation": {
         "name": "Toy Safety Regulation",
         "number": "(EU) 2025/2509",
@@ -226,7 +226,7 @@
       "file": "templates/tyres.json",
       "version": 2,
       "fieldCount": 93,
-      "requiredFieldCount": 2,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Tyres",

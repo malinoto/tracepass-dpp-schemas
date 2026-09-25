@@ -327,7 +327,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -359,11 +359,27 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "article": "32011R0305 Art. 11(4)",
+        "instrument": "32011R0305",
+        "provision": "Art. 11(4)",
         "kind": "legislation",
-        "description": "Usually the heat/batch number carried on an EN 10204 inspection document. EN 10204 is the document standard, not the source of the obligation, which is GPSR Art. 9(5).",
+        "description": "For structural steel that is a construction product, the CPR requires a type, batch or serial number or other identifying element on the product. GPSR rarely applies (steel is seldom a consumer product). No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(4)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "Manufacturers shall ensure that their construction products bear a type, batch or serial number or any other element allowing their identification"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 22(5)",
+            "carrier": "product",
+            "condition": "construction products under Reg (EU) 2024/3110",
+            "quote": "The manufacturer shall ensure that its products bear a manufacturer-specific unique identification code of the product type and, where available, a batch or serial number"
+          }
+        ],
         "standards": [
           "EN 10204"
         ]
@@ -1187,7 +1203,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -1219,11 +1235,11 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
-        "annex": null,
-        "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
-        "kind": "legislation"
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "No law requires a product name; steel mill products are rarely consumer products, so GPSR does not apply. No adopted act creates a passport for this category, so nothing here is passport-mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -1410,7 +1426,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -1442,9 +1458,11 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10027-1/2, EN 573-3, EN 1706",
-        "annex": null,
-        "kind": "standard",
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "EN 10027 / EN 573 name grades; no law requires the designation. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
         "standards": [
           "EN 10027-1",
           "EN 10027-2",
@@ -1526,7 +1544,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "manufacturer_origin",
       "categoryLabel": {
@@ -1558,11 +1576,20 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 16",
-        "annex": null,
-        "instrument": "32023R0988",
-        "provision": "Art. 16",
-        "kind": "legislation"
+        "article": "32011R0305 Art. 11(5)",
+        "instrument": "32011R0305",
+        "provision": "Art. 11(5)",
+        "kind": "legislation",
+        "description": "For structural steel that is a construction product, CPR Art. 11(5) puts the manufacturer's name on the product, packaging or accompanying document. The Art. 16 GPSR citation it carried concerns the EU responsible person, not the manufacturer. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(5)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011",
+            "quote": "Manufacturers shall indicate on the construction product or, where that is not possible, on its packaging or in a document accompanying it, their name, registered trade name or registered trade mark and their contact address"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1637,7 +1664,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "manufacturer_origin",
       "categoryLabel": {
@@ -1669,11 +1696,20 @@
       "sortOrder": 10,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "GPSR Art. 16",
-        "annex": null,
-        "instrument": "32023R0988",
-        "provision": "Art. 16",
-        "kind": "legislation"
+        "article": "32011R0305 Art. 11(5)",
+        "instrument": "32011R0305",
+        "provision": "Art. 11(5)",
+        "kind": "legislation",
+        "description": "For structural steel that is a construction product, CPR Art. 11(5) requires the manufacturer's contact address on the product, packaging or accompanying document. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(5)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011",
+            "quote": "Manufacturers shall indicate on the construction product or, where that is not possible, on its packaging or in a document accompanying it, their name, registered trade name or registered trade mark and their contact address"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2644,7 +2680,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2676,9 +2712,20 @@
       "sortOrder": 17,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EN 10204, EN 10025, EN 10088 (stainless)",
-        "annex": null,
-        "kind": "standard",
+        "article": "32011R0305 Art. 6(1)",
+        "instrument": "32011R0305",
+        "provision": "Art. 6(1)",
+        "kind": "legislation",
+        "description": "For steel under a harmonised standard, the declaration of performance states the characteristics the standard's Annex ZA lists; which ones is set by the standard, not the Regulation. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard; which characteristics apply is set by the standard",
+            "quote": "The declaration of performance shall express the performance of construction products in relation to the essential characteristics of those products in accordance with the relevant harmonised technical specifications"
+          }
+        ],
         "standards": [
           "EN 10204",
           "EN 10025",
@@ -3433,7 +3480,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0
       },
       "category": "mechanical_properties",
@@ -3466,9 +3513,20 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10025, EN 10204",
-        "annex": null,
-        "kind": "standard",
+        "article": "32011R0305 Art. 6(1)",
+        "instrument": "32011R0305",
+        "provision": "Art. 6(1)",
+        "kind": "legislation",
+        "description": "Declared in the declaration of performance for steel under a harmonised standard, where that standard lists it. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard; which characteristics apply is set by the standard",
+            "quote": "The declaration of performance shall express the performance of construction products in relation to the essential characteristics of those products in accordance with the relevant harmonised technical specifications"
+          }
+        ],
         "standards": [
           "EN 10204",
           "EN 10025"
@@ -3547,7 +3605,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0
       },
       "category": "mechanical_properties",
@@ -3580,9 +3638,20 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10204",
-        "annex": null,
-        "kind": "standard",
+        "article": "32011R0305 Art. 6(1)",
+        "instrument": "32011R0305",
+        "provision": "Art. 6(1)",
+        "kind": "legislation",
+        "description": "Declared in the declaration of performance for steel under a harmonised standard, where that standard lists it. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard; which characteristics apply is set by the standard",
+            "quote": "The declaration of performance shall express the performance of construction products in relation to the essential characteristics of those products in accordance with the relevant harmonised technical specifications"
+          }
+        ],
         "standards": [
           "EN 10204"
         ]
@@ -3658,7 +3727,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": 0,
         "max": 100
       },
@@ -3692,9 +3761,20 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10204",
-        "annex": null,
-        "kind": "standard",
+        "article": "32011R0305 Art. 6(1)",
+        "instrument": "32011R0305",
+        "provision": "Art. 6(1)",
+        "kind": "legislation",
+        "description": "Declared in the declaration of performance for steel under a harmonised standard, where that standard lists it. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard; which characteristics apply is set by the standard",
+            "quote": "The declaration of performance shall express the performance of construction products in relation to the essential characteristics of those products in accordance with the relevant harmonised technical specifications"
+          }
+        ],
         "standards": [
           "EN 10204"
         ]
@@ -3770,7 +3850,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "mechanical_properties",
       "categoryLabel": {
@@ -3802,9 +3882,20 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10204, ISO 148-1",
-        "annex": null,
-        "kind": "standard",
+        "article": "32011R0305 Art. 6(1)",
+        "instrument": "32011R0305",
+        "provision": "Art. 6(1)",
+        "kind": "legislation",
+        "description": "Declared in the declaration of performance for steel under a harmonised standard, where that standard lists it. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard; which characteristics apply is set by the standard",
+            "quote": "The declaration of performance shall express the performance of construction products in relation to the essential characteristics of those products in accordance with the relevant harmonised technical specifications"
+          }
+        ],
         "standards": [
           "EN 10204",
           "ISO 148-1"
@@ -4485,7 +4576,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "production_data",
       "categoryLabel": {
@@ -4517,9 +4608,11 @@
       "sortOrder": 30,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EN 10204",
-        "annex": null,
-        "kind": "standard",
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "No law names the heat number; it can serve as the identifying element the CPR accepts. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
         "standards": [
           "EN 10204"
         ]
@@ -4858,7 +4951,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "production_data",
       "categoryLabel": {
@@ -4890,9 +4983,11 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10025, EN 10204",
-        "annex": null,
-        "kind": "standard",
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "The delivery condition is set by the standard or the contract; no law requires it. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
         "standards": [
           "EN 10204",
           "EN 10025"
@@ -8051,7 +8146,7 @@
       "defaultValue": false,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -8083,11 +8178,20 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006 Article 33, ESPR Article 5(5)(f)",
-        "annex": null,
+        "article": "32006R1907 Art. 33(1)",
         "instrument": "32006R1907",
-        "provision": "Art. 33",
-        "kind": "legislation"
+        "provision": "Art. 33(1)",
+        "kind": "legislation",
+        "description": "REACH Art. 33(1) requires the substance name to be given to the recipient when a Candidate List substance is above 0,1 % w/w in an article; it never requires a 'no' to be declared. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32006R1907",
+            "provision": "Art. 33(1)",
+            "carrier": "document",
+            "condition": "articles containing a Candidate List substance above 0,1 % w/w; the substance name at minimum",
+            "quote": "shall provide the recipient of the article with sufficient information"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8378,7 +8482,7 @@
       "defaultValue": true,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -8410,11 +8514,11 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex XVII",
-        "annex": null,
-        "instrument": "32006R1907",
-        "provision": "Annex XVII",
-        "kind": "legislation"
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "REACH Annex XVII restrictions are substantive bans (Art. 67(1)); no law requires a compliance statement. No adopted act creates a passport for this category, so nothing here is passport-mandatory."
       },
       "aiHints": {
         "alternateNames": [
@@ -10245,7 +10349,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_certification",
       "categoryLabel": {
@@ -10277,9 +10381,20 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EN 10204:2004",
-        "annex": null,
-        "kind": "standard",
+        "article": "32014L0068 Annex I, point 4.3",
+        "instrument": "32014L0068",
+        "provision": "Annex I, point 4.3",
+        "kind": "legislation",
+        "description": "The Pressure Equipment Directive makes the equipment manufacturer obtain material documentation; EN 10204 defines its form. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32014L0068",
+            "provision": "Annex I, point 4.3",
+            "carrier": "document",
+            "condition": "materials for pressure equipment; a certificate of specific product control for main pressure-bearing parts of categories II to IV",
+            "quote": "documentation prepared by the material manufacturer affirming compliance with a specification shall be obtained for all materials"
+          }
+        ],
         "standards": [
           "EN 10204"
         ]
@@ -10356,7 +10471,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance_certification",
       "categoryLabel": {
@@ -10388,9 +10503,11 @@
       "sortOrder": 72,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EN 10204, ESPR",
-        "annex": null,
-        "kind": "standard",
+        "article": null,
+        "instrument": null,
+        "provision": null,
+        "kind": null,
+        "description": "No law requires a URI for the inspection certificate. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
         "standards": [
           "EN 10204"
         ]
@@ -12023,7 +12140,7 @@
     }
   ],
   "fieldCount": 84,
-  "requiredFieldCount": 16,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "product_identification",

@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-972-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-987-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,31 +39,35 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **972 fields in total. 131 are required by
-an instrument in force; 221 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **987 fields in total. 65 are required by
+a law that creates a passport; 220 are anticipated under a rule that has not yet been adopted.**
+Every other legal duty (on the product, the label, a safety data sheet, a document) is
+recorded per field in `regulationRef.obligations` instead of being marked required.
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 120 | 50 | Regulation (EU) 2023/1542 |
-| `construction` | 49 | 4 | CPR (EU) 2024/3110 |
-| `detergents` | 75 | 12 | Regulation (EU) 2026/405 |
-| `electronics` | 160 | 4 | ESPR (EU) 2024/1781 |
-| `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
-| `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
-| `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
-| `packaging` | 64 | 8 | PPWR (EU) 2025/40 |
+| `battery` | 120 | 38 | Regulation (EU) 2023/1542 |
+| `construction` | 49 | 0 | CPR (EU) 2024/3110 |
+| `detergents` | 76 | 12 | Regulation (EU) 2026/405 |
+| `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |
+| `fmcg` | 42 | 0 | ESPR (EU) 2024/1781 |
+| `furniture` | 79 | 0 | ESPR (EU) 2024/1781 |
+| `jewelry` | 53 | 0 | ESPR (EU) 2024/1781 |
+| `packaging` | 64 | 0 | PPWR (EU) 2025/40 |
 | `paints-coatings` | 65 | 0 | Directive 2004/42/EC |
-| `steel` | 84 | 16 | ESPR (EU) 2024/1781 |
-| `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
-| `toys` | 28 | 14 | Regulation (EU) 2025/2509 |
-| `tyres` | 93 | 2 | ESPR (EU) 2024/1781 |
+| `steel` | 84 | 0 | ESPR (EU) 2024/1781 |
+| `textile` | 60 | 0 | ESPR (EU) 2024/1781 |
+| `toys` | 42 | 15 | Regulation (EU) 2025/2509 |
+| `tyres` | 93 | 0 | ESPR (EU) 2024/1781 |
 
 Battery carries the most required fields because Regulation (EU) 2023/1542 Art. 77 sets a
 real statutory date — 18 February 2027 — rather than awaiting a delegated act. The only
 other categories whose passport duty rests on an adopted instrument are `detergents` and
 `toys` (`dateBasis: "statutory"`); the remaining ten are `"indicative"` — either awaiting
 an ESPR delegated act, or citing an instrument that creates no passport duty at all
-(`paints-coatings`, `packaging`, `construction`).
+(`paints-coatings`, `packaging`, `construction`). Those three passport categories are the only ones
+with required fields; construction's passport points are recorded as obligations
+conditional on the delegated act under Reg (EU) 2024/3110 Art. 75(1).
 
 It is not the case that every battery field is required: the template also carries fields that are
 `anticipated` (pending the carbon-footprint and due-diligence acts, and — per the
@@ -191,11 +195,14 @@ else:
 
 **`regulationRef`** is the reason this data is worth having. Every field says which
 article and annex mandates it, so a compliance report can cite its source rather than
-assert it. A required field's `regulationRef.verification` quotes the operative sentence
-from the act, says where it sits, and states any condition the law attaches (for
-example, the Detergents Regulation's substance list does not bind industrial products).
-Required fields not yet verified against the primary text are listed in
-`audit/unverified-required.json`, which only shrinks.
+assert it. `regulationRef.obligations` lists every law that requires the datum, each with
+the provision, where the law puts it (the passport, the product, the label, a safety data
+sheet, a notification, a document, a customs declaration), any condition, and the
+operative sentence quoted from the act. A field is `required` only when a passport law puts
+it in the passport for every product; a duty elsewhere is recorded, not required. So a
+manufacturer name can be required in the battery passport and, in a category with no
+passport law yet, optional with GPSR Art. 9(6) recorded as the duty to show it on the
+product.
 
 **`label`** is provided in the 24 official EU languages, because ESPR Article 8 requires
 the passport to be available in the language of the member state where the product is

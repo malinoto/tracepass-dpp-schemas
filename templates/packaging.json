@@ -2448,7 +2448,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2480,10 +2480,20 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Annex VII",
+        "article": "32025R0040 Annex VII, point 2(b)",
         "instrument": "32025R0040",
-        "provision": "Annex VII",
-        "kind": "legislation"
+        "provision": "Annex VII, point 2(b)",
+        "kind": "legislation",
+        "description": "PPWR's technical documentation (Annex VII) holds the materials of components; no law requires a count. PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Annex VII, point 2(b)",
+            "carrier": "document",
+            "condition": "technical documentation",
+            "quote": "conceptual design, manufacturing drawings and materials of components"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2554,7 +2564,7 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "material_composition",
       "categoryLabel": {
@@ -2586,10 +2596,20 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 6",
+        "article": "32025R0040 Annex VII, point 2(b)",
         "instrument": "32025R0040",
-        "provision": "Art. 6",
-        "kind": "legislation"
+        "provision": "Annex VII, point 2(b)",
+        "kind": "legislation",
+        "description": "Materials are recorded in the technical documentation (Annex VII); PPWR Art. 6 contains no multi-material datum. PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Annex VII, point 2(b)",
+            "carrier": "document",
+            "condition": "technical documentation",
+            "quote": "conceptual design, manufacturing drawings and materials of components"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6041,7 +6061,7 @@
       "defaultValue": false,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -6073,10 +6093,20 @@
       "sortOrder": 45,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 5(3)",
+        "article": "32025R0040 Art. 5(5)",
         "instrument": "32025R0040",
         "provision": "Art. 5(5)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "PPWR Art. 5(5) sets PFAS limits for food-contact packaging, shown in the technical documentation; it is a limit, not a presence flag. PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 5(5)",
+            "carrier": "document",
+            "condition": "food-contact packaging, from 12 August 2026; compliance shown in the Annex VII technical documentation",
+            "quote": "food-contact packaging shall not be placed on the market if it contains per- and polyfluorinated alkyl substances (PFAS) in a concentration equal to or above"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6148,7 +6178,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "substances_of_concern",
       "categoryLabel": {
@@ -6180,10 +6210,20 @@
       "sortOrder": 46,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 5(4)",
+        "article": "32025R0040 Art. 5(4)",
         "instrument": "32025R0040",
         "provision": "Art. 5(4)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "PPWR Art. 5(4) caps the sum of lead, cadmium, mercury and hexavalent chromium at 100 mg/kg, shown in the technical documentation. PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 5(4)",
+            "carrier": "document",
+            "condition": null,
+            "quote": "shall not exceed 100 mg/kg"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7014,7 +7054,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "declaration_of_conformity",
       "categoryLabel": {
@@ -7046,10 +7086,20 @@
       "sortOrder": 54,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15",
+        "article": "32025R0040 Annex VIII, point 2",
         "instrument": "32025R0040",
-        "provision": "Art. 15",
-        "kind": "legislation"
+        "provision": "Annex VIII, point 2",
+        "kind": "legislation",
+        "description": "Content of the EU declaration of conformity (Art. 39, Annex VIII), not passport data; PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Annex VIII, point 2",
+            "carrier": "document",
+            "condition": "where compliance has been demonstrated by the conformity assessment procedure of PPWR Art. 38",
+            "quote": "Name and address of the manufacturer and, where applicable, the manufacturer"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7121,7 +7171,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "declaration_of_conformity",
       "categoryLabel": {
@@ -7153,10 +7203,20 @@
       "sortOrder": 55,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15",
+        "article": "32025R0040 Annex VIII",
         "instrument": "32025R0040",
-        "provision": "Art. 15",
-        "kind": "legislation"
+        "provision": "Annex VIII",
+        "kind": "legislation",
+        "description": "The EU declaration of conformity carries its place and date of issue (Annex VIII). PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Annex VIII",
+            "carrier": "document",
+            "condition": "where compliance has been demonstrated by the conformity assessment procedure of PPWR Art. 38",
+            "quote": "place and date of issue"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7228,7 +7288,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "declaration_of_conformity",
       "categoryLabel": {
@@ -7260,10 +7320,20 @@
       "sortOrder": 56,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "PPWR Art. 15",
+        "article": "32025R0040 Art. 39(1)",
         "instrument": "32025R0040",
-        "provision": "Art. 15",
-        "kind": "legislation"
+        "provision": "Art. 39(1)",
+        "kind": "legislation",
+        "description": "The declaration of conformity's statement is fixed at Arts. 5 to 12 (Art. 39(1)). PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 39(1)",
+            "carrier": "document",
+            "condition": "where compliance has been demonstrated by the conformity assessment procedure of PPWR Art. 38",
+            "quote": "The EU declaration of conformity shall state that the fulfilment of the requirements laid down in or pursuant to Articles 5 to 12 has been demonstrated"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8029,10 +8099,7 @@
       "defaultValue": 5,
       "enumOptions": [],
       "validation": {
-        "required": true,
-        "anticipated": false,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for packaging; none is adopted. ESPR Art. 10 sets essential requirements for a passport, but Art. 9(1) makes the passport duty itself flow from the applicable Art. 4 delegated act — so Art. 10 attaches only where a passport is already mandated. Packaging is governed by PPWR (EU) 2025/40, which creates no passport, so no retention obligation binds today."
+        "required": false
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -8064,11 +8131,20 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR Art. 15(3)",
+        "article": "32025R0040 Art. 15(3)",
         "instrument": "32025R0040",
-        "provision": "PPWR (EU) 2025/40 Art. 15(3) — manufacturers shall keep the technical documentation and EU declaration of conformity for 5 years (single-use) or 10 years (reusable) from placing on the market",
+        "provision": "Art. 15(3)",
         "kind": "legislation",
-        "description": "In force and unconditional: Art. 15(3) binds every packaging manufacturer today, with no delegated act and no passport precondition, and fixes the 5/10-year split this field records. The duty is to RETAIN the technical documentation and DoC, not to publish a retention figure — but the period is determined by law rather than chosen, so the value is not voluntary. Previously cited to ESPR Art. 10, which cannot bind packaging: ESPR passport-retention attaches only where an Art. 4 delegated act mandates a passport, and none does for packaging."
+        "description": "A record-keeping duty (5 years single-use, 10 years reusable), not disclosed data. PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 15(3)",
+            "carrier": "document",
+            "condition": null,
+            "quote": "Manufacturers shall keep the technical documentation referred to in Annex VII and the EU declaration of conformity as follows"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8611,7 +8687,7 @@
     }
   ],
   "fieldCount": 64,
-  "requiredFieldCount": 8,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "packaging_identification",

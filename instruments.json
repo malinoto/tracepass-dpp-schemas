@@ -346,6 +346,21 @@
       "eli": "http://data.europa.eu/eli/reg/2019/2019/oj",
       "createsDpp": false,
       "note": "Under Ecodesign Directive 2009/125/EC. Applies from 1 March 2021. Annex V provides indicative benchmarks; no Digital Product Passport created."
+    },
+    "32011R0305": {
+      "kind": "legislation",
+      "shortName": "CPR 2011",
+      "title": "Regulation (EU) No 305/2011 laying down harmonised conditions for the marketing of construction products",
+      "eli": "http://data.europa.eu/eli/reg/2011/305/oj",
+      "createsDpp": false,
+      "note": "Repealed by Regulation (EU) 2024/3110, but Art. 94 of that Regulation keeps its Articles 4 to 9 and 11 to 18 applying to products under its harmonised standards until 8 January 2040."
+    },
+    "32014L0068": {
+      "kind": "legislation",
+      "shortName": "Pressure Equipment Directive",
+      "title": "Directive 2014/68/EU on the harmonisation of the laws of the Member States relating to the making available on the market of pressure equipment",
+      "eli": "http://data.europa.eu/eli/dir/2014/68/oj",
+      "createsDpp": false
     }
   },
   "nonLegislative": {

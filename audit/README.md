@@ -92,12 +92,16 @@ IRI in every category, so one key in kg and in Ah is one term with two meanings.
 
 ## Evidence checks [13]–[15] (`evidence-checks.mjs`)
 
-**[13] A required field has no verification quote.** `regulationRef.verification` holds
-the operative sentence, quoted from the act (`quote`), where it sits (`at`), and the
-condition the law attaches when it does not bind every product (`condition`). It is added
-only by reading the act. Required fields not yet verified are listed in
-`unverified-required.json`, which may only shrink: a new required field must arrive
-verified, and an entry that is verified, optional or gone fails the run until removed.
+**[13] and [16] `required` must match the recorded obligations.** `regulationRef.obligations`
+lists every law, read in its primary text, that requires the datum: the act (`instrument`),
+the `provision`, the `carrier` it puts the datum on (`passport`, `product`, `label`,
+`sds`, `notification`, `document`, `customs`), any `condition`, and the verbatim `quote`.
+A field is required exactly when one obligation has carrier `passport` and no condition:
+[13] fails a required field without one, [16] an optional field with one (under-
+requiring). Other obligations record duties elsewhere, which make the datum worth having
+without making it passport-mandatory. Obligations are added only by reading the act.
+`unverified-required.json` lists required fields still to be read; it is empty and may
+only stay so or shrink.
 
 **[14] A required field cites a safety-data-sheet or label provision.** Those duties land
 on a document or a physical label, and REACH Art. 31 and the CLP labelling articles apply

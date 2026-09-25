@@ -535,34 +535,52 @@
               "uniqueItems": true,
               "description": "Keys into `standards.json` for the technical standards this field relates to (test method, declaration format, identifier scheme). Relating to a standard never makes a field required — only `kind: legislation` can — and naming one is not a claim of conformity."
             },
-            "verification": {
-              "type": [
-                "object",
-                "null"
-              ],
-              "description": "Evidence that the citation was checked against the act's primary text: the operative sentence and where it sits. Required on every `validation.required` field (npm run check:audit enforces it, with a shrinking baseline for fields not yet verified). It records what a reader confirmed, so it is only ever added by reading the act, never generated.",
-              "additionalProperties": false,
-              "required": [
-                "quote",
-                "at"
-              ],
-              "properties": {
-                "quote": {
-                  "type": "string",
-                  "minLength": 20,
-                  "description": "The operative sentence, verbatim from the Official Journal text (ellipses allowed), that imposes the duty this field discharges."
-                },
-                "at": {
-                  "type": "string",
-                  "minLength": 3,
-                  "description": "Where the quote sits, e.g. \"32026R0405 Annex VI Part A(h)\"."
-                },
-                "condition": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "description": "The condition the law attaches, when the duty does not bind every product of the category (e.g. \"consumer detergents only; industrial and institutional products use the SDS\"). Null when it binds all."
+            "obligations": {
+              "type": "array",
+              "description": "Every law, verified against its primary text, that requires this datum to exist, and where it puts it. A field is `validation.required` exactly when one entry has carrier `passport` from a law that creates a digital product passport and no condition the template cannot express; other entries record duties elsewhere (on the product, the label, a safety data sheet, a notification, a document, a customs declaration), which make the datum worth having without making it passport-mandatory. Added only by reading the act; npm run check:audit enforces the link to `required`.",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "instrument",
+                  "provision",
+                  "carrier",
+                  "quote"
+                ],
+                "properties": {
+                  "instrument": {
+                    "type": "string",
+                    "description": "CELEX id, e.g. \"32026R0405\"."
+                  },
+                  "provision": {
+                    "type": "string",
+                    "description": "Where in the act, e.g. \"Annex VI Part A(h)\"."
+                  },
+                  "carrier": {
+                    "type": "string",
+                    "enum": [
+                      "passport",
+                      "product",
+                      "label",
+                      "sds",
+                      "notification",
+                      "document",
+                      "customs"
+                    ],
+                    "description": "Where the law puts the datum: the digital product passport, a marking on the product, its label or packaging, a safety data sheet, a notification to an authority or body, an accompanying document (declaration of conformity, instructions), or a customs declaration."
+                  },
+                  "condition": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "The condition the law attaches when the duty does not bind every product of the category (e.g. \"consumer products only\"); null when it binds all."
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 5,
+                    "description": "The operative sentence or sub-point, verbatim from the Official Journal text (ellipses allowed). Annex points can be as short as \"the weight;\"."
+                  }
                 }
               }
             }

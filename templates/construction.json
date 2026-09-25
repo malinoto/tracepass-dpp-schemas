@@ -98,7 +98,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -130,11 +130,34 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "instrument": "32023R0988",
+        "article": "32024R3110 Art. 76(2)(a)(v)",
+        "instrument": "32024R3110",
+        "provision": "Art. 76(2)(a)(v)",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
-        "description": "Carried as a GS1 Digital Link URI / ISO 15459 identifier. Those are the identifier schemes used to express the value; the obligation itself is GPSR Art. 9(5), which names no scheme.",
+        "description": "Reg (EU) 2024/3110 lists this in the construction passport (Art. 76) but defers that passport to a delegated act not yet adopted; today the identifier is a marking on the product. GPSR Art. 9(5) does not apply to construction products (Art. 2(1)(b)).",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 76(2)(a)(v)",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "unique identifiers issued in accordance with Article 79(1)"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 22(5)",
+            "carrier": "product",
+            "condition": "construction products under Reg (EU) 2024/3110",
+            "quote": "The manufacturer shall ensure that its products bear a manufacturer-specific unique identification code of the product type and, where available, a batch or serial number"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(4)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "Manufacturers shall ensure that their construction products bear a type, batch or serial number or any other element allowing their identification"
+          }
+        ],
         "standards": [
           "ISO/IEC 15459"
         ]
@@ -211,7 +234,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -243,11 +266,34 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(5) — product type identification",
-        "instrument": "32023R0988",
+        "article": "32024R3110 Annex IV, point 1.1",
+        "instrument": "32024R3110",
+        "provision": "Annex IV, point 1.1",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product type identification",
-        "description": "Typically carried as a GTIN. GPSR Art. 9(5) requires a product type identification but prescribes no identifier scheme."
+        "description": "Listed for the deferred construction passport (Annex IV 1.1); today a marking on the product under Art. 22(5) (new CPR) or Art. 11(4) (old CPR).",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Annex IV, point 1.1",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "Product identification: unique identification code of the product type"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 22(5)",
+            "carrier": "product",
+            "condition": "construction products under Reg (EU) 2024/3110",
+            "quote": "The manufacturer shall ensure that its products bear a manufacturer-specific unique identification code of the product type and, where available, a batch or serial number"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(4)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "Manufacturers shall ensure that their construction products bear a type, batch or serial number or any other element allowing their identification"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -540,7 +586,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identification",
       "categoryLabel": {
@@ -572,11 +618,34 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
-        "annex": "",
-        "instrument": "32023R0988",
+        "article": "32024R3110 Annex IV, point 1.3",
+        "instrument": "32024R3110",
+        "provision": "Annex IV, point 1.3",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address"
+        "description": "Listed for the deferred construction passport (Annex IV 1.3); today on the product or next to the CE marking.",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Annex IV, point 1.3",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "Contact details of the manufacturer or the authorised representative"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 18(2)(b)",
+            "carrier": "label",
+            "condition": "next to the CE marking, construction products under Reg (EU) 2024/3110",
+            "quote": "the name and the registered address, or the identifying mark allowing easy and unambiguous identification of the name and address, of the manufacturer"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(5)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011",
+            "quote": "Manufacturers shall indicate on the construction product or, where that is not possible, on its packaging or in a document accompanying it, their name, registered trade name or registered trade mark and their contact address"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6247,7 +6316,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "use_safety",
       "categoryLabel": {
@@ -6279,11 +6348,27 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(7) — information enabling assessment of the product's risks in its intended and reasonably foreseeable use",
-        "annex": "",
-        "instrument": "32023R0988",
+        "article": "32024R3110 Annex IV, point 1.2(a)",
+        "instrument": "32024R3110",
+        "provision": "Annex IV, point 1.2(a)",
         "kind": "legislation",
-        "provision": "GPSR (EU) 2023/988 Art. 9(7) — information enabling assessment of the product's risks in its intended and reasonably foreseeable use"
+        "description": "Declared uses are listed for the deferred construction passport (Annex IV 1.2(a)) and in the declaration of performance (old CPR Art. 6(3)(a)). GPSR Art. 9(7), which it cited, says nothing about intended use.",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Annex IV, point 1.2(a)",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "declared uses"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 6(3)(a)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard",
+            "quote": "the intended use or uses for the construction product, in accordance with the applicable harmonised technical specification"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6413,7 +6498,7 @@
     }
   ],
   "fieldCount": 49,
-  "requiredFieldCount": 4,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "product_identification",

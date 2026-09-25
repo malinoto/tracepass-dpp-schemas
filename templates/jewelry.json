@@ -211,7 +211,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -243,10 +243,20 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
+        "article": "32023R0988 Art. 19(c)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
-        "kind": "legislation"
+        "provision": "Art. 19(c)",
+        "kind": "legislation",
+        "description": "No law requires a product name as such: GPSR Art. 9(5) requires an identifying element on consumer products, and Art. 19(c) product identification in an online offer. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(c)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "information allowing the identification of the product, including a picture of it, its type and any other product identifier"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -970,7 +980,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -1002,10 +1012,27 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
+        "article": "32023R0988 Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR Art. 9(6) puts the manufacturer's name and addresses on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(6)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
+            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1079,7 +1106,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -1111,10 +1138,27 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
+        "article": "32023R0988 Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "GPSR Art. 9(6) puts the manufacturer's postal and electronic address on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(6)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
+            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7811,7 +7855,7 @@
     }
   ],
   "fieldCount": 53,
-  "requiredFieldCount": 3,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "product_identity",

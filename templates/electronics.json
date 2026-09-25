@@ -1480,7 +1480,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1512,11 +1512,34 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "article": "32011L0065 Art. 7(h)",
+        "instrument": "32011L0065",
+        "provision": "Art. 7(h)",
         "kind": "legislation",
-        "description": "GPSR (EU) 2023/988 has exactly one annex — unnumbered, a correlation table — so it is never a data source. Every obligation of this kind is article-based; the article is in `provision`."
+        "description": "RoHS Art. 7(h) and the LVD Art. 6(6) put the manufacturer's name on the equipment. GPSR Art. 9(6) does not apply to equipment under this harmonisation law (Art. 2(1)(b)); its Art. 19 governs online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011L0065",
+            "provision": "Art. 7(h)",
+            "carrier": "product",
+            "condition": "electrical and electronic equipment",
+            "quote": "manufacturers indicate their name, registered trade name or registered trade mark and the address at which they can be contacted on the EEE"
+          },
+          {
+            "instrument": "32014L0035",
+            "provision": "Art. 6(6)",
+            "carrier": "product",
+            "condition": "electrical equipment within the Low Voltage Directive's voltage limits",
+            "quote": "Manufacturers shall indicate on the electrical equipment their name, registered trade name or registered trade mark and the postal address at which they can be contacted"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1590,7 +1613,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1622,11 +1645,34 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "article": "32011L0065 Art. 7(h)",
+        "instrument": "32011L0065",
+        "provision": "Art. 7(h)",
         "kind": "legislation",
-        "description": "GPSR (EU) 2023/988 has exactly one annex — unnumbered, a correlation table — so it is never a data source. Every obligation of this kind is article-based; the article is in `provision`."
+        "description": "RoHS Art. 7(h) and the LVD Art. 6(6) put the manufacturer's contact address on the equipment; GPSR Art. 9(6) does not apply here. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011L0065",
+            "provision": "Art. 7(h)",
+            "carrier": "product",
+            "condition": "electrical and electronic equipment",
+            "quote": "manufacturers indicate their name, registered trade name or registered trade mark and the address at which they can be contacted on the EEE"
+          },
+          {
+            "instrument": "32014L0035",
+            "provision": "Art. 6(6)",
+            "carrier": "product",
+            "condition": "electrical equipment within the Low Voltage Directive's voltage limits",
+            "quote": "Manufacturers shall indicate on the electrical equipment their name, registered trade name or registered trade mark and the postal address at which they can be contacted"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -2247,7 +2293,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "compliance",
       "categoryLabel": {
@@ -2279,11 +2325,27 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
-        "annex": null,
+        "article": "32011L0065 Art. 15(1)",
         "instrument": "32011L0065",
-        "provision": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
-        "kind": "legislation"
+        "provision": "Art. 15(1)",
+        "kind": "legislation",
+        "description": "The CE marking is affixed to the equipment (RoHS Art. 15(1), EMC Art. 17(1)); it is a marking, not passport data. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011L0065",
+            "provision": "Art. 15(1)",
+            "carrier": "product",
+            "condition": "electrical and electronic equipment",
+            "quote": "The CE marking shall be affixed visibly, legibly and indelibly to the finished EEE or to its data plate"
+          },
+          {
+            "instrument": "32014L0030",
+            "provision": "Art. 17(1)",
+            "carrier": "product",
+            "condition": "apparatus within the EMC Directive",
+            "quote": "The CE marking shall be affixed visibly, legibly and indelibly to the apparatus or to its data plate"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -20148,7 +20210,7 @@
         }
       ],
       "validation": {
-        "required": true,
+        "required": false,
         "minLength": null,
         "maxLength": null,
         "min": null,
@@ -20185,11 +20247,27 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
-        "annex": null,
+        "article": "32011L0065 Art. 15(1)",
         "instrument": "32011L0065",
-        "provision": "RoHS Dir. 2011/65/EU Art. 15 + EMC Dir. 2014/30/EU Art. 16 — CE marking affixed to the product",
-        "kind": "legislation"
+        "provision": "Art. 15(1)",
+        "kind": "legislation",
+        "description": "The CE marking is affixed to the equipment; the law knows only whether it is affixed, so this status duplicates ceMarking. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32011L0065",
+            "provision": "Art. 15(1)",
+            "carrier": "product",
+            "condition": "electrical and electronic equipment",
+            "quote": "The CE marking shall be affixed visibly, legibly and indelibly to the finished EEE or to its data plate"
+          },
+          {
+            "instrument": "32014L0030",
+            "provision": "Art. 17(1)",
+            "carrier": "product",
+            "condition": "apparatus within the EMC Directive",
+            "quote": "The CE marking shall be affixed visibly, legibly and indelibly to the apparatus or to its data plate"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -20202,7 +20280,7 @@
     }
   ],
   "fieldCount": 160,
-  "requiredFieldCount": 4,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "product_id",

@@ -2,9 +2,10 @@
  * Evidence checks [13]-[15]: whether a `required` claim is backed by something a
  * reader confirmed, and whether the data has the shape the law describes.
  *
- *   [13] a required field carries no `regulationRef.verification` (the quoted
- *        operative sentence). Fields not yet verified are listed in
- *        unverified-required.json, which may only shrink.
+ *   [13] a required field has no `regulationRef.obligations` entry putting it in a
+ *        passport for every product (carrier "passport", no condition). Fields not
+ *        yet verified are listed in unverified-required.json, which may only shrink.
+ *   [16] the reverse: an optional field records such an obligation (under-requiring).
  *   [14] a required field cites a safety-data-sheet or label provision. Those
  *        duties land on a document or a physical label, and are conditional on
  *        classification, so they rarely make passport data mandatory. A reviewed
@@ -26,6 +27,9 @@ const loadJson = (p, fallback) => (existsSync(p) ? JSON.parse(readFileSync(p, "u
 
 const CARRIER = /\bSDS\b|safety data sheet|\blabel\b|\blabelling\b/i;
 
+/** An obligation that makes the field passport-mandatory for every product. */
+const bindsPassport = (o) => o?.carrier === "passport" && !o.condition;
+
 export function checkVerification(templates, baseline) {
   const listed = new Set(baseline.fields ?? []);
   const findings = [];
@@ -34,11 +38,19 @@ export function checkVerification(templates, baseline) {
     for (const f of d.fields) {
       const id = `${d.category}.${f.key}`;
       const required = !!(f.validation ?? {}).required;
-      const verified = !!(f.regulationRef ?? {}).verification;
-      if (required && !verified) {
-        seen.add(id);
-        if (!listed.has(id)) findings.push({ id, why: "required, no verification quote" });
+      const obligations = (f.regulationRef ?? {}).obligations ?? [];
+      const passport = obligations.some(bindsPassport);
+      if (required && !passport) {
+        if (obligations.length) {
+          findings.push({ id, why: "required, but no obligation puts it in a passport for every product" });
+        } else {
+          seen.add(id);
+          if (!listed.has(id)) findings.push({ id, why: "required, no verified obligation" });
+        }
       }
+      // [16] the other direction: a verified, unconditional passport duty on an optional field.
+      if (!required && passport)
+        findings.push({ id, why: "[16] an unconditional passport obligation is recorded, but the field is optional" });
     }
   for (const id of listed)
     if (!seen.has(id))

@@ -213,7 +213,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -245,11 +245,27 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
+        "article": "32023R0988 Art. 9(5)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
+        "provision": "Art. 9(5)",
         "kind": "legislation",
-        "description": "Art. 9(5) requires a type, batch or serial number (or other identifying element) that is easily visible and legible to consumers — on the product, or on its packaging or an accompanying document. The duty is to IDENTIFY the product, not specifically to publish in a passport; carrying it here satisfies the identification and is the natural home for it. Verified against the EUR-Lex text."
+        "description": "A type or model number is one of the identifying elements GPSR Art. 9(5) accepts on consumer products, not a mandated one. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(5)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law); any one of these elements satisfies it",
+            "quote": "Manufacturers shall ensure that their products bear a type, batch or serial number or other element enabling the identification of the product"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(c)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "information allowing the identification of the product, including a picture of it, its type and any other product identifier"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -323,7 +339,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -355,11 +371,20 @@
       "sortOrder": 3,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "32023R0988 Art. 9(5)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — type, batch, serial number or other identifying element",
+        "provision": "Art. 9(5)",
         "kind": "legislation",
-        "description": "Art. 9(5) requires a type, batch or serial number (or other identifying element) that is easily visible and legible to consumers — on the product, or on its packaging or an accompanying document. The duty is to IDENTIFY the product, not specifically to publish in a passport; carrying it here satisfies the identification and is the natural home for it. Verified against the EUR-Lex text."
+        "description": "GPSR Art. 9(5) asks for a type, batch or serial number OR another identifying element on consumer products; a batch number as such is never mandatory. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(5)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law); any one of these elements satisfies it",
+            "quote": "Manufacturers shall ensure that their products bear a type, batch or serial number or other element enabling the identification of the product"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -542,7 +567,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -574,11 +599,27 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "32023R0988 Art. 9(6)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
+        "provision": "Art. 9(6)",
         "kind": "legislation",
-        "description": "Art. 9(6) requires the manufacturer's name, registered trade name or trade mark and postal/electronic address, placed on the product or, where not possible, on the packaging or an accompanying document. As with 9(5) the duty attaches to the CARRIER, not to a passport; the passport is a compliant place to put it. Verified against the EUR-Lex text."
+        "description": "GPSR Art. 9(6) puts the manufacturer's name and addresses on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(6)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
+            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -651,7 +692,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -683,11 +724,27 @@
       "sortOrder": 6,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "32023R0988 Art. 9(6)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(6) — manufacturer name, trade mark, postal and electronic address",
+        "provision": "Art. 9(6)",
         "kind": "legislation",
-        "description": "Art. 9(6) requires the manufacturer's name, registered trade name or trade mark and postal/electronic address, placed on the product or, where not possible, on the packaging or an accompanying document. As with 9(5) the duty attaches to the CARRIER, not to a passport; the passport is a compliant place to put it. Verified against the EUR-Lex text."
+        "description": "GPSR Art. 9(6) puts the manufacturer's postal and electronic address on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(6)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
+            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1082,7 +1139,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -1114,11 +1171,20 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
+        "article": "32023R0988 Art. 19(c)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(5) — product identification",
+        "provision": "Art. 19(c)",
         "kind": "legislation",
-        "description": "Art. 9(5) requires a type, batch or serial number (or other identifying element) that is easily visible and legible to consumers — on the product, or on its packaging or an accompanying document. The duty is to IDENTIFY the product, not specifically to publish in a passport; carrying it here satisfies the identification and is the natural home for it. Verified against the EUR-Lex text."
+        "description": "No law requires a product name as such: GPSR Art. 9(5) requires an identifying element on consumer products, and Art. 19(c) product identification in an online offer. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "obligations": [
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(c)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "information allowing the identification of the product, including a picture of it, its type and any other product identifier"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -7361,7 +7427,7 @@
     }
   ],
   "fieldCount": 60,
-  "requiredFieldCount": 5,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "general_info",

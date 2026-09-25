@@ -98,7 +98,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "required",
+          "laundry": "required"
+        }
       },
       "category": "general_info",
       "categoryLabel": {
@@ -130,10 +134,41 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Cosmetics Regulation Art. 19(1)",
-        "instrument": "32009R1223",
-        "provision": "Art. 19(1)",
-        "kind": "legislation"
+        "article": "32026R0405 Annex VI Part A(a)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A(a)",
+        "kind": "legislation",
+        "description": "A passport datum for detergent-type products only (Reg (EU) 2026/405); for cosmetics the name goes in the notification, for food the legal name on the label.",
+        "obligations": [
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex VI Part A(a)",
+            "carrier": "passport",
+            "condition": "detergent-type products (household_cleaning, laundry), from 23 September 2029",
+            "quote": "the trade name, unique product identifier of the detergent or end-user surfactant"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 13(1)(a)",
+            "carrier": "notification",
+            "condition": "cosmetic products",
+            "quote": "the category of cosmetic product and its name or names, enabling its specific identification"
+          },
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 9(1)(a)",
+            "carrier": "label",
+            "condition": "food",
+            "quote": "the name of the food"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(c)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "information allowing the identification of the product, including a picture of it, its type and any other product identifier"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -206,7 +241,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "required",
+          "laundry": "required"
+        }
       },
       "category": "general_info",
       "categoryLabel": {
@@ -238,10 +277,48 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)-(6)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(5)-(6)",
-        "kind": "legislation"
+        "article": "32026R0405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A(b)",
+        "kind": "legislation",
+        "description": "A passport datum for detergent-type products only; otherwise a label or marking duty that depends on the product type.",
+        "obligations": [
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex VI Part A(b)",
+            "carrier": "passport",
+            "condition": "detergent-type products (household_cleaning, laundry), from 23 September 2029",
+            "quote": "the name, postal and electronic address and telephone number of the manufacturer"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(a)",
+            "carrier": "label",
+            "condition": "cosmetic products: the responsible person, not necessarily the manufacturer",
+            "quote": "the name or registered name and the address of the responsible person"
+          },
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 9(1)(h)",
+            "carrier": "label",
+            "condition": "prepacked food",
+            "quote": "the name or business name and address of the food business operator"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(6)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
+            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 19(a)",
+            "carrier": "document",
+            "condition": "distance sales: the online offer",
+            "quote": "name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -860,7 +937,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -892,10 +969,27 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 1169/2011; Dir 76/211/EEC",
+        "article": "32011R1169 Art. 9(1)(e)",
         "instrument": "32011R1169",
-        "provision": "Art. 9(1)(e), Annex IX",
-        "kind": "legislation"
+        "provision": "Art. 9(1)(e)",
+        "kind": "legislation",
+        "description": "A label duty for food and cosmetics, not passport data.",
+        "obligations": [
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 9(1)(e)",
+            "carrier": "label",
+            "condition": "food; Annex IX exemptions",
+            "quote": "the net quantity of the food"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(b)",
+            "carrier": "label",
+            "condition": "cosmetic products; not under 5 g or 5 ml, free samples or single-application packs",
+            "quote": "the nominal content at the time of packaging, given by weight or by volume"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1115,7 +1209,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -1147,10 +1241,27 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 1169/2011",
+        "article": "32011R1169 Art. 23(1)",
         "instrument": "32011R1169",
-        "provision": "Art. 9(1)(e), Annex IX",
-        "kind": "legislation"
+        "provision": "Art. 23(1)",
+        "kind": "legislation",
+        "description": "A label duty for food and cosmetics, not passport data.",
+        "obligations": [
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 23(1)",
+            "carrier": "label",
+            "condition": "food",
+            "quote": "litres, centilitres, millilitres, kilograms or grams"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(b)",
+            "carrier": "label",
+            "condition": "cosmetic products",
+            "quote": "given by weight or by volume"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -1222,7 +1333,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "required",
+          "laundry": "required"
+        }
       },
       "category": "ingredients",
       "categoryLabel": {
@@ -1254,10 +1369,34 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19; (EC) 648/2004 Art. 11",
-        "instrument": "32009R1223",
-        "provision": "Art. 19(1)(g)",
-        "kind": "legislation"
+        "article": "32026R0405 Annex VI Part A(h)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A(h)",
+        "kind": "legislation",
+        "description": "A passport list for detergent-type products; for cosmetics and food a label list.",
+        "obligations": [
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex VI Part A(h)",
+            "carrier": "passport",
+            "condition": "detergent-type products (household_cleaning, laundry), from 23 September 2029; not industrial and institutional detergents covered by an SDS",
+            "quote": "a full list of substances intentionally added in the detergent or surfactant, identified in accordance with Article 18(3) of Regulation (EC) No 1272/2008"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(g)",
+            "carrier": "label",
+            "condition": "cosmetic products",
+            "quote": "a list of ingredients. This information may be indicated on the packaging alone"
+          },
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 18(1)",
+            "carrier": "label",
+            "condition": "food",
+            "quote": "It shall include all the ingredients of the food, in descending order of weight"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -4156,7 +4295,7 @@
         }
       ],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "packaging",
       "categoryLabel": {
@@ -4188,10 +4327,20 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 11",
+        "article": "32025R0040 Art. 12(1)",
         "instrument": "32025R0040",
-        "provision": "Art. 11",
-        "kind": "legislation"
+        "provision": "Art. 12(1)",
+        "kind": "legislation",
+        "description": "The PPWR Art. 12(1) harmonised material-composition label (the Art. 11 it cited is reusable packaging). PPWR creates no passport.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 12(1)",
+            "carrier": "label",
+            "condition": "from 12 August 2028 or 24 months after the implementing act, whichever is later",
+            "quote": "packaging placed on the market shall be marked with a harmonised label containing information on its material composition"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5189,7 +5338,11 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "required",
+          "laundry": "required"
+        }
       },
       "category": "usage",
       "categoryLabel": {
@@ -5221,10 +5374,34 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2023/988 Art. 9; ESPR Art. 9(2)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
-        "kind": "legislation"
+        "article": "32026R0405 Annex VI Part A(d)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A(d)",
+        "kind": "legislation",
+        "description": "A passport datum for detergent-type products (traceability identification, which a type number also meets); for cosmetics a label duty.",
+        "obligations": [
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex VI Part A(d)",
+            "carrier": "passport",
+            "condition": "detergent-type products (household_cleaning, laundry), from 23 September 2029",
+            "quote": "the identification of the detergent or end-user surfactant allowing traceability"
+          },
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(e)",
+            "carrier": "label",
+            "condition": "cosmetic products",
+            "quote": "the batch number of manufacture or the reference for identifying the cosmetic product"
+          },
+          {
+            "instrument": "32023R0988",
+            "provision": "Art. 9(5)",
+            "carrier": "product",
+            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law); any one of these elements satisfies it",
+            "quote": "Manufacturers shall ensure that their products bear a type, batch or serial number or other element enabling the identification of the product"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6003,7 +6180,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -6035,10 +6212,20 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 12",
+        "article": "32025R0040 Art. 12(1)",
         "instrument": "32025R0040",
-        "provision": "Art. 12",
-        "kind": "legislation"
+        "provision": "Art. 12(1)",
+        "kind": "legislation",
+        "description": "PPWR permits, but does not require, a QR code with each component's destination; no law requires free-text disposal instructions.",
+        "obligations": [
+          {
+            "instrument": "32025R0040",
+            "provision": "Art. 12(1)",
+            "carrier": "label",
+            "condition": "optional",
+            "quote": "economic operators may place a QR code"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6332,7 +6519,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -6364,10 +6551,27 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Union Customs Code (EU) 952/2013 (non-preferential origin)",
-        "instrument": "32013R0952",
-        "provision": "Art. 9(2)",
-        "kind": "legislation"
+        "article": "32009R1223 Art. 19(1)(a)",
+        "instrument": "32009R1223",
+        "provision": "Art. 19(1)(a)",
+        "kind": "legislation",
+        "description": "A label duty for imported cosmetics and, where omission would mislead, food. The Union Customs Code Art. 9 it cited is EORI registration.",
+        "obligations": [
+          {
+            "instrument": "32009R1223",
+            "provision": "Art. 19(1)(a)",
+            "carrier": "label",
+            "condition": "imported cosmetic products",
+            "quote": "The country of origin shall be specified for imported cosmetic products"
+          },
+          {
+            "instrument": "32011R1169",
+            "provision": "Art. 26(2)(a)",
+            "carrier": "label",
+            "condition": "food, only where omitting it could mislead",
+            "quote": "where failure to indicate this might mislead the consumer"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -6496,7 +6700,7 @@
     }
   ],
   "fieldCount": 42,
-  "requiredFieldCount": 9,
+  "requiredFieldCount": 0,
   "categories": [
     {
       "key": "general_info",

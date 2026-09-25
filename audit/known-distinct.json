@@ -126,6 +126,12 @@
       "a": "emptySpacePercent",
       "b": "maxAllowedEmptySpacePercent",
       "why": "Measured empty space vs the legal ceiling (PPWR Art. 24(1))."
+    },
+    {
+      "category": "toys",
+      "a": "notifiedBody",
+      "b": "notifiedBodyCertificateReference",
+      "why": "The notified body's name and number vs the reference of the certificate it issued; Reg (EU) 2025/2509 Annex VI Part I(j) lists both."
     }
   ],
   "contrasts": [
