@@ -7,7 +7,7 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 988,
+    "fields": 987,
     "requiredFields": 152,
     "anticipatedFields": 229
   },
@@ -225,7 +225,7 @@
       "label": "Tyres",
       "file": "templates/tyres.json",
       "version": 2,
-      "fieldCount": 94,
+      "fieldCount": 93,
       "requiredFieldCount": 2,
       "anticipatedFieldCount": 26,
       "regulation": {

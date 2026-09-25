@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Globally unique product identifier following GS1 Digital Link standard",
+        "bg": "Глобално уникален идентификатор на продукта по стандарта GS1 Digital Link",
+        "de": "Global eindeutiger Produktbezeichner nach GS1 Digital Link Standard",
         "fr": "Identifiant de produit mondialement unique conforme à la norme GS1 Digital Link",
         "hr": "Globalno jedinstveni identifikator proizvoda prema GS1 Digital Link standardu",
         "cs": "Globálně jedinečný identifikátor produktu podle standardu GS1 Digital Link",
@@ -179,6 +181,8 @@
       },
       "description": {
         "en": "Commercial name or trade designation of the jewelry item",
+        "bg": "Търговско наименование или търговско обозначение на бижутерийното изделие",
+        "de": "Handelsname oder Handelsbezeichnung des Schmuckstücks",
         "fr": "Nom commercial ou désignation commerciale de l'article de joaillerie",
         "hr": "Komercijalni naziv ili trgovačka oznaka nakita",
         "cs": "Obchodní název nebo obchodní označení šperku",
@@ -286,6 +290,8 @@
       },
       "description": {
         "en": "Type of jewelry item",
+        "bg": "Вид бижутерийно изделие",
+        "de": "Art des Schmuckstücks",
         "fr": "Type d'article de joaillerie",
         "hr": "Vrsta nakita",
         "cs": "Typ šperku",
@@ -716,6 +722,8 @@
       },
       "description": {
         "en": "Unique serial number assigned to the individual piece",
+        "bg": "Уникален сериен номер, присвоен на конкретното изделие",
+        "de": "Eindeutige Seriennummer des einzelnen Stücks",
         "fr": "Numéro de série unique attribué à la pièce individuelle",
         "hr": "Jedinstveni serijski broj dodijeljen pojedinačnom komadu",
         "cs": "Jedinečné sériové číslo přiřazené jednotlivému kusu",
@@ -823,6 +831,8 @@
       },
       "description": {
         "en": "Batch or lot number for production traceability",
+        "bg": "Номер на партидата за проследимост на производството",
+        "de": "Chargen- oder Losnummer für die Produktionsverfolgbarkeit",
         "fr": "Numéro de lot ou de série pour la traçabilité de la production",
         "hr": "Broj serije ili šarže za sljedivost proizvodnje",
         "cs": "Číslo šarže nebo dávky pro sledovatelnost výroby",
@@ -930,6 +940,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer or economic operator",
+        "bg": "Правно наименование на производителя или стопанския субект",
+        "de": "Rechtliche Bezeichnung des Herstellers oder Wirtschaftsakteurs",
         "fr": "Nom légal du fabricant ou de l'opérateur économique",
         "hr": "Pravni naziv proizvođača ili gospodarskog subjekta",
         "cs": "Právní název výrobce nebo hospodářského subjektu",
@@ -1037,6 +1049,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer",
+        "bg": "Регистриран адрес на производителя",
+        "de": "Eingetragene Adresse des Herstellers",
         "fr": "Adresse d'enregistrement du fabricant",
         "hr": "Registrirana adresa proizvođača",
         "cs": "Registrovaná adresa výrobce",
@@ -1142,6 +1156,8 @@
       },
       "description": {
         "en": "Country where the manufacturer is registered (ISO 3166-1 alpha-2)",
+        "bg": "Държава, в която е регистриран производителят (ISO 3166-1 alpha-2)",
+        "de": "Land, in dem der Hersteller eingetragen ist (ISO 3166-1 alpha-2)",
         "fr": "Pays où le fabricant est enregistré (ISO 3166-1 alpha-2)",
         "hr": "Zemlja u kojoj je proizvođač registriran (ISO 3166-1 alpha-2)",
         "cs": "Země, kde je výrobce registrován (ISO 3166-1 alpha-2)",
@@ -1251,6 +1267,8 @@
       },
       "description": {
         "en": "Name of the retailer, if different from the manufacturer",
+        "bg": "Наименование на търговеца на дребно, ако е различно от производителя",
+        "de": "Name des Händlers, sofern er sich vom Hersteller unterscheidet",
         "fr": "Nom du détaillant, s'il diffère du fabricant",
         "hr": "Naziv trgovca, ako se razlikuje od proizvođača",
         "cs": "Název prodejce, pokud se liší od výrobce",
@@ -1359,6 +1377,8 @@
       },
       "description": {
         "en": "The primary precious metal used in the jewelry piece",
+        "bg": "Основният благороден метал, използван в бижутото",
+        "de": "Das primär verwendete Edelmetall im Schmuckstück",
         "fr": "Le métal précieux principal utilisé dans la pièce de joaillerie",
         "hr": "Glavni plemeniti metal korišten u komadu nakita",
         "cs": "Hlavní drahý kov použitý ve šperku",
@@ -1582,6 +1602,8 @@
       },
       "description": {
         "en": "Purity of the metal in millesimal fineness (e.g. 750 for 18k gold, 925 for sterling silver)",
+        "bg": "Чистота на метала в хилядни (напр. 750 за 18-каратово злато, 925 за стерлингово сребро)",
+        "de": "Metallreinheit in Tausendstel (z. B. 750 für 18 Karat Gold, 925 für Sterlingsilber)",
         "fr": "Pureté du métal en titre au millième (ex. 750 pour or 18 carats, 925 pour argent sterling)",
         "hr": "Čistoća metala u tisućitim dijelovima (npr. 750 za 18k zlato, 925 za srebro sterling)",
         "cs": "Ryzost kovu v tisícinách (např. 750 pro 18k zlato, 925 pro sterlingové stříbro)",
@@ -1691,6 +1713,8 @@
       },
       "description": {
         "en": "Weight of the precious metal component in grams",
+        "bg": "Тегло на компонента от благороден метал в грамове",
+        "de": "Gewicht der Edelmetallkomponente in Gramm",
         "fr": "Poids du composant métal précieux en grammes",
         "hr": "Težina komponente plemenitog metala u gramima",
         "cs": "Hmotnost komponenty z drahého kovu v gramech",
@@ -1796,6 +1820,8 @@
       },
       "description": {
         "en": "Whether the item bears an official hallmark stamp",
+        "bg": "Дали изделието носи официален пробирен щемпел",
+        "de": "Ob das Stück ein offizielles Prüfzeichen trägt",
         "fr": "Si l'article porte un poinçon officiel",
         "hr": "Nosi li artikl službenu oznaku finoće",
         "cs": "Zda předmět nese úřední puncovní značku",
@@ -1901,6 +1927,8 @@
       },
       "description": {
         "en": "The assay office or authority that applied the hallmark",
+        "bg": "Пробирна лаборатория или орган, поставил пробата",
+        "de": "Die Prüfstelle oder Behörde, die das Prüfzeichen angebracht hat",
         "fr": "Bureau d'essai ou autorité ayant apposé le poinçon",
         "hr": "Uprava za ispitivanje ili tijelo koje je stavilo oznaku finoće",
         "cs": "Zkušební úřad nebo orgán, který puncovní značku použil",
@@ -2005,6 +2033,8 @@
       },
       "description": {
         "en": "Official hallmark registration or certificate number",
+        "bg": "Официален регистрационен или сертификационен номер на пробата",
+        "de": "Offizielle Registrierungs- oder Zertifikatsnummer des Prüfzeichens",
         "fr": "Numéro d'enregistrement ou de certificat de poinçon officiel",
         "hr": "Službeni registracijski broj ili broj certifikata oznake finoće",
         "cs": "Úřední registrační nebo certifikační číslo puncu",
@@ -2109,6 +2139,8 @@
       },
       "description": {
         "en": "Other metals or plating used (e.g. rhodium plating, rose gold alloy components)",
+        "bg": "Други използвани метали или покрития (напр. родиево покритие, компоненти от розово злато)",
+        "de": "Weitere verwendete Metalle oder Beschichtungen (z. B. Rhodiumbeschichtung, Roségoldlegierungskomponenten)",
         "fr": "Autres métaux ou revêtements utilisés (ex. rhodiage, composants or rose)",
         "hr": "Drugi korišteni metali ili presvlake (npr. rodiranje, komponente ružičastog zlata)",
         "cs": "Další použité kovy nebo povlaky (např. rhodiová povrchová úprava, komponenty růžového zlata)",
@@ -2217,6 +2249,8 @@
       },
       "description": {
         "en": "Type of the primary gemstone set in the jewelry",
+        "bg": "Вид на основния скъпоценен камък, монтиран в бижуто",
+        "de": "Art des primären Edelsteins im Schmuckstück",
         "fr": "Type de gemme principale sertie dans la joaillerie",
         "hr": "Vrsta primarnog dragog kamena ugrađenog u nakit",
         "cs": "Typ hlavního drahokamu zasazeného ve šperku",
@@ -3281,6 +3315,8 @@
       },
       "description": {
         "en": "Weight of the gemstone in carats",
+        "bg": "Тегло на скъпоценния камък в карати",
+        "de": "Gewicht des Edelsteins in Karat",
         "fr": "Poids de la gemme en carats",
         "hr": "Težina dragog kamena u karatima",
         "cs": "Hmotnost drahokamu v karátech",
@@ -3387,6 +3423,8 @@
       },
       "description": {
         "en": "Color grade of the gemstone (e.g. D-Z for diamonds, or descriptive for colored stones)",
+        "bg": "Цветова степен на скъпоценния камък (напр. D-Z за диаманти или описателна за цветни камъни)",
+        "de": "Farbgrad des Edelsteins (z. B. D-Z für Diamanten oder beschreibend für farbige Steine)",
         "fr": "Classement de couleur de la gemme (ex. D-Z pour diamants, ou descriptif pour pierres de couleur)",
         "hr": "Ocjena boje dragog kamena (npr. D-Z za dijamante ili opisna za obojene kamene)",
         "cs": "Stupeň barvy drahokamu (např. D-Z pro diamanty nebo popisný pro barevné kameny)",
@@ -3492,6 +3530,8 @@
       },
       "description": {
         "en": "Clarity grade of the gemstone (e.g. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 for diamonds)",
+        "bg": "Степен на чистота на скъпоценния камък (напр. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 за диаманти)",
+        "de": "Reinheitsgrad des Edelsteins (z. B. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 für Diamanten)",
         "fr": "Classement de pureté de la gemme (ex. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 pour diamants)",
         "hr": "Ocjena čistoće dragog kamena (npr. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 za dijamante)",
         "cs": "Stupeň čistoty drahokamu (např. FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3 pro diamanty)",
@@ -3597,6 +3637,8 @@
       },
       "description": {
         "en": "Cut grade or shape of the gemstone (for diamonds: Excellent/Very Good/Good/Fair/Poor)",
+        "bg": "Степен или форма на рязането на скъпоценния камък (за диаманти: Excellent/Very Good/Good/Fair/Poor)",
+        "de": "Schliffgrad oder -form des Edelsteins (für Diamanten: Excellent/Very Good/Good/Fair/Poor)",
         "fr": "Classement ou forme de taille de la gemme (pour diamants : Excellent/Très Bon/Bon/Acceptable/Faible)",
         "hr": "Ocjena brušenja ili oblik dragog kamena (za dijamante: Izvrsno/Vrlo dobro/Dobro/Zadovoljavajuće/Slabo)",
         "cs": "Stupeň brusu nebo tvar drahokamu (pro diamanty: Excellent/Very Good/Good/Fair/Poor)",
@@ -3704,6 +3746,8 @@
       },
       "description": {
         "en": "Country where the gemstone was mined",
+        "bg": "Държава, в която е добит скъпоценният камък",
+        "de": "Land, in dem der Edelstein abgebaut wurde",
         "fr": "Pays où la gemme a été extraite",
         "hr": "Zemlja u kojoj je dragi kamen iskopan",
         "cs": "Země, kde byl drahokam vytěžen",
@@ -3809,6 +3853,8 @@
       },
       "description": {
         "en": "Any treatment applied to the gemstone to enhance appearance",
+        "bg": "Всяко приложено третиране на скъпоценния камък за подобряване на вида",
+        "de": "Jede am Edelstein vorgenommene Behandlung zur Verbesserung des Erscheinungsbilds",
         "fr": "Tout traitement appliqué à la gemme pour améliorer l'apparence",
         "hr": "Bilo kakva obrada primijenjena na dragi kamen za poboljšanje izgleda",
         "cs": "Jakákoliv úprava provedená na drahokamu za účelem zlepšení vzhledu",
@@ -4177,6 +4223,8 @@
       },
       "description": {
         "en": "Gemological laboratory certificate number and URL (GIA, IGI, AGS, etc.)",
+        "bg": "Номер на сертификат и URL от геммологична лаборатория (GIA, IGI, AGS и др.)",
+        "de": "Zertifikatsnummer und URL eines gemmologischen Labors (GIA, IGI, AGS usw.)",
         "fr": "Numéro de certificat et URL du laboratoire gemmologique (GIA, IGI, AGS, etc.)",
         "hr": "Broj i URL gemološkog laboratorijskog certifikata (GIA, IGI, AGS, itd.)",
         "cs": "Číslo a URL gemologického laboratorního certifikátu (GIA, IGI, AGS atd.)",
@@ -4284,6 +4332,8 @@
       },
       "description": {
         "en": "Whether the gemstone is natural (mined) or synthetic (lab-grown)",
+        "bg": "Дали скъпоценният камък е естествен (добит) или синтетичен (създаден в лаборатория)",
+        "de": "Ob der Edelstein natürlich (abgebaut) oder synthetisch (im Labor gezüchtet) ist",
         "fr": "Si la gemme est naturelle (minée) ou synthétique (créée en laboratoire)",
         "hr": "Je li dragi kamen prirodan (iskopan) ili sintetički (uzgojen u laboratoriju)",
         "cs": "Zda je drahokam přírodní (těžený) nebo syntetický (pěstovaný v laboratoři)",
@@ -4391,6 +4441,8 @@
       },
       "description": {
         "en": "Country where the precious metal was mined or refined",
+        "bg": "Държава, в която е добит или рафиниран благородният метал",
+        "de": "Land, in dem das Edelmetall abgebaut oder raffiniert wurde",
         "fr": "Pays où le métal précieux a été miné ou affiné",
         "hr": "Zemlja u kojoj je plemeniti metal iskopan ili rafiniran",
         "cs": "Země, kde byl drahý kov vytěžen nebo rafinován",
@@ -4497,6 +4549,8 @@
       },
       "description": {
         "en": "Specific mine where the gemstone was extracted, if known",
+        "bg": "Конкретна мина, от която е добит скъпоценният камък, ако е известна",
+        "de": "Spezifische Mine, aus der der Edelstein gewonnen wurde, sofern bekannt",
         "fr": "Mine spécifique où la gemme a été extraite, si connue",
         "hr": "Određeni rudnik u kojem je dragi kamen iskopan, ako je poznat",
         "cs": "Konkrétní důl, kde byl drahokam vytěžen, pokud je znám",
@@ -4602,6 +4656,8 @@
       },
       "description": {
         "en": "Whether the materials comply with EU Conflict Minerals Regulation",
+        "bg": "Дали материалите отговарят на Регламента на ЕС за конфликтни минерали",
+        "de": "Ob die Materialien die EU-Verordnung über Konfliktmineralien erfüllen",
         "fr": "Si les matériaux se conforment au Règlement de l'UE sur les Minerais de Conflit",
         "hr": "Jesu li materijali u skladu s Uredbom EU o sukobnim mineralima",
         "cs": "Zda jsou materiály v souladu s nařízením EU o konfliktních minerálech",
@@ -4709,6 +4765,8 @@
       },
       "description": {
         "en": "Whether diamonds comply with the Kimberley Process Certification Scheme",
+        "bg": "Дали диамантите отговарят на Схемата за сертификация на процеса Кимбърли",
+        "de": "Ob die Diamanten das Zertifizierungssystem des Kimberley-Prozesses erfüllen",
         "fr": "Si les diamants se conforment au Système de Certification du Processus Kimberley",
         "hr": "Jesu li dijamanti u skladu sa Sustavom certifikacije Kimberley procesa",
         "cs": "Zda diamanty odpovídají schématu certifikace Kimberleyského procesu",
@@ -4814,6 +4872,8 @@
       },
       "description": {
         "en": "Whether the gold is Fairmined certified (artisanal and small-scale mining standard)",
+        "bg": "Дали златото е сертифицирано по Fairmined (стандарт за занаятчийски и дребномащабен добив)",
+        "de": "Ob das Gold nach Fairmined zertifiziert ist (Standard für handwerklichen und kleingewerblichen Bergbau)",
         "fr": "Si l'or est certifié Fairmined (norme d'exploitation artisanale et petite échelle)",
         "hr": "Je li zlato Fairmined certificirano (standard obrtničkog i malog rudarstva)",
         "cs": "Zda je zlato certifikováno Fairmined (standard řemeslné a malé těžby)",
@@ -4919,6 +4979,8 @@
       },
       "description": {
         "en": "Responsible Jewellery Council certification status (COP or COC)",
+        "bg": "Статус на сертификация от Responsible Jewellery Council (COP или COC)",
+        "de": "Zertifizierungsstatus des Responsible Jewellery Council (COP oder COC)",
         "fr": "Statut de certification du Responsible Jewellery Council (CoP ou CoC)",
         "hr": "Status certifikacije Responsible Jewellery Council (CoP ili CoC)",
         "cs": "Status certifikace Responsible Jewellery Council (CoP nebo CoC)",
@@ -5024,6 +5086,8 @@
       },
       "description": {
         "en": "URL to the chain of custody documentation proving traceability",
+        "bg": "URL към документацията за верига на попечителство, доказваща проследимостта",
+        "de": "URL zur Rückverfolgbarkeitsdokumentation als Nachweis der Lieferkette",
         "fr": "URL à la documentation de chaîne de traçabilité prouvant la traçabilité",
         "hr": "URL do dokumentacije lanca skrbi koja dokazuje sljedivost",
         "cs": "URL k dokumentaci řetězce dohledu prokazující sledovatelnost",
@@ -5129,6 +5193,8 @@
       },
       "description": {
         "en": "Lead content in parts per million — must be below 500 ppm per REACH",
+        "bg": "Съдържание на олово в части на милион — трябва да е под 500 ppm съгласно REACH",
+        "de": "Bleigehalt in Teilen pro Million — muss gemäß REACH unter 500 ppm liegen",
         "fr": "Teneur en plomb en parties par million — doit être inférieure à 500 ppm selon REACH",
         "hr": "Sadržaj olova u dijelovima na milijun — mora biti ispod 500 ppm prema REACH",
         "cs": "Obsah olova v částicích na milion — musí být pod 500 ppm dle REACH",
@@ -5236,6 +5302,8 @@
       },
       "description": {
         "en": "Cadmium content in parts per million — must be below 100 ppm per REACH",
+        "bg": "Съдържание на кадмий в части на милион — трябва да е под 100 ppm съгласно REACH",
+        "de": "Cadmiumgehalt in Teilen pro Million — muss gemäß REACH unter 100 ppm liegen",
         "fr": "Teneur en cadmium en parties par million — doit être inférieure à 100 ppm selon REACH",
         "hr": "Sadržaj kadmija u dijelovima na milijun — mora biti ispod 100 ppm prema REACH",
         "cs": "Obsah kadmia v částicích na milion — musí být pod 100 ppm dle REACH",
@@ -5343,6 +5411,8 @@
       },
       "description": {
         "en": "Nickel migration rate — must be < 0.2 ug/cm2/week for piercing jewelry, < 0.5 for prolonged skin contact",
+        "bg": "Скорост на миграция на никела — трябва да е < 0,2 µg/cm2/седмица за пиърсинг бижута, < 0,5 при продължителен контакт с кожата",
+        "de": "Nickelmigrationsrate — muss bei Piercingschmuck < 0,2 µg/cm2/Woche, bei längerem Hautkontakt < 0,5 betragen",
         "fr": "Taux de migration du nickel — doit être < 0,2 ug/cm2/semaine pour joaillerie percée, < 0,5 pour contact prolongé",
         "hr": "Stopa migracije nikla — mora biti < 0,2 ug/cm2/tjedan za piercing nakit, < 0,5 za produženi kontakt s kožom",
         "cs": "Rychlost migrace niklu — musí být < 0,2 ug/cm2/týden pro piercingové šperky, < 0,5 pro prodloužený kontakt s kůží",
@@ -5450,6 +5520,8 @@
       },
       "description": {
         "en": "Whether Substances of Very High Concern are present above 0.1% w/w",
+        "bg": "Дали SVHC са налице над 0,1% тегл./тегл.",
+        "de": "Ob besonders besorgniserregende Stoffe (SVHC) über 0,1 % w/w vorhanden sind",
         "fr": "Si des Substances Extrêmement Préoccupantes sont présentes au-delà de 0,1% p/p",
         "hr": "Jesu li tvari vrlo visoke zabrinutosti prisutne iznad 0,1% m/m",
         "cs": "Zda jsou látky vzbuzující velmi velké obavy přítomny nad 0,1% hmot./hmot.",
@@ -5557,6 +5629,8 @@
       },
       "description": {
         "en": "URL to the REACH compliance test report",
+        "bg": "URL към протокола от изпитване за съответствие с REACH",
+        "de": "URL zum REACH-Konformitätsprüfbericht",
         "fr": "URL du rapport de test de conformité REACH",
         "hr": "URL do izvješća o testiranju sukladnosti s REACH",
         "cs": "URL ke zprávě o testování shody s REACH",
@@ -5663,6 +5737,8 @@
       },
       "description": {
         "en": "Total carbon footprint of the product in kg CO2 equivalent (optional for jewelry)",
+        "bg": "Общ въглероден отпечатък на продукта в kg CO2-еквивалент (незадължително за бижута)",
+        "de": "Gesamter Kohlenstoff-Fußabdruck des Produkts in kg CO2-Äquivalent (optional für Schmuck)",
         "fr": "Empreinte carbone totale du produit en kg équivalent CO2 (optionnel pour joaillerie)",
         "hr": "Ukupni ugljični otisak proizvoda u kg ekvivalenta CO2 (neobavezno za nakit)",
         "cs": "Celková uhlíková stopa produktu v kg ekvivalentu CO2 (volitelné pro šperky)",
@@ -5772,6 +5848,8 @@
       },
       "description": {
         "en": "Percentage of recycled precious metal content",
+        "bg": "Процент рециклирано съдържание на благороден метал",
+        "de": "Anteil recycelter Edelmetalle in Prozent",
         "fr": "Pourcentage de teneur en métal précieux recyclé",
         "hr": "Postotak sadržaja recikliranog plemenitog metala",
         "cs": "Procento obsahu recyklovaného drahého kovu",
@@ -5880,6 +5958,8 @@
       },
       "description": {
         "en": "Water usage in production (optional)",
+        "bg": "Използвана вода при производство (незадължително)",
+        "de": "Wasserverbrauch in der Produktion (optional)",
         "fr": "Utilisation d'eau en production (optionnel)",
         "hr": "Potrošnja vode u proizvodnji (neobavezno)",
         "cs": "Spotřeba vody při výrobě (volitelné)",
@@ -5986,6 +6066,8 @@
       },
       "description": {
         "en": "Cleaning, storage, and wearing guidance for the jewelry item",
+        "bg": "Инструкции за почистване, съхранение и носене на бижутерийното изделие",
+        "de": "Reinigungs-, Aufbewahrungs- und Tragehinweise für das Schmuckstück",
         "fr": "Recommandations de nettoyage, rangement et port de la joaillerie",
         "hr": "Upute za čišćenje, pohranu i nošenje nakita",
         "cs": "Pokyny k čištění, skladování a nošení šperku",
@@ -6095,6 +6177,8 @@
       },
       "description": {
         "en": "Whether professional repair services are available for this item",
+        "bg": "Дали са налични услуги за професионален ремонт на това изделие",
+        "de": "Ob professionelle Reparaturdienstleistungen für diesen Artikel verfügbar sind",
         "fr": "Si des services de réparation professionnelle sont disponibles pour cet article",
         "hr": "Jesu li profesionalne usluge popravka dostupne za ovaj artikl",
         "cs": "Zda jsou pro tento předmět dostupné profesionální opravárenské služby",
@@ -6203,6 +6287,8 @@
       },
       "description": {
         "en": "Whether the item can be resized (primarily applicable to rings)",
+        "bg": "Дали изделието може да бъде преоразмерено (приложимо главно за пръстени)",
+        "de": "Ob der Artikel in der Größe angepasst werden kann (vor allem für Ringe)",
         "fr": "Si l'article peut être redimensionné (principalement applicable aux bagues)",
         "hr": "Može li se artiklu mijenjati veličina (primarno za prstenje)",
         "cs": "Zda lze u předmětu upravit velikost (primárně platí pro prsteny)",
@@ -6311,6 +6397,8 @@
       },
       "description": {
         "en": "URL to the manufacturer's take-back or recycling program",
+        "bg": "URL към програмата на производителя за обратно приемане или рециклиране",
+        "de": "URL zum Rücknahme- oder Recyclingprogramm des Herstellers",
         "fr": "URL du programme de reprise ou recyclage du fabricant",
         "hr": "URL proizvođačevog programa povrata ili recikliranja",
         "cs": "URL programu zpětného odběru nebo recyklace výrobce",
@@ -6419,6 +6507,8 @@
       },
       "description": {
         "en": "Information about the recyclability of the product (precious metals are infinitely recyclable)",
+        "bg": "Информация за рециклируемостта на продукта (благородните метали са безкрайно рециклируеми)",
+        "de": "Informationen zur Recyclingfähigkeit des Produkts (Edelmetalle sind unbegrenzt recycelbar)",
         "fr": "Information sur la recyclabilité du produit (les métaux précieux sont infiniment recyclables)",
         "hr": "Informacije o mogućnosti recikliranja proizvoda (plemeniti metali su beskrajno reciklabilni)",
         "cs": "Informace o recyklovatelnosti produktu (drahé kovy jsou nekonečně recyklovatelné)",
@@ -6528,6 +6618,8 @@
       },
       "description": {
         "en": "URL or reference to the gemological laboratory certificate (GIA, IGI, AGS)",
+        "bg": "URL или препратка към сертификата от геммологична лаборатория (GIA, IGI, AGS)",
+        "de": "URL oder Verweis auf das Zertifikat des gemmologischen Labors (GIA, IGI, AGS)",
         "fr": "URL ou référence au certificat du laboratoire gemmologique (GIA, IGI, AGS)",
         "hr": "URL ili referenca na certifikat gemološkog laboratorija (GIA, IGI, AGS)",
         "cs": "URL nebo odkaz na certifikát gemologické laboratoře (GIA, IGI, AGS)",
@@ -6634,6 +6726,8 @@
       },
       "description": {
         "en": "URL or reference to the hallmark/assay certificate",
+        "bg": "URL или препратка към сертификата за проба/пробиране",
+        "de": "URL oder Verweis auf das Prüfzeichen-/Probierzertifikat",
         "fr": "URL ou référence au certificat de poinçon/essai",
         "hr": "URL ili referenca na certifikat oznake finoće/ispitivanja",
         "cs": "URL nebo odkaz na puncovní/zkušební certifikát",
@@ -6738,6 +6832,8 @@
       },
       "description": {
         "en": "URL or reference to the conflict-free sourcing certificate",
+        "bg": "URL или препратка към сертификата за доставка без конфликтни минерали",
+        "de": "URL oder Verweis auf das Zertifikat über konfliktfreie Beschaffung",
         "fr": "URL ou référence au certificat d'approvisionnement sans conflit",
         "hr": "URL ili referenca na certifikat nabavljanja bez sukoba",
         "cs": "URL nebo odkaz na certifikát získávání bez konfliktů",
@@ -6843,6 +6939,8 @@
       },
       "description": {
         "en": "URL or reference to the Responsible Jewellery Council certificate",
+        "bg": "URL или препратка към сертификата на Responsible Jewellery Council",
+        "de": "URL oder Verweis auf das Zertifikat des Responsible Jewellery Council",
         "fr": "URL ou référence au certificat du Responsible Jewellery Council",
         "hr": "URL ili referenca na certifikat Responsible Jewellery Council",
         "cs": "URL nebo odkaz na certifikát Responsible Jewellery Council",
@@ -6947,6 +7045,8 @@
       },
       "description": {
         "en": "Array of additional custom certificates not covered by standard fields",
+        "bg": "Масив от допълнителни персонализирани сертификати, необхванати от стандартните полета",
+        "de": "Array zusätzlicher individueller Zertifikate, die nicht von Standardfeldern abgedeckt werden",
         "fr": "Tableau des certificats personnalisés supplémentaires non couverts par les champs standard",
         "hr": "Niz dodatnih prilagođenih certifikata koji nisu obuhvaćeni standardnim poljima",
         "cs": "Pole dalších vlastních certifikátů nezahrnutých standardními poli",
@@ -7053,6 +7153,8 @@
       },
       "description": {
         "en": "Type of physical data carrier linking to this DPP (QR on tag/box, NFC in packaging)",
+        "bg": "Вид физически носител на данни, свързан с този DPP (QR на етикет/кутия, NFC в опаковката)",
+        "de": "Art des physischen Datenträgers, der mit diesem DPP verknüpft ist (QR auf Etikett/Box, NFC in der Verpackung)",
         "fr": "Type de porteur de données physique liant à ce DPP (QR sur étiquette/boîte, NFC en emballage)",
         "hr": "Vrsta fizičkog nositelja podataka koji povezuje s ovim DPP-om (QR na etiketi/kutiji, NFC u ambalaži)",
         "cs": "Typ fyzického nosiče dat propojujícího s tímto DPP (QR na štítku/krabici, NFC v obalu)",
@@ -7537,6 +7639,8 @@
       },
       "description": {
         "en": "Default access level for passport data visibility",
+        "bg": "Ниво на достъп по подразбиране за видимостта на данните в паспорта",
+        "de": "Standard-Zugriffsebene für die Sichtbarkeit der Passdaten",
         "fr": "Niveau d'accès par défaut pour la visibilité des données du passeport",
         "hr": "Zadana razina pristupa za vidljivost podataka putovnice",
         "cs": "Výchozí úroveň přístupu pro viditelnost dat pasu",

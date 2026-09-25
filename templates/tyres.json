@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Globally unique product identifier (e.g. GS1 GTIN) per ESPR Art. 9(2)",
+        "bg": "Глобален уникален продуктов идентификатор (напр. GS1 GTIN) съгласно ESPR чл. 9(2)",
+        "de": "Global eindeutiger Produktidentifikator (z. B. GS1 GTIN) gemäß ESPR Art. 9(2)",
         "hr": "Globalno jedinstveni identifikator proizvoda (npr. GS1 GTIN) prema ESPR čl. 9(2)",
         "cs": "Globálně jedinečný identifikátor produktu (např. GS1 GTIN) dle ESPR čl. 9(2)",
         "da": "Globalt unik produktidentifikator (f.eks. GS1 GTIN) iht. ESPR art. 9(2)",
@@ -182,6 +184,8 @@
       },
       "description": {
         "en": "Identifier of the economic operator (manufacturer/importer)",
+        "bg": "Идентификатор на икономическия оператор (производител/вносител)",
+        "de": "Kennung des Wirtschaftsakteurs (Hersteller/Importeur)",
         "hr": "Identifikator gospodarskog subjekta (proizvođač/uvoznik)",
         "cs": "Identifikátor hospodářského subjektu (výrobce/dovozce)",
         "da": "Identifikator for den erhvervsdrivende (producent/importør)",
@@ -292,6 +296,8 @@
       },
       "description": {
         "en": "Identifier of the manufacturing facility",
+        "bg": "Идентификатор на производственото предприятие",
+        "de": "Kennung der Produktionsstätte",
         "hr": "Identifikator proizvodnog pogona",
         "cs": "Identifikátor výrobního zařízení",
         "da": "Identifikator for produktionsanlægget",
@@ -402,6 +408,8 @@
       },
       "description": {
         "en": "Tyre supplier/manufacturer name or trademark",
+        "bg": "Наименование или търговска марка на доставчика/производителя на гуми",
+        "de": "Name oder Warenzeichen des Reifen-Lieferanten/-Herstellers",
         "hr": "Naziv ili zaštitni znak dobavljača/proizvođača gume",
         "cs": "Název nebo ochranná známka dodavatele/výrobce pneumatiky",
         "da": "Navn eller varemærke for dækleverandør/-producent",
@@ -509,6 +517,8 @@
       },
       "description": {
         "en": "Registered address of the tyre manufacturer/supplier",
+        "bg": "Регистриран адрес на производителя/доставчика на гуми",
+        "de": "Eingetragene Adresse des Reifen-Herstellers/-Lieferanten",
         "hr": "Registrirana adresa proizvođača/dobavljača gume",
         "cs": "Registrovaná adresa výrobce/dodavatele pneumatiky",
         "da": "Registreret adresse for dækproducent/-leverandør",
@@ -619,6 +629,8 @@
       },
       "description": {
         "en": "Name of the EU importer (if different from manufacturer)",
+        "bg": "Наименование на вносителя в ЕС (ако се различава от производителя)",
+        "de": "Name des EU-Importeurs (sofern vom Hersteller abweichend)",
         "hr": "Naziv uvoznika iz EU-a (ako se razlikuje od proizvođača)",
         "cs": "Název dovozce v EU (pokud je odlišný od výrobce)",
         "da": "Navn på EU-importør (hvis forskelligt fra producenten)",
@@ -725,6 +737,8 @@
       },
       "description": {
         "en": "EORI number of the importer",
+        "bg": "EORI номер на вносителя",
+        "de": "EORI-Nummer des Importeurs",
         "es": "Número EORI del importador",
         "hu": "Az importőr EORI-száma",
         "lt": "Importuotojo EORI numeris",
@@ -821,6 +835,8 @@
       },
       "description": {
         "en": "Commercial product name or trade designation",
+        "bg": "Търговско наименование на продукта или търговско обозначение",
+        "de": "Handelsname des Produkts oder Handelsbezeichnung",
         "hr": "Komercijalni naziv proizvoda ili trgovačka oznaka",
         "cs": "Obchodní název produktu nebo obchodní označení",
         "da": "Kommercielt produktnavn eller handelsbetegnelse",
@@ -929,6 +945,8 @@
       },
       "description": {
         "en": "Tyre type identifier as registered in EPREL",
+        "bg": "Идентификатор на типа гума, регистриран в EPREL",
+        "de": "Reifentypkennung gemäß Registrierung in EPREL",
         "hr": "Identifikator tipa gume registriran u EPREL-u",
         "cs": "Identifikátor typu pneumatiky registrovaný v EPREL",
         "da": "Dæktypeidentifikator som registreret i EPREL",
@@ -1036,6 +1054,8 @@
       },
       "description": {
         "en": "Tyre class: C1 (passenger car), C2 (light truck/van), C3 (heavy truck/bus)",
+        "bg": "Клас гума: C1 (лек автомобил), C2 (лек товарен автомобил/ван), C3 (тежкотоварен автомобил/автобус)",
+        "de": "Reifenklasse: C1 (Pkw), C2 (leichte Nutzfahrzeuge/Transporter), C3 (schwere Nutzfahrzeuge/Busse)",
         "hr": "Klasa gume: C1 (osobni automobil), C2 (laki teretnjak/kombi), C3 (teški teretnjak/autobus)",
         "cs": "Třída pneumatiky: C1 (osobní automobil), C2 (lehký nákladní vůz/dodávka), C3 (těžký nákladní vůz/autobus)",
         "da": "Dækklasse: C1 (personbil), C2 (let lastbil/varevogn), C3 (tung lastbil/bus)",
@@ -1230,6 +1250,8 @@
       },
       "description": {
         "en": "Production batch code (DOT code includes week/year of manufacture)",
+        "bg": "Код на производствената партида (DOT кодът включва седмица/година на производство)",
+        "de": "Produktionschargen-Code (DOT-Code enthält Fertigungswoche/-jahr)",
         "hr": "Šifra proizvodne serije (DOT kod uključuje tjedan/godinu proizvodnje)",
         "cs": "Kód výrobní šarže (DOT kód obsahuje týden/rok výroby)",
         "da": "Produktionsbatchkode (DOT-kode omfatter uge/år for fremstilling)",
@@ -1337,6 +1359,8 @@
       },
       "description": {
         "en": "Week and year of manufacture (last 4 digits of DOT code: WWYY)",
+        "bg": "Седмица и година на производство (последните 4 цифри на DOT кода: WWYY)",
+        "de": "Fertigungswoche und -jahr (letzte 4 Stellen des DOT-Codes: WWYY)",
         "hr": "Tjedan i godina proizvodnje (posljednje 4 znamenke DOT koda: WWYY)",
         "cs": "Týden a rok výroby (poslední 4 číslice DOT kódu: WWYY)",
         "da": "Uge og år for fremstilling (sidste 4 cifre af DOT-koden: WWYY)",
@@ -1448,6 +1472,8 @@
       },
       "description": {
         "en": "Date when production of this tyre type started (Week/Year)",
+        "bg": "Дата на начало на производство на този тип гума (Седмица/Година)",
+        "de": "Datum des Produktionsstarts dieses Reifentyps (Woche/Jahr)",
         "hr": "Datum početka proizvodnje ovog tipa gume (tjedan/godina)",
         "cs": "Datum, kdy byla zahájena výroba tohoto typu pneumatiky (týden/rok)",
         "da": "Dato for produktionsstart af denne dæktype (uge/år)",
@@ -1554,6 +1580,8 @@
       },
       "description": {
         "en": "Date when production of this tyre type ended (Week/Year), if applicable",
+        "bg": "Дата на прекратяване на производството на този тип гума (Седмица/Година), ако е приложимо",
+        "de": "Datum des Produktionsendes dieses Reifentyps (Woche/Jahr), sofern zutreffend",
         "hr": "Datum završetka proizvodnje ovog tipa gume (tjedan/godina), ako je primjenjivo",
         "cs": "Datum ukončení výroby tohoto typu pneumatiky (týden/rok), je-li relevantní",
         "da": "Dato for afslutning af produktionen af denne dæktype (uge/år), hvis relevant",
@@ -1661,6 +1689,8 @@
       },
       "description": {
         "en": "Country of manufacture (ISO 3166-1 alpha-2)",
+        "bg": "Държава на производство (ISO 3166-1 alpha-2)",
+        "de": "Herstellungsland (ISO 3166-1 Alpha-2)",
         "hr": "Zemlja proizvodnje (ISO 3166-1 alpha-2)",
         "cs": "Země výroby (ISO 3166-1 alpha-2)",
         "da": "Produktionsland (ISO 3166-1 alpha-2)",
@@ -1771,6 +1801,8 @@
       },
       "description": {
         "en": "Registration number in the EU EPREL database",
+        "bg": "Регистрационен номер в базата данни EPREL на ЕС",
+        "de": "Registrierungsnummer in der EU-EPREL-Datenbank",
         "hr": "Registracijski broj u EU EPREL bazi podataka",
         "cs": "Registrační číslo v databázi EU EPREL",
         "da": "Registreringsnummer i EU EPREL-databasen",
@@ -1878,6 +1910,8 @@
       },
       "description": {
         "en": "Direct URL to the product entry in EPREL",
+        "bg": "Директен URL адрес на продуктовия запис в EPREL",
+        "de": "Direkte URL zum Produkteintrag in EPREL",
         "hr": "Izravni URL unosa proizvoda u EPREL",
         "cs": "Přímý URL záznamu produktu v EPREL",
         "da": "Direkte URL til produktposten i EPREL",
@@ -1984,6 +2018,8 @@
       },
       "description": {
         "en": "Type of data carrier linking to the DPP (QR code, RFID, etc.)",
+        "bg": "Вид носител на данни, свързващ към DPP (QR код, RFID и др.)",
+        "de": "Art des Datenträgers, der mit dem DPP verknüpft ist (QR-Code, RFID usw.)",
         "hr": "Vrsta nositelja podataka koji povezuje na DPP (QR kod, RFID, itd.)",
         "cs": "Typ nosiče dat odkazujícího na DPP (QR kód, RFID, atd.)",
         "da": "Type databærer, der linker til DPP (QR-kode, RFID, osv.)",
@@ -2240,6 +2276,8 @@
       },
       "description": {
         "en": "Entity responsible for creating and updating the DPP",
+        "bg": "Субект, отговорен за създаването и актуализирането на DPP",
+        "de": "Für die Erstellung und Aktualisierung des DPP verantwortliche Stelle",
         "hr": "Subjekt odgovoran za stvaranje i ažuriranje DPP-a",
         "cs": "Subjekt odpovědný za vytváření a aktualizaci DPP",
         "da": "Enhed ansvarlig for oprettelse og opdatering af DPP",
@@ -2349,6 +2387,8 @@
       },
       "description": {
         "en": "Standard tyre size designation (width/aspect ratio + construction + rim diameter)",
+        "bg": "Стандартно обозначение на размера на гумата (ширина/профил + конструкция + диаметър на джанта)",
+        "de": "Standard-Reifengrößenbezeichnung (Breite/Querschnittsverhältnis + Bauart + Felgendurchmesser)",
         "hr": "Standardna oznaka veličine gume (širina/omjer visine i širine + konstrukcija + promjer naplatka)",
         "cs": "Standardní označení rozměru pneumatiky (šířka/profil + konstrukce + průměr ráfku)",
         "da": "Standard dækstørrelsesbetegnelse (bredde/højde-bredde-forhold + konstruktion + fælgdiameter)",
@@ -2460,6 +2500,8 @@
       },
       "description": {
         "en": "Load index number indicating maximum load-bearing capacity",
+        "bg": "Индекс на натоварване, указващ максималната товароносимост",
+        "de": "Tragfähigkeitsindex, der die maximale Tragfähigkeit angibt",
         "hr": "Broj indeksa opterećenja koji označava maksimalnu nosivost",
         "cs": "Číslo indexu nosnosti udávající maximální nosnou kapacitu",
         "da": "Belastningsindekstal, der angiver maksimal bæreevne",
@@ -2567,6 +2609,8 @@
       },
       "description": {
         "en": "Load version designation (Standard Load / Extra Load / Reinforced)",
+        "bg": "Обозначение на версията на натоварване (Standard Load / Extra Load / Reinforced)",
+        "de": "Lastversionsbezeichnung (Standard Load / Extra Load / Reinforced)",
         "hr": "Oznaka verzije opterećenja (Standard Load / Extra Load / Reinforced)",
         "cs": "Označení verze zatížení (Standard Load / Extra Load / Reinforced)",
         "da": "Betegnelse for belastningsversion (Standard Load / Extra Load / Reinforced)",
@@ -2764,6 +2808,8 @@
       },
       "description": {
         "en": "Speed rating symbol indicating maximum speed capability",
+        "bg": "Символ на скоростната категория, указващ максималната скоростна способност",
+        "de": "Geschwindigkeitskategoriesymbol, das die maximale Geschwindigkeitsfähigkeit angibt",
         "hr": "Simbol ocjene brzine koji označava maksimalnu brzinu",
         "cs": "Symbol rychlostního indexu udávající maximální rychlost",
         "da": "Hastighedsmærkesymbol, der angiver maksimal hastighedskapacitet",
@@ -2871,6 +2917,8 @@
       },
       "description": {
         "en": "Maximum speed in km/h corresponding to speed category symbol",
+        "bg": "Максимална скорост в km/h, съответстваща на символа на скоростната категория",
+        "de": "Höchstgeschwindigkeit in km/h entsprechend dem Geschwindigkeitskategoriesymbol",
         "hr": "Maksimalna brzina u km/h koja odgovara simbolu kategorije brzine",
         "cs": "Maximální rychlost v km/h odpovídající symbolu kategorie rychlosti",
         "da": "Maksimal hastighed i km/t svarende til hastighedskategorisymbolet",
@@ -2978,6 +3026,8 @@
       },
       "description": {
         "en": "Tyre construction type (Radial / Diagonal / Bias-belted)",
+        "bg": "Вид конструкция на гумата (Радиална / Диагонална / Диагонална с колан)",
+        "de": "Reifenbauart (Radial / Diagonal / Gürteldiagonal)",
         "hr": "Vrsta konstrukcije gume (radijalna / dijagonalna / bias-belted)",
         "cs": "Typ konstrukce pneumatiky (radiální / diagonální / bias-belted)",
         "da": "Dækkonstruktionstype (radial / diagonal / bias-belted)",
@@ -3233,6 +3283,8 @@
       },
       "description": {
         "en": "Usage type (Summer / Winter / All-Season / All-Terrain)",
+        "bg": "Вид по предназначение (Лятна / Зимна / Всесезонна / Всетерен)",
+        "de": "Verwendungsart (Sommer / Winter / Allwetter / Geländefahrzeug)",
         "hr": "Vrsta upotrebe (ljetna / zimska / cjelogodišnja / za sve terene)",
         "cs": "Typ použití (letní / zimní / celoroční / terénní)",
         "da": "Brugstype (sommer / vinter / helårs / all-terrain)",
@@ -3455,6 +3507,8 @@
       },
       "description": {
         "en": "Nominal section width in millimetres",
+        "bg": "Номинална ширина на сечението в милиметри",
+        "de": "Nennquerschnittsbreite in Millimetern",
         "hr": "Nominalna širina profila u milimetrima",
         "cs": "Nominální šířka profilu v milimetrech",
         "da": "Nominel sektionsbredde i millimeter",
@@ -3563,6 +3617,8 @@
       },
       "description": {
         "en": "Aspect ratio (sidewall height as percentage of section width)",
+        "bg": "Профил (височина на боковата стена като процент от ширината на сечението)",
+        "de": "Querschnittsverhältnis (Seitenwandhöhe als Prozentsatz der Querschnittsbreite)",
         "hr": "Omjer visine i širine (visina bočnice kao postotak širine profila)",
         "cs": "Profil (výška bočnice jako procento šířky profilu)",
         "da": "Højde-bredde-forhold (sidehøjde som procent af sektionsbredde)",
@@ -3671,6 +3727,8 @@
       },
       "description": {
         "en": "Nominal rim diameter in inches",
+        "bg": "Номинален диаметър на джантата в инчове",
+        "de": "Nennfelgendurchmesser in Zoll",
         "hr": "Nominalni promjer naplatka u inčima",
         "cs": "Nominální průměr ráfku v palcích",
         "da": "Nominel fælgdiameter i tommer",
@@ -3778,6 +3836,8 @@
       },
       "description": {
         "en": "New tyre tread depth in millimetres",
+        "bg": "Дълбочина на протектора на нова гума в милиметри",
+        "de": "Profiltiefe eines neuen Reifens in Millimetern",
         "hr": "Dubina profila nove gume u milimetrima",
         "cs": "Hloubka dezénu nové pneumatiky v milimetrech",
         "da": "Mønsterdybde på ny dæk i millimeter",
@@ -3882,6 +3942,8 @@
       },
       "description": {
         "en": "Weight of a single new tyre in kilograms",
+        "bg": "Тегло на единична нова гума в килограми",
+        "de": "Gewicht eines einzelnen neuen Reifens in Kilogramm",
         "hr": "Težina jedne nove gume u kilogramima",
         "cs": "Hmotnost jedné nové pneumatiky v kilogramech",
         "da": "Vægt af et enkelt nyt dæk i kilogram",
@@ -3991,6 +4053,8 @@
       },
       "description": {
         "en": "Rolling resistance / fuel efficiency class (A to E scale, A = best)",
+        "bg": "Клас на съпротивление при търкаляне / горивна ефективност (скала A до E, A = най-добър)",
+        "de": "Rollwiderstandsklasse / Kraftstoffeffizienzklasse (Skala A bis E, A = beste)",
         "hr": "Klasa otporne na kotrljanje / učinkovitosti goriva (ljestvica A do E, A = najbolje)",
         "cs": "Třída valivého odporu / palivové účinnosti (stupnice A až E, A = nejlepší)",
         "da": "Klasse for rullemotstand / brændstofeffektivitet (skala A til E, A = bedst)",
@@ -4244,6 +4308,8 @@
       },
       "description": {
         "en": "Rolling Resistance Coefficient (RRC) in N/kN, measured per UNECE Reg. 117",
+        "bg": "Коефициент на съпротивление при търкаляне (RRC) в N/kN, измерен съгласно UNECE Рег. 117",
+        "de": "Rollwiderstandskoeffizient (RRC) in N/kN, gemessen gemäß UNECE Reg. 117",
         "hr": "Koeficijent otporne na kotrljanje (RRC) u N/kN, mjeren prema UNECE Reg. 117",
         "cs": "Součinitel valivého odporu (RRC) v N/kN, měřený podle UNECE Reg. 117",
         "da": "Rullemotstandskoefficient (RRC) i N/kN, målt iht. UNECE Reg. 117",
@@ -4351,6 +4417,8 @@
       },
       "description": {
         "en": "Wet grip braking performance class (A to E scale, A = best)",
+        "bg": "Клас на ефективност при спиране на мокро (скала A до E, A = най-добър)",
+        "de": "Nasshaftungsklasse (Skala A bis E, A = beste)",
         "hr": "Klasa performansi kočenja prianjanja na mokrom (ljestvica A do E, A = najbolje)",
         "cs": "Třída brzdného výkonu přilnavosti na mokru (stupnice A až E, A = nejlepší)",
         "da": "Klasse for vådgrebsevne-bremseevne (skala A til E, A = bedst)",
@@ -4604,6 +4672,8 @@
       },
       "description": {
         "en": "Wet Grip Index (G) value",
+        "bg": "Стойност на индекса на сцепление на мокро (G)",
+        "de": "Nasshaftungsindex (G)-Wert",
         "hr": "Vrijednost indeksa prianjanja na mokrom (G)",
         "cs": "Hodnota indexu přilnavosti na mokru (G)",
         "da": "Værdi for vådgrebsevne-indeks (G)",
@@ -4711,6 +4781,8 @@
       },
       "description": {
         "en": "External rolling noise class (A, B, or C)",
+        "bg": "Клас на външен шум при търкаляне (A, B или C)",
+        "de": "Klasse des externen Rollgeräuschs (A, B oder C)",
         "hr": "Klasa vanjske buke kotrljanja (A, B ili C)",
         "cs": "Třída vnějšího hluku odvalování (A, B nebo C)",
         "da": "Klasse for ekstern rullestøj (A, B eller C)",
@@ -4906,6 +4978,8 @@
       },
       "description": {
         "en": "External rolling noise measured value in dB(A), rounded to nearest integer",
+        "bg": "Измерена стойност на външния шум при търкаляне в dB(A), закръглена до цяло число",
+        "de": "Gemessener Wert des externen Rollgeräuschs in dB(A), auf ganze Zahl gerundet",
         "hr": "Izmjerena vrijednost vanjske buke kotrljanja u dB(A), zaokružena na najbliži cijeli broj",
         "cs": "Naměřená hodnota vnějšího hluku odvalování v dB(A), zaokrouhlená na nejbližší celé číslo",
         "da": "Målt værdi for ekstern rullestøj i dB(A), afrundet til nærmeste heltal",
@@ -5012,7 +5086,9 @@
         "sv": "Snögrepp"
       },
       "description": {
-        "en": "Whether tyre has 3PMSF (3 Peak Mountain Snow Flake) certification for severe snow conditions The 3PMSF pictogram is printed on the label and moulded on the sidewall, and only for tyres meeting the snow classification.",
+        "en": "Whether the tyre has 3PMSF (3 Peak Mountain Snow Flake) certification for severe snow conditions",
+        "bg": "Дали гумата притежава сертификация 3PMSF (3 Peak Mountain Snow Flake) за тежки снежни условия",
+        "de": "Ob der Reifen die 3PMSF-Zertifizierung (3 Peak Mountain Snow Flake) für schwierige Schneeverhältnisse besitzt",
         "hr": "Ima li guma 3PMSF (3 Peak Mountain Snow Flake) certifikat za teške snježne uvjete",
         "cs": "Zda má pneumatika certifikaci 3PMSF (3 Peak Mountain Snow Flake) pro náročné sněhové podmínky",
         "da": "Om dækket har 3PMSF (3 Peak Mountain Snow Flake)-certificering til ekstreme snevejr",
@@ -5120,7 +5196,9 @@
         "sv": "Isgrepp"
       },
       "description": {
-        "en": "Whether tyre is certified for ice grip performance (Nordic ice conditions) The ice-grip marking appears on the label and sidewall for qualifying C1 tyres only.",
+        "en": "Whether the tyre is certified for ice grip performance (Nordic ice conditions)",
+        "bg": "Дали гумата е сертифицирана за сцепление върху лед (северни ледени условия)",
+        "de": "Ob der Reifen für die Haftung auf Eis (nordische Eisbedingungen) zertifiziert ist",
         "hr": "Je li guma certificirana za performanse prianjanja na ledu (nordijski uvjeti na ledu)",
         "cs": "Zda je pneumatika certifikována pro přilnavost na ledu (severské podmínky na ledu)",
         "da": "Om dækket er certificeret til isgrebsevne (nordiske isforhold)",
@@ -5231,6 +5309,8 @@
       },
       "description": {
         "en": "Tyre abrasion rate in mg/km (mass loss per km driven), per Euro 7 methodology",
+        "bg": "Степен на изтъркване на гумата в mg/km (загуба на маса на km изминат път) съгласно методологията Euro 7",
+        "de": "Reifenabriebrate in mg/km (Masseverlust pro km Fahrleistung) gemäß Euro-7-Methodik",
         "hr": "Stopa abrazije gume u mg/km (gubitak mase po prijeđenom km), prema metodologiji Euro 7",
         "cs": "Míra otěru pneumatiky v mg/km (úbytek hmotnosti na ujetý km), dle metodiky Euro 7",
         "da": "Dækkets sliderate i mg/km (masseafgang pr. kørt km) iht. Euro 7-metoden",
@@ -5340,6 +5420,8 @@
       },
       "description": {
         "en": "Abrasion index relative to reference tyre (ratio of candidate/reference abrasion)",
+        "bg": "Индекс на абразия спрямо референтна гума (съотношение на абразията на тестваната към референтната гума)",
+        "de": "Abriebindex im Verhältnis zum Referenzreifen (Quotient aus Kandidaten- und Referenzabrieb)",
         "hr": "Indeks abrazije u odnosu na referentnu gumu (omjer abrazije kandidata/reference)",
         "cs": "Index otěru vztažený k referenční pneumatice (poměr otěru kandidáta/reference)",
         "da": "Slideindeks relativt til referencedæk (forhold mellem kandidat-/referencelidning)",
@@ -5448,6 +5530,8 @@
       },
       "description": {
         "en": "Test method used: 'convoy_on_road' or 'laboratory_drum' per UNECE TFTA",
+        "bg": "Използван метод за изпитване: 'convoy_on_road' или 'laboratory_drum' съгласно UNECE TFTA",
+        "de": "Verwendete Prüfmethode: 'convoy_on_road' oder 'laboratory_drum' gemäß UNECE TFTA",
         "hr": "Korištena metoda ispitivanja: 'convoy_on_road' ili 'laboratory_drum' prema UNECE TFTA",
         "cs": "Použitá metoda zkoušky: 'convoy_on_road' nebo 'laboratory_drum' dle UNECE TFTA",
         "da": "Anvendt testmetode: 'convoy_on_road' eller 'laboratory_drum' iht. UNECE TFTA",
@@ -5616,6 +5700,8 @@
       },
       "description": {
         "en": "Total distance driven during abrasion test (typically ~8000 km for convoy method)",
+        "bg": "Обща измината дистанция по време на теста за абразия (обикновено ~8 000 km при метода на колона)",
+        "de": "Gesamtfahrleistung während des Abriebtests (typischerweise ~8.000 km bei der Konvoimethode)",
         "hr": "Ukupna prijeđena udaljenost tijekom ispitivanja abrazije (tipično ~8000 km za metodu konvoja)",
         "cs": "Celková ujetá vzdálenost během zkoušky otěru (typicky ~8000 km pro metodu konvoje)",
         "da": "Samlet kørt afstand under slidtesten (typisk ~8000 km for konvoj-metoden)",
@@ -5719,6 +5805,8 @@
       },
       "description": {
         "en": "Microplastics emission class (classification TBD, expected in Euro 7 implementing acts)",
+        "bg": "Клас на емисии на микропластмаса (класификацията предстои, очаква се в актовете за прилагане на Euro 7)",
+        "de": "Mikroplastikemissionsklasse (Klassifizierung steht aus, erwartet in Euro-7-Durchführungsrechtsakten)",
         "hr": "Klasa emisija mikroplastike (klasifikacija će se odrediti, očekuje se u provedbenim aktima Euro 7)",
         "cs": "Třída emisí mikroplastů (klasifikace bude stanovena, očekává se v prováděcích aktech Euro 7)",
         "da": "Emissionsklasse for mikroplast (klassificering fastsættes senere, forventet i Euro 7-gennemførelsesretsakter)",
@@ -5970,6 +6058,8 @@
       },
       "description": {
         "en": "Manufacturer mileage/tread wear warranty in kilometres (if offered)",
+        "bg": "Гаранция на производителя за пробег/износване на протектора в километри (ако се предлага)",
+        "de": "Kilometerleistungs-/Reifenverschleißgarantie des Herstellers in Kilometern (sofern angeboten)",
         "hr": "Jamstvo proizvođača na prijeđenu kilometražu/trošenje profila u kilometrima (ako se nudi)",
         "cs": "Záruka výrobce na ujeté kilometry/opotřebení dezénu v kilometrech (je-li nabízena)",
         "da": "Producentens kilometergaranti/slidgaranti i kilometer (hvis tilbudt)",
@@ -6074,6 +6164,8 @@
       },
       "description": {
         "en": "Structured list of tyre materials by weight percentage",
+        "bg": "Структуриран списък на материалите на гумата по масови дялове",
+        "de": "Strukturierte Liste der Reifenmaterialien nach Gewichtsprozent",
         "hr": "Strukturirani popis materijala gume po težinskom postotku",
         "cs": "Strukturovaný seznam materiálů pneumatiky podle hmotnostního procenta",
         "da": "Struktureret liste over dækmaterialer efter vægtprocent",
@@ -6185,6 +6277,8 @@
       },
       "description": {
         "en": "Percentage of natural rubber (NR) by weight",
+        "bg": "Процентно съдържание на естествен каучук (NR) по тегло",
+        "de": "Anteil Naturkautschuk (NR) in Gewichtsprozent",
         "hr": "Postotak prirodne gume (NR) po težini",
         "cs": "Procento přírodního kaučuku (NR) podle hmotnosti",
         "da": "Procent naturgummi (NR) i vægt",
@@ -6295,6 +6389,8 @@
       },
       "description": {
         "en": "Percentage of synthetic rubber (SBR, BR, etc.) by weight",
+        "bg": "Процентно съдържание на синтетичен каучук (SBR, BR и др.) по тегло",
+        "de": "Anteil Synthesekautschuk (SBR, BR usw.) in Gewichtsprozent",
         "hr": "Postotak sintetičke gume (SBR, BR, itd.) po težini",
         "cs": "Procento syntetického kaučuku (SBR, BR, atd.) podle hmotnosti",
         "da": "Procent syntetisk gummi (SBR, BR, osv.) i vægt",
@@ -6405,6 +6501,8 @@
       },
       "description": {
         "en": "Percentage of recycled materials in the tyre by weight",
+        "bg": "Процентно съдържание на рециклирани материали в гумата по тегло",
+        "de": "Anteil recycelter Materialien im Reifen in Gewichtsprozent",
         "hr": "Postotak recikliranih materijala u gumi po težini",
         "cs": "Procento recyklovaných materiálů v pneumatice podle hmotnosti",
         "da": "Procent genanvendte materialer i dækket i vægt",
@@ -6515,6 +6613,8 @@
       },
       "description": {
         "en": "Percentage of recycled/devulcanized rubber used",
+        "bg": "Процентно съдържание на рециклиран/девулканизиран каучук по тегло",
+        "de": "Anteil recycelten/devulkanisierten Kautschuks in Gewichtsprozent",
         "hr": "Postotak upotrijebljene reciklirane/devulkanizirane gume",
         "cs": "Procento použitého recyklovaného/devulkanizovaného kaučuku",
         "da": "Procent anvendt genanvendt/devulkaniseret gummi",
@@ -6621,6 +6721,8 @@
       },
       "description": {
         "en": "Percentage of recovered carbon black (rCB) from end-of-life tyres",
+        "bg": "Процентно съдържание на регенерирана сажда (rCB) от излезли от употреба гуми по тегло",
+        "de": "Anteil an rückgewonnenem Industrieruß (rCB) aus Altreifen in Gewichtsprozent",
         "hr": "Postotak povrata čađe (rCB) iz guma na kraju životnog vijeka",
         "cs": "Procento získaných sazí (rCB) z pneumatik na konci životnosti",
         "da": "Procent genvundet carbon black (rCB) fra dæk ved endt levetid",
@@ -6727,6 +6829,8 @@
       },
       "description": {
         "en": "Percentage of bio-based or renewable materials (e.g. natural rubber, bio-based oils)",
+        "bg": "Процентно съдържание на биологично базирани или възобновяеми материали (напр. естествен каучук, биобазирани масла) по тегло",
+        "de": "Anteil biobasierter oder erneuerbarer Materialien (z. B. Naturkautschuk, biobasierte Öle) in Gewichtsprozent",
         "hr": "Postotak materijala na biološkoj osnovi ili obnovljivih materijala (npr. prirodna guma, ulja na biološkoj osnovi)",
         "cs": "Procento materiálů na biologické bázi nebo obnovitelných materiálů (např. přírodní kaučuk, oleje na biologické bázi)",
         "da": "Procent biobaserede eller fornybare materialer (f.eks. naturgummi, biobaserede olier)",
@@ -6834,6 +6938,8 @@
       },
       "description": {
         "en": "Confirmation that extender oils comply with PAH (polycyclic aromatic hydrocarbon) limits per REACH Annex XVII Entry 50",
+        "bg": "Потвърждение, че разредителните масла отговарят на ограниченията за ПАВ (полициклични ароматни въглеводороди) съгласно REACH приложение XVII, вписване 50",
+        "de": "Bestätigung, dass Strecköle die PAK-Grenzwerte (polyzyklische aromatische Kohlenwasserstoffe) gemäß REACH Anhang XVII Eintrag 50 einhalten",
         "hr": "Potvrda da ulja za nadopunjavanje zadovoljavaju granice PAH (policikličkih aromatskih ugljikovodika) prema REACH Prilog XVII unos 50",
         "cs": "Potvrzení, že prodlužovací oleje splňují limity PAU (polycyklických aromatických uhlovodíků) dle REACH Příloha XVII, položka 50",
         "da": "Bekræftelse af, at extender-olier overholder PAH-grænser (polycykliske aromatiske kulbrinter) iht. REACH bilag XVII, punkt 50",
@@ -6941,6 +7047,8 @@
       },
       "description": {
         "en": "Substances of Very High Concern present above 0.1% w/w threshold",
+        "bg": "Вещества, пораждащи сериозно безпокойство (SVHC), присъстващи над прага от 0,1 % тегл./тегл.",
+        "de": "Besonders besorgniserregende Stoffe (SVHC) über dem Schwellenwert von 0,1 % w/w",
         "hr": "Tvari koje izazivaju vrlo veliku zabrinutost prisutne iznad praga 0,1 % m/m",
         "cs": "Látky vzbuzující mimořádné obavy přítomné nad prahem 0,1 % hm.",
         "da": "Særligt problematiske stoffer (SVHC) til stede over tærsklen på 0,1 % w/w",
@@ -7048,6 +7156,8 @@
       },
       "description": {
         "en": "Presence and concentration of 6PPD antioxidant (under ECHA review for environmental toxicity of 6PPD-quinone)",
+        "bg": "Наличие и концентрация на антиоксиданта 6PPD (под преглед на ECHA за екологична токсичност на 6PPD-хинон)",
+        "de": "Vorhandensein und Konzentration des Antioxidationsmittels 6PPD (unter ECHA-Prüfung hinsichtlich der Umwelttoxizität von 6PPD-Chinon)",
         "hr": "Prisutnost i koncentracija antioksidansa 6PPD (pod pregledom ECHA-e zbog okolišne toksičnosti 6PPD-kinona)",
         "cs": "Přítomnost a koncentrace antioxidantu 6PPD (pod přezkumem ECHA pro environmentální toxicitu 6PPD-chinonu)",
         "da": "Tilstedeværelse og koncentration af antioxidanten 6PPD (under ECHA-gennemgang for miljøtoksicitet af 6PPD-quinon)",
@@ -7154,6 +7264,8 @@
       },
       "description": {
         "en": "Confirmation of compliance with heavy metal limits (lead, cadmium, mercury, chromium VI)",
+        "bg": "Потвърждение за съответствие с ограниченията за тежки метали (олово, кадмий, живак, хром VI)",
+        "de": "Bestätigung der Einhaltung von Schwermetallgrenzwerten (Blei, Cadmium, Quecksilber, Chrom VI)",
         "hr": "Potvrda sukladnosti s granicama teških metala (olovo, kadmij, živa, krom VI)",
         "cs": "Potvrzení souladu s limity těžkých kovů (olovo, kadmium, rtuť, chrom VI)",
         "da": "Bekræftelse af overensstemmelse med tungmetalsgrænser (bly, cadmium, kviksølv, chrom VI)",
@@ -7261,6 +7373,8 @@
       },
       "description": {
         "en": "General REACH regulation compliance confirmation",
+        "bg": "Общо потвърждение за съответствие с регламента REACH",
+        "de": "Allgemeine Bestätigung der REACH-Verordnungskonformität",
         "hr": "Opća potvrda sukladnosti s uredbom REACH",
         "cs": "Obecné potvrzení souladu s nařízením REACH",
         "da": "Generel bekræftelse af overensstemmelse med REACH-forordningen",
@@ -7368,6 +7482,8 @@
       },
       "description": {
         "en": "Total product carbon footprint in kg CO2-equivalent (cradle-to-gate)",
+        "bg": "Общ въглероден отпечатък на продукта в kg CO2-еквивалент (от суровина до производство)",
+        "de": "Gesamter Produkt-Carbon Footprint in kg CO2-Äquivalent (Cradle-to-Gate)",
         "hr": "Ukupni ugljični otisak proizvoda u kg CO2-ekvivalenta (od kolijevke do vrata)",
         "cs": "Celková uhlíková stopa produktu v kg ekvivalentu CO2 (cradle-to-gate)",
         "da": "Samlet CO2-aftryk for produktet i kg CO2-ækvivalent (cradle-to-gate)",
@@ -7479,6 +7595,8 @@
       },
       "description": {
         "en": "Methodology used for carbon footprint calculation",
+        "bg": "Методология, използвана за изчисляване на въглеродния отпечатък",
+        "de": "Methodik zur Berechnung des Carbon Footprint",
         "hr": "Metodologija korištena za izračun ugljičnog otiska",
         "cs": "Metodika použitá pro výpočet uhlíkové stopy",
         "da": "Metode anvendt til beregning af CO2-aftryk",
@@ -7588,6 +7706,8 @@
       },
       "description": {
         "en": "Estimated fuel savings over tyre lifetime vs. reference E-class tyre (liters)",
+        "bg": "Прогнозни икономии на гориво за целия живот на гумата спрямо референтна гума от клас E (литри)",
+        "de": "Geschätzte Kraftstoffeinsparung über die Reifenlebensdauer gegenüber einem Referenzreifen der Klasse E (Liter)",
         "hr": "Procijenjena ušteda goriva tijekom životnog vijeka gume u odnosu na referentnu gumu klase E (litre)",
         "cs": "Odhadované úspory paliva za dobu životnosti pneumatiky oproti referenční pneumatice třídy E (litry)",
         "da": "Estimerede brændstofbesparelser over dækkets levetid vs. referencedæk i E-klasse (liter)",
@@ -7693,6 +7813,8 @@
       },
       "description": {
         "en": "Estimated CO2 savings over tyre lifetime vs. reference E-class tyre (kg)",
+        "bg": "Прогнозни икономии на CO2 за целия живот на гумата спрямо референтна гума от клас E (kg)",
+        "de": "Geschätzte CO2-Einsparungen über die Reifenlebensdauer gegenüber einem Referenzreifen der Klasse E (kg)",
         "hr": "Procijenjena ušteda CO2 tijekom životnog vijeka gume u odnosu na referentnu gumu klase E (kg)",
         "cs": "Odhadované úspory CO2 za dobu životnosti pneumatiky oproti referenční pneumatice třídy E (kg)",
         "da": "Estimerede CO2-besparelser over dækkets levetid vs. referencedæk i E-klasse (kg)",
@@ -7798,6 +7920,8 @@
       },
       "description": {
         "en": "Declaration that natural rubber sourcing is deforestation-free",
+        "bg": "Декларация, че снабдяването с естествен каучук е свободно от обезлесяване",
+        "de": "Erklärung, dass die Beschaffung von Naturkautschuk entwaldungsfrei erfolgt",
         "hr": "Izjava da je nabava prirodne gume bez krčenja šuma",
         "cs": "Prohlášení, že zdroj přírodního kaučuku je bez odlesňování",
         "da": "Erklæring om, at naturgummikilde er afskovningsfri",
@@ -7905,6 +8029,8 @@
       },
       "description": {
         "en": "Sustainability certification for natural rubber (GPSNR, FSC, PEFC, SNR-i, etc.)",
+        "bg": "Сертификация за устойчивост на естествен каучук (GPSNR, FSC, PEFC, SNR-i и др.)",
+        "de": "Nachhaltigkeitszertifizierung für Naturkautschuk (GPSNR, FSC, PEFC, SNR-i usw.)",
         "hr": "Certifikat održivosti za prirodnu gumu (GPSNR, FSC, PEFC, SNR-i, itd.)",
         "cs": "Certifikace udržitelnosti pro přírodní kaučuk (GPSNR, FSC, PEFC, SNR-i, atd.)",
         "da": "Bæredygtighedscertificering for naturgummi (GPSNR, FSC, PEFC, SNR-i, osv.)",
@@ -8011,6 +8137,8 @@
       },
       "description": {
         "en": "Expected tyre lifespan in kilometres under normal use",
+        "bg": "Очакван ресурс на гумата в километри при нормална употреба",
+        "de": "Erwartete Reifenlebensdauer in Kilometern bei normalem Gebrauch",
         "hr": "Očekivani životni vijek gume u kilometrima pri uobičajenoj upotrebi",
         "cs": "Očekávaná životnost pneumatiky v kilometrech za běžného použití",
         "da": "Forventet dækleveetid i kilometer ved normal brug",
@@ -8121,6 +8249,8 @@
       },
       "description": {
         "en": "UTQG Treadwear rating (if applicable, primarily US but widely published)",
+        "bg": "Оценка на износване на протектора по UTQG (ако е приложимо, основно за САЩ, но широко публикувана)",
+        "de": "UTQG-Profilabnutzungsbewertung (sofern anwendbar, vorwiegend USA, aber weit verbreitet veröffentlicht)",
         "hr": "UTQG ocjena trošenja profila (ako je primjenjivo, prvenstveno SAD ali široko objavljivana)",
         "cs": "UTQG hodnocení opotřebení dezénu (je-li relevantní, primárně USA, ale široce publikované)",
         "da": "UTQG-slidklassificering af mønster (hvis relevant, primært USA men bredt offentliggjort)",
@@ -8226,6 +8356,8 @@
       },
       "description": {
         "en": "Legal minimum tread depth before replacement (EU standard: 1.6mm)",
+        "bg": "Законово минимална дълбочина на протектора преди смяна (стандарт за ЕС: 1,6 mm)",
+        "de": "Gesetzliche Mindestprofiltiefe vor dem Austausch (EU-Standard: 1,6 mm)",
         "hr": "Zakonska minimalna dubina profila prije zamjene (EU standard: 1,6 mm)",
         "cs": "Zákonná minimální hloubka dezénu před výměnou (standard EU: 1,6 mm)",
         "da": "Lovmæssig minimum mønsterdybde før udskiftning (EU-standard: 1,6 mm)",
@@ -8333,6 +8465,8 @@
       },
       "description": {
         "en": "Manufacturer warranty period in years",
+        "bg": "Гаранционен срок на производителя в години",
+        "de": "Herstellergarantiezeitraum in Jahren",
         "hr": "Jamstveno razdoblje proizvođača u godinama",
         "cs": "Záruční doba výrobce v letech",
         "da": "Producentens garantiperiode i år",
@@ -8439,6 +8573,8 @@
       },
       "description": {
         "en": "Recommended maximum tyre age regardless of tread depth",
+        "bg": "Препоръчителна максимална възраст на гумата независимо от дълбочината на протектора",
+        "de": "Empfohlenes maximales Reifenalter unabhängig von der Profiltiefe",
         "hr": "Preporučena maksimalna starost gume bez obzira na dubinu profila",
         "cs": "Doporučené maximální stáří pneumatiky bez ohledu na hloubku dezénu",
         "da": "Anbefalet maksimal dækalder uanset mønsterdybde",
@@ -8543,6 +8679,8 @@
       },
       "description": {
         "en": "Whether the tyre casing is designed and approved for retreading",
+        "bg": "Дали каркасът на гумата е проектиран и одобрен за регенериране",
+        "de": "Ob der Reifenunterbau für die Runderneuerung ausgelegt und zugelassen ist",
         "hr": "Je li kućište gume dizajnirano i odobreno za protektiranje",
         "cs": "Zda je kostra pneumatiky konstruována a schválena pro protektorování",
         "da": "Om dækkarkassen er designet og godkendt til regummiering",
@@ -8657,6 +8795,8 @@
       },
       "description": {
         "en": "Maximum number of retread cycles the casing supports",
+        "bg": "Максимален брой цикли на регенериране, поддържани от каркаса",
+        "de": "Maximale Anzahl an Runderneuerungszyklen, die der Reifenunterbau unterstützt",
         "hr": "Maksimalni broj ciklusa protektiranja koje kućište podržava",
         "cs": "Maximální počet cyklů protektorování, které kostra podporuje",
         "da": "Maksimalt antal regummieringscyklusser, som karkassen understøtter",
@@ -8764,6 +8904,8 @@
       },
       "description": {
         "en": "Additional service life per retread cycle in km (for retreadable tyres: ~220,000 km per cycle for truck tyres)",
+        "bg": "Допълнителен ресурс в километри за цикъл на регенериране (за регенерируеми гуми: ~220 000 km за цикъл при гуми за товарни автомобили)",
+        "de": "Zusätzliche Nutzungsdauer pro Runderneuerungszyklus in km (für erneuerbare Reifen: ~220.000 km pro Zyklus für Lkw-Reifen)",
         "hr": "Dodatni životni vijek po ciklusu protektiranja u km (za gume pogodne za protektiranje: ~220 000 km po ciklusu za kamionske gume)",
         "cs": "Další provozní životnost na cyklus protektorování v km (pro protektorovatelné pneumatiky: ~220 000 km na cyklus pro nákladní pneumatiky)",
         "da": "Ekstra servicelevetid pr. regummieringscyklus i km (for regummierbare dæk: ~220.000 km pr. cyklus for lastbildæk)",
@@ -8867,6 +9009,8 @@
       },
       "description": {
         "en": "Percentage of tyre weight recoverable through material recycling or energy recovery",
+        "bg": "Процент от теглото на гумата, подлежащ на оползотворяване чрез материално рециклиране или оползотворяване на енергия",
+        "de": "Anteil des Reifengewichts, der durch Werkstoffrecycling oder energetische Verwertung zurückgewonnen werden kann",
         "hr": "Postotak težine gume koji se može oporaviti materijalnim recikliranjem ili energetskim iskorištavanjem",
         "cs": "Procento hmotnosti pneumatiky, které lze získat materiálovou recyklací nebo energetickým využitím",
         "da": "Procent af dækvægten, der kan genvindes gennem materialegenanvendelse eller energigenvinding",
@@ -8976,6 +9120,8 @@
       },
       "description": {
         "en": "End-of-life recovery pathways and percentages",
+        "bg": "Начини за оползотворяване в края на жизнения цикъл и съответните проценти",
+        "de": "Verwertungswege am Lebensende und entsprechende Prozentsätze",
         "hr": "Putevi oporabe na kraju životnog vijeka i postotci",
         "cs": "Cesty využití na konci životnosti a procenta",
         "da": "Genvindingsveje og -procenter ved endt levetid",
@@ -9086,6 +9232,8 @@
       },
       "description": {
         "en": "End-of-life tyre (ELT) collection/take-back scheme applicable",
+        "bg": "Приложима схема за събиране/обратно приемане на излезли от употреба гуми (ELT)",
+        "de": "Anwendbares Sammel-/Rücknahmesystem für Altreifen (ELT)",
         "hr": "Primjenjivi sustav prikupljanja/povrata guma na kraju životnog vijeka (ELT)",
         "cs": "Použitelný systém sběru/zpětného odběru pneumatik na konci životnosti (ELT)",
         "da": "Gældende ordning for indsamling/tilbagetagning af udtjente dæk (ELT)",
@@ -9193,6 +9341,8 @@
       },
       "description": {
         "en": "URL to end-of-life processing instructions for recyclers",
+        "bg": "URL адрес на инструкциите за обработка в края на жизнения цикъл за рециклиращи предприятия",
+        "de": "URL zu den Verarbeitungsanweisungen am Lebensende für Recycler",
         "hr": "URL uputa za obradu na kraju životnog vijeka za reciklere",
         "cs": "URL pokynů ke zpracování na konci životnosti pro recyklátory",
         "da": "URL til behandlingsinstruktioner ved endt levetid for genbrugsvirksomheder",
@@ -9302,6 +9452,8 @@
       },
       "description": {
         "en": "Whether the tyre is suitable for pyrolysis recycling",
+        "bg": "Дали гумата е подходяща за рециклиране чрез пиролиза",
+        "de": "Ob der Reifen für das Pyrolyserecycling geeignet ist",
         "hr": "Je li guma pogodna za recikliranje pirolizom",
         "cs": "Zda je pneumatika vhodná pro pyrolytickou recyklaci",
         "da": "Om dækket er egnet til pyrolysegenanvendelse",
@@ -9404,6 +9556,8 @@
       },
       "description": {
         "en": "Whether the rubber compound is suitable for devulcanization recycling",
+        "bg": "Дали каучуковата смес е подходяща за рециклиране чрез девулканизация",
+        "de": "Ob die Kautschukmischung für das Devulkanisierungsrecycling geeignet ist",
         "hr": "Je li gumena smjesa pogodna za recikliranje devulkanizacijom",
         "cs": "Zda je pryžová směs vhodná pro devulkanizační recyklaci",
         "da": "Om gummiblandingen er egnet til devulkaniseringsgenanvendelse",
@@ -9506,6 +9660,8 @@
       },
       "description": {
         "en": "UNECE type approval number",
+        "bg": "Номер на одобрение на типа съгласно UNECE",
+        "de": "UNECE-Typgenehmigungsnummer",
         "hr": "UNECE broj homologacije tipa",
         "cs": "Číslo schválení typu UNECE",
         "da": "UNECE-typegodkendelsesnummer",
@@ -9614,6 +9770,8 @@
       },
       "description": {
         "en": "Compliance status with Euro 7 tyre abrasion limits",
+        "bg": "Статус на съответствие с ограниченията за износване на гуми по Euro 7",
+        "de": "Konformitätsstatus mit den Reifenabriebgrenzwerten gemäß Euro 7",
         "hr": "Status sukladnosti s Euro 7 granicama abrazije guma",
         "cs": "Status souladu s limity otěru pneumatik Euro 7",
         "da": "Overensstemmelsesstatus med Euro 7-slidgrænser for dæk",
@@ -9720,6 +9878,8 @@
       },
       "description": {
         "en": "URL to the official EU tyre label image",
+        "bg": "URL адрес на официалното изображение на етикета на ЕС за гуми",
+        "de": "URL zum offiziellen EU-Reifenetikettenbild",
         "hr": "URL službene slike EU oznake gume",
         "cs": "URL oficiálního obrázku EU štítku pneumatiky",
         "da": "URL til det officielle EU-dækmærkebillede",
@@ -9827,6 +9987,8 @@
       },
       "description": {
         "en": "URL to EU Declaration of Conformity",
+        "bg": "URL адрес на декларацията за съответствие на ЕС",
+        "de": "URL zur EU-Konformitätserklärung",
         "hr": "URL EU izjave o sukladnosti",
         "cs": "URL EU prohlášení o shodě",
         "da": "URL til EU-overensstemmelseserklæring",
@@ -9908,112 +10070,6 @@
       }
     },
     {
-      "key": "reachComplianceTypeApproval",
-      "label": {
-        "en": "REACH Compliance (Type Approval)",
-        "bg": "Съответствие с REACH (одобрение на типа)",
-        "de": "REACH-Konformitaet (Typgenehmigung)",
-        "hr": "Sukladnost s REACH-om (homologacija)",
-        "cs": "Soulad s REACH (schválení typu)",
-        "da": "REACH-overensstemmelse (typegodkendelse)",
-        "nl": "REACH-conformiteit (typegoedkeuring)",
-        "et": "REACH vastavus (tüübikinnitus)",
-        "fi": "REACH-vaatimustenmukaisuus (tyyppihyväksyntä)",
-        "fr": "Conformité REACH (réception par type)",
-        "el": "Συμμόρφωση REACH (έγκριση τύπου)",
-        "ga": "Comhlíonadh REACH (ceadú cineáil)",
-        "it": "Conformità REACH (omologazione)",
-        "es": "Conformidad con REACH (homologación de tipo)",
-        "hu": "REACH-megfelelőség (típusjóváhagyás)",
-        "lt": "REACH atitiktis (tipo patvirtinimas)",
-        "lv": "REACH atbilstība (tipa apstiprinājums)",
-        "mt": "Konformità REACH (Approvazzjoni tat-Tip)",
-        "pl": "Zgodność z REACH (homologacja typu)",
-        "pt": "Conformidade com REACH (homologação)",
-        "ro": "Conformitate REACH (omologare de tip)",
-        "sk": "Súlad s REACH (typové schválenie)",
-        "sl": "Skladnost z REACH (homologacija)",
-        "sv": "REACH-överensstämmelse (typgodkännande)"
-      },
-      "description": {
-        "en": "General REACH regulation compliance confirmation",
-        "hr": "Opća potvrda sukladnosti s uredbom REACH",
-        "cs": "Obecné potvrzení souladu s nařízením REACH",
-        "da": "Generel bekræftelse af overensstemmelse med REACH-forordningen",
-        "nl": "Algemene bevestiging van conformiteit met REACH-verordening",
-        "et": "Üldine REACH-määruse vastavuse kinnitus",
-        "fi": "Yleinen REACH-asetuksen vaatimustenmukaisuuden vahvistus",
-        "fr": "Confirmation générale de conformité au règlement REACH",
-        "el": "Γενική επιβεβαίωση συμμόρφωσης με τον κανονισμό REACH",
-        "ga": "Deimhniú ginearálta comhlíonta le Rialachán REACH",
-        "it": "Conferma generale di conformità al regolamento REACH",
-        "es": "Confirmación general de conformidad con el Reglamento REACH",
-        "hu": "A REACH-rendelet általános megfelelőségének igazolása",
-        "lt": "Bendroji REACH reglamento atitikties patvirtinimas",
-        "lv": "Vispārējs REACH regulas atbilstības apstiprinājums",
-        "mt": "Konferma ġenerali ta' konformità mar-Regolament REACH",
-        "pl": "Ogólne potwierdzenie zgodności z rozporządzeniem REACH",
-        "pt": "Confirmação geral de conformidade com o Regulamento REACH",
-        "ro": "Confirmare generală a conformității cu Regulamentul REACH",
-        "sk": "Všeobecné potvrdenie súladu s nariadením REACH",
-        "sl": "Splošno potrdilo o skladnosti z uredbo REACH",
-        "sv": "Allmän bekräftelse av överensstämmelse med REACH-förordningen"
-      },
-      "dataType": "boolean",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "compliance_and_type_approval",
-      "categoryLabel": {
-        "en": "Compliance and Type Approval",
-        "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
-        "hr": "Usklađenost i homologacija",
-        "cs": "Soulad a schválení typu",
-        "da": "Overensstemmelse og typegodkendelse",
-        "nl": "Conformiteit en typegoedkeuring",
-        "et": "Vastavus ja tüübikinnitus",
-        "fi": "Vaatimustenmukaisuus ja tyyppihyväksyntä",
-        "fr": "Conformité et réception par type",
-        "el": "Συμμόρφωση και έγκριση τύπου",
-        "ga": "Comhlíonadh agus ceadú cineáil",
-        "it": "Conformità e omologazione",
-        "es": "Conformidad y homologación de tipo",
-        "hu": "Megfelelőség és típusjóváhagyás",
-        "lt": "Atitiktis ir tipo patvirtinimas",
-        "lv": "Atbilstība un tipa apstiprinājums",
-        "mt": "Konformità u approvazzjoni tat-tip",
-        "pl": "Zgodność i homologacja typu",
-        "pt": "Conformidade e homologação",
-        "ro": "Conformitate și omologare de tip",
-        "sk": "Súlad a typové schválenie",
-        "sl": "Skladnost in homologacija",
-        "sv": "Överensstämmelse och typgodkännande"
-      },
-      "sortOrder": 83,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Regulation (EC) 1907/2006",
-        "instrument": "32006R1907",
-        "kind": "legislation",
-        "provision": "REACH (EC) 1907/2006 — obligations evidenced in the manufacturer's records",
-        "description": "No REACH provision requires publishing a compliance boolean."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "REACH compliant",
-          "chemical registration",
-          "REACH confirmation"
-        ],
-        "expectedFormat": "true/false",
-        "extractionPriority": 7
-      }
-    },
-    {
       "key": "otherCertifications",
       "label": {
         "en": "Other Certifications",
@@ -10043,6 +10099,8 @@
       },
       "description": {
         "en": "Additional quality/environmental certifications",
+        "bg": "Допълнителни сертификации за качество/околна среда",
+        "de": "Weitere Qualitäts-/Umweltzertifizierungen",
         "hr": "Dodatni certifikati kvalitete/okoliša",
         "cs": "Další certifikace kvality/životního prostředí",
         "da": "Yderligere kvalitets-/miljøcertificeringer",
@@ -10147,6 +10205,8 @@
       },
       "description": {
         "en": "Recommended cold inflation pressure in kPa",
+        "bg": "Препоръчително налягане на студено надутата гума в kPa",
+        "de": "Empfohlener Kaltluftdruck in kPa",
         "hr": "Preporučeni hladni tlak napuhavanja u kPa",
         "cs": "Doporučený tlak hustění za studena v kPa",
         "da": "Anbefalet koldt oppumpningstryk i kPa",
@@ -10255,6 +10315,8 @@
       },
       "description": {
         "en": "Maximum permissible inflation pressure in kPa",
+        "bg": "Максимално допустимо налягане на гумата в kPa",
+        "de": "Maximal zulässiger Aufpumpdruck in kPa",
         "hr": "Maksimalno dopušteni tlak napuhavanja u kPa",
         "cs": "Maximální přípustný hustící tlak v kPa",
         "da": "Maksimalt tilladt oppumpningstryk i kPa",
@@ -10362,6 +10424,8 @@
       },
       "description": {
         "en": "Maximum load per tyre in kg (corresponding to load index)",
+        "bg": "Максимален товар на гума в kg (съответстващ на индекса на натоварване)",
+        "de": "Maximale Last pro Reifen in kg (entsprechend dem Tragfähigkeitsindex)",
         "hr": "Maksimalno opterećenje po gumi u kg (odgovara indeksu opterećenja)",
         "cs": "Maximální zatížení na pneumatiku v kg (odpovídá indexu nosnosti)",
         "da": "Maksimal belastning pr. dæk i kg (svarende til belastningsindeks)",
@@ -10470,6 +10534,8 @@
       },
       "description": {
         "en": "Compatibility with TPMS (Tyre Pressure Monitoring Systems)",
+        "bg": "Съвместимост с TPMS (системи за наблюдение на налягането в гумите)",
+        "de": "Kompatibilität mit TPMS (Reifendruckkontrollsystemen)",
         "hr": "Kompatibilnost s TPMS (sustavi za praćenje tlaka u gumama)",
         "cs": "Kompatibilita s TPMS (systémy monitorování tlaku v pneumatikách)",
         "da": "Kompatibilitet med TPMS (dæktryksovervågningssystemer)",
@@ -10575,6 +10641,8 @@
       },
       "description": {
         "en": "Whether the tyre has run-flat technology",
+        "bg": "Дали гумата разполага с технология run-flat",
+        "de": "Ob der Reifen über Runflat-Technologie verfügt",
         "hr": "Ima li guma run-flat tehnologiju",
         "cs": "Zda má pneumatika technologii run-flat",
         "da": "Om dækket har run-flat-teknologi",
@@ -10680,6 +10748,8 @@
       },
       "description": {
         "en": "Product-specific safety warnings",
+        "bg": "Специфични предупреждения за безопасност на продукта",
+        "de": "Produktspezifische Sicherheitshinweise",
         "hr": "Sigurnosna upozorenja specifična za proizvod",
         "cs": "Bezpečnostní upozornění specifická pro produkt",
         "da": "Produktspecifikke sikkerhedsadvarsler",
@@ -10786,6 +10856,8 @@
       },
       "description": {
         "en": "Recommended storage conditions for unused tyres",
+        "bg": "Препоръчителни условия за съхранение на неизползвани гуми",
+        "de": "Empfohlene Lagerbedingungen für unbenutzte Reifen",
         "hr": "Preporučeni uvjeti skladištenja za neupotrijebljene gume",
         "cs": "Doporučené podmínky skladování pro nepoužité pneumatiky",
         "da": "Anbefalede opbevaringsforhold for ubrugte dæk",
@@ -10889,6 +10961,8 @@
       },
       "description": {
         "en": "Version of the DPP schema used",
+        "bg": "Версия на използваната DPP схема",
+        "de": "Version des verwendeten DPP-Schemas",
         "hr": "Verzija korištene DPP sheme",
         "cs": "Verze použitého schématu DPP",
         "da": "Version af det anvendte DPP-skema",
@@ -10997,6 +11071,8 @@
       },
       "description": {
         "en": "Timestamp of last DPP update (ISO 8601)",
+        "bg": "Времева отметка на последната актуализация на DPP (ISO 8601)",
+        "de": "Zeitstempel der letzten DPP-Aktualisierung (ISO 8601)",
         "hr": "Vremenska oznaka posljednjeg ažuriranja DPP-a (ISO 8601)",
         "cs": "Časové razítko poslední aktualizace DPP (ISO 8601)",
         "da": "Tidsstempel for seneste DPP-opdatering (ISO 8601)",
@@ -11106,6 +11182,8 @@
       },
       "description": {
         "en": "Access level definitions (public, authorized, restricted)",
+        "bg": "Определения за нивото на достъп (публичен, оторизиран, ограничен)",
+        "de": "Zugriffsebenen-Definitionen (öffentlich, autorisiert, eingeschränkt)",
         "hr": "Definicije razina pristupa (javno, ovlašteno, ograničeno)",
         "cs": "Definice úrovní přístupu (veřejné, autorizované, omezené)",
         "da": "Definitioner af adgangsniveau (offentlig, autoriseret, begrænset)",
@@ -11303,6 +11381,8 @@
       },
       "description": {
         "en": "Format specification for machine-readable data",
+        "bg": "Спецификация на формата за машинночетими данни",
+        "de": "Formatspezifikation für maschinenlesbare Daten",
         "hr": "Specifikacija formata za strojno čitljive podatke",
         "cs": "Specifikace formátu pro strojově čitelná data",
         "da": "Formatspecifikation for maskinlæsbare data",
@@ -11383,7 +11463,7 @@
       }
     }
   ],
-  "fieldCount": 94,
+  "fieldCount": 93,
   "requiredFieldCount": 2,
   "categories": [
     {

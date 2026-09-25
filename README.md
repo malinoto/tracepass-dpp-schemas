@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-988-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-987-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,7 +39,7 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **988 fields in total. 152 are required by
+Thirteen JSON files, one per product category. **987 fields in total. 152 are required by
 an instrument in force; 229 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
@@ -56,7 +56,7 @@ an instrument in force; 229 are anticipated under a rule that has not yet been a
 | `steel` | 84 | 16 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
 | `toys` | 28 | 14 | Regulation (EU) 2025/2509 |
-| `tyres` | 94 | 2 | ESPR (EU) 2024/1781 |
+| `tyres` | 93 | 2 | ESPR (EU) 2024/1781 |
 
 Battery carries the most required fields because Regulation (EU) 2023/1542 Art. 77 sets a
 real statutory date — 18 February 2027 — rather than awaiting a delegated act. The only

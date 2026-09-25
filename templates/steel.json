@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "GS1 Digital Link URI (ISO 15459). Primary DPP identifier for the product.",
+        "bg": "GS1 Digital Link URI (ISO 15459). Основен DPP идентификатор на продукта.",
+        "de": "GS1 Digital Link URI (ISO 15459). Primärer DPP-Identifikator des Produkts.",
         "hr": "GS1 Digital Link URI (ISO 15459). Primarni DPP identifikator proizvoda.",
         "cs": "GS1 Digital Link URI (ISO 15459). Primární identifikátor DPP produktu.",
         "da": "GS1 Digital Link URI (ISO 15459). Primær DPP-identifikator for produktet.",
@@ -181,6 +183,8 @@
       },
       "description": {
         "en": "GTIN-14 product identifier (14-digit Global Trade Item Number).",
+        "bg": "Продуктов идентификатор GTIN-14 (14-цифрен глобален номер на търговска единица).",
+        "de": "Produktidentifikator GTIN-14 (14-stellige Global Trade Item Number).",
         "hr": "GTIN-14 identifikator proizvoda (14-znamenkasti Global Trade Item Number).",
         "cs": "Identifikátor produktu GTIN-14 (14místné globální obchodní číslo položky).",
         "da": "GTIN-14 produktidentifikator (14-cifret Global Trade Item Number).",
@@ -293,6 +297,8 @@
       },
       "description": {
         "en": "Production batch or lot number (GS1 AI 10). For steel products this is typically the heat number.",
+        "bg": "Номер на производствената партида (GS1 AI 10). За стоманени продукти това е обикновено номерът на плавката.",
+        "de": "Produktionschargen- oder Losnummer (GS1 AI 10). Bei Stahlprodukten ist dies in der Regel die Schmelzennummer.",
         "hr": "Broj proizvodne serije ili lota (GS1 AI 10). Za čeličke proizvode obično je broj šarže.",
         "cs": "Číslo výrobní šarže nebo dávky (GS1 AI 10). U ocelových výrobků je to obvykle číslo tavby.",
         "da": "Produktionsbatch- eller lotnummer (GS1 AI 10). For stålprodukter er dette typisk smeltenummeret.",
@@ -405,6 +411,8 @@
       },
       "description": {
         "en": "Individual item serial number for high-value products (coils, plates).",
+        "bg": "Сериен номер на отделна единица за продукти с висока стойност (намотки, плочи).",
+        "de": "Seriennummer eines Einzelartikels für hochwertige Produkte (Coils, Platten).",
         "hr": "Serijski broj pojedinačnog artikla za proizvode visoke vrijednosti (zavojnice, ploče).",
         "cs": "Sériové číslo jednotlivé položky pro produkty vysoké hodnoty (svitky, plechy).",
         "da": "Individuelt serienummer for højværdiprodukter (coils, plader).",
@@ -512,6 +520,8 @@
       },
       "description": {
         "en": "Product category classification within iron, steel, and aluminium.",
+        "bg": "Класификация на продуктовата категория в рамките на желязо, стомана и алуминий.",
+        "de": "Produktkategorieklassifizierung innerhalb von Eisen, Stahl und Aluminium.",
         "hr": "Klasifikacija kategorije proizvoda unutar željeza, čelika i aluminija.",
         "cs": "Klasifikace kategorie produktu v rámci železa, oceli a hliníku.",
         "da": "Produktkategoriklassificering inden for jern, stål og aluminium.",
@@ -1146,6 +1156,8 @@
       },
       "description": {
         "en": "Commercial product name including grade and delivery condition.",
+        "bg": "Търговско наименование на продукта, включващо степен и условия на доставка.",
+        "de": "Handelsname des Produkts einschließlich Güte und Lieferzustand.",
         "hr": "Komercialni naziv proizvoda uključujući vrstu i stanje isporuke.",
         "cs": "Obchodní název produktu včetně jakosti a stavu dodání.",
         "da": "Kommercielt produktnavn inkl. kvalitet og leveringstilstand.",
@@ -1253,6 +1265,8 @@
       },
       "description": {
         "en": "Combined Nomenclature code (EU customs, 8 digits). Critical for CBAM goods identification and benchmark determination.",
+        "bg": "Код на Комбинираната номенклатура (митници на ЕС, 8 цифри). От съществено значение за идентифицирането на стоките по CBAM и определянето на референтна стойност.",
+        "de": "Code der Kombinierten Nomenklatur (EU-Zoll, 8 Stellen). Entscheidend für die CBAM-Warenidentifizierung und Benchmark-Bestimmung.",
         "hr": "Kombinirana nomenklatura kod (EU carinstvo, 8 znamenki). Kritično za identificiranje CBAM roba i određivanje mjerila.",
         "cs": "Kód kombinované nomenklatury (celní EU, 8 číslic). Klíčový pro identifikaci zboží CBAM a stanovení referenční hodnoty.",
         "da": "Kombineret nomenklaturkode (EU-told, 8 cifre). Kritisk for CBAM-varers identifikation og benchmarkfastsættelse.",
@@ -1365,6 +1379,8 @@
       },
       "description": {
         "en": "Steel grade per EN 10027-1 (symbolic name) and EN 10027-2 (numeric), or aluminium alloy per EN 573/EN 1706.",
+        "bg": "Обозначение на стоманената степен съгласно EN 10027-1 (символно наименование) и EN 10027-2 (числово), или алуминиева сплав съгласно EN 573/EN 1706.",
+        "de": "Stahlsortenbezeichnung gemäß EN 10027-1 (Symbolname) und EN 10027-2 (numerisch) oder Aluminiumlegierung gemäß EN 573/EN 1706.",
         "hr": "Vrsta čelika prema EN 10027-1 (simbolički naziv) i EN 10027-2 (numerički), ili aluminijska legura prema EN 573/EN 1706.",
         "cs": "Jakost oceli dle EN 10027-1 (symbolický název) a EN 10027-2 (číselně) nebo hliníková slitina dle EN 573/EN 1706.",
         "da": "Stålkvalitet iht. EN 10027-1 (symbolsk navn) og EN 10027-2 (numerisk), eller aluminiumslegering iht. EN 573/EN 1706.",
@@ -1479,6 +1495,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer or economic operator.",
+        "bg": "Юридическо наименование на производителя или икономическия оператор.",
+        "de": "Rechtsname des Herstellers oder Wirtschaftsakteurs.",
         "hr": "Pravno ime proizvođača ili ekonomskog operatora.",
         "cs": "Právní název výrobce nebo hospodářského subjektu.",
         "da": "Juridisk navn på producenten eller den erhvervsdrivende.",
@@ -1588,6 +1606,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer.",
+        "bg": "Регистриран адрес на производителя.",
+        "de": "Eingetragene Adresse des Herstellers.",
         "hr": "Registrirana adresa proizvođača.",
         "cs": "Registrovaná adresa výrobce.",
         "da": "Registreret adresse for producenten.",
@@ -1695,6 +1715,8 @@
       },
       "description": {
         "en": "ISO 3166-1 alpha-2 country code of production location. Determines CBAM default benchmark values and carbon price.",
+        "bg": "Код на страната на производство по ISO 3166-1 alpha-2. Определя стойностите на стандартния показател по CBAM и въглеродната цена.",
+        "de": "ISO-3166-1-Alpha-2-Ländercode des Produktionsstandorts. Bestimmt CBAM-Standardbenchmarkwerte und Kohlenstoffpreis.",
         "hr": "ISO 3166-1 alpha-2 kod zemlje proizvodne lokacije. Određuje CBAM zadane vrijednosti mjerila i cijenu ugljika.",
         "cs": "Kód země ISO 3166-1 alfa-2 místa výroby. Určuje výchozí referenční hodnoty CBAM a cenu uhlíku.",
         "da": "ISO 3166-1 alpha-2 landekode for produktionsstedet. Bestemmer CBAM's standardbenchmark og CO2-pris.",
@@ -1806,6 +1828,8 @@
       },
       "description": {
         "en": "Production facility identifier. For CBAM: installation ID in CBAM registry. Installation-level emissions data is tied to this ID.",
+        "bg": "Идентификатор на производственото предприятие. За CBAM: идентификатор на инсталацията в регистъра на CBAM. Данните за емисиите на ниво инсталация са обвързани с този идентификатор.",
+        "de": "Kennung der Produktionsstätte. Für CBAM: Anlagen-ID im CBAM-Register. Emissionsdaten auf Anlagenebene sind an diese ID geknüpft.",
         "hr": "Identifikator proizvodnog pogona. Za CBAM: ID instalacije u CBAM registru. Podaci o emisijama na razini instalacije vezani su uz ovaj ID.",
         "cs": "Identifikátor výrobního zařízení. Pro CBAM: ID instalace v registru CBAM. Údaje o emisích na úrovni instalace jsou vázány na toto ID.",
         "da": "Identifikator for produktionsanlæg. For CBAM: installations-ID i CBAM-registret. Emissionsdata på installationsniveau er knyttet til dette ID.",
@@ -1917,6 +1941,8 @@
       },
       "description": {
         "en": "Legal name of the EU importer, if the product is imported.",
+        "bg": "Юридическо наименование на вносителя в ЕС, ако продуктът е внесен.",
+        "de": "Rechtsname des EU-Importeurs, sofern das Produkt eingeführt wird.",
         "hr": "Pravno ime EU uvoznika, ako se proizvod uvaža.",
         "cs": "Právní název dovozce v EU, pokud je produkt dovážen.",
         "da": "Juridisk navn på EU-importøren, hvis produktet er importeret.",
@@ -2024,6 +2050,8 @@
       },
       "description": {
         "en": "Registered address of the EU importer.",
+        "bg": "Регистриран адрес на вносителя в ЕС.",
+        "de": "Eingetragene Adresse des EU-Importeurs.",
         "hr": "Registrirana adresa EU uvoznika.",
         "cs": "Registrovaná adresa dovozce v EU.",
         "da": "Registreret adresse for EU-importøren.",
@@ -2129,6 +2157,8 @@
       },
       "description": {
         "en": "Authorised representative in the EU if the manufacturer is non-EU.",
+        "bg": "Упълномощен представител в ЕС, ако производителят е извън ЕС.",
+        "de": "Bevollmächtigter Vertreter in der EU, sofern der Hersteller außerhalb der EU ansässig ist.",
         "hr": "Ovlašteni predstavnik u EU ako je proizvođač izvan EU.",
         "cs": "Zplnomocněný zástupce v EU, pokud je výrobce mimo EU.",
         "da": "Bemyndiget repræsentant i EU, hvis producenten er uden for EU.",
@@ -2237,6 +2267,8 @@
       },
       "description": {
         "en": "Primary material classification. CBAM distinguishes carbon steel, stainless, low-alloy, high-alloy for benchmark determination.",
+        "bg": "Класификация на основния материал. CBAM разграничава въглеродна стомана, неръждаема, нисколегирана и високолегирана стомана за определяне на референтна стойност.",
+        "de": "Klassifizierung des Hauptwerkstoffs. CBAM unterscheidet Kohlenstoffstahl, nichtrostenden Stahl, niedriglegierten und hochlegierten Stahl für die Benchmark-Bestimmung.",
         "hr": "Klasifikacija primarnog materijala. CBAM razlikuje ugljični čelik, nehrđajući, nisku i visoku legiranost za određivanje mjerila.",
         "cs": "Klasifikace primárního materiálu. CBAM rozlišuje pro stanovení referenční hodnoty uhlíkovou, nerezovou, nízkolegovanou a vysokolegovanou ocel.",
         "da": "Klassificering af primært materiale. CBAM skelner mellem kulstofstål, rustfrit, lavlegeret og højlegeret til benchmarkfastsættelse.",
@@ -2580,6 +2612,8 @@
       },
       "description": {
         "en": "Elemental composition per EN 10204 mill certificate. Weight percentages for each alloying element.",
+        "bg": "Елементен състав съгласно сертификата на мелницата EN 10204. Масови проценти за всеки легиращ елемент.",
+        "de": "Elementzusammensetzung gemäß EN-10204-Werkszeugnis. Gewichtsprozent für jedes Legierungselement.",
         "hr": "Elementarni sastav prema EN 10204 certifikatu tvornice. Težinski postotci za svaki legirajući element.",
         "cs": "Prvkové složení dle hutního certifikátu EN 10204. Hmotnostní procenta pro každý legující prvek.",
         "da": "Elementsammensætning iht. EN 10204 smelteattest. Vægtprocent for hvert legeringselement.",
@@ -2692,6 +2726,8 @@
       },
       "description": {
         "en": "Total recycled material content by weight. ESPR will set minimum thresholds via delegated act (expected 2027-2028).",
+        "bg": "Общо рециклирано съдържание по тегло. ESPR ще определи минимални прагове чрез делегиран акт (очаква се 2027–2028 г.).",
+        "de": "Gesamtgehalt an recyceltem Material nach Gewicht. ESPR wird Mindestschwellenwerte durch delegierten Rechtsakt festlegen (erwartet 2027–2028).",
         "hr": "Ukupan sadržaj recikliranog materijala po težini. ESPR će postaviti minimalne pragove delegiranim aktom (očekivano 2027-2028).",
         "cs": "Celkový hmotnostní obsah recyklovaného materiálu. ESPR stanoví minimální prahové hodnoty aktem v přenesené pravomoci (očekáváno 2027–2028).",
         "da": "Samlet genanvendt materialeindhold efter vægt. ESPR fastsætter minimumstærskler via delegeret retsakt (forventet 2027-2028).",
@@ -2804,6 +2840,8 @@
       },
       "description": {
         "en": "Pre-consumer (post-industrial) scrap content by weight: material diverted from a manufacturing process before reaching a consumer. Excludes home/runaround scrap reused within the same process that generated it (ISO 14021 definition). No EU instrument in force defines or requires this for steel.",
+        "bg": "Съдържание на предконсумационен (постпромишлен) скрап по тегло: материал, отклонен от производствен процес преди да достигне потребителя. Изключва собствен/вътрешен скрап, повторно използван в рамките на същия процес (определение по ISO 14021). Няма влязъл в сила правен инструмент на ЕС, който да определя или изисква това за стомана.",
+        "de": "Anteil von Pre-Consumer-Schrott (Post-Industrial-Schrott) nach Gewicht: Material, das aus einem Fertigungsprozess herausgezogen wird, bevor es den Verbraucher erreicht. Schließt Hausschrott aus, der im gleichen Prozess wiederverwendet wird (ISO-14021-Definition). Kein EU-Rechtsinstrument in Kraft, das dies für Stahl definiert oder vorschreibt.",
         "hr": "Sadržaj predpotrošačkog (poslijeindustrijskog) otpadnog materijala po masi: materijal odvojen iz procesa proizvodnje prije nego što dođe do potrošača. Isključuje kućni/kružni otpadni materijal koji se ponovo koristi unutar istog procesa (definicija ISO 14021). Nijedan europski propis na snazi ne definira ni ne zahtijeva ovo za čelik.",
         "cs": "Obsah předspotřebitelského (post-průmyslového) šrotu hmotnostně: materiál odkloněný z výrobního procesu před dosažením spotřebitele. Nezahrnuje domácí/interní šrot znovu použitý v témže procesu (definice ISO 14021). Žádný platný akt EU to pro ocel nedefinuje ani nevyžaduje.",
         "da": "Indhold af præ-forbrugerskrot (post-industrielt) efter vægt: materiale omledt fra en produktionsproces inden det når forbrugeren. Udelukker hus-/rundløbsskrot genbrugt i den samme proces (ISO 14021-definition). Intet EU-instrument i kraft definerer eller kræver dette for stål.",
@@ -2916,6 +2954,8 @@
       },
       "description": {
         "en": "Post-consumer (end-of-life) scrap content by weight.",
+        "bg": "Съдържание на постконсумационен (след края на жизнения цикъл) скрап по тегло.",
+        "de": "Anteil von Post-Consumer-Schrott (Altschrott) nach Gewicht.",
         "hr": "Sadržaj postpotrošnog (otpad iz životnog ciklusa) otpada po težini.",
         "cs": "Hmotnostní obsah pospotřebitelského šrotu (z konce životnosti).",
         "da": "Post-consumer (end-of-life) skrotindhold efter vægt.",
@@ -3025,6 +3065,8 @@
       },
       "description": {
         "en": "Method used to verify recycled content claims.",
+        "bg": "Метод, използван за проверка на декларациите за рециклирано съдържание.",
+        "de": "Methode zur Überprüfung der Angaben zum Recyclinggehalt.",
         "hr": "Metoda korištena za provjeru tvrdnji o recikliranom materijalu.",
         "cs": "Metoda použitá k ověření tvrzení o recyklovaném obsahu.",
         "da": "Metode til verifikation af påstande om genanvendt indhold.",
@@ -3248,6 +3290,8 @@
       },
       "description": {
         "en": "Surface coatings applied to the product (galvanizing, painting, etc.).",
+        "bg": "Повърхностни покрития, нанесени върху продукта (галванизиране, боядисване и др.).",
+        "de": "Auf das Produkt aufgebrachte Oberflächenbeschichtungen (Verzinken, Lackieren usw.).",
         "hr": "Površinski premazi primijenjeni na proizvod (toplo cinčanje, bojanje, itd.).",
         "cs": "Povrchové povlaky aplikované na produkt (pozinkování, nátěry atd.).",
         "da": "Overfladebelægninger påført produktet (galvanisering, maling osv.).",
@@ -3357,6 +3401,8 @@
       },
       "description": {
         "en": "Minimum yield strength ReH in megapascals, from EN 10204 mill certificate.",
+        "bg": "Минимална граница на провлачване ReH в мегапаскали, от сертификата на мелницата EN 10204.",
+        "de": "Mindeststreckgrenze ReH in Megapascal aus dem EN-10204-Werkszeugnis.",
         "hr": "Minimalna granica razvlačenja ReH u megapaskalima, iz EN 10204 certifikata tvornice.",
         "cs": "Minimální mez kluzu ReH v megapascalech, z hutního certifikátu EN 10204.",
         "da": "Minimum flydegrænse ReH i megapascal, fra EN 10204 smelteattest.",
@@ -3469,6 +3515,8 @@
       },
       "description": {
         "en": "Tensile strength Rm in megapascals.",
+        "bg": "Якост на опън Rm в мегапаскали.",
+        "de": "Zugfestigkeit Rm in Megapascal.",
         "hr": "Vlačna čvrstoća Rm u megapaskalima.",
         "cs": "Pevnost v tahu Rm v megapascalech.",
         "da": "Trækstyrke Rm i megapascal.",
@@ -3578,6 +3626,8 @@
       },
       "description": {
         "en": "Elongation at break A5 (%) from tensile test.",
+        "bg": "Относително удължение при скъсване A5 (%) от теста на опън.",
+        "de": "Bruchdehnung A5 (%) aus dem Zugversuch.",
         "hr": "Elongacija pri lomu A5 (%) iz vlačnog testa.",
         "cs": "Tažnost při přetržení A5 (%) ze zkoušky tahem.",
         "da": "Brudforlængelse A5 (%) fra trækprøve.",
@@ -3688,6 +3738,8 @@
       },
       "description": {
         "en": "Charpy V-notch impact test results per ISO 148-1.",
+        "bg": "Резултати от теста на удар с V-образен надрез по Шарпи съгласно ISO 148-1.",
+        "de": "Kerbschlagbiegversuchergebnisse nach Charpy V-Kerbe gemäß ISO 148-1.",
         "hr": "Rezultati Charpy V-notch testa udara prema ISO 148-1.",
         "cs": "Výsledky zkoušky rázem v ohybu Charpy V dle ISO 148-1.",
         "da": "Charpy V-kærv slagprøvningsresultater iht. ISO 148-1.",
@@ -3798,6 +3850,8 @@
       },
       "description": {
         "en": "Hardness test result (Brinell, Rockwell, or Vickers).",
+        "bg": "Резултат от теста за твърдост (Бринел, Рокуел или Викерс).",
+        "de": "Härteprüfungsergebnis (Brinell, Rockwell oder Vickers).",
         "hr": "Rezultat testa tvrdoće (Brinell, Rockwell ili Vickers).",
         "cs": "Výsledek zkoušky tvrdosti (Brinell, Rockwell nebo Vickers).",
         "da": "Hårdhedsprøveresultat (Brinell, Rockwell eller Vickers).",
@@ -3908,6 +3962,8 @@
       },
       "description": {
         "en": "Primary steelmaking or aluminium smelting route. Determines CBAM default benchmark.",
+        "bg": "Основен маршрут за производство на стомана или топене на алуминий. Определя стандартната референтна стойност по CBAM.",
+        "de": "Primärer Stahlerzeugungsweg oder Aluminiumschmelzweg. Bestimmt den CBAM-Standardbenchmark.",
         "hr": "Primarni čelični ili aluminijski smeltovski put. Određuje CBAM zadano mjerilo.",
         "cs": "Primární cesta výroby oceli nebo tavby hliníku. Určuje výchozí referenční hodnotu CBAM.",
         "da": "Primær stålfremstillings- eller aluminiumsmeltningsrute. Bestemmer CBAM-standardbenchmark.",
@@ -4281,6 +4337,8 @@
       },
       "description": {
         "en": "Date of manufacture or final processing.",
+        "bg": "Дата на производство или окончателна обработка.",
+        "de": "Datum der Herstellung oder abschließenden Verarbeitung.",
         "hr": "Datum proizvodnje ili završne obrade.",
         "cs": "Datum výroby nebo finálního zpracování.",
         "da": "Dato for fremstilling eller slutbearbejdning.",
@@ -4394,6 +4452,8 @@
       },
       "description": {
         "en": "Steel heat/melt number for traceability to a specific melt.",
+        "bg": "Номер на стоманена плавка за проследимост до конкретна плавка.",
+        "de": "Stahl-Schmelzennummer für die Rückverfolgbarkeit zu einer bestimmten Schmelze.",
         "hr": "Broj čelične šarže/taljevine za pratljivost specifičnoj taljevini.",
         "cs": "Číslo tavby oceli pro sledovatelnost ke konkrétní tavbě.",
         "da": "Stålsmelte-/smeltenummer til sporbarhed til en specifik smelte.",
@@ -4503,6 +4563,8 @@
       },
       "description": {
         "en": "Delivery condition / heat treatment applied to the steel product.",
+        "bg": "Условия на доставка / топлинна обработка, приложена върху стоманения продукт.",
+        "de": "Lieferzustand / Wärmebehandlung, die auf das Stahlprodukt angewendet wurde.",
         "hr": "Stanje isporuke/toplinska obrada primijenjena na čelični proizvod.",
         "cs": "Stav dodání / tepelné zpracování aplikované na ocelový produkt.",
         "da": "Leveringstilstand / varmebehandling anvendt på stålproduktet.",
@@ -4875,6 +4937,8 @@
       },
       "description": {
         "en": "Grid emission factor in gCO2/kWh. Critical for aluminium indirect emissions calculation under CBAM.",
+        "bg": "Коефициент на емисии на мрежата в gCO2/kWh. От съществено значение за изчисляването на косвените емисии от алуминий по CBAM.",
+        "de": "Netzemissionsfaktor in gCO2/kWh. Entscheidend für die Berechnung der indirekten Emissionen von Aluminium im Rahmen von CBAM.",
         "hr": "Faktor emisije mreže u gCO2/kWh. Kritično za izračun indirektnih emisija aluminija prema CBAM.",
         "cs": "Emisní faktor sítě v gCO2/kWh. Klíčový pro výpočet nepřímých emisí hliníku v rámci CBAM.",
         "da": "Nettets emissionsfaktor i gCO2/kWh. Kritisk for beregning af aluminiums indirekte emissioner under CBAM.",
@@ -4986,6 +5050,8 @@
       },
       "description": {
         "en": "Share of renewable electricity used in production.",
+        "bg": "Дял на използваната енергия от възобновяеми източници в производството.",
+        "de": "Anteil erneuerbarer Energie, der in der Produktion verwendet wird.",
         "hr": "Udio obnovljive električne energije korištene u proizvodnji.",
         "cs": "Podíl obnovitelné elektřiny použité ve výrobě.",
         "da": "Andel af vedvarende elektricitet anvendt i produktionen.",
@@ -5094,6 +5160,8 @@
       },
       "description": {
         "en": "Electricity consumption per tonne of product. Especially critical for EAF and aluminium smelting.",
+        "bg": "Потребление на електроенергия на тон продукт. Особено важно за електродъгови пещи (EAF) и топене на алуминий.",
+        "de": "Stromverbrauch pro Tonne Produkt. Besonders kritisch für Elektrolichtbogenöfen (EAF) und Aluminiumschmelzen.",
         "hr": "Potrošnja električne energije po toni proizvoda. Posebno kritično za EAF i taljenje aluminija.",
         "cs": "Spotřeba elektřiny na tunu produktu. Zvláště kritická pro EAF a tavbu hliníku.",
         "da": "Elforbrug pr. ton produkt. Særligt kritisk for EAF og aluminiumsmeltning.",
@@ -5205,6 +5273,8 @@
       },
       "description": {
         "en": "Origin of raw materials (iron ore, bauxite, scrap, etc.) for supply chain traceability.",
+        "bg": "Произход на суровините (желязна руда, боксит, скрап и др.) за проследимост на веригата на доставки.",
+        "de": "Ursprung der Rohstoffe (Eisenerz, Bauxit, Schrott usw.) für die Rückverfolgbarkeit der Lieferkette.",
         "hr": "Porijeklo sirovina (željezna ruda, bauxit, otpad, itd.) za pratljivost lanca dobave.",
         "cs": "Původ surovin (železná ruda, bauxit, šrot atd.) pro sledovatelnost dodavatelského řetězce.",
         "da": "Oprindelse af råmaterialer (jernmalm, bauxit, skrot osv.) til sporbarhed i forsyningskæden.",
@@ -5313,6 +5383,8 @@
       },
       "description": {
         "en": "Primary reductant used in iron/aluminium reduction. Determines direct process emissions.",
+        "bg": "Основен редуктор, използван при редукцията на желязо/алуминий. Определя преките емисии от процеса.",
+        "de": "Primär verwendetes Reduktionsmittel bei der Eisen-/Aluminiumreduktion. Bestimmt die direkten Prozessemissionen.",
         "hr": "Primarni reducent korišten u redukciji željeza/aluminija. Određuje direktne emisije procesa.",
         "cs": "Primární redukční činidlo používané při redukci železa/hliníku. Určuje přímé procesní emise.",
         "da": "Primært reduktionsmiddel brugt i jern-/aluminiumsreduktion. Bestemmer direkte procesudledninger.",
@@ -5713,6 +5785,8 @@
       },
       "description": {
         "en": "Product carbon footprint per ISO 14067 / EU PEF. Cradle-to-gate value in kgCO2e/kg. Overlaps with CBAM embedded emissions.",
+        "bg": "Въглероден отпечатък на продукта съгласно ISO 14067 / EU PEF. Стойност от суровина до производство в kgCO2e/kg. Застъпва се с вградените емисии по CBAM.",
+        "de": "Produkt-Carbon Footprint gemäß ISO 14067 / EU PEF. Cradle-to-Gate-Wert in kgCO2e/kg. Überschneidung mit eingebetteten CBAM-Emissionen.",
         "hr": "Ugljični otisak proizvoda prema ISO 14067/EU PEF. Vrijednost od korijeva do vrata u kgCO2e/kg. Preklapa se s CBAM uključenim emisijama.",
         "cs": "Uhlíková stopa produktu dle ISO 14067 / EU PEF. Hodnota od kolébky k bráně v kgCO2e/kg. Překrývá se s vloženými emisemi CBAM.",
         "da": "Produkt-CO2-fodaftryk iht. ISO 14067 / EU PEF. Cradle-to-gate værdi i kgCO2e/kg. Overlapper med CBAM-indlejrede emissioner.",
@@ -5828,6 +5902,8 @@
       },
       "description": {
         "en": "Direct emissions from the production installation. THE primary CBAM field for iron, steel and aluminium.",
+        "bg": "Преки емисии от производствената инсталация. Основното поле по CBAM за желязо, стомана и алуминий.",
+        "de": "Direkte Emissionen der Produktionsanlage. Das primäre CBAM-Feld für Eisen, Stahl und Aluminium.",
         "hr": "Direktne emisije iz proizvodne instalacije. PRIMARNO CBAM polje za željezo, čelik i aluminij.",
         "cs": "Přímé emise z výrobní instalace. Hlavní pole CBAM pro železo, ocel a hliník.",
         "da": "Direkte emissioner fra produktionsanlægget. DET primære CBAM-felt for jern, stål og aluminium.",
@@ -5940,6 +6016,8 @@
       },
       "description": {
         "en": "Indirect emissions from electricity consumed in production. Not part of CBAM embedded emissions for iron, steel or aluminium: CBAM Art. 7(1) and Annex II count direct emissions only for these goods. Voluntary footprint data.",
+        "bg": "Косвени емисии от потребената електроенергия в производството. Не са част от вградените емисии по CBAM за желязо, стомана или алуминий: CBAM чл. 7(1) и приложение II отчитат само преки емисии за тези стоки. Доброволни данни за отпечатъка.",
+        "de": "Indirekte Emissionen aus dem in der Produktion verbrauchten Strom. Kein Teil der eingebetteten CBAM-Emissionen für Eisen, Stahl oder Aluminium: CBAM Art. 7(1) und Anhang II zählen nur direkte Emissionen für diese Waren. Freiwillige Footprint-Daten.",
         "hr": "Neizravne emisije od električne energije potrošene u proizvodnji. Nisu dio CBAM ugrađenih emisija za željezo, čelik ili aluminij: čl. 7(1) i prilog II CBAM-a računaju samo izravne emisije za ovu robu. Dobrovoljni podaci o ugljičnom otisku.",
         "cs": "Nepřímé emise z elektřiny spotřebované ve výrobě. Nejsou součástí CBAM vložených emisí pro železo, ocel ani hliník: čl. 7 odst. 1 a příloha II CBAM počítají pro toto zboží pouze přímé emise. Dobrovolné údaje o uhlíkové stopě.",
         "da": "Indirekte emissioner fra elektricitet forbrugt i produktionen. Ikke en del af CBAM-indlejrede emissioner for jern, stål eller aluminium: CBAM art. 7(1) og bilag II medregner kun direkte emissioner for disse varer. Frivillige CO₂-aftryksdata.",
@@ -6049,6 +6127,8 @@
       },
       "description": {
         "en": "Upstream value chain emissions (raw materials, transport). CBAM counts precursor emissions only.",
+        "bg": "Емисии от нагоре по веригата на стойността (суровини, транспорт). CBAM отчита само емисиите от прекурсорите.",
+        "de": "Upstream-Emissionen der Wertschöpfungskette (Rohstoffe, Transport). CBAM zählt nur Vorprodukt-Emissionen.",
         "hr": "Emisije lanaca vrijednosti uz tok (sirove materijale, prijevoz). CBAM računa samo emisije prekursora.",
         "cs": "Emise hodnotového řetězce před výrobou (suroviny, doprava). CBAM započítává pouze emise prekurzorů.",
         "da": "Opstrøms værdikædeemissioner (råmaterialer, transport). CBAM tæller kun forløberemissioner.",
@@ -6157,6 +6237,8 @@
       },
       "description": {
         "en": "Embedded emissions of relevant CBAM precursors (e.g. pig iron, DRI, sinter, unwrought aluminium), each weighted by its specific mass consumption (t precursor per t product) before being added to embedded emissions (CBAM Annex IV point 3).",
+        "bg": "Вградени емисии на съответните прекурсори по CBAM (напр. чугун, DRI, синтер, необработен алуминий), всеки претеглен по специфичното му масово потребление (т прекурсор за т продукт) преди добавяне към вградените емисии (CBAM приложение IV, точка 3).",
+        "de": "Eingebettete Emissionen relevanter CBAM-Vorprodukte (z. B. Roheisen, DRI, Sinter, Rohwalzaluminium), jedes gewichtet nach seinem spezifischen Massenverbrauch (t Vorprodukt pro t Erzeugnis), bevor es zu den eingebetteten Emissionen addiert wird (CBAM Anhang IV Punkt 3).",
         "hr": "Ugrađene emisije relevantnih CBAM prekurzora (npr. sirovo željeza, DRI, sinter, neprerađeni aluminij), svaki ponderiran specifičnom potrošnjom mase (t prekurzora po t proizvoda) prije zbrajanja s ugrađenim emisijama (CBAM prilog IV točka 3).",
         "es": "Emisiones incorporadas de los precursores MCFR pertinentes (p. ej., arrabio, HRD, sínter, aluminio en bruto), cada uno ponderado por su consumo específico de masa (t precursor por t de producto) antes de sumarse a las emisiones incorporadas (MCFR anexo IV punto 3).",
         "lt": "Atitinkamų CBAM pirmtakų (pvz., ketaus, DRI, sinterio, nelydyto aliuminio) įterptosios emisijos, kiekvienas svertinis pagal savo specifinį masės suvartojimą (t pirmtako vienai t produkto) prieš pridedant prie įterptųjų emisijų (CBAM IV priedo 3 punktas).",
@@ -6267,6 +6349,8 @@
       },
       "description": {
         "en": "Standard or methodology used for carbon footprint calculation.",
+        "bg": "Стандарт или методология, използвани за изчисляване на въглеродния отпечатък.",
+        "de": "Standard oder Methodik, die für die Berechnung des Carbon Footprint verwendet wird.",
         "hr": "Norma ili metodologija korištena za izračun ugljičnog otiska.",
         "es": "Norma o metodología utilizada para el cálculo de la huella de carbono.",
         "lt": "Standartas arba metodika, naudojama anglies pėdsako skaičiavimui.",
@@ -6550,6 +6634,8 @@
       },
       "description": {
         "en": "Third-party verification of carbon footprint data. Mandatory for CBAM from 2026 definitive phase.",
+        "bg": "Проверка от трета страна на данните за въглеродния отпечатък. Задължително за CBAM от окончателната фаза от 2026 г.",
+        "de": "Drittparteiprüfung der Carbon-Footprint-Daten. Ab der endgültigen CBAM-Phase ab 2026 verpflichtend.",
         "hr": "Provjera podataka o ugleničnom ottisku od strane trećeg lica. Obavezna za CBAM od 2026 definirajuće faze.",
         "es": "Verificación por terceros de los datos de huella de carbono. Obligatoria para CBAM desde la fase definitiva de 2026.",
         "lt": "Trečiosios šalies anglies pėdsako duomenų patikra. Privaloma CBAM nuo 2026 m. galutinio etapo.",
@@ -6661,6 +6747,8 @@
       },
       "description": {
         "en": "Performance class (A-G) when established by delegated act.",
+        "bg": "Клас на ефективност (A–G) при установяване с делегиран акт.",
+        "de": "Leistungsklasse (A–G), wenn durch delegierten Rechtsakt festgelegt.",
         "hr": "Klasa performansi (A-G) kada se uspostavi delegiranim aktom.",
         "es": "Clase de rendimiento (A-G) cuando se establezca mediante acto delegado.",
         "lt": "Veikimo klasė (A-G), kai bus nustatyta deleguotuoju aktu.",
@@ -6973,6 +7061,8 @@
       },
       "description": {
         "en": "EU ETS product benchmark reference for EU producers.",
+        "bg": "Референтна стойност на продукта в EU ETS за производители в ЕС.",
+        "de": "EU-EHS-Produktbenchmark-Referenz für EU-Hersteller.",
         "hr": "EU ETS referenca mjerila proizvoda za EU proizvodnju.",
         "es": "Referencia de producto del RCDE UE para productores de la UE.",
         "lt": "ES ATLPS produkto etalonas ES gamintojams.",
@@ -7079,6 +7169,8 @@
       },
       "description": {
         "en": "Quality level of emissions data: actual verified, actual unverified, or default benchmark values.",
+        "bg": "Ниво на качество на данните за емисии: действителни верифицирани, действителни неверифицирани или стандартни референтни стойности.",
+        "de": "Qualitätsniveau der Emissionsdaten: tatsächliche geprüfte, tatsächliche ungeprüfte oder standardmäßige Benchmarkwerte.",
         "hr": "Razina kvalitete podataka emisija: verificirani stvarni, neprovjerjeni stvarni ili zadane vrijednosti mjerila.",
         "es": "Nivel de calidad de los datos de emisiones: reales verificados, reales no verificados o valores de referencia por defecto.",
         "lt": "Emisijų duomenų kokybės lygis: faktiniai patikrinti, faktiniai nepatikrinti arba numatytosios etaloninės vertės.",
@@ -7305,6 +7397,8 @@
       },
       "description": {
         "en": "Simple (no CBAM precursors, e.g. pig iron) or Complex (contains CBAM precursors, e.g. steel plate from pig iron).",
+        "bg": "Прости (без прекурсори по CBAM, напр. чугун) или Сложни (съдържащи прекурсори по CBAM, напр. стоманена плоча от чугун).",
+        "de": "Einfach (keine CBAM-Vorprodukte, z. B. Roheisen) oder Komplex (enthält CBAM-Vorprodukte, z. B. Stahlblech aus Roheisen).",
         "hr": "Jednostavna (bez CBAM prekursora, npr. surovo željezo) ili kompleksna (sadrži CBAM prekursore, npr. čelična ploča od surovog željeza).",
         "es": "Simple (sin precursores CBAM, p. ej., arrabio) o Complejo (contiene precursores CBAM, p. ej., chapa de acero a partir de arrabio).",
         "lt": "Paprastas (be CBAM pirmtakų, pvz., ketus) arba sudėtingas (turi CBAM pirmtakų, pvz., plieno lakštas iš ketaus).",
@@ -7473,6 +7567,8 @@
       },
       "description": {
         "en": "Specific embedded emissions per tonne for CBAM (CBAM Annex IV point 3): attributed direct emissions per tonne plus Σ(mᵢ × SEEᵢ) over relevant precursors, where mᵢ is tonnes of precursor per tonne of product. Direct emissions only for iron, steel and aluminium (Annex II).",
+        "bg": "Специфични вградени емисии на тон за CBAM (CBAM приложение IV, точка 3): приписани преки емисии на тон плюс Σ(mᵢ × SEEᵢ) за съответните прекурсори, където mᵢ е тонове прекурсор за тон продукт. Само преки емисии за желязо, стомана и алуминий (приложение II).",
+        "de": "Spezifische eingebettete Emissionen pro Tonne für CBAM (CBAM Anhang IV Punkt 3): zugerechnete direkte Emissionen pro Tonne zuzüglich Σ(mᵢ × SEEᵢ) über relevante Vorprodukte, wobei mᵢ Tonnen Vorprodukt pro Tonne Erzeugnis ist. Nur direkte Emissionen für Eisen, Stahl und Aluminium (Anhang II).",
         "hr": "Specifične ugrađene emisije po toni za CBAM (prilog IV točka 3 CBAM): pripisane izravne emisije po toni plus Σ(mᵢ × SEEᵢ) za relevantne prekurzore, gdje je mᵢ = tone prekurzora po toni proizvoda. Samo izravne emisije za željezo, čelik i aluminij (prilog II).",
         "es": "Emisiones incorporadas específicas por tonelada para el MCFR (anexo IV punto 3 del MCFR): emisiones directas atribuidas por tonelada más Σ(mᵢ × SEEᵢ) sobre precursores pertinentes, donde mᵢ = toneladas de precursor por tonelada de producto. Solo emisiones directas para hierro, acero y aluminio (anexo II).",
         "lt": "CBAM specifinės įterptosios emisijos vienai tonai (CBAM IV priedo 3 punktas): priskirtos tiesioginės emisijos vienai tonai plius Σ(mᵢ × SEEᵢ) atitinkamų pirmtakų atžvilgiu, kur mᵢ = pirmtako tonos vienai produkto tonai. Tik tiesioginės emisijos geležiai, plienui ir aliuminiui (II priedas).",
@@ -7584,6 +7680,8 @@
       },
       "description": {
         "en": "Carbon price already paid in country of origin. Deducted from CBAM certificates an importer must surrender.",
+        "bg": "Вече платена въглеродна цена в страната на произход. Приспада се от CBAM сертификатите, които вносителят трябва да предаде.",
+        "de": "Im Ursprungsland bereits gezahlter Kohlenstoffpreis. Wird von den CBAM-Zertifikaten abgezogen, die ein Importeur abgeben muss.",
         "hr": "Cijena ugljenika već plaćena u zemlji podrijetla. Oduzima se od CBAM certifikata koje uvoznik mora predati.",
         "es": "Precio del carbono ya pagado en el país de origen. Se deduce de los certificados CBAM que el importador debe entregar.",
         "lt": "Anglies kaina, jau sumokėta kilmės šalyje. Atimama iš CBAM sertifikatų, kuriuos importuotojas turi atiduoti.",
@@ -7695,6 +7793,8 @@
       },
       "description": {
         "en": "EU Economic Operators Registration and Identification number of the CBAM declarant (importer).",
+        "bg": "Номер на регистрация и идентификация на икономически оператори на ЕС (EORI) на декларанта по CBAM (вносител).",
+        "de": "EU-Registrier- und Identifizierungsnummer für Wirtschaftsbeteiligte (EORI) des CBAM-Anmelders (Importeurs).",
         "hr": "EU Economic Operators Registration and Identification broj CBAM declaranta (uvoznika).",
         "es": "Número de Registro e Identificación de Operadores Económicos de la UE del declarante CBAM (importador).",
         "lt": "CBAM deklaranto (importuotojo) ES ekonominės veiklos vykdytojų registracijos ir identifikavimo numeris.",
@@ -7802,6 +7902,8 @@
       },
       "description": {
         "en": "CBAM account ID in the EU CBAM registry.",
+        "bg": "Идентификатор на акаунт по CBAM в регистъра на CBAM на ЕС.",
+        "de": "CBAM-Kontonummer im EU-CBAM-Register.",
         "hr": "ID CBAM računa u EU CBAM registru.",
         "es": "ID de cuenta CBAM en el registro CBAM de la UE.",
         "lt": "CBAM sąskaitos ID ES CBAM registre.",
@@ -7908,6 +8010,8 @@
       },
       "description": {
         "en": "Whether the product contains Substances of Very High Concern above 0.1% w/w threshold per REACH Article 33.",
+        "bg": "Дали продуктът съдържа вещества, пораждащи сериозно безпокойство (SVHC), над прага от 0,1 % тегл./тегл. съгласно REACH, член 33.",
+        "de": "Ob das Produkt besonders besorgniserregende Stoffe (SVHC) über dem Schwellenwert von 0,1 % w/w gemäß REACH Artikel 33 enthält.",
         "hr": "Sadrži li proizvod supstance od vrlo velikog broja iznad praga od 0,1% w/w prema REACH članak 33.",
         "es": "Si el producto contiene Sustancias Extremadamente Preocupantes por encima del umbral del 0,1 % p/p según el artículo 33 de REACH.",
         "lt": "Ar produkte yra labai didelį susirūpinimą keliančių medžiagų virš 0,1 % m/m ribos pagal REACH 33 straipsnį.",
@@ -8015,6 +8119,8 @@
       },
       "description": {
         "en": "List of SVHC substances present above 0.1% w/w, with CAS numbers and concentrations.",
+        "bg": "Списък на SVHC веществата, присъстващи над 0,1 % тегл./тегл., с CAS номера и концентрации.",
+        "de": "Liste der SVHC-Stoffe über 0,1 % w/w mit CAS-Nummern und Konzentrationen.",
         "hr": "Popis SVHC supstanci prisutnih iznad 0,1% w/w, s CAS brojevima i koncentracijama.",
         "es": "Lista de sustancias SVHC presentes por encima del 0,1 % p/p, con números CAS y concentraciones.",
         "lt": "SVHC medžiagų, esančių virš 0,1 % m/m, sąrašas su CAS numeriais ir koncentracijomis.",
@@ -8123,6 +8229,8 @@
       },
       "description": {
         "en": "REACH registration numbers for applicable substances.",
+        "bg": "Регистрационни номера по REACH за приложимите вещества.",
+        "de": "REACH-Registrierungsnummern für anwendbare Stoffe.",
         "hr": "REACH brojevi registracije za primjenjive supstance.",
         "es": "Números de registro REACH para las sustancias aplicables.",
         "lt": "Taikomų medžiagų REACH registracijos numeriai.",
@@ -8229,6 +8337,8 @@
       },
       "description": {
         "en": "Compliance with REACH Annex XVII substance restrictions.",
+        "bg": "Съответствие с ограниченията върху вещества по REACH, приложение XVII.",
+        "de": "Einhaltung der Stoffbeschränkungen gemäß REACH Anhang XVII.",
         "hr": "Sukladnost s ograničenjima supstanci REACH Dodatka XVII.",
         "es": "Cumplimiento de las restricciones de sustancias del Anexo XVII de REACH.",
         "lt": "Atitiktis REACH XVII priedo medžiagų ribojimams.",
@@ -8335,6 +8445,8 @@
       },
       "description": {
         "en": "Global warming potential total per declared unit (kg CO2 eq.). EN 15804+A2 indicator.",
+        "bg": "Общ потенциал за глобално затопляне на декларирана единица (kg CO2 екв.). Показател по EN 15804+A2.",
+        "de": "Gesamtes Treibhauspotenzial pro deklarierter Einheit (kg CO2-Äquiv.). Indikator nach EN 15804+A2.",
         "hr": "Ukupan potencijal globalnog zagrijavanja po deklariranoj jedinici (kg CO2 eq.). EN 15804+A2 indikator.",
         "es": "Potencial de calentamiento global total por unidad declarada (kg CO2 eq.). Indicador EN 15804+A2.",
         "lt": "Bendras visuotinio atšilimo potencialas deklaruotam vienetui (kg CO2 ekv.). EN 15804+A2 rodiklis.",
@@ -8443,6 +8555,8 @@
       },
       "description": {
         "en": "Ozone depletion potential in kg CFC-11 eq. per declared unit.",
+        "bg": "Потенциал за разрушаване на озоновия слой в kg CFC-11 екв. на декларирана единица.",
+        "de": "Ozonabbaupotenzial in kg CFC-11-Äquiv. pro deklarierter Einheit.",
         "hr": "Potencijal oštećenja ozonskog sloja u kg CFC-11 eq. po deklariranoj jedinici.",
         "es": "Potencial de agotamiento del ozono en kg CFC-11 eq. por unidad declarada.",
         "lt": "Ozono ardymo potencialas kg CFC-11 ekv. deklaruotam vienetui.",
@@ -8550,6 +8664,8 @@
       },
       "description": {
         "en": "Acidification potential in mol H+ eq. per declared unit.",
+        "bg": "Потенциал за подкисляване в mol H+ екв. на декларирана единица.",
+        "de": "Versauerungspotenzial in mol H+-Äquiv. pro deklarierter Einheit.",
         "hr": "Potencijal zakiseljenja u mol H+ eq. po deklariranoj jedinici.",
         "es": "Potencial de acidificación en mol H+ eq. por unidad declarada.",
         "lt": "Rūgštinimo potencialas mol H+ ekv. deklaruotam vienetui.",
@@ -8657,6 +8773,8 @@
       },
       "description": {
         "en": "Water use in m3 world eq. per declared unit.",
+        "bg": "Потребление на вода в m3 световен екв. на декларирана единица.",
+        "de": "Wasserverbrauch in m3 Weltäquivalent pro deklarierter Einheit.",
         "hr": "Korištenje vode u m3 ekvivalenta svijeta po deklariranoj jedinici.",
         "es": "Uso de agua en m3 mundo eq. por unidad declarada.",
         "lt": "Vandens naudojimas m3 pasaulio ekv. deklaruotam vienetui.",
@@ -8764,6 +8882,8 @@
       },
       "description": {
         "en": "URI to the Environmental Product Declaration document.",
+        "bg": "URI на документа на Екологичната декларация за продукта (EPD).",
+        "de": "URI zum Umweltproduktdeklarations-Dokument (EPD).",
         "hr": "URI za dokument Deklaracije ekološkog proizvoda.",
         "es": "URI del documento de Declaración Ambiental de Producto.",
         "lt": "URI į aplinkosauginės produkto deklaracijos dokumentą.",
@@ -8872,6 +8992,8 @@
       },
       "description": {
         "en": "Name of the EPD program operator (e.g. IBU, EPD International, BRE).",
+        "bg": "Наименование на оператора на EPD програмата (напр. IBU, EPD International, BRE).",
+        "de": "Name des EPD-Programmbetreibers (z. B. IBU, EPD International, BRE).",
         "hr": "Naziv operatora programa EPD (npr. IBU, EPD International, BRE).",
         "es": "Nombre del operador del programa EPD (p. ej., IBU, EPD International, BRE).",
         "lt": "EPD programos operatoriaus pavadinimas (pvz., IBU, EPD International, BRE).",
@@ -8979,6 +9101,8 @@
       },
       "description": {
         "en": "Covered LCA modules per EN 15804+A2 (e.g. A1-A3, C1-C4, D).",
+        "bg": "Обхванати модули на LCA съгласно EN 15804+A2 (напр. A1–A3, C1–C4, D).",
+        "de": "Abgedeckte LCA-Module gemäß EN 15804+A2 (z. B. A1–A3, C1–C4, D).",
         "hr": "Pokriveni LCA moduli prema EN 15804+A2 (npr. A1-A3, C1-C4, D).",
         "es": "Módulos de ACV cubiertos según EN 15804+A2 (p. ej., A1-A3, C1-C4, D).",
         "lt": "Padengti gyvavimo ciklo analizės moduliai pagal EN 15804+A2 (pvz., A1-A3, C1-C4, D).",
@@ -9087,6 +9211,8 @@
       },
       "description": {
         "en": "Declared or functional unit for EPD environmental indicators.",
+        "bg": "Декларирана или функционална единица за показателите за околната среда в EPD.",
+        "de": "Deklarierte oder funktionale Einheit für EPD-Umweltindikatoren.",
         "hr": "Deklarirana ili funkcionalna jedinica za EPD ekološke indikatore.",
         "es": "Unidad declarada o funcional para los indicadores ambientales de la EPD.",
         "lt": "Deklaruotas arba funkcinis vienetas EPD aplinkosaugos rodikliams.",
@@ -9194,6 +9320,8 @@
       },
       "description": {
         "en": "Expected product service life in years.",
+        "bg": "Очакван експлоатационен живот на продукта в години.",
+        "de": "Erwartete Nutzungsdauer des Produkts in Jahren.",
         "hr": "Očekivani vijek trajanja proizvoda u godinama.",
         "es": "Vida útil prevista del producto en años.",
         "lt": "Numatoma produkto eksploatavimo trukmė metais.",
@@ -9304,6 +9432,8 @@
       },
       "description": {
         "en": "Percentage of product mass that is recyclable.",
+        "bg": "Процент от масата на продукта, подлежащ на рециклиране.",
+        "de": "Anteil der Produktmasse, der recycelbar ist.",
         "hr": "Postotak mase proizvoda koja je reciklabilna.",
         "es": "Porcentaje de la masa del producto que es reciclable.",
         "lt": "Perdirbamos produkto masės procentinė dalis.",
@@ -9413,6 +9543,8 @@
       },
       "description": {
         "en": "URI to dismantling, recycling, or end-of-life guidance.",
+        "bg": "URI на насоките за разглобяване, рециклиране или края на жизнения цикъл.",
+        "de": "URI zu Anleitungen zur Demontage, zum Recycling oder zur Entsorgung am Lebensende.",
         "hr": "URI za rastavljanje, recikliranje ili uputstva za kraj životnog ciklusa.",
         "es": "URI de las instrucciones de desmontaje, reciclaje o fin de vida.",
         "lt": "URI į išmontavimo, perdirbimo ar gyvavimo pabaigos gaires.",
@@ -9521,6 +9653,8 @@
       },
       "description": {
         "en": "Whether the steel product can be magnetically separated from waste streams.",
+        "bg": "Дали стоманеният продукт може да бъде магнитно сепариран от потоците отпадъци.",
+        "de": "Ob das Stahlprodukt magnetisch aus Abfallströmen separiert werden kann.",
         "hr": "Može li se čelični proizvod magnetski odvojiti od otpadnih tokova.",
         "es": "Si el producto de acero puede separarse magnéticamente de los flujos de residuos.",
         "lt": "Ar plieno produktą galima magnetiškai atskirti nuo atliekų srautų.",
@@ -9625,6 +9759,8 @@
       },
       "description": {
         "en": "Expected scrap classification at end of life per industry standards.",
+        "bg": "Очаквана класификация на скрапа в края на жизнения цикъл съгласно индустриалните стандарти.",
+        "de": "Erwartete Schrottklassifizierung am Lebensende gemäß Industriestandards.",
         "hr": "Očekivana klasifikacija otpada na kraju životnog ciklusa prema industrijskih standardi.",
         "es": "Clasificación prevista de chatarra al fin de vida según las normas del sector.",
         "lt": "Numatoma metalo laužo klasifikacija gyvavimo pabaigoje pagal pramonės standartus.",
@@ -9730,6 +9866,8 @@
       },
       "description": {
         "en": "Whether the CE marking is affixed. Under the CPR it applies only where a harmonised technical specification or European Technical Assessment covers the product (e.g. structural steelwork under EN 1090-1); mill products not so covered cannot be CE-marked.",
+        "bg": "Дали маркировката CE е нанесена. Съгласно CPR тя се прилага само когато хармонизирана техническа спецификация или европейска техническа оценка обхваща продукта (напр. конструктивна стоманена конструкция съгласно EN 1090-1); продукти на мелницата, непокрити по такъв начин, не могат да носят маркировката CE.",
+        "de": "Ob die CE-Kennzeichnung angebracht ist. Im Rahmen der CPR gilt sie nur dort, wo eine harmonisierte technische Spezifikation oder Europäische Technische Bewertung das Produkt abdeckt (z. B. Stahlbauwerk gemäß EN 1090-1); Walzwerkserzeugnisse, die so nicht abgedeckt sind, dürfen nicht CE-markiert werden.",
         "hr": "Je li CE oznaka prilijepljena. Prema GRP primjenjuje se samo tamo gdje harmonizirana tehnička specifikacija ili europska tehnička ocjena pokriva proizvod (npr. čelične konstrukcije prema EN 1090-1); valjani proizvodi koji nisu pokriveni ne mogu biti CE označeni.",
         "es": "Si el marcado CE está colocado. Según el RPC solo se aplica cuando una especificación técnica armonizada o una evaluación técnica europea cubre el producto (p. ej., construcción metálica bajo EN 1090-1); los productos laminados no cubiertos no pueden llevar marcado CE.",
         "lt": "Ar CE ženklinimas pritaikytas. Pagal SPR jis taikomas tik tais atvejais, kai darnioji techninė specifikacija arba Europos techninis įvertinimas apima produktą (pvz., plieninės konstrukcijos pagal EN 1090-1); neapimtų valcuotų gaminių ženklinimas CE nesuteikiamas.",
@@ -9840,6 +9978,8 @@
       },
       "description": {
         "en": "URI to the Declaration of Performance document for construction products.",
+        "bg": "URI на документа Декларация за експлоатационни показатели за строителни продукти.",
+        "de": "URI zur Leistungserklärung für Bauprodukte.",
         "hr": "URI za dokument Deklaracije o svojstvima za građevne proizvode.",
         "es": "URI del documento de Declaración de Prestaciones para productos de construcción.",
         "lt": "URI į Eksploatacinių savybių deklaracijos dokumentą statybos produktams.",
@@ -9947,6 +10087,8 @@
       },
       "description": {
         "en": "EN 10204 inspection document type: 2.1 (declaration), 2.2 (test report), 3.1 (mill cert by manufacturer QA), 3.2 (mill cert with third-party countersignature).",
+        "bg": "Вид инспекционен документ по EN 10204: 2.1 (декларация), 2.2 (протокол от изпитване), 3.1 (сертификат на мелницата от QA на производителя), 3.2 (сертификат на мелницата с контрасписване от трета страна).",
+        "de": "EN-10204-Prüfdokumenttyp: 2.1 (Erklärung), 2.2 (Prüfbericht), 3.1 (Werkszeugnis durch Hersteller-QS), 3.2 (Werkszeugnis mit Gegenzeichnung durch Dritte).",
         "hr": "EN 10204 dokument inspeksije: 2.1 (izjava), 2.2 (test izvještaj), 3.1 (certifikat tvornice QA proizvođača), 3.2 (certifikat tvornice s potpisom trećeg lica).",
         "es": "Tipo de documento de inspección EN 10204: 2.1 (declaración), 2.2 (informe de ensayo), 3.1 (certificado de acería por QA del fabricante), 3.2 (certificado de acería con contrafirma de terceros).",
         "lt": "EN 10204 patikros dokumento tipas: 2.1 (deklaracija), 2.2 (bandymų ataskaita), 3.1 (metalurgijos sertifikatas, gamintojo KV), 3.2 (metalurgijos sertifikatas su trečiosios šalies papildomu parašu).",
@@ -10173,6 +10315,8 @@
       },
       "description": {
         "en": "URI to the EN 10204 mill certificate PDF or structured data.",
+        "bg": "URI на PDF файла или структурираните данни на сертификата на мелницата по EN 10204.",
+        "de": "URI zum EN-10204-Werkszeugnis-PDF oder strukturierten Daten.",
         "hr": "URI za EN 10204 certifikat tvornice PDF ili strukturirane podatke.",
         "es": "URI del PDF o datos estructurados del certificado de acería EN 10204.",
         "lt": "URI į EN 10204 metalurgijos sertifikato PDF arba struktūrizuotus duomenis.",
@@ -10282,6 +10426,8 @@
       },
       "description": {
         "en": "ResponsibleSteel site and/or product certification (voluntary, 13 principles, 4 progress levels for decarbonisation).",
+        "bg": "Сертификация на обект и/или продукт по ResponsibleSteel (доброволна, 13 принципа, 4 нива на напредък за декарбонизация).",
+        "de": "ResponsibleSteel-Standort- und/oder Produktzertifizierung (freiwillig, 13 Grundsätze, 4 Fortschrittsstufen für Dekarbonisierung).",
         "hr": "ResponsibleSteel lokacija i/ili certificiranje proizvoda (dobrovoljavno, 13 načela, 4 razine napretka za dekarbonizaciju).",
         "es": "Certificación ResponsibleSteel de planta y/o producto (voluntaria, 13 principios, 4 niveles de progreso para descarbonización).",
         "lt": "ResponsibleSteel gamyklos ir (arba) produkto sertifikatas (savanoriškas, 13 principų, 4 dekarbonizacijos pažangos lygiai).",
@@ -10387,6 +10533,8 @@
       },
       "description": {
         "en": "Aluminium Stewardship Initiative certification (Performance Standard + Chain of Custody V2.1).",
+        "bg": "Сертификация по Aluminium Stewardship Initiative (Стандарт за изпълнение + Верига на съхранение V2.1).",
+        "de": "Aluminium Stewardship Initiative-Zertifizierung (Performance Standard + Chain of Custody V2.1).",
         "hr": "Aluminium Stewardship Initiative certificiranje (Standard performansi + Lanac hrane V2.1).",
         "es": "Certificación Aluminium Stewardship Initiative (Estándar de Desempeño + Cadena de Custodia V2.1).",
         "lt": "Aluminium Stewardship Initiative sertifikatas (veiklos standartas + saugojimo grandinė V2.1).",
@@ -10493,6 +10641,8 @@
       },
       "description": {
         "en": "EU ETS installation permit ID. EU ETS installations are exempt from CBAM when selling within the EU.",
+        "bg": "Идентификатор на разрешение за инсталация по EU ETS. Инсталациите по EU ETS са освободени от CBAM при продажба в рамките на ЕС.",
+        "de": "EU-EHS-Anlagengenehmigungs-ID. EU-EHS-Anlagen sind beim Verkauf innerhalb der EU von CBAM befreit.",
         "hr": "ID dozvole EU ETS instalacije. EU ETS instalacije su oslobođene CBAM pri prodaji unutar EU.",
         "es": "ID del permiso de instalación del RCDE UE. Las instalaciones del RCDE UE están exentas del CBAM cuando venden dentro de la UE.",
         "lt": "ES ATLPS įrenginio leidimo ID. ES ATLPS įrenginiams CBAM netaikomas, kai parduoda ES viduje.",
@@ -10600,6 +10750,8 @@
       },
       "description": {
         "en": "ISO management system certifications held (e.g. ISO 9001, ISO 14001, ISO 50001).",
+        "bg": "Притежавани сертификации за системи за управление по ISO (напр. ISO 9001, ISO 14001, ISO 50001).",
+        "de": "Vorhandene ISO-Managementsystemzertifizierungen (z. B. ISO 9001, ISO 14001, ISO 50001).",
         "hr": "ISO certificiranja sustava upravljanja (npr. ISO 9001, ISO 14001, ISO 50001).",
         "es": "Certificaciones de sistemas de gestión ISO obtenidas (p. ej., ISO 9001, ISO 14001, ISO 50001).",
         "lt": "Turimi ISO valdymo sistemų sertifikatai (pvz., ISO 9001, ISO 14001, ISO 50001).",
@@ -10704,6 +10856,8 @@
       },
       "description": {
         "en": "Other voluntary certifications (SCS, Cradle to Cradle, etc.).",
+        "bg": "Други доброволни сертификации (SCS, Cradle to Cradle и др.).",
+        "de": "Weitere freiwillige Zertifizierungen (SCS, Cradle to Cradle usw.).",
         "hr": "Ostala dobrovoljna certificiranja (SCS, Cradle to Cradle, itd.).",
         "es": "Otras certificaciones voluntarias (SCS, Cradle to Cradle, etc.).",
         "lt": "Kiti savanoriški sertifikatai (SCS, Cradle to Cradle ir kt.).",
@@ -10808,6 +10962,8 @@
       },
       "description": {
         "en": "Supply chain traceability events (EPCIS 2.0 aligned): mining, smelting, rolling, finishing, shipping, etc.",
+        "bg": "Събития за проследимост по веригата на доставки (в съответствие с EPCIS 2.0): добив, топене, валцуване, довършване, доставка и др.",
+        "de": "Rückverfolgbarkeitsereignisse der Lieferkette (EPCIS 2.0 ausgerichtet): Bergbau, Schmelzen, Walzen, Veredeln, Versand usw.",
         "hr": "Događaji pratljivosti lanca dobave (usklađeni s EPCIS 2.0): rudarenje, taljenje, valjanje, završavanje, slanje, itd.",
         "es": "Eventos de trazabilidad de la cadena de suministro (alineados con EPCIS 2.0): minería, fundición, laminación, acabado, envío, etc.",
         "lt": "Tiekimo grandinės atsekamumo įvykiai (suderinti su EPCIS 2.0): kasyba, lydymas, valcavimas, apdaila, siuntimas ir kt.",
@@ -10915,6 +11071,8 @@
       },
       "description": {
         "en": "Type of data carrier used to link to the DPP (QR, NFC, RFID, DataMatrix).",
+        "bg": "Вид носител на данни, използван за свързване към DPP (QR, NFC, RFID, DataMatrix).",
+        "de": "Art des Datenträgers zur Verknüpfung mit dem DPP (QR, NFC, RFID, DataMatrix).",
         "hr": "Vrsta nosača podataka korištena za povezivanje na DPP (QR, NFC, RFID, DataMatrix).",
         "es": "Tipo de portador de datos utilizado para enlazar al DPP (QR, NFC, RFID, DataMatrix).",
         "lt": "Duomenų laikmenos tipas, naudojamas nuorodai į DPP (QR, NFC, RFID, DataMatrix).",
@@ -11142,6 +11300,8 @@
       },
       "description": {
         "en": "Default access tier for this DPP: public, restricted (recyclers/processors), or authority-only.",
+        "bg": "Стандартно ниво на достъп за този DPP: публичен, ограничен (рециклиращи/преработващи предприятия) или само за органи.",
+        "de": "Standard-Zugriffsstufe für diesen DPP: öffentlich, eingeschränkt (Recycler/Verarbeiter) oder nur für Behörden.",
         "hr": "Zadana razina pristupa za ovaj DPP: javna, ograničena (reciklatori/procesuatori) ili samo za vlasti.",
         "es": "Nivel de acceso por defecto para este DPP: público, restringido (recicladores/procesadores) o solo autoridades.",
         "lt": "Numatytasis šio DPP prieigos lygis: viešas, ribotas (perdirbėjams) arba tik institucijoms.",
@@ -11339,6 +11499,8 @@
       },
       "description": {
         "en": "URI in the EU DPP central registry (operational from July 2026).",
+        "bg": "URI в централния регистър на DPP на ЕС (функциониращ от юли 2026 г.).",
+        "de": "URI im zentralen EU-DPP-Register (in Betrieb ab Juli 2026).",
         "hr": "URI u EU DPP središnjoj registru (u funkciji od srpnja 2026).",
         "es": "URI en el registro central DPP de la UE (operativo desde julio de 2026).",
         "lt": "URI ES DPP centriniame registre (veikia nuo 2026 m. liepos).",
@@ -11449,6 +11611,8 @@
       },
       "description": {
         "en": "Machine-readable data format per ESPR requirements.",
+        "bg": "Машинночетим формат на данните съгласно изискванията на ESPR.",
+        "de": "Maschinenlesbares Datenformat gemäß ESPR-Anforderungen.",
         "hr": "Format podataka čitljiv strojem prema zahtjevima ESPR.",
         "es": "Formato de datos legible por máquina según los requisitos de ESPR.",
         "lt": "Kompiuterio skaitomas duomenų formatas pagal ESPR reikalavimus.",
@@ -11558,6 +11722,8 @@
       },
       "description": {
         "en": "Available languages for this DPP per ESPR Article 8.",
+        "bg": "Налични езици за този DPP съгласно ESPR, член 8.",
+        "de": "Verfügbare Sprachen für diesen DPP gemäß ESPR Artikel 8.",
         "hr": "Dostupni jezici za ovaj DPP prema ESPR članak 8.",
         "es": "Idiomas disponibles para este DPP según el artículo 8 de ESPR.",
         "lt": "Galimos šio DPP kalbos pagal ESPR 8 straipsnį.",
@@ -11670,6 +11836,8 @@
       },
       "description": {
         "en": "Whether the product bears CE marking and its validity",
+        "bg": "Дали продуктът носи маркировка CE и нейната валидност",
+        "de": "Ob das Produkt eine CE-Kennzeichnung trägt und deren Gültigkeit",
         "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
         "es": "Si el producto lleva marcado CE y su validez",
         "hr": "Ima li proizvod CE oznaku i njezinu valjanost",

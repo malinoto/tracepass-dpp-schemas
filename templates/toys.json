@@ -2040,6 +2040,8 @@
       },
       "description": {
         "en": "Whether the toy contains Substances of Very High Concern (SVHC) above 0.1% w/w per REACH Article 33",
+        "bg": "Дали играчката съдържа SVHC над 0,1% w/w съгласно член 33 от REACH",
+        "de": "Ob das Spielzeug SVHC über 0,1 % w/w gemäß REACH Artikel 33 enthält",
         "nl": "Of het speelgoed Stoffen van zeer groot zorgpotentieel (SVHC) bevat boven 0,1% m/m overeenkomstig REACH artikel 33",
         "it": "Presenza di Sostanze di Importanza Elevata (SVHC) sopra lo 0,1% p/p secondo l'Articolo 33 del REACH",
         "cs": "Zda hračka obsahuje látky vzbuzující mimořádné obavy (SVHC) nad 0,1 % hmotn. podle článku 33 nařízení REACH",
@@ -2147,6 +2149,8 @@
       },
       "description": {
         "en": "Detailed list of substances of concern present in the toy, including CAS numbers, concentrations, and locations (SCIP-level detail)",
+        "bg": "Подробен списък на веществата, будещи безпокойство, присъстващи в играчката, включително CAS номера, концентрации и местонахождения (детайлност на ниво SCIP)",
+        "de": "Detaillierte Liste der im Spielzeug enthaltenen bedenklichen Stoffe, einschließlich CAS-Nummern, Konzentrationen und Orten (SCIP-Detailtiefe)",
         "nl": "Gedetailleerde lijst met stoffen van zorgwekkend belang aanwezig in het speelgoed, inclusief CAS-nummers, concentraties en locaties (SCIP-niveau detail)",
         "it": "Elenco dettagliato delle sostanze di preoccupazione presenti nel giocattolo, inclusi numeri CAS, concentrazioni e ubicazioni (dettagli a livello SCIP)",
         "cs": "Podrobný seznam látek vzbuzujících obavy v hračce, včetně čísel CAS, koncentrací a umístění (úroveň detailu SCIP)",
@@ -2255,6 +2259,8 @@
       },
       "description": {
         "en": "Confirms that restricted phthalates (DEHP, DBP, BBP, DINP, DIDP, DNOP) are each below 0.1% in plasticised material per REACH Annex XVII Entry 51",
+        "bg": "Потвърждава, че ограничените фталати (DEHP, DBP, BBP, DINP, DIDP, DNOP) са всеки под 0,1% в пластифицирания материал съгласно приложение XVII, вписване 51 от REACH",
+        "de": "Bestätigt, dass die beschränkten Phthalate (DEHP, DBP, BBP, DINP, DIDP, DNOP) in weichmacherhaltigem Material jeweils unter 0,1 % liegen, gemäß REACH Anhang XVII Eintrag 51",
         "nl": "Bevestigt dat beperkte phtalaten (DEHP, DBP, BBP, DINP, DIDP, DNOP) elk onder 0,1% liggen in geplastificeerd materiaal overeenkomstig REACH Bijlage XVII Ingang 51",
         "it": "Conferma che i ftalati limitati (DEHP, DBP, BBP, DINP, DIDP, DNOP) sono ciascuno al di sotto dello 0,1% nel materiale plastificato secondo l'Allegato XVII Voce 51 del REACH",
         "cs": "Potvrzuje, že omezené ftaláty (DEHP, DBP, BBP, DINP, DIDP, DNOP) jsou každý pod 0,1 % v změkčeném materiálu podle přílohy XVII, položky 51 nařízení REACH",
@@ -2362,6 +2368,8 @@
       },
       "description": {
         "en": "EN 71-3 test results for migration of 19 elements (antimony, arsenic, barium, cadmium, chromium, lead, mercury, selenium, etc.) across 3 material categories",
+        "bg": "Резултати от изпитване по EN 71-3 за миграция на 19 елемента (антимон, арсен, барий, кадмий, хром, олово, живак, селен и др.) в 3 категории материали",
+        "de": "EN-71-3-Prüfergebnisse zur Migration von 19 Elementen (Antimon, Arsen, Barium, Cadmium, Chrom, Blei, Quecksilber, Selen usw.) in 3 Materialkategorien",
         "nl": "EN 71-3 testresultaten voor migratie van 19 elementen (antimoon, arseen, barium, cadmium, chroom, lood, kwik, seleen, enz.) over 3 materialencategorieën",
         "it": "Risultati della prova EN 71-3 per la migrazione di 19 elementi (antimonio, arsenico, bario, cadmio, cromo, piombo, mercurio, selenio, ecc.) su 3 categorie di materiali",
         "cs": "Výsledky zkoušek EN 71-3 pro migraci 19 prvků (antimon, arsen, baryum, kadmium, chrom, olovo, rtuť, selen atd.) ve 3 kategoriích materiálů",
@@ -2473,6 +2481,8 @@
       },
       "description": {
         "en": "Percentage of recycled material by weight in the toy product",
+        "bg": "Процент на рециклиран материал по тегло в продукта играчка",
+        "de": "Anteil an recyceltem Material nach Gewicht im Spielzeugprodukt in Prozent",
         "nl": "Percentage gerecycleerd materiaal naar gewicht in het speelgoedproduct",
         "it": "Percentuale di materiale riciclato in peso nel prodotto giocattolo",
         "cs": "Procento recyklovaného materiálu podle hmotnosti v hračce",
@@ -2582,6 +2592,8 @@
       },
       "description": {
         "en": "Assessment of how easily the toy can be recycled at end of life",
+        "bg": "Оценка на лесотата, с която играчката може да бъде рециклирана в края на жизнения й цикъл",
+        "de": "Beurteilung, wie leicht das Spielzeug am Ende seiner Lebensdauer recycelt werden kann",
         "nl": "Volledig recycleerbaar",
         "it": "Valutazione di quanto facilmente il giocattolo può essere riciclato alla fine della sua vita utile",
         "cs": "Posouzení, jak snadno lze hračku recyklovat na konci životnosti",
@@ -2778,6 +2790,8 @@
       },
       "description": {
         "en": "Primary material used in product packaging",
+        "bg": "Основен материал, използван в опаковката на продукта",
+        "de": "Hauptmaterial der Produktverpackung",
         "nl": "Koolstofvoetafdruk",
         "it": "Materiale primario utilizzato nell'imballaggio del prodotto",
         "cs": "Primární materiál použitý v obalu produktu",
@@ -2884,6 +2898,8 @@
       },
       "description": {
         "en": "Total carbon footprint of the toy product in kg CO2 equivalent (cradle-to-gate or cradle-to-grave)",
+        "bg": "Общ въглероден отпечатък на продукта играчка в kg CO2 еквивалент (от люлката до портата или от люлката до гроба)",
+        "de": "Gesamter CO2-Fußabdruck des Spielzeugprodukts in kg CO2-Äquivalent (von der Wiege bis zum Werkstor oder von der Wiege bis zur Bahre)",
         "nl": "Verzorg- / schoonmaakinstructies",
         "it": "Impronta di carbonio totale del prodotto giocattolo in kg di CO2 equivalente (dalla culla al cancello o dalla culla alla tomba)",
         "cs": "Celková uhlíková stopa hračky v kg ekvivalentu CO2 (cradle-to-gate nebo cradle-to-grave)",
@@ -2993,6 +3009,8 @@
       },
       "description": {
         "en": "Instructions for cleaning, maintenance, and safe use of the toy",
+        "bg": "Инструкции за почистване, поддръжка и безопасна употреба на играчката",
+        "de": "Anweisungen zur Reinigung, Pflege und sicheren Verwendung des Spielzeugs",
         "nl": "Duurzaamheid en gebruik",
         "it": "Istruzioni per la pulizia, la manutenzione e l'uso sicuro del giocattolo",
         "cs": "Pokyny pro čištění, údržbu a bezpečné používání hračky",
@@ -3102,6 +3120,8 @@
       },
       "description": {
         "en": "Expected useful lifespan of the toy under normal use conditions",
+        "bg": "Очакван полезен срок на живот на играчката при нормални условия на използване",
+        "de": "Erwartete Nutzungsdauer des Spielzeugs unter normalen Verwendungsbedingungen",
         "nl": "Instructies voor verwijdering / recycling",
         "it": "Durata utile prevista del giocattolo in condizioni di uso normale",
         "cs": "Očekávaná užitečná životnost hračky za běžných podmínek používání",
@@ -3211,6 +3231,8 @@
       },
       "description": {
         "en": "Instructions for proper disposal or recycling of the toy at end of life, including any hazardous components (batteries, electronics)",
+        "bg": "Инструкции за правилно изхвърляне или рециклиране на играчката в края на жизнения й цикъл, включително всякакви опасни компоненти (батерии, електроника)",
+        "de": "Anweisungen zur ordnungsgemäßen Entsorgung oder zum Recycling des Spielzeugs am Ende seiner Lebensdauer, einschließlich etwaiger gefährlicher Komponenten (Batterien, Elektronik)",
         "nl": "Einde van levensduur",
         "it": "Istruzioni per lo smaltimento o il riciclaggio corretto del giocattolo alla fine della sua vita utile, inclusi eventuali componenti pericolosi (batterie, elettronica)",
         "cs": "Pokyny pro správnou likvidaci nebo recyklaci hračky na konci životnosti, včetně nebezpečných součástí (baterie, elektronika)",
@@ -3319,6 +3341,8 @@
       },
       "description": {
         "en": "ISO 3166-1 alpha-2 code of the country where the toy was manufactured",
+        "bg": "ISO 3166-1 алфа-2 код на страната, в която е произведена играчката",
+        "de": "ISO-3166-1-alpha-2-Code des Landes, in dem das Spielzeug hergestellt wurde",
         "nl": "Toeleveringsketen",
         "it": "Paese di Fabbricazione",
         "cs": "Kód ISO 3166-1 alpha-2 země, kde byla hračka vyrobena",
@@ -3430,6 +3454,8 @@
       },
       "description": {
         "en": "Name, address, and contact details of the EU importer (required when manufacturer is outside the EU)",
+        "bg": "Наименование, адрес и данни за контакт на вносителя в ЕС (изисква се, когато производителят е извън ЕС)",
+        "de": "Name, Adresse und Kontaktdaten des EU-Importeurs (erforderlich, wenn der Hersteller außerhalb der EU ansässig ist)",
         "nl": "Naam, adres en contactgegevens van de EU-importeur (vereist wanneer de fabrikant buiten de EU gevestigd is)",
         "it": "Nome, indirizzo e dettagli di contatto dell'importatore UE (obbligatorio quando il produttore è al di fuori dell'UE)",
         "cs": "Jméno, adresa a kontaktní údaje dovozce v EU (vyžadováno, pokud je výrobce mimo EU)",
@@ -3538,6 +3564,8 @@
       },
       "description": {
         "en": "Whether the product bears CE marking and its validity",
+        "bg": "Дали продуктът носи маркировка CE и нейната валидност",
+        "de": "Ob das Produkt die CE-Kennzeichnung trägt und deren Gültigkeit",
         "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
         "es": "Si el producto lleva marcado CE y su validez",
         "hr": "Ima li proizvod CE oznaku i njezinu valjanost",

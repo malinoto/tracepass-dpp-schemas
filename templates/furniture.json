@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Globally unique product identifier (e.g. GS1 GTIN) per ESPR Art. 9(2)",
+        "bg": "Глобално уникален идентификатор на продукта (напр. GS1 GTIN) съгласно ESPR чл. 9(2)",
+        "de": "Global eindeutige Produktkennung (z. B. GS1 GTIN) gemäß ESPR Art. 9(2)",
         "it": "Identificativo univoco globale del prodotto (es. GS1 GTIN) ai sensi dell'art. 9(2) ESPR",
         "hr": "Globalno jedinstveni identifikator proizvoda (npr. GS1 GTIN) prema ESPR čl. 9(2)",
         "cs": "Globálně jedinečný identifikátor produktu (např. GS1 GTIN) dle ESPR čl. 9(2)",
@@ -181,6 +183,8 @@
       },
       "description": {
         "en": "Identifier of the economic operator (manufacturer/importer) placing product on EU market",
+        "bg": "Идентификатор на стопанския субект (производител/вносител), пускащ продукта на пазара на ЕС",
+        "de": "Kennung des Wirtschaftsakteurs (Hersteller/Importeur), der das Produkt auf dem EU-Markt bereitstellt",
         "it": "Identificativo dell'operatore economico (produttore/importatore) che immette il prodotto nel mercato UE",
         "hr": "Identifikator gospodarskog subjekta (proizvođač/uvoznik) koji stavlja proizvod na tržište EU-a",
         "cs": "Identifikátor hospodářského subjektu (výrobce/dovozce) uvádějícího produkt na trh EU",
@@ -290,6 +294,8 @@
       },
       "description": {
         "en": "Identifier of the manufacturing facility",
+        "bg": "Идентификатор на производственото предприятие",
+        "de": "Kennung der Produktionsanlage",
         "it": "Identificativo della struttura di produzione",
         "hr": "Identifikator proizvodnog objekta",
         "cs": "Identifikátor výrobního zařízení",
@@ -399,6 +405,8 @@
       },
       "description": {
         "en": "Commercial product name / trade designation",
+        "bg": "Търговско наименование на продукта / търговско обозначение",
+        "de": "Kommerzieller Produktname / Handelsbezeichnung",
         "it": "Denominazione commerciale del prodotto / designazione commerciale",
         "hr": "Komercijalni naziv proizvoda / trgovačka oznaka",
         "cs": "Obchodní název produktu / obchodní označení",
@@ -505,6 +513,8 @@
       },
       "description": {
         "en": "Model number or variant identifier",
+        "bg": "Номер на модела или идентификатор на варианта",
+        "de": "Modellnummer oder Variantenkennzeichnung",
         "it": "Numero di modello o identificativo della variante",
         "hr": "Broj modela ili identifikator varijante",
         "cs": "Číslo modelu nebo identifikátor varianty",
@@ -615,6 +625,8 @@
       },
       "description": {
         "en": "Batch ID or serial number for traceability and recalls",
+        "bg": "Идентификатор на партидата или сериен номер за проследимост и обратно изтегляне",
+        "de": "Chargen-ID oder Seriennummer für Rückverfolgbarkeit und Rückrufe",
         "it": "ID lotto o numero seriale per tracciabilità e richiami",
         "hr": "ID serije ili serijski broj za sljedivost i opozive",
         "cs": "ID šarže nebo sériové číslo pro sledovatelnost a stahování z trhu",
@@ -722,6 +734,8 @@
       },
       "description": {
         "en": "Product type within furniture scope (seating, table, bed, mattress, storage, etc.)",
+        "bg": "Вид продукт в обхвата на мебелите (седалки, маса, легло, матрак, склад и др.)",
+        "de": "Produktart im Bereich Möbel (Sitzmöbel, Tisch, Bett, Matratze, Stauraum usw.)",
         "it": "Tipo di prodotto nel campo di applicazione dei mobili (sedute, tavoli, letti, materassi, arredo, ecc.)",
         "hr": "Vrsta proizvoda unutar područja namještaja (sjedalica, stol, krevet, madrac, ormar itd.)",
         "cs": "Typ produktu v rámci nábytku (sedací nábytek, stůl, postel, matrace, úložný prostor atd.)",
@@ -1121,6 +1135,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer",
+        "bg": "Правно наименование на производителя",
+        "de": "Rechtliche Bezeichnung des Herstellers",
         "it": "Nome legale del produttore",
         "hr": "Pravni naziv proizvođača",
         "cs": "Právní název výrobce",
@@ -1228,6 +1244,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer",
+        "bg": "Регистриран адрес на производителя",
+        "de": "Eingetragene Adresse des Herstellers",
         "it": "Indirizzo registrato del produttore",
         "hr": "Registrirana adresa proizvođača",
         "cs": "Registrovaná adresa výrobce",
@@ -1334,6 +1352,8 @@
       },
       "description": {
         "en": "Name of the importer (if applicable)",
+        "bg": "Наименование на вносителя (ако е приложимо)",
+        "de": "Name des Importeurs (falls zutreffend)",
         "it": "Denominazione dell'importatore (se applicabile)",
         "hr": "Naziv uvoznika (ako je primjenjivo)",
         "cs": "Jméno dovozce (je-li relevantní)",
@@ -1439,6 +1459,8 @@
       },
       "description": {
         "en": "EORI number of the importer",
+        "bg": "EORI номер на вносителя",
+        "de": "EORI-Nummer des Importeurs",
         "it": "Numero EORI dell'importatore",
         "hr": "EORI broj uvoznika",
         "cs": "EORI číslo dovozce",
@@ -1545,6 +1567,8 @@
       },
       "description": {
         "en": "ISO 3166-1 alpha-2 country code of manufacturing",
+        "bg": "Код на страната на производство по ISO 3166-1 alpha-2",
+        "de": "ISO 3166-1 alpha-2 Ländercode des Herstellungslandes",
         "it": "Codice paese ISO 3166-1 alpha-2 di fabbricazione",
         "hr": "ISO 3166-1 alpha-2 kod zemlje proizvodnje",
         "cs": "ISO 3166-1 alpha-2 kód země výroby",
@@ -1654,6 +1678,8 @@
       },
       "description": {
         "en": "Date of production (ISO 8601)",
+        "bg": "Дата на производство (ISO 8601)",
+        "de": "Datum der Herstellung (ISO 8601)",
         "it": "Data di produzione (ISO 8601)",
         "hr": "Datum proizvodnje (ISO 8601)",
         "cs": "Datum výroby (ISO 8601)",
@@ -1763,6 +1789,8 @@
       },
       "description": {
         "en": "Entity legally responsible for creating and updating the DPP",
+        "bg": "Юридически отговорно лице за създаване и актуализиране на DPP",
+        "de": "Rechtlich verantwortliche Stelle für Erstellung und Aktualisierung des DPP",
         "it": "Entità legalmente responsabile della creazione e dell'aggiornamento della DPP",
         "hr": "Subjekt pravno odgovoran za izradu i ažuriranje DPP-a",
         "cs": "Subjekt právně odpovědný za vytvoření a aktualizaci DPP",
@@ -1872,6 +1900,8 @@
       },
       "description": {
         "en": "Type of data carrier (QR code, RFID, NFC, Data Matrix, GS1 Digital Link)",
+        "bg": "Вид носител на данни (QR код, RFID, NFC, Data Matrix, GS1 Digital Link)",
+        "de": "Art des Datenträgers (QR-Code, RFID, NFC, Data Matrix, GS1 Digital Link)",
         "it": "Tipo di supporto dati (codice QR, RFID, NFC, Data Matrix, GS1 Digital Link)",
         "hr": "Vrsta nosača podataka (QR kod, RFID, NFC, Data Matrix, GS1 Digital Link)",
         "cs": "Typ nosiče dat (QR kód, RFID, NFC, Data Matrix, GS1 Digital Link)",
@@ -2128,6 +2158,8 @@
       },
       "description": {
         "en": "Structured list of all materials by component with weight percentages",
+        "bg": "Структуриран списък на всички материали по компоненти с тегловни проценти",
+        "de": "Strukturierte Liste aller Materialien nach Komponenten mit Gewichtsprozenten",
         "it": "Elenco strutturato di tutti i materiali per componente con percentuali in peso",
         "hr": "Strukturirani popis svih materijala po komponenti s postotcima težine",
         "cs": "Strukturovaný seznam všech materiálů podle komponent s hmotnostními procenty",
@@ -2238,6 +2270,8 @@
       },
       "description": {
         "en": "Total weight of the finished product in kilograms",
+        "bg": "Общо тегло на готовия продукт в килограми",
+        "de": "Gesamtgewicht des Fertigprodukts in Kilogramm",
         "it": "Peso totale del prodotto finito in chilogrammi",
         "hr": "Ukupna težina gotovog proizvoda u kilogramima",
         "cs": "Celková hmotnost hotového produktu v kilogramech",
@@ -2347,6 +2381,8 @@
       },
       "description": {
         "en": "Total recycled content as percentage of product weight",
+        "bg": "Общо рециклирано съдържание като процент от теглото на продукта",
+        "de": "Gesamter Recyclinganteil als Prozentsatz des Produktgewichts",
         "it": "Contenuto riciclato totale come percentuale del peso del prodotto",
         "hr": "Ukupni reciklirani sadržaj kao postotak težine proizvoda",
         "cs": "Celkový recyklovaný obsah jako procento hmotnosti produktu",
@@ -2456,6 +2492,8 @@
       },
       "description": {
         "en": "Post-consumer recycled material percentage",
+        "bg": "Процент рециклиран материал след потребление",
+        "de": "Anteil recycelter Materialien nach Gebrauch (Post-Consumer)",
         "it": "Percentuale di materiale riciclato post-consumo",
         "hr": "Postotak recikliranog materijala nakon potrošnje",
         "cs": "Procento recyklovaného materiálu po spotřebě",
@@ -2565,6 +2603,8 @@
       },
       "description": {
         "en": "Pre-consumer (industrial) recycled material percentage",
+        "bg": "Процент рециклиран материал преди потребление (индустриален)",
+        "de": "Anteil recycelter Materialien vor Gebrauch (Pre-Consumer, industriell)",
         "it": "Percentuale di materiale riciclato pre-consumo (industriale)",
         "hr": "Postotak recikliranog materijala prije potrošnje (industrijski)",
         "cs": "Procento recyklovaného materiálu před spotřebou (průmyslový)",
@@ -2671,6 +2711,8 @@
       },
       "description": {
         "en": "Percentage of materials from renewable biological sources",
+        "bg": "Процент материали от възобновяеми биологични източници",
+        "de": "Anteil von Materialien aus erneuerbaren biologischen Quellen",
         "it": "Percentuale di materiali da fonti biologiche rinnovabili",
         "hr": "Postotak materijala iz obnovljivih bioloških izvora",
         "cs": "Procento materiálů z obnovitelných biologických zdrojů",
@@ -2777,6 +2819,8 @@
       },
       "description": {
         "en": "Species of wood used (common and scientific name)",
+        "bg": "Вид дървесина, използвана (общо и научно наименование)",
+        "de": "Verwendete Holzart (Trivialname und wissenschaftlicher Name)",
         "it": "Specie di legno utilizzate (nome comune e scientifico)",
         "hr": "Vrsta korištenog drva (uobičajeni i znanstveni naziv)",
         "cs": "Druh použitého dřeva (běžný a vědecký název)",
@@ -2883,6 +2927,8 @@
       },
       "description": {
         "en": "Forest certification (FSC, PEFC, or equivalent). Required for virgin wood.",
+        "bg": "Горска сертификация (FSC, PEFC или еквивалент). Задължителна за дървесина от първичен добив.",
+        "de": "Forstzertifizierung (FSC, PEFC oder gleichwertig). Erforderlich für Frischholz.",
         "it": "Certificazione forestale (FSC, PEFC o equivalente). Obbligatoria per legno vergine.",
         "hr": "Certifikat šuma (FSC, PEFC ili jednakovrijedan). Obvezno za primarno drvo.",
         "cs": "Certifikace lesů (FSC, PEFC nebo ekvivalent). Povinné pro primární dřevo.",
@@ -2990,6 +3036,8 @@
       },
       "description": {
         "en": "Chain of Custody certificate number proving traceability from forest to product",
+        "bg": "Номер на сертификат за верига на попечителство, доказващ проследимостта от гора до продукт",
+        "de": "Zertifikatsnummer der Rückverfolgbarkeitskette (Chain of Custody) vom Wald zum Produkt",
         "it": "Numero del certificato di tracciabilità che prova la rintracciabilità dalla foresta al prodotto",
         "hr": "Broj certifikata sljedivosti kojim se dokazuje sljedivost od šume do proizvoda",
         "cs": "Číslo certifikátu spotřebitelského řetězce prokazující sledovatelnost od lesa k produktu",
@@ -3094,6 +3142,8 @@
       },
       "description": {
         "en": "Country where the wood was harvested (ISO 3166-1 alpha-2)",
+        "bg": "Държава, в която е добита дървесината (ISO 3166-1 alpha-2)",
+        "de": "Land, in dem das Holz eingeschlagen wurde (ISO 3166-1 alpha-2)",
         "it": "Paese in cui è stato raccolto il legno (ISO 3166-1 alpha-2)",
         "hr": "Zemlja u kojoj je drvo posječeno (ISO 3166-1 alpha-2)",
         "cs": "Země, kde bylo dřevo vytěženo (ISO 3166-1 alpha-2)",
@@ -3200,6 +3250,8 @@
       },
       "description": {
         "en": "Declaration that wood is deforestation-free per EUDR cut-off date (31 Dec 2020)",
+        "bg": "Декларация, че дървесината не произхожда от обезлесяване съгласно референтната дата EUDR (31 дек. 2020 г.)",
+        "de": "Erklärung, dass das Holz gemäß EUDR-Stichtag (31. Dez. 2020) entwaldungsfrei ist",
         "it": "Dichiarazione che il legno è libero da deforestazione secondo la data limite EUDR (31 dic 2020)",
         "hr": "Izjava da drvo potječe iz područja bez krčenja šuma prema EUDR graničnom datumu (31. prosinca 2020.)",
         "cs": "Prohlášení, že dřevo nepochází z odlesněných ploch dle EUDR rozhodného data (31. 12. 2020)",
@@ -3306,6 +3358,8 @@
       },
       "description": {
         "en": "GPS coordinates or polygon of the plot of land where timber was harvested",
+        "bg": "GPS координати или полигон на парцела, от който е добита дървесината",
+        "de": "GPS-Koordinaten oder Polygon des Grundstücks, auf dem das Holz eingeschlagen wurde",
         "it": "Coordinate GPS o poligono dell'appezzamento dove è stato raccolto il legname",
         "hr": "GPS koordinate ili poligon parcele na kojoj je drvna građa posječena",
         "cs": "GPS souřadnice nebo polygon pozemku, kde byla dřevina vytěžena",
@@ -3413,6 +3467,8 @@
       },
       "description": {
         "en": "Substances of Very High Concern on REACH candidate list present above 0.1% w/w",
+        "bg": "SVHC от кандидатския списък на REACH, присъстващи над 0,1% тегл./тегл.",
+        "de": "SVHC-Stoffe der REACH-Kandidatenliste, die zu mehr als 0,1 % w/w vorhanden sind",
         "it": "Sostanze di Interesse Molto Alto sulla lista dei candidati REACH presenti sopra lo 0,1% p/p",
         "hr": "Tvari vrlo visoke zabrinutosti s REACH popisa kandidata prisutne iznad 0,1% w/w",
         "cs": "Látky vzbuzující mimořádné obavy na seznamu kandidátů REACH přítomné nad 0,1 % hmotn.",
@@ -3520,6 +3576,8 @@
       },
       "description": {
         "en": "Formaldehyde emission class of wood-based panels (E0.5, E1, etc.)",
+        "bg": "Клас на емисии на формалдехид от дървесни панели (E0.5, E1 и др.)",
+        "de": "Formaldehydemissionsklasse von Holzwerkstoffen (E0.5, E1 usw.)",
         "it": "Classe di emissione di formaldeide dei pannelli a base di legno (E0.5, E1, ecc.)",
         "hr": "Razred emisije formaldehida ploča na bazi drva (E0.5, E1 itd.)",
         "cs": "Třída emisí formaldehydu u desek na bázi dřeva (E0.5, E1 atd.)",
@@ -3805,6 +3863,8 @@
       },
       "description": {
         "en": "Formaldehyde emission measured per EN 717-1 chamber test (mg/m3). Must be <= 0.062 mg/m3 for furniture from Aug 2026.",
+        "bg": "Измерена емисия на формалдехид по камерен тест EN 717-1 (mg/m3). От август 2026 г. трябва да е <= 0,062 mg/m3 за мебели.",
+        "de": "Gemessene Formaldehydemission nach EN 717-1 Kammertest (mg/m3). Ab August 2026 für Möbel <= 0,062 mg/m3.",
         "it": "Emissione di formaldeide misurata secondo prova in camera EN 717-1 (mg/m³). Deve essere <= 0,062 mg/m³ per mobili da agosto 2026.",
         "hr": "Emisija formaldehida izmjerena prema EN 717-1 komornom testu (mg/m3). Za namještaj mora biti <= 0,062 mg/m3 od kolovoza 2026.",
         "cs": "Emise formaldehydu měřené dle komorové zkoušky EN 717-1 (mg/m3). Pro nábytek musí být <= 0,062 mg/m3 od srpna 2026.",
@@ -3914,6 +3974,8 @@
       },
       "description": {
         "en": "Total VOC emission class or value per EN 16516 or equivalent",
+        "bg": "Клас или стойност на общите VOC емисии по EN 16516 или еквивалент",
+        "de": "Gesamt-VOC-Emissionsklasse oder -wert nach EN 16516 oder gleichwertig",
         "it": "Classe o valore di emissione VOC totale secondo EN 16516 o equivalente",
         "hr": "Razred ili vrijednost ukupnih emisija VOC prema EN 16516 ili jednakovrijednom",
         "cs": "Třída nebo hodnota celkových emisí VOC dle EN 16516 nebo ekvivalentu",
@@ -4023,6 +4085,8 @@
       },
       "description": {
         "en": "Total VOC emission after 28 days (ug/m3) per EN 16516",
+        "bg": "Общи VOC емисии след 28 дни (µg/m3) по EN 16516",
+        "de": "Gesamt-VOC-Emission nach 28 Tagen (µg/m3) nach EN 16516",
         "it": "Emissione VOC totale dopo 28 giorni (µg/m³) secondo EN 16516",
         "hr": "Ukupna emisija VOC nakon 28 dana (ug/m3) prema EN 16516",
         "cs": "Celkové emise VOC po 28 dnech (ug/m3) dle EN 16516",
@@ -4129,6 +4193,8 @@
       },
       "description": {
         "en": "List of flame retardant chemicals used, if any. Halogenated flame retardants under ECHA scrutiny.",
+        "bg": "Списък на използваните огнезащитни химикали, ако има такива. Халогенирани огнезащитни вещества под наблюдение на ECHA.",
+        "de": "Liste der verwendeten flammhemmenden Chemikalien, sofern vorhanden. Halogenierte Flammschutzmittel unter ECHA-Prüfung.",
         "it": "Elenco delle sostanze chimiche ritardanti di fiamma utilizzate, se presenti. Ritardanti di fiamma alogenati sotto controllo ECHA.",
         "hr": "Popis korištenih kemikalija usporivača gorenja, ako postoje. Halogenirani usporivači gorenja pod nadzorom ECHA-e.",
         "cs": "Seznam použitých zpomalovačů hoření, pokud existují. Halogenované zpomalovače hoření pod dohledem ECHA.",
@@ -4235,6 +4301,8 @@
       },
       "description": {
         "en": "Total PBDE (polybrominated diphenyl ethers) content in mg/kg. Unintentional trace limit 10 mg/kg; higher phased limits apply to articles containing recycled material.",
+        "bg": "Общо съдържание на PBDE (полибромирани дифенилови етери) в mg/kg. Граница за непреднамерени следи 10 mg/kg; за артикули с рециклиран материал важат по-високи поетапни граници.",
+        "de": "Gesamtgehalt an PBDE (polybromierte Diphenylether) in mg/kg. Spurengrenzwert für unbeabsichtigte Verunreinigungen 10 mg/kg; für Artikel mit Recyclingmaterial gelten höhere Übergangsgrenzen.",
         "it": "Contenuto totale di PBDE (eteri difenilici polibromurati) in mg/kg. Limite per tracce non intenzionali 10 mg/kg; agli articoli contenenti materiale riciclato si applicano limiti più elevati e graduali.",
         "hr": "Ukupni sadržaj PBDE (polibromirani difenil eteri) u mg/kg. Granica nenamjernih tragova 10 mg/kg; na proizvode s recikliranim materijalom primjenjuju se više, postupne granice.",
         "cs": "Celkový obsah PBDE (polybromované difenylethery) v mg/kg. Limit nezáměrných stop 10 mg/kg; na výrobky s recyklovaným materiálem se vztahují vyšší postupné limity.",
@@ -4341,6 +4409,8 @@
       },
       "description": {
         "en": "List of biocidal products used in treatment (wood preservatives, etc.)",
+        "bg": "Списък на биоцидните продукти, използвани при обработката (препарати за дървесина и др.)",
+        "de": "Liste der verwendeten Biozidprodukte bei der Behandlung (Holzschutzmittel usw.)",
         "it": "Elenco dei prodotti biocidi utilizzati nel trattamento (conservanti del legno, ecc.)",
         "hr": "Popis biocidnih proizvoda korištenih u obradi (sredstva za zaštitu drva itd.)",
         "cs": "Seznam biocidních přípravků použitých při ošetření (konzervanty dřeva atd.)",
@@ -4446,6 +4516,8 @@
       },
       "description": {
         "en": "EN standard applied for durability/strength testing",
+        "bg": "Прилаган стандарт EN за изпитване на дълготрайност/якост",
+        "de": "Angewendeter EN-Standard für Haltbarkeits-/Festigkeitsprüfungen",
         "it": "Standard EN applicato per prove di durabilità/resistenza",
         "hr": "Primijenjena EN norma za ispitivanje trajnosti/čvrstoće",
         "cs": "Norma EN použitá pro zkoušky odolnosti/pevnosti",
@@ -4555,6 +4627,8 @@
       },
       "description": {
         "en": "Test severity level passed (e.g. Level 1 = domestic light, Level 2 = domestic general, Level 3 = domestic severe)",
+        "bg": "Преминато ниво на тежест на изпитването (напр. Ниво 1 = домашно леко, Ниво 2 = домашно общо, Ниво 3 = домашно тежко)",
+        "de": "Bestandenes Prüfschweregrad-Niveau (z. B. Stufe 1 = Heimbereich leicht, Stufe 2 = Heimbereich allgemein, Stufe 3 = Heimbereich schwer)",
         "it": "Livello di gravità della prova superato (es. Livello 1 = uso domestico leggero, Livello 2 = uso domestico generale, Livello 3 = uso domestico severo)",
         "hr": "Postignuta razina strogosti ispitivanja (npr. razina 1 = kućna lagana, razina 2 = kućna opća, razina 3 = kućna teška)",
         "cs": "Dosažená úroveň náročnosti zkoušky (např. úroveň 1 = domácí lehké, úroveň 2 = domácí obecné, úroveň 3 = domácí náročné)",
@@ -4662,6 +4736,8 @@
       },
       "description": {
         "en": "Number of load/use cycles completed during durability testing",
+        "bg": "Брой завършени цикли на натоварване/употреба при изпитване за дълготрайност",
+        "de": "Anzahl der bei der Haltbarkeitsprüfung abgeschlossenen Last-/Nutzungszyklen",
         "it": "Numero di cicli di carico/utilizzo completati durante i test di durabilità",
         "hr": "Broj ciklusa opterećenja/uporabe završenih tijekom ispitivanja trajnosti",
         "cs": "Počet zátěžových/užitných cyklů dokončených při zkoušce odolnosti",
@@ -4770,6 +4846,8 @@
       },
       "description": {
         "en": "Maximum user weight the product is designed for (seating/beds)",
+        "bg": "Максимално тегло на потребителя, за което е проектиран продуктът (седалки/легла)",
+        "de": "Maximales Nutzergewicht, für das das Produkt ausgelegt ist (Sitzmöbel/Betten)",
         "it": "Peso massimo dell'utente per il quale il prodotto è progettato (sedute/letti)",
         "hr": "Maksimalna težina korisnika za koju je proizvod dizajniran (sjedalice/kreveti)",
         "cs": "Maximální hmotnost uživatele, pro kterou je produkt navržen (sedací nábytek/postele)",
@@ -4878,6 +4956,8 @@
       },
       "description": {
         "en": "Estimated product lifetime under normal use conditions",
+        "bg": "Очаквана продължителност на живот на продукта при нормални условия на употреба",
+        "de": "Geschätzte Produktlebensdauer unter normalen Nutzungsbedingungen",
         "it": "Vita utile stimata del prodotto in condizioni di uso normale",
         "hr": "Procijenjeni životni vijek proizvoda u uobičajenim uvjetima uporabe",
         "cs": "Odhadovaná životnost produktu za běžných podmínek použití",
@@ -4987,7 +5067,9 @@
         "sv": "Garantiperiod (år)"
       },
       "description": {
-        "en": "Commercial warranty period offered ESPR Art. 7(2)(a) mandates no data on its own and no furniture delegated act exists; the statutory guarantee under Dir. (EU) 2019/771 binds the seller.",
+        "en": "Commercial warranty period offered",
+        "bg": "Предлаган срок на търговската гаранция",
+        "de": "Angebotene Dauer der gewerblichen Garantie",
         "it": "Periodo di garanzia commerciale offerto",
         "hr": "Komercijalno jamstveno razdoblje koje se nudi",
         "cs": "Nabízená obchodní záruční doba",
@@ -5094,6 +5176,8 @@
       },
       "description": {
         "en": "Repairability index or score (scale/methodology TBD in delegated act)",
+        "bg": "Индекс или резултат за ремонтируемост (скала/методология за определяне в делегирания акт)",
+        "de": "Reparierbarkeitsindex oder -bewertung (Skala/Methodik im delegierten Rechtsakt festzulegen)",
         "it": "Indice o punteggio di riparabilità (scala/metodologia da definire in atto delegato)",
         "hr": "Indeks ili ocjena popravljivosti (ljestvica/metodologija bit će utvrđena u delegiranom aktu)",
         "cs": "Index nebo skóre opravitelnosti (škála/metodika bude stanovena v aktu v přenesené pravomoci)",
@@ -5200,6 +5284,8 @@
       },
       "description": {
         "en": "Type of foam used (PU, HR, memory, latex, etc.)",
+        "bg": "Вид пяна, използвана (PU, HR, мемори, латекс и др.)",
+        "de": "Verwendete Schaumstoffart (PU, HR, Memory, Latex usw.)",
         "it": "Tipo di schiuma utilizzata (PU, HR, memory, lattice, ecc.)",
         "hr": "Vrsta korištene pjene (PU, HR, memorijska, lateks itd.)",
         "cs": "Typ použité pěny (PU, HR, paměťová, latex atd.)",
@@ -5306,6 +5392,8 @@
       },
       "description": {
         "en": "Total weight of foam components in the mattress",
+        "bg": "Общо тегло на пенестите компоненти в матрака",
+        "de": "Gesamtgewicht der Schaumstoffkomponenten in der Matratze",
         "it": "Peso totale dei componenti in schiuma nel materasso",
         "hr": "Ukupna težina komponenti od pjene u madracu",
         "cs": "Celková hmotnost pěnových komponent v matraci",
@@ -5411,6 +5499,8 @@
       },
       "description": {
         "en": "Density of the primary foam layer (kg/m3)",
+        "bg": "Плътност на основния пенест слой (kg/m3)",
+        "de": "Dichte der primären Schaumstoffschicht (kg/m3)",
         "it": "Densità dello strato di schiuma primaria (kg/m³)",
         "hr": "Gustoća primarnog sloja pjene (kg/m3)",
         "cs": "Hustota primární pěnové vrstvy (kg/m3)",
@@ -5517,6 +5607,8 @@
       },
       "description": {
         "en": "Number of springs (if spring mattress)",
+        "bg": "Брой пружини (при пружинен матрак)",
+        "de": "Anzahl der Federn (bei Federkernmatratze)",
         "it": "Numero di molle (se materasso a molle)",
         "hr": "Broj opruga (ako je madrac s oprugama)",
         "cs": "Počet pružin (u pružinové matrace)",
@@ -5619,6 +5711,8 @@
       },
       "description": {
         "en": "Type of spring system (pocket, Bonnell, continuous, etc.)",
+        "bg": "Вид пружинна система (тасови, Bonnell, континуални и др.)",
+        "de": "Art des Federnsystems (Taschenfeder, Bonnell, Kontinuierlich usw.)",
         "it": "Tipo di sistema a molle (pocket, Bonnell, continuo, ecc.)",
         "hr": "Vrsta sustava opruga (džepne, Bonnell, kontinuirane itd.)",
         "cs": "Typ pružinového systému (taštičkové, Bonnell, kontinuální atd.)",
@@ -5723,6 +5817,8 @@
       },
       "description": {
         "en": "Whether mattress cover is removable and washable",
+        "bg": "Дали калъфът на матрака е свалящ се и перещ се",
+        "de": "Ob die Matratzenhülle abnehmbar und waschbar ist",
         "it": "Se il rivestimento del materasso è rimovibile e lavabile",
         "hr": "Je li navlaka madraca odvojiva i periva",
         "cs": "Zda je potah matrace snímatelný a pratelný",
@@ -5829,6 +5925,8 @@
       },
       "description": {
         "en": "Mattress firmness classification",
+        "bg": "Класификация на твърдостта на матрака",
+        "de": "Härtegradklassifikation der Matratze",
         "it": "Classificazione della fermezza del materasso",
         "hr": "Klasifikacija čvrstoće madraca",
         "cs": "Klasifikace tuhosti matrace",
@@ -5936,6 +6034,8 @@
       },
       "description": {
         "en": "Total product carbon footprint in kg CO2-equivalent (cradle-to-gate or cradle-to-grave as specified)",
+        "bg": "Общ въглероден отпечатък на продукта в kg CO2-еквивалент (от люлката до портата или от люлката до гроба, по спецификация)",
+        "de": "Gesamter Kohlenstoff-Fußabdruck des Produkts in kg CO2-Äquivalent (Wiege bis Werkstor oder Wiege bis Grab, je nach Angabe)",
         "it": "Impronta di carbonio totale del prodotto in kg CO2-equivalente (dalla culla al cancello o dalla culla alla tomba come specificato)",
         "hr": "Ukupni ugljični otisak proizvoda u kg ekvivalenta CO2 (od kolijevke do vrata ili od kolijevke do groba, prema specifikaciji)",
         "cs": "Celková uhlíková stopa produktu v kg ekvivalentu CO2 (od kolébky k bráně nebo od kolébky do hrobu dle specifikace)",
@@ -6046,6 +6146,8 @@
       },
       "description": {
         "en": "Methodology used for carbon footprint calculation",
+        "bg": "Методология, използвана за изчисляване на въглеродния отпечатък",
+        "de": "Verwendete Methodik zur Berechnung des Kohlenstoff-Fußabdrucks",
         "it": "Metodologia utilizzata per il calcolo dell'impronta di carbonio",
         "hr": "Metodologija korištena za izračun ugljičnog otiska",
         "cs": "Metodika použitá pro výpočet uhlíkové stopy",
@@ -6154,6 +6256,8 @@
       },
       "description": {
         "en": "URL to the Environmental Product Declaration (EPD) if available",
+        "bg": "URL към Декларацията за екологичните характеристики на продукта (EPD), ако е налична",
+        "de": "URL zur Umweltproduktdeklaration (EPD), sofern vorhanden",
         "it": "URL della Dichiarazione Ambientale del Prodotto (EPD) se disponibile",
         "hr": "URL Izjave o okolišnim svojstvima proizvoda (EPD) ako je dostupna",
         "cs": "URL environmentálního prohlášení o produktu (EPD), je-li k dispozici",
@@ -6261,6 +6365,8 @@
       },
       "description": {
         "en": "Total energy consumed during manufacturing per unit",
+        "bg": "Обща консумирана енергия при производство на единица продукт",
+        "de": "Gesamter Energieverbrauch bei der Herstellung je Einheit",
         "it": "Energia totale consumata durante la produzione per unità",
         "hr": "Ukupna energija potrošena tijekom proizvodnje po jedinici",
         "cs": "Celková energie spotřebovaná při výrobě na jednotku",
@@ -6367,6 +6473,8 @@
       },
       "description": {
         "en": "Total water consumed during manufacturing per unit",
+        "bg": "Общо консумирана вода при производство на единица продукт",
+        "de": "Gesamter Wasserverbrauch bei der Herstellung je Einheit",
         "it": "Acqua totale consumata durante la produzione per unità",
         "hr": "Ukupna voda potrošena tijekom proizvodnje po jedinici",
         "cs": "Celková voda spotřebovaná při výrobě na jednotku",
@@ -6473,6 +6581,8 @@
       },
       "description": {
         "en": "URL or URI to professional disassembly instructions for end-of-life treatment",
+        "bg": "URL или URI към инструкции за професионален демонтаж при третиране в края на жизнения цикъл",
+        "de": "URL oder URI zu professionellen Demontageanweisungen für die Behandlung am Lebensende",
         "it": "URL o URI alle istruzioni professionali di smontaggio per il trattamento a fine vita",
         "hr": "URL ili URI profesionalnih uputa za rastavljanje radi obrade na kraju životnog vijeka",
         "cs": "URL nebo URI k profesionálním pokynům k demontáži pro zpracování na konci životnosti",
@@ -6582,6 +6692,8 @@
       },
       "description": {
         "en": "URL or URI to consumer-facing repair and maintenance instructions",
+        "bg": "URL или URI към инструкции за ремонт и поддръжка, насочени към потребителя",
+        "de": "URL oder URI zu verbrauchergerechten Reparatur- und Pflegehinweisen",
         "it": "URL o URI alle istruzioni di riparazione e manutenzione rivolte al consumatore",
         "hr": "URL ili URI uputa za popravak i održavanje namijenjenih potrošačima",
         "cs": "URL nebo URI k pokynům k opravě a údržbě určeným spotřebitelům",
@@ -6691,6 +6803,8 @@
       },
       "description": {
         "en": "Period (years) during which spare parts are available after last unit placed on market",
+        "bg": "Период (години), в рамките на който резервните части са налични след пускането на последната единица на пазара",
+        "de": "Zeitraum (Jahre), in dem Ersatzteile nach dem Inverkehrbringen der letzten Einheit verfügbar sind",
         "it": "Periodo (anni) durante il quale le parti di ricambio sono disponibili dopo l'immissione dell'ultima unità sul mercato",
         "hr": "Razdoblje (godine) tijekom kojeg su rezervni dijelovi dostupni nakon stavljanja zadnje jedinice na tržište",
         "cs": "Období (roky), po které jsou náhradní díly k dispozici po uvedení poslední jednotky na trh",
@@ -6800,6 +6914,8 @@
       },
       "description": {
         "en": "List of available spare parts with ordering information",
+        "bg": "Списък на наличните резервни части с информация за поръчка",
+        "de": "Liste der verfügbaren Ersatzteile mit Bestellinformationen",
         "it": "Elenco delle parti di ricambio disponibili con informazioni di ordinazione",
         "hr": "Popis dostupnih rezervnih dijelova s podacima za naručivanje",
         "cs": "Seznam dostupných náhradních dílů s informacemi k objednání",
@@ -6909,6 +7025,8 @@
       },
       "description": {
         "en": "Percentage of product weight that is recyclable at end of life",
+        "bg": "Процент от теглото на продукта, подлежащ на рециклиране в края на жизнения цикъл",
+        "de": "Prozentsatz des Produktgewichts, der am Lebensende recycelt werden kann",
         "it": "Percentuale del peso del prodotto che è riciclabile a fine vita",
         "hr": "Postotak težine proizvoda koji se može reciklirati na kraju životnog vijeka",
         "cs": "Procento hmotnosti produktu, které je na konci životnosti recyklovatelné",
@@ -7018,6 +7136,8 @@
       },
       "description": {
         "en": "Recyclability per material type",
+        "bg": "Рециклируемост по вид материал",
+        "de": "Recyclingfähigkeit nach Materialart",
         "it": "Riciclabilità per tipo di materiale",
         "hr": "Mogućnost recikliranja po vrsti materijala",
         "cs": "Recyklovatelnost podle typu materiálu",
@@ -7123,6 +7243,8 @@
       },
       "description": {
         "en": "Estimated time to fully disassemble for recycling (minutes)",
+        "bg": "Прогнозно време за пълен демонтаж за рециклиране (минути)",
+        "de": "Geschätzte Zeit für die vollständige Demontage zur Wiederverwertung (Minuten)",
         "it": "Tempo stimato per lo smontaggio completo per il riciclaggio (minuti)",
         "hr": "Procijenjeno vrijeme za potpuno rastavljanje radi recikliranja (minute)",
         "cs": "Odhadovaný čas úplné demontáže pro recyklaci (minuty)",
@@ -7228,6 +7350,8 @@
       },
       "description": {
         "en": "List of tools needed for product disassembly",
+        "bg": "Списък на необходимите инструменти за демонтаж на продукта",
+        "de": "Liste der für den Produktabbau benötigten Werkzeuge",
         "it": "Elenco degli attrezzi necessari per lo smontaggio del prodotto",
         "hr": "Popis alata potrebnih za rastavljanje proizvoda",
         "cs": "Seznam nástrojů potřebných k demontáži produktu",
@@ -7334,6 +7458,8 @@
       },
       "description": {
         "en": "URL to collection/take-back scheme information",
+        "bg": "URL към информация за схема за събиране/обратно приемане",
+        "de": "URL zu Informationen über Sammel-/Rücknahmesysteme",
         "it": "URL alle informazioni dello schema di raccolta/ritiro",
         "hr": "URL informacija o shemi prikupljanja/povrata",
         "cs": "URL informací o systému sběru/zpětného odběru",
@@ -7439,6 +7565,8 @@
       },
       "description": {
         "en": "URL to EU Declaration of Conformity document",
+        "bg": "URL към документа на ЕС Декларация за съответствие",
+        "de": "URL zum EU-Konformitätserklärungsdokument",
         "it": "URL del documento Dichiarazione di Conformità UE",
         "hr": "URL dokumenta EU izjave o sukladnosti",
         "cs": "URL dokumentu EU prohlášení o shodě",
@@ -7545,6 +7673,8 @@
       },
       "description": {
         "en": "EU Ecolabel license number (if awarded)",
+        "bg": "Номер на лиценза за Екомаркировка на ЕС (ако е присъден)",
+        "de": "Lizenznummer des EU-Ecolabels (sofern vergeben)",
         "it": "Numero di licenza EU Ecolabel (se assegnato)",
         "hr": "Broj licence EU ekoznaka (ako je dodijeljena)",
         "cs": "Číslo licence EU Ecolabel (pokud bylo uděleno)",
@@ -7650,6 +7780,8 @@
       },
       "description": {
         "en": "Other environmental/quality certifications held",
+        "bg": "Други притежавани екологични/качествени сертификати",
+        "de": "Weitere gehaltene Umwelt-/Qualitätszertifikate",
         "it": "Altre certificazioni ambientali/di qualità possedute",
         "hr": "Ostali okolišni certifikati ili certifikati kvalitete u posjedu",
         "cs": "Ostatní environmentální / kvalitativní certifikace, kterými produkt disponuje",
@@ -7754,6 +7886,8 @@
       },
       "description": {
         "en": "Fire safety / flammability standard the product meets",
+        "bg": "Стандарт за пожарна безопасност/запалимост, на който отговаря продуктът",
+        "de": "Brandschutz-/Entflammbarkeitsstandard, dem das Produkt entspricht",
         "it": "Standard di sicurezza al fuoco / infiammabilità che il prodotto rispetta",
         "hr": "Norma požarne sigurnosti / zapaljivosti koju proizvod zadovoljava",
         "cs": "Norma požární bezpečnosti / hořlavosti, kterou produkt splňuje",
@@ -7862,6 +7996,8 @@
       },
       "description": {
         "en": "Confirmation of REACH regulation compliance",
+        "bg": "Потвърждение за съответствие с регламента REACH",
+        "de": "Bestätigung der Konformität mit der REACH-Verordnung",
         "it": "Conferma della conformità al regolamento REACH",
         "hr": "Potvrda usklađenosti s Uredbom REACH",
         "cs": "Potvrzení souladu s nařízením REACH",
@@ -7968,6 +8104,8 @@
       },
       "description": {
         "en": "ECHA SCIP database notification number (if product contains SVHC > 0.1% w/w)",
+        "bg": "Номер на уведомление в базата данни SCIP на ECHA (ако продуктът съдържа SVHC > 0,1% тегл./тегл.)",
+        "de": "Benachrichtigungsnummer in der ECHA SCIP-Datenbank (wenn das Produkt SVHC > 0,1 % w/w enthält)",
         "it": "Numero di notifica del database SCIP ECHA (se il prodotto contiene SVHC > 0,1% p/p)",
         "hr": "Broj obavijesti u ECHA-inoj bazi podataka SCIP (ako proizvod sadrži SVHC > 0,1% w/w)",
         "cs": "Číslo oznámení v databázi SCIP agentury ECHA (pokud produkt obsahuje SVHC > 0,1 % hmotn.)",
@@ -8074,6 +8212,8 @@
       },
       "description": {
         "en": "Intended use environment (domestic, commercial, outdoor, etc.)",
+        "bg": "Предназначена среда на употреба (домашна, търговска, открита и др.)",
+        "de": "Vorgesehene Nutzungsumgebung (Haushalt, Gewerbe, Außenbereich usw.)",
         "it": "Ambiente di uso previsto (domestico, commerciale, esterno, ecc.)",
         "hr": "Okruženje namijenjene uporabe (kućno, komercijalno, vanjsko itd.)",
         "cs": "Zamýšlené prostředí použití (domácí, komerční, venkovní atd.)",
@@ -8181,6 +8321,8 @@
       },
       "description": {
         "en": "Care and maintenance instructions for the end user",
+        "bg": "Инструкции за грижа и поддръжка за крайния потребител",
+        "de": "Pflege- und Wartungshinweise für den Endnutzer",
         "it": "Istruzioni di cura e manutenzione per l'utente finale",
         "hr": "Upute za njegu i održavanje za krajnjeg korisnika",
         "cs": "Pokyny k péči a údržbě pro koncového uživatele",
@@ -8290,6 +8432,8 @@
       },
       "description": {
         "en": "URL to assembly/installation instructions",
+        "bg": "URL към инструкции за сглобяване/монтаж",
+        "de": "URL zu Montage-/Installationsanweisungen",
         "it": "URL alle istruzioni di montaggio/installazione",
         "hr": "URL uputa za sklapanje/montažu",
         "cs": "URL pokynů k montáži/instalaci",
@@ -8395,6 +8539,8 @@
       },
       "description": {
         "en": "Product-specific safety warnings",
+        "bg": "Специфични за продукта предупреждения за безопасност",
+        "de": "Produktspezifische Sicherheitshinweise",
         "it": "Avvertenze di sicurezza specifiche del prodotto",
         "hr": "Sigurnosna upozorenja specifična za proizvod",
         "cs": "Bezpečnostní varování specifická pro produkt",
@@ -8501,6 +8647,8 @@
       },
       "description": {
         "en": "Key supply chain actors involved in production (tiered)",
+        "bg": "Ключови участници в производствената верига на доставки (на нива)",
+        "de": "Wichtige an der Produktion beteiligte Lieferketten-Akteure (stufenweise)",
         "it": "Attori chiave della catena di approvvigionamento coinvolti nella produzione (a più livelli)",
         "hr": "Ključni sudionici opskrbnog lanca uključeni u proizvodnju (razinski)",
         "cs": "Klíčoví účastníci dodavatelského řetězce zapojení do výroby (víceúrovňově)",
@@ -8608,6 +8756,8 @@
       },
       "description": {
         "en": "URL to due diligence statement per EUDR or CSDDD",
+        "bg": "URL към декларация за надлежна проверка съгласно EUDR или CSDDD",
+        "de": "URL zur Sorgfaltspflichtserklärung gemäß EUDR oder CSDDD",
         "it": "URL alla dichiarazione di due diligence ai sensi di EUDR o CSDDD",
         "hr": "URL izjave o dubinskoj analizi prema EUDR ili CSDDD",
         "cs": "URL prohlášení o náležité péči dle EUDR nebo CSDDD",
@@ -8713,6 +8863,8 @@
       },
       "description": {
         "en": "Version of the DPP schema used",
+        "bg": "Версия на използваната схема на DPP",
+        "de": "Version des verwendeten DPP-Schemas",
         "it": "Versione dello schema DPP utilizzato",
         "hr": "Verzija korištene DPP sheme",
         "cs": "Verze použitého schématu DPP",
@@ -8821,6 +8973,8 @@
       },
       "description": {
         "en": "Timestamp of last DPP update (ISO 8601)",
+        "bg": "Времеви отпечатък на последната актуализация на DPP (ISO 8601)",
+        "de": "Zeitstempel der letzten DPP-Aktualisierung (ISO 8601)",
         "it": "Timestamp dell'ultimo aggiornamento della DPP (ISO 8601)",
         "hr": "Vremenska oznaka posljednjeg ažuriranja DPP-a (ISO 8601)",
         "cs": "Časové razítko poslední aktualizace DPP (ISO 8601)",
@@ -8930,6 +9084,8 @@
       },
       "description": {
         "en": "Access level definitions (public, authorized, restricted)",
+        "bg": "Определения на нивата на достъп (публичен, оторизиран, ограничен)",
+        "de": "Definitionen der Zugriffsebenen (öffentlich, autorisiert, eingeschränkt)",
         "it": "Definizioni del livello di accesso (pubblico, autorizzato, ristretto)",
         "hr": "Definicije razina pristupa (javno, ovlašteno, ograničeno)",
         "cs": "Definice úrovní přístupu (veřejné, autorizované, omezené)",
@@ -9127,6 +9283,8 @@
       },
       "description": {
         "en": "Format specification for machine-readable data",
+        "bg": "Спецификация на формата за машинночетими данни",
+        "de": "Formatspezifikation für maschinenlesbare Daten",
         "it": "Specifica del formato per i dati leggibili da macchina",
         "hr": "Specifikacija formata strojno čitljivih podataka",
         "cs": "Specifikace formátu strojově čitelných dat",

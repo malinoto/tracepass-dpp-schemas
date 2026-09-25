@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Globally unique product identifier (UUID or URI) per ESPR Art. 9",
+        "bg": "Глобално уникален продуктов идентификатор (UUID или URI) съгласно чл. 9 от ESPR",
+        "de": "Global eindeutiger Produktidentifikator (UUID oder URI) gemäß ESPR Art. 9",
         "cs": "Globálně jedinečný identifikátor výrobku (UUID nebo URI) podle čl. 9 ESPR",
         "da": "Globalt entydigt produktidentifikator (UUID eller URI) i henhold til ESPR art. 9",
         "el": "Παγκοσμίως μοναδικό αναγνωριστικό προϊόντος (UUID ή URI) σύμφωνα με το άρθρο 9 του ESPR",
@@ -180,6 +182,8 @@
       },
       "description": {
         "en": "Model number or designation of the product",
+        "bg": "Номер на модела или наименование на продукта",
+        "de": "Modellnummer oder Modellbezeichnung des Produkts",
         "cs": "Číslo modelu nebo označení výrobku",
         "da": "Modelnummer eller betegnelse for produktet",
         "el": "Αριθμός μοντέλου ή ονομασία του προϊόντος",
@@ -291,6 +295,8 @@
       },
       "description": {
         "en": "Batch or lot identifier for traceability",
+        "bg": "Идентификатор на партида за проследяемост",
+        "de": "Chargen- oder Losidentifikator für die Rückverfolgbarkeit",
         "cs": "Identifikátor šarže nebo dávky pro sledovatelnost",
         "da": "Batch- eller partiidentifikator til sporbarhed",
         "el": "Αναγνωριστικό παρτίδας για ιχνηλασιμότητα",
@@ -399,6 +405,8 @@
       },
       "description": {
         "en": "Unique serial number of the individual product unit",
+        "bg": "Уникален сериен номер на отделната продуктова единица",
+        "de": "Eindeutige Seriennummer der einzelnen Produkteinheit",
         "cs": "Jedinečné sériové číslo jednotlivého kusu výrobku",
         "da": "Entydigt serienummer for den enkelte produktenhed",
         "el": "Μοναδικός σειριακός αριθμός της μεμονωμένης μονάδας προϊόντος",
@@ -507,6 +515,8 @@
       },
       "description": {
         "en": "Global Trade Item Number (GS1 barcode identifier)",
+        "bg": "Global Trade Item Number (GS1 идентификатор за баркод)",
+        "de": "Global Trade Item Number (GS1-Barcode-Identifikator)",
         "cs": "Globální číslo obchodní položky (identifikátor čárového kódu GS1)",
         "da": "Global Trade Item Number (GS1-stregkodeidentifikator)",
         "el": "Global Trade Item Number (αναγνωριστικό γραμμωτού κώδικα GS1)",
@@ -617,6 +627,8 @@
       },
       "description": {
         "en": "EU customs tariff code for the product",
+        "bg": "Код на митническата тарифа на ЕС за продукта",
+        "de": "EU-Zolltarifnummer des Produkts",
         "cs": "Celní sazební kód EU pro výrobek",
         "da": "EU-toldtarifkode for produktet",
         "el": "Κωδικός δασμολογίου ΕΕ για το προϊόν",
@@ -726,6 +738,8 @@
       },
       "description": {
         "en": "Sub-category classification of the electronic product",
+        "bg": "Класификация по подкатегория на електронния продукт",
+        "de": "Unterkategorieklassifizierung des elektronischen Produkts",
         "cs": "Zařazení elektronického výrobku do podkategorie",
         "da": "Underkategoriklassificering af det elektroniske produkt",
         "el": "Ταξινόμηση του ηλεκτρονικού προϊόντος σε υποκατηγορία",
@@ -1099,6 +1113,8 @@
       },
       "description": {
         "en": "Date when the product was manufactured (ISO 8601)",
+        "bg": "Дата на производство на продукта (ISO 8601)",
+        "de": "Herstellungsdatum des Produkts (ISO 8601)",
         "cs": "Datum výroby výrobku (ISO 8601)",
         "da": "Dato for fremstilling af produktet (ISO 8601)",
         "el": "Ημερομηνία κατασκευής του προϊόντος (ISO 8601)",
@@ -1210,6 +1226,8 @@
       },
       "description": {
         "en": "Country where the product was manufactured (ISO 3166-1 alpha-2)",
+        "bg": "Държава на производство на продукта (ISO 3166-1 alpha-2)",
+        "de": "Herstellungsland des Produkts (ISO 3166-1 alpha-2)",
         "cs": "Země výroby výrobku (ISO 3166-1 alpha-2)",
         "da": "Land, hvor produktet blev fremstillet (ISO 3166-1 alpha-2)",
         "el": "Χώρα κατασκευής του προϊόντος (ISO 3166-1 alpha-2)",
@@ -1321,6 +1339,8 @@
       },
       "description": {
         "en": "Identifier or name of the manufacturing facility",
+        "bg": "Идентификатор или наименование на производственото предприятие",
+        "de": "Kennzeichnung oder Name der Fertigungsstätte",
         "cs": "Identifikátor nebo název výrobního závodu",
         "da": "Identifikator eller navn på produktionsanlægget",
         "el": "Αναγνωριστικό ή ονομασία της μονάδας παραγωγής",
@@ -1430,6 +1450,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer",
+        "bg": "Правно наименование на производителя",
+        "de": "Firmenname des Herstellers",
         "cs": "Právní název výrobce",
         "da": "Fabrikantens juridiske navn",
         "el": "Επωνυμία του κατασκευαστή",
@@ -1538,6 +1560,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer",
+        "bg": "Регистриран адрес на производителя",
+        "de": "Eingetragene Adresse des Herstellers",
         "cs": "Sídlo výrobce",
         "da": "Fabrikantens registrerede adresse",
         "el": "Καταχωρισμένη διεύθυνση του κατασκευαστή",
@@ -1645,6 +1669,8 @@
       },
       "description": {
         "en": "Official website of the manufacturer",
+        "bg": "Официален уебсайт на производителя",
+        "de": "Offizielle Website des Herstellers",
         "cs": "Oficiální internetové stránky výrobce",
         "da": "Fabrikantens officielle websted",
         "el": "Επίσημος ιστότοπος του κατασκευαστή",
@@ -1753,6 +1779,8 @@
       },
       "description": {
         "en": "Legal name of the importer, if applicable",
+        "bg": "Правно наименование на вносителя, ако е приложимо",
+        "de": "Firmenname des Importeurs, sofern zutreffend",
         "cs": "Právní název dovozce, je-li relevantní",
         "da": "Importørens juridiske navn, hvis det er relevant",
         "el": "Επωνυμία του εισαγωγέα, κατά περίπτωση",
@@ -1860,6 +1888,8 @@
       },
       "description": {
         "en": "Economic Operator Registration and Identification number of the importer",
+        "bg": "Номер за регистрация и идентификация на икономически оператор (EORI) на вносителя",
+        "de": "Nummer für die Registrierung und Identifizierung von Wirtschaftsbeteiligten (EORI) des Importeurs",
         "cs": "Registrační a identifikační číslo hospodářského subjektu dovozce (EORI)",
         "da": "Importørens EORI-nummer (Economic Operator Registration and Identification)",
         "el": "Αριθμός καταχώρισης και αναγνώρισης οικονομικού φορέα (EORI) του εισαγωγέα",
@@ -1967,6 +1997,8 @@
       },
       "description": {
         "en": "EU-based authorised representative of a non-EU manufacturer",
+        "bg": "Упълномощен представител в ЕС на производител, установен извън ЕС",
+        "de": "In der EU ansässiger Bevollmächtigter eines Nicht-EU-Herstellers",
         "cs": "Zplnomocněný zástupce výrobce usazeného mimo EU, který je usazen v EU",
         "da": "EU-baseret bemyndiget repræsentant for en fabrikant uden for EU",
         "el": "Εξουσιοδοτημένος αντιπρόσωπος εγκατεστημένος στην ΕΕ κατασκευαστή εκτός ΕΕ",
@@ -2075,6 +2107,8 @@
       },
       "description": {
         "en": "URL to the EU Declaration of Conformity document",
+        "bg": "URL на документа за декларация за съответствие на ЕС",
+        "de": "URL des EU-Konformitätserklärungsdokuments",
         "cs": "URL adresa dokumentu EU prohlášení o shodě",
         "da": "URL til EU-overensstemmelseserklæringen",
         "el": "URL της δήλωσης συμμόρφωσης ΕΕ",
@@ -2183,6 +2217,8 @@
       },
       "description": {
         "en": "Whether the product bears the CE marking",
+        "bg": "Дали продуктът носи CE маркировка",
+        "de": "Ob das Produkt die CE-Kennzeichnung trägt",
         "cs": "Zda je výrobek opatřen označením CE",
         "da": "Om produktet er forsynet med CE-mærkningen",
         "el": "Κατά πόσον το προϊόν φέρει τη σήμανση CE",
@@ -2290,6 +2326,8 @@
       },
       "description": {
         "en": "Identification number of the notified body involved in conformity assessment",
+        "bg": "Идентификационен номер на нотифицирания орган, участващ в оценяването на съответствието",
+        "de": "Kennnummer der an der Konformitätsbewertung beteiligten notifizierten Stelle",
         "cs": "Identifikační číslo oznámeného subjektu zapojeného do posuzování shody",
         "da": "Identifikationsnummer på det bemyndigede organ, der er involveret i overensstemmelsesvurderingen",
         "el": "Αριθμός ταυτοποίησης του κοινοποιημένου οργανισμού που συμμετέχει στην αξιολόγηση της συμμόρφωσης",
@@ -2397,6 +2435,8 @@
       },
       "description": {
         "en": "Link to the full technical documentation",
+        "bg": "Връзка към пълната техническа документация",
+        "de": "Link zur vollständigen technischen Dokumentation",
         "cs": "Odkaz na úplnou technickou dokumentaci",
         "da": "Link til den fulde tekniske dokumentation",
         "el": "Σύνδεσμος προς τον πλήρη τεχνικό φάκελο",
@@ -2504,6 +2544,8 @@
       },
       "description": {
         "en": "Link to the product user manual",
+        "bg": "Връзка към ръководството за потребителя на продукта",
+        "de": "Link zur Bedienungsanleitung des Produkts",
         "cs": "Odkaz na uživatelskou příručku výrobku",
         "da": "Link til produktets brugervejledning",
         "el": "Σύνδεσμος προς το εγχειρίδιο χρήσης του προϊόντος",
@@ -2611,6 +2653,8 @@
       },
       "description": {
         "en": "Link to product safety instructions",
+        "bg": "Връзка към инструкциите за безопасност на продукта",
+        "de": "Link zu den Sicherheitshinweisen des Produkts",
         "cs": "Odkaz na bezpečnostní pokyny k výrobku",
         "da": "Link til produktets sikkerhedsanvisninger",
         "el": "Σύνδεσμος προς τις οδηγίες ασφαλείας του προϊόντος",
@@ -2719,6 +2763,8 @@
       },
       "description": {
         "en": "Durability performance class from A (best) to G (worst)",
+        "bg": "Клас на показателя за трайност от A (най-добър) до G (най-лош)",
+        "de": "Leistungsklasse für Haltbarkeit von A (beste) bis G (schlechteste)",
         "cs": "Třída odolnosti od A (nejlepší) po G (nejhorší)",
         "da": "Holdbarhedsklasse fra A (bedst) til G (ringest)",
         "el": "Κατηγορία επιδόσεων ανθεκτικότητας από A (βέλτιστη) έως G (χείριστη)",
@@ -3030,6 +3076,8 @@
       },
       "description": {
         "en": "Repairability class A (most repairable) to E (least), derived from the repairability index R per Reg. (EU) 2023/1669 Annex II Table 4 (smartphones and slate tablets)",
+        "bg": "Клас на ремонтируемост A (най-ремонтируем) до E (най-малко ремонтируем), получен от индекса на ремонтируемост R съгласно приложение II, таблица 4 от Регламент (ЕС) 2023/1669 (смартфони и таблети тип плоча)",
+        "de": "Reparierbarkeitsklasse A (am leichtesten reparierbar) bis E (am schwersten), abgeleitet vom Reparierbarkeitsindex R gemäß Verordnung (EU) 2023/1669 Anhang II Tabelle 4 (Smartphones und Slate-Tablets)",
         "cs": "Třída opravitelnosti A (nejsnáze opravitelné) až E (nejméně), odvozená z indexu opravitelnosti R dle přílohy II tabulky 4 nařízení (EU) 2023/1669 (smartphony a tablety)",
         "da": "Reparerbarhedsklasse A (mest reparerbar) til E (mindst), afledt af reparerbarhedsindeks R efter bilag II tabel 4 i forordning (EU) 2023/1669 (smartphones og tablet-pc'er)",
         "el": "Κατηγορία επισκευασιμότητας Α (πιο εύκολα επισκευάσιμο) έως Ε (λιγότερο), που προκύπτει από τον δείκτη R κατά παράρτημα II πίνακα 4 του Καν. (ΕΕ) 2023/1669 (smartphones και tablets)",
@@ -3282,6 +3330,8 @@
       },
       "description": {
         "en": "Repairability index R (1.00–5.00, two decimals) for smartphones and slate tablets, calculated per Reg. (EU) 2023/1669 Annex IV point 5 and declared in the EPREL product information sheet",
+        "bg": "Индекс на ремонтируемост R (1,00–5,00, два десетични знака) за смартфони и таблети тип плоча, изчислен съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669 и деклариран в информационния лист за продукта в EPREL",
+        "de": "Reparierbarkeitsindex R (1,00–5,00, zwei Dezimalstellen) für Smartphones und Slate-Tablets, berechnet gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5 und im EPREL-Produktdatenblatt angegeben",
         "cs": "Index opravitelnosti R (1,00–5,00, dvě desetinná místa) pro smartphony a tablety, vypočtený dle přílohy IV bodu 5 nařízení (EU) 2023/1669 a zapsaný do informačního listu EPREL",
         "da": "Reparerbarhedsindeks R (1,00–5,00, to decimaler) for smartphones og tablet-pc'er, beregnet efter bilag IV punkt 5 i forordning (EU) 2023/1669 og angivet i EPREL-produktinformationsbladet",
         "el": "Δείκτης επισκευασιμότητας R (1,00–5,00, δύο δεκαδικά) για smartphones και tablets, υπολογισμένος κατά παράρτημα IV σημείο 5 του Καν. (ΕΕ) 2023/1669 και δηλωμένος στο δελτίο πληροφοριών προϊόντος EPREL",
@@ -3391,6 +3441,8 @@
       },
       "description": {
         "en": "EU energy efficiency label class from A (best) to G (worst)",
+        "bg": "Клас на EU етикета за енергийна ефективност от A (най-добър) до G (най-лош)",
+        "de": "EU-Energieeffizienzklasse von A (beste) bis G (schlechteste)",
         "cs": "Třída energetického štítku EU od A (nejlepší) do G (nejhorší)",
         "da": "EU-energimærkeklasse fra A (bedst) til G (værst)",
         "el": "Κλάση ενεργειακής ετικέτας ΕΕ από A (βέλτιστη) έως G (χείριστη)",
@@ -3704,6 +3756,8 @@
       },
       "description": {
         "en": "Annual energy consumption AE (kWh/a), refrigerating appliances; defined in Reg. 2019/2016 Annex I, calculated per Annex IV point 3",
+        "bg": "Годишна консумация на енергия AE (kWh/год.), хладилни уреди; определена в приложение I от Регламент 2019/2016, изчислена съгласно приложение IV, точка 3",
+        "de": "Jährlicher Energieverbrauch AE (kWh/a), Kühlgeräte; definiert in Verordnung 2019/2016 Anhang I, berechnet gemäß Anhang IV Punkt 3",
         "cs": "Roční spotřeba energie AE (kWh/a) chladicích spotřebičů; definováno v příloze I nař. 2019/2016, výpočet dle přílohy IV bodu 3",
         "da": "Årligt energiforbrug AE (kWh/a), kølende apparater; defineret i bilag I til forordn. 2019/2016, beregnet efter bilag IV punkt 3",
         "el": "Ετήσια κατανάλωση ενέργειας AE (kWh/a) ψυκτικών συσκευών· ορισμός στο παράρτημα I Καν. 2019/2016, υπολογισμός κατά παράρτημα IV σημ. 3",
@@ -3813,6 +3867,8 @@
       },
       "description": {
         "en": "Total lifecycle carbon footprint of the product",
+        "bg": "Общ въглероден отпечатък на продукта за целия жизнен цикъл",
+        "de": "Gesamter Kohlenstoff-Fußabdruck des Produkts über den gesamten Lebenszyklus",
         "cs": "Celková uhlíková stopa produktu za celý životní cyklus",
         "da": "Produktets samlede CO2-fodaftryk over livscyklussen",
         "el": "Συνολικό αποτύπωμα άνθρακα του προϊόντος κατά τον κύκλο ζωής",
@@ -3926,6 +3982,8 @@
       },
       "description": {
         "en": "Performance class for carbon footprint from A (best) to E (worst)",
+        "bg": "Клас на показателя за въглероден отпечатък от A (най-добър) до E (най-лош)",
+        "de": "Leistungsklasse für den Kohlenstoff-Fußabdruck von A (beste) bis E (schlechteste)",
         "cs": "Výkonnostní třída uhlíkové stopy od A (nejlepší) do E (nejhorší)",
         "da": "Præstationsklasse for CO2-fodaftryk fra A (bedst) til E (værst)",
         "el": "Κλάση επίδοσης αποτυπώματος άνθρακα από A (βέλτιστη) έως E (χείριστη)",
@@ -4180,6 +4238,8 @@
       },
       "description": {
         "en": "Percentage of recycled materials in the product by weight",
+        "bg": "Процент на рециклираното съдържание в продукта по тегло",
+        "de": "Prozentanteil recycelter Materialien im Produkt nach Gewicht",
         "cs": "Hmotnostní procento recyklovaných materiálů v produktu",
         "da": "Procentdel af genanvendte materialer i produktet efter vægt",
         "el": "Ποσοστό ανακυκλωμένων υλικών στο προϊόν κατά βάρος",
@@ -4291,6 +4351,8 @@
       },
       "description": {
         "en": "Percentage of product that can be recycled at end of life",
+        "bg": "Процент от продукта, подлежащ на рециклиране в края на жизнения цикъл",
+        "de": "Prozentsatz des Produkts, der am Ende der Lebensdauer recycelt werden kann",
         "cs": "Procento produktu recyklovatelné na konci životnosti",
         "da": "Procentdel af produktet, der kan genanvendes ved slutningen af levetiden",
         "el": "Ποσοστό του προϊόντος που μπορεί να ανακυκλωθεί στο τέλος του κύκλου ζωής",
@@ -4403,6 +4465,8 @@
       },
       "description": {
         "en": "Description of how the product can be upgraded (hardware/software)",
+        "bg": "Описание на начините за надграждане на продукта (хардуер/софтуер)",
+        "de": "Beschreibung der Aufrüstmöglichkeiten des Produkts (Hardware/Software)",
         "cs": "Popis možností upgradu produktu (hardware/software)",
         "da": "Beskrivelse af hvordan produktet kan opgraderes (hardware/software)",
         "el": "Περιγραφή του τρόπου αναβάθμισης του προϊόντος (υλικό/λογισμικό)",
@@ -4510,6 +4574,8 @@
       },
       "description": {
         "en": "Whether and how the product can be refurbished for reuse",
+        "bg": "Дали и как продуктът може да бъде обновен за повторна употреба",
+        "de": "Ob und wie das Produkt zur Wiederverwendung aufbereitet werden kann",
         "cs": "Zda a jak lze produkt repasovat pro opětovné použití",
         "da": "Om og hvordan produktet kan renoveres til genbrug",
         "el": "Αν και πώς μπορεί να ανακατασκευαστεί το προϊόν για επαναχρησιμοποίηση",
@@ -4617,6 +4683,8 @@
       },
       "description": {
         "en": "Battery runtime per charge cycle under standard test conditions",
+        "bg": "Продължителност на работа на батерията за един цикъл на зареждане при стандартни условия на изпитване",
+        "de": "Laufzeit der Batterie pro Ladezyklus unter Standardtestbedingungen",
         "cs": "Výdrž baterie na jeden nabíjecí cyklus za standardních zkušebních podmínek",
         "da": "Batteriets driftstid pr. opladningscyklus under standardtestbetingelser",
         "el": "Αυτονομία μπαταρίας ανά κύκλο φόρτισης υπό τυπικές συνθήκες δοκιμής",
@@ -4726,6 +4794,8 @@
       },
       "description": {
         "en": "Number of charge/discharge cycles the battery can endure",
+        "bg": "Брой цикли на зареждане/разреждане, които батерията може да издържи",
+        "de": "Anzahl der Lade-/Entladezyklen, die die Batterie überstehen kann",
         "cs": "Počet nabíjecích/vybíjecích cyklů, které baterie vydrží",
         "da": "Antal opladnings-/afladningscyklusser batteriet kan klare",
         "el": "Αριθμός κύκλων φόρτισης/εκφόρτισης που αντέχει η μπαταρία",
@@ -4834,6 +4904,8 @@
       },
       "description": {
         "en": "Manufacturer-rated battery capacity in milliampere-hours",
+        "bg": "Номинален капацитет на батерията, деклариран от производителя, в милиамперчасове",
+        "de": "Vom Hersteller angegebene Batteriekapazität in Milliamperestunden",
         "cs": "Výrobcem udávaná kapacita baterie v miliampérhodinách",
         "da": "Fabrikantens angivne batterikapacitet i milliamperetimer",
         "el": "Ονομαστική χωρητικότητα μπαταρίας σε milliampere-ώρες",
@@ -4942,6 +5014,8 @@
       },
       "description": {
         "en": "Whether the battery can be replaced by the end user without professional tools",
+        "bg": "Дали батерията може да бъде подменена от крайния потребител без специализирани инструменти",
+        "de": "Ob die Batterie vom Endnutzer ohne Spezialwerkzeug ausgetauscht werden kann",
         "cs": "Zda může baterii vyměnit koncový uživatel bez profesionálního nářadí",
         "da": "Om batteriet kan udskiftes af slutbrugeren uden professionelt værktøj",
         "el": "Αν η μπαταρία μπορεί να αντικατασταθεί από τον τελικό χρήστη χωρίς επαγγελματικά εργαλεία",
@@ -5048,6 +5122,8 @@
       },
       "description": {
         "en": "Drop test reliability class from A (best) to E (worst)",
+        "bg": "Клас на надеждност при изпитване с падане от A (най-добър) до E (най-лош)",
+        "de": "Zuverlässigkeitsklasse beim Falltest von A (beste) bis E (schlechteste)",
         "cs": "Třída spolehlivosti při zkoušce pádem od A (nejlepší) do E (nejhorší)",
         "da": "Pålidelighedsklasse ved faldtest fra A (bedst) til E (værst)",
         "el": "Κλάση αξιοπιστίας δοκιμής πτώσης από A (βέλτιστη) έως E (χείριστη)",
@@ -5301,6 +5377,8 @@
       },
       "description": {
         "en": "Ingress Protection rating for dust and water resistance",
+        "bg": "Степен на защита IP срещу прах и вода",
+        "de": "IP-Schutzart für Staub- und Wasserbeständigkeit",
         "cs": "Stupeň krytí IP pro odolnost proti prachu a vodě",
         "da": "IP-klassificering for støv- og vandbeskyttelse",
         "el": "Βαθμός προστασίας IP έναντι σκόνης και νερού",
@@ -5410,6 +5488,8 @@
       },
       "description": {
         "en": "Repairability sub-score (25% weight): steps to remove priority parts (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 25 %): стъпки за демонтаж на приоритетни части (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 25 %): Schritte zum Entfernen von Prioritätsteilen (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 25 %): kroky k demontáži prioritních dílů (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 25 %): trin til afmontering af prioriterede dele (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 25%): βήματα αφαίρεσης εξαρτημάτων προτεραιότητας (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -5519,6 +5599,8 @@
       },
       "description": {
         "en": "Repairability sub-score (15% weight): screws vs glue vs clips (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 15 %): винтове срещу лепило срещу скоби (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 15 %): Schrauben vs. Klebstoff vs. Clips (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 15 %): šrouby vs. lepidlo vs. klipy (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 15 %): skruer vs. lim vs. clips (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): βίδες έναντι κόλλας έναντι κλιπ (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -5628,6 +5710,8 @@
       },
       "description": {
         "en": "Repairability sub-score (15% weight): proprietary vs standard vs no tools needed (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 15 %): специализирани срещу стандартни срещу без необходими инструменти (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 15 %): Spezialwerkzeug vs. Standardwerkzeug vs. kein Werkzeug erforderlich (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 15 %): patentované vs. standardní vs. bez nářadí (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 15 %): proprietært vs. standard vs. intet værktøj nødvendigt (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): ιδιοταγή έναντι τυπικών έναντι μη απαιτούμενων εργαλείων (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -5737,6 +5821,8 @@
       },
       "description": {
         "en": "Repairability sub-score (15% weight): availability, delivery time, price ratio (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 15 %): наличност, срок на доставка, съотношение на цените (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 15 %): Verfügbarkeit, Lieferzeit, Preisverhältnis (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost, doba dodání, cenový poměr (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed, leveringstid, prisforhold (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα, χρόνος παράδοσης, αναλογία τιμής (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -5846,6 +5932,8 @@
       },
       "description": {
         "en": "Repairability sub-score (15% weight): OS/security update duration (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 15 %): продължителност на актуализациите на ОС/сигурността (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 15 %): Dauer von Betriebssystem-/Sicherheitsupdates (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 15 %): doba aktualizací OS a bezpečnostních záplat (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 15 %): varighed af OS-/sikkerhedsopdateringer (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διάρκεια ενημερώσεων ΛΣ/ασφαλείας (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -5955,6 +6043,8 @@
       },
       "description": {
         "en": "Repairability sub-score (15% weight): manuals, schematics, diagnostics availability (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "bg": "Под-показател за ремонтируемост (тегло 15 %): наличност на наръчници, схеми и диагностика (1,00–5,00, съгласно приложение IV, точка 5 от Регламент (ЕС) 2023/1669)",
+        "de": "Teilbewertung für Reparierbarkeit (Gewicht 15 %): Verfügbarkeit von Handbüchern, Schaltplänen und Diagnosewerkzeugen (1,00–5,00, gemäß Verordnung (EU) 2023/1669 Anhang IV Punkt 5)",
         "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost návodů, schémat a diagnostiky (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
         "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed af manualer, diagrammer, diagnostik (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
         "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα εγχειριδίων, σχεδιαγραμμάτων, διαγνωστικών (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
@@ -6065,6 +6155,8 @@
       },
       "description": {
         "en": "Pass/fail result of the drop resistance test",
+        "bg": "Резултат (издържан/неиздържан) от изпитването за устойчивост при падане",
+        "de": "Bestanden/Nicht-bestanden-Ergebnis des Fallbeständigkeitstests",
         "cs": "Výsledek zkoušky odolnosti proti pádu: vyhovuje/nevyhovuje",
         "da": "Bestået/ikke-bestået-resultat af faldmodstandstesten",
         "el": "Αποτέλεσμα επιτυχίας/αποτυχίας δοκιμής αντοχής σε πτώση",
@@ -6171,6 +6263,8 @@
       },
       "description": {
         "en": "Scratch resistance rating on the Mohs scale",
+        "bg": "Оценка за устойчивост на надраскване по скалата на Мос",
+        "de": "Kratzfestigkeitsbewertung auf der Mohs-Skala",
         "cs": "Hodnocení odolnosti proti poškrábání podle Mohsovy stupnice",
         "da": "Ridsefasthedsklassifikation på Mohs-skalaen",
         "el": "Αξιολόγηση αντοχής σε γρατζουνιές στην κλίμακα Mohs",
@@ -6281,6 +6375,8 @@
       },
       "description": {
         "en": "Minimum charge cycles before battery drops below 80% capacity (min 800)",
+        "bg": "Минимален брой цикли на зареждане преди капацитетът на батерията да спадне под 80 % (мин. 800)",
+        "de": "Mindestanzahl an Ladezyklen, bevor die Batteriekapazität unter 80 % sinkt (min. 800)",
         "cs": "Minimální počet nabíjecích cyklů, než baterie klesne pod 80 % kapacity (min. 800)",
         "da": "Mindste antal opladningscyklusser før batteriet falder under 80 % kapacitet (mindst 800)",
         "el": "Ελάχιστοι κύκλοι φόρτισης πριν η μπαταρία πέσει κάτω από το 80% της χωρητικότητας (ελάχ. 800)",
@@ -6389,6 +6485,8 @@
       },
       "description": {
         "en": "Battery capacity retention percentage after rated cycles (min 80%)",
+        "bg": "Процент на запазване на капацитета на батерията след номиналните цикли (мин. 80 %)",
+        "de": "Kapazitätserhaltung der Batterie in Prozent nach den Nennzyklen (min. 80 %)",
         "cs": "Procento zachované kapacity baterie po jmenovitém počtu cyklů (min. 80 %)",
         "da": "Procentdel af batterikapacitet bevaret efter nominelle cyklusser (mindst 80 %)",
         "el": "Ποσοστό διατήρησης χωρητικότητας μπαταρίας μετά από ονομαστικούς κύκλους (ελάχ. 80%)",
@@ -6498,6 +6596,8 @@
       },
       "description": {
         "en": "List of available spare parts (15 for professionals, 5 for end-users)",
+        "bg": "Списък на наличните резервни части (15 за специалисти, 5 за крайни потребители)",
+        "de": "Liste der verfügbaren Ersatzteile (15 für Fachleute, 5 für Endnutzer)",
         "cs": "Seznam dostupných náhradních dílů (15 pro profesionály, 5 pro koncové uživatele)",
         "da": "Liste over tilgængelige reservedele (15 til fagfolk, 5 til slutbrugere)",
         "el": "Κατάλογος διαθέσιμων ανταλλακτικών (15 για επαγγελματίες, 5 για τελικούς χρήστες)",
@@ -6608,6 +6708,8 @@
       },
       "description": {
         "en": "Years spare parts remain available after the date of end of placement on the market (placing of the last unit), not end of production (at least 7 for smartphones and tablets)",
+        "bg": "Години на наличност на резервни части след датата на прекратяване на пускането на пазара (пускане на последното устройство), не края на производството (поне 7 за смартфони и таблети)",
+        "de": "Jahre der Ersatzteilverfügbarkeit nach dem Ende der Markteinführung (Platzierung der letzten Einheit), nicht Ende der Produktion (mindestens 7 für Smartphones und Tablets)",
         "cs": "Roky dostupnosti náhradních dílů po datu ukončení uvádění na trh (poslední kus), nikoli po konci výroby (nejméně 7 pro smartphony a tablety)",
         "da": "År reservedele er tilgængelige efter datoen for afslutning af markedsføring (den sidste enhed), ikke slutning af produktion (mindst 7 for smartphones og tablet-pc'er)",
         "el": "Χρόνια διαθεσιμότητας ανταλλακτικών μετά την ημερομηνία λήξης διάθεσης στην αγορά (τελευταία μονάδα), όχι λήξης παραγωγής (τουλάχιστον 7 για smartphones και tablets)",
@@ -6718,6 +6820,8 @@
       },
       "description": {
         "en": "Maximum working days for spare part delivery (5 for end-user parts, 10 for professional)",
+        "bg": "Максимален брой работни дни за доставка на резервни части (5 за части за крайни потребители, 10 за специалисти)",
+        "de": "Maximale Werktage für die Lieferung von Ersatzteilen (5 für Endnutzerteile, 10 für Fachteile)",
         "cs": "Maximální počet pracovních dnů pro dodání náhradního dílu (5 pro díly koncových uživatelů, 10 pro profesionální)",
         "da": "Højeste antal arbejdsdage for levering af reservedele (5 for slutbrugerdele, 10 for professionelle)",
         "el": "Μέγιστες εργάσιμες ημέρες για παράδοση ανταλλακτικού (5 για εξαρτήματα τελικών χρηστών, 10 για επαγγελματικά)",
@@ -6826,6 +6930,8 @@
       },
       "description": {
         "en": "URL where spare parts can be ordered",
+        "bg": "URL адрес, откъдето могат да се поръчат резервни части",
+        "de": "URL, unter dem Ersatzteile bestellt werden können",
         "cs": "URL pro objednávání náhradních dílů",
         "da": "URL hvor reservedele kan bestilles",
         "el": "Διεύθυνση URL παραγγελίας ανταλλακτικών",
@@ -6932,6 +7038,8 @@
       },
       "description": {
         "en": "URL or document reference for spare parts pricing",
+        "bg": "URL адрес или препратка към документ за цените на резервните части",
+        "de": "URL oder Dokumentreferenz für die Preisgestaltung von Ersatzteilen",
         "cs": "URL nebo odkaz na dokument s cenami náhradních dílů",
         "da": "URL eller dokumentreference for priser på reservedele",
         "el": "URL ή αναφορά εγγράφου για τιμολόγηση ανταλλακτικών",
@@ -7038,6 +7146,8 @@
       },
       "description": {
         "en": "Minimum guaranteed years of operating-system updates (security, corrective and functionality), counted from the date of end of placement on the market, i.e. when the last unit of the model is placed on the market (at least 5 for smartphones and tablets)",
+        "bg": "Минимален гарантиран брой години актуализации на операционната система (сигурност, коригиращи и функционални), считано от датата на прекратяване на пускането на пазара, т.е. когато последното устройство от модела е пуснато на пазара (поне 5 за смартфони и таблети)",
+        "de": "Mindestanzahl garantierter Jahre für Betriebssystem-Updates (Sicherheit, Korrekturen und Funktionalität), gerechnet ab dem Ende der Markteinführung, d. h. wenn die letzte Einheit des Modells auf den Markt gebracht wird (mindestens 5 für Smartphones und Tablets)",
         "cs": "Minimální zaručená léta aktualizací operačního systému (bezpečnostní, opravné a funkční), počítaná od data ukončení uvádění na trh, tj. kdy je na trh uveden poslední kus modelu (nejméně 5 pro smartphony a tablety)",
         "da": "Garanterede minimumsår med operativsystemopdateringer (sikkerhed, korrigering og funktionalitet), talt fra datoen for afslutning af markedsføring, dvs. hvornår den sidste enhed af modellen er bragt i omsætning (mindst 5 for smartphones og tablet-pc'er)",
         "el": "Ελάχιστα εγγυημένα έτη ενημερώσεων λειτουργικού συστήματος (ασφάλειας, διορθωτικών και λειτουργικότητας), μετρημένα από την ημερομηνία λήξης της διάθεσης στην αγορά, δηλ. όταν διατεθεί η τελευταία μονάδα του μοντέλου (τουλάχιστον 5 για smartphones και tablets)",
@@ -7145,6 +7255,8 @@
       },
       "description": {
         "en": "Last date when OS updates will be provided",
+        "bg": "Последна дата, до която ще се предоставят актуализации на операционната система",
+        "de": "Letztes Datum, bis zu dem Betriebssystem-Updates bereitgestellt werden",
         "cs": "Poslední datum poskytování aktualizací OS",
         "da": "Sidste dato hvor OS-opdateringer leveres",
         "el": "Τελευταία ημερομηνία παροχής ενημερώσεων ΛΣ",
@@ -7251,6 +7363,8 @@
       },
       "description": {
         "en": "Last date when security updates will be provided",
+        "bg": "Последна дата, до която ще се предоставят актуализации за сигурност",
+        "de": "Letztes Datum, bis zu dem Sicherheitsupdates bereitgestellt werden",
         "cs": "Poslední datum poskytování bezpečnostních aktualizací",
         "da": "Sidste dato hvor sikkerhedsopdateringer leveres",
         "el": "Τελευταία ημερομηνία παροχής ενημερώσεων ασφαλείας",
@@ -7357,6 +7471,8 @@
       },
       "description": {
         "en": "Whether firmware/software tools are accessible to independent repair professionals",
+        "bg": "Дали инструментите за фърмуер/софтуер са достъпни за независими специалисти по ремонт",
+        "de": "Ob Firmware-/Softwarewerkzeuge für unabhängige Reparaturfachleute zugänglich sind",
         "cs": "Zda jsou firmwarové/softwarové nástroje přístupné nezávislým opravářům",
         "da": "Om firmware-/softwareværktøjer er tilgængelige for uafhængige reparatører",
         "el": "Αν τα εργαλεία υλικολογισμικού/λογισμικού είναι προσβάσιμα σε ανεξάρτητους επαγγελματίες επισκευής",
@@ -7463,6 +7579,8 @@
       },
       "description": {
         "en": "Whether the device supports a complete factory data wipe function",
+        "bg": "Дали устройството поддържа пълна функция за фабрично изтриване на данни",
+        "de": "Ob das Gerät eine vollständige Werksrücksetzungsfunktion zum Löschen von Daten unterstützt",
         "cs": "Zda zařízení podporuje úplné obnovení továrního nastavení s vymazáním dat",
         "da": "Om enheden understøtter en fuldstændig nulstilling til fabriksdata",
         "el": "Αν η συσκευή υποστηρίζει πλήρη λειτουργία διαγραφής εργοστασιακών δεδομένων",
@@ -7570,6 +7688,8 @@
       },
       "description": {
         "en": "Whether the device supports data transfer/migration to a new device",
+        "bg": "Дали устройството поддържа прехвърляне/миграция на данни към ново устройство",
+        "de": "Ob das Gerät die Datenübertragung/-migration auf ein neues Gerät unterstützt",
         "cs": "Zda zařízení podporuje přenos/migraci dat do nového zařízení",
         "da": "Om enheden understøtter dataoverførsel/migrering til en ny enhed",
         "el": "Αν η συσκευή υποστηρίζει μεταφορά/μετεγκατάσταση δεδομένων σε νέα συσκευή",
@@ -7676,6 +7796,8 @@
       },
       "description": {
         "en": "Power supply unit efficiency at 10% of rated output",
+        "bg": "Ефективност на захранващото устройство при 10 % от номиналната мощност",
+        "de": "Wirkungsgrad des Netzteils bei 10 % der Nennleistung",
         "cs": "Účinnost napájecího zdroje při 10 % jmenovitého výstupu",
         "da": "Strømforsyningens effektivitet ved 10 % af nominel udgang",
         "el": "Απόδοση μονάδας τροφοδοσίας στο 10% της ονομαστικής ισχύος",
@@ -7783,6 +7905,8 @@
       },
       "description": {
         "en": "Power supply unit efficiency at 20% of rated output",
+        "bg": "Ефективност на захранващото устройство при 20 % от номиналната мощност",
+        "de": "Wirkungsgrad des Netzteils bei 20 % der Nennleistung",
         "cs": "Účinnost napájecího zdroje při 20 % jmenovitého výstupu",
         "da": "Strømforsyningens effektivitet ved 20 % af nominel udgang",
         "el": "Απόδοση μονάδας τροφοδοσίας στο 20% της ονομαστικής ισχύος",
@@ -7889,6 +8013,8 @@
       },
       "description": {
         "en": "Power supply unit efficiency at 50% of rated output",
+        "bg": "Ефективност на захранващото устройство при 50 % от номиналната мощност",
+        "de": "Wirkungsgrad des Netzteils bei 50 % der Nennleistung",
         "cs": "Účinnost napájecího zdroje při 50 % jmenovitého výstupu",
         "da": "Strømforsyningens effektivitet ved 50 % af nominel udgang",
         "el": "Απόδοση μονάδας τροφοδοσίας στο 50% της ονομαστικής ισχύος",
@@ -7995,6 +8121,8 @@
       },
       "description": {
         "en": "Power supply unit efficiency at 100% of rated output",
+        "bg": "Ефективност на захранващото устройство при 100 % от номиналната мощност",
+        "de": "Wirkungsgrad des Netzteils bei 100 % der Nennleistung",
         "cs": "Účinnost napájecího zdroje při 100 % jmenovitého výstupu",
         "da": "Strømforsyningens effektivitet ved 100 % af nominel udgang",
         "el": "Απόδοση μονάδας τροφοδοσίας στο 100% της ονομαστικής ισχύος",
@@ -8102,6 +8230,8 @@
       },
       "description": {
         "en": "Power factor of the power supply unit",
+        "bg": "Коефициент на мощност на захранващото устройство",
+        "de": "Leistungsfaktor des Netzteils",
         "cs": "Účiník napájecího zdroje",
         "da": "Effektfaktor for strømforsyningsenheden",
         "el": "Συντελεστής ισχύος της μονάδας τροφοδοσίας",
@@ -8210,6 +8340,8 @@
       },
       "description": {
         "en": "Rated output power of the power supply unit",
+        "bg": "Номинална изходна мощност на захранващото устройство",
+        "de": "Nennausgangsleistung des Netzteils",
         "cs": "Jmenovitý výstupní výkon napájecího zdroje",
         "da": "Nominel udgangseffekt for strømforsyningsenheden",
         "el": "Ονομαστική ισχύς εξόδου της μονάδας τροφοδοσίας",
@@ -8317,6 +8449,8 @@
       },
       "description": {
         "en": "Power consumed by the server in idle state",
+        "bg": "Мощност, консумирана от сървъра в режим на готовност",
+        "de": "Vom Server im Leerlaufzustand verbrauchte Leistung",
         "cs": "Příkon serveru v klidovém stavu",
         "da": "Serverens strømforbrug i tomgang",
         "el": "Ισχύς που καταναλώνει ο διακομιστής σε κατάσταση αδράνειας",
@@ -8424,6 +8558,8 @@
       },
       "description": {
         "en": "Server efficiency metric when under active workload",
+        "bg": "Показател за ефективност на сървъра при активно натоварване",
+        "de": "Effizienzmetrik des Servers bei aktiver Arbeitslast",
         "cs": "Metrika účinnosti serveru při aktivní zátěži",
         "da": "Servereffektivitetsmetrik under aktiv arbejdsbelastning",
         "el": "Μετρικό απόδοσης διακομιστή υπό ενεργό φόρτο εργασίας",
@@ -8530,6 +8666,8 @@
       },
       "description": {
         "en": "ASHRAE environmental class (A1-C) for server operating conditions",
+        "bg": "Клас на околната среда ASHRAE (A1-C) за условията на работа на сървъра",
+        "de": "ASHRAE-Umgebungsklasse (A1-C) für die Betriebsbedingungen des Servers",
         "cs": "Environmentální třída ASHRAE (A1–C) pro provozní podmínky serveru",
         "da": "ASHRAE-miljøklasse (A1-C) for serverens driftsforhold",
         "el": "Περιβαλλοντική κλάση ASHRAE (A1-C) για τις συνθήκες λειτουργίας διακομιστή",
@@ -8811,6 +8949,8 @@
       },
       "description": {
         "en": "Acceptable operating temperature range for the server",
+        "bg": "Допустим диапазон на работна температура за сървъра",
+        "de": "Zulässiger Betriebstemperaturbereich für den Server",
         "cs": "Přípustný rozsah provozních teplot serveru",
         "da": "Tilladt driftstemperaturområde for serveren",
         "el": "Αποδεκτό εύρος θερμοκρασίας λειτουργίας του διακομιστή",
@@ -8917,6 +9057,8 @@
       },
       "description": {
         "en": "Physical form factor of the server",
+        "bg": "Физически форм-фактор на сървъра",
+        "de": "Physischer Formfaktor des Servers",
         "cs": "Fyzický tvarový faktor serveru",
         "da": "Serverens fysiske formfaktor",
         "el": "Φυσικός παράγοντας σχήματος του διακομιστή",
@@ -9140,6 +9282,8 @@
       },
       "description": {
         "en": "Number of CPU sockets on the server",
+        "bg": "Брой CPU сокети на сървъра",
+        "de": "Anzahl der CPU-Sockel auf dem Server",
         "cs": "Počet patic CPU na serveru",
         "da": "Antal CPU-sokler på serveren",
         "el": "Αριθμός υποδοχών CPU στον διακομιστή",
@@ -9246,6 +9390,8 @@
       },
       "description": {
         "en": "Number of CPUs currently installed",
+        "bg": "Брой инсталирани процесори",
+        "de": "Anzahl der derzeit installierten Prozessoren",
         "cs": "Počet aktuálně nainstalovaných CPU",
         "da": "Antal installerede CPU'er",
         "el": "Αριθμός εγκατεστημένων CPU",
@@ -9352,6 +9498,8 @@
       },
       "description": {
         "en": "Number of memory (RAM) modules installed",
+        "bg": "Брой инсталирани модули памет (RAM)",
+        "de": "Anzahl der installierten Speicher-(RAM)-Module",
         "cs": "Počet nainstalovaných paměťových (RAM) modulů",
         "da": "Antal installerede hukommelsesmoduler (RAM)",
         "el": "Αριθμός εγκατεστημένων μονάδων μνήμης (RAM)",
@@ -9459,6 +9607,8 @@
       },
       "description": {
         "en": "Total installed RAM capacity",
+        "bg": "Общ инсталиран RAM капацитет",
+        "de": "Gesamte installierte RAM-Kapazität",
         "cs": "Celková nainstalovaná kapacita RAM",
         "da": "Samlet installeret RAM-kapacitet",
         "el": "Συνολική εγκατεστημένη χωρητικότητα RAM",
@@ -9566,6 +9716,8 @@
       },
       "description": {
         "en": "Number of storage devices (HDD/SSD) installed",
+        "bg": "Брой инсталирани устройства за съхранение (HDD/SSD)",
+        "de": "Anzahl der installierten Speichergeräte (HDD/SSD)",
         "cs": "Počet nainstalovaných úložných zařízení (HDD/SSD)",
         "da": "Antal installerede lagerenheder (HDD/SSD)",
         "el": "Αριθμός εγκατεστημένων συσκευών αποθήκευσης (HDD/SSD)",
@@ -9673,6 +9825,8 @@
       },
       "description": {
         "en": "Total combined storage capacity",
+        "bg": "Общ комбиниран капацитет за съхранение",
+        "de": "Gesamte kombinierte Speicherkapazität",
         "cs": "Celková kombinovaná úložná kapacita",
         "da": "Samlet kombineret lagerkapacitet",
         "el": "Συνολική συνδυασμένη χωρητικότητα αποθήκευσης",
@@ -9780,6 +9934,8 @@
       },
       "description": {
         "en": "Number of power supply units installed",
+        "bg": "Брой инсталирани захранващи устройства",
+        "de": "Anzahl der installierten Netzteile",
         "cs": "Počet nainstalovaných napájecích zdrojů",
         "da": "Antal installerede strømforsyningsenheder",
         "el": "Αριθμός εγκατεστημένων μονάδων τροφοδοσίας",
@@ -9886,6 +10042,8 @@
       },
       "description": {
         "en": "Number of available expansion slots (PCIe etc.)",
+        "bg": "Брой налични слотове за разширение (PCIe и др.)",
+        "de": "Anzahl der verfügbaren Erweiterungssteckplätze (PCIe usw.)",
         "cs": "Počet dostupných rozšiřujících slotů (PCIe atd.)",
         "da": "Antal tilgængelige udvidelsesstik (PCIe mv.)",
         "el": "Αριθμός διαθέσιμων υποδοχών επέκτασης (PCIe κ.λπ.)",
@@ -9993,6 +10151,8 @@
       },
       "description": {
         "en": "Whether data storage devices can be removed without soldering",
+        "bg": "Дали устройствата за съхранение на данни могат да бъдат извадени без запояване",
+        "de": "Ob Datenspeichergeräte ohne Löten ausgebaut werden können",
         "cs": "Zda lze úložná zařízení odstranit bez pájení",
         "da": "Om datalagerenheder kan fjernes uden lodning",
         "el": "Εάν οι συσκευές αποθήκευσης δεδομένων μπορούν να αφαιρεθούν χωρίς συγκόλληση",
@@ -10099,6 +10259,8 @@
       },
       "description": {
         "en": "Whether memory modules can be removed and replaced",
+        "bg": "Дали модулите памет могат да бъдат извадени и заменени",
+        "de": "Ob Speichermodule ausgebaut und ersetzt werden können",
         "cs": "Zda lze paměťové moduly odstranit a vyměnit",
         "da": "Om hukommelsesmoduler kan fjernes og udskiftes",
         "el": "Εάν οι μονάδες μνήμης μπορούν να αφαιρεθούν και να αντικατασταθούν",
@@ -10204,6 +10366,8 @@
       },
       "description": {
         "en": "Whether the CPU can be removed and replaced",
+        "bg": "Дали процесорът може да бъде изваден и заменен",
+        "de": "Ob die CPU ausgebaut und ersetzt werden kann",
         "cs": "Zda lze CPU odstranit a vyměnit",
         "da": "Om CPU'en kan fjernes og udskiftes",
         "el": "Εάν η CPU μπορεί να αφαιρεθεί και να αντικατασταθεί",
@@ -10310,6 +10474,8 @@
       },
       "description": {
         "en": "Whether expansion cards (GPU, NIC, etc.) can be removed",
+        "bg": "Дали картите за разширение (GPU, NIC и др.) могат да бъдат извадени",
+        "de": "Ob Erweiterungskarten (GPU, NIC usw.) ausgebaut werden können",
         "cs": "Zda lze rozšiřující karty (GPU, NIC atd.) odstranit",
         "da": "Om udvidelseskort (GPU, NIC mv.) kan fjernes",
         "el": "Εάν οι κάρτες επέκτασης (GPU, NIC κ.λπ.) μπορούν να αφαιρεθούν",
@@ -10416,6 +10582,8 @@
       },
       "description": {
         "en": "Whether the power supply unit can be removed and replaced",
+        "bg": "Дали захранващото устройство може да бъде извадено и заменено",
+        "de": "Ob das Netzteil ausgebaut und ersetzt werden kann",
         "cs": "Zda lze napájecí zdroj odstranit a vyměnit",
         "da": "Om strømforsyningsenheden kan fjernes og udskiftes",
         "el": "Εάν η μονάδα τροφοδοσίας μπορεί να αφαιρεθεί και να αντικατασταθεί",
@@ -10521,6 +10689,8 @@
       },
       "description": {
         "en": "Whether the server supports secure data deletion / sanitization",
+        "bg": "Дали сървърът поддържа сигурно изтриване/санитизиране на данни",
+        "de": "Ob der Server sichere Datenlöschung/Datensanierung unterstützt",
         "cs": "Zda server podporuje bezpečné mazání / sanitizaci dat",
         "da": "Om serveren understøtter sikker datasletning / sanering",
         "el": "Εάν ο διακομιστής υποστηρίζει ασφαλή διαγραφή / απολύμανση δεδομένων",
@@ -10627,6 +10797,8 @@
       },
       "description": {
         "en": "Whether the server supports firmware/BIOS updates",
+        "bg": "Дали сървърът поддържа актуализации на фърмуер/BIOS",
+        "de": "Ob der Server Firmware-/BIOS-Updates unterstützt",
         "cs": "Zda server podporuje aktualizace firmwaru/BIOSu",
         "da": "Om serveren understøtter firmware-/BIOS-opdateringer",
         "el": "Εάν ο διακομιστής υποστηρίζει ενημερώσεις firmware/BIOS",
@@ -10733,6 +10905,8 @@
       },
       "description": {
         "en": "Rated load capacity of the washing machine",
+        "bg": "Номинален капацитет на натоварване на пералната машина",
+        "de": "Nennladekapazität der Waschmaschine",
         "cs": "Jmenovitá kapacita náplně pračky",
         "da": "Vaskemaskinens nominelle kapacitet",
         "el": "Ονομαστική χωρητικότητα φορτίου του πλυντηρίου ρούχων",
@@ -10842,6 +11016,8 @@
       },
       "description": {
         "en": "Calculated energy efficiency index (EEI) for appliance energy labelling",
+        "bg": "Изчислен индекс на енергийна ефективност (ИЕЕ) за енергийното етикетиране на уреди",
+        "de": "Berechneter Energieeffizienzindex (EEI) für die Energiekennzeichnung von Geräten",
         "cs": "Vypočtený index energetické účinnosti (EEI) pro energetické označování spotřebičů",
         "da": "Beregnet energieffektivitetsindeks (EEI) til energimærkning af apparater",
         "el": "Υπολογισμένος δείκτης ενεργειακής απόδοσης (EEI) για την ενεργειακή σήμανση συσκευών",
@@ -10949,6 +11125,8 @@
       },
       "description": {
         "en": "Weighted energy consumption for 100 washing cycles",
+        "bg": "Претеглена консумация на енергия за 100 цикъла на пране",
+        "de": "Gewichteter Energieverbrauch für 100 Waschgänge",
         "cs": "Vážená spotřeba energie za 100 pracích cyklů",
         "da": "Vægtet energiforbrug pr. 100 vaskecyklusser",
         "el": "Σταθμισμένη κατανάλωση ενέργειας ανά 100 κύκλους πλύσης",
@@ -11056,6 +11234,8 @@
       },
       "description": {
         "en": "Water consumed per washing cycle",
+        "bg": "Потребление на вода за един цикъл на пране",
+        "de": "Wasserverbrauch pro Waschgang",
         "cs": "Spotřeba vody na jeden prací cyklus",
         "da": "Vandforbrug pr. vaskecyklus",
         "el": "Κατανάλωση νερού ανά κύκλο πλύσης",
@@ -11164,6 +11344,8 @@
       },
       "description": {
         "en": "Duration of the rated wash programme",
+        "bg": "Продължителност на номиналната програма за пране",
+        "de": "Dauer des Nennwaschprogramms",
         "cs": "Doba trvání jmenovitého pracího programu",
         "da": "Varighed af det nominelle vaskeprogram",
         "el": "Διάρκεια του ονομαστικού προγράμματος πλύσης",
@@ -11272,6 +11454,8 @@
       },
       "description": {
         "en": "Spin-drying efficiency rating from A to G",
+        "bg": "Клас на ефективност на центрофугиране от A до G",
+        "de": "Wirkungsgradklasse beim Schleudern von A bis G",
         "cs": "Třída účinnosti odstřeďování od A do G",
         "da": "Centrifugeringsklasse fra A til G",
         "el": "Κατηγορία απόδοσης στυψίματος από Α έως G",
@@ -11583,6 +11767,8 @@
       },
       "description": {
         "en": "Spin speed of the eco 40-60 programme at rated capacity",
+        "bg": "Скорост на центрофугиране на програмата eco 40-60 при номинален капацитет",
+        "de": "Schleuderdrehzahl des eco 40-60-Programms bei Nennkapazität",
         "cs": "Rychlost odstřeďování programu eco 40-60 při jmenovité kapacitě",
         "da": "Centrifugeringshastighed for eco 40-60-programmet ved nominel kapacitet",
         "el": "Ταχύτητα φυγοκέντρισης του προγράμματος eco 40-60 στην ονομαστική χωρητικότητα",
@@ -11691,6 +11877,8 @@
       },
       "description": {
         "en": "Percentage of moisture remaining after spin cycle",
+        "bg": "Процент на остатъчна влага след цикъла на центрофугиране",
+        "de": "Prozentsatz der verbleibenden Feuchtigkeit nach dem Schleudergang",
         "cs": "Procento zbytkové vlhkosti po odstřeďování",
         "da": "Procentdel af restfugtighed efter centrifugering",
         "el": "Ποσοστό υπολειπόμενης υγρασίας μετά τον κύκλο στυψίματος",
@@ -11799,6 +11987,8 @@
       },
       "description": {
         "en": "Washing performance index measuring cleaning effectiveness",
+        "bg": "Индекс на ефективност на пране, измерващ ефективността на почистване",
+        "de": "Waschleistungsindex zur Messung der Reinigungseffizienz",
         "cs": "Index pracího výkonu měřící účinnost čištění",
         "da": "Vaskeeffektivitetsindeks, der måler vaskeevnen",
         "el": "Δείκτης απόδοσης πλύσης που μετρά την αποτελεσματικότητα καθαρισμού",
@@ -11907,6 +12097,8 @@
       },
       "description": {
         "en": "Measure of how effectively detergent is rinsed out",
+        "bg": "Мярка за ефективността на изплакването на препарата",
+        "de": "Maß für die Effektivität des Spülens von Waschmittelrückständen",
         "cs": "Míra účinnosti vyplachování pracího prostředku",
         "da": "Mål for hvor effektivt vaskemiddel skylles ud",
         "el": "Μέτρο του πόσο αποτελεσματικά ξεπλένεται το απορρυπαντικό",
@@ -12015,6 +12207,8 @@
       },
       "description": {
         "en": "Noise level during the loudest phase of the programme",
+        "bg": "Ниво на шума по въздух по време на най-шумната фаза на програмата",
+        "de": "Schallpegel während der lautesten Phase des Programms",
         "cs": "Hladina hluku během nejhlučnější fáze programu",
         "da": "Støjniveau under programmets højeste fase",
         "el": "Στάθμη θορύβου κατά την πιο θορυβώδη φάση του προγράμματος",
@@ -12124,6 +12318,8 @@
       },
       "description": {
         "en": "Noise emission class from A (quietest) to D (loudest)",
+        "bg": "Клас на шумовите емисии от A (най-тихо) до D (най-шумно)",
+        "de": "Schallemissionsklasse von A (leiseste) bis D (lauteste)",
         "cs": "Třída emisí hluku od A (nejtišší) do D (nejhlučnější)",
         "da": "Støjemissionsklasse fra A (stilleste) til D (højeste)",
         "el": "Κατηγορία εκπομπών θορύβου από Α (πιο αθόρυβη) έως D (πιο θορυβώδης)",
@@ -12347,6 +12543,8 @@
       },
       "description": {
         "en": "Power consumption when the appliance is switched off",
+        "bg": "Консумация на енергия, когато уредът е изключен",
+        "de": "Stromverbrauch des Geräts im ausgeschalteten Zustand",
         "cs": "Spotřeba energie ve vypnutém stavu",
         "da": "Strømforbrug i slukket tilstand",
         "el": "Κατανάλωση ενέργειας σε κατάσταση εκτός λειτουργίας",
@@ -12455,6 +12653,8 @@
       },
       "description": {
         "en": "Power consumption in standby/networked standby mode",
+        "bg": "Консумация на енергия в режим на готовност/мрежова готовност",
+        "de": "Stromverbrauch im Standby-/Netzwerk-Standby-Modus",
         "cs": "Spotřeba energie v pohotovostním / síťovém pohotovostním režimu",
         "da": "Strømforbrug i standby/netværksstandbytilstand",
         "el": "Κατανάλωση ενέργειας σε κατάσταση αναμονής / δικτυωμένης αναμονής",
@@ -12563,6 +12763,8 @@
       },
       "description": {
         "en": "Total internal volume of the refrigerator",
+        "bg": "Общ вътрешен обем на хладилника",
+        "de": "Gesamtes Innenvolumen des Kühlschranks",
         "cs": "Celkový vnitřní objem chladničky",
         "da": "Samlet indvendigt rumfang af køleskabet",
         "el": "Συνολικός εσωτερικός όγκος του ψυγείου",
@@ -12671,6 +12873,8 @@
       },
       "description": {
         "en": "Volume of the fresh food / refrigerator compartment",
+        "bg": "Обем на отделението за пресни храни/хладилника",
+        "de": "Volumen des Frischkost-/Kühlschrankabteils",
         "cs": "Objem prostoru pro čerstvé potraviny / chladicího prostoru",
         "da": "Rumfang af rum til friske fødevarer / køleafdeling",
         "el": "Όγκος θαλάμου νωπών τροφίμων / ψυγείου",
@@ -12779,6 +12983,8 @@
       },
       "description": {
         "en": "Volume of the freezer compartment",
+        "bg": "Обем на фризерното отделение",
+        "de": "Volumen des Gefrierabteils",
         "cs": "Objem mrazicího prostoru",
         "da": "Rumfang af fryseafdelingen",
         "el": "Όγκος του θαλάμου κατάψυξης",
@@ -12887,6 +13093,8 @@
       },
       "description": {
         "en": "Freezer star rating indicating minimum temperature capability",
+        "bg": "Звездна оценка на фризера, указваща минималната температурна способност",
+        "de": "Sterneklassifizierung des Gefriergeräts zur Angabe der minimalen Temperaturleistung",
         "cs": "Hvězdičkové hodnocení mrazničky udávající minimální teplotní schopnost",
         "da": "Fryserens stjernemærkning, der angiver den mindste temperaturkapacitet",
         "el": "Αξιολόγηση αστεριών κατάψυξης που υποδεικνύει την ελάχιστη ικανότητα θερμοκρασίας",
@@ -13111,6 +13319,8 @@
       },
       "description": {
         "en": "Calculated EEI for the refrigerating appliance",
+        "bg": "Изчислен ИЕЕ за хладилния уред",
+        "de": "Berechneter EEI für das Kühlgerät",
         "cs": "Vypočtený EEI pro chladicí spotřebič",
         "da": "Beregnet EEI for køleapparatet",
         "el": "Υπολογισμένος EEI για τη συσκευή ψύξης",
@@ -13218,6 +13428,8 @@
       },
       "description": {
         "en": "Climate class indicating operating ambient temperature range",
+        "bg": "Климатичен клас, указващ диапазона на работна температура на околната среда",
+        "de": "Klimaklasse zur Angabe des Betriebsumgebungstemperaturbereichs",
         "cs": "Klimatická třída udávající rozsah provozní okolní teploty",
         "da": "Klimaklasse, der angiver driftstemperaturområdet",
         "el": "Κλιματική κατηγορία που υποδεικνύει το εύρος θερμοκρασίας λειτουργίας περιβάλλοντος",
@@ -13442,6 +13654,8 @@
       },
       "description": {
         "en": "Airborne acoustic noise emission of the refrigerating appliance",
+        "bg": "Акустична шумова емисия на хладилния уред по въздух",
+        "de": "Luftschallabstrahlung des Kühlgeräts",
         "cs": "Emise hluku šířeného vzduchem chladicího spotřebiče",
         "da": "Luftbåren akustisk støjemission fra køleapparatet",
         "el": "Εκπομπές αερομεταφερόμενου ακουστικού θορύβου της συσκευής ψύξης",
@@ -13550,6 +13764,8 @@
       },
       "description": {
         "en": "Noise emission class for the refrigerating appliance",
+        "bg": "Клас на шумовите емисии за хладилния уред",
+        "de": "Schallemissionsklasse für das Kühlgerät",
         "cs": "Třída emisí hluku chladicího spotřebiče",
         "da": "Støjemissionsklasse for køleapparatet",
         "el": "Κατηγορία εκπομπών θορύβου για τη συσκευή ψύξης",
@@ -13773,6 +13989,8 @@
       },
       "description": {
         "en": "Amount of fresh food that can be frozen in 24 hours",
+        "bg": "Количество пресни храни, което може да бъде замразено за 24 часа",
+        "de": "Menge an frischen Lebensmitteln, die in 24 Stunden eingefroren werden können",
         "cs": "Množství čerstvých potravin, které lze zmrazit za 24 hodin",
         "da": "Mængde af friske fødevarer, der kan fryses på 24 timer",
         "el": "Ποσότητα νωπών τροφίμων που μπορεί να καταψυχθεί σε 24 ώρες",
@@ -13880,6 +14098,8 @@
       },
       "description": {
         "en": "Time for temperature to rise from -18°C to -9°C during power failure",
+        "bg": "Време за покачване на температурата от -18 °C до -9 °C при прекъсване на захранването",
+        "de": "Zeit für den Temperaturanstieg von -18 °C auf -9 °C bei Stromausfall",
         "cs": "Doba vzrůstu teploty z -18 °C na -9 °C při výpadku napájení",
         "da": "Tid for temperaturstigning fra -18 °C til -9 °C ved strømsvigt",
         "el": "Χρόνος ανόδου θερμοκρασίας από -18°C σε -9°C κατά τη διακοπή ρεύματος",
@@ -13988,6 +14208,8 @@
       },
       "description": {
         "en": "Whether the product complies with RoHS 2011/65/EU directive",
+        "bg": "Дали продуктът е в съответствие с директива RoHS 2011/65/ЕС",
+        "de": "Ob das Produkt der RoHS-Richtlinie 2011/65/EU entspricht",
         "cs": "Zda výrobek splňuje směrnici RoHS 2011/65/EU",
         "da": "Om produktet overholder RoHS-direktivet 2011/65/EU",
         "el": "Εάν το προϊόν συμμορφώνεται με την οδηγία RoHS 2011/65/ΕΕ",
@@ -14094,6 +14316,8 @@
       },
       "description": {
         "en": "URL to the RoHS declaration of conformity document",
+        "bg": "URL на документа за декларация за съответствие с RoHS",
+        "de": "URL des RoHS-Konformitätserklärungsdokuments",
         "cs": "URL dokumentu prohlášení o shodě RoHS",
         "da": "URL til RoHS-overensstemmelseserklæringen",
         "el": "URL του εγγράφου δήλωσης συμμόρφωσης RoHS",
@@ -14200,6 +14424,8 @@
       },
       "description": {
         "en": "Lead concentration per homogeneous material (threshold 0.1%)",
+        "bg": "Концентрация на олово на хомогенен материал (праг 0,1 %)",
+        "de": "Bleikonzentration pro homogenem Material (Schwellenwert 0,1 %)",
         "cs": "Koncentrace olova na homogenní materiál (mezní hodnota 0,1 %)",
         "da": "Blykoncentration pr. homogent materiale (tærskel 0,1 %)",
         "el": "Συγκέντρωση μολύβδου ανά ομοιογενές υλικό (όριο 0,1 %)",
@@ -14308,6 +14534,8 @@
       },
       "description": {
         "en": "Mercury concentration per homogeneous material (threshold 0.1%)",
+        "bg": "Концентрация на живак на хомогенен материал (праг 0,1 %)",
+        "de": "Quecksilberkonzentration pro homogenem Material (Schwellenwert 0,1 %)",
         "cs": "Koncentrace rtuti na homogenní materiál (mezní hodnota 0,1 %)",
         "da": "Kviksølvkoncentration pr. homogent materiale (tærskel 0,1 %)",
         "el": "Συγκέντρωση υδραργύρου ανά ομοιογενές υλικό (όριο 0,1 %)",
@@ -14416,6 +14644,8 @@
       },
       "description": {
         "en": "Cadmium concentration per homogeneous material (threshold 0.01%)",
+        "bg": "Концентрация на кадмий на хомогенен материал (праг 0,01 %)",
+        "de": "Cadmiumkonzentration pro homogenem Material (Schwellenwert 0,01 %)",
         "cs": "Koncentrace kadmia na homogenní materiál (mezní hodnota 0,01 %)",
         "da": "Cadmiumkoncentration pr. homogent materiale (tærskel 0,01 %)",
         "el": "Συγκέντρωση καδμίου ανά ομοιογενές υλικό (όριο 0,01 %)",
@@ -14524,6 +14754,8 @@
       },
       "description": {
         "en": "Hexavalent chromium concentration per homogeneous material (threshold 0.1%)",
+        "bg": "Концентрация на шествалентен хром на хомогенен материал (праг 0,1 %)",
+        "de": "Konzentration von sechswertigem Chrom pro homogenem Material (Schwellenwert 0,1 %)",
         "cs": "Koncentrace šestimocného chromu na homogenní materiál (mezní hodnota 0,1 %)",
         "da": "Koncentration af hexavalent chrom pr. homogent materiale (tærskel 0,1 %)",
         "el": "Συγκέντρωση εξασθενούς χρωμίου ανά ομοιογενές υλικό (όριο 0,1 %)",
@@ -14632,6 +14864,8 @@
       },
       "description": {
         "en": "Polybrominated biphenyls concentration (threshold 0.1%)",
+        "bg": "Концентрация на полибромирани бифенили (праг 0,1 %)",
+        "de": "Konzentration polybromierter Biphenyle (Schwellenwert 0,1 %)",
         "cs": "Koncentrace polybromovaných bifenylů (mezní hodnota 0,1 %)",
         "da": "Koncentration af polybromerede biphenyler (tærskel 0,1 %)",
         "el": "Συγκέντρωση πολυβρωμιωμένων διφαινυλίων (όριο 0,1 %)",
@@ -14738,6 +14972,8 @@
       },
       "description": {
         "en": "Polybrominated diphenyl ethers concentration (threshold 0.1%)",
+        "bg": "Концентрация на полибромирани дифенилетери (праг 0,1 %)",
+        "de": "Konzentration polybromierter Diphenylether (Schwellenwert 0,1 %)",
         "cs": "Koncentrace polybromovaných difenyletherů (mezní hodnota 0,1 %)",
         "da": "Koncentration af polybromerede diphenylethere (tærskel 0,1 %)",
         "el": "Συγκέντρωση πολυβρωμιωμένων διφαινυλαιθέρων (όριο 0,1 %)",
@@ -14844,6 +15080,8 @@
       },
       "description": {
         "en": "Bis(2-ethylhexyl) phthalate concentration (threshold 0.1%)",
+        "bg": "Концентрация на бис(2-етилхексил) фталат (праг 0,1 %)",
+        "de": "Bis(2-ethylhexyl)phthalat-Konzentration (Schwellenwert 0,1 %)",
         "cs": "Koncentrace bis(2-ethylhexyl)-ftalátu (mezní hodnota 0,1 %)",
         "da": "Koncentration af bis(2-ethylhexyl)phthalat (tærskel 0,1 %)",
         "el": "Συγκέντρωση φθαλικού δι-(2-αιθυλoεξυλo) εστέρα (όριο 0,1 %)",
@@ -14951,6 +15189,8 @@
       },
       "description": {
         "en": "Benzyl butyl phthalate concentration (threshold 0.1%)",
+        "bg": "Концентрация на бензилбутил фталат (праг 0,1 %)",
+        "de": "Benzylbutylphthalat-Konzentration (Schwellenwert 0,1 %)",
         "cs": "Koncentrace benzylbutylftalátu (mezní hodnota 0,1 %)",
         "da": "Koncentration af benzylbutylphthalat (tærskel 0,1 %)",
         "el": "Συγκέντρωση φθαλικού βενζυλοβουτυλεστέρα (όριο 0,1 %)",
@@ -15056,7 +15296,9 @@
         "sv": "DBP-halt"
       },
       "description": {
-        "en": "Dibutyl phthalate concentration (threshold 0.1%)"
+        "en": "Dibutyl phthalate concentration (threshold 0.1%)",
+        "bg": "Концентрация на дибутил фталат (праг 0,1 %)",
+        "de": "Dibutylphthalat-Konzentration (Schwellenwert 0,1 %)"
       },
       "dataType": "number",
       "unit": "%",
@@ -15141,7 +15383,9 @@
         "sv": "DIBP-halt"
       },
       "description": {
-        "en": "Diisobutyl phthalate concentration (threshold 0.1%)"
+        "en": "Diisobutyl phthalate concentration (threshold 0.1%)",
+        "bg": "Концентрация на диизобутил фталат (праг 0,1 %)",
+        "de": "Diisobutylphthalat-Konzentration (Schwellenwert 0,1 %)"
       },
       "dataType": "number",
       "unit": "%",
@@ -15226,7 +15470,9 @@
         "sv": "Tillämpade RoHS-undantag"
       },
       "description": {
-        "en": "List of RoHS exemptions (Annex III/IV) applied to this product"
+        "en": "List of RoHS exemptions (Annex III/IV) applied to this product",
+        "bg": "Списък на изключенията по RoHS (приложение III/IV), приложени за този продукт",
+        "de": "Liste der auf dieses Produkt angewandten RoHS-Ausnahmen (Anhang III/IV)"
       },
       "dataType": "array",
       "unit": null,
@@ -15311,7 +15557,9 @@
         "sv": "Ämnen som inger betänkligheter"
       },
       "description": {
-        "en": "REACH/SCIP substances of concern present above 0.1% w/w"
+        "en": "REACH/SCIP substances of concern present above 0.1% w/w",
+        "bg": "Вещества, пораждащи загриженост съгласно REACH/SCIP, присъстващи над 0,1 % w/w",
+        "de": "REACH/SCIP-Stoffe mit besonderen Bedenken mit mehr als 0,1 % w/w"
       },
       "dataType": "array",
       "unit": null,
@@ -15397,7 +15645,9 @@
         "sv": "ID för SCIP-anmälan"
       },
       "description": {
-        "en": "ECHA SCIP database notification identifier"
+        "en": "ECHA SCIP database notification identifier",
+        "bg": "Идентификатор на уведомлението в базата данни SCIP на ECHA",
+        "de": "Benachrichtigungsidentifikator der ECHA-SCIP-Datenbank"
       },
       "dataType": "string",
       "unit": null,
@@ -15482,7 +15732,9 @@
         "sv": "SVHC förekommer"
       },
       "description": {
-        "en": "Whether any Substance of Very High Concern is present above 0.1% w/w"
+        "en": "Whether any Substance of Very High Concern is present above 0.1% w/w",
+        "bg": "Дали някое вещество, пораждащо много голяма загриженост (SVHC), е налице над 0,1 % w/w",
+        "de": "Ob ein besonders besorgniserregender Stoff (SVHC) mit mehr als 0,1 % w/w vorhanden ist"
       },
       "dataType": "boolean",
       "unit": null,
@@ -15567,7 +15819,9 @@
         "sv": "Innehåller permanentmagneter"
       },
       "description": {
-        "en": "Whether the product contains permanent magnets weighing > 0.2 kg"
+        "en": "Whether the product contains permanent magnets weighing > 0.2 kg",
+        "bg": "Дали продуктът съдържа постоянни магнити с тегло > 0,2 kg",
+        "de": "Ob das Produkt Permanentmagnete mit einem Gewicht von mehr als 0,2 kg enthält"
       },
       "dataType": "boolean",
       "unit": null,
@@ -15652,7 +15906,9 @@
         "sv": "Total vikt av magneter"
       },
       "description": {
-        "en": "Total weight of all permanent magnets in the product"
+        "en": "Total weight of all permanent magnets in the product",
+        "bg": "Общо тегло на всички постоянни магнити в продукта",
+        "de": "Gesamtgewicht aller Permanentmagnete im Produkt"
       },
       "dataType": "number",
       "unit": "kg",
@@ -15737,7 +15993,9 @@
         "sv": "Magnetens placering"
       },
       "description": {
-        "en": "Description of where permanent magnets are located within the product"
+        "en": "Description of where permanent magnets are located within the product",
+        "bg": "Описание на местоположението на постоянните магнити в продукта",
+        "de": "Beschreibung des Standorts der Permanentmagnete im Produkt"
       },
       "dataType": "string",
       "unit": null,
@@ -15822,7 +16080,9 @@
         "sv": "Magnetens kemiska sammansättning"
       },
       "description": {
-        "en": "Chemical composition of the permanent magnets (e.g. NdFeB, SmCo)"
+        "en": "Chemical composition of the permanent magnets (e.g. NdFeB, SmCo)",
+        "bg": "Химичен състав на постоянните магнити (напр. NdFeB, SmCo)",
+        "de": "Chemische Zusammensetzung der Permanentmagnete (z. B. NdFeB, SmCo)"
       },
       "dataType": "string",
       "unit": null,
@@ -15908,7 +16168,9 @@
         "sv": "Magnetbeläggningar"
       },
       "description": {
-        "en": "Surface coatings applied to the permanent magnets"
+        "en": "Surface coatings applied to the permanent magnets",
+        "bg": "Повърхностни покрития, нанесени върху постоянните магнити",
+        "de": "Auf die Permanentmagnete aufgebrachte Oberflächenbeschichtungen"
       },
       "dataType": "string",
       "unit": null,
@@ -15992,7 +16254,9 @@
         "sv": "Halt av återvunnet neodym"
       },
       "description": {
-        "en": "Percentage of recycled neodymium in permanent magnets"
+        "en": "Percentage of recycled neodymium in permanent magnets",
+        "bg": "Процент на рециклиран неодим в постоянните магнити",
+        "de": "Anteil an recyceltem Neodym in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16078,7 +16342,9 @@
         "sv": "Halt av återvunnet dysprosium"
       },
       "description": {
-        "en": "Percentage of recycled dysprosium in permanent magnets"
+        "en": "Percentage of recycled dysprosium in permanent magnets",
+        "bg": "Процент на рециклиран диспрозий в постоянните магнити",
+        "de": "Anteil an recyceltem Dysprosium in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16164,7 +16430,9 @@
         "sv": "Halt av återvunnet praseodym"
       },
       "description": {
-        "en": "Percentage of recycled praseodymium in permanent magnets"
+        "en": "Percentage of recycled praseodymium in permanent magnets",
+        "bg": "Процент на рециклиран прасеодим в постоянните магнити",
+        "de": "Anteil an recyceltem Praseodym in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16250,7 +16518,9 @@
         "sv": "Halt av återvunnet terbium"
       },
       "description": {
-        "en": "Percentage of recycled terbium in permanent magnets"
+        "en": "Percentage of recycled terbium in permanent magnets",
+        "bg": "Процент на рециклиран тербий в постоянните магнити",
+        "de": "Anteil an recyceltem Terbium in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16336,7 +16606,9 @@
         "sv": "Halt av återvunnen bor"
       },
       "description": {
-        "en": "Percentage of recycled boron in permanent magnets"
+        "en": "Percentage of recycled boron in permanent magnets",
+        "bg": "Процент на рециклиран бор в постоянните магнити",
+        "de": "Anteil an recyceltem Bor in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16422,7 +16694,9 @@
         "sv": "Halt av återvunnet samarium"
       },
       "description": {
-        "en": "Percentage of recycled samarium in permanent magnets"
+        "en": "Percentage of recycled samarium in permanent magnets",
+        "bg": "Процент на рециклиран самарий в постоянните магнити",
+        "de": "Anteil an recyceltem Samarium in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16508,7 +16782,9 @@
         "sv": "Halt av återvunnen nickel"
       },
       "description": {
-        "en": "Percentage of recycled nickel in permanent magnets"
+        "en": "Percentage of recycled nickel in permanent magnets",
+        "bg": "Процент на рециклиран никел в постоянните магнити",
+        "de": "Anteil an recyceltem Nickel in Permanentmagneten"
       },
       "dataType": "number",
       "unit": "%",
@@ -16594,7 +16870,9 @@
         "sv": "Halt av återvunnen kobolt"
       },
       "description": {
-        "en": "Percentage of recycled cobalt in the product"
+        "en": "Percentage of recycled cobalt in the product",
+        "bg": "Процент на рециклиран кобалт в продукта",
+        "de": "Anteil an recyceltem Kobalt im Produkt"
       },
       "dataType": "number",
       "unit": "%",
@@ -16680,7 +16958,9 @@
         "sv": "Halt av återvunnen plast"
       },
       "description": {
-        "en": "Percentage of recycled plastic in the product"
+        "en": "Percentage of recycled plastic in the product",
+        "bg": "Процент на рециклирана пластмаса в продукта",
+        "de": "Anteil an recyceltem Kunststoff im Produkt"
       },
       "dataType": "number",
       "unit": "%",
@@ -16767,7 +17047,9 @@
         "sv": "Halt av återvunnen metall"
       },
       "description": {
-        "en": "Percentage of recycled metal in the product"
+        "en": "Percentage of recycled metal in the product",
+        "bg": "Процент на рециклиран метал в продукта",
+        "de": "Anteil an recyceltem Metall im Produkt"
       },
       "dataType": "number",
       "unit": "%",
@@ -16853,7 +17135,9 @@
         "sv": "Halt av återvunnet litium"
       },
       "description": {
-        "en": "Percentage of recycled lithium in the product"
+        "en": "Percentage of recycled lithium in the product",
+        "bg": "Процент на рециклиран литий в продукта",
+        "de": "Anteil an recyceltem Lithium im Produkt"
       },
       "dataType": "number",
       "unit": "%",
@@ -16939,7 +17223,9 @@
         "sv": "Halt av återvunna sällsynta jordartsmetaller"
       },
       "description": {
-        "en": "Total percentage of recycled rare earth elements in the product"
+        "en": "Total percentage of recycled rare earth elements in the product",
+        "bg": "Общ процент на рециклирани редкоземни елементи в продукта",
+        "de": "Gesamtanteil recycelter Seltenerdmetalle im Produkt"
       },
       "dataType": "number",
       "unit": "%",
@@ -17026,7 +17312,9 @@
         "sv": "Andel återvunnet material efter konsumentled"
       },
       "description": {
-        "en": "Percentage of post-consumer recycled material"
+        "en": "Percentage of post-consumer recycled material",
+        "bg": "Процент на материал от рециклиране след употреба от потребители",
+        "de": "Anteil an Post-Consumer-Recyclat"
       },
       "dataType": "number",
       "unit": "%",
@@ -17113,7 +17401,9 @@
         "sv": "Andel återvunnet material före konsumentled"
       },
       "description": {
-        "en": "Percentage of pre-consumer (post-industrial) recycled material"
+        "en": "Percentage of pre-consumer (post-industrial) recycled material",
+        "bg": "Процент на материал от рециклиране преди употреба от потребители (след производство)",
+        "de": "Anteil an Pre-Consumer-Recyclat (Nachproduktionsabfall)"
       },
       "dataType": "number",
       "unit": "%",
@@ -17200,7 +17490,9 @@
         "sv": "WEEE-kategori"
       },
       "description": {
-        "en": "WEEE directive product category (1-6)"
+        "en": "WEEE directive product category (1-6)",
+        "bg": "Категория на продукта по директива WEEE (1–6)",
+        "de": "Produktkategorie gemäß WEEE-Richtlinie (1–6)"
       },
       "dataType": "enum",
       "unit": null,
@@ -17463,7 +17755,9 @@
         "sv": "Producentregistreringsnummer"
       },
       "description": {
-        "en": "National WEEE producer registration number"
+        "en": "National WEEE producer registration number",
+        "bg": "Национален регистрационен номер на производителя по WEEE",
+        "de": "Nationale WEEE-Herstellerregistrierungsnummer"
       },
       "dataType": "string",
       "unit": null,
@@ -17548,7 +17842,9 @@
         "sv": "Produktvikt"
       },
       "description": {
-        "en": "Net weight of the product as placed on the market, in kg: the product with every part supplied with it (a TV's stand, detachable feet, batteries or remote control shipped in the box), excluding packaging. This is the basis WEEE placed-on-market reporting uses. It is TracePass's field definition, not a legal one. When a spec sheet gives several weights (\"set weight with stand\" vs \"without stand\", or \"package weight\"), use the with-stand figure and never the package weight."
+        "en": "Net weight of the product as placed on the market, in kg: the product with every part supplied with it (a TV's stand, detachable feet, batteries or remote control shipped in the box), excluding packaging. This is the basis WEEE placed-on-market reporting uses. It is TracePass's field definition, not a legal one. When a spec sheet gives several weights (\"set weight with stand\" vs \"without stand\", or \"package weight\"), use the with-stand figure and never the package weight.",
+        "bg": "Нетно тегло на продукта в момента на пускане на пазара, в kg: продуктът с всяка приложена към него съставна част (стойката на телевизора, откачащите се крака, батериите или дистанционното управление в кутията), без опаковката. Това е основата, използвана за отчитане на пуснатите на пазара стоки по WEEE. Тя представлява дефиниция на TracePass, не правна такава. Когато техническа спецификация дава няколко тегла (\"тегло на комплекта със стойка\" срещу \"без стойка\" или \"тегло на опаковката\"), използвайте стойността със стойка, а не теглото на опаковката.",
+        "de": "Nettogewicht des auf dem Markt platzierten Produkts in kg: das Produkt mit jedem mitgelieferten Teil (Fernsehständer, abnehmbare Füße, mitgelieferte Batterien oder Fernbedienung), ohne Verpackung. Dies ist die Grundlage für die WEEE-Marktmengenberichterstattung. Es handelt sich um eine Felddefinition von TracePass, keine rechtliche. Wenn ein Datenblatt mehrere Gewichte angibt (\"Set-Gewicht mit Ständer\" vs. \"ohne Ständer\" oder \"Verpackungsgewicht\"), verwenden Sie die Angabe mit Ständer und niemals das Verpackungsgewicht."
       },
       "dataType": "number",
       "unit": "kg",
@@ -17639,7 +17935,9 @@
         "sv": "Demonteringsanvisningar"
       },
       "description": {
-        "en": "URL to instructions for dismantling/recycling the product"
+        "en": "URL to instructions for dismantling/recycling the product",
+        "bg": "URL на инструкциите за демонтаж/рециклиране на продукта",
+        "de": "URL zu den Anweisungen für die Demontage/das Recycling des Produkts"
       },
       "dataType": "url",
       "unit": null,
@@ -17724,7 +18022,9 @@
         "sv": "Förteckning över återvinningsbara komponenter"
       },
       "description": {
-        "en": "List of components that can be recycled"
+        "en": "List of components that can be recycled",
+        "bg": "Списък на компонентите, подлежащи на рециклиране",
+        "de": "Liste der recyclingfähigen Komponenten"
       },
       "dataType": "array",
       "unit": null,
@@ -17809,7 +18109,9 @@
         "sv": "Förteckning över farliga komponenter"
       },
       "description": {
-        "en": "List of components containing hazardous substances requiring special treatment"
+        "en": "List of components containing hazardous substances requiring special treatment",
+        "bg": "Списък на компонентите, съдържащи опасни вещества, изискващи специално третиране",
+        "de": "Liste der Komponenten mit gefährlichen Stoffen, die einer Sonderbehandlung bedürfen"
       },
       "dataType": "array",
       "unit": null,
@@ -17894,7 +18196,9 @@
         "sv": "Materialsammansättning"
       },
       "description": {
-        "en": "Breakdown of materials in the product with percentages and recyclability"
+        "en": "Breakdown of materials in the product with percentages and recyclability",
+        "bg": "Разбивка на материалите в продукта с проценти и степен на рециклируемост",
+        "de": "Aufschlüsselung der Materialien im Produkt mit Prozentsätzen und Recyclingfähigkeit"
       },
       "dataType": "array",
       "unit": null,
@@ -17983,7 +18287,9 @@
         "sv": "Märkning med överkorsad soptunna på hjul"
       },
       "description": {
-        "en": "Whether the product bears the WEEE crossed-out wheelie bin symbol"
+        "en": "Whether the product bears the WEEE crossed-out wheelie bin symbol",
+        "bg": "Дали продуктът носи символа на WEEE (зачеркнат кош на колела)",
+        "de": "Ob das Produkt das WEEE-Symbol (durchgestrichene Mülltonne auf Rädern) trägt"
       },
       "dataType": "boolean",
       "unit": null,
@@ -18069,7 +18375,9 @@
         "sv": "Utfärdandedatum för DPP"
       },
       "description": {
-        "en": "Date when the Digital Product Passport was first issued"
+        "en": "Date when the Digital Product Passport was first issued",
+        "bg": "Дата на първото издаване на цифровия продуктов паспорт",
+        "de": "Datum der Erstausstellung des Digitalen Produktpasses"
       },
       "dataType": "date",
       "unit": null,
@@ -18156,7 +18464,9 @@
         "sv": "DPP senast uppdaterad"
       },
       "description": {
-        "en": "Date when the DPP was last modified"
+        "en": "Date when the DPP was last modified",
+        "bg": "Дата на последната промяна на DPP",
+        "de": "Datum der letzten Änderung des DPP"
       },
       "dataType": "date",
       "unit": null,
@@ -18244,7 +18554,9 @@
         "sv": "Utgångsdatum för DPP"
       },
       "description": {
-        "en": "Date when the DPP expires and needs renewal"
+        "en": "Date when the DPP expires and needs renewal",
+        "bg": "Дата на изтичане на срока на DPP и необходимостта от подновяване",
+        "de": "Datum, an dem der DPP abläuft und erneuert werden muss"
       },
       "dataType": "date",
       "unit": null,
@@ -18329,7 +18641,9 @@
         "sv": "Typ av databärare"
       },
       "description": {
-        "en": "Type of physical data carrier used to link to the DPP"
+        "en": "Type of physical data carrier used to link to the DPP",
+        "bg": "Вид на физическия носител на данни, използван за връзка с DPP",
+        "de": "Art des physischen Datenträgers zur Verknüpfung mit dem DPP"
       },
       "dataType": "multi_enum",
       "unit": null,
@@ -18564,7 +18878,9 @@
         "sv": "Databärarreferens"
       },
       "description": {
-        "en": "URL encoded in the data carrier (GS1 Digital Link)"
+        "en": "URL encoded in the data carrier (GS1 Digital Link)",
+        "bg": "URL адрес, кодиран в носителя на данни (GS1 Digital Link)",
+        "de": "Im Datenträger kodierte URL (GS1 Digital Link)"
       },
       "dataType": "url",
       "unit": null,
@@ -18653,7 +18969,9 @@
         "sv": "Identifierarstandard"
       },
       "description": {
-        "en": "Standard used for product identification (GS1 or ISO 15459)"
+        "en": "Standard used for product identification (GS1 or ISO 15459)",
+        "bg": "Стандарт, използван за идентификация на продукта (GS1 или ISO 15459)",
+        "de": "Zur Produktidentifikation verwendeter Standard (GS1 oder ISO 15459)"
       },
       "dataType": "enum",
       "unit": null,
@@ -18800,7 +19118,9 @@
         "sv": "Åtkomsträttigheter"
       },
       "description": {
-        "en": "Default access level for the DPP data"
+        "en": "Default access level for the DPP data",
+        "bg": "Ниво на достъп по подразбиране за данните в DPP",
+        "de": "Standardzugriffsstufe für die DPP-Daten"
       },
       "dataType": "enum",
       "unit": null,
@@ -18978,21 +19298,23 @@
       },
       "description": {
         "en": "Whether the product bears CE marking and its validity",
-        "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
-        "es": "Si el producto lleva marcado CE y su validez",
-        "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
+        "bg": "Дали продуктът носи CE маркировка и нейната валидност",
+        "de": "Ob das Produkt die CE-Kennzeichnung trägt und deren Gültigkeit",
         "cs": "Zda výrobek nese označení CE a jeho platnost",
         "da": "Hvorvidt produktet bærer CE-mærkning og dens gyldighed",
-        "nl": "Of het product CE-markering draagt en de geldigheid ervan",
+        "el": "Εάν το προϊόν φέρει σήμανση CE και η εγκυρότητά της",
+        "es": "Si el producto lleva marcado CE y su validez",
         "et": "Kas tootel on CE-märgistus ja selle kehtivus",
         "fi": "Onko tuotteessa CE-merkintä ja sen voimassaolo",
         "fr": "Si le produit porte le marquage CE et sa validité",
-        "el": "Εάν το προϊόν φέρει σήμανση CE και η εγκυρότητά της",
-        "hu": "Visel-e a termék CE-jelölést és annak érvényessége",
         "ga": "An bhfuil marcáil CE ar an táirge agus a bailíocht",
+        "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
+        "hu": "Visel-e a termék CE-jelölést és annak érvényessége",
         "it": "Se il prodotto reca la marcatura CE e la sua validità",
+        "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
         "lv": "Vai produktam ir CE marķējums un tā derīgums",
         "mt": "Jekk il-prodott iġorrx il-markatura CE u l-validità tagħha",
+        "nl": "Of het product CE-markering draagt en de geldigheid ervan",
         "pl": "Czy produkt jest opatrzony oznakowaniem CE oraz jego ważność",
         "pt": "Se o produto ostenta a marcação CE e a sua validade",
         "ro": "Dacă produsul poartă marcajul CE și valabilitatea acestuia",

@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Commercial product name or trade designation",
+        "bg": "Търговско наименование или търговско обозначение на продукта.",
+        "de": "Handelsname oder Handelsbezeichnung des Produkts.",
         "it": "Nome commerciale del prodotto o designazione commerciale",
         "hr": "Komercijalni naziv proizvoda ili trgovačka oznaka",
         "cs": "Obchodní název produktu nebo obchodní označení",
@@ -174,6 +176,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer or responsible person placing the product on the EU market",
+        "bg": "Официално наименование на производителя или отговорното лице, пускащо продукта на пазара на ЕС.",
+        "de": "Rechtlicher Name des Herstellers oder der verantwortlichen Person, die das Produkt auf dem EU-Markt in Verkehr bringt.",
         "it": "Denominazione legale del produttore o della persona responsabile che immette il prodotto sul mercato dell'UE",
         "hr": "Pravno ime proizvođača ili odgovorne osobe koja stavlja proizvod na tržište EU-a",
         "cs": "Právní název výrobce nebo odpovědné osoby uvádějící produkt na trh EU",
@@ -281,6 +285,8 @@
       },
       "description": {
         "en": "Brand or trademark under which the product is marketed",
+        "bg": "Марка или търговска марка, под която се предлага продуктът.",
+        "de": "Marke oder Handelsmarke, unter der das Produkt vermarktet wird.",
         "it": "Brand o marchio commerciale con cui il prodotto è commercializzato",
         "hr": "Marka ili zaštitni znak pod kojim se proizvod stavlja na tržište",
         "cs": "Značka nebo ochranná známka, pod kterou je produkt uváděn na trh",
@@ -391,6 +397,8 @@
       },
       "description": {
         "en": "Global Trade Item Number (EAN-13 or GTIN-14) barcode identifier",
+        "bg": "Global Trade Item Number (EAN-13 или GTIN-14) идентификатор на баркода.",
+        "de": "Global Trade Item Number (EAN-13 oder GTIN-14) Strichcode-Bezeichner.",
         "it": "Global Trade Item Number (EAN-13 o GTIN-14) identificativo del codice a barre",
         "hr": "Globalni identifikacijski broj trgovačkog artikla (EAN-13 ili GTIN-14) crtični identifikator",
         "cs": "Identifikátor čárového kódu Global Trade Item Number (EAN-13 nebo GTIN-14)",
@@ -506,6 +514,8 @@
       },
       "description": {
         "en": "FMCG subcategory classification",
+        "bg": "Класификация на подкатегорията на FMCG.",
+        "de": "Unterkategorisierung im FMCG-Bereich.",
         "it": "Classificazione sottocategoria FMCG",
         "hr": "Klasifikacija FMCG potkategorije",
         "cs": "Klasifikace podkategorie FMCG",
@@ -820,6 +830,8 @@
       },
       "description": {
         "en": "Net weight (g) or volume (ml) of the product",
+        "bg": "Нетно тегло (г) или обем (мл) на продукта.",
+        "de": "Nettogewicht (g) oder Volumen (ml) des Produkts.",
         "it": "Peso netto (g) o volume (ml) del prodotto",
         "hr": "Neto masa (g) ili volumen (ml) proizvoda",
         "cs": "Čistá hmotnost (g) nebo objem (ml) produktu",
@@ -927,6 +939,8 @@
       },
       "description": {
         "en": "Unit of measurement for net content",
+        "bg": "Мерна единица за нетното съдържание.",
+        "de": "Maßeinheit für die Nettofüllmenge.",
         "it": "Unità di misura per il contenuto netto",
         "hr": "Mjerna jedinica za neto sadržaj",
         "cs": "Měrná jednotka pro čistý obsah",
@@ -1178,6 +1192,8 @@
       },
       "description": {
         "en": "Full INCI ingredient list (cosmetics) or composition disclosure (detergents) in descending order of concentration",
+        "bg": "Пълен списък на съставките по INCI (козметика) или разкриване на състава (препарати) в намаляващ ред по концентрация.",
+        "de": "Vollständige INCI-Zutatenliste (Kosmetika) oder Zusammensetzungsangabe (Reinigungsmittel) in absteigender Konzentrationsreihenfolge.",
         "it": "Elenco completo ingredienti INCI (cosmetici) o informazione sulla composizione (detergenti) in ordine decrescente di concentrazione",
         "hr": "Potpuni popis INCI sastojaka (kozmetika) ili objava sastava (deterdženti) u silaznom redoslijedu koncentracije",
         "cs": "Úplný seznam složek INCI (kosmetika) nebo zveřejnění složení (detergenty) v sestupném pořadí podle koncentrace",
@@ -1286,6 +1302,8 @@
       },
       "description": {
         "en": "Declared fragrance allergens present above 0.001% (leave-on) or 0.01% (rinse-off) per 2023 update covering 80+ allergens",
+        "bg": "Декларирани алергени от аромати, присъстващи над 0,001% (несмиваеми) или 0,01% (смиваеми) съгласно актуализацията от 2023 г., обхващаща над 80 алергена.",
+        "de": "Deklarierte Duftstoff-Allergene, vorhanden über 0,001% (Leave-on) oder 0,01% (Rinse-off) gemäß der Aktualisierung 2023, die über 80 Allergene abdeckt.",
         "it": "Allergeni da profumo dichiarati presenti sopra lo 0,001% (leave-on) o 0,01% (rinse-off) secondo l'aggiornamento 2023 che copre oltre 80 allergeni",
         "hr": "Deklarirani alergeni mirisa prisutni iznad 0,001% (leave-on) ili 0,01% (rinse-off) prema ažuriranju iz 2023. koje obuhvaća više od 80 alergena",
         "cs": "Deklarované parfémové alergeny přítomné nad 0,001 % (leave-on) nebo 0,01 % (rinse-off) podle aktualizace z roku 2023 pokrývající více než 80 alergenů",
@@ -1655,6 +1673,8 @@
       },
       "description": {
         "en": "Named fragrances present in the product above disclosure threshold",
+        "bg": "Именувани аромати, присъстващи в продукта над прага за разкриване.",
+        "de": "Genannte Duftstoffe, die im Produkt über dem Offenlegungsschwellenwert vorhanden sind.",
         "it": "Profumi denominati presenti nel prodotto al di sopra della soglia di divulgazione",
         "hr": "Navedeni mirisi prisutni u proizvodu iznad praga za objavu",
         "cs": "Pojmenované vůně přítomné v produktu nad prahem zveřejnění",
@@ -1772,6 +1792,8 @@
       },
       "description": {
         "en": "Preservative substances with CAS numbers, mandatory disclosure for cosmetics and detergents",
+        "bg": "Консервиращи вещества с CAS номера, задължително разкриване за козметика и препарати.",
+        "de": "Konservierungsstoffe mit CAS-Nummern, Pflichtangabe für Kosmetika und Reinigungsmittel.",
         "it": "Sostanze conservanti con numeri CAS, divulgazione obbligatoria per cosmetici e detergenti",
         "hr": "Konzervirajuće tvari s CAS brojevima, obvezna objava za kozmetiku i deterdžente",
         "cs": "Konzervační látky s čísly CAS, povinné zveřejnění u kosmetiky a detergentů",
@@ -1888,6 +1910,8 @@
       },
       "description": {
         "en": "SVHC substances present above 0.1% w/w with name, CAS number, concentration range, and safe use instructions",
+        "bg": "SVHC вещества, присъстващи над 0,1% тегл./тегл., с наименование, CAS номер, диапазон на концентрация и инструкции за безопасна употреба.",
+        "de": "SVHC-Stoffe mit einem Anteil über 0,1% w/w mit Name, CAS-Nummer, Konzentrationsbereich und Anweisungen zur sicheren Verwendung.",
         "it": "Sostanze SVHC presenti al di sopra dello 0,1% p/p con nome, numero CAS, intervallo di concentrazione e istruzioni di uso sicuro",
         "hr": "SVHC tvari prisutne iznad 0,1% w/w s nazivom, CAS brojem, rasponom koncentracije i uputama za sigurnu uporabu",
         "cs": "Látky SVHC přítomné nad 0,1 % hmot. s názvem, číslem CAS, rozsahem koncentrace a pokyny pro bezpečné použití",
@@ -1996,6 +2020,8 @@
       },
       "description": {
         "en": "Colorants used in the product, identified by CI (Colour Index) number",
+        "bg": "Красители, използвани в продукта, идентифицирани по номер CI (Colour Index).",
+        "de": "Im Produkt verwendete Farbstoffe, identifiziert durch die CI-Nummer (Colour Index).",
         "it": "Coloranti utilizzati nel prodotto, identificati da numero CI (Colour Index)",
         "hr": "Bojila korištena u proizvodu, identificirana brojem CI (Color Index)",
         "cs": "Barviva použitá v produktu, identifikovaná číslem CI (Colour Index)",
@@ -2113,6 +2139,8 @@
       },
       "description": {
         "en": "Nanomaterials present in the product, labelled with [nano] per Cosmetics Regulation",
+        "bg": "Наноматериали, присъстващи в продукта, означени с [nano] съгласно Регламента за козметични продукти.",
+        "de": "Im Produkt enthaltene Nanomaterialien, gemäß Kosmetikverordnung mit [nano] gekennzeichnet.",
         "it": "Nanomateriali presenti nel prodotto, etichettati con [nano] secondo il Regolamento Cosmetici",
         "hr": "Nanomaterijali prisutni u proizvodu, označeni s [nano] prema Uredbi o kozmetičkim proizvodima",
         "cs": "Nanomateriály přítomné v produktu, označené [nano] podle nařízení o kosmetických přípravcích",
@@ -2229,6 +2257,8 @@
       },
       "description": {
         "en": "Full CLP classification including hazard class, category, and signal word",
+        "bg": "Пълна класификация по CLP, включваща клас на опасност, категория и сигнална дума.",
+        "de": "Vollständige CLP-Klassifizierung einschließlich Gefahrenklasse, -kategorie und Signalwort.",
         "it": "Classificazione CLP completa che include classe di pericolo, categoria e indicazione di pericolo",
         "hr": "Potpuna CLP klasifikacija uključujući razred opasnosti, kategoriju i oznaku upozorenja",
         "cs": "Úplná klasifikace CLP včetně třídy nebezpečnosti, kategorie a signálního slova",
@@ -2336,6 +2366,8 @@
       },
       "description": {
         "en": "GHS hazard pictogram codes applicable to the product (GHS01 through GHS09)",
+        "bg": "Кодове на пиктограми за опасност по GHS, приложими за продукта (GHS01 до GHS09).",
+        "de": "Anwendbare GHS-Gefahrenpiktogramm-Codes für das Produkt (GHS01 bis GHS09).",
         "it": "Codici pittogrammi di pericolo GHS applicabili al prodotto (GHS01 fino a GHS09)",
         "hr": "Kodovi GHS piktograma opasnosti primjenjivi na proizvod (GHS01 do GHS09)",
         "cs": "Kódy piktogramů nebezpečnosti GHS vztahující se na produkt (GHS01 až GHS09)",
@@ -2705,6 +2737,8 @@
       },
       "description": {
         "en": "H-code hazard statements describing the nature of the hazard (e.g. H315 Causes skin irritation)",
+        "bg": "Предупреждения за опасност с H-код, описващи естеството на опасността (напр. H315 Предизвиква дразнене на кожата).",
+        "de": "H-Code-Gefahrenhinweise, die die Art der Gefährdung beschreiben (z. B. H315 Verursacht Hautreizungen).",
         "it": "Frasi di pericolo codice H che descrivono la natura del pericolo (es. H315 Provoca irritazione della pelle)",
         "hr": "Oznake upozorenja s H-kodom koje opisuju prirodu opasnosti (npr. H315 Nadražuje kožu)",
         "cs": "Standardní věty o nebezpečnosti s H-kódem popisující povahu nebezpečí (např. H315 Dráždí kůži)",
@@ -2811,6 +2845,8 @@
       },
       "description": {
         "en": "P-code precautionary statements describing recommended safety measures",
+        "bg": "Препоръки за безопасност с P-код, описващи препоръчителните мерки за безопасност.",
+        "de": "P-Code-Sicherheitshinweise, die die empfohlenen Sicherheitsmaßnahmen beschreiben.",
         "it": "Frasi di prudenza codice P che descrivono le misure di sicurezza consigliate",
         "hr": "Oznake obavijesti s P-kodom koje opisuju preporučene sigurnosne mjere",
         "cs": "Pokyny pro bezpečné zacházení s P-kódem popisující doporučená bezpečnostní opatření",
@@ -2917,6 +2953,8 @@
       },
       "description": {
         "en": "First aid measures in case of exposure: skin contact, eye contact, ingestion, inhalation",
+        "bg": "Мерки за първа помощ при излагане: контакт с кожата, контакт с очите, поглъщане, вдишване.",
+        "de": "Erste-Hilfe-Maßnahmen bei Exposition: Hautkontakt, Augenkontakt, Verschlucken, Einatmen.",
         "it": "Misure di primo soccorso in caso di esposizione: contatto cutaneo, contatto oculare, ingestione, inalazione",
         "hr": "Mjere prve pomoći u slučaju izloženosti: dodir s kožom, dodir s očima, gutanje, udisanje",
         "cs": "Opatření první pomoci v případě expozice: kontakt s kůží, kontakt s očima, požití, vdechnutí",
@@ -3024,6 +3062,8 @@
       },
       "description": {
         "en": "16-character UFI code for poison centre notification, mandatory for hazardous mixtures",
+        "bg": "16-знаков UFI код за уведомяване на токсикологичния център, задължителен за опасни смеси.",
+        "de": "16-stelliger UFI-Code für die Giftnotruf-Meldung, verpflichtend für gefährliche Gemische.",
         "it": "Codice UFI a 16 caratteri per la notifica ai centri antiveleni, obbligatorio per miscele pericolose",
         "hr": "16-znamenkasti UFI kod za obavijest centru za otrovanja, obvezan za opasne smjese",
         "cs": "16znakový kód UFI pro oznámení toxikologickému centru, povinný pro nebezpečné směsi",
@@ -3131,6 +3171,8 @@
       },
       "description": {
         "en": "Product carbon footprint in kg CO2-eq per functional unit, calculated per EU Product Environmental Footprint methodology",
+        "bg": "Въглероден отпечатък на продукта в kg CO2-екв. на функционална единица, изчислен по методологията на ЕС за продуктов екологичен отпечатък.",
+        "de": "Produkt-Kohlenstoff-Fußabdruck in kg CO2-Äquiv. je funktioneller Einheit, berechnet nach der EU-Methodik für den Produkt-Umwelt-Fußabdruck.",
         "it": "Impronta di carbonio del prodotto in kg CO2-eq per unità funzionale, calcolata secondo la metodologia di Impronta Ambientale del Prodotto dell'UE",
         "hr": "Ugljični otisak proizvoda u kg CO2-eq po funkcionalnoj jedinici, izračunat prema metodologiji EU za okolišni otisak proizvoda",
         "cs": "Uhlíková stopa produktu v kg CO2-eq na funkční jednotku, vypočtená podle metodiky EU Product Environmental Footprint",
@@ -3239,6 +3281,8 @@
       },
       "description": {
         "en": "Water scarcity footprint in litres per functional unit, per ISO 14046",
+        "bg": "Воден отпечатък от недостиг на вода в литри на функционална единица по ISO 14046.",
+        "de": "Wasserknappheits-Fußabdruck in Litern je funktioneller Einheit gemäß ISO 14046.",
         "it": "Impronta idrica da scarsità d'acqua in litri per unità funzionale, secondo ISO 14046",
         "hr": "Vodeni otisak nedostatka vode u litrama po funkcionalnoj jedinici, prema ISO 14046",
         "cs": "Stopa nedostatku vody v litrech na funkční jednotku, podle ISO 14046",
@@ -3349,6 +3393,8 @@
       },
       "description": {
         "en": "Ultimate aerobic biodegradability of surfactants and organic content, including test method and degradation percentage",
+        "bg": "Крайна аеробна биоразградимост на повърхностноактивни вещества и органично съдържание, включително метод на изпитване и процент на разграждане.",
+        "de": "Letzte aerobe biologische Abbaubarkeit von Tensiden und organischen Inhalten, einschließlich Prüfmethode und Abbaurate.",
         "it": "Biodegradabilità aerobica finale dei tensioattivi e della materia organica, incluso metodo di prova e percentuale di degradazione",
         "hr": "Konačna aerobna biorazgradivost surfaktanata i organskog sadržaja, uključujući metodu ispitivanja i postotak razgradnje",
         "cs": "Konečná aerobní biologická rozložitelnost povrchově aktivních látek a organického obsahu, včetně zkušební metody a procenta rozkladu",
@@ -3456,6 +3502,8 @@
       },
       "description": {
         "en": "Aquatic toxicity classification per CLP",
+        "bg": "Класификация на водната токсичност по CLP.",
+        "de": "Klassifizierung der aquatischen Toxizität gemäß CLP.",
         "it": "Classificazione tossicità acquatica secondo CLP",
         "hr": "Klasifikacija toksičnosti za vodeni okoliš prema CLP",
         "cs": "Klasifikace toxicity pro vodní prostředí podle CLP",
@@ -3737,6 +3785,8 @@
       },
       "description": {
         "en": "Critical dilution volume per wash load in litres -- key metric for EU Ecolabel detergent certification",
+        "bg": "Критичен разреждащ обем за един цикъл на пране в литри — ключов показател за сертифициране по EU Ecolabel за перилни препарати.",
+        "de": "Kritisches Verdünnungsvolumen pro Waschgang in Litern — Schlüsselkennzahl für die EU-Ecolabel-Zertifizierung von Reinigungsmitteln.",
         "it": "Volume di diluizione critico per ciclo di lavaggio in litri -- metrica chiave per la certificazione EU Ecolabel per detergenti",
         "hr": "Kritični volumen razrjeđenja po ciklusu pranja u litrama -- ključni pokazatelj za certifikaciju deterdženata EU Ecolabel",
         "cs": "Kritický objem zředění na prací dávku v litrech -- klíčový ukazatel pro certifikaci detergentů EU Ecolabel",
@@ -3843,6 +3893,8 @@
       },
       "description": {
         "en": "Primary packaging material type",
+        "bg": "Вид на основния опаковъчен материал.",
+        "de": "Art des primären Verpackungsmaterials.",
         "it": "Tipo di materiale dell'imballaggio primario",
         "hr": "Vrsta primarnog ambalažnog materijala",
         "cs": "Typ primárního obalového materiálu",
@@ -4183,6 +4235,8 @@
       },
       "description": {
         "en": "Percentage of post-consumer recycled content in packaging. PPWR targets: 30% by 2030, 65% by 2040 for PET",
+        "bg": "Процент на рециклирано съдържание след потребителя в опаковката. Цели по PPWR: 30% до 2030 г., 65% до 2040 г. за PET.",
+        "de": "Anteil von Post-Consumer-Recyclingmaterial in der Verpackung in Prozent. PPWR-Ziele: 30% bis 2030, 65% bis 2040 für PET.",
         "it": "Percentuale di contenuto riciclato post-consumo nell'imballaggio. Obiettivi PPWR: 30% entro il 2030, 65% entro il 2040 per PET",
         "hr": "Postotak postpotrošački recikliranog sadržaja u ambalaži. Ciljevi PPWR-a: 30% do 2030., 65% do 2040. za PET",
         "cs": "Procentní podíl spotřebitelsky recyklovaného obsahu v obalu. Cíle PPWR: 30 % do roku 2030, 65 % do roku 2040 u PET",
@@ -4294,6 +4348,8 @@
       },
       "description": {
         "en": "Recyclability performance grade per PPWR: A (highest) to E (not recyclable)",
+        "bg": "Клас за изпълнение на рециклируемостта по PPWR: A (най-висок) до E (нерециклируема).",
+        "de": "Recyclierbarkeits-Leistungsklasse gemäß PPWR: A (höchste) bis E (nicht recyclierbar).",
         "it": "Grado prestazionale di riciclabilità secondo PPWR: A (massimo) fino a E (non riciclabile)",
         "hr": "Ocjena uspješnosti recikliranja prema PPWR: A (najviša) do E (ne može se reciklirati)",
         "cs": "Stupeň výkonnosti recyklovatelnosti podle PPWR: A (nejvyšší) až E (nerecyklovatelné)",
@@ -4550,6 +4606,8 @@
       },
       "description": {
         "en": "Total packaging weight in grams (primary + secondary packaging)",
+        "bg": "Общо тегло на опаковката в грамове (първична + вторична опаковка).",
+        "de": "Gesamtverpackungsgewicht in Gramm (Primär- + Sekundärverpackung).",
         "it": "Peso totale dell'imballaggio in grammi (imballaggio primario + secondario)",
         "hr": "Ukupna težina ambalaže u gramima (primarna + sekundarna ambalaža)",
         "cs": "Celková hmotnost obalu v gramech (primární + sekundární obal)",
@@ -4660,6 +4718,8 @@
       },
       "description": {
         "en": "Ratio of packaging weight to product weight, for empty space minimization assessment",
+        "bg": "Съотношение на теглото на опаковката към теглото на продукта за оценка на минимизиране на празното пространство.",
+        "de": "Verhältnis von Verpackungsgewicht zu Produktgewicht zur Bewertung der Leerraumminimierung.",
         "it": "Rapporto tra peso dell'imballaggio e peso del prodotto, per la valutazione della minimizzazione dello spazio vuoto",
         "hr": "Omjer težine ambalaže i težine proizvoda, za procjenu smanjenja praznog prostora",
         "cs": "Poměr hmotnosti obalu k hmotnosti produktu pro posouzení minimalizace prázdného prostoru",
@@ -4767,6 +4827,8 @@
       },
       "description": {
         "en": "Recommended dosage or usage amount per application (e.g. 30ml per wash load, pea-sized amount)",
+        "bg": "Препоръчителна доза или количество за употреба на приложение (напр. 30 мл на едно пране, количество с размера на грахово зърно).",
+        "de": "Empfohlene Dosierung oder Verwendungsmenge pro Anwendung (z. B. 30 ml pro Waschgang, erbsengroße Menge).",
         "it": "Dosaggio o quantità d'uso consigliata per applicazione (es. 30ml per ciclo di lavaggio, quantità simile a un chicco di pisello)",
         "hr": "Preporučena doza ili količina upotrebe po primjeni (npr. 30 ml po ciklusu pranja, količina veličine graška)",
         "cs": "Doporučené dávkování nebo množství na použití (např. 30 ml na prací dávku, množství velikosti hrášku)",
@@ -4876,6 +4938,8 @@
       },
       "description": {
         "en": "Product shelf life in months. For cosmetics with shelf life >30 months, Period After Opening (PAO) symbol is used instead",
+        "bg": "Срок на годност на продукта в месеци. За козметика със срок на годност >30 месеца се използва символът за период след отваряне (PAO).",
+        "de": "Haltbarkeitsdauer des Produkts in Monaten. Für Kosmetika mit einer Haltbarkeit von mehr als 30 Monaten wird stattdessen das Symbol für die Mindesthaltbarkeit nach dem Öffnen (PAO) verwendet.",
         "it": "Durata di conservazione del prodotto in mesi. Per cosmetici con durata di conservazione > 30 mesi, viene utilizzato il simbolo Periodo Dopo l'Apertura (PAO)",
         "hr": "Rok trajanja proizvoda u mjesecima. Za kozmetičke proizvode s rokom trajanja >30 mjeseci umjesto toga se koristi simbol razdoblja nakon otvaranja (PAO)",
         "cs": "Doba trvanlivosti produktu v měsících. U kosmetiky s dobou trvanlivosti >30 měsíců se místo toho používá symbol Period After Opening (PAO)",
@@ -4986,6 +5050,8 @@
       },
       "description": {
         "en": "Recommended storage conditions: temperature, humidity, light exposure",
+        "bg": "Препоръчителни условия за съхранение: температура, влажност, излагане на светлина.",
+        "de": "Empfohlene Lagerbedingungen: Temperatur, Luftfeuchtigkeit, Lichteinwirkung.",
         "it": "Condizioni di conservazione consigliate: temperatura, umidità, esposizione alla luce",
         "hr": "Preporučeni uvjeti skladištenja: temperatura, vlažnost, izloženost svjetlu",
         "cs": "Doporučené podmínky skladování: teplota, vlhkost, expozice světlu",
@@ -5093,6 +5159,8 @@
       },
       "description": {
         "en": "Batch or lot identification number for traceability and recall purposes",
+        "bg": "Идентификационен номер на партидата за проследимост и изтегляне от пазара.",
+        "de": "Chargen- oder Loskennnummer für Rückverfolgbarkeits- und Rückrufzwecke.",
         "it": "Numero di identificazione del lotto o della partita per la tracciabilità e il richiamo del prodotto",
         "hr": "Identifikacijski broj serije ili šarže za potrebe sljedivosti i povlačenja",
         "cs": "Identifikační číslo šarže nebo dávky pro účely sledovatelnosti a stahování z trhu",
@@ -5201,6 +5269,8 @@
       },
       "description": {
         "en": "Applicable environmental, quality, and ethical certifications held by the product",
+        "bg": "Приложими екологични, качествени и етични сертификации, притежавани от продукта.",
+        "de": "Anwendbare Umwelt-, Qualitäts- und Ethik-Zertifizierungen des Produkts.",
         "it": "Certificazioni ambientali, di qualità e etiche applicabili al prodotto",
         "hr": "Primjenjivi okolišni, kvalitativni i etički certifikati koje proizvod posjeduje",
         "cs": "Relevantní ekologické, jakostní a etické certifikace, které produkt má",
@@ -5687,6 +5757,8 @@
       },
       "description": {
         "en": "EU Ecolabel license number if certified (format: XX/XXX/XXXX)",
+        "bg": "Номер на лиценза EU Ecolabel при сертифициране (формат: XX/XXX/XXXX).",
+        "de": "EU-Ecolabel-Lizenznummer, falls zertifiziert (Format: XX/XXX/XXXX).",
         "it": "Numero di licenza EU Ecolabel se certificato (formato: XX/XXX/XXXX)",
         "hr": "Broj licence EU Ecolabel ako je certificirano (format: XX/XXX/XXXX)",
         "cs": "Číslo licence EU Ecolabel, pokud je certifikováno (formát: XX/XXX/XXXX)",
@@ -5793,6 +5865,8 @@
       },
       "description": {
         "en": "Name and code of the organic certification body (e.g. Ecocert, ICEA)",
+        "bg": "Наименование и код на органа за биологична сертификация (напр. Ecocert, ICEA).",
+        "de": "Name und Code der Bio-Zertifizierungsstelle (z. B. Ecocert, ICEA).",
         "it": "Nome e codice dell'ente di certificazione biologica (es. Ecocert, ICEA)",
         "hr": "Naziv i kod tijela za certifikaciju ekološke proizvodnje (npr. Ecocert, ICEA)",
         "cs": "Název a kód certifikačního orgánu pro ekologickou produkci (např. Ecocert, ICEA)",
@@ -5899,6 +5973,8 @@
       },
       "description": {
         "en": "Consumer-facing disposal and recycling instructions for both product residue and packaging",
+        "bg": "Инструкции за изхвърляне и рециклиране, насочени към потребителя, за остатъците от продукта и опаковката.",
+        "de": "Verbraucherorientierte Entsorgungs- und Recyclinganweisungen für Produktrückstände und Verpackung.",
         "it": "Istruzioni di smaltimento e riciclaggio rivolte ai consumatori sia per il residuo del prodotto che per l'imballaggio",
         "hr": "Upute za odlaganje i recikliranje namijenjene potrošačima za ostatke proizvoda i ambalažu",
         "cs": "Pokyny k likvidaci a recyklaci určené spotřebitelům pro zbytky produktu i obal",
@@ -6006,6 +6082,8 @@
       },
       "description": {
         "en": "Whether the product is available in refill format (concentrate, refill pouch, refill station)",
+        "bg": "Указва дали продуктът е наличен в формат за допълване (концентрат, пакетче за допълване, станция за допълване).",
+        "de": "Gibt an, ob das Produkt in einem Nachfüllformat verfügbar ist (Konzentrat, Nachfüllbeutel, Nachfüllstation).",
         "it": "Se il prodotto è disponibile in formato ricarica (concentrato, sacchetto di ricarica, stazione di ricarica)",
         "hr": "Je li proizvod dostupan u formatu punjenja (koncentrat, vrećica za dopunu, stanica za dopunu)",
         "cs": "Zda je produkt k dispozici ve formátu náhradní náplně (koncentrát, sáček, plnicí stanice)",
@@ -6114,6 +6192,8 @@
       },
       "description": {
         "en": "Whether packaging participates in a deposit-return scheme (DRS) per PPWR",
+        "bg": "Указва дали опаковката участва в система за депозит и връщане (DRS) по PPWR.",
+        "de": "Gibt an, ob die Verpackung an einem Pfand-Rücknahme-System (DRS) gemäß PPWR teilnimmt.",
         "it": "Se l'imballaggio partecipa a uno schema di cauzione-restituzione (DRS) secondo PPWR",
         "hr": "Sudjeluje li ambalaža u sustavu povrata pologa (DRS) prema PPWR-u",
         "cs": "Zda se obal účastní systému vratných záloh (DRS) podle PPWR",
@@ -6222,6 +6302,8 @@
       },
       "description": {
         "en": "ISO 3166-1 alpha-2 country code of manufacture",
+        "bg": "Код по ISO 3166-1 алфа-2 на страната на производство.",
+        "de": "ISO-3166-1-Alpha-2-Ländercode des Herstellungslandes.",
         "it": "Codice ISO 3166-1 alfa-2 del paese di fabbricazione",
         "hr": "ISO 3166-1 alfa-2 kod zemlje proizvodnje",
         "cs": "Kód země výroby ISO 3166-1 alpha-2",
@@ -6329,6 +6411,8 @@
       },
       "description": {
         "en": "Globally unique identifier (GLN) of the manufacturing facility",
+        "bg": "Глобално уникален идентификатор (GLN) на производственото съоръжение.",
+        "de": "Global eindeutiger Bezeichner (GLN) der Produktionsstätte.",
         "it": "Identificativo globale univoco (GLN) dell'impianto di produzione",
         "hr": "Globalno jedinstveni identifikator (GLN) proizvodnog pogona",
         "cs": "Globálně jedinečný identifikátor (GLN) výrobního závodu",

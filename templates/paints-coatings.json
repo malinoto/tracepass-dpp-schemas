@@ -66,6 +66,8 @@
       },
       "description": {
         "en": "GS1 Digital Link URI serving as the primary DPP identifier for the chemical product.",
+        "bg": "URI GS1 Digital Link, служещ като основен идентификатор DPP за химическия продукт.",
+        "de": "GS1-Digital-Link-URI als primärer DPP-Bezeichner für das chemische Produkt.",
         "nl": "GS1 Digital Link URI als primaire DPP-identificator voor het chemische product.",
         "hr": "URI GS1 Digital Link koji služi kao primarni identifikator DPP-a za kemijski proizvod.",
         "cs": "URI GS1 Digital Link sloužící jako primární identifikátor DPP pro chemický produkt.",
@@ -175,6 +177,8 @@
       },
       "description": {
         "en": "Global Trade Item Number (GTIN-14) for the product.",
+        "bg": "Глобален номер на търговска единица (GTIN-14) на продукта.",
+        "de": "Globale Handelsartikelnummer (GTIN-14) des Produkts.",
         "nl": "Global Trade Item Number (GTIN-14) voor het product.",
         "hr": "Globalni broj trgovačke jedinice (GTIN-14) za proizvod.",
         "cs": "Globální číslo obchodní položky (GTIN-14) pro produkt.",
@@ -284,6 +288,8 @@
       },
       "description": {
         "en": "Production batch or lot identifier for traceability.",
+        "bg": "Идентификатор на производствена партида или лот за проследяемост.",
+        "de": "Chargen- oder Loskennung des Produkts für die Rückverfolgbarkeit.",
         "nl": "Productiebatch- of lot-identificator voor traceerbaarheid.",
         "hr": "Identifikator proizvodne serije ili šarže za sljedivost.",
         "cs": "Identifikátor výrobní šarže pro sledovatelnost.",
@@ -389,6 +395,8 @@
       },
       "description": {
         "en": "Individual unit serial number, if applicable.",
+        "bg": "Сериен номер на отделна единица, ако е приложимо.",
+        "de": "Seriennummer der Einzeleinheit, falls zutreffend.",
         "nl": "Individueel serienummer van de eenheid, indien van toepassing.",
         "hr": "Serijski broj pojedinačne jedinice, ako je primjenjivo.",
         "cs": "Sériové číslo jednotlivé jednotky, pokud je to relevantní.",
@@ -494,6 +502,8 @@
       },
       "description": {
         "en": "Commercial trade name of the chemical product.",
+        "bg": "Търговско наименование на химическия продукт.",
+        "de": "Handelsbezeichnung des chemischen Produkts.",
         "nl": "Commerciële handelsnaam van het chemische product.",
         "hr": "Komercijalni trgovački naziv kemijskog proizvoda.",
         "cs": "Obchodní název chemického produktu.",
@@ -599,6 +609,8 @@
       },
       "description": {
         "en": "Product model or variant identifier.",
+        "bg": "Идентификатор на модела или варианта на продукта.",
+        "de": "Modell- oder Variantenkennung des Produkts.",
         "nl": "Productmodel- of variant-identificator.",
         "hr": "Identifikator modela ili varijante proizvoda.",
         "cs": "Identifikátor modelu nebo varianty produktu.",
@@ -705,6 +717,8 @@
       },
       "description": {
         "en": "URL to a product packaging image for visual identification.",
+        "bg": "URL на изображение на опаковката на продукта за визуална идентификация.",
+        "de": "URL eines Verpackungsbilds des Produkts zur visuellen Identifikation.",
         "nl": "URL naar een afbeelding van de productverpakking voor visuele identificatie.",
         "hr": "URL do slike ambalaže proizvoda za vizualnu identifikaciju.",
         "cs": "URL obrázku obalu produktu pro vizuální identifikaci.",
@@ -810,6 +824,8 @@
       },
       "description": {
         "en": "TARIC combined nomenclature code for customs classification.",
+        "bg": "Код на комбинираната номенклатура TARIC за митническа класификация.",
+        "de": "TARIC-Warencode der Kombinierten Nomenklatur für die Zollklassifizierung.",
         "nl": "TARIC-code gecombineerde nomenclatuur voor douaneclassificatie.",
         "hr": "TARIC oznaka kombinirane nomenklature za carinsku klasifikaciju.",
         "cs": "Kód kombinované nomenklatury TARIC pro celní zařazení.",
@@ -915,6 +931,8 @@
       },
       "description": {
         "en": "Main product category (e.g. detergent, paint, lubricant, adhesive).",
+        "bg": "Основна продуктова категория (напр. детергент, боя, смазочно масло, лепило).",
+        "de": "Hauptproduktklasse (z. B. Reinigungsmittel, Farbe, Schmierstoff, Klebstoff).",
         "nl": "Hoofdproductcategorie (bijv. detergent, verf, smeermiddel, adhesief).",
         "hr": "Glavna kategorija proizvoda (npr. deterdžent, boja, mazivo, ljepilo).",
         "cs": "Hlavní kategorie produktu (např. detergent, barva, mazivo, lepidlo).",
@@ -1315,6 +1333,8 @@
       },
       "description": {
         "en": "Subcategory further specifying the product type.",
+        "bg": "Подкатегория, допълнително уточняваща вида на продукта.",
+        "de": "Unterkategorie zur weiteren Spezifizierung des Produkttyps.",
         "nl": "Subcategorie die het producttype verder specificeert.",
         "hr": "Potkategorija koja dodatno određuje vrstu proizvoda.",
         "cs": "Podkategorie dále specifikující typ produktu.",
@@ -1420,6 +1440,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer placing the product on the EU market.",
+        "bg": "Официално наименование на производителя, пускащ продукта на пазара на ЕС.",
+        "de": "Rechtlicher Name des Herstellers, der das Produkt auf dem EU-Markt bereitstellt.",
         "nl": "Wettelijke naam van de fabrikant die het product op de EU-markt brengt.",
         "hr": "Pravni naziv proizvođača koji stavlja proizvod na tržište EU-a.",
         "cs": "Právní název výrobce uvádějícího produkt na trh EU.",
@@ -1525,6 +1547,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer.",
+        "bg": "Регистриран адрес на производителя.",
+        "de": "Eingetragene Anschrift des Herstellers.",
         "nl": "Geregistreerd adres van de fabrikant.",
         "hr": "Registrirana adresa proizvođača.",
         "cs": "Registrovaná adresa výrobce.",
@@ -1629,6 +1653,8 @@
       },
       "description": {
         "en": "Contact email for the manufacturer.",
+        "bg": "Имейл за контакт с производителя.",
+        "de": "Kontakt-E-Mail des Herstellers.",
         "nl": "Contacte-mail van de fabrikant.",
         "hr": "Kontakt e-pošta proizvođača.",
         "cs": "Kontaktní e-mail výrobce.",
@@ -1733,6 +1759,8 @@
       },
       "description": {
         "en": "Contact telephone number for the manufacturer.",
+        "bg": "Телефонен номер за контакт с производителя.",
+        "de": "Kontakttelefonnummer des Herstellers.",
         "nl": "Contacttelefoonnummer van de fabrikant.",
         "hr": "Kontakt telefonski broj proizvođača.",
         "cs": "Kontaktní telefonní číslo výrobce.",
@@ -1838,6 +1866,8 @@
       },
       "description": {
         "en": "GLN or VAT number uniquely identifying the economic operator.",
+        "bg": "Номер GLN или ДДС, уникално идентифициращ икономическия оператор.",
+        "de": "GLN oder USt-IdNr., die den Wirtschaftsakteur eindeutig identifiziert.",
         "nl": "GLN- of VAT-nummer dat de economische operator uniek identificeert.",
         "hr": "GLN ili PDV broj koji jedinstveno identificira gospodarskog subjekta.",
         "cs": "GLN nebo DIČ jedinečně identifikující hospodářský subjekt.",
@@ -1948,6 +1978,8 @@
       },
       "description": {
         "en": "Legal name of the importer, if different from manufacturer.",
+        "bg": "Официално наименование на вносителя, ако се различава от производителя.",
+        "de": "Rechtlicher Name des Importeurs, falls abweichend vom Hersteller.",
         "nl": "Wettelijke naam van de importeur, indien afwijkend van fabrikant.",
         "hr": "Pravni naziv uvoznika, ako se razlikuje od proizvođača.",
         "cs": "Právní název dovozce, pokud se liší od výrobce.",
@@ -2053,6 +2085,8 @@
       },
       "description": {
         "en": "Registered address of the importer. Required if importer is specified.",
+        "bg": "Регистриран адрес на вносителя. Задължителен, ако вносителят е посочен.",
+        "de": "Eingetragene Anschrift des Importeurs. Erforderlich, wenn ein Importeur angegeben ist.",
         "nl": "Geregistreerd adres van de importeur. Vereist als importeur is opgegeven.",
         "hr": "Registrirana adresa uvoznika. Obvezno ako je uvoznik naveden.",
         "cs": "Registrovaná adresa dovozce. Povinné, je-li dovozce uveden.",
@@ -2157,6 +2191,8 @@
       },
       "description": {
         "en": "Name and contact of the authorised representative in the EU, if applicable.",
+        "bg": "Наименование и координати на упълномощения представител в ЕС, ако е приложимо.",
+        "de": "Name und Kontakt des bevollmächtigten Vertreters in der EU, falls zutreffend.",
         "nl": "Naam en contactgegevens van de gemachtigde vertegenwoordiger in de EU, indien van toepassing.",
         "hr": "Ime i kontakt ovlaštenog zastupnika u EU-u, ako je primjenjivo.",
         "cs": "Jméno a kontakt zplnomocněného zástupce v EU, pokud je to relevantní.",
@@ -2262,6 +2298,8 @@
       },
       "description": {
         "en": "Entity providing the DPP issuance service.",
+        "bg": "Структура, предоставяща услугата по издаване на DPP.",
+        "de": "Einrichtung, die den DPP-Ausstellungsservice erbringt.",
         "nl": "Entiteit die de DPP-uitgifte verzorgt.",
         "hr": "Subjekt koji pruža uslugu izdavanja DPP-a.",
         "cs": "Subjekt poskytující službu vydávání DPP.",
@@ -2370,6 +2408,8 @@
       },
       "description": {
         "en": "Unique identifier for the facility where the product was manufactured.",
+        "bg": "Уникален идентификатор на производственото съоръжение, в което е произведен продуктът.",
+        "de": "Eindeutiger Bezeichner der Anlage, in der das Produkt hergestellt wurde.",
         "nl": "Unieke identificator voor de installatie waar het product is vervaardigd.",
         "hr": "Jedinstveni identifikator pogona u kojem je proizvod proizveden.",
         "cs": "Jedinečný identifikátor zařízení, kde byl produkt vyroben.",
@@ -2476,6 +2516,8 @@
       },
       "description": {
         "en": "ISO 3166-1 alpha-2 country code where the product was manufactured.",
+        "bg": "Двубуквен код на държавата ISO 3166-1 alpha-2, в която е произведен продуктът.",
+        "de": "ISO-3166-1-alpha-2-Ländercode des Herstellungslandes des Produkts.",
         "nl": "ISO 3166-1 alfa-2-landcode waar het product is vervaardigd.",
         "hr": "ISO 3166-1 alpha-2 kod zemlje u kojoj je proizvod proizveden.",
         "cs": "Kód země ISO 3166-1 alpha-2, kde byl produkt vyroben.",
@@ -2585,6 +2627,8 @@
       },
       "description": {
         "en": "Chemical name of the ingredient substance.",
+        "bg": "Химично наименование на веществото съставка.",
+        "de": "Chemischer Name der Inhaltsstoffsubstanz.",
         "nl": "Chemische naam van de ingrediëntstof.",
         "hr": "Kemijski naziv tvari sastojka.",
         "cs": "Chemický název složky.",
@@ -2689,6 +2733,8 @@
       },
       "description": {
         "en": "IUPAC systematic chemical name of the substance.",
+        "bg": "Систематично химично наименование на веществото по IUPAC.",
+        "de": "Systematischer IUPAC-Chemikalienname der Substanz.",
         "nl": "IUPAC-systematische chemische naam van de stof.",
         "hr": "Sustavni kemijski IUPAC naziv tvari.",
         "cs": "Systematický chemický název látky podle IUPAC.",
@@ -2793,6 +2839,8 @@
       },
       "description": {
         "en": "Chemical Abstracts Service registry number for the ingredient.",
+        "bg": "Регистрационен номер на Chemical Abstracts Service за съставката.",
+        "de": "CAS-Registriernummer (Chemical Abstracts Service) für den Inhaltsstoff.",
         "nl": "Chemical Abstracts Service registernummer voor het ingrediënt.",
         "hr": "Registarski broj Chemical Abstracts Service za sastojak.",
         "cs": "Registrační číslo Chemical Abstracts Service pro složku.",
@@ -2898,6 +2946,8 @@
       },
       "description": {
         "en": "European Community number (EINECS/ELINCS) for the substance.",
+        "bg": "Номер на Европейската общност (EINECS/ELINCS) на веществото.",
+        "de": "Nummer der Europäischen Gemeinschaft (EINECS/ELINCS) für die Substanz.",
         "nl": "Nummer van de Europese Gemeenschap (EINECS/ELINCS) voor de stof.",
         "hr": "Broj Europske zajednice (EINECS/ELINCS) za tvar.",
         "cs": "Číslo Evropského společenství (EINECS/ELINCS) pro látku.",
@@ -3003,6 +3053,8 @@
       },
       "description": {
         "en": "REACH registration number assigned by ECHA.",
+        "bg": "Регистрационен номер по REACH, присвоен от ECHA.",
+        "de": "REACH-Registriernummer, vergeben von der ECHA.",
         "nl": "REACH-registratienummer toegewezen door ECHA.",
         "hr": "REACH registracijski broj koji je dodijelila ECHA.",
         "cs": "Registrační číslo REACH přidělené agenturou ECHA.",
@@ -3107,6 +3159,8 @@
       },
       "description": {
         "en": "Array of preservatives with substance name and CAS number.",
+        "bg": "Масив от консерванти с наименование на веществото и CAS номер.",
+        "de": "Array von Konservierungsstoffen mit Substanzname und CAS-Nummer.",
         "nl": "Array van conserveermiddelen met stofnaam en CAS-nummer.",
         "hr": "Niz konzervansa s nazivom tvari i CAS brojem.",
         "cs": "Pole konzervantů s názvem látky a číslem CAS.",
@@ -3211,6 +3265,8 @@
       },
       "description": {
         "en": "Array of fragrance allergens present above threshold, with CAS numbers.",
+        "bg": "Масив от алергени на парфюмни вещества, присъстващи над прага, с CAS номера.",
+        "de": "Array von Duftstoffallergenen, die über dem Schwellenwert vorhanden sind, mit CAS-Nummern.",
         "nl": "Array van geur-allergenen aanwezig boven drempel, met CAS-nummers.",
         "hr": "Niz alergena u mirisu prisutnih iznad praga, s CAS brojevima.",
         "cs": "Pole vonných alergenů přítomných nad prahem, s čísly CAS.",
@@ -3316,6 +3372,8 @@
       },
       "description": {
         "en": "Array of CLP/GHS hazard classifications applicable to the product.",
+        "bg": "Масив от класификации на опасностите по CLP/GHS, приложими за продукта.",
+        "de": "Array der CLP/GHS-Gefahreneinstufungen, die auf das Produkt anwendbar sind.",
         "nl": "Array van CLP/GHS-gevaarclassificaties van toepassing op het product.",
         "hr": "Niz CLP/GHS klasifikacija opasnosti primjenjivih na proizvod.",
         "cs": "Pole klasifikací nebezpečnosti CLP/GHS použitelných na produkt.",
@@ -3422,6 +3480,8 @@
       },
       "description": {
         "en": "CLP signal word: 'Danger' or 'Warning'.",
+        "bg": "Сигнална дума по CLP: „Опасност“ или „Предупреждение“.",
+        "de": "CLP-Signalwort: „Gefahr“ oder „Achtung“.",
         "nl": "CLP-waarschuwingswoord: 'Gevaar' of 'Waarschuwing'.",
         "hr": "CLP signalna riječ: 'Opasnost' ili 'Upozorenje'.",
         "cs": "Signální slovo CLP: 'Nebezpečí' nebo 'Varování'.",
@@ -3586,6 +3646,8 @@
       },
       "description": {
         "en": "Array of GHS pictogram codes applicable to the product (GHS01 through GHS09).",
+        "bg": "Масив от кодове на пиктограми GHS, приложими за продукта (GHS01 до GHS09).",
+        "de": "Array der GHS-Piktogramm-Codes, die auf das Produkt anwendbar sind (GHS01 bis GHS09).",
         "nl": "Array van GHS-pictogramcodes van toepassing op het product (GHS01 t/m GHS09).",
         "hr": "Niz GHS kodova piktograma primjenjivih na proizvod (GHS01 do GHS09).",
         "cs": "Pole kódů piktogramů GHS použitelných na produkt (GHS01 až GHS09).",
@@ -3747,6 +3809,8 @@
       },
       "description": {
         "en": "Array of H-code hazard statements with full text.",
+        "bg": "Масив от фрази за опасност с H-кодове и пълен текст.",
+        "de": "Array von Gefahrenhinweisen mit H-Codes und vollständigem Text.",
         "nl": "Array van H-code-gevaarsverklaringen met volledige tekst.",
         "hr": "Niz oznaka opasnosti s H-kodovima i punim tekstom.",
         "cs": "Pole standardních vět o nebezpečnosti s kódy H a plným textem.",
@@ -3853,6 +3917,8 @@
       },
       "description": {
         "en": "Array of P-code precautionary statements with full text.",
+        "bg": "Масив от препоръки за безопасност с P-кодове и пълен текст.",
+        "de": "Array von Sicherheitshinweisen mit P-Codes und vollständigem Text.",
         "nl": "Array van P-code-voorzorgsmaatregel-verklaringen met volledige tekst.",
         "hr": "Niz oznaka obavijesti s P-kodovima i punim tekstom.",
         "cs": "Pole pokynů pro bezpečné zacházení s kódy P a plným textem.",
@@ -3958,6 +4024,8 @@
       },
       "description": {
         "en": "Additional supplemental hazard information (EUH statements).",
+        "bg": "Допълнителна информация за опасността (изказвания EUH).",
+        "de": "Ergänzende Gefahreninformationen (EUH-Sätze).",
         "nl": "Aanvullende gevaarsinformatie (EUH-verklaringen).",
         "hr": "Dodatne dopunske informacije o opasnosti (EUH oznake).",
         "cs": "Další doplňkové informace o nebezpečnosti (věty EUH).",
@@ -4064,6 +4132,8 @@
       },
       "description": {
         "en": "16-character alphanumeric code linking the product to its poison centre notification. Required for hazardous mixtures.",
+        "bg": "16-символен буквено-цифров код, свързващ продукта с уведомлението му до токсикологичния център. Задължителен за опасни смеси.",
+        "de": "16-stelliger alphanumerischer Code, der das Produkt mit seiner Meldung an die Giftinformationszentrale verknüpft. Erforderlich für gefährliche Gemische.",
         "nl": "16-karakters alfanumerieke code die het product linkt aan de melding bij het giftcentrum. Vereist voor gevaarlijke mengsels.",
         "hr": "16-znakovni alfanumerički kod koji povezuje proizvod s prijavom centru za otrovanja. Obvezno za opasne smjese.",
         "cs": "16znakový alfanumerický kód spojující produkt s jeho oznámením toxikologickému centru. Povinné pro nebezpečné směsi.",
@@ -4170,6 +4240,8 @@
       },
       "description": {
         "en": "Notification number from ECHA poison centres notification portal.",
+        "bg": "Номер на уведомлението от портала за уведомления до токсикологичните центрове на ECHA.",
+        "de": "Meldenummer aus dem ECHA-Portal für Meldungen an Giftinformationszentren.",
         "nl": "Meldingsnummer van ECHA giftcentra-meldingsportaal.",
         "hr": "Broj prijave iz portala ECHA-e za prijave centrima za otrovanja.",
         "cs": "Číslo oznámení z oznamovacího portálu ECHA pro toxikologická centra.",
@@ -4275,6 +4347,8 @@
       },
       "description": {
         "en": "24-hour emergency telephone number for chemical incidents.",
+        "bg": "Денонощен телефонен номер за спешни случаи при химически инциденти.",
+        "de": "Notrufnummer für chemische Vorfälle, 24 Stunden täglich erreichbar.",
         "nl": "24-uursnoodtelefoonnummer voor chemische incidenten.",
         "hr": "24-satni hitni telefonski broj za kemijske incidente.",
         "cs": "24hodinové telefonní číslo pro mimořádné situace při chemických haváriích.",
@@ -4380,6 +4454,8 @@
       },
       "description": {
         "en": "Product category code under the European Product Categorisation System for poison centre notifications.",
+        "bg": "Код на продуктовата категория по Европейската система за категоризиране на продукти за уведомления до токсикологичните центрове.",
+        "de": "Produktkategoriecode nach dem Europäischen Produktkategorisierungssystem für Meldungen an Giftinformationszentren.",
         "nl": "Productcategoriecode onder het Europese Productcategoriseringssysteem voor giftcentra-meldingen.",
         "hr": "Kod kategorije proizvoda prema Europskom sustavu kategorizacije proizvoda za prijave centrima za otrovanja.",
         "cs": "Kód kategorie produktu podle Evropského systému kategorizace produktů pro oznámení toxikologickým centrům.",
@@ -4485,6 +4561,8 @@
       },
       "description": {
         "en": "Array of Substances of Very High Concern present above 0.1% w/w. REACH Art. 33 applies to articles, not mixtures; for detergents and paints the relevant duty is the safety data sheet (Art. 31(1)(c), 31(3)(b)). For detergents, Annex VI Part A(h) of Reg (EU) 2026/405 covers SVHCs in the passport. The passport is not compelled to carry this by REACH Art. 33.",
+        "bg": "Масив от вещества, пораждащи сериозно безпокойство (SVHC), присъстващи над 0,1% w/w. Чл. 33 от REACH се прилага за изделия, а не за смеси; за детергенти и бои съответното задължение е информационният лист за безопасност (чл. 31(1)(в), чл. 31(3)(б)). За детергентите приложение VI, раздел A(з) от Регламент (ЕС) 2026/405 обхваща SVHC в паспорта. Паспортът не е задължен от чл. 33 от REACH да съдържа това.",
+        "de": "Array von besonders besorgniserregenden Stoffen (SVHC), die über 0,1 % w/w vorhanden sind. REACH Art. 33 gilt für Erzeugnisse, nicht für Gemische; für Reinigungsmittel und Farben ist das Sicherheitsdatenblatt die maßgebliche Pflicht (Art. 31(1)(c), 31(3)(b)). Für Reinigungsmittel erfasst Anhang VI Teil A(h) der Verordnung (EU) 2026/405 SVHC im Pass. Der Pass ist nicht durch REACH Art. 33 zur Aufnahme verpflichtet.",
         "nl": "Array van zeer zorgwekkende stoffen aanwezig boven 0,1% g/g. REACH art. 33 geldt voor voorwerpen, niet voor mengsels; voor detergenten en verven is de relevante verplichting het veiligheidsinformatieblad (art. 31(1)(c), 31(3)(b)). Het paspoort is niet verplicht dit te bevatten op grond van REACH art. 33.",
         "hr": "Niz tvari koje izazivaju izuzetnu zabrinutost prisutnih iznad 0,1% w/w. Čl. 33 REACH-a primjenjuje se na predmete, ne na mješavine; za deterdžente i boje relevantna obveza je sigurnosno-tehnički list (čl. 31(1)(c), 31(3)(b)). Putovnica nije obvezna nositi ovo prema čl. 33 REACH-a.",
         "cs": "Pole látek vzbuzujících mimořádné obavy přítomných nad 0,1 % hm. Čl. 33 REACH se vztahuje na předměty, nikoli na směsi; pro detergenty a barvy je příslušnou povinností bezpečnostní list (čl. 31 odst. 1 písm. c), čl. 31 odst. 3 písm. b)). Pas není čl. 33 REACH nucen toto obsahovat.",
@@ -4591,6 +4669,8 @@
       },
       "description": {
         "en": "EC number for the SVHC substance.",
+        "bg": "EC номер на SVHC веществото.",
+        "de": "EG-Nummer für den SVHC-Stoff.",
         "nl": "EC-nummer voor de SVHC-stof.",
         "hr": "EC broj za SVHC tvar.",
         "cs": "Číslo EC pro látku SVHC.",
@@ -4695,6 +4775,8 @@
       },
       "description": {
         "en": "Where in the product the SVHC substance is present.",
+        "bg": "Местоположение в продукта, където присъства SVHC веществото.",
+        "de": "Ort im Produkt, an dem der SVHC-Stoff vorhanden ist.",
         "nl": "Waar in het product de SVHC-stof aanwezig is.",
         "hr": "Gdje je u proizvodu prisutna SVHC tvar.",
         "cs": "Kde v produktu je látka SVHC přítomna.",
@@ -4800,6 +4882,8 @@
       },
       "description": {
         "en": "Date when the substance was added to the ECHA SVHC candidate list.",
+        "bg": "Дата, на която веществото е включено в списъка на кандидатите за SVHC на ECHA.",
+        "de": "Datum, an dem der Stoff in die ECHA-SVHC-Kandidatenliste aufgenommen wurde.",
         "nl": "Datum waarop de stof werd toegevoegd aan de ECHA SVHC-kandidaatlijst.",
         "hr": "Datum kada je tvar dodana na ECHA-in popis kandidata za SVHC.",
         "cs": "Datum, kdy byla látka přidána na kandidátský seznam SVHC agentury ECHA.",
@@ -4905,6 +4989,8 @@
       },
       "description": {
         "en": "SCIP database notification identifier from ECHA for articles containing SVHCs.",
+        "bg": "Идентификатор на уведомлението в базата данни SCIP на ECHA за изделия, съдържащи SVHC.",
+        "de": "Meldungskennung in der ECHA-SCIP-Datenbank für Erzeugnisse mit SVHCs.",
         "nl": "SCIP-database-meldingsidentificator van ECHA voor artikelen met SVHC's.",
         "hr": "Identifikator prijave u bazu SCIP agencije ECHA za proizvode koji sadrže SVHC.",
         "cs": "Identifikátor oznámení v databázi SCIP od ECHA pro výrobky obsahující SVHC.",
@@ -5011,6 +5097,8 @@
       },
       "description": {
         "en": "Physical appearance of the product (colour, form).",
+        "bg": "Физически вид на продукта (цвят, форма).",
+        "de": "Physikalisches Erscheinungsbild des Produkts (Farbe, Form).",
         "nl": "Fysieke verschijning van het product (kleur, vorm).",
         "hr": "Fizički izgled proizvoda (boja, oblik).",
         "cs": "Fyzický vzhled produktu (barva, forma).",
@@ -5116,6 +5204,8 @@
       },
       "description": {
         "en": "Description of the product's odour.",
+        "bg": "Описание на миризмата на продукта.",
+        "de": "Beschreibung des Geruchs des Produkts.",
         "nl": "Beschrijving van de geur van het product.",
         "hr": "Opis mirisa proizvoda.",
         "cs": "Popis zápachu produktu.",
@@ -5219,6 +5309,8 @@
       },
       "description": {
         "en": "pH value of the product (as supplied or at specified dilution).",
+        "bg": "Стойност на pH на продукта (в готов вид или при посочено разреждане).",
+        "de": "pH-Wert des Produkts (wie geliefert oder bei angegebener Verdünnung).",
         "nl": "pH-waarde van het product (zoals geleverd of bij opgegeven verdunning).",
         "hr": "pH vrijednost proizvoda (kako je isporučen ili pri navedenom razrjeđenju).",
         "cs": "Hodnota pH produktu (v dodaném stavu nebo při stanoveném zředění).",
@@ -5323,6 +5415,8 @@
       },
       "description": {
         "en": "Flash point temperature of the product.",
+        "bg": "Температура на пламната точка на продукта.",
+        "de": "Flammpunkttemperatur des Produkts.",
         "nl": "Vlampunttemperatuur van het product.",
         "hr": "Temperatura plamišta proizvoda.",
         "cs": "Teplota bodu vzplanutí produktu.",
@@ -5427,6 +5521,8 @@
       },
       "description": {
         "en": "Density or specific gravity of the product.",
+        "bg": "Плътност или специфично тегло на продукта.",
+        "de": "Dichte oder Wichte des Produkts.",
         "nl": "Dichtheid of soortelijk gewicht van het product.",
         "hr": "Gustoća ili specifična težina proizvoda.",
         "cs": "Hustota nebo měrná hmotnost produktu.",
@@ -5530,6 +5626,8 @@
       },
       "description": {
         "en": "Dynamic or kinematic viscosity of the product.",
+        "bg": "Динамична или кинематична вискозност на продукта.",
+        "de": "Dynamische oder kinematische Viskosität des Produkts.",
         "nl": "Dynamische of kinematische viscositeit van het product.",
         "hr": "Dinamička ili kinematička viskoznost proizvoda.",
         "cs": "Dynamická nebo kinematická viskozita produktu.",
@@ -5633,6 +5731,8 @@
       },
       "description": {
         "en": "Product carbon footprint value in kg CO2 equivalent.",
+        "bg": "Стойност на въглеродния отпечатък на продукта в kg CO2 еквивалент.",
+        "de": "Wert des Produkt-Kohlenstoff-Fußabdrucks in kg CO2-Äquivalent.",
         "nl": "Waarde koolstofvoetafdruk van het product in kg CO2-equivalent.",
         "hr": "Vrijednost ugljičnog otiska proizvoda u kg ekvivalenta CO2.",
         "cs": "Hodnota uhlíkové stopy produktu v kg ekvivalentu CO2.",
@@ -5739,6 +5839,8 @@
       },
       "description": {
         "en": "Life-cycle scope of the carbon footprint calculation (cradle-to-gate, cradle-to-grave).",
+        "bg": "Обхват на жизнения цикъл при изчисляване на въглеродния отпечатък (от люлката до портата, от люлката до гроба).",
+        "de": "Lebenszyklusrahmen der Kohlenstoff-Fußabdruck-Berechnung (Cradle-to-Gate, Cradle-to-Grave).",
         "nl": "Reikwijdte Koolstofvoetafdruk",
         "hr": "Opseg životnog ciklusa izračuna ugljičnog otiska (od kolijevke do vrata, od kolijevke do groba).",
         "cs": "Rozsah životního cyklu výpočtu uhlíkové stopy (od kolébky k bráně, od kolébky k hrobu).",
@@ -5903,6 +6005,8 @@
       },
       "description": {
         "en": "Methodology or standard used for carbon footprint calculation (e.g. PEF, ISO 14067).",
+        "bg": "Методология или стандарт, използвани за изчисляване на въглеродния отпечатък (напр. PEF, ISO 14067).",
+        "de": "Methodik oder Norm für die Kohlenstoff-Fußabdruck-Berechnung (z. B. PEF, ISO 14067).",
         "nl": "Methodologie of standaard gebruikt voor koolstofvoetafdruk-berekening (bijv. PEF, ISO 14067).",
         "hr": "Metodologija ili norma korištena za izračun ugljičnog otiska (npr. PEF, ISO 14067).",
         "cs": "Metodika nebo norma použitá pro výpočet uhlíkové stopy (např. PEF, ISO 14067).",
@@ -6009,6 +6113,8 @@
       },
       "description": {
         "en": "Percentage recyclability of the product packaging.",
+        "bg": "Процентен дял на възможността за рециклиране на опаковката на продукта.",
+        "de": "Prozentualer Recyclinganteil der Produktverpackung.",
         "nl": "Percentage recycleerbaarheid van de productverpakking.",
         "hr": "Postotak mogućnosti recikliranja ambalaže proizvoda.",
         "cs": "Procento recyklovatelnosti obalu produktu.",
@@ -6115,6 +6221,8 @@
       },
       "description": {
         "en": "Percentage of recycled material content in the product or packaging.",
+        "bg": "Процент на рециклирано съдържание в продукта или опаковката.",
+        "de": "Prozentualer Rezyklatanteil im Produkt oder der Verpackung.",
         "nl": "Percentage hergebruikt materiaalgehalte in het product of de verpakking.",
         "hr": "Postotak udjela recikliranog materijala u proizvodu ili ambalaži.",
         "cs": "Procento obsahu recyklovaného materiálu v produktu nebo obalu.",
@@ -6221,6 +6329,8 @@
       },
       "description": {
         "en": "Instructions for proper disposal of the product and its packaging.",
+        "bg": "Инструкции за правилно обезвреждане на продукта и неговата опаковка.",
+        "de": "Anweisungen zur ordnungsgemäßen Entsorgung des Produkts und seiner Verpackung.",
         "nl": "Instructies voor juiste verwijdering van het product en de verpakking.",
         "hr": "Upute za pravilno odlaganje proizvoda i njegove ambalaže.",
         "cs": "Pokyny pro správné nakládání s produktem a jeho obalem na konci životnosti.",
@@ -6326,6 +6436,8 @@
       },
       "description": {
         "en": "Type of data carrier used for the DPP (QR code, NFC, RFID, etc.).",
+        "bg": "Вид на носителя на данни, използван за DPP (QR код, NFC, RFID и др.).",
+        "de": "Art des Datenträgers für den DPP (QR-Code, NFC, RFID usw.).",
         "nl": "Type gegevensdrager gebruikt voor de DPP (QR-code, NFC, RFID, etc.).",
         "hr": "Vrsta nosača podataka za DPP (QR kod, NFC, RFID itd.).",
         "cs": "Typ nosiče dat použitého pro DPP (QR kód, NFC, RFID atd.).",
@@ -6460,6 +6572,8 @@
       },
       "description": {
         "en": "GS1 Digital Link URI encoded in the data carrier.",
+        "bg": "URI GS1 Digital Link, кодиран в носителя на данни.",
+        "de": "Im Datenträger kodierter GS1-Digital-Link-URI.",
         "nl": "GS1 Digital Link URI gecodeerd in de gegevensdrager.",
         "hr": "URI GS1 Digital Link kodiran u nosaču podataka.",
         "cs": "URI GS1 Digital Link zakódované v nosiči dat.",
@@ -6569,6 +6683,8 @@
       },
       "description": {
         "en": "Date from which the digital product passport is valid.",
+        "bg": "Дата, от която цифровият продуктов паспорт е валиден.",
+        "de": "Datum, ab dem der digitale Produktpass gültig ist.",
         "nl": "Datum vanaf wanneer het digitale productpaspoort geldig is.",
         "hr": "Datum od kojeg vrijedi digitalna putovnica proizvoda.",
         "cs": "Datum, od kterého je digitální pas produktu platný.",
@@ -6678,6 +6794,8 @@
       },
       "description": {
         "en": "Number of years the DPP must be retained and accessible. Default is 10 years per ESPR.",
+        "bg": "Брой години, за които DPP трябва да се съхранява и да бъде достъпен. По подразбиране 10 години съгласно ESPR.",
+        "de": "Anzahl der Jahre, für die der DPP aufbewahrt und zugänglich sein muss. Standard sind 10 Jahre gemäß ESPR.",
         "nl": "Aantal jaren dat de DPP moet worden bewaard en toegankelijk. Standaard 10 jaar per ESPR.",
         "hr": "Broj godina tijekom kojih se DPP mora čuvati i biti dostupan. Zadana vrijednost je 10 godina prema ESPR-u.",
         "cs": "Počet let, po které musí být DPP uchováván a přístupný. Výchozí hodnota je 10 let podle ESPR.",
@@ -6787,6 +6905,8 @@
       },
       "description": {
         "en": "Default access level controlling who can view the passport data.",
+        "bg": "Ниво на достъп по подразбиране, определящо кой може да преглежда данните от паспорта.",
+        "de": "Standard-Zugangsstufe, die regelt, wer die Passdaten einsehen darf.",
         "nl": "Standaard toegangsniveau dat bepaalt wie de paspoortgegevens kan bekijken.",
         "hr": "Zadana razina pristupa koja određuje tko može vidjeti podatke putovnice.",
         "cs": "Výchozí úroveň přístupu určující, kdo může zobrazit data pasu.",
@@ -6984,6 +7104,8 @@
       },
       "description": {
         "en": "Maximum VOC limit for this product subcategory under the Decopaint Directive.",
+        "bg": "Максимална гранична стойност на ЛОС за тази подкатегория продукти съгласно Директивата за декоративни бои (Decopaint).",
+        "de": "Maximaler VOC-Grenzwert für diese Produktunterkategorie gemäß der Decopaint-Richtlinie.",
         "nl": "Maximale VOC-limiet voor deze productsubcategorie onder de Decopaint-richtlijn.",
         "hr": "Maksimalna granica HOS-a za ovu potkategoriju proizvoda prema Direktivi Decopaint.",
         "cs": "Maximální limit VOC pro tuto podkategorii produktu podle směrnice Decopaint.",
@@ -7089,6 +7211,8 @@
       },
       "description": {
         "en": "Decopaint Directive product subcategory for VOC limits.",
+        "bg": "Подкатегория продукти по Директивата за декоративни бои (Decopaint) за граничните стойности на ЛОС.",
+        "de": "Produktunterkategorie nach der Decopaint-Richtlinie für VOC-Grenzwerte.",
         "nl": "Decopaint-richtlijn productsubcategorie voor VOC-limieten.",
         "hr": "Potkategorija proizvoda prema Direktivi Decopaint za granice HOS-a.",
         "cs": "Podkategorie produktu podle směrnice Decopaint pro limity VOC.",
@@ -7194,6 +7318,8 @@
       },
       "description": {
         "en": "Classification of the paint/coating product type.",
+        "bg": "Класификация на вида продукт боя/покритие.",
+        "de": "Klassifizierung des Farb-/Beschichtungsprodukts.",
         "nl": "Classificatie van het verfproducttype.",
         "hr": "Klasifikacija vrste proizvoda boje/premaza.",
         "cs": "Klasifikace typu produktu barvy/nátěru.",
@@ -7619,6 +7745,8 @@
       },
       "description": {
         "en": "VOC content of the product when ready for use (after any prescribed dilution).",
+        "bg": "Съдържание на ЛОС в продукта в готов за употреба вид (след евентуално предписано разреждане).",
+        "de": "VOC-Gehalt des Produkts gebrauchsfertig (nach vorgeschriebener Verdünnung).",
         "nl": "VOC-gehalte van het product wanneer klaar voor gebruik (na eventuele voorgeschreven verdunning).",
         "hr": "Sadržaj HOS-a u proizvodu spremnom za uporabu (nakon propisanog razrjeđenja).",
         "cs": "Obsah VOC v produktu připraveném k použití (po předepsaném zředění).",
@@ -7724,6 +7852,8 @@
       },
       "description": {
         "en": "Whether the product is water-borne or solvent-borne.",
+        "bg": "Дали продуктът е на водна основа или на основата на разтворители.",
+        "de": "Ob das Produkt wasserbasiert oder lösemittelbasiert ist.",
         "nl": "Of het product watergebaseerd of oplosmiddelgebaseerd is.",
         "hr": "Je li proizvod na bazi vode ili otapala.",
         "cs": "Zda je produkt vodou ředitelný nebo na bázi rozpouštědla.",
@@ -7888,6 +8018,8 @@
       },
       "description": {
         "en": "Spreading rate / coverage area per litre of product.",
+        "bg": "Нанасяемост / покривна площ на литър продукт.",
+        "de": "Ergiebigkeit / Abdeckfläche pro Liter Produkt.",
         "nl": "Spreidingssnelheid / dekkingsoppervlak per liter product.",
         "hr": "Stopa nanošenja / područje pokrivnosti po litri proizvoda.",
         "cs": "Míra vydatnosti / pokrytá plocha na litr produktu.",
@@ -7991,6 +8123,8 @@
       },
       "description": {
         "en": "Wet scrub resistance class per EN 13300 (Class 1-5).",
+        "bg": "Клас на устойчивост на мокро търкане съгласно EN 13300 (Клас 1–5).",
+        "de": "Nassabriebbeständigkeitsklasse gemäß EN 13300 (Klasse 1–5).",
         "nl": "Klasse voor natwrijfweerstand per EN 13300 (Klasse 1-5).",
         "hr": "Razred otpornosti na mokro trljanje prema EN 13300 (razred 1–5).",
         "cs": "Třída odolnosti proti oděru za mokra podle EN 13300 (třída 1–5).",
@@ -8243,6 +8377,8 @@
       },
       "description": {
         "en": "Weight percentage of titanium dioxide (TiO2) in the product. Subject to CLP classification.",
+        "bg": "Тегловен процент на титанов диоксид (TiO2) в продукта. Подлежи на класификация по CLP.",
+        "de": "Gewichtsprozentualer Titandioxidgehalt (TiO2) im Produkt. Unterliegt der CLP-Einstufung.",
         "nl": "Gewichtspercentage titaandioxide (TiO2) in het product. Onderworpen aan CLP-classificatie.",
         "hr": "Maseni postotak titanijevog dioksida (TiO2) u proizvodu. Podliježe CLP klasifikaciji.",
         "cs": "Hmotnostní procento oxidu titaničitého (TiO2) v produktu. Podléhá klasifikaci CLP.",
@@ -8348,6 +8484,8 @@
       },
       "description": {
         "en": "ISO classification for paints and coatings (e.g. ISO 12944 for corrosion protection).",
+        "bg": "ISO класификация за бои и покрития (напр. ISO 12944 за защита от корозия).",
+        "de": "ISO-Klassifizierung für Farben und Beschichtungen (z. B. ISO 12944 für Korrosionsschutz).",
         "nl": "ISO-classificatie voor verven en coatings (bijv. ISO 12944 voor corrosiebescherming).",
         "hr": "ISO klasifikacija za boje i premaze (npr. ISO 12944 za zaštitu od korozije).",
         "cs": "Klasifikace ISO pro barvy a nátěry (např. ISO 12944 pro ochranu proti korozi).",

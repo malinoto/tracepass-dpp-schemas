@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Unique URI identifier for the packaging unit, typically a GS1 Digital Link.",
+        "bg": "Уникален URI идентификатор на опаковъчната единица, обикновено GS1 Digital Link.",
+        "de": "Eindeutiger URI-Bezeichner für die Verpackungseinheit, typischerweise ein GS1 Digital Link.",
         "mt": "Identifikatur URI uniku għall-unità ta' imballaġġ, tipikament GS1 Digital Link.",
         "hr": "Jedinstveni URI identifikator za jedinicu ambalaže, tipično GS1 Digital Link.",
         "cs": "Jedinečný identifikátor URI obalové jednotky, obvykle GS1 Digital Link.",
@@ -177,6 +179,8 @@
       },
       "description": {
         "en": "Global Trade Item Number assigned to the packaging unit.",
+        "bg": "Global Trade Item Number, присвоен на опаковъчната единица.",
+        "de": "Global Trade Item Number, der der Verpackungseinheit zugewiesen wurde.",
         "mt": "Numru tal-Artikolu tal-Kummerċ Globali assignat għall-unità ta' imballaġġ.",
         "hr": "Globalni trgovački broj artikla dodijeljen jedinici ambalaže.",
         "cs": "Globální číslo obchodního artiklu přiřazené obalové jednotce.",
@@ -287,6 +291,8 @@
       },
       "description": {
         "en": "Classification of packaging by function: sales, grouped, transport, e-commerce, or reusable.",
+        "bg": "Класификация на опаковката по функция: търговска, групова, транспортна, електронна търговия или за многократна употреба.",
+        "de": "Klassifizierung der Verpackung nach Funktion: Verkauf, Gruppenverpackung, Transport, E-Commerce oder Mehrweg.",
         "mt": "Klassifikazzjoni tal-imballaġġ skond il-funzjoni: vendita, iggrupat, trasport, e-kummerċ, jew li jista' jerġa' jintuża.",
         "hr": "Klasifikacija ambalaže prema funkciji: prodajna, skupna, transportna, e-trgovinska ili višekratna.",
         "cs": "Klasifikace obalu podle funkce: prodejní, skupinový, přepravní, e-commerce nebo opakovaně použitelný.",
@@ -542,6 +548,8 @@
       },
       "description": {
         "en": "Physical form of the packaging (bottle, box, bag, pouch, can, carton, tray, blister, wrapper, etc.).",
+        "bg": "Физическа форма на опаковката (бутилка, кутия, торба, пликче, консерва, кашон, тава, блистер, обвивка и др.).",
+        "de": "Physische Form der Verpackung (Flasche, Schachtel, Beutel, Pouch, Dose, Karton, Tray, Blister, Umhüllung usw.).",
         "mt": "Forma fiżika tal-imballaġġ (buttiglia, kutu, borża, pakkett, latt, kartun, tavla, blister, ġakarta, eċċ.).",
         "hr": "Fizički oblik ambalaže (boca, kutija, vrećica, folijska vrećica, limenka, karton, pladanj, blister, omot itd.).",
         "cs": "Fyzická forma obalu (láhev, krabice, sáček, sáček, plechovka, karton, tácek, blistr, obal atd.).",
@@ -1058,6 +1066,8 @@
       },
       "description": {
         "en": "Total weight of the empty packaging in grams.",
+        "bg": "Общо тегло на празната опаковка в грамове.",
+        "de": "Gesamtgewicht der leeren Verpackung in Gramm.",
         "mt": "Piż totali tal-imballaġġ vojt miżur fi grammı.",
         "hr": "Ukupna težina prazne ambalaže u gramima.",
         "cs": "Celková hmotnost prázdného obalu v gramech.",
@@ -1168,6 +1178,8 @@
       },
       "description": {
         "en": "Total volume capacity of the packaging in millilitres.",
+        "bg": "Общ обем на опаковката в милилитри.",
+        "de": "Gesamtvolumen der Verpackung in Milliliter.",
         "mt": "Kapaċità tal-volum totali tal-imballaġġ miżura fi millilitri.",
         "hr": "Ukupni volumen ambalaže u mililitrima.",
         "cs": "Celkový objemový obsah obalu v mililitrech.",
@@ -1274,6 +1286,8 @@
       },
       "description": {
         "en": "Whether the packaging is designed and intended for reuse.",
+        "bg": "Указва дали опаковката е проектирана и предназначена за многократна употреба.",
+        "de": "Gibt an, ob die Verpackung für die Wiederverwendung ausgelegt und bestimmt ist.",
         "mt": "Jekk l-imballaġġ huwa ddisinjat u intenzjonat għall-ierġa' fl-użu.",
         "hr": "Je li ambalaža dizajnirana i namijenjena za višekratnu uporabu.",
         "cs": "Zda je obal navržen a určen k opakovanému použití.",
@@ -1383,6 +1397,8 @@
       },
       "description": {
         "en": "Whether the packaging is intended for single use only.",
+        "bg": "Указва дали опаковката е предназначена само за еднократна употреба.",
+        "de": "Gibt an, ob die Verpackung nur für den Einmalgebrauch bestimmt ist.",
         "mt": "Jekk l-imballaġġ huwa intenzjonat għall-użu waħda biss.",
         "hr": "Je li ambalaža namijenjena isključivo jednokratnoj uporabi.",
         "cs": "Zda je obal určen pouze k jednorázovému použití.",
@@ -1492,6 +1508,8 @@
       },
       "description": {
         "en": "Primary material of the packaging component.",
+        "bg": "Основен материал на опаковъчния компонент.",
+        "de": "Primärmaterial des Verpackungsbestandteils.",
         "mt": "Materjal primarju tal-komponent tal-imballaġġ.",
         "hr": "Primarni materijal komponente ambalaže.",
         "cs": "Primární materiál obalové komponenty.",
@@ -2067,6 +2085,8 @@
       },
       "description": {
         "en": "Harmonized material identification code per Commission implementing act.",
+        "bg": "Хармонизиран код за идентификация на материала съгласно акт за изпълнение на Комисията.",
+        "de": "Harmonisierter Materialidentifizierungscode gemäß Durchführungsrechtsakt der Kommission.",
         "mt": "Kodiċi armonizzat ta' identifikazzjoni tal-materjal skond il-Leġi ta' implimentazzjoni tal-Kummissjoni.",
         "hr": "Usklađena identifikacijska oznaka materijala u skladu s provedbenim aktom Komisije.",
         "cs": "Harmonizovaný identifikační kód materiálu podle prováděcího aktu Komise.",
@@ -2173,6 +2193,8 @@
       },
       "description": {
         "en": "Percentage by weight of this material component relative to total packaging weight.",
+        "bg": "Процентно тегловно съдържание на този материален компонент спрямо общото тегло на опаковката.",
+        "de": "Gewichtsanteil dieses Materialbestandteils am Gesamtgewicht der Verpackung in Prozent.",
         "mt": "Perċentwal skond il-piż ta' dan il-komponent tal-materjal relattiv għal-piż totali tal-imballaġġ.",
         "hr": "Postotak težine ove komponente materijala u odnosu na ukupnu težinu ambalaže.",
         "cs": "Hmotnostní procento této materiálové komponenty vůči celkové hmotnosti obalu.",
@@ -2282,6 +2304,8 @@
       },
       "description": {
         "en": "Name of the packaging component (e.g. cap, body, label, sleeve).",
+        "bg": "Наименование на опаковъчния компонент (напр. капачка, корпус, етикет, ръкав).",
+        "de": "Bezeichnung des Verpackungsbestandteils (z. B. Verschluss, Körper, Etikett, Manschette).",
         "mt": "Isem tal-komponent tal-imballaġġ (eż. għaċ, ġisem, tikketta, qomba).",
         "hr": "Naziv komponente ambalaže (npr. čep, tijelo, etiketa, rukavac).",
         "cs": "Název obalové komponenty (např. uzávěr, tělo, etiketa, rukáv).",
@@ -2391,6 +2415,8 @@
       },
       "description": {
         "en": "Whether this material component is in direct contact with sensitive products (e.g. food, pharma).",
+        "bg": "Указва дали този материален компонент е в пряк контакт с чувствителни продукти (напр. храни, фармацевтични продукти).",
+        "de": "Gibt an, ob dieser Materialbestandteil in direktem Kontakt mit sensiblen Produkten steht (z. B. Lebensmittel, Pharmazeutika).",
         "mt": "Jekk dan il-komponent tal-materjal huwa f'kuntatt dirett ma' prodotti sensibbli (eż. ikel, farmaċija).",
         "hr": "Je li ova komponenta materijala u izravnom dodiru s osjetljivim proizvodima (npr. hrana, lijekovi).",
         "cs": "Zda je tato materiálová komponenta v přímém kontaktu s citlivými produkty (např. potraviny, léčiva).",
@@ -2500,6 +2526,8 @@
       },
       "description": {
         "en": "Total number of distinct material types used in the packaging.",
+        "bg": "Общ брой различни видове материали, използвани в опаковката.",
+        "de": "Gesamtzahl der verschiedenen Materialtypen, die in der Verpackung verwendet werden.",
         "mt": "Numru totali ta' tipi distinti ta' materjali użati fl-imballaġġ.",
         "hr": "Ukupan broj različitih vrsta materijala upotrijebljenih u ambalaži.",
         "cs": "Celkový počet odlišných typů materiálů použitých v obalu.",
@@ -2604,6 +2632,8 @@
       },
       "description": {
         "en": "Whether the packaging consists of more than one material type.",
+        "bg": "Указва дали опаковката се състои от повече от един вид материал.",
+        "de": "Gibt an, ob die Verpackung aus mehr als einem Materialtyp besteht.",
         "mt": "Jekk l-imballaġġ jikkonsistu minn aktar minn tip ta' materjal waħda.",
         "hr": "Sastoji li se ambalaža od više od jedne vrste materijala.",
         "cs": "Zda se obal skládá z více než jednoho typu materiálu.",
@@ -2709,6 +2739,8 @@
       },
       "description": {
         "en": "Harmonized pictogram code for material identification, mandatory from August 2028.",
+        "bg": "Хармонизиран код на пиктограма за идентификация на материала, задължителен от август 2028 г.",
+        "de": "Harmonisierter Piktogrammcode zur Materialidentifizierung, ab August 2028 verpflichtend.",
         "mt": "Kodiċi pittogramma armonizzat għall-identifikazzjoni tal-materjal, obbligung minn Awwissu 2028.",
         "hr": "Usklađena oznaka piktograma za identifikaciju materijala, obvezna od kolovoza 2028.",
         "cs": "Harmonizovaný kód piktogramu pro identifikaci materiálu, povinný od srpna 2028.",
@@ -2815,6 +2847,8 @@
       },
       "description": {
         "en": "Recyclability performance grade under PPWR Art. 6(3) and Annex II Table 3: A (>=95%), B (>=80%), C (>=70%). Below 70% is technically non-recyclable and may not be placed on the market from 2030 (or 24 months after the Art. 6(4) delegated acts, if later). Grade C is barred from 1 Jan 2038.",
+        "bg": "Клас за изпълнение на рециклируемостта съгласно чл. 6(3) от PPWR и приложение II, таблица 3: A (≥95%), B (≥80%), C (≥70%). Под 70% е технически нерециклируема и не може да бъде пускана на пазара след 2030 г. (или 24 месеца след делегираните актове по чл. 6(4), ако е по-късно). Клас C е забранен от 1 януари 2038 г.",
+        "de": "Recyclierbarkeits-Leistungsklasse gemäß PPWR Art. 6(3) und Anhang II Tabelle 3: A (≥95%), B (≥80%), C (≥70%). Unter 70% ist die Verpackung technisch nicht recyclierbar und darf ab 2030 nicht in den Verkehr gebracht werden (oder 24 Monate nach den delegierten Rechtsakten gemäß Art. 6(4), falls später). Klasse C ist ab 1. Jan. 2038 verboten.",
         "mt": "Grad ta' prestazzjoni tar-riċiklaġġ skont l-art. 6(3) tal-PPWR u l-Anness II Tabella 3: A (≥95%), B (≥80%), Ċ (≥70%). Taħt 70% mhuwiex riċiklab teknikament u ma jistax jitqiegħed fis-suq mill-2030; il-grad Ċ huwa pprojbit mill-1 Jan. 2038.",
         "hr": "Razred učinkovitosti reciklivnosti prema čl. 6(3) PPWR-a i prilogu II tablici 3: A (≥95%), B (≥80%), C (≥70%). Ispod 70% nije tehnički reciklivno i ne može se staviti na tržište od 2030.; razred C zabranjen je od 1. sij. 2038.",
         "cs": "Třída výkonnosti recyklovatelnosti dle čl. 6 odst. 3 PPWR a přílohy II tabulky 3: A (≥95 %), B (≥80 %), C (≥70 %). Pod 70 % je technicky nerecyklovatelné a nesmí být uváděno na trh od roku 2030; třída C je zakázána od 1. 1. 2038.",
@@ -3012,6 +3046,8 @@
       },
       "description": {
         "en": "Percentage of the packaging that is recyclable by weight.",
+        "bg": "Процент от опаковката, която е рециклируема по тегло.",
+        "de": "Anteil der Verpackung in Prozent, der nach Gewicht recyclierbar ist.",
         "mt": "Perċentwal tal-imballaġġ li huwa riċiklabbli skond il-piż.",
         "hr": "Postotak ambalaže koji je recikličan po težini.",
         "cs": "Procento obalu, které je recyklovatelné podle hmotnosti.",
@@ -3121,6 +3157,8 @@
       },
       "description": {
         "en": "Whether the packaging meets design-for-recycling criteria per delegated acts.",
+        "bg": "Указва дали опаковката отговаря на критериите за проектиране за рециклиране съгласно делегираните актове.",
+        "de": "Gibt an, ob die Verpackung die Design-for-Recycling-Kriterien gemäß den delegierten Rechtsakten erfüllt.",
         "mt": "Jekk l-imballaġġ jammetti l-kriterji tad-disinn għall-riċiklazzjoni skond il-leġi delegata.",
         "hr": "Ispunjava li ambalaža kriterije dizajna za recikliranje prema delegiranim aktima.",
         "cs": "Zda obal splňuje kritéria designu pro recyklaci podle aktů v přenesené pravomoci.",
@@ -3230,6 +3268,8 @@
       },
       "description": {
         "en": "Standard or methodology used for recyclability assessment.",
+        "bg": "Стандарт или методология, използвана за оценка на рециклируемостта.",
+        "de": "Norm oder Methodik, die für die Recyclierbarkeitsbeurteilung verwendet wird.",
         "mt": "Standard jew metodoloġija użata għall-valutazzjoni ta' riċiklabilità.",
         "hr": "Norma ili metodologija korištena za ocjenu recikliranja.",
         "cs": "Norma nebo metodika použitá pro posouzení recyklovatelnosti.",
@@ -3336,6 +3376,8 @@
       },
       "description": {
         "en": "Whether the packaging is recycled at scale (required from 2035).",
+        "bg": "Указва дали опаковката се рециклира в промишлен мащаб (задължително от 2035 г.).",
+        "de": "Gibt an, ob die Verpackung im großen Maßstab recycelt wird (ab 2035 vorgeschrieben).",
         "mt": "Jekk l-imballaġġ jiġi riċikla fi skala (meħtieġ mill-2035).",
         "hr": "Je li ambalaža reciklirana u velikoj mjeri (obvezno od 2035.).",
         "cs": "Zda je obal recyklován ve velkém měřítku (povinné od roku 2035).",
@@ -3442,6 +3484,8 @@
       },
       "description": {
         "en": "Percentage efficiency of sorting the packaging in waste management infrastructure.",
+        "bg": "Процентна ефективност при сортирането на опаковката в инфраструктурата за управление на отпадъци.",
+        "de": "Prozentuale Effizienz der Sortierung der Verpackung in der Abfallwirtschaftsinfrastruktur.",
         "mt": "Perċentwal ta' effiċjenza tal-ħruġ tal-imballaġġ fl-infrastruttura tal-immaniġġjar tar-rifiuti.",
         "hr": "Postotna učinkovitost razvrstavanja ambalaže u infrastrukturi za gospodarenje otpadom.",
         "cs": "Procentuální účinnost třídění obalu v infrastruktuře odpadového hospodářství.",
@@ -3548,6 +3592,8 @@
       },
       "description": {
         "en": "Quality assessment of the recyclate output from this packaging.",
+        "bg": "Оценка на качеството на рециклата, получен от тази опаковка.",
+        "de": "Qualitätsbewertung des aus dieser Verpackung gewonnenen Rezyklats.",
         "mt": "Valutazzjoni tal-kwalità tal-output ta' riċiklat minn dan l-imballaġġ.",
         "hr": "Ocjena kvalitete reciklata dobivenog iz ove ambalaže.",
         "cs": "Posouzení kvality recyklátu získaného z tohoto obalu.",
@@ -3654,6 +3700,8 @@
       },
       "description": {
         "en": "Material type for which recycled content is declared.",
+        "bg": "Вид материал, за който е декларирано рециклирано съдържание.",
+        "de": "Materialtyp, für den recycelter Inhalt deklariert wird.",
         "mt": "Tip ta' materjal għalih jiddikjaraw kontenut riċiklat.",
         "hr": "Vrsta materijala za koju se deklarira reciklirani sadržaj.",
         "cs": "Typ materiálu, pro který se deklaruje recyklovaný obsah.",
@@ -3995,6 +4043,8 @@
       },
       "description": {
         "en": "Total percentage of recycled content in the material by weight.",
+        "bg": "Общ процент рециклирано съдържание в материала по тегло.",
+        "de": "Gesamtanteil des recycelten Inhalts im Material nach Gewicht in Prozent.",
         "mt": "Perċentwal totali ta' kontenut riċiklat fil-materjal skond il-piż.",
         "hr": "Ukupni postotak recikliranog sadržaja u materijalu po težini.",
         "cs": "Celkové procento recyklovaného obsahu v materiálu podle hmotnosti.",
@@ -4104,6 +4154,8 @@
       },
       "description": {
         "en": "Percentage of post-consumer recycled content in the material.",
+        "bg": "Процент рециклирано съдържание след потребителя в материала.",
+        "de": "Anteil des Post-Consumer-Recyclingmaterials im Material in Prozent.",
         "mt": "Perċentwal ta' kontenut riċiklat wara l-konsum fil-materjal.",
         "hr": "Postotak recikliranog sadržaja nakon potrošnje u materijalu.",
         "cs": "Procento post-spotřebitelského recyklovaného obsahu v materiálu.",
@@ -4213,6 +4265,8 @@
       },
       "description": {
         "en": "Percentage of pre-consumer (post-industrial) recycled content.",
+        "bg": "Процент рециклирано съдържание преди потребителя (постиндустриално).",
+        "de": "Anteil des Pre-Consumer-(post-industriellen) Recyclingmaterials in Prozent.",
         "mt": "Perċentwal ta' kontenut riċiklat qabel l-konsum (wara l-industrija).",
         "hr": "Postotak recikliranog sadržaja prije potrošnje (postindustrijski).",
         "cs": "Procento pre-spotřebitelského (postindustriálního) recyklovaného obsahu.",
@@ -4319,6 +4373,8 @@
       },
       "description": {
         "en": "Third-party certification scheme verifying recycled content claims.",
+        "bg": "Схема за сертификация от трета страна, потвърждаваща твърдения за рециклирано съдържание.",
+        "de": "Zertifizierungsschema einer dritten Partei zur Verifizierung von Angaben zum Recyclinganteil.",
         "mt": "Skema ta' ċertifikazzjoni minn terzi partiet li tiverrifika dikjarazzjonijiet tal-kontenut riċiklat.",
         "hr": "Shema certificiranja treće strane koja provjerava tvrdnje o recikliranom sadržaju.",
         "cs": "Certifikační schéma třetí strany ověřující prohlášení o recyklovaném obsahu.",
@@ -4425,6 +4481,8 @@
       },
       "description": {
         "en": "Whether mass balance accounting was used for recycled content calculation.",
+        "bg": "Указва дали е използвано балансиране на маса за изчисляване на рециклираното съдържание.",
+        "de": "Gibt an, ob die Massenbilanzierung für die Berechnung des Recyclinganteils verwendet wurde.",
         "mt": "Jekk il-kontabilità tal-mass balance intuża għall-kalkulazzjoni tal-kontenut riċiklat.",
         "hr": "Je li za izračun recikliranog sadržaja korišteno računovodstvo masene bilance.",
         "cs": "Zda bylo pro výpočet recyklovaného obsahu použito účetnictví hmotnostní bilance.",
@@ -4531,6 +4589,8 @@
       },
       "description": {
         "en": "Name of the packaging component for sorting/disposal instructions.",
+        "bg": "Наименование на опаковъчния компонент за инструкции за сортиране/изхвърляне.",
+        "de": "Bezeichnung des Verpackungsbestandteils für Sortier-/Entsorgungshinweise.",
         "mt": "Isem tal-komponent tal-imballaġġ għat-tagħlimiet ta' smistament/smaltiment.",
         "hr": "Naziv komponente ambalaže za upute o razvrstavanju/odlaganju.",
         "cs": "Název obalové komponenty pro pokyny k třídění/likvidaci.",
@@ -4639,6 +4699,8 @@
       },
       "description": {
         "en": "Which waste bin or stream this component should be disposed in.",
+        "bg": "В кой контейнер за отпадъци или поток трябва да се изхвърли този компонент.",
+        "de": "In welchem Abfallbehälter oder -strom dieser Bestandteil zu entsorgen ist.",
         "mt": "Liema bin tar-rifiuti jew stream dan il-komponent għandu jerġa' jitmettex fih.",
         "hr": "U koju se posudu za otpad ili tok ova komponenta treba odložiti.",
         "cs": "Do které nádoby nebo toku odpadu má být tato komponenta zlikvidována.",
@@ -4749,6 +4811,8 @@
       },
       "description": {
         "en": "URL to the harmonized sorting/disposal pictogram image for this component.",
+        "bg": "URL адрес на хармонизираното изображение на пиктограмата за сортиране/изхвърляне на този компонент.",
+        "de": "URL zum harmonisierten Piktogrammbild für Sortierung/Entsorgung dieses Bestandteils.",
         "mt": "URL għall-immaġini tal-pittogramma armonizzat ta' smistament/smaltiment għal dan il-komponent.",
         "hr": "URL usklađene slike piktograma za razvrstavanje/odlaganje za ovu komponentu.",
         "cs": "URL harmonizovaného obrázku třídicího/likvidačního piktogramu pro tuto komponentu.",
@@ -4855,6 +4919,8 @@
       },
       "description": {
         "en": "Instructions for the consumer on how to sort/dispose of this component.",
+        "bg": "Инструкции за потребителя как да сортира/изхвърли този компонент.",
+        "de": "Anweisungen für den Verbraucher zum Sortieren/Entsorgen dieses Bestandteils.",
         "mt": "Istruzzjonijiet għall-konsumatur dwar kif jismistaq/jħalli dan il-komponent.",
         "hr": "Upute potrošaču o tome kako razvrstati/odložiti ovu komponentu.",
         "cs": "Pokyny pro spotřebitele, jak tuto komponentu třídit/likvidovat.",
@@ -4964,6 +5030,8 @@
       },
       "description": {
         "en": "Language code for the localized sorting/disposal instructions.",
+        "bg": "Код на езика за локализираните инструкции за сортиране/изхвърляне.",
+        "de": "Sprachcode für die lokalisierten Sortier-/Entsorgungshinweise.",
         "mt": "Kodiċi tal-lingwa għall-istruzzjonijiet ta' smistament/smaltiment lokalizzati.",
         "hr": "Jezični kod za lokalizirane upute o razvrstavanju/odlaganju.",
         "cs": "Kód jazyka pro lokalizované pokyny k třídění/likvidaci.",
@@ -5070,6 +5138,8 @@
       },
       "description": {
         "en": "Whether this packaging is subject to a deposit-return scheme (DRS).",
+        "bg": "Указва дали тази опаковка подлежи на система за депозит и връщане (DRS).",
+        "de": "Gibt an, ob diese Verpackung einem Pfand-Rücknahme-System (DRS) unterliegt.",
         "mt": "Jekk dan l-imballaġġ huwa suġġett għal skema ta' depożitu-ritornu (DRS).",
         "hr": "Podliježe li ova ambalaža sustavu povrata pologa (DRS).",
         "cs": "Zda tento obal podléhá systému vratných záloh (DRS).",
@@ -5180,6 +5250,8 @@
       },
       "description": {
         "en": "Identifier of the deposit-return system this packaging is registered with.",
+        "bg": "Идентификатор на системата за депозит и връщане, в която е регистрирана тази опаковка.",
+        "de": "Bezeichner des Pfand-Rücknahme-Systems, bei dem diese Verpackung registriert ist.",
         "mt": "Identifikatur tas-sistema ta' depożitu-ritornu li dan l-imballaġġ hu reġistrat magħha.",
         "hr": "Identifikator sustava povrata pologa u koji je ova ambalaža registrirana.",
         "cs": "Identifikátor systému vratných záloh, ve kterém je tento obal registrován.",
@@ -5286,6 +5358,8 @@
       },
       "description": {
         "en": "Minimum number of reuse rotations/trips the packaging is designed for.",
+        "bg": "Минимален брой ротации/пътувания за многократна употреба, за които е проектирана опаковката.",
+        "de": "Mindestanzahl der Mehrweg-Rotationen/Umläufe, für die die Verpackung ausgelegt ist.",
         "mt": "Numru minimu ta' rotazzjonijiet/vjaġġi ta' ierġa' fl-użu li l-imballaġġ huwa ddisinjat għalihom.",
         "hr": "Minimalni broj ciklusa/putovanja ponovne uporabe za koje je ambalaža dizajnirana.",
         "cs": "Minimální počet opakovaných obratů/cest, pro které je obal navržen.",
@@ -5393,6 +5467,8 @@
       },
       "description": {
         "en": "Name of the reuse system or scheme the packaging participates in.",
+        "bg": "Наименование на системата или схемата за многократна употреба, в която участва опаковката.",
+        "de": "Name des Mehrwegsystems oder -programms, an dem die Verpackung teilnimmt.",
         "mt": "URL tal-Punti ta' Ġbir",
         "hr": "Naziv sustava ili sheme za ponovnu uporabu u kojoj ambalaža sudjeluje.",
         "cs": "Název systému nebo schématu opakovaného použití, kterého se obal účastní.",
@@ -5499,6 +5575,8 @@
       },
       "description": {
         "en": "URL to a page listing collection/return points for reusable packaging.",
+        "bg": "URL адрес на страница с пунктове за събиране/връщане на многократно използваеми опаковки.",
+        "de": "URL zu einer Seite mit Sammel-/Rückgabestellen für Mehrwegverpackungen.",
         "mt": "Istruzzjonijiet ta' Ri-użu",
         "hr": "URL stranice s popisom mjesta za prikupljanje/povrat višekratne ambalaže.",
         "cs": "URL stránky se seznamem sběrných/vratných míst pro opakovaně použitelné obaly.",
@@ -5605,6 +5683,8 @@
       },
       "description": {
         "en": "Instructions for the consumer on how to return or reuse the packaging.",
+        "bg": "Инструкции за потребителя как да върне или многократно да използва опаковката.",
+        "de": "Anweisungen für den Verbraucher zur Rückgabe oder Wiederverwendung der Verpackung.",
         "mt": "Isem tas-Sustanza",
         "hr": "Upute potrošaču o tome kako vratiti ili ponovno upotrijebiti ambalažu.",
         "cs": "Pokyny pro spotřebitele, jak obal vrátit nebo znovu použít.",
@@ -5711,6 +5791,8 @@
       },
       "description": {
         "en": "Name of the substance of concern present in the packaging.",
+        "bg": "Наименование на веществото, пораждащо безпокойство, присъстващо в опаковката.",
+        "de": "Bezeichnung des in der Verpackung enthaltenen besorgniserregenden Stoffs.",
         "mt": "Sustanzi ta' Ħtieġa",
         "hr": "Naziv tvari koja izaziva zabrinutost prisutne u ambalaži.",
         "cs": "Název látky vzbuzující obavy přítomné v obalu.",
@@ -5820,6 +5902,8 @@
       },
       "description": {
         "en": "Chemical Abstracts Service registry number for the substance.",
+        "bg": "CAS регистрационен номер на веществото.",
+        "de": "CAS-Registriernummer der Substanz.",
         "mt": "Konċentrazzjoni (ppm)",
         "hr": "Registarski broj Chemical Abstracts Service za tvar.",
         "cs": "Registrační číslo Chemical Abstracts Service pro danou látku.",
@@ -5926,6 +6010,8 @@
       },
       "description": {
         "en": "Concentration of the substance in the packaging material in parts per million.",
+        "bg": "Концентрация на веществото в опаковъчния материал в части на милион.",
+        "de": "Konzentration des Stoffs im Verpackungsmaterial in Teilen pro Million.",
         "mt": "Massimu Permess (ppm)",
         "hr": "Koncentracija tvari u materijalu ambalaže u dijelovima na milijun.",
         "cs": "Koncentrace látky v obalovém materiálu v částech na milion.",
@@ -6035,6 +6121,8 @@
       },
       "description": {
         "en": "Maximum allowed concentration per regulation.",
+        "bg": "Максимално допустима концентрация съгласно регламента.",
+        "de": "Maximal zulässige Konzentration gemäß Verordnung.",
         "mt": "PFAS Preżenti",
         "hr": "Najveća dopuštena koncentracija prema propisima.",
         "cs": "Maximální povolená koncentrace podle předpisu.",
@@ -6141,6 +6229,8 @@
       },
       "description": {
         "en": "Whether per- and polyfluoroalkyl substances (PFAS) are present in the packaging.",
+        "bg": "Указва дали в опаковката са налице пер- и полифлуороалкилни вещества (PFAS).",
+        "de": "Gibt an, ob per- und polyfluorierte Alkylsubstanzen (PFAS) in der Verpackung vorhanden sind.",
         "mt": "Somma ta' Metalli Peżanti (ppm)",
         "hr": "Jesu li u ambalaži prisutne per- i polifluoroalkilne tvari (PFAS).",
         "cs": "Zda jsou v obalu přítomné per- a polyfluoralkylované látky (PFAS).",
@@ -6246,6 +6336,8 @@
       },
       "description": {
         "en": "Sum of lead, cadmium, mercury and hexavalent chromium concentrations. Must be <= 100 ppm.",
+        "bg": "Сума от концентрациите на олово, кадмий, живак и шествалентен хром. Трябва да бъде ≤ 100 ppm.",
+        "de": "Summe der Konzentrationen von Blei, Cadmium, Quecksilber und sechswertigem Chrom. Muss ≤ 100 ppm sein.",
         "mt": "Massimu Permess ta' Metalli Peżanti (ppm)",
         "hr": "Zbroj koncentracija olova, kadmija, žive i šesterovalentnog kroma. Mora biti <= 100 ppm.",
         "cs": "Součet koncentrací olova, kadmia, rtuti a šestimocného chromu. Musí být <= 100 ppm.",
@@ -6351,6 +6443,8 @@
       },
       "description": {
         "en": "Regulatory maximum for the sum of Pb + Cd + Hg + Cr(VI). Currently 100 ppm.",
+        "bg": "Регулаторен максимум за сумата от Pb + Cd + Hg + Cr(VI). Понастоящем 100 ppm.",
+        "de": "Regulatorisches Maximum für die Summe aus Pb + Cd + Hg + Cr(VI). Derzeit 100 ppm.",
         "mt": "Tikketta Armonizzata Applikata",
         "hr": "Regulatorni maksimum za zbroj Pb + Cd + Hg + Cr(VI). Trenutno 100 ppm.",
         "cs": "Regulatorní maximum pro součet Pb + Cd + Hg + Cr(VI). V současnosti 100 ppm.",
@@ -6456,6 +6550,8 @@
       },
       "description": {
         "en": "Whether the packaging bears the EU harmonized labelling per PPWR Art. 12.",
+        "bg": "Указва дали опаковката носи хармонизираното етикетиране на ЕС съгласно чл. 12 от PPWR.",
+        "de": "Gibt an, ob die Verpackung die EU-harmonisierte Kennzeichnung gemäß PPWR Art. 12 trägt.",
         "mt": "Metadata tat-Tikkettazzjoni",
         "hr": "Nosi li ambalaža EU usklađenu oznaku prema čl. 12. PPWR-a.",
         "cs": "Zda obal nese EU harmonizované označení podle čl. 12 PPWR.",
@@ -6565,6 +6661,8 @@
       },
       "description": {
         "en": "URL or reference to the material composition pictogram on the packaging.",
+        "bg": "URL адрес или препратка към пиктограмата за материален състав върху опаковката.",
+        "de": "URL oder Verweis auf das Materialzusammensetzungspiktogramm auf der Verpackung.",
         "mt": "Perċentwal ta' Kontenut Bio-Bażat",
         "hr": "URL ili referenca na piktogram sastava materijala na ambalaži.",
         "cs": "URL nebo odkaz na piktogram složení materiálu na obalu.",
@@ -6670,6 +6768,8 @@
       },
       "description": {
         "en": "Voluntary declaration of bio-based content percentage in the packaging material.",
+        "bg": "Доброволна декларация за процентното съдържание на биологична основа в опаковъчния материал.",
+        "de": "Freiwillige Deklaration des biobasierten Inhaltsanteils im Verpackungsmaterial in Prozent.",
         "mt": "Kompostabilità Ċertifikata",
         "hr": "Dobrovoljna deklaracija postotka biogenog sadržaja u materijalu ambalaže.",
         "cs": "Dobrovolné prohlášení o procentu biologického obsahu v obalovém materiálu.",
@@ -6776,6 +6876,8 @@
       },
       "description": {
         "en": "Whether the packaging has been certified as compostable.",
+        "bg": "Указва дали опаковката е сертифицирана като компостируема.",
+        "de": "Gibt an, ob die Verpackung als kompostierbar zertifiziert wurde.",
         "mt": "Standard ta' Kompostabilità",
         "hr": "Je li ambalaža certificirana kao kompostabilna.",
         "cs": "Zda byl obal certifikován jako kompostovatelný.",
@@ -6882,6 +6984,8 @@
       },
       "description": {
         "en": "Standard under which compostability was certified (e.g. EN 13432).",
+        "bg": "Стандарт, по който е сертифицирана компостируемостта (напр. EN 13432).",
+        "de": "Norm, nach der die Kompostierbarkeit zertifiziert wurde (z. B. EN 13432).",
         "mt": "ID tal-Dikjarazzjoni tal-Konformità",
         "hr": "Norma prema kojoj je certificirana kompostabilnost (npr. EN 13432).",
         "cs": "Norma, podle které byla certifikována kompostovatelnost (např. EN 13432).",
@@ -6987,6 +7091,8 @@
       },
       "description": {
         "en": "Unique identifier of the EU declaration of conformity for this packaging.",
+        "bg": "Уникален идентификатор на декларацията за съответствие на ЕС за тази опаковка.",
+        "de": "Eindeutiger Bezeichner der EU-Konformitätserklärung für diese Verpackung.",
         "mt": "Dikjarazzjoni tal-Konformità",
         "hr": "Jedinstveni identifikator EU izjave o sukladnosti za ovu ambalažu.",
         "cs": "Jedinečný identifikátor EU prohlášení o shodě pro tento obal.",
@@ -7096,6 +7202,8 @@
       },
       "description": {
         "en": "Name of the entity that issued the declaration of conformity.",
+        "bg": "Наименование на субекта, издал декларацията за съответствие.",
+        "de": "Name der Stelle, die die Konformitätserklärung ausgestellt hat.",
         "mt": "Data tal-Ħruġ",
         "hr": "Naziv subjekta koji je izdao izjavu o sukladnosti.",
         "cs": "Název subjektu, který vydal prohlášení o shodě.",
@@ -7201,6 +7309,8 @@
       },
       "description": {
         "en": "Date when the declaration of conformity was issued.",
+        "bg": "Дата на издаване на декларацията за съответствие.",
+        "de": "Datum der Ausstellung der Konformitätserklärung.",
         "mt": "Tħaffef ma' Artikoli",
         "hr": "Datum izdavanja izjave o sukladnosti.",
         "cs": "Datum vydání prohlášení o shodě.",
@@ -7306,6 +7416,8 @@
       },
       "description": {
         "en": "List of PPWR articles/provisions the packaging conforms to.",
+        "bg": "Списък с членове/разпоредби от PPWR, на които отговаря опаковката.",
+        "de": "Liste der PPWR-Artikel/Bestimmungen, mit denen die Verpackung übereinstimmt.",
         "mt": "URL tad-Dokument ta' Dikjarazzjoni",
         "hr": "Popis članaka/odredbi PPWR-a s kojima je ambalaža sukladna.",
         "cs": "Seznam článků/ustanovení PPWR, se kterými je obal v souladu.",
@@ -7411,6 +7523,8 @@
       },
       "description": {
         "en": "URL to the full declaration of conformity document.",
+        "bg": "URL адрес на пълния документ за декларация за съответствие.",
+        "de": "URL zum vollständigen Konformitätserklärungsdokument.",
         "mt": "Tip ta' Trasportatur ta' Data",
         "hr": "URL cjelovitog dokumenta izjave o sukladnosti.",
         "cs": "URL úplného dokumentu prohlášení o shodě.",
@@ -7517,6 +7631,8 @@
       },
       "description": {
         "en": "Type of data carrier on the packaging (QR code per PPWR).",
+        "bg": "Вид носител на данни върху опаковката (QR код съгласно PPWR).",
+        "de": "Art des Datenträgers auf der Verpackung (QR-Code gemäß PPWR).",
         "mt": "Trasportatur ta' Data",
         "hr": "Vrsta nosača podataka na ambalaži (QR kod prema PPWR-u).",
         "cs": "Typ nosiče dat na obalu (QR kód podle PPWR).",
@@ -7774,6 +7890,8 @@
       },
       "description": {
         "en": "GS1 Digital Link URI encoded in the data carrier.",
+        "bg": "URI на GS1 Digital Link, кодиран в носителя на данни.",
+        "de": "Im Datenträger kodierter GS1 Digital Link URI.",
         "mt": "Format tal-Trasportatur ta' Data",
         "hr": "URI GS1 Digital Link kodiran u nosaču podataka.",
         "cs": "URI GS1 Digital Link zakódovaný v nosiči dat.",
@@ -7884,6 +8002,8 @@
       },
       "description": {
         "en": "Technical format specification of the data carrier.",
+        "bg": "Техническа спецификация на формата на носителя на данни.",
+        "de": "Technische Formatspezifikation des Datenträgers.",
         "mt": "Ikkodifikazzjoni tal-Trasportatur ta' Data",
         "hr": "Tehnička specifikacija formata nosača podataka.",
         "cs": "Technická specifikace formátu nosiče dat.",
@@ -7990,6 +8110,8 @@
       },
       "description": {
         "en": "Character encoding used in the data carrier.",
+        "bg": "Кодиране на символите, използвано в носителя на данни.",
+        "de": "Im Datenträger verwendete Zeichenkodierung.",
         "mt": "Perjodu ta' Żamma ta' Data (Snin)",
         "hr": "Kodiranje znakova korišteno u nosaču podataka.",
         "cs": "Kódování znaků použité v nosiči dat.",
@@ -8095,6 +8217,8 @@
       },
       "description": {
         "en": "Number of years the DPP data must be retained. 5 for single-use, 10 for reusable packaging.",
+        "bg": "Брой години, за които трябва да се съхраняват данните от DPP. 5 за еднократна употреба, 10 за многократно използваеми опаковки.",
+        "de": "Anzahl der Jahre, für die die DPP-Daten aufbewahrt werden müssen. 5 für Einwegverpackungen, 10 für Mehrwegverpackungen.",
         "mt": "Livell ta' Aċċess",
         "hr": "Broj godina koliko se podaci DPP-a moraju čuvati. 5 za jednokratnu, 10 za višekratnu ambalažu.",
         "cs": "Počet let, po které musí být data DPP uchovávána. 5 pro jednorázové, 10 pro opakovaně použitelné obaly.",
@@ -8204,6 +8328,8 @@
       },
       "description": {
         "en": "Default data access tier for the data carrier content.",
+        "bg": "Ниво на достъп до данни по подразбиране за съдържанието на носителя на данни.",
+        "de": "Standardmäßige Datenzugriffsstufe für den Inhalt des Datenträgers.",
         "mt": "Pubbliku",
         "hr": "Zadana razina pristupa podacima za sadržaj nosača podataka.",
         "cs": "Výchozí úroveň přístupu k datům pro obsah nosiče dat.",
@@ -8401,6 +8527,8 @@
       },
       "description": {
         "en": "Percentage of empty space in the packaging relative to total volume.",
+        "bg": "Процент празно пространство в опаковката спрямо общия обем.",
+        "de": "Anteil des Leerraums in der Verpackung in Prozent des Gesamtvolumens.",
         "mt": "Tnaqqis tar-Rifiuti",
         "hr": "Postotak praznog prostora u ambalaži u odnosu na ukupni volumen.",
         "cs": "Procento prázdného prostoru v obalu vůči celkovému objemu.",
@@ -8510,6 +8638,8 @@
       },
       "description": {
         "en": "Maximum empty space ratio for grouped, transport and e-commerce packaging: 50% under PPWR Art. 24(1), applying from 1 Jan 2030 or 3 years after the Art. 24(2) implementing act, whichever is later. The duty falls on the operator who fills the packaging.",
+        "bg": "Максималното съотношение на празно пространство за групова, транспортна опаковка и опаковка за електронна търговия е 50% съгласно чл. 24(1) от PPWR, приложимо от 1 януари 2030 г. или 3 години след акта за изпълнение по чл. 24(2), в зависимост от това кое е по-късно. Задължението се носи от оператора, който пълни опаковката.",
+        "de": "Maximales Leerraumverhältnis für Gruppen-, Transport- und E-Commerce-Verpackungen: 50% gemäß PPWR Art. 24(1), geltend ab 1. Jan. 2030 oder 3 Jahre nach dem Durchführungsrechtsakt gemäß Art. 24(2), je nachdem, was später eintritt. Die Pflicht trifft den Betreiber, der die Verpackung befüllt.",
         "mt": "Proporzjon massimu tal-ispazju vojt għall-imballaġġ miġbur, tat-trasport u tal-kummerċ elettroniku: 50% skont l-art. 24(1) tal-PPWR, applikabbli mill-1 Jan. 2030 jew 3 snin wara l-att ta' implimentazzjoni tal-art. 24(2), ikun liema jkun l-iktar tard. L-obbligu jaqa' fuq l-operatur li jmela l-imballaġġ.",
         "hr": "Maksimalni omjer praznog prostora za skupnu, transportnu i embalažu e-trgovine: 50% prema čl. 24(1) PPWR-a, primjenjuje se od 1. sij. 2030. ili 3 godine nakon provedbenog akta iz čl. 24(2), ovisno o tome što je kasnije. Obveza pada na operatora koji puni ambalažu.",
         "cs": "Maximální poměr prázdného prostoru pro skupinové, přepravní a e-commerce obaly: 50 % dle čl. 24 odst. 1 PPWR, platné od 1. 1. 2030 nebo 3 roky po prováděcím aktu podle čl. 24 odst. 2, pokud je pozdější. Povinnost nese plnič obalu.",
@@ -8616,6 +8746,8 @@
       },
       "description": {
         "en": "Whether the packaging weight has been optimised to the minimum necessary for safety and hygiene.",
+        "bg": "Указва дали теглото на опаковката е оптимизирано до необходимия минимум за безопасност и хигиена.",
+        "de": "Gibt an, ob das Verpackungsgewicht auf das für Sicherheit und Hygiene notwendige Minimum optimiert wurde.",
         "hr": "Je li težina ambalaže optimizirana na minimum potreban za sigurnost i higijenu.",
         "cs": "Zda byla hmotnost obalu optimalizována na minimum nezbytné pro bezpečnost a hygienu.",
         "da": "Om emballagens vægt er optimeret til det minimum, der er nødvendigt for sikkerhed og hygiejne.",

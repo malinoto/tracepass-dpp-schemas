@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "GS1 Digital Link URI or ISO 15459 identifier uniquely identifying this construction product",
+        "bg": "URI на GS1 Digital Link или идентификатор по ISO 15459, уникално идентифициращ този строителен продукт",
+        "de": "GS1 Digital Link URI oder ISO 15459 Kennung zur eindeutigen Identifizierung dieses Bauprodukts",
         "lt": "GS1 skaitmeninė nuoroda URI arba ISO 15459 identifikatorius, unikaliai identifikuojantis šį statybinį produktą",
         "es": "URI de Enlace Digital GS1 o identificador ISO 15459 que identifica de forma única este producto de construcción",
         "hr": "GS1 Digital Link URI ili ISO 15459 identifikator koji jedinstveno identificira ovaj građevinski proizvod",
@@ -179,6 +181,8 @@
       },
       "description": {
         "en": "GTIN identifying the product type or model",
+        "bg": "GTIN, идентифициращ вида или модела на продукта",
+        "de": "GTIN zur Identifizierung des Produkttyps oder -modells",
         "lt": "GTIN identifikuojantis produkto tipą arba modelį",
         "es": "GTIN que identifica el tipo de producto o modelo",
         "hr": "GTIN koji identificira vrstu ili model proizvoda",
@@ -287,6 +291,8 @@
       },
       "description": {
         "en": "Batch or lot number per GS1 AI 10",
+        "bg": "Номер на партидата по GS1 AI 10",
+        "de": "Chargen- oder Losnummer gemäß GS1 AI 10",
         "lt": "Partijos arba serijos numeris pagal GS1 AI 10",
         "es": "Número de lote o serie según GS1 AI 10",
         "hr": "Broj serije ili lota prema GS1 AI 10",
@@ -395,6 +401,8 @@
       },
       "description": {
         "en": "Individual item serial number, optional per delegated act",
+        "bg": "Сериен номер на конкретната единица, незадължителен съгласно делегирания акт",
+        "de": "Seriennummer des einzelnen Artikels, optional gemäß delegiertem Rechtsakt",
         "lt": "Individualaus elemento serijos numeris, neprivalomas pagal deleguotą aktą",
         "es": "Número de serie del artículo individual, opcional según acto delegado",
         "hr": "Serijski broj pojedinačnog proizvoda, neobvezan prema delegiranom aktu",
@@ -502,6 +510,8 @@
       },
       "description": {
         "en": "Full legal name and registered address of the manufacturer",
+        "bg": "Пълно правно наименование и регистриран адрес на производителя",
+        "de": "Vollständige rechtliche Bezeichnung und eingetragene Adresse des Herstellers",
         "lt": "Pilnas oficialus pavadinimas ir registruotas gamintojo adresas",
         "es": "Nombre legal completo y dirección registrada del fabricante",
         "hr": "Puni pravni naziv i registrirana adresa proizvođača",
@@ -610,6 +620,8 @@
       },
       "description": {
         "en": "Authorized representative within the EU, if applicable",
+        "bg": "Упълномощен представител в ЕС, ако е приложимо",
+        "de": "Bevollmächtigter Vertreter in der EU, falls zutreffend",
         "lt": "Įgaliotasis atstovas ES teritorijoje, jei taikytina",
         "es": "Representante autorizado en la UE, si procede",
         "hr": "Ovlašteni zastupnik unutar EU-a, ako je primjenjivo",
@@ -717,6 +729,8 @@
       },
       "description": {
         "en": "Location (city/country) where the product was manufactured",
+        "bg": "Местонахождение (град/страна) на производство на продукта",
+        "de": "Ort (Stadt/Land), an dem das Produkt hergestellt wurde",
         "lt": "Vieta (miestas/šalis), kurioje buvo pagamintas produktas",
         "es": "Ubicación (ciudad/país) donde se fabricó el producto",
         "hr": "Lokacija (grad/država) gdje je proizvod proizveden",
@@ -824,6 +838,8 @@
       },
       "description": {
         "en": "Product family classification per CPR Annex VII (36 families)",
+        "bg": "Класификация на продуктовото семейство по Приложение VII на CPR (36 семейства)",
+        "de": "Produktfamilienklassifikation gemäß Anhang VII der CPR (36 Familien)",
         "lt": "Produkto šeimos klasifikacija pagal CPR Priedo VII (36 šeimos)",
         "es": "Clasificación de familia de productos según Anexo VII del CPR (36 familias)",
         "hr": "Klasifikacija obitelji proizvoda prema Prilogu VII. CPR-u (36 obitelji)",
@@ -1136,6 +1152,8 @@
       },
       "description": {
         "en": "Compressive strength, tensile strength, and load-bearing capacity per Annex I basic requirement 1",
+        "bg": "Якост на натиск, якост на опън и носеща способност съгласно основно изискване 1 от Приложение I",
+        "de": "Druckfestigkeit, Zugfestigkeit und Tragfähigkeit gemäß Grundanforderung 1 des Anhangs I",
         "lt": "Gniuždomasis stipris, tempimo stipris ir laikomoji galia pagal I priedo pagrindinį reikalavimą 1",
         "es": "Resistencia a la compresión, resistencia a la tracción y capacidad de carga según requisito básico 1 del Anexo I",
         "hr": "Tlačna čvrstoća, vlačna čvrstoća i nosivost prema osnovnom zahtjevu 1 iz Priloga I.",
@@ -1245,6 +1263,8 @@
       },
       "description": {
         "en": "Euroclass reaction to fire (A1-F), fire resistance (REI), and external fire performance per Annex I basic requirement 2",
+        "bg": "Еврокласа за реакция на огън (A1-F), огнеустойчивост (REI) и поведение при пожар от вън по основно изискване 2 от Приложение I",
+        "de": "Euroklasse der Brandreaktion (A1-F), Feuerwiderstand (REI) und Außenbrandverhalten gemäß Grundanforderung 2 des Anhangs I",
         "lt": "Euroklasė dėl ugni greito plitimo (A1-F), ugniai atsparumo (REI) ir išorinės ugnies atlikimo pagal I priedo pagrindinį reikalavimą 2",
         "es": "Clase Euroclass de reacción al fuego (A1-F), resistencia al fuego (REI) y prestaciones de fuego externo según requisito básico 2 del Anexo I",
         "hr": "Euroklasa reakcije na požar (A1-F), otpornost na požar (REI) i vanjska požarna svojstva prema osnovnom zahtjevu 2 iz Priloga I.",
@@ -1355,6 +1375,8 @@
       },
       "description": {
         "en": "Dangerous substance release, water permeability per Annex I basic requirement 3",
+        "bg": "Отделяне на опасни вещества, водопропускливост съгласно основно изискване 3 от Приложение I",
+        "de": "Freisetzung gefährlicher Stoffe, Wasserdurchlässigkeit gemäß Grundanforderung 3 des Anhangs I",
         "lt": "Pavojingos medžiagos išskyrimas, vandens skvarba pagal I priedo pagrindinį reikalavimą 3",
         "es": "Liberación de sustancias peligrosas, permeabilidad al agua según requisito básico 3 del Anexo I",
         "hr": "Otpuštanje opasnih tvari, propusnost vode prema osnovnom zahtjevu 3 iz Priloga I.",
@@ -1465,6 +1487,8 @@
       },
       "description": {
         "en": "Slip resistance and impact resistance per Annex I basic requirement 4",
+        "bg": "Устойчивост на хлъзгане и устойчивост на удар съгласно основно изискване 4 от Приложение I",
+        "de": "Rutschfestigkeit und Stoßfestigkeit gemäß Grundanforderung 4 des Anhangs I",
         "lt": "Slydimo atsparumas ir smūgio atsparumas pagal I priedo pagrindinį reikalavimą 4",
         "es": "Resistencia al deslizamiento y resistencia al impacto según requisito básico 4 del Anexo I",
         "hr": "Otpornost na klizanje i udarna otpornost prema osnovnom zahtjevu 4 iz Priloga I.",
@@ -1574,6 +1598,8 @@
       },
       "description": {
         "en": "Sound absorption and airborne sound insulation per Annex I basic requirement 5",
+        "bg": "Звукопоглъщане и въздушна звукоизолация съгласно основно изискване 5 от Приложение I",
+        "de": "Schallabsorption und Luftschallschutz gemäß Grundanforderung 5 des Anhangs I",
         "lt": "Garso sugėrimas ir oro sklidimo garso izoliacija pagal I priedo pagrindinį reikalavimą 5",
         "es": "Absorción de sonido y aislamiento acústico a ruido aéreo según requisito básico 5 del Anexo I",
         "hr": "Apsorpcija zvuka i izolacija od zvuka u zraku prema osnovnom zahtjevu 5 iz Priloga I.",
@@ -1683,6 +1709,8 @@
       },
       "description": {
         "en": "Thermal conductivity (lambda) and thermal resistance (R-value) per Annex I basic requirement 6",
+        "bg": "Топлопроводимост (ламбда) и топлинно съпротивление (R-стойност) съгласно основно изискване 6 от Приложение I",
+        "de": "Wärmeleitfähigkeit (Lambda) und Wärmewiderstand (R-Wert) gemäß Grundanforderung 6 des Anhangs I",
         "lt": "Šilumos laidumas (lambda) ir šilumos atsparumas (R vertė) pagal I priedo pagrindinį reikalavimą 6",
         "es": "Conductividad térmica (lambda) y resistencia térmica (valor R) según requisito básico 6 del Anexo I",
         "hr": "Toplinska vodljivost (lambda) i toplinski otpor (R-vrijednost) prema osnovnom zahtjevu 6 iz Priloga I.",
@@ -1793,6 +1821,8 @@
       },
       "description": {
         "en": "Durability, recyclability, secondary materials content, and LCA data per Annex I basic requirement 7 (NEW in revised CPR)",
+        "bg": "Трайност, рециклируемост, съдържание на вторични материали и данни от LCA съгласно основно изискване 7 от Приложение I (НОВО в преработения CPR)",
+        "de": "Haltbarkeit, Recyclingfähigkeit, Sekundärmaterialgehalt und LCA-Daten gemäß Grundanforderung 7 des Anhangs I (NEU im überarbeiteten CPR)",
         "lt": "Ilgaamžiškumas, perdirbamumas, antrinių medžiagų turinys ir GDV duomenys pagal I priedo pagrindinį reikalavimą 7 (NAUJAS perintoame CPR)",
         "es": "Durabilidad, reciclabilidad, contenido de materiales secundarios y datos de ACV según requisito básico 7 del Anexo I (NUEVO en CPR revisado)",
         "hr": "Trajnost, mogućnost recikliranja, udio sekundarnih materijala i LCA podaci prema osnovnom zahtjevu 7 iz Priloga I. (NOVO u revidiranom CPR-u)",
@@ -1903,6 +1933,8 @@
       },
       "description": {
         "en": "Total global warming potential including fossil, biogenic, and land use components",
+        "bg": "Общ потенциал за глобално затопляне, включително изкопаеми, биогенни компоненти и използване на земята",
+        "de": "Gesamtes Treibhauspotenzial einschließlich fossiler, biogener und landnutzungsbezogener Anteile",
         "lt": "Bendras pasaulinis atšilimo potencialas, įskaitant iškastinio kuro, biogenines ir žemės naudojimo sudedamąsias dalis",
         "es": "Potencial de calentamiento global total incluyendo componentes fósiles, biogénicos y de uso de tierra",
         "hr": "Ukupni potencijal globalnog zagrijavanja uključujući fosilne, biogene i komponente korištenja zemljišta",
@@ -2012,6 +2044,8 @@
       },
       "description": {
         "en": "Global warming potential from fossil fuel sources",
+        "bg": "Потенциал за глобално затопляне от изкопаеми горива",
+        "de": "Treibhauspotenzial aus fossilen Brennstoffquellen",
         "lt": "Pasaulinis atšilimo potencialas iš iškastinio kuro šaltinių",
         "es": "Potencial de calentamiento global de fuentes de combustibles fósiles",
         "hr": "Potencijal globalnog zagrijavanja iz fosilnih goriva",
@@ -2119,6 +2153,8 @@
       },
       "description": {
         "en": "Global warming potential from biogenic carbon sources",
+        "bg": "Потенциал за глобално затопляне от биогенни въглеродни източници",
+        "de": "Treibhauspotenzial aus biogenen Kohlenstoffquellen",
         "lt": "Pasaulinis atšilimo potencialas iš biogeninio anglies šaltinių",
         "es": "Potencial de calentamiento global de fuentes de carbono biogénico",
         "hr": "Potencijal globalnog zagrijavanja iz biogenih izvora ugljika",
@@ -2226,6 +2262,8 @@
       },
       "description": {
         "en": "Global warming potential from land use and land use change",
+        "bg": "Потенциал за глобално затопляне от използване на земята и промяна в използването на земята",
+        "de": "Treibhauspotenzial aus Landnutzung und Landnutzungsänderung",
         "lt": "Pasaulinis atšilimo potencialas dėl žemės naudojimo ir žemės naudojimo pokyčio",
         "es": "Potencial de calentamiento global del uso de tierra y cambio de uso de tierra",
         "hr": "Potencijal globalnog zagrijavanja iz korištenja zemljišta i promjene korištenja zemljišta",
@@ -2334,6 +2372,8 @@
       },
       "description": {
         "en": "Ozone depletion potential",
+        "bg": "Потенциал за изчерпване на озоновия слой",
+        "de": "Ozonschichtabbaupotenzial",
         "lt": "Ozoninės skylės susilpnėjimo potencialas",
         "es": "Potencial de agotamiento del ozono",
         "hr": "Potencijal oštećenja ozonskog sloja",
@@ -2441,6 +2481,8 @@
       },
       "description": {
         "en": "Acidification potential of soil and water",
+        "bg": "Потенциал за подкисляване на почвата и водата",
+        "de": "Versauerungspotenzial von Boden und Wasser",
         "lt": "Dirvožemio ir vandens acidifikacijos potencialas",
         "es": "Potencial de acidificación del suelo y agua",
         "hr": "Potencijal zakiseljavanja tla i vode",
@@ -2548,6 +2590,8 @@
       },
       "description": {
         "en": "Freshwater eutrophication potential",
+        "bg": "Потенциал за еутрофикация на сладките води",
+        "de": "Eutrophierungspotenzial von Süßgewässern",
         "lt": "Gėlo vandens eutrofikacijos potencialas",
         "es": "Potencial de eutrofización de agua dulce",
         "hr": "Potencijal eutrofikacije slatkih voda",
@@ -2655,6 +2699,8 @@
       },
       "description": {
         "en": "Marine eutrophication potential",
+        "bg": "Потенциал за морска еутрофикация",
+        "de": "Meereseutrophierungspotenzial",
         "lt": "Jūrinio vandens eutrofikacijos potencialas",
         "es": "Potencial de eutrofización marina",
         "hr": "Potencijal eutrofikacije mora",
@@ -2762,6 +2808,8 @@
       },
       "description": {
         "en": "Terrestrial eutrophication potential",
+        "bg": "Потенциал за наземна еутрофикация",
+        "de": "Terrestrisches Eutrophierungspotenzial",
         "lt": "Žeminės eutrofikacijos potencialas",
         "es": "Potencial de eutrofización terrestre",
         "hr": "Potencijal kopnene eutrofikacije",
@@ -2869,6 +2917,8 @@
       },
       "description": {
         "en": "Photochemical ozone creation potential (smog formation)",
+        "bg": "Потенциал за фотохимично образуване на озон (смог)",
+        "de": "Photochemisches Ozonbildungspotenzial (Smogbildung)",
         "lt": "Fotocheminio ozono susidarymo potencialas (smogo susidarymas)",
         "es": "Potencial de creación fotoquímica de ozono (formación de smog)",
         "hr": "Potencijal stvaranja fotokemijskog ozona (stvaranje smoga)",
@@ -2977,6 +3027,8 @@
       },
       "description": {
         "en": "Abiotic depletion potential for minerals and metals",
+        "bg": "Потенциал за абиотично изчерпване на минерали и метали",
+        "de": "Abiotisches Ressourcenverarmungspotenzial für Mineralien und Metalle",
         "lt": "Abiotinio nykimo potencialas mineralams ir metalams",
         "es": "Potencial de agotamiento abiótico de minerales y metales",
         "hr": "Potencijal abiotičkog iscrpljivanja minerala i metala",
@@ -3085,6 +3137,8 @@
       },
       "description": {
         "en": "Abiotic depletion potential for fossil resources",
+        "bg": "Потенциал за абиотично изчерпване на изкопаеми ресурси",
+        "de": "Abiotisches Ressourcenverarmungspotenzial für fossile Ressourcen",
         "lt": "Abiotinio nykimo potencialas iškastiniam kurui",
         "es": "Potencial de agotamiento abiótico de recursos fósiles",
         "hr": "Potencijal abiotičkog iscrpljivanja fosilnih resursa",
@@ -3193,6 +3247,8 @@
       },
       "description": {
         "en": "Water deprivation potential",
+        "bg": "Потенциал за недостиг на вода",
+        "de": "Wasserknappheitspotenzial",
         "lt": "Vandens atimties potencialas",
         "es": "Potencial de privación de agua",
         "hr": "Potencijal uskraćivanja vode",
@@ -3301,6 +3357,8 @@
       },
       "description": {
         "en": "Life cycle stages covered: A1-A3 mandatory, C1-C4 and Module D mandatory under EN 15804+A2",
+        "bg": "Покрити жизненоциклови етапи: A1-A3 задължителни, C1-C4 и Модул D задължителни по EN 15804+A2",
+        "de": "Abgedeckte Lebenszyklusstadien: A1-A3 Pflicht, C1-C4 und Modul D Pflicht nach EN 15804+A2",
         "lt": "Apimti gyvavimo ciklo etapai: A1-A3 privalomi, C1-C4 ir modul D privalomi pagal EN 15804+A2",
         "es": "Etapas del ciclo de vida cubiertas: A1-A3 obligatorio, C1-C4 y Módulo D obligatorio bajo EN 15804+A2",
         "hr": "Obuhvaćene faze životnog ciklusa: A1-A3 obvezne, C1-C4 i modul D obvezni prema EN 15804+A2",
@@ -3906,6 +3964,8 @@
       },
       "description": {
         "en": "Percentage of recycled material content in the product",
+        "bg": "Процент рециклирано съдържание в продукта",
+        "de": "Anteil recycelter Materialien im Produkt in Prozent",
         "lt": "Perdirbtos medžiagos turinio procentas produkte",
         "es": "Porcentaje de contenido de material reciclado en el producto",
         "hr": "Postotak udjela recikliranog materijala u proizvodu",
@@ -4015,6 +4075,8 @@
       },
       "description": {
         "en": "Substances of concern per REACH/SCIP with CAS numbers",
+        "bg": "Вещества, пораждащи безпокойство, по REACH/SCIP с CAS номера",
+        "de": "Besorgniserregende Stoffe gemäß REACH/SCIP mit CAS-Nummern",
         "lt": "Sukeliančios susirūpinimą medžiagos pagal REACH/SCIP su CAS numeriais",
         "es": "Sustancias de preocupación según REACH/SCIP con números CAS",
         "hr": "Tvari koje izazivaju zabrinutost prema REACH/SCIP s CAS brojevima",
@@ -4124,6 +4186,8 @@
       },
       "description": {
         "en": "Expected service life in years or durability class",
+        "bg": "Очакван полезен живот в години или клас на дълготрайност",
+        "de": "Erwartete Nutzungsdauer in Jahren oder Haltbarkeitsklasse",
         "lt": "Numatyta tarnavimo trukmė metais arba ilgaamžiškumo klasė",
         "es": "Vida útil esperada en años o clase de durabilidad",
         "hr": "Očekivani vijek uporabe u godinama ili klasa trajnosti",
@@ -4233,6 +4297,8 @@
       },
       "description": {
         "en": "Instructions and guidance for repair and reuse of the product",
+        "bg": "Инструкции и насоки за ремонт и повторна употреба на продукта",
+        "de": "Anweisungen und Hinweise zur Reparatur und Wiederverwendung des Produkts",
         "lt": "Instrukcijos ir vadovavimas remontui ir produkto pakartotiniam naudojimui",
         "es": "Instrucciones y orientación para reparación y reutilización del producto",
         "hr": "Upute i smjernice za popravak i ponovnu uporabu proizvoda",
@@ -4340,6 +4406,8 @@
       },
       "description": {
         "en": "Instructions for end-of-life treatment and demolition/deconstruction",
+        "bg": "Инструкции за третиране в края на жизнения цикъл и демонтаж/деконструкция",
+        "de": "Anweisungen für die Behandlung am Lebensende und Abriss/Rückbau",
         "lt": "Instrukcijos pabaigos apdorojimui ir griovimui/dekonstrukcijai",
         "es": "Instrucciones para tratamiento de fin de vida y demolición/deconstrucción",
         "hr": "Upute za postupanje na kraju životnog vijeka i rušenje/demontažu",
@@ -4448,6 +4516,8 @@
       },
       "description": {
         "en": "Recyclability assessment per EN 15804 Module D",
+        "bg": "Оценка на рециклируемостта по EN 15804 Модул D",
+        "de": "Recyclingfähigkeitsbewertung nach EN 15804 Modul D",
         "lt": "Perdirbamo vertinimas pagal EN 15804 modulį D",
         "es": "Evaluación de reciclabilidad según EN 15804 Módulo D",
         "hr": "Procjena mogućnosti recikliranja prema EN 15804 modulu D",
@@ -4557,6 +4627,8 @@
       },
       "description": {
         "en": "Environmental analysis of product packaging materials and recyclability",
+        "bg": "Екологичен анализ на опаковъчните материали на продукта и тяхната рециклируемост",
+        "de": "Umweltanalyse der Produktverpackungsmaterialien und ihrer Recyclingfähigkeit",
         "lt": "Produkto pakavimo medžiagų aplinkos analizė ir perdirbamumas",
         "es": "Análisis ambiental de materiales de embalaje del producto y reciclabilidad",
         "hr": "Analiza okolišnog utjecaja materijala ambalaže proizvoda i mogućnosti recikliranja",
@@ -4663,7 +4735,9 @@
         "sv": "CE-märkningsstatus"
       },
       "description": {
-        "en": "Whether the product bears CE marking and its validity CE marking is affixed to the product or its packaging and is obligatory only where a harmonised specification or ETA covers the product.",
+        "en": "Whether the product bears CE marking and its validity",
+        "bg": "Дали продуктът носи маркировка CE и нейната валидност",
+        "de": "Ob das Produkt die CE-Kennzeichnung trägt und deren Gültigkeit",
         "lt": "Ar produktas turi CE žymelį ir jo galiojimo terminas",
         "es": "Si el producto lleva marcado CE y su validez",
         "hr": "Ima li proizvod CE oznaku i njezinu valjanost",
@@ -4861,6 +4935,8 @@
       },
       "description": {
         "en": "Assessment and Verification of Constancy of Performance system level",
+        "bg": "Ниво на системата за оценяване и проверка на постоянството на експлоатационните показатели",
+        "de": "Systemstufe für die Bewertung und Überprüfung der Leistungsbeständigkeit",
         "lt": "Konstancinės atlikties vertinimo ir patvirtinimo sistemos lygis",
         "es": "Nivel del sistema de Evaluación y Verificación de la Constancia del Desempeño",
         "hr": "Razina sustava ocjenjivanja i provjere stalnosti svojstava",
@@ -5145,6 +5221,8 @@
       },
       "description": {
         "en": "Name and identification number of the Notified Body involved in conformity assessment",
+        "bg": "Наименование и идентификационен номер на нотифицирания орган, участващ в оценяването на съответствието",
+        "de": "Name und Kennnummer der an der Konformitätsbewertung beteiligten Notifizierten Stelle",
         "lt": "Notifikuoto subjekto, dalyvaujančio atitikties vertinime, pavadinimas ir identifikacijos numeris",
         "es": "Nombre e identificación del Organismo Notificado implicado en la evaluación de la conformidad",
         "hr": "Naziv i identifikacijski broj prijavljenog tijela uključenog u ocjenjivanje sukladnosti",
@@ -5254,6 +5332,8 @@
       },
       "description": {
         "en": "URIs or references to test and assessment reports",
+        "bg": "URI или препратки към протоколи от изпитвания и оценки",
+        "de": "URIs oder Verweise auf Prüf- und Bewertungsberichte",
         "lt": "URI arba nuorodos į bandymų ir vertinimo ataskaitas",
         "es": "URIs o referencias a informes de prueba y evaluación",
         "hr": "URI-ji ili reference na izvješća o ispitivanju i ocjeni",
@@ -5363,6 +5443,8 @@
       },
       "description": {
         "en": "Third-party Environmental Product Declaration verification, required for AVCP 3+ (NEW in revised CPR)",
+        "bg": "Проверка на EPD от трета страна, задължителна за AVCP 3+ (НОВО в преработения CPR)",
+        "de": "Drittpartei-Verifizierung der EPD, erforderlich für AVCP 3+ (NEU im überarbeiteten CPR)",
         "lt": "Trečiosios šalies Aplinkosauginės produkto deklaracijos patikrinimas, reikalingas AVCP 3+ (NAUJAS perintoame CPR)",
         "es": "Verificación de Declaración Ambiental de Producto de terceros, requerida para AVCP 3+ (NUEVO en CPR revisado)",
         "hr": "Provjera Okolišne deklaracije proizvoda od treće strane, obvezna za AVCP 3+ (NOVO u revidiranom CPR-u)",
@@ -5474,6 +5556,8 @@
       },
       "description": {
         "en": "Reference to the applicable harmonized European standard (hEN)",
+        "bg": "Препратка към приложимия хармонизиран европейски стандарт (hEN)",
+        "de": "Verweis auf die anwendbare harmonisierte europäische Norm (hEN)",
         "lt": "Nuoroda į taikytiną suderintą Europos standartą (hEN)",
         "es": "Referencia a la norma europea armonizada aplicable (hEN)",
         "hr": "Referenca na primjenjivu usklađenu europsku normu (hEN)",
@@ -5583,6 +5667,8 @@
       },
       "description": {
         "en": "European Assessment Document reference, if no harmonized standard exists",
+        "bg": "Препратка към европейски оценъчен документ, ако не съществува хармонизиран стандарт",
+        "de": "Verweis auf das Europäische Bewertungsdokument, sofern keine harmonisierte Norm vorhanden ist",
         "lt": "Europos vertinimo dokumento nuoroda, jei suderintas standartas neegzistuoja",
         "es": "Referencia del Documento de Evaluación Europea, si no existe norma armonizada",
         "hr": "Referenca Europskog dokumenta za ocjenjivanje, ako ne postoji usklađena norma",
@@ -5690,6 +5776,8 @@
       },
       "description": {
         "en": "Instructions for proper installation of the construction product",
+        "bg": "Инструкции за правилен монтаж на строителния продукт",
+        "de": "Anweisungen für die ordnungsgemäße Installation des Bauprodukts",
         "lt": "Instrukcijos statybinio produkto tinkamam montavimui",
         "es": "Instrucciones para la instalación correcta del producto de construcción",
         "hr": "Upute za pravilnu ugradnju građevinskog proizvoda",
@@ -5798,6 +5886,8 @@
       },
       "description": {
         "en": "Guidance on maintenance and care of the product during its service life",
+        "bg": "Насоки за поддръжка и грижа за продукта по време на неговия полезен живот",
+        "de": "Hinweise zur Wartung und Pflege des Produkts während seiner Nutzungsdauer",
         "lt": "Vadovavimas produkto priežiūrai ir priežiūrai jo tarnavimo metu",
         "es": "Orientación sobre el mantenimiento y cuidado del producto durante su vida útil",
         "hr": "Smjernice za održavanje i brigu o proizvodu tijekom njegova vijeka uporabe",
@@ -5905,6 +5995,8 @@
       },
       "description": {
         "en": "Safety data sheet references and hazardous substance labelling information",
+        "bg": "Препратки към информационните листове за безопасност и информация за етикетирането на опасни вещества",
+        "de": "Referenzen auf Sicherheitsdatenblätter und Kennzeichnungsinformationen für gefährliche Stoffe",
         "lt": "Saugos duomenų šaltiniai ir pavojingų medžiagų žymėjimo informacija",
         "es": "Referencias de ficha de datos de seguridad e información de etiquetado de sustancias peligrosas",
         "hr": "Reference sigurnosno-tehničkih listova i informacije o označavanju opasnih tvari",
@@ -6015,6 +6107,8 @@
       },
       "description": {
         "en": "Product warranty details including duration and coverage",
+        "bg": "Подробности за гаранцията на продукта, включително срок и обхват",
+        "de": "Produktgarantiedetails einschließlich Dauer und Umfang",
         "lt": "Produkto garantijos detalizavimas, įskaitant trukmę ir aprėptį",
         "es": "Detalles de garantía del producto incluyendo duración y cobertura",
         "hr": "Pojedinosti o jamstvu za proizvod uključujući trajanje i pokriće",
@@ -6123,6 +6217,8 @@
       },
       "description": {
         "en": "Description of the intended use(s) of the construction product",
+        "bg": "Описание на предвидената(ите) употреба(и) на строителния продукт",
+        "de": "Beschreibung der vorgesehenen Verwendung(en) des Bauprodukts",
         "lt": "Statybinio produkto numatytojo naudojimo aprašymas",
         "es": "Descripción del/de los uso(s) previsto(s) del producto de construcción",
         "hr": "Opis namjeravane(ih) uporabe(a) građevinskog proizvoda",

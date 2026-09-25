@@ -68,6 +68,8 @@
       },
       "description": {
         "en": "Globally unique product identifier following GS1 GTIN-14 standard",
+        "bg": "Глобално уникален идентификатор на продукта по стандарта GS1 GTIN-14.",
+        "de": "Global eindeutiger Produktbezeichner gemäß GS1 GTIN-14-Standard.",
         "nl": "Wereldwijd unieke productidentificatie volgens GS1 GTIN-14 standaard",
         "hr": "Globalno jedinstveni identifikator proizvoda prema standardu GS1 GTIN-14",
         "cs": "Globálně jedinečný identifikátor produktu podle standardu GS1 GTIN-14",
@@ -181,6 +183,8 @@
       },
       "description": {
         "en": "Manufacturer's model number or variant identifier",
+        "bg": "Номер на модела или идентификатор на варианта на производителя.",
+        "de": "Modellnummer oder Variantenbezeichner des Herstellers.",
         "nl": "Modelnummer of variantidentificatie van de fabrikant",
         "hr": "Proizvođačev broj modela ili identifikator varijante",
         "cs": "Číslo modelu výrobce nebo identifikátor varianty",
@@ -289,6 +293,8 @@
       },
       "description": {
         "en": "Production batch identifier for traceability and recalls",
+        "bg": "Идентификатор на производствената партида за проследимост и изтегляния от пазара.",
+        "de": "Produktionschargenbezeichner für Rückverfolgbarkeit und Rückrufe.",
         "nl": "Productiebatch-identificatie voor traceerbaarheid en terugroepingen",
         "hr": "Identifikator proizvodne serije za sljedivost i opoziv",
         "cs": "Identifikátor výrobní šarže pro sledovatelnost a stahování z trhu",
@@ -396,6 +402,8 @@
       },
       "description": {
         "en": "Item-level unique serial number (optional, for item-level tracking)",
+        "bg": "Уникален сериен номер на ниво артикул (незадължителен, за проследяване на ниво артикул).",
+        "de": "Eindeutige Seriennummer auf Artikelebene (optional, für Tracking auf Artikelebene).",
         "nl": "Uniek serienummer op artikelniveau (optioneel, voor tracking op artikelniveau)",
         "hr": "Jedinstveni serijski broj na razini artikla (neobavezno, za praćenje po artiklu)",
         "cs": "Jedinečné sériové číslo na úrovni položky (volitelné, pro sledování položek)",
@@ -504,6 +512,8 @@
       },
       "description": {
         "en": "Legal name of the manufacturer",
+        "bg": "Официално наименование на производителя.",
+        "de": "Rechtlicher Name des Herstellers.",
         "nl": "Juridische naam van de fabrikant",
         "hr": "Pravni naziv proizvođača",
         "cs": "Obchodní firma výrobce",
@@ -611,6 +621,8 @@
       },
       "description": {
         "en": "Registered address of the manufacturer",
+        "bg": "Регистриран адрес на производителя.",
+        "de": "Eingetragene Anschrift des Herstellers.",
         "nl": "Geregistreerd adres van de fabrikant",
         "hr": "Registrirana adresa proizvođača",
         "cs": "Sídlo výrobce",
@@ -717,6 +729,8 @@
       },
       "description": {
         "en": "Legal name of the importer placing the product on the EU market",
+        "bg": "Официално наименование на вносителя, пускащ продукта на пазара на ЕС.",
+        "de": "Rechtlicher Name des Einführers, der das Produkt auf dem EU-Markt in Verkehr bringt.",
         "nl": "Juridische naam van de importeur die het product op de EU-markt brengt",
         "hr": "Pravni naziv uvoznika koji stavlja proizvod na tržište EU-a",
         "cs": "Obchodní firma dovozce uvádějícího produkt na trh EU",
@@ -823,6 +837,8 @@
       },
       "description": {
         "en": "Registered address of the importer",
+        "bg": "Регистриран адрес на вносителя.",
+        "de": "Eingetragene Anschrift des Einführers.",
         "nl": "Geregistreerd adres van de importeur",
         "hr": "Registrirana adresa uvoznika",
         "cs": "Sídlo dovozce",
@@ -928,6 +944,8 @@
       },
       "description": {
         "en": "Designated EU responsible person per EU product safety regulation",
+        "bg": "Определено отговорно лице в ЕС съгласно регламента на ЕС за безопасност на продуктите.",
+        "de": "Benannte verantwortliche Person in der EU gemäß EU-Produktsicherheitsverordnung.",
         "nl": "Aangewezen EU-verantwoordelijke persoon volgens EU-productveiligheidsregeling",
         "hr": "Imenovana odgovorna osoba u EU-u prema propisu EU-a o sigurnosti proizvoda",
         "cs": "Pověřená odpovědná osoba v EU podle nařízení EU o bezpečnosti výrobků",
@@ -1034,6 +1052,8 @@
       },
       "description": {
         "en": "Commercial product name or trade designation",
+        "bg": "Търговско наименование или търговско обозначение на продукта.",
+        "de": "Handelsname oder Handelsbezeichnung des Produkts.",
         "nl": "Commerciële productnaam of handelsnaam",
         "hr": "Komercijalni naziv ili trgovačka oznaka proizvoda",
         "cs": "Obchodní název produktu nebo obchodní označení",
@@ -1141,6 +1161,8 @@
       },
       "description": {
         "en": "Type of textile product: apparel, footwear, or home textile",
+        "bg": "Вид текстилен продукт: облекло, обувки или домашен текстил.",
+        "de": "Art des Textilprodukts: Bekleidung, Schuhe oder Heimtextilien.",
         "nl": "Type textielproduct: kledij, schoeisel of huishoudtextiel",
         "hr": "Vrsta tekstilnog proizvoda: odjeća, obuća ili tekstil za kućanstvo",
         "cs": "Typ textilního výrobku: oděvy, obuv nebo bytový textil",
@@ -1339,6 +1361,8 @@
       },
       "description": {
         "en": "Detailed description of the textile product",
+        "bg": "Подробно описание на текстилния продукт.",
+        "de": "Detaillierte Beschreibung des Textilprodukts.",
         "nl": "Gedetailleerde beschrijving van het textielproduct",
         "hr": "Detaljan opis tekstilnog proizvoda",
         "cs": "Podrobný popis textilního výrobku",
@@ -1449,6 +1473,8 @@
       },
       "description": {
         "en": "Array of fibers with ISO 2076 codes and percentages, must sum to 100%",
+        "bg": "Списък от влакна с кодове по ISO 2076 и проценти, сборът трябва да е 100%.",
+        "de": "Liste der Fasern mit ISO-2076-Codes und Anteilen, Summe muss 100% ergeben.",
         "nl": "Array van vezels met ISO 2076-codes en percentages, moet optellen tot 100%",
         "hr": "Popis vlakana s ISO 2076 kodovima i postotcima, zbroj mora biti 100 %",
         "cs": "Seznam vláken s kódy ISO 2076 a procentuálním podílem, součet musí být 100 %",
@@ -1561,6 +1587,8 @@
       },
       "description": {
         "en": "Percentage of recycled content by weight in the product",
+        "bg": "Процент рециклирано съдържание по тегло в продукта.",
+        "de": "Anteil des recycelten Inhalts am Produktgewicht in Prozent.",
         "nl": "Percentage gerecycled inhoud naar gewicht in het product",
         "hr": "Postotak recikliranog sadržaja u proizvodu po masi",
         "cs": "Procento recyklovaného obsahu ve výrobku podle hmotnosti",
@@ -1672,6 +1700,8 @@
       },
       "description": {
         "en": "Care label codes per ISO 3758 (washing, bleaching, drying, ironing, professional care)",
+        "bg": "Кодове на инструкции за поддръжка по ISO 3758 (пране, избелване, сушене, гладене, професионална поддръжка).",
+        "de": "Pflegesymbolcodes gemäß ISO 3758 (Waschen, Bleichen, Trocknen, Bügeln, professionelle Pflege).",
         "nl": "Verzorgingslabelcodes volgens ISO 3758 (wassen, bleken, drogen, strijken, professionele verzorging)",
         "hr": "Kodovi simbola za održavanje prema ISO 3758 (pranje, bijeljenje, sušenje, glačanje, profesionalno održavanje)",
         "cs": "Kódy symbolů údržby podle ISO 3758 (praní, bělení, sušení, žehlení, profesionální ošetření)",
@@ -1787,6 +1817,8 @@
       },
       "description": {
         "en": "Array of hazardous substances with CAS number and concentration, threshold >0.1%",
+        "bg": "Списък от опасни вещества с CAS номер и концентрация, праг >0,1%.",
+        "de": "Liste der gefährlichen Substanzen mit CAS-Nummer und Konzentration, Schwellenwert >0,1%.",
         "nl": "Array van gevaarlijke stoffen met CAS-nummer en concentratie, drempel >0,1%",
         "hr": "Popis opasnih tvari s CAS brojem i koncentracijom, prag > 0,1 %",
         "cs": "Seznam nebezpečných látek s číslem CAS a koncentrací, prahová hodnota > 0,1 %",
@@ -1895,6 +1927,8 @@
       },
       "description": {
         "en": "List of relevant certifications such as OEKO-TEX, GOTS, EU Ecolabel, Bluesign, etc.",
+        "bg": "Списък с приложими сертификации, като OEKO-TEX, GOTS, EU Ecolabel, Bluesign и др.",
+        "de": "Liste der relevanten Zertifizierungen wie OEKO-TEX, GOTS, EU Ecolabel, Bluesign usw.",
         "nl": "Lijst van relevante certificeringen zoals OEKO-TEX, GOTS, EU Ecolabel, Bluesign, enz.",
         "hr": "Popis relevantnih certifikata kao što su OEKO-TEX, GOTS, znak za okoliš EU-a, Bluesign itd.",
         "cs": "Seznam příslušných certifikací, např. OEKO-TEX, GOTS, ekoznačka EU, Bluesign atd.",
@@ -2266,6 +2300,8 @@
       },
       "description": {
         "en": "Country where the product was manufactured, ISO 3166-1 alpha-2 code",
+        "bg": "Страна, в която е произведен продуктът, код ISO 3166-1 алфа-2.",
+        "de": "Land, in dem das Produkt hergestellt wurde, ISO-3166-1-Alpha-2-Code.",
         "nl": "Land waar het product is gefabriceerd, ISO 3166-1 alpha-2 code",
         "hr": "Zemlja u kojoj je proizvod proizveden, ISO 3166-1 alpha-2 kod",
         "cs": "Země, kde byl výrobek vyroben, kód ISO 3166-1 alpha-2",
@@ -2374,6 +2410,8 @@
       },
       "description": {
         "en": "Total carbon footprint per product in kg CO2 equivalent",
+        "bg": "Общ въглероден отпечатък на продукта в kg CO2 еквивалент.",
+        "de": "Gesamter Kohlenstoff-Fußabdruck pro Produkt in kg CO2-Äquivalent.",
         "nl": "Totale koolstofvoetafdruk per product in kg CO2-equivalent",
         "hr": "Ukupni ugljični otisak po proizvodu u kg ekvivalenta CO2",
         "cs": "Celková uhlíková stopa na výrobek v kg ekvivalentu CO2",
@@ -2489,6 +2527,8 @@
       },
       "description": {
         "en": "Environmental footprint score in milli-points per EU PEF methodology",
+        "bg": "Резултат за въздействие върху околната среда в милиточки по методологията PEF на ЕС.",
+        "de": "Umwelt-Fußabdruckpunktzahl in Millipunkten gemäß EU-PEF-Methodik.",
         "nl": "Milieuvoerafdrukscore in milli-punten volgens EU PEF-methodologie",
         "hr": "Ocjena otiska na okoliš u mili-bodovima prema metodologiji EU PEF",
         "cs": "Skóre environmentální stopy v milibodech podle metodiky EU PEF",
@@ -2600,6 +2640,8 @@
       },
       "description": {
         "en": "Recyclability score from 0-10 per JRC methodology. Auto-zero if >15% elastane.",
+        "bg": "Оценка на рециклируемостта от 0 до 10 по методологията на JRC. Автоматично нула при >15% еластан.",
+        "de": "Recyclierbarkeits-Score von 0–10 gemäß JRC-Methodik. Automatisch null bei >15% Elastan.",
         "nl": "Recyclingbaarheidscore van 0-10 volgens JRC-methodologie. Auto-nul als >15% elastaan.",
         "hr": "Ocjena recikličnosti od 0 do 10 prema metodologiji JRC-a. Automatski 0 ako je elastan > 15 %.",
         "cs": "Skóre recyklovatelnosti 0–10 podle metodiky JRC. Automaticky nula při elastanu > 15 %.",
@@ -2710,6 +2752,8 @@
       },
       "description": {
         "en": "Qualitative recyclability label: recyclable or non-recyclable",
+        "bg": "Качествен етикет за рециклируемост: рециклируем или нерециклируем.",
+        "de": "Qualitatives Recyclierbarkeits-Label: recyclierbar oder nicht recyclierbar.",
         "nl": "Kwalitatief recyclingbaarheidslabel: recyclingbaar of niet-recyclingbaar",
         "hr": "Kvalitativna oznaka recikličnosti: reciklabilno ili nereciklabilno",
         "cs": "Kvalitativní označení recyklovatelnosti: recyklovatelné nebo nerecyklovatelné",
@@ -2879,6 +2923,8 @@
       },
       "description": {
         "en": "Percentage of the product that is a single material type, key factor in recyclability",
+        "bg": "Процент от продукта, съставен от един вид материал, ключов фактор за рециклируемостта.",
+        "de": "Anteil des Produkts, der aus einem einzigen Materialtyp besteht, Schlüsselfaktor für die Recyclierbarkeit.",
         "nl": "Percentage van het product dat uit één materiaalsoort bestaat, sleutelfactor voor recyclingbaarheid",
         "hr": "Postotak proizvoda od jedne vrste materijala, ključni faktor recikličnosti",
         "cs": "Procento výrobku tvořeného jedním typem materiálu, klíčový faktor recyklovatelnosti",
@@ -2989,6 +3035,8 @@
       },
       "description": {
         "en": "Expected product lifespan with value and unit (years or wash_cycles)",
+        "bg": "Очаквана продуктова продължителност на живот със стойност и единица (години или цикли на пране).",
+        "de": "Erwartete Produktlebensdauer mit Wert und Einheit (Jahre oder Waschzyklen).",
         "nl": "Verwachte productlevensduur met waarde en eenheid (jaren of wash_cycles)",
         "hr": "Očekivani vijek trajanja proizvoda s vrijednošću i jedinicom (godine ili ciklusi pranja)",
         "cs": "Očekávaná životnost výrobku s hodnotou a jednotkou (roky nebo prací cykly)",
@@ -3101,6 +3149,8 @@
       },
       "description": {
         "en": "Pilling resistance grade 1-5 per ISO 12945",
+        "bg": "Оценка на устойчивостта срещу покриване с топчета от 1 до 5 по ISO 12945.",
+        "de": "Pillingbeständigkeitsgrad 1–5 gemäß ISO 12945.",
         "nl": "Pluisbestendigheidsgraad 1-5 volgens ISO 12945",
         "hr": "Stupanj otpornosti na pilling 1–5 prema ISO 12945",
         "cs": "Stupeň odolnosti proti žmolkování 1–5 podle ISO 12945",
@@ -3215,6 +3265,8 @@
       },
       "description": {
         "en": "Abrasion resistance in Martindale cycles per ISO 12947",
+        "bg": "Устойчивост на абразия в цикли по Martindale съгласно ISO 12947.",
+        "de": "Scheuerbeständigkeit in Martindale-Zyklen gemäß ISO 12947.",
         "nl": "Slijtageweerstand in Martindale-cycli volgens ISO 12947",
         "hr": "Otpornost na habanje u Martindaleovim ciklusima prema ISO 12947",
         "cs": "Odolnost proti oděru v Martindalových cyklech podle ISO 12947",
@@ -3329,6 +3381,8 @@
       },
       "description": {
         "en": "Color fastness to washing grade per ISO 105-C06",
+        "bg": "Оценка на устойчивостта на цвета при пране по ISO 105-C06.",
+        "de": "Farbechtheit beim Waschen gemäß ISO 105-C06.",
         "nl": "Kleurechtheidsgraad bij wassen volgens ISO 105-C06",
         "hr": "Stupanj postojanosti obojenja na pranje prema ISO 105-C06",
         "cs": "Stupeň stálosti vybarvení v praní podle ISO 105-C06",
@@ -3442,6 +3496,8 @@
       },
       "description": {
         "en": "Color fastness to light grade per ISO 105-B02",
+        "bg": "Оценка на устойчивостта на цвета към светлина по ISO 105-B02.",
+        "de": "Farbechtheit gegenüber Licht gemäß ISO 105-B02.",
         "nl": "Kleurechtheidsgraad bij licht volgens ISO 105-B02",
         "hr": "Stupanj postojanosti obojenja na svjetlo prema ISO 105-B02",
         "cs": "Stupeň stálosti vybarvení na světle podle ISO 105-B02",
@@ -3553,6 +3609,8 @@
       },
       "description": {
         "en": "Dimensional change after washing as percentage shrinkage per ISO 5077",
+        "bg": "Промяна в размерите след пране като процент на свиване по ISO 5077.",
+        "de": "Maßänderung nach dem Waschen als Einlaufprozentsatz gemäß ISO 5077.",
         "nl": "Dimensionale verandering na wassen als percentagekrimpen volgens ISO 5077",
         "hr": "Promjena dimenzija nakon pranja kao postotak skupljanja prema ISO 5077",
         "cs": "Změna rozměrů po praní vyjádřená procentem srážlivosti podle ISO 5077",
@@ -3667,6 +3725,8 @@
       },
       "description": {
         "en": "Tear strength in Newtons per ISO 13937",
+        "bg": "Якост на разкъсване в нютони по ISO 13937.",
+        "de": "Weiterreißkraft in Newton gemäß ISO 13937.",
         "nl": "Scheuursterkte in Newton volgens ISO 13937",
         "hr": "Čvrstoća trganja u njutnima prema ISO 13937",
         "cs": "Pevnost v dotržení v newtonech podle ISO 13937",
@@ -3781,6 +3841,8 @@
       },
       "description": {
         "en": "URL to repair instructions for the textile product",
+        "bg": "URL адрес с инструкции за ремонт на текстилния продукт.",
+        "de": "URL zu Reparaturanweisungen für das Textilprodukt.",
         "nl": "URL naar reparatie-instructies voor het textielproduct",
         "hr": "URL uputa za popravak tekstilnog proizvoda",
         "cs": "Adresa URL pokynů k opravě textilního výrobku",
@@ -3890,6 +3952,8 @@
       },
       "description": {
         "en": "Information about availability of spare parts (buttons, zippers, patches, etc.)",
+        "bg": "Информация за наличността на резервни части (копчета, ципове, кръпки и др.).",
+        "de": "Informationen zur Verfügbarkeit von Ersatzteilen (Knöpfe, Reißverschlüsse, Flicken usw.).",
         "nl": "Informatie over beschikbaarheid van onderdelen (knopen, ritsen, lappen, enz.)",
         "hr": "Podaci o dostupnosti rezervnih dijelova (gumbi, patentni zatvarači, zakrpe itd.)",
         "cs": "Informace o dostupnosti náhradních dílů (knoflíky, zipy, záplaty atd.)",
@@ -3999,6 +4063,8 @@
       },
       "description": {
         "en": "URL to disassembly instructions for recycling preparation",
+        "bg": "URL адрес с инструкции за разглобяване за подготовка за рециклиране.",
+        "de": "URL zu Demontageanweisungen für die Recyclingvorbereitung.",
         "nl": "URL naar instructies voor demontage voor voorbereiding op recycling",
         "hr": "URL uputa za rastavljanje u svrhu pripreme za recikliranje",
         "cs": "Adresa URL pokynů k demontáži pro přípravu k recyklaci",
@@ -4107,6 +4173,8 @@
       },
       "description": {
         "en": "Instructions for proper recycling of the textile product",
+        "bg": "Инструкции за правилното рециклиране на текстилния продукт.",
+        "de": "Anweisungen für das ordnungsgemäße Recycling des Textilprodukts.",
         "nl": "Instructies voor juiste recycling van het textielproduct",
         "hr": "Upute za pravilno recikliranje tekstilnog proizvoda",
         "cs": "Pokyny pro správnou recyklaci textilního výrobku",
@@ -4215,6 +4283,8 @@
       },
       "description": {
         "en": "URL to find nearby textile collection/drop-off points",
+        "bg": "URL адрес за намиране на близки пунктове за събиране/предаване на текстил.",
+        "de": "URL zum Finden nahegelegener Textilsammel-/Abgabestellen.",
         "nl": "URL om in de buurt gelegen textielinzamel-/inleverpunten te vinden",
         "hr": "URL za pronalaženje obližnjih sabirnih mjesta za tekstil",
         "cs": "Adresa URL k vyhledání blízkých sběrných míst pro textil",
@@ -4324,6 +4394,8 @@
       },
       "description": {
         "en": "Information about manufacturer's take-back program: availability and URL",
+        "bg": "Информация за програмата за обратно приемане на производителя: наличност и URL адрес.",
+        "de": "Informationen zum Rücknahmeprogramm des Herstellers: Verfügbarkeit und URL.",
         "nl": "Informatie over teugneem-programma van de fabrikant: beschikbaarheid en URL",
         "hr": "Podaci o programu preuzimanja proizvođača: dostupnost i URL",
         "cs": "Informace o programu zpětného odběru výrobce: dostupnost a URL",
@@ -4433,6 +4505,8 @@
       },
       "description": {
         "en": "Whether the product releases microplastics and synthetic fiber percentage",
+        "bg": "Указва дали продуктът отделя микропластмаси и процентът на синтетичните влакна.",
+        "de": "Gibt an, ob das Produkt Mikroplastik freisetzt, und den Anteil synthetischer Fasern.",
         "nl": "Of het product microplastics afgeeft en percentage synthetische vezels",
         "hr": "Oslobađa li proizvod mikroplastiku i postotak sintetičkih vlakana",
         "cs": "Zda výrobek uvolňuje mikroplasty a procento syntetických vláken",
@@ -4544,6 +4618,8 @@
       },
       "description": {
         "en": "Microplastics shedding rate in mg/kg per wash cycle",
+        "bg": "Степен на отделяне на микропластмаси в mg/kg за цикъл на пране.",
+        "de": "Mikroplastik-Freisetzungsrate in mg/kg pro Waschzyklus.",
         "nl": "Microplastics-afgifte in mg/kg per wascyclus",
         "hr": "Stopa ispuštanja mikroplastike u mg/kg po ciklusu pranja",
         "cs": "Míra uvolňování mikroplastů v mg/kg na prací cyklus",
@@ -4654,6 +4730,8 @@
       },
       "description": {
         "en": "Array of supply chain stages with country and facility name",
+        "bg": "Списък от етапи на веригата на доставки с държава и наименование на обекта.",
+        "de": "Liste der Lieferkettenabschnitte mit Land und Anlagenname.",
         "nl": "Array van fasen in de toeleveringsketen met land en faciliteitsaam",
         "hr": "Popis faza opskrbnog lanca s nazivom zemlje i postrojenja",
         "cs": "Seznam fází dodavatelského řetězce s názvem země a zařízení",
@@ -4763,6 +4841,8 @@
       },
       "description": {
         "en": "Country where weaving/knitting took place, ISO 3166-1 alpha-2. Required by French AGEC.",
+        "bg": "Страна, в която е извършено тъкането/плетенето, ISO 3166-1 алфа-2. Изисква се от Закона AGEC на Франция.",
+        "de": "Land, in dem das Weben/Stricken stattfand, ISO-3166-1-Alpha-2. Vorgeschrieben durch das französische AGEC-Gesetz.",
         "nl": "Land waar weven/breien plaatsvond, ISO 3166-1 alpha-2. Verplicht volgens Franse AGEC.",
         "hr": "Zemlja u kojoj se odvijalo tkanje/pletenje, ISO 3166-1 alpha-2. Propisano francuskim AGEC-om.",
         "cs": "Země, kde probíhalo tkaní/pletení, ISO 3166-1 alpha-2. Vyžadováno francouzským zákonem AGEC.",
@@ -4868,6 +4948,8 @@
       },
       "description": {
         "en": "Country where dyeing/printing took place, ISO 3166-1 alpha-2. Required by French AGEC.",
+        "bg": "Страна, в която е извършено боядисването/печатането, ISO 3166-1 алфа-2. Изисква се от Закона AGEC на Франция.",
+        "de": "Land, in dem das Färben/Drucken stattfand, ISO-3166-1-Alpha-2. Vorgeschrieben durch das französische AGEC-Gesetz.",
         "nl": "Land waar verven/printen plaatsvond, ISO 3166-1 alpha-2. Verplicht volgens Franse AGEC.",
         "hr": "Zemlja u kojoj se odvijalo bojenje/tisak, ISO 3166-1 alpha-2. Propisano francuskim AGEC-om.",
         "cs": "Země, kde probíhalo barvení/potisk, ISO 3166-1 alpha-2. Vyžadováno francouzským zákonem AGEC.",
@@ -4972,6 +5054,8 @@
       },
       "description": {
         "en": "Country where final assembly (sewing) took place, ISO 3166-1 alpha-2. Required by French AGEC.",
+        "bg": "Страна, в която е извършено окончателното сглобяване (шиене), ISO 3166-1 алфа-2. Изисква се от Закона AGEC на Франция.",
+        "de": "Land, in dem die Endmontage (Nähen) stattfand, ISO-3166-1-Alpha-2. Vorgeschrieben durch das französische AGEC-Gesetz.",
         "nl": "Land waar eindassemblage (naaien) plaatsvond, ISO 3166-1 alpha-2. Verplicht volgens Franse AGEC.",
         "hr": "Zemlja u kojoj se odvijalo završno sastavljanje (šivanje), ISO 3166-1 alpha-2. Propisano francuskim AGEC-om.",
         "cs": "Země, kde probíhala konečná montáž (šití), ISO 3166-1 alpha-2. Vyžadováno francouzským zákonem AGEC.",
@@ -5077,6 +5161,8 @@
       },
       "description": {
         "en": "Method used for dyeing the textile (e.g. piece dyeing, yarn dyeing, solution dyeing)",
+        "bg": "Метод, използван за боядисване на текстила (напр. боядисване на кроя, боядисване на прежда, разтворно боядисване).",
+        "de": "Methode zum Färben des Textils (z. B. Stückfärbung, Garnfärbung, Lösungsfärbung).",
         "nl": "Methode gebruikt voor het verven van het textiel (bijv. stukverven, gaarverven, oplossingsverven)",
         "hr": "Metoda bojenja tekstila (npr. bojenje komada, bojenje pređe, bojenje u otopini)",
         "cs": "Metoda použitá k barvení textilu (např. barvení kusu, barvení příze, barvení v hmotě)",
@@ -5186,6 +5272,8 @@
       },
       "description": {
         "en": "Array of finishing processes applied to the textile (e.g. water-repellent, anti-wrinkle, softening)",
+        "bg": "Списък от финишни процеси, приложени към текстила (напр. водоотблъскващ, против набръчкване, омекотяване).",
+        "de": "Liste der auf das Textil angewendeten Ausrüstungsverfahren (z. B. wasserabweisend, knitterfrei, Weichmachung).",
         "nl": "Array van afwerkingsprocessen op het textiel toegepast (bijv. waterafstotend, kreukvrij, verzacht)",
         "hr": "Popis postupaka dorade primijenjenih na tekstilu (npr. vodoodbojna, protiv gužvanja, omekšavanje)",
         "cs": "Seznam finálních úprav aplikovaných na textil (např. voděodpudivost, nemačkavost, zjemnění)",
@@ -5296,6 +5384,8 @@
       },
       "description": {
         "en": "Total water consumed per unit during production in liters",
+        "bg": "Общо потребление на вода за единица по време на производство в литри.",
+        "de": "Gesamtwasserverbrauch pro Einheit während der Produktion in Litern.",
         "nl": "Totaal waterverbruik per eenheid tijdens productie in liters",
         "hr": "Ukupna potrošnja vode po jedinici tijekom proizvodnje u litrama",
         "cs": "Celková spotřeba vody na jednotku během výroby v litrech",
@@ -5404,6 +5494,8 @@
       },
       "description": {
         "en": "Total energy consumed per unit during production in kWh",
+        "bg": "Общо потребление на енергия за единица по време на производство в kWh.",
+        "de": "Gesamtenergieverbrauch pro Einheit während der Produktion in kWh.",
         "nl": "Totaal energieverbruik per eenheid tijdens productie in kWh",
         "hr": "Ukupna potrošnja energije po jedinici tijekom proizvodnje u kWh",
         "cs": "Celková spotřeba energie na jednotku během výroby v kWh",
@@ -5512,6 +5604,8 @@
       },
       "description": {
         "en": "Total transport distance from production to market in kilometers",
+        "bg": "Обща транспортна дистанция от производство до пазара в километри.",
+        "de": "Gesamte Transportentfernung vom Produktionsort zum Markt in Kilometern.",
         "nl": "Totale transportafstand van productie tot markt in kilometers",
         "hr": "Ukupna transportna udaljenost od proizvodnje do tržišta u kilometrima",
         "cs": "Celková přepravní vzdálenost od výroby na trh v kilometrech",
@@ -5620,6 +5714,8 @@
       },
       "description": {
         "en": "Primary mode of transport used for shipping the product",
+        "bg": "Основен вид транспорт, използван за доставка на продукта.",
+        "de": "Primäres Transportmittel für den Versand des Produkts.",
         "nl": "Primaire transportmodus gebruikt voor verzending van het product",
         "hr": "Glavni način prijevoza koji se koristi za otpremu proizvoda",
         "cs": "Hlavní způsob přepravy používaný k odeslání výrobku",
@@ -5845,6 +5941,8 @@
       },
       "description": {
         "en": "Labor/social compliance certification such as SA8000",
+        "bg": "Сертификация за съответствие в областта на труда/социалната сфера, като SA8000.",
+        "de": "Arbeits-/Sozialstandard-Zertifizierung wie SA8000.",
         "nl": "Arbeids-/sociale nalevingscertificering zoals SA8000",
         "hr": "Certifikat o usklađenosti radnih/socijalnih uvjeta kao što je SA8000",
         "cs": "Certifikace souladu s pracovními/sociálními normami, např. SA8000",
@@ -5955,6 +6053,8 @@
       },
       "description": {
         "en": "Animal welfare certifications such as RDS (Responsible Down Standard), RWS (Responsible Wool Standard)",
+        "bg": "Сертификации за хуманно отношение към животните, като RDS (Responsible Down Standard), RWS (Responsible Wool Standard).",
+        "de": "Tierschutz-Zertifizierungen wie RDS (Responsible Down Standard), RWS (Responsible Wool Standard).",
         "nl": "Dierenwelzijnscertificeringen zoals RDS (Responsible Down Standard), RWS (Responsible Wool Standard)",
         "hr": "Certifikati o dobrobiti životinja kao što su RDS (Responsible Down Standard), RWS (Responsible Wool Standard)",
         "cs": "Certifikace dobrých životních podmínek zvířat, např. RDS (Responsible Down Standard), RWS (Responsible Wool Standard)",
@@ -6066,6 +6166,8 @@
       },
       "description": {
         "en": "Percentage of recycled content in the product packaging",
+        "bg": "Процент рециклирано съдържание в опаковката на продукта.",
+        "de": "Anteil des recycelten Inhalts in der Produktverpackung in Prozent.",
         "nl": "Percentage gerecycled inhoud in de productverp​akking",
         "hr": "Postotak recikliranog sadržaja u ambalaži proizvoda",
         "cs": "Procento recyklovaného obsahu v obalu výrobku",
@@ -6173,6 +6275,8 @@
       },
       "description": {
         "en": "Whether the product packaging is recyclable",
+        "bg": "Указва дали опаковката на продукта е рециклируема.",
+        "de": "Gibt an, ob die Produktverpackung recyclierbar ist.",
         "nl": "Of de productverp​akking recyclingbaar is",
         "hr": "Je li ambalaža proizvoda reciklabilna",
         "cs": "Zda je obal výrobku recyklovatelný",
@@ -6280,6 +6384,8 @@
       },
       "description": {
         "en": "French eco-score value in milli-points (mPt). Required if selling in France since Oct 2025.",
+        "bg": "Стойност на французкия еко-рейтинг в милиточки (mPt). Задължително при продажба във Франция от октомври 2025 г.",
+        "de": "Wert des französischen Eco-Scores in Millipunkten (mPt). Vorgeschrieben beim Verkauf in Frankreich ab Oktober 2025.",
         "nl": "Franse eco-score waarde in milli-punten (mPt). Verplicht bij verkoop in Frankrijk sinds okt. 2025.",
         "hr": "Vrijednost francuskog eco-scorea u mili-bodovima (mPt). Obvezno za prodaju u Francuskoj od listopada 2025.",
         "cs": "Hodnota francouzského eco-score v milibodech (mPt). Povinné při prodeji ve Francii od října 2025.",
@@ -6385,6 +6491,8 @@
       },
       "description": {
         "en": "French eco-score letter grade A-E. Required if selling in France since Oct 2025.",
+        "bg": "Буквена оценка на французкия еко-рейтинг A–E. Задължително при продажба във Франция от октомври 2025 г.",
+        "de": "Buchstabenklasse des französischen Eco-Scores A–E. Vorgeschrieben beim Verkauf in Frankreich ab Oktober 2025.",
         "nl": "Franse eco-score lettergraad A-E. Verplicht bij verkoop in Frankrijk sinds okt. 2025.",
         "hr": "Slovna ocjena francuskog eco-scorea A – E. Obvezno za prodaju u Francuskoj od listopada 2025.",
         "cs": "Písmenná třída francouzského eco-score A–E. Povinné při prodeji ve Francii od října 2025.",
@@ -6637,6 +6745,8 @@
       },
       "description": {
         "en": "Product Environmental Footprint climate change impact in kg CO2 equivalent",
+        "bg": "Въздействие на продуктовия екологичен отпечатък върху климатичните промени в kg CO2 еквивалент.",
+        "de": "Klimaänderungswirkung des Produkt-Umwelt-Fußabdrucks in kg CO2-Äquivalent.",
         "nl": "Productmilieuvoeafdruk klimaatveranderingeffect in kg CO2-equivalent",
         "hr": "Utjecaj na klimatske promjene prema metodi okolišnog otiska proizvoda u kg ekvivalenta CO2",
         "cs": "Dopad environmentální stopy produktu na změnu klimatu v kg ekvivalentu CO2",
@@ -6743,6 +6853,8 @@
       },
       "description": {
         "en": "Product Environmental Footprint water use impact in cubic meter equivalents",
+        "bg": "Въздействие на водопотреблението на продуктовия екологичен отпечатък в кубически метри еквивалент.",
+        "de": "Wassernutzungswirkung des Produkt-Umwelt-Fußabdrucks in Kubikmetern Äquivalent.",
         "nl": "Productmilieuvoeafdruk waterbeschikbaarheidseffect in kubieke meterequivalenten",
         "hr": "Utjecaj korištenja vode prema metodi okolišnog otiska proizvoda u ekvivalentima kubičnih metara",
         "cs": "Dopad využití vody environmentální stopy produktu v ekvivalentech metrů krychlových",
@@ -6848,6 +6960,8 @@
       },
       "description": {
         "en": "Product Environmental Footprint eutrophication impact",
+        "bg": "Въздействие на продуктовия екологичен отпечатък върху еутрофикацията.",
+        "de": "Eutrophierungswirkung des Produkt-Umwelt-Fußabdrucks.",
         "nl": "Productmilieuvoeafdruk eutrofiëringseffect",
         "hr": "Utjecaj eutrofikacije prema metodi okolišnog otiska proizvoda",
         "cs": "Dopad eutrofizace environmentální stopy produktu",
@@ -6953,6 +7067,8 @@
       },
       "description": {
         "en": "Product Environmental Footprint resource depletion (minerals and metals) impact",
+        "bg": "Въздействие на продуктовия екологичен отпечатък върху изчерпването на ресурсите (минерали и метали).",
+        "de": "Ressourcenerschöpfungswirkung (Mineralien und Metalle) des Produkt-Umwelt-Fußabdrucks.",
         "nl": "Productmilieuvoeafdruk uitputting van hulpbronnen (mineralen en metalen) effect",
         "hr": "Utjecaj iscrpljivanja resursa (minerala i metala) prema metodi okolišnog otiska proizvoda",
         "cs": "Dopad vyčerpávání zdrojů (nerostů a kovů) environmentální stopy produktu",
@@ -7059,6 +7175,8 @@
       },
       "description": {
         "en": "Durability bonus or malus adjustment applied in eco-score calculation",
+        "bg": "Корекция на бонус или малус за издръжливост, приложена при изчисляване на еко-рейтинга.",
+        "de": "Haltbarkeitsbonus oder -malus-Anpassung im Eco-Score-Berechnungsverfahren.",
         "nl": "Duurzaamheidsbonus of -malus-aanpassing toegepast in eco-score-berekening",
         "hr": "Prilagodba bonusa ili malusa za trajnost primijenjena u izračunu eco-scorea",
         "cs": "Úprava bonusu nebo malusu za trvanlivost použitá při výpočtu eco-score",
@@ -7164,6 +7282,8 @@
       },
       "description": {
         "en": "Microfiber release coefficient used in French eco-score calculation",
+        "bg": "Коефициент на отделяне на микровлакна, използван при изчисляване на французкия еко-рейтинг.",
+        "de": "Mikrofaser-Freisetzungskoeffizient, der bei der Berechnung des französischen Eco-Scores verwendet wird.",
         "nl": "Microvezelsafgifte-coëfficiënt gebruikt in Franse eco-score-berekening",
         "hr": "Koeficijent ispuštanja mikrovlakana koji se koristi u izračunu francuskog eco-scorea",
         "cs": "Koeficient uvolňování mikrovláken používaný při výpočtu francouzského eco-score",
