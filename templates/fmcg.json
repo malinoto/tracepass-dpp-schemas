@@ -621,61 +621,32 @@
           }
         },
         {
-          "value": "beverage",
-          "label": {
-            "en": "Beverage",
-            "bg": "Напитка",
-            "de": "Getränk",
-            "it": "Bevanda",
-            "hr": "Piće",
-            "cs": "Nápoj",
-            "da": "Drikkevare",
-            "nl": "Drank",
-            "et": "Jook",
-            "fi": "Juoma",
-            "fr": "Boisson",
-            "el": "Ρόφημα",
-            "hu": "Ital",
-            "ga": "Deoch",
-            "lv": "Dzēriens",
-            "lt": "Gėrimas",
-            "mt": "Xarba",
-            "pl": "Napój",
-            "pt": "Bebida",
-            "ro": "Băutură",
-            "sk": "Nápoj",
-            "sl": "Pijača",
-            "es": "Bebida",
-            "sv": "Dryck"
-          }
-        },
-        {
           "value": "otc_health",
           "label": {
-            "en": "OTC Health Products",
-            "bg": "Здравни продукти без рецепта",
-            "de": "Freiverkäufliche Gesundheitsprodukte",
-            "it": "Prodotti Sanitari OTC",
-            "hr": "Bezreceptni zdravstveni proizvodi",
-            "cs": "Volně prodejné zdravotnické produkty",
-            "da": "Håndkøbsprodukter",
-            "nl": "Vrij verkrijgbare gezondheidsproducten",
-            "et": "Käsimüügi tervisetooted",
-            "fi": "Käsikauppatuotteet",
-            "fr": "Produits de santé en vente libre",
-            "el": "Προϊόντα υγείας χωρίς συνταγή",
-            "hu": "Vény nélkül kapható egészségügyi termékek",
-            "ga": "Táirgí sláinte thar an gcuntar",
-            "lv": "Bezrecepšu veselības produkti",
-            "lt": "Nereceptiniai sveikatos produktai",
-            "mt": "Prodotti tas-saħħa OTC",
-            "pl": "Produkty zdrowotne OTC",
-            "pt": "Produtos de saúde OTC",
-            "ro": "Produse OTC pentru sănătate",
-            "sk": "Voľnopredajné zdravotnícke produkty",
-            "sl": "Zdravstveni izdelki brez recepta",
-            "es": "Productos de salud OTC",
-            "sv": "Receptfria hälsoprodukter"
+            "en": "OTC Health Products (not medicines)",
+            "bg": "Здравни продукти без рецепта (без лекарства)",
+            "de": "Freiverkäufliche Gesundheitsprodukte (keine Arzneimittel)",
+            "it": "Prodotti Sanitari OTC (esclusi i medicinali)",
+            "hr": "Bezreceptni zdravstveni proizvodi (osim lijekova)",
+            "cs": "Volně prodejné zdravotnické produkty (kromě léčiv)",
+            "da": "Håndkøbsprodukter (ikke lægemidler)",
+            "nl": "Vrij verkrijgbare gezondheidsproducten (geen geneesmiddelen)",
+            "et": "Käsimüügi tervisetooted (välja arvatud ravimid)",
+            "fi": "Käsikauppatuotteet (pois lukien lääkkeet)",
+            "fr": "Produits de santé en vente libre (hors médicaments)",
+            "el": "Προϊόντα υγείας χωρίς συνταγή (εκτός φαρμάκων)",
+            "hu": "Vény nélkül kapható egészségügyi termékek (gyógyszerek kivételével)",
+            "ga": "Táirgí sláinte thar an gcuntar (seachas cógais)",
+            "lv": "Bezrecepšu veselības produkti (izņemot zāles)",
+            "lt": "Nereceptiniai sveikatos produktai (išskyrus vaistus)",
+            "mt": "Prodotti tas-saħħa OTC (minbarra l-mediċini)",
+            "pl": "Produkty zdrowotne OTC (z wyłączeniem leków)",
+            "pt": "Produtos de saúde OTC (exceto medicamentos)",
+            "ro": "Produse OTC pentru sănătate (cu excepția medicamentelor)",
+            "sk": "Voľnopredajné zdravotnícke produkty (okrem liekov)",
+            "sl": "Zdravstveni izdelki brez recepta (razen zdravil)",
+            "es": "Productos de salud OTC (excepto medicamentos)",
+            "sv": "Receptfria hälsoprodukter (ej läkemedel)"
           }
         },
         {
@@ -1712,7 +1683,16 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "conditional",
+          "personal_care": "conditional",
+          "food_packaging": "notApplicable",
+          "otc_health": "notApplicable",
+          "laundry": "conditional",
+          "air_care": "notApplicable",
+          "insect_control": "notApplicable"
+        }
       },
       "category": "ingredients",
       "categoryLabel": {
@@ -1820,7 +1800,16 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "conditional",
+          "personal_care": "conditional",
+          "food_packaging": "notApplicable",
+          "otc_health": "notApplicable",
+          "laundry": "conditional",
+          "air_care": "notApplicable",
+          "insect_control": "notApplicable"
+        }
       },
       "category": "ingredients",
       "categoryLabel": {
@@ -2035,7 +2024,16 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "notApplicable",
+          "personal_care": "conditional",
+          "food_packaging": "notApplicable",
+          "otc_health": "notApplicable",
+          "laundry": "notApplicable",
+          "air_care": "notApplicable",
+          "insect_control": "notApplicable"
+        }
       },
       "category": "ingredients",
       "categoryLabel": {
@@ -2143,7 +2141,16 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false
+        "required": false,
+        "requiredBy": {
+          "household_cleaning": "notApplicable",
+          "personal_care": "conditional",
+          "food_packaging": "notApplicable",
+          "otc_health": "notApplicable",
+          "laundry": "notApplicable",
+          "air_care": "notApplicable",
+          "insect_control": "notApplicable"
+        }
       },
       "category": "ingredients",
       "categoryLabel": {
