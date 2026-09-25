@@ -1,21 +1,217 @@
 {
   "_note": "Pairs check [10] flags as probable duplicates that a human has judged distinct. Each entry records why, so the check stays quiet on them and loud on new pairs. Add a pair only after reading both fields' descriptions and citations; if you cannot say why they differ, they are probably duplicates.",
   "pairs": [
-    { "category": "battery", "a": "ratedCapacity", "b": "dynamicRatedCapacity",
-      "why": "Nameplate rated capacity at manufacture (Annex XIII 1(g)) vs the in-service value of the Annex IV Part A(1) parameter (Annex XIII 4(a))." },
-    { "category": "battery", "a": "expectedLifetimeCycles", "b": "dynamicExpectedLifetimeCycles",
-      "why": "Declared expected lifetime at placing on the market vs the value updated in service when the battery's status changes (Annex XIII 4(a))." },
-    { "category": "electronics", "a": "recycledContentPercentage", "b": "recycledPlasticContent",
-      "why": "Whole-product recycled share vs the plastic-specific share." },
-    { "category": "electronics", "a": "recycledContentPercentage", "b": "recycledMetalContent",
-      "why": "Whole-product recycled share vs the metal-specific share." },
-    { "category": "electronics", "a": "totalVolume", "b": "frozenVolume",
-      "why": "Refrigerating appliance total volume vs the frozen-compartment volume (Reg. 2019/2016 Annex V lists both)." },
-    { "category": "textile", "a": "recycledContentPercentage", "b": "packagingRecycledContentPct",
-      "why": "Recycled share of the textile product vs of its packaging." },
-    { "category": "tyres", "a": "treadDepthMm", "b": "minimumTreadDepthMm",
-      "why": "Tread depth of the new tyre vs the legal minimum before replacement (1.6 mm, Dir. 2014/45/EU Annex I)." },
-    { "category": "tyres", "a": "recycledContentPercentage", "b": "recycledRubberContentPercentage",
-      "why": "Whole-tyre recycled share vs the rubber-specific share." }
+    {
+      "category": "battery",
+      "a": "ratedCapacity",
+      "b": "dynamicRatedCapacity",
+      "why": "Nameplate rated capacity at manufacture (Annex XIII 1(g)) vs the in-service value of the Annex IV Part A(1) parameter (Annex XIII 4(a))."
+    },
+    {
+      "category": "battery",
+      "a": "expectedLifetimeCycles",
+      "b": "dynamicExpectedLifetimeCycles",
+      "why": "Declared expected lifetime at placing on the market vs the value updated in service when the battery's status changes (Annex XIII 4(a))."
+    },
+    {
+      "category": "electronics",
+      "a": "recycledContentPercentage",
+      "b": "recycledPlasticContent",
+      "why": "Whole-product recycled share vs the plastic-specific share."
+    },
+    {
+      "category": "electronics",
+      "a": "recycledContentPercentage",
+      "b": "recycledMetalContent",
+      "why": "Whole-product recycled share vs the metal-specific share."
+    },
+    {
+      "category": "electronics",
+      "a": "totalVolume",
+      "b": "frozenVolume",
+      "why": "Refrigerating appliance total volume vs the frozen-compartment volume (Reg. 2019/2016 Annex V lists both)."
+    },
+    {
+      "category": "textile",
+      "a": "recycledContentPercentage",
+      "b": "packagingRecycledContentPct",
+      "why": "Recycled share of the textile product vs of its packaging."
+    },
+    {
+      "category": "tyres",
+      "a": "treadDepthMm",
+      "b": "minimumTreadDepthMm",
+      "why": "Tread depth of the new tyre vs the legal minimum before replacement (1.6 mm, Dir. 2014/45/EU Annex I)."
+    },
+    {
+      "category": "tyres",
+      "a": "recycledContentPercentage",
+      "b": "recycledRubberContentPercentage",
+      "why": "Whole-tyre recycled share vs the rubber-specific share."
+    },
+    {
+      "category": "battery",
+      "a": "manufacturerName",
+      "b": "manufacturerTradeName",
+      "why": "Legal name vs registered trade name; Battery Regulation Annex VI Part A(1) names both."
+    },
+    {
+      "category": "battery",
+      "a": "originalPowerCapability",
+      "b": "originalPowerCapabilityAt80Soc",
+      "why": "Headline figure vs one of its two state-of-charge points (Annex XIII 1(i)). Whether the headline field should exist at all is part of the open Annex XIII review."
+    },
+    {
+      "category": "battery",
+      "a": "originalPowerCapability",
+      "b": "originalPowerCapabilityAt20Soc",
+      "why": "Headline figure vs one of its two state-of-charge points (Annex XIII 1(i)). Whether the headline field should exist at all is part of the open Annex XIII review."
+    },
+    {
+      "category": "construction",
+      "a": "gwpTotal",
+      "b": "gwpFossil",
+      "why": "EN 15804+A2 reports GWP-total and its sub-indicators separately; the total is their sum."
+    },
+    {
+      "category": "construction",
+      "a": "gwpTotal",
+      "b": "gwpBiogenic",
+      "why": "EN 15804+A2 reports GWP-total and its sub-indicators separately; the total is their sum."
+    },
+    {
+      "category": "construction",
+      "a": "gwpTotal",
+      "b": "gwpLuluc",
+      "why": "EN 15804+A2 reports GWP-total and its sub-indicators separately; the total is their sum."
+    },
+    {
+      "category": "electronics",
+      "a": "noiseClass",
+      "b": "refrigeratorNoiseClass",
+      "why": "Different appliances under different acts: washing machines (Reg. 2019/2014 Annex V) vs refrigerating appliances (Reg. 2019/2016 Annex V). The washing-machine key is just named generically."
+    },
+    {
+      "category": "electronics",
+      "a": "totalVolume",
+      "b": "freshFoodVolume",
+      "why": "Refrigerating appliance total volume vs the fresh-food compartment (Reg. 2019/2016 Annex V lists both)."
+    },
+    {
+      "category": "furniture",
+      "a": "recycledContentPercentage",
+      "b": "postConsumerRecycledContentPercentage",
+      "why": "Total recycled share vs its post-consumer part."
+    },
+    {
+      "category": "furniture",
+      "a": "recycledContentPercentage",
+      "b": "preConsumerRecycledContentPercentage",
+      "why": "Total recycled share vs its pre-consumer part."
+    },
+    {
+      "category": "jewelry",
+      "a": "gemstoneOrigin",
+      "b": "gemstoneOriginMine",
+      "why": "Country of extraction vs the specific mine."
+    },
+    {
+      "category": "packaging",
+      "a": "materialType",
+      "b": "recycledContentMaterialType",
+      "why": "Material of the packaging component vs the material category a recycled-content figure is declared for (PPWR Art. 7 minima differ by plastic category)."
+    },
+    {
+      "category": "packaging",
+      "a": "emptySpacePercent",
+      "b": "maxAllowedEmptySpacePercent",
+      "why": "Measured empty space vs the legal ceiling (PPWR Art. 24(1))."
+    }
+  ],
+  "contrasts": [
+    {
+      "words": [
+        "neodymium",
+        "dysprosium",
+        "praseodymium",
+        "terbium",
+        "boron",
+        "samarium",
+        "nickel",
+        "cobalt",
+        "lithium",
+        "lead",
+        "cadmium"
+      ],
+      "why": "Different chemical elements. The law sets a separate share or limit for each: Battery Regulation Art. 8 (cobalt, lead, lithium, nickel), CRMA Art. 29(1) (eight magnet elements, per element), REACH Annex XVII (lead, cadmium)."
+    },
+    {
+      "words": [
+        "pre",
+        "post"
+      ],
+      "why": "Pre-consumer and post-consumer recycled material are separate shares; post-consumer is what Battery Regulation Art. 8 and CRMA Art. 29 count."
+    },
+    {
+      "words": [
+        "minimum",
+        "maximum",
+        "min",
+        "max"
+      ],
+      "why": "Opposite bounds of one range."
+    },
+    {
+      "words": [
+        "cell",
+        "module",
+        "pack"
+      ],
+      "why": "Levels of the battery hierarchy; Annex XIII 1(o) asks for internal resistance at pack level and, where possible, at module and cell level."
+    },
+    {
+      "words": [
+        "anode",
+        "cathode"
+      ],
+      "why": "Opposite electrodes with different active materials."
+    },
+    {
+      "words": [
+        "original",
+        "rated",
+        "remaining"
+      ],
+      "why": "Value declared at placing on the market (Battery Regulation Annex XIII point 1) vs the state-of-health value in service (Annex XIII 4(b))."
+    },
+    {
+      "words": [
+        "at20",
+        "at80"
+      ],
+      "why": "Power capability at 20% and 80% state of charge, the two points of the Annex XIII 1(i) figure."
+    },
+    {
+      "words": [
+        "metal",
+        "plastic"
+      ],
+      "why": "Different material classes, each with its own recycled share."
+    },
+    {
+      "words": [
+        "manufacturer",
+        "importer"
+      ],
+      "why": "Different economic operators, each identified separately."
+    },
+    {
+      "words": [
+        "weaving",
+        "dyeing",
+        "assembly"
+      ],
+      "why": "Different textile production stages, whose locations are declared separately."
+    }
   ]
 }

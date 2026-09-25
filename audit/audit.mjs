@@ -159,6 +159,21 @@ function audit(dir, label) {
         // Only flag when the article names another instrument AND does not name
         // its own — and never when it names two or more, which is the
         // multi-source case, not a contradiction.
+        // Every other registered instrument is recognised by the number its title
+        // carries ("2024/1252", "1907/2006") and by its acronym. The hand-kept map
+        // above once omitted CRMA, so "Reg. 2024/1252 CRMA Art. 27" over an ESPR
+        // CELEX passed this check on 13 fields.
+        for (const [celex, meta] of Object.entries(instruments)) {
+          const num = String(meta.title ?? "").match(/\b(\d{2,4}\/\d{1,4})\b/)?.[1];
+          const short = String(meta.shortName ?? "");
+          const acronym = /^[A-Z]{3,}$/.test(short)
+            ? short
+            : short.split(/\s+/).filter((w) => /^[A-Z]/.test(w) && w.length > 2).map((w) => w[0]).join("");
+          const alts = [num && num.replace("/", "\\/"), acronym.length >= 3 && `\\b${acronym}\\b`].filter(Boolean);
+          if (!alts.length) continue;
+          const derived = new RegExp(alts.join("|"), "i");
+          names[celex] = names[celex] ? new RegExp(`${names[celex].source}|${derived.source}`, "i") : derived;
+        }
         const named = Object.entries(names).filter(([, re]) => re.test(art));
         const claimed = named[0];
         const namesOwn = new RegExp(names[inst]?.source ?? "$^", "i").test(art)

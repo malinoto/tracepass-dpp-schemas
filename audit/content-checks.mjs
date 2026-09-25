@@ -76,15 +76,21 @@ export function checkProvisionExistence(templates, index, registry = {}) {
 }
 
 // ── [10] probable duplicates within a template ────────────────────────────
-// Every duplicate found by reading the law had one of two shapes: the keys are
-// the same words once filler is dropped (tyreWeightKg / totalTyreWeightKg,
-// recycledContentTotal / recycledContentPercentage), or one key is the other
-// plus ONE qualifier (refrigeratorAnnualEnergyConsumption / annualEnergyConsumption,
-// vocMaxLimit / vocLimit). Sibling fields that differ by a contrasting word on
-// both sides (nickel/cobalt, min/max, pack/cell) are not candidates. The fields
-// must also share dataType and a non-null unit. Pairs a human has judged distinct
-// go in known-distinct.json with the reason.
-const STOP = new Set(["the", "of", "a", "an", "in", "for", "per", "and", "or", "to", "total", "value", "kg", "g", "percentage", "percent", "pct", "rate", "mm", "kpa", "w", "l"]);
+// Three shapes, all on fields sharing dataType and unit (both unit-less counts):
+//   same words  the keys are the same once filler is dropped
+//               (tyreWeightKg / totalTyreWeightKg)
+//   subset      one key's words all appear in the other, plus any number of
+//               qualifiers (annualEnergyConsumption / refrigeratorAnnualEnergyConsumption,
+//               vocContent / vocContentReadyToUse)
+//   swapped     one word differs on each side and the descriptions are nearly the
+//               same once that word is masked (osUpdateSupportYears /
+//               securityUpdateSupportYears)
+// The swapped shape is also how legitimate siblings look (recycledNickel /
+// recycledCobalt), so similarity alone cannot tell them apart. Word pairs that
+// are real contrasts are declared once in known-distinct.json `contrasts`, and a
+// swapped pair passes only when its two words are in one declared group. Any
+// other flagged pair must be merged, or listed in `pairs` with the reason.
+const STOP = new Set(["the", "of", "a", "an", "in", "for", "per", "and", "or", "to", "total", "value", "kg", "g", "percentage", "percent", "pct", "rate", "mm", "kpa", "w", "l", "years", "year"]);
 const words = (s) => String(s ?? "")
   .replace(/([a-z0-9])([A-Z])/g, "$1 $2").toLowerCase()
   .split(/[^a-z0-9]+/).filter((w) => w && !STOP.has(w));
@@ -94,29 +100,36 @@ const jaccard = (a, b) => {
   let i = 0; for (const x of A) if (B.has(x)) i++;
   return i / (A.size + B.size - i);
 };
+export const SWAP_SIMILARITY = 0.8;
 
-export function duplicateShape(a, b) {
+export function duplicateShape(a, b, contrasts = []) {
   const ka = new Set(words(a.key)), kb = new Set(words(b.key));
   if (!ka.size || !kb.size) return null;
   const onlyA = [...ka].filter((w) => !kb.has(w)), onlyB = [...kb].filter((w) => !ka.has(w));
   if (!onlyA.length && !onlyB.length) return "same words";
-  const extra = !onlyA.length ? onlyB : !onlyB.length ? onlyA : null;
-  if (extra && extra.length === 1 && jaccard(words(a.label?.en), words(b.label?.en)) >= 0.5) return `one qualifier: ${extra[0]}`;
-  return null;
+  if (!onlyA.length || !onlyB.length) return `subset: +${(onlyA.length ? onlyA : onlyB).join(" ")}`;
+  if (onlyA.length !== 1 || onlyB.length !== 1 || onlyA.length + onlyB.length >= ka.size + kb.size) return null;
+  const [x, y] = [onlyA[0], onlyB[0]];
+  if (contrasts.some((g) => g.includes(x) && g.includes(y))) return null;
+  const da = words(a.description?.en).filter((w) => w !== x);
+  const db = words(b.description?.en).filter((w) => w !== y);
+  const sim = jaccard(da, db);
+  return sim >= SWAP_SIMILARITY ? `swapped: ${x}/${y}, descriptions ${sim.toFixed(2)} alike` : null;
 }
 
 export function checkDuplicates(templates, knownDistinct) {
   const allowed = new Set((knownDistinct.pairs ?? []).map((p) => `${p.category}:${[p.a, p.b].sort().join("|")}`));
+  const contrasts = (knownDistinct.contrasts ?? []).map((c) => c.words);
   const out = [];
   for (const [, d] of templates) {
-    const fs = d.fields.filter((f) => f.unit);
+    const fs = d.fields;
     for (let i = 0; i < fs.length; i++) for (let j = i + 1; j < fs.length; j++) {
       const a = fs[i], b = fs[j];
-      if (a.dataType !== b.dataType || a.unit !== b.unit) continue;
-      const shape = duplicateShape(a, b);
+      if (a.dataType !== b.dataType || (a.unit ?? null) !== (b.unit ?? null)) continue;
+      const shape = duplicateShape(a, b, contrasts);
       if (!shape) continue;
       if (allowed.has(`${d.category}:${[a.key, b.key].sort().join("|")}`)) continue;
-      out.push({ cat: d.category, a: a.key, b: b.key, unit: a.unit, shape });
+      out.push({ cat: d.category, a: a.key, b: b.key, unit: a.unit ?? "no unit", shape });
     }
   }
   return out;

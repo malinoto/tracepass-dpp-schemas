@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 987,
+    "fields": 984,
     "requiredFields": 152,
-    "anticipatedFields": 229
+    "anticipatedFields": 228
   },
   "categories": [
     {
@@ -67,7 +67,7 @@
       "label": "Electronics",
       "file": "templates/electronics.json",
       "version": 2,
-      "fieldCount": 161,
+      "fieldCount": 160,
       "requiredFieldCount": 4,
       "anticipatedFieldCount": 19,
       "regulation": {
@@ -139,9 +139,9 @@
       "label": "Packaging",
       "file": "templates/packaging.json",
       "version": 2,
-      "fieldCount": 66,
+      "fieldCount": 64,
       "requiredFieldCount": 8,
-      "anticipatedFieldCount": 30,
+      "anticipatedFieldCount": 29,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",

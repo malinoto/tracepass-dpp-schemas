@@ -38,7 +38,9 @@ and keep `required`).
 
 **[2] The article names one instrument, the CELEX another.** The CELEX drives tooling,
 the free-text article is what a compliance report prints, so they can contradict each
-other in output.
+other in output. Every instrument in `instruments.json` is recognised by the number its
+title carries (`2024/1252`, `1907/2006`) and by its acronym. A hand-kept list once
+omitted one act, and thirteen citations reading "CRMA" over an ESPR CELEX passed.
 
 **[3] Required, has an article, but no instrument.** A bare article with no CELEX
 silently inherits the template-level `regulation.number`.
@@ -69,10 +71,21 @@ another act. The index is the act **as adopted**, so a missing *lettered* articl
 inserted by amendment, such as Waste Framework Directive Art. 8a) is a note to check
 the consolidated text, not a finding. It proves existence, not relevance.
 
-**[10] Probable duplicate fields in one template.** Same `dataType` and unit, and keys
-that are the same words once filler is dropped, or one key plus a single qualifier, with
-overlapping labels. Pairs judged distinct go in `known-distinct.json` **with the
-reason**; if you cannot say why two fields differ, they are probably duplicates.
+**[10] Probable duplicate fields in one template.** Fields sharing `dataType` and unit
+(two unit-less fields count), in three shapes:
+
+- *same words*: identical keys once filler is dropped (`tyreWeightKg` / `totalTyreWeightKg`);
+- *subset*: one key's words all appear in the other, plus any number of qualifiers
+  (`vocContent` / `vocContentReadyToUse`);
+- *swapped*: one word differs on each side and the descriptions are at least 80% alike
+  once that word is masked (`osUpdateEndDate` / `securityUpdateEndDate`).
+
+Real siblings look exactly like the swapped shape (`recycledNickel` / `recycledCobalt`),
+and no similarity threshold separates them from duplicates. So word pairs that are
+genuine contrasts are declared once in `known-distinct.json` under `contrasts`, each
+group with its reason, and a swapped pair passes only when its two words share a group.
+Any other flagged pair is merged, or listed under `pairs` **with the reason**. If you
+cannot say why two fields differ, they are probably duplicates.
 
 **[11] One key, different units across templates.** A vocabulary maps each key to one
 IRI in every category, so one key in kg and in Ah is one term with two meanings.

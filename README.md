@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-987-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-984-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,19 +39,19 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **987 fields in total. 152 are required by
-an instrument in force; 229 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **984 fields in total. 152 are required by
+an instrument in force; 228 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 120 | 50 | Regulation (EU) 2023/1542 |
 | `construction` | 49 | 4 | CPR (EU) 2024/3110 |
 | `detergents` | 83 | 18 | Regulation (EU) 2026/405 |
-| `electronics` | 161 | 4 | ESPR (EU) 2024/1781 |
+| `electronics` | 160 | 4 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
 | `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
 | `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
-| `packaging` | 66 | 8 | PPWR (EU) 2025/40 |
+| `packaging` | 64 | 8 | PPWR (EU) 2025/40 |
 | `paints-coatings` | 69 | 15 | Directive 2004/42/EC |
 | `steel` | 84 | 16 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
@@ -262,10 +262,8 @@ Two conventions the schema pins down, both of which will bite you otherwise:
 The schema checks shape only. `npm run check` adds the gates it cannot express, and CI
 runs it on every push:
 
-- **Locales** (`scripts/check-locales.mjs`): every label carries all 24 EU languages;
-  every description and option label carries at least English, Bulgarian, German and
-  Italian. Strings still below 24 languages are listed in `scripts/locale-gaps.json`,
-  which may only shrink.
+- **Locales** (`scripts/check-locales.mjs`): every label, description and option label
+  carries all 24 official EU languages, none empty.
 - **Citations** (`audit/`): whether each field's citation supports the obligation it
   claims. It catches a field required under an act that mandates nothing, an article
   missing from the act it cites, duplicate fields, and one key with two units. See
