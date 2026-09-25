@@ -90,6 +90,11 @@ cannot say why two fields differ, they are probably duplicates.
 **[11] One key, different units across templates.** A vocabulary maps each key to one
 IRI in every category, so one key in kg and in Ah is one term with two meanings.
 
+**[12] The cited instrument is not in `instruments.json`.** Every other check looks the
+CELEX up in the registry and treats a miss as "nothing known", so an unregistered or
+mistyped CELEX would pass them all while pointing at nothing. Register the act, or fix
+the citation.
+
 ## Maintaining the data files
 
 - `provision-index.json` is rebuilt when a template starts citing a new act. EUR-Lex

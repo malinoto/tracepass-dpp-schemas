@@ -32,9 +32,9 @@ for (const d of both ? Object.values(DIRS) : [DIRS[which]])
     process.exit(2);
   }
 
-const instruments = JSON.parse(
-  readFileSync(INSTRUMENTS, "utf-8"),
-).instruments;
+const registry = JSON.parse(readFileSync(INSTRUMENTS, "utf-8"));
+const instruments = registry.instruments;
+const nonLegislative = registry.nonLegislative ?? {};
 
 /**
  * Instruments that mandate NO DATA FIELD.
@@ -66,7 +66,7 @@ function loadTemplates(dir) {
 
 function audit(dir, label) {
   const templates = loadTemplates(dir);
-  const findings = { overRequired: [], mismatch: [], noInstrument: [], phantom: [], wrongAnnex: [], staleCount: [], unreasoned: [], kindMismatch: [] };
+  const findings = { overRequired: [], mismatch: [], noInstrument: [], phantom: [], wrongAnnex: [], staleCount: [], unreasoned: [], kindMismatch: [], unresolved: [] };
 
   for (const [, d] of templates) {
     for (const f of d.fields) {
@@ -267,6 +267,16 @@ function audit(dir, label) {
     }
   }
 
+  // [12] The cited instrument is not in the registry. Every other check looks the
+  // CELEX up in instruments.json and quietly treats a miss as "nothing known", so a
+  // mistyped or unregistered CELEX would pass all of them and point at nothing.
+  for (const [, d] of templates)
+    for (const f of d.fields) {
+      const inst = (f.regulationRef ?? {}).instrument;
+      if (inst && !(inst in instruments) && !(inst in nonLegislative))
+        findings.unresolved.push({ cat: d.category, key: f.key, inst });
+    }
+
   // [8] The field's `kind` contradicts what instruments.json says the instrument IS.
   //
   // `kind` is the discriminator the required-rule turns on: only `legislation` can
@@ -353,6 +363,10 @@ function audit(dir, label) {
     console.log(`\n[6] stored count does not match the fields (${findings.staleCount.length})`);
     for (const f of findings.staleCount)
       console.log(`    ${f.cat.padEnd(12)} requiredFieldCount ${f.req.padEnd(12)} fieldCount ${f.fields}`);
+  }
+  if (findings.unresolved.length) {
+    console.log(`\n[12] cites an instrument that is not in instruments.json (${findings.unresolved.length})`);
+    for (const f of findings.unresolved) console.log(`    ${f.cat.padEnd(12)} ${f.key.slice(0, 30).padEnd(32)} ${f.inst}`);
   }
   if (findings.kindMismatch.length) {
     console.log(`\n[8] field \`kind\` contradicts instruments.json (${findings.kindMismatch.length})`);
