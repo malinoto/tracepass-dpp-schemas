@@ -3379,7 +3379,8 @@
         "article": "CLP 1272/2008, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Title II, Arts. 9-13 (classification)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Arts. 17-21 put the hazard information on the label of a mixture classified as hazardous. A labelling duty, not a passport one; empty for an unclassified mixture. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
       },
       "aiHints": {
         "alternateNames": [
@@ -3543,7 +3544,8 @@
         "article": "CLP 1272/2008 Article 20, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 20",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Art. 20: the signal word ('Danger' or 'Warning') goes on the label of a mixture classified as hazardous; an unclassified mixture has none. A labelling duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
       },
       "aiHints": {
         "alternateNames": [
@@ -3702,7 +3704,8 @@
         "article": "CLP 1272/2008 Article 19, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 19 & Annex V",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Art. 19: hazard pictograms go on the label of a mixture classified as hazardous; none for an unclassified mixture. A labelling duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
       },
       "aiHints": {
         "alternateNames": [
@@ -3807,7 +3810,8 @@
         "article": "CLP 1272/2008 Article 21, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 21 & Annex III",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Art. 21: hazard statements (H-codes) go on the label of a mixture classified as hazardous; none for an unclassified mixture. A labelling duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
       },
       "aiHints": {
         "alternateNames": [
@@ -4123,7 +4127,8 @@
         "article": "CLP 1272/2008 Article 45, Annex VIII",
         "instrument": "32008R1272",
         "provision": "Art. 45 & Annex VIII",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "CLP Annex VIII Part A 3.1 and Art. 25(7): a UFI for mixtures classified for health or physical hazards and notified under Art. 45; not for mixtures classified only as gases under pressure or explosives (point 2.2). A labelling and notification duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
       },
       "aiHints": {
         "alternateNames": [
@@ -4543,7 +4548,8 @@
         "article": "ESPR Article 7(5), REACH Article 33",
         "instrument": "32006R1907",
         "provision": "Art. 31(1)(c), 31(3)(b) (SDS)",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "REACH Art. 33 applies to articles, not mixtures. For a detergent the SVHC duty is the safety data sheet (REACH Art. 31(1)(c), 31(3)(b)); the passport is not compelled to carry this list, and the Reg. (EU) 2026/405 Annex VI Part A(h) ingredient list covers SVHCs present."
       },
       "aiHints": {
         "alternateNames": [
