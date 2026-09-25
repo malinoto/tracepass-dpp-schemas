@@ -6156,115 +6156,6 @@
       }
     },
     {
-      "key": "totalTyreWeightKg",
-      "label": {
-        "en": "Total Tyre Weight (kg)",
-        "bg": "Общо тегло на гумата (кг)",
-        "de": "Gesamtreifengewicht (kg)",
-        "hr": "Ukupna težina gume (kg)",
-        "cs": "Celková hmotnost pneumatiky (kg)",
-        "da": "Samlet dækvægt (kg)",
-        "nl": "Totaal bandgewicht (kg)",
-        "et": "Rehvi kogumass (kg)",
-        "fi": "Renkaan kokonaispaino (kg)",
-        "fr": "Poids total du pneumatique (kg)",
-        "el": "Συνολικό βάρος ελαστικού (kg)",
-        "ga": "Meáchan iomlán bonn (kg)",
-        "it": "Peso totale dello pneumatico (kg)",
-        "es": "Peso total del neumático (kg)",
-        "hu": "Teljes gumiabroncs tömege (kg)",
-        "lt": "Bendra padangos masė (kg)",
-        "lv": "Kopējā riepas masa (kg)",
-        "mt": "Piż totali tat-tajer (kg)",
-        "pl": "Całkowita masa opony (kg)",
-        "pt": "Peso total do pneu (kg)",
-        "ro": "Greutatea totală a anvelopei (kg)",
-        "sk": "Celková hmotnosť pneumatiky (kg)",
-        "sl": "Skupna teža pnevmatike (kg)",
-        "sv": "Total däckvikt (kg)"
-      },
-      "description": {
-        "en": "Total weight of the finished tyre",
-        "hr": "Ukupna težina gotove gume",
-        "cs": "Celková hmotnost hotové pneumatiky",
-        "da": "Samlet vægt af det færdige dæk",
-        "nl": "Totaalgewicht van de afgewerkte band",
-        "et": "Valmis rehvi kogumass",
-        "fi": "Valmiin renkaan kokonaispaino",
-        "fr": "Poids total du pneumatique fini",
-        "el": "Συνολικό βάρος του τελικού ελαστικού",
-        "ga": "Meáchan iomlán an bhoinn chríochnaithe",
-        "it": "Peso totale dello pneumatico finito",
-        "es": "Peso total del neumático acabado",
-        "hu": "A késztermék gumiabroncs teljes tömege",
-        "lt": "Bendra užbaigtos padangos masė",
-        "lv": "Gatavās riepas kopējā masa",
-        "mt": "Piż totali tat-tajer lest",
-        "pl": "Całkowita masa gotowej opony",
-        "pt": "Peso total do pneu acabado",
-        "ro": "Greutatea totală a anvelopei finite",
-        "sk": "Celková hmotnosť hotovej pneumatiky",
-        "sl": "Skupna teža dokončane pnevmatike",
-        "sv": "Total vikt för det färdiga däcket"
-      },
-      "dataType": "number",
-      "unit": "kg",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Total product mass is an ESPR Annex I resource-use parameter for a future tyre delegated act."
-      },
-      "category": "material_composition",
-      "categoryLabel": {
-        "en": "Material Composition",
-        "bg": "Състав на материалите",
-        "de": "Materialzusammensetzung",
-        "hr": "Sastav materijala",
-        "cs": "Složení materiálu",
-        "da": "Materialesammensætning",
-        "nl": "Materiaalsamenstelling",
-        "et": "Materjali koostis",
-        "fi": "Materiaalikoostumus",
-        "fr": "Composition des matériaux",
-        "el": "Σύνθεση υλικών",
-        "ga": "Comhdhéanamh ábhair",
-        "it": "Composizione dei materiali",
-        "es": "Composición del material",
-        "hu": "Anyagösszetétel",
-        "lt": "Medžiagų sudėtis",
-        "lv": "Materiālu sastāvs",
-        "mt": "Kompożizzjoni tal-materjal",
-        "pl": "Skład materiału",
-        "pt": "Composição do material",
-        "ro": "Compoziția materialului",
-        "sk": "Zloženie materiálu",
-        "sl": "Sestava materiala",
-        "sv": "Materialsammansättning"
-      },
-      "sortOrder": 47,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "ESPR delegated act (tyres)",
-        "instrument": "32024R1781",
-        "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "total weight",
-          "finished weight",
-          "tyre mass",
-          "net weight"
-        ],
-        "expectedFormat": "Decimal in kg (e.g. 9.2)",
-        "extractionPriority": 7
-      }
-    },
-    {
       "key": "naturalRubberContentPercentage",
       "label": {
         "en": "Natural Rubber Content (%)",
@@ -11492,7 +11383,7 @@
       }
     }
   ],
-  "fieldCount": 95,
+  "fieldCount": 94,
   "requiredFieldCount": 2,
   "categories": [
     {

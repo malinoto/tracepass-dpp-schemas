@@ -4733,7 +4733,7 @@
           "empty space ratio",
           "packaging efficiency"
         ],
-        "expectedFormat": "Decimal ratio, e.g. 0.15 means packaging is 15% of total weight",
+        "expectedFormat": "Decimal ratio of packaging weight to product weight, e.g. 0.15 means the packaging weighs 15% as much as the product",
         "extractionPriority": 2
       }
     },

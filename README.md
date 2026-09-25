@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-1005-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-990-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,24 +39,24 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **1,005 fields in total. 184 are required by
-an instrument in force; 220 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **990 fields in total. 164 are required by
+an instrument in force; 217 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 120 | 50 | Regulation (EU) 2023/1542 |
 | `construction` | 49 | 4 | CPR (EU) 2024/3110 |
-| `detergents` | 87 | 28 | Regulation (EU) 2026/405 |
-| `electronics` | 167 | 4 | ESPR (EU) 2024/1781 |
+| `detergents` | 83 | 18 | Regulation (EU) 2026/405 |
+| `electronics` | 162 | 4 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
 | `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
 | `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
 | `packaging` | 66 | 8 | PPWR (EU) 2025/40 |
-| `paints-coatings` | 75 | 25 | Directive 2004/42/EC |
+| `paints-coatings` | 70 | 15 | Directive 2004/42/EC |
 | `steel` | 84 | 28 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
 | `toys` | 28 | 14 | Regulation (EU) 2025/2509 |
-| `tyres` | 95 | 2 | ESPR (EU) 2024/1781 |
+| `tyres` | 94 | 2 | ESPR (EU) 2024/1781 |
 
 Battery carries the most required fields because Regulation (EU) 2023/1542 Art. 77 sets a
 real statutory date — 18 February 2027 — rather than awaiting a delegated act. The only

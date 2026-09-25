@@ -3029,28 +3029,28 @@
         "sv": "Reparerbarhetsklass"
       },
       "description": {
-        "en": "Repairability score class from A (best) to E (worst)",
-        "cs": "Třída skóre opravitelnosti od A (nejlepší) po E (nejhorší)",
-        "da": "Reparerbarhedsklasse fra A (bedst) til E (ringest)",
-        "el": "Κατηγορία βαθμολογίας επισκευασιμότητας από A (βέλτιστη) έως E (χείριστη)",
-        "es": "Clase de puntuación de reparabilidad de A (mejor) a E (peor)",
-        "et": "Parandatavuse skoori klass A-st (parim) kuni E-ni (halvim)",
-        "fi": "Korjattavuuspisteluokka A:sta (paras) E:hen (huonoin)",
-        "fr": "Classe de score de réparabilité de A (meilleure) à E (pire)",
-        "ga": "Aicme scór indeisitheachta ó A (is fearr) go E (is measa)",
-        "hr": "Razred ocjene popravljivosti od A (najbolji) do E (najlošiji)",
-        "hu": "Javíthatósági pontszám-osztály A-tól (legjobb) E-ig (legrosszabb)",
-        "it": "Classe di punteggio di riparabilità da A (migliore) a E (peggiore)",
-        "lt": "Taisomumo balo klasė nuo A (geriausia) iki E (blogiausia)",
-        "lv": "Remontējamības rādītāja klase no A (labākā) līdz E (sliktākā)",
-        "mt": "Klassi tal-punteġġ tar-riparabbiltà minn A (l-aħjar) sa E (l-agħar)",
-        "nl": "Repareerbaarheidsscoreklasse van A (beste) tot E (slechtste)",
-        "pl": "Klasa wskaźnika możliwości naprawy od A (najlepsza) do E (najgorsza)",
-        "pt": "Classe de pontuação de reparabilidade de A (melhor) a E (pior)",
-        "ro": "Clasa punctajului de reparabilitate de la A (cea mai bună) la E (cea mai slabă)",
-        "sk": "Trieda skóre opraviteľnosti od A (najlepšia) po E (najhoršia)",
-        "sl": "Razred ocene popravljivosti od A (najboljši) do E (najslabši)",
-        "sv": "Reparerbarhetspoängklass från A (bäst) till E (sämst)"
+        "en": "Repairability class A (most repairable) to E (least), derived from the repairability index R per Reg. (EU) 2023/1669 Annex II Table 4 (smartphones and slate tablets)",
+        "cs": "Třída opravitelnosti A (nejsnáze opravitelné) až E (nejméně), odvozená z indexu opravitelnosti R dle přílohy II tabulky 4 nařízení (EU) 2023/1669 (smartphony a tablety)",
+        "da": "Reparerbarhedsklasse A (mest reparerbar) til E (mindst), afledt af reparerbarhedsindeks R efter bilag II tabel 4 i forordning (EU) 2023/1669 (smartphones og tablet-pc'er)",
+        "el": "Κατηγορία επισκευασιμότητας Α (πιο εύκολα επισκευάσιμο) έως Ε (λιγότερο), που προκύπτει από τον δείκτη R κατά παράρτημα II πίνακα 4 του Καν. (ΕΕ) 2023/1669 (smartphones και tablets)",
+        "es": "Clase de reparabilidad A (más reparable) a E (menos), derivada del índice de reparabilidad R con arreglo al anexo II tabla 4 del Reglamento (UE) 2023/1669 (smartphones y tabletas)",
+        "et": "Parandatavuse klass A (kõige paremini parandatav) kuni E (kõige halvemini), tuletatud parandatavuse indeksist R vastavalt määruse (EL) 2023/1669 II lisa tabelile 4 (nutitelefonid ja tahvelarvutid)",
+        "fi": "Korjattavuusluokka A (parhaiten korjattava) E:hen (huonoimmin), johdettu korjattavuusindeksistä R asetuksen (EU) 2023/1669 liitteen II taulukon 4 mukaisesti (älypuhelimet ja tabletit)",
+        "fr": "Classe de réparabilité A (la plus réparable) à E (la moins), dérivée de l'indice de réparabilité R conformément au tableau 4 de l'annexe II du règlement (UE) 2023/1669 (smartphones et tablettes ardoises)",
+        "ga": "Aicme indeisitheachta A (is indéisithe) go E (is lú indeisithe), díorthaithe ón innéacs indeisitheachta R de réir Iarscríbhinn II Tábla 4 de Rialachán (AE) 2023/1669 (fóin chliste agus táblaí ardaithe)",
+        "hr": "Razred popravljivosti A (najlakše popravljiv) do E (najteže), izveden iz indeksa popravljivosti R prema Prilogu II tablici 4 Uredbe (EU) 2023/1669 (pametni telefoni i tablet računala)",
+        "hu": "Javíthatósági osztály A-tól (leginkább javítható) E-ig (legkevésbé), az (EU) 2023/1669 rendelet II. melléklete 4. táblázata szerinti R indexből levezetve (okostelefonok és táblagépek)",
+        "it": "Classe di riparabilità A (più riparabile) a E (meno), derivata dall'indice di riparabilità R ai sensi dell'allegato II, tabella 4 del regolamento (UE) 2023/1669 (smartphone e tablet)",
+        "lt": "Taisomumo klasė A (lengviausiai taisoma) iki E (sunkiausiai), gauta iš taisomumo indekso R pagal Reglamento (ES) 2023/1669 II priedo 4 lentelę (išmanieji telefonai ir planšetiniai kompiuteriai)",
+        "lv": "Remontējamības klase A (vieglāk remontējama) līdz E (grūtāk), atvasināta no remontējamības indeksa R saskaņā ar Regulas (ES) 2023/1669 II pielikuma 4. tabulu (viedtālruņi un planšetdatori)",
+        "mt": "Klassi tar-riparabbiltà A (l-aktar riparabbli) sa E (l-inqas), derivata mill-indiċi ta' riparabbiltà R skont l-Anness II Tabella 4 tar-Regolament (UE) 2023/1669 (smartphones u tablets)",
+        "nl": "Repareerbaarheidsklasse A (meest repareerbaar) tot E (minst), afgeleid van de repareerbaarheidindex R conform bijlage II tabel 4 van Verordening (EU) 2023/1669 (smartphones en slate tablets)",
+        "pl": "Klasa naprawialności A (najłatwiej naprawialna) do E (najtrudniej), wywodzona z indeksu R zgodnie z załącznikiem II tabelą 4 rozporządzenia (UE) 2023/1669 (smartfony i tablety)",
+        "pt": "Classe de reparabilidade A (mais reparável) a E (menos), derivada do índice de reparabilidade R nos termos do anexo II, tabela 4 do Regulamento (UE) 2023/1669 (smartphones e tablets)",
+        "ro": "Clasă de reparabilitate A (cea mai reparabilă) până la E (cea mai puțin), derivată din indicele de reparabilitate R conform Anexei II Tabelul 4 din Regulamentul (UE) 2023/1669 (smartphone-uri și tablete)",
+        "sk": "Trieda opraviteľnosti A (najľahšie opraviteľné) až E (najťažšie), odvodená z indexu opraviteľnosti R podľa prílohy II tabuľky 4 nariadenia (EÚ) 2023/1669 (smartfóny a tablety)",
+        "sl": "Razred popravljivosti A (najlažje popravljivo) do E (najmanj), izpeljan iz indeksa popravljivosti R po Prilogi II Tabeli 4 Uredbe (EU) 2023/1669 (pametni telefoni in tablice)",
+        "sv": "Reparerbarhetsklassen A (mest reparerbar) till E (minst), härledd från reparerbarhetsindex R enligt bilaga II tabell 4 i förordning (EU) 2023/1669 (smartphones och surfplattor)"
       },
       "dataType": "enum",
       "unit": null,
@@ -3236,12 +3236,11 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
-        "annex": "Annex I",
-        "instrument": "32024R1781",
-        "provision": "Art. 7",
+        "article": "Reg. (EU) 2023/1669 Annex II point C (Table 4) + Annex III label + Annex V item 20",
+        "instrument": "32023R1669",
+        "provision": "Annex II, point C, Table 4",
         "kind": "legislation",
-        "description": "No EU instrument in force requires a repairability class for electronics; national schemes are not an EU duty."
+        "description": "In force from 20 June 2025 for smartphones and slate tablets: shown on the energy label and entered in EPREL. No passport obligation. No EU class exists for other electronics."
       },
       "aiHints": {
         "alternateNames": [
@@ -3282,28 +3281,28 @@
         "sv": "Reparerbarhetsindex"
       },
       "description": {
-        "en": "Numeric repairability score from 0 (not repairable) to 100 (fully repairable)",
-        "cs": "Číselné skóre opravitelnosti od 0 (neopravitelný) do 100 (plně opravitelný)",
-        "da": "Numerisk reparerbarhedsscore fra 0 (ikke reparerbar) til 100 (fuldt reparerbar)",
-        "el": "Αριθμητική βαθμολογία επισκευασιμότητας από 0 (μη επισκευάσιμο) έως 100 (πλήρως επισκευάσιμο)",
-        "es": "Puntuación numérica de reparabilidad de 0 (no reparable) a 100 (totalmente reparable)",
-        "et": "Parandatavuse arvuline skoor vahemikus 0 (ei ole parandatav) kuni 100 (täielikult parandatav)",
-        "fi": "Numeerinen korjattavuuspistemäärä 0:sta (ei korjattavissa) 100:aan (täysin korjattavissa)",
-        "fr": "Score numérique de réparabilité de 0 (non réparable) à 100 (entièrement réparable)",
-        "ga": "Scór uimhriúil indeisitheachta ó 0 (ní féidir a dheisiú) go 100 (iomlán indeisithe)",
-        "hr": "Brojčana ocjena popravljivosti od 0 (nije popravljivo) do 100 (potpuno popravljivo)",
-        "hu": "Numerikus javíthatósági pontszám 0-tól (nem javítható) 100-ig (teljes mértékben javítható)",
-        "it": "Punteggio numerico di riparabilità da 0 (non riparabile) a 100 (pienamente riparabile)",
-        "lt": "Taisomumo skaitinis balas nuo 0 (netaisoma) iki 100 (visiškai taisoma)",
-        "lv": "Remontējamības skaitliskais rādītājs no 0 (nav remontējams) līdz 100 (pilnībā remontējams)",
-        "mt": "Punteġġ numeriku tar-riparabbiltà minn 0 (mhux riparabbli) sa 100 (riparabbli għalkollox)",
-        "nl": "Numerieke repareerbaarheidsscore van 0 (niet repareerbaar) tot 100 (volledig repareerbaar)",
-        "pl": "Liczbowy wskaźnik możliwości naprawy od 0 (nienaprawialny) do 100 (w pełni naprawialny)",
-        "pt": "Pontuação numérica de reparabilidade de 0 (não reparável) a 100 (totalmente reparável)",
-        "ro": "Punctaj numeric al reparabilității de la 0 (nereparabil) la 100 (complet reparabil)",
-        "sk": "Číselné skóre opraviteľnosti od 0 (neopraviteľný) do 100 (plne opraviteľný)",
-        "sl": "Številčna ocena popravljivosti od 0 (ni popravljivo) do 100 (popolnoma popravljivo)",
-        "sv": "Numerisk reparerbarhetspoäng från 0 (inte reparerbar) till 100 (fullt reparerbar)"
+        "en": "Repairability index R (1.00–5.00, two decimals) for smartphones and slate tablets, calculated per Reg. (EU) 2023/1669 Annex IV point 5 and declared in the EPREL product information sheet",
+        "cs": "Index opravitelnosti R (1,00–5,00, dvě desetinná místa) pro smartphony a tablety, vypočtený dle přílohy IV bodu 5 nařízení (EU) 2023/1669 a zapsaný do informačního listu EPREL",
+        "da": "Reparerbarhedsindeks R (1,00–5,00, to decimaler) for smartphones og tablet-pc'er, beregnet efter bilag IV punkt 5 i forordning (EU) 2023/1669 og angivet i EPREL-produktinformationsbladet",
+        "el": "Δείκτης επισκευασιμότητας R (1,00–5,00, δύο δεκαδικά) για smartphones και tablets, υπολογισμένος κατά παράρτημα IV σημείο 5 του Καν. (ΕΕ) 2023/1669 και δηλωμένος στο δελτίο πληροφοριών προϊόντος EPREL",
+        "es": "Índice de reparabilidad R (1,00–5,00, dos decimales) para smartphones y tabletas, calculado con arreglo al anexo IV, punto 5 del Reglamento (UE) 2023/1669 y declarado en la ficha de información del producto EPREL",
+        "et": "Nutitelefonide ja tahvelarvutite parandatavuse indeks R (1,00–5,00, kaks kohta pärast koma), arvutatud vastavalt määruse (EL) 2023/1669 IV lisa punktile 5 ja deklareeritud EPREL tooteinfo lehel",
+        "fi": "Korjattavuusindeksi R (1,00–5,00, kaksi desimaalia) älypuhelimille ja tableteille, laskettu asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti ja ilmoitettu EPREL-tuotetietolomakkeessa",
+        "fr": "Indice de réparabilité R (1,00–5,00, deux décimales) pour les smartphones et les tablettes ardoises, calculé conformément à l'annexe IV, point 5 du règlement (UE) 2023/1669 et déclaré dans la fiche d'information sur le produit EPREL",
+        "ga": "Innéacs indeisitheachta R (1.00–5.00, dhá dheachúil) d'fhóin chliste agus táblaí ardaithe, ríofa de réir Iarscríbhinn IV pointe 5 de Rialachán (AE) 2023/1669 agus dearbhaithe i mbileog faisnéise táirge EPREL",
+        "hr": "Indeks popravljivosti R (1,00–5,00, dvije decimale) za pametne telefone i tablet računala, izračunan prema Prilogu IV točki 5 Uredbe (EU) 2023/1669 i prijavljen u EPREL informacijskom listu",
+        "hu": "Javíthatósági index R (1,00–5,00, két tizedesjegy) okostelefonokhoz és táblagépekhez, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint számítva és az EPREL termékinformációs lapon bevallva",
+        "it": "Indice di riparabilità R (1,00–5,00, due decimali) per smartphone e tablet a ardesia, calcolato ai sensi dell'allegato IV, punto 5 del regolamento (UE) 2023/1669 e dichiarato nella scheda informativa del prodotto EPREL",
+        "lt": "Taisomumo indeksas R (1,00–5,00, du dešimtainiai) išmaniesiems telefonams ir planšetiniams kompiuteriams, apskaičiuotas pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą ir paskelbtas EPREL produkto informaciniame lape",
+        "lv": "Remontējamības indekss R (1,00–5,00, divi decimāļi) viedtālruņiem un planšetdatoriem, aprēķināts saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu un deklarēts EPREL produkta informācijas lapā",
+        "mt": "Indiċi ta' riparabbiltà R (1.00–5.00, żewġ desimals) għal smartphones u tablets, ikkalkolat skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669 u ddikjarat fil-folja tal-informazzjoni tal-prodott tal-EPREL",
+        "nl": "Repareerbaarheidindex R (1,00–5,00, twee decimalen) voor smartphones en slate tablets, berekend conform bijlage IV, punt 5 van Verordening (EU) 2023/1669 en vermeld op het EPREL-productinformatieblad",
+        "pl": "Indeks naprawialności R (1,00–5,00, dwie cyfry po przecinku) dla smartfonów i tabletów, obliczony zgodnie z załącznikiem IV pkt 5 rozporządzenia (UE) 2023/1669 i zadeklarowany w karcie informacyjnej produktu EPREL",
+        "pt": "Índice de reparabilidade R (1,00–5,00, duas casas decimais) para smartphones e tablets, calculado nos termos do anexo IV, ponto 5 do Regulamento (UE) 2023/1669 e declarado na ficha de informação do produto EPREL",
+        "ro": "Indicele de reparabilitate R (1,00–5,00, două zecimale) pentru smartphone-uri și tablete, calculat conform Anexei IV punctul 5 din Regulamentul (UE) 2023/1669 și declarat în fișa de informații a produsului EPREL",
+        "sk": "Index opraviteľnosti R (1,00–5,00, dve desatinné miesta) pre smartfóny a tablety, vypočítaný podľa prílohy IV bodu 5 nariadenia (EÚ) 2023/1669 a zaznamenaný v informačnom liste produktu EPREL",
+        "sl": "Indeks popravljivosti R (1,00–5,00, dve decimalni mesti) za pametne telefone in tablice, izračunan po Prilogi IV točki 5 Uredbe (EU) 2023/1669 in prijavljen v informacijski list o proizvodu EPREL",
+        "sv": "Reparerbarhetsindex R (1,00–5,00, två decimaler) för smartphones och surfplattor, beräknat enligt bilaga IV punkt 5 i förordning (EU) 2023/1669 och angivet i EPREL-produktinformationsbladet"
       },
       "dataType": "number",
       "unit": "points",
@@ -3312,11 +3311,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100,
-        "anticipated": true,
-        "anticipatedUnder": "32023R1670",
-        "anticipatedNote": "A 0-100 repairability index IS mandated for smartphones and slate tablets by ecodesign Reg (EU) 2023/1670 (energy-labelling), applicable from 20 June 2025 — but under Dir 2009/125, not ESPR Art. 7, and only for that narrow product group."
+        "min": 1,
+        "max": 5
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -3348,12 +3344,12 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
-        "annex": "Annex I",
-        "instrument": "32023R1670",
-        "provision": "Art. 7",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex II point C, Annex IV point 5, Annex V item 21",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21",
         "kind": "legislation",
-        "description": "A 0-100 repairability index is real, but it belongs to Reg (EU) 2023/1670 for smartphones and slate tablets under the old Ecodesign Directive 2009/125/EC — not to ESPR, and not to servers. That regulation creates no digital product passport; the index is displayed through the energy label and the EPREL product database. Outside that narrow product group nothing mandates the index at all."
+        "description": "Energy-labelling act for smartphones and slate tablets (applies from 20 June 2025). The index is entered in EPREL and drives the label's repairability class; no digital product passport is created. Other electronics: nothing mandates it."
       },
       "aiHints": {
         "alternateNames": [
@@ -3361,7 +3357,7 @@
           "repairability score",
           "repair index"
         ],
-        "expectedFormat": "Number 0-100",
+        "expectedFormat": "Decimal 1.00–5.00 (shown as x,xx/5)",
         "extractionPriority": 8
       }
     },
@@ -3707,28 +3703,28 @@
         "sv": "Årlig energiförbrukning"
       },
       "description": {
-        "en": "Energy consumed per year under standard conditions",
-        "cs": "Spotřeba energie za rok za standardních podmínek",
-        "da": "Energiforbrug pr. år under standardforhold",
-        "el": "Ετήσια κατανάλωση ενέργειας υπό τυπικές συνθήκες",
-        "es": "Energía consumida al año en condiciones estándar",
-        "et": "Aastane energiatarve standardtingimustes",
-        "fi": "Vuosittainen energiankulutus vakio-olosuhteissa",
-        "fr": "Énergie consommée par an dans des conditions standard",
-        "ga": "Fuinneamh a ídítear in aghaidh na bliana faoi dhálaí caighdeánacha",
-        "hr": "Godišnja potrošnja energije u standardnim uvjetima",
-        "hu": "Éves energiafogyasztás szabványos körülmények között",
-        "it": "Energia consumata all'anno in condizioni standard",
-        "lt": "Per metus suvartojama energija standartinėmis sąlygomis",
-        "lv": "Gadā patērētā enerģija standarta apstākļos",
-        "mt": "Enerġija kkunsmata fis-sena f'kundizzjonijiet standard",
-        "nl": "Energieverbruik per jaar onder standaardomstandigheden",
-        "pl": "Zużycie energii na rok w warunkach standardowych",
-        "pt": "Energia consumida por ano em condições padrão",
-        "ro": "Energia consumată pe an în condiții standard",
-        "sk": "Ročná spotreba energie za štandardných podmienok",
-        "sl": "Letna poraba energije v standardnih pogojih",
-        "sv": "Energiförbrukning per år under standardförhållanden"
+        "en": "Annual energy consumption AE (kWh/a), refrigerating appliances; defined in Reg. 2019/2016 Annex I, calculated per Annex IV point 3",
+        "cs": "Roční spotřeba energie AE (kWh/a) chladicích spotřebičů; definováno v příloze I nař. 2019/2016, výpočet dle přílohy IV bodu 3",
+        "da": "Årligt energiforbrug AE (kWh/a), kølende apparater; defineret i bilag I til forordn. 2019/2016, beregnet efter bilag IV punkt 3",
+        "el": "Ετήσια κατανάλωση ενέργειας AE (kWh/a) ψυκτικών συσκευών· ορισμός στο παράρτημα I Καν. 2019/2016, υπολογισμός κατά παράρτημα IV σημ. 3",
+        "es": "Consumo anual de energía AE (kWh/a), aparatos refrigeradores; definido en el anexo I del Reg. 2019/2016, calculado conforme al anexo IV punto 3",
+        "et": "Aastaenergiakulu AE (kWh/a), külmutusseadmed; määratlus IV lisa I lõikes, arvutus IV lisa punkti 3 alusel",
+        "fi": "Vuotuinen energiankulutus AE (kWh/a), jäähdytyslaitteet; määritelty asetuksen 2019/2016 liitteessä I, laskettu liitteen IV kohdan 3 mukaisesti",
+        "fr": "Consommation annuelle d'énergie AE (kWh/an), appareils réfrigérants; définie à l'annexe I du règl. 2019/2016, calculée selon l'annexe IV point 3",
+        "ga": "Tomhaltas fuinnimh bliantúil AE (kWh/bliain), fearais cuisnithe; sainmhínithe in Iarscríbhinn I Rialacháin 2019/2016, ríofa de réir Iarscríbhinn IV pointe 3",
+        "hr": "Godišnja potrošnja energije AE (kWh/a), rashladni uređaji; definirana u prilogu I Uredbe 2019/2016, izračunana prema prilogu IV točki 3",
+        "hu": "Éves energiafogyasztás AE (kWh/év), hűtőberendezések; a 2019/2016 rendelet I. mellékletében meghatározva, a IV. melléklet 3. pontja szerint számítva",
+        "it": "Consumo annuale di energia AE (kWh/a), apparecchi refrigeranti; definito nell'allegato I del reg. 2019/2016, calcolato ai sensi dell'allegato IV punto 3",
+        "lt": "Metinis energijos suvartojimas AE (kWh/m.), šaldymo prietaisai; apibrėžtas Regl. 2019/2016 I priede, apskaičiuotas pagal IV priedo 3 punktą",
+        "lv": "Gada enerģijas patēriņš AE (kWh/g.), dzesēšanas ierīces; definēts Reg. 2019/2016 I pielikumā, aprēķināts saskaņā ar IV pielikuma 3. punktu",
+        "mt": "Konsum annwali ta' enerġija AE (kWh/sena), apparat ta' rkuprar bis-sħana; definit fl-Anness I tar-Reg. 2019/2016, ikkalkolat skont l-Anness IV punt 3",
+        "nl": "Jaarlijks energieverbruik AE (kWh/jaar), koeltoestellen; gedefinieerd in bijlage I bij Verordening 2019/2016, berekend conform bijlage IV punt 3",
+        "pl": "Roczne zużycie energii AE (kWh/rok), urządzenia chłodnicze; zdefiniowane w załączniku I do Rozp. 2019/2016, obliczone wg załącznika IV pkt 3",
+        "pt": "Consumo anual de energia AE (kWh/ano), aparelhos de refrigeração; definido no anexo I do Reg. 2019/2016, calculado nos termos do anexo IV ponto 3",
+        "ro": "Consum anual de energie AE (kWh/an), aparate frigorifice; definit în anexa I din Reg. 2019/2016, calculat conform anexei IV punctul 3",
+        "sk": "Ročná spotreba energie AE (kWh/rok), chladiace spotrebiče; definovaná v prílohe I nar. 2019/2016, výpočet podľa prílohy IV bodu 3",
+        "sl": "Letna poraba energije AE (kWh/leto), hladilni aparati; opredeljena v Prilogi I Uredbe 2019/2016, izračunana skladno s Prilogo IV točko 3",
+        "sv": "Årlig energiförbrukning AE (kWh/år), kylande hushållsapparater; definierat i bilaga I till förordning 2019/2016, beräknat enligt bilaga IV punkt 3"
       },
       "dataType": "number",
       "unit": "kWh",
@@ -3769,12 +3765,12 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Energy Labelling Arts. 12 and 4",
-        "annex": "Annex I",
-        "instrument": "32017R1369",
-        "provision": "Reg. (EU) 2017/1369 Arts. 12 and 4 — product information sheet registered in EPREL",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6",
         "kind": "legislation",
-        "description": "Annual consumption goes on the label and in the EPREL product information sheet."
+        "description": "Annual energy consumption AE (kWh/a), refrigerating appliances; defined in Reg. 2019/2016 Annex I, calculated per Annex IV point 3"
       },
       "aiHints": {
         "alternateNames": [
@@ -4358,12 +4354,11 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
-        "annex": "Annex I",
-        "instrument": "32024R1781",
-        "provision": "Art. 7",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.2(1)(d) / D.2(1)(d)",
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.2(1)(d)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Smartphones and slate tablets: indicative % published on a free-access website from 20 June 2025. Other electronics: anticipated under ESPR Annex I, no delegated act."
       },
       "aiHints": {
         "alternateNames": [
@@ -4792,11 +4787,12 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 8",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 8",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Battery endurance per charge cycle (h); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -4900,11 +4896,12 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 9",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 9",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Number of charging cycles used for the battery endurance test; declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -5007,11 +5004,12 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 10",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 10",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Rated battery capacity (mAh); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -5365,11 +5363,12 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex II Table 3 + Annex V item 14",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 14",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Repeated free-fall reliability class (A–E, Annex II Table 3); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -5471,11 +5470,12 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 15",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 15",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "IP rating for dust and water resistance (IEC 60529); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -5518,28 +5518,28 @@
         "sv": "Poäng för demonteringsdjup"
       },
       "description": {
-        "en": "Repairability sub-score (25% weight): steps to remove priority parts",
-        "cs": "Dílčí skóre opravitelnosti (váha 25 %): kroky k demontáži prioritních dílů",
-        "da": "Reparerbarheds-delpoint (vægt 25 %): trin til afmontering af prioriterede dele",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 25%): βήματα αφαίρεσης εξαρτημάτων προτεραιότητας",
-        "es": "Subpuntuación de reparabilidad (peso 25 %): pasos para desmontar piezas prioritarias",
-        "et": "Parandatavuse osahinne (kaal 25%): prioriteetsete osade eemaldamise sammud",
-        "fi": "Korjattavuuden osapistemäärä (paino 25 %): prioriteettisten osien irrotusvaiheet",
-        "fr": "Sous-note de réparabilité (pondération 25 %) : étapes de démontage des pièces prioritaires",
-        "ga": "Fo-scór deisitheachta (meáchan 25%): céimeanna chun páirteanna tosaíochta a bhaint",
-        "hr": "Pod-ocjena popravljivosti (težina 25 %): koraci za uklanjanje prioritetnih dijelova",
-        "hu": "Javíthatósági részpontszám (súly 25 %): prioritású alkatrészek eltávolításának lépései",
-        "it": "Sotto-punteggio di riparabilità (peso 25 %): passaggi per rimuovere le parti prioritarie",
-        "lt": "Taisomumo dalinis balas (svoris 25 %): prioritetinių dalių išmontavimo veiksmai",
-        "lv": "Remontējamības apakšrādītājs (svars 25 %): prioritāro daļu demontāžas soļi",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 25%): passi biex jitneħħew il-partijiet ta' prijorità",
-        "nl": "Subscore repareerbaarheid (weging 25 %): stappen om prioritaire onderdelen te verwijderen",
-        "pl": "Podocena naprawialności (waga 25%): kroki wymontowania części priorytetowych",
-        "pt": "Subpontuação de reparabilidade (peso 25 %): passos para remover peças prioritárias",
-        "ro": "Subscor de reparabilitate (pondere 25 %): etape pentru demontarea pieselor prioritare",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 25 %): kroky demontáže prioritných dielov",
-        "sl": "Delna ocena popravljivosti (utež 25 %): koraki za odstranitev prednostnih delov",
-        "sv": "Delpoäng reparerbarhet (vikt 25 %): steg för att demontera prioriterade delar"
+        "en": "Repairability sub-score (25% weight): steps to remove priority parts (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 25 %): kroky k demontáži prioritních dílů (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 25 %): trin til afmontering af prioriterede dele (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 25%): βήματα αφαίρεσης εξαρτημάτων προτεραιότητας (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 25 %): pasos para desmontar piezas prioritarias (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 25%): prioriteetsete osade eemaldamise sammud (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 25 %): prioriteettisten osien irrotusvaiheet (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 25 %) : étapes de démontage des pièces prioritaires (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 25%): céimeanna chun páirteanna tosaíochta a bhaint (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 25 %): koraci za uklanjanje prioritetnih dijelova (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 25 %): prioritású alkatrészek eltávolításának lépései (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 25 %): passaggi per rimuovere le parti prioritarie (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 25 %): prioritetinių dalių išmontavimo veiksmai (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 25 %): prioritāro daļu demontāžas soļi (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 25%): passi biex jitneħħew il-partijiet ta' prijorità (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 25 %): stappen om prioritaire onderdelen te verwijderen (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 25%): kroki wymontowania części priorytetowych (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 25 %): passos para remover peças prioritárias (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 25 %): etape pentru demontarea pieselor prioritare (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 25 %): kroky demontáže prioritných dielov (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 25 %): koraki za odstranitev prednostnih delov (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 25 %): steg för att demontera prioriterade delar (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -5548,8 +5548,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -5581,11 +5581,12 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21a",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21a",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -5593,7 +5594,7 @@
           "disassembly score",
           "teardown depth"
         ],
-        "expectedFormat": "Number 0-100 (weight 25%)",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 6
       }
     },
@@ -5626,28 +5627,28 @@
         "sv": "Poäng för fästelement"
       },
       "description": {
-        "en": "Repairability sub-score (15% weight): screws vs glue vs clips",
-        "cs": "Dílčí skóre opravitelnosti (váha 15 %): šrouby vs. lepidlo vs. klipy",
-        "da": "Reparerbarheds-delpoint (vægt 15 %): skruer vs. lim vs. clips",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): βίδες έναντι κόλλας έναντι κλιπ",
-        "es": "Subpuntuación de reparabilidad (peso 15 %): tornillos frente a cola o clips",
-        "et": "Parandatavuse osahinne (kaal 15%): kruvid vs liim vs klambrid",
-        "fi": "Korjattavuuden osapistemäärä (paino 15 %): ruuvit vs. liima vs. kiinnikkeet",
-        "fr": "Sous-note de réparabilité (pondération 15 %) : vis vs colle vs clips",
-        "ga": "Fo-scór deisitheachta (meáchan 15%): scriúnna vs gliú vs fáiscíní",
-        "hr": "Pod-ocjena popravljivosti (težina 15 %): vijci naspram ljepila naspram spojnica",
-        "hu": "Javíthatósági részpontszám (súly 15 %): csavar kontra ragasztó kontra patent",
-        "it": "Sotto-punteggio di riparabilità (peso 15 %): viti vs colla vs clip",
-        "lt": "Taisomumo dalinis balas (svoris 15 %): varžtai, klijai ar spaustukai",
-        "lv": "Remontējamības apakšrādītājs (svars 15 %): skrūves, līme vai klipši",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): viti vs kolla vs klipps",
-        "nl": "Subscore repareerbaarheid (weging 15 %): schroeven versus lijm versus clips",
-        "pl": "Podocena naprawialności (waga 15%): śruby, klej czy zatrzaski",
-        "pt": "Subpontuação de reparabilidade (peso 15 %): parafusos vs cola vs clipes",
-        "ro": "Subscor de reparabilitate (pondere 15 %): șuruburi vs adeziv vs cleme",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): skrutky vs. lepidlo vs. klipy",
-        "sl": "Delna ocena popravljivosti (utež 15 %): vijaki vs lepilo vs sponke",
-        "sv": "Delpoäng reparerbarhet (vikt 15 %): skruvar mot lim mot clips"
+        "en": "Repairability sub-score (15% weight): screws vs glue vs clips (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 15 %): šrouby vs. lepidlo vs. klipy (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 15 %): skruer vs. lim vs. clips (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): βίδες έναντι κόλλας έναντι κλιπ (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 15 %): tornillos frente a cola o clips (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 15%): kruvid vs liim vs klambrid (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 15 %): ruuvit vs. liima vs. kiinnikkeet (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 15 %) : vis vs colle vs clips (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 15%): scriúnna vs gliú vs fáiscíní (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 15 %): vijci naspram ljepila naspram spojnica (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 15 %): csavar kontra ragasztó kontra patent (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 15 %): viti vs colla vs clip (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 15 %): varžtai, klijai ar spaustukai (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 15 %): skrūves, līme vai klipši (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): viti vs kolla vs klipps (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 15 %): schroeven versus lijm versus clips (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 15%): śruby, klej czy zatrzaski (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 15 %): parafusos vs cola vs clipes (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 15 %): șuruburi vs adeziv vs cleme (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): skrutky vs. lepidlo vs. klipy (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 15 %): vijaki vs lepilo vs sponke (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 15 %): skruvar mot lim mot clips (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -5656,8 +5657,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -5689,11 +5690,12 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21b",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21b",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -5701,7 +5703,7 @@
           "fastener score",
           "joining method score"
         ],
-        "expectedFormat": "Number 0-100 (weight 15%)",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 5
       }
     },
@@ -5734,28 +5736,28 @@
         "sv": "Poäng för verktyg"
       },
       "description": {
-        "en": "Repairability sub-score (15% weight): proprietary vs standard vs no tools needed",
-        "cs": "Dílčí skóre opravitelnosti (váha 15 %): patentované vs. standardní vs. bez nářadí",
-        "da": "Reparerbarheds-delpoint (vægt 15 %): proprietært vs. standard vs. intet værktøj nødvendigt",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): ιδιοταγή έναντι τυπικών έναντι μη απαιτούμενων εργαλείων",
-        "es": "Subpuntuación de reparabilidad (peso 15 %): herramientas propietarias frente a estándar o sin herramientas",
-        "et": "Parandatavuse osahinne (kaal 15%): omandiõigusega vs standardsed vs tööriistadeta",
-        "fi": "Korjattavuuden osapistemäärä (paino 15 %): erityiset vs. vakio vs. ei työkaluja",
-        "fr": "Sous-note de réparabilité (pondération 15 %) : outils propriétaires vs standards vs sans outils",
-        "ga": "Fo-scór deisitheachta (meáchan 15%): uirlisí dílseánacha vs chaighdeánacha vs gan uirlisí",
-        "hr": "Pod-ocjena popravljivosti (težina 15 %): vlasnički naspram standardnih naspram bez alata",
-        "hu": "Javíthatósági részpontszám (súly 15 %): egyedi, szabványos vagy szerszám nélküli",
-        "it": "Sotto-punteggio di riparabilità (peso 15 %): utensili proprietari vs standard vs senza utensili",
-        "lt": "Taisomumo dalinis balas (svoris 15 %): specialūs, standartiniai ar be įrankių",
-        "lv": "Remontējamības apakšrādītājs (svars 15 %): patentēti, standarta vai bez darbarīkiem",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): proprjetarji vs standard vs mingħajr għodod",
-        "nl": "Subscore repareerbaarheid (weging 15 %): merkgebonden versus standaard versus geen gereedschap nodig",
-        "pl": "Podocena naprawialności (waga 15%): narzędzia zastrzeżone, standardowe lub brak",
-        "pt": "Subpontuação de reparabilidade (peso 15 %): ferramentas proprietárias vs padrão vs sem ferramentas",
-        "ro": "Subscor de reparabilitate (pondere 15 %): scule proprietare vs standard vs fără scule",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): patentované vs. štandardné vs. bez náradia",
-        "sl": "Delna ocena popravljivosti (utež 15 %): lastniško vs standardno vs brez orodja",
-        "sv": "Delpoäng reparerbarhet (vikt 15 %): proprietära vs standardverktyg vs inga verktyg"
+        "en": "Repairability sub-score (15% weight): proprietary vs standard vs no tools needed (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 15 %): patentované vs. standardní vs. bez nářadí (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 15 %): proprietært vs. standard vs. intet værktøj nødvendigt (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): ιδιοταγή έναντι τυπικών έναντι μη απαιτούμενων εργαλείων (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 15 %): herramientas propietarias frente a estándar o sin herramientas (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 15%): omandiõigusega vs standardsed vs tööriistadeta (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 15 %): erityiset vs. vakio vs. ei työkaluja (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 15 %) : outils propriétaires vs standards vs sans outils (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 15%): uirlisí dílseánacha vs chaighdeánacha vs gan uirlisí (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 15 %): vlasnički naspram standardnih naspram bez alata (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 15 %): egyedi, szabványos vagy szerszám nélküli (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 15 %): utensili proprietari vs standard vs senza utensili (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 15 %): specialūs, standartiniai ar be įrankių (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 15 %): patentēti, standarta vai bez darbarīkiem (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): proprjetarji vs standard vs mingħajr għodod (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 15 %): merkgebonden versus standaard versus geen gereedschap nodig (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 15%): narzędzia zastrzeżone, standardowe lub brak (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 15 %): ferramentas proprietárias vs padrão vs sem ferramentas (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 15 %): scule proprietare vs standard vs fără scule (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): patentované vs. štandardné vs. bez náradia (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 15 %): lastniško vs standardno vs brez orodja (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 15 %): proprietära vs standardverktyg vs inga verktyg (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -5764,8 +5766,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -5797,11 +5799,12 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21c",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21c",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -5809,7 +5812,7 @@
           "tool requirement score",
           "tool complexity"
         ],
-        "expectedFormat": "Number 0-100 (weight 15%)",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 5
       }
     },
@@ -5842,28 +5845,28 @@
         "sv": "Poäng för reservdelar"
       },
       "description": {
-        "en": "Repairability sub-score (15% weight): availability, delivery time, price ratio",
-        "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost, doba dodání, cenový poměr",
-        "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed, leveringstid, prisforhold",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα, χρόνος παράδοσης, αναλογία τιμής",
-        "es": "Subpuntuación de reparabilidad (peso 15 %): disponibilidad, plazo de entrega, relación de precio",
-        "et": "Parandatavuse osahinne (kaal 15%): kättesaadavus, tarneaeg, hinnasuhe",
-        "fi": "Korjattavuuden osapistemäärä (paino 15 %): saatavuus, toimitusaika, hintasuhde",
-        "fr": "Sous-note de réparabilité (pondération 15 %) : disponibilité, délai de livraison, rapport de prix",
-        "ga": "Fo-scór deisitheachta (meáchan 15%): infhaighteacht, aga seachadta, cóimheas praghais",
-        "hr": "Pod-ocjena popravljivosti (težina 15 %): dostupnost, rok isporuke, omjer cijena",
-        "hu": "Javíthatósági részpontszám (súly 15 %): elérhetőség, szállítási idő, árarány",
-        "it": "Sotto-punteggio di riparabilità (peso 15 %): disponibilità, tempi di consegna, rapporto di prezzo",
-        "lt": "Taisomumo dalinis balas (svoris 15 %): prieinamumas, pristatymo laikas, kainos santykis",
-        "lv": "Remontējamības apakšrādītājs (svars 15 %): pieejamība, piegādes laiks, cenu attiecība",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): disponibbiltà, żmien ta' kunsinna, proporzjon tal-prezz",
-        "nl": "Subscore repareerbaarheid (weging 15 %): beschikbaarheid, levertijd, prijsverhouding",
-        "pl": "Podocena naprawialności (waga 15%): dostępność, czas dostawy, relacja cenowa",
-        "pt": "Subpontuação de reparabilidade (peso 15 %): disponibilidade, prazo de entrega, relação de preço",
-        "ro": "Subscor de reparabilitate (pondere 15 %): disponibilitate, termen de livrare, raport de preț",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): dostupnosť, dodacia lehota, cenový pomer",
-        "sl": "Delna ocena popravljivosti (utež 15 %): razpoložljivost, dobavni rok, razmerje cene",
-        "sv": "Delpoäng reparerbarhet (vikt 15 %): tillgänglighet, leveranstid, prisförhållande"
+        "en": "Repairability sub-score (15% weight): availability, delivery time, price ratio (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost, doba dodání, cenový poměr (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed, leveringstid, prisforhold (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα, χρόνος παράδοσης, αναλογία τιμής (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 15 %): disponibilidad, plazo de entrega, relación de precio (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 15%): kättesaadavus, tarneaeg, hinnasuhe (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 15 %): saatavuus, toimitusaika, hintasuhde (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 15 %) : disponibilité, délai de livraison, rapport de prix (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 15%): infhaighteacht, aga seachadta, cóimheas praghais (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 15 %): dostupnost, rok isporuke, omjer cijena (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 15 %): elérhetőség, szállítási idő, árarány (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 15 %): disponibilità, tempi di consegna, rapporto di prezzo (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 15 %): prieinamumas, pristatymo laikas, kainos santykis (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 15 %): pieejamība, piegādes laiks, cenu attiecība (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): disponibbiltà, żmien ta' kunsinna, proporzjon tal-prezz (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 15 %): beschikbaarheid, levertijd, prijsverhouding (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 15%): dostępność, czas dostawy, relacja cenowa (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 15 %): disponibilidade, prazo de entrega, relação de preço (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 15 %): disponibilitate, termen de livrare, raport de preț (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): dostupnosť, dodacia lehota, cenový pomer (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 15 %): razpoložljivost, dobavni rok, razmerje cene (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 15 %): tillgänglighet, leveranstid, prisförhållande (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -5872,8 +5875,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -5905,11 +5908,12 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21d",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21d",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -5917,7 +5921,7 @@
           "spare parts availability score",
           "parts score"
         ],
-        "expectedFormat": "Number 0-100 (weight 15%)",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 5
       }
     },
@@ -5950,28 +5954,28 @@
         "sv": "Poäng för programuppdateringar"
       },
       "description": {
-        "en": "Repairability sub-score (15% weight): OS/security update duration",
-        "cs": "Dílčí skóre opravitelnosti (váha 15 %): doba aktualizací OS a bezpečnostních záplat",
-        "da": "Reparerbarheds-delpoint (vægt 15 %): varighed af OS-/sikkerhedsopdateringer",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διάρκεια ενημερώσεων ΛΣ/ασφαλείας",
-        "es": "Subpuntuación de reparabilidad (peso 15 %): duración de actualizaciones de SO y seguridad",
-        "et": "Parandatavuse osahinne (kaal 15%): OS-i ja turvavärskenduste kestus",
-        "fi": "Korjattavuuden osapistemäärä (paino 15 %): käyttöjärjestelmän ja tietoturvapäivitysten kesto",
-        "fr": "Sous-note de réparabilité (pondération 15 %) : durée des mises à jour OS/sécurité",
-        "ga": "Fo-scór deisitheachta (meáchan 15%): fad na nuashonruithe OS/slándála",
-        "hr": "Pod-ocjena popravljivosti (težina 15 %): trajanje ažuriranja OS-a i sigurnosnih zakrpa",
-        "hu": "Javíthatósági részpontszám (súly 15 %): OS- és biztonsági frissítések időtartama",
-        "it": "Sotto-punteggio di riparabilità (peso 15 %): durata degli aggiornamenti SO/sicurezza",
-        "lt": "Taisomumo dalinis balas (svoris 15 %): OS ir saugos atnaujinimų trukmė",
-        "lv": "Remontējamības apakšrādītājs (svars 15 %): OS un drošības atjauninājumu ilgums",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): tul tal-aġġornamenti tal-OS/sigurtà",
-        "nl": "Subscore repareerbaarheid (weging 15 %): duur van OS-/beveiligingsupdates",
-        "pl": "Podocena naprawialności (waga 15%): czas wsparcia aktualizacjami OS/bezpieczeństwa",
-        "pt": "Subpontuação de reparabilidade (peso 15 %): duração das atualizações do SO/segurança",
-        "ro": "Subscor de reparabilitate (pondere 15 %): durata actualizărilor SO/de securitate",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): trvanie aktualizácií OS a bezpečnostných záplat",
-        "sl": "Delna ocena popravljivosti (utež 15 %): trajanje posodobitev OS in varnostnih popravkov",
-        "sv": "Delpoäng reparerbarhet (vikt 15 %): varaktighet för OS-/säkerhetsuppdateringar"
+        "en": "Repairability sub-score (15% weight): OS/security update duration (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 15 %): doba aktualizací OS a bezpečnostních záplat (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 15 %): varighed af OS-/sikkerhedsopdateringer (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διάρκεια ενημερώσεων ΛΣ/ασφαλείας (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 15 %): duración de actualizaciones de SO y seguridad (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 15%): OS-i ja turvavärskenduste kestus (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 15 %): käyttöjärjestelmän ja tietoturvapäivitysten kesto (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 15 %) : durée des mises à jour OS/sécurité (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 15%): fad na nuashonruithe OS/slándála (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 15 %): trajanje ažuriranja OS-a i sigurnosnih zakrpa (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 15 %): OS- és biztonsági frissítések időtartama (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 15 %): durata degli aggiornamenti SO/sicurezza (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 15 %): OS ir saugos atnaujinimų trukmė (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 15 %): OS un drošības atjauninājumu ilgums (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): tul tal-aġġornamenti tal-OS/sigurtà (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 15 %): duur van OS-/beveiligingsupdates (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 15%): czas wsparcia aktualizacjami OS/bezpieczeństwa (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 15 %): duração das atualizações do SO/segurança (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 15 %): durata actualizărilor SO/de securitate (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): trvanie aktualizácií OS a bezpečnostných záplat (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 15 %): trajanje posodobitev OS in varnostnih popravkov (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 15 %): varaktighet för OS-/säkerhetsuppdateringar (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -5980,8 +5984,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -6013,11 +6017,12 @@
       "sortOrder": 45,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21e",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21e",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -6025,7 +6030,7 @@
           "software support score",
           "update duration score"
         ],
-        "expectedFormat": "Number 0-100 (weight 15%)",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 5
       }
     },
@@ -6058,28 +6063,28 @@
         "sv": "Poäng för reparationsinformation"
       },
       "description": {
-        "en": "Repairability sub-score (15% weight): manuals, schematics, diagnostics availability",
-        "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost návodů, schémat a diagnostiky",
-        "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed af manualer, diagrammer, diagnostik",
-        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα εγχειριδίων, σχεδιαγραμμάτων, διαγνωστικών",
-        "es": "Subpuntuación de reparabilidad (peso 15 %): disponibilidad de manuales, esquemas y diagnósticos",
-        "et": "Parandatavuse osahinne (kaal 15%): juhendite, skeemide ja diagnostika kättesaadavus",
-        "fi": "Korjattavuuden osapistemäärä (paino 15 %): käsikirjojen, kytkentäkaavioiden ja vianmäärityksen saatavuus",
-        "fr": "Sous-note de réparabilité (pondération 15 %) : disponibilité des manuels, schémas et diagnostics",
-        "ga": "Fo-scór deisitheachta (meáchan 15%): infhaighteacht lámhleabhar, scéimeanna agus diagnóisice",
-        "hr": "Pod-ocjena popravljivosti (težina 15 %): dostupnost priručnika, shema i dijagnostike",
-        "hu": "Javíthatósági részpontszám (súly 15 %): kézikönyvek, kapcsolási rajzok és diagnosztika elérhetősége",
-        "it": "Sotto-punteggio di riparabilità (peso 15 %): disponibilità di manuali, schemi e diagnostica",
-        "lt": "Taisomumo dalinis balas (svoris 15 %): instrukcijų, schemų ir diagnostikos prieinamumas",
-        "lv": "Remontējamības apakšrādītājs (svars 15 %): rokasgrāmatu, shēmu un diagnostikas pieejamība",
-        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): disponibbiltà ta' manwali, skemi, dijanjostika",
-        "nl": "Subscore repareerbaarheid (weging 15 %): beschikbaarheid van handleidingen, schema's en diagnostiek",
-        "pl": "Podocena naprawialności (waga 15%): dostępność instrukcji, schematów i diagnostyki",
-        "pt": "Subpontuação de reparabilidade (peso 15 %): disponibilidade de manuais, esquemas e diagnósticos",
-        "ro": "Subscor de reparabilitate (pondere 15 %): disponibilitatea manualelor, schemelor și diagnosticelor",
-        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): dostupnosť príručiek, schém a diagnostiky",
-        "sl": "Delna ocena popravljivosti (utež 15 %): razpoložljivost priročnikov, shem in diagnostike",
-        "sv": "Delpoäng reparerbarhet (vikt 15 %): tillgänglighet till manualer, scheman och diagnostik"
+        "en": "Repairability sub-score (15% weight): manuals, schematics, diagnostics availability (1.00–5.00, per Reg. (EU) 2023/1669 Annex IV point 5)",
+        "cs": "Dílčí skóre opravitelnosti (váha 15 %): dostupnost návodů, schémat a diagnostiky (1,00–5,00, dle přílohy IV bodu 5 nař. (EU) 2023/1669)",
+        "da": "Reparerbarheds-delpoint (vægt 15 %): tilgængelighed af manualer, diagrammer, diagnostik (1,00–5,00, jf. bilag IV punkt 5 i forordn. (EU) 2023/1669)",
+        "el": "Επιμέρους βαθμός επισκευασιμότητας (στάθμιση 15%): διαθεσιμότητα εγχειριδίων, σχεδιαγραμμάτων, διαγνωστικών (1,00–5,00, κατά παράρτημα IV σημ. 5 Καν. (ΕΕ) 2023/1669)",
+        "es": "Subpuntuación de reparabilidad (peso 15 %): disponibilidad de manuales, esquemas y diagnósticos (1,00–5,00, conforme al anexo IV, punto 5 del Reg. (UE) 2023/1669)",
+        "et": "Parandatavuse osahinne (kaal 15%): juhendite, skeemide ja diagnostika kättesaadavus (1,00–5,00, vastavalt IV lisa punktile 5 Määr. (EL) 2023/1669)",
+        "fi": "Korjattavuuden osapistemäärä (paino 15 %): käsikirjojen, kytkentäkaavioiden ja vianmäärityksen saatavuus (1,00–5,00, asetuksen (EU) 2023/1669 liitteen IV kohdan 5 mukaisesti)",
+        "fr": "Sous-note de réparabilité (pondération 15 %) : disponibilité des manuels, schémas et diagnostics (1,00–5,00, conform. à l'annexe IV, point 5 du règl. (UE) 2023/1669)",
+        "ga": "Fo-scór deisitheachta (meáchan 15%): infhaighteacht lámhleabhar, scéimeanna agus diagnóisice (1.00–5.00, de réir Iarscríbhinn IV pointe 5 Rialacháin (AE) 2023/1669)",
+        "hr": "Pod-ocjena popravljivosti (težina 15 %): dostupnost priručnika, shema i dijagnostike (1,00–5,00, sukladno prilogu IV točki 5 Uredbe (EU) 2023/1669)",
+        "hu": "Javíthatósági részpontszám (súly 15 %): kézikönyvek, kapcsolási rajzok és diagnosztika elérhetősége (1,00–5,00, az (EU) 2023/1669 rendelet IV. melléklete 5. pontja szerint)",
+        "it": "Sotto-punteggio di riparabilità (peso 15 %): disponibilità di manuali, schemi e diagnostica (1,00–5,00, ai sensi dell'allegato IV, punto 5 del reg. (UE) 2023/1669)",
+        "lt": "Taisomumo dalinis balas (svoris 15 %): instrukcijų, schemų ir diagnostikos prieinamumas (1,00–5,00, pagal Reglamento (ES) 2023/1669 IV priedo 5 punktą)",
+        "lv": "Remontējamības apakšrādītājs (svars 15 %): rokasgrāmatu, shēmu un diagnostikas pieejamība (1,00–5,00, saskaņā ar Regulas (ES) 2023/1669 IV pielikuma 5. punktu)",
+        "mt": "Sub-punteġġ tar-riparabbiltà (piż 15%): disponibbiltà ta' manwali, skemi, dijanjostika (1.00–5.00, skont l-Anness IV punt 5 tar-Regolament (UE) 2023/1669)",
+        "nl": "Subscore repareerbaarheid (weging 15 %): beschikbaarheid van handleidingen, schema's en diagnostiek (1,00–5,00, conform bijlage IV, punt 5 van Verordening (EU) 2023/1669)",
+        "pl": "Podocena naprawialności (waga 15%): dostępność instrukcji, schematów i diagnostyki (1,00–5,00, zgodnie z załącznikiem IV pkt 5 rozp. (UE) 2023/1669)",
+        "pt": "Subpontuação de reparabilidade (peso 15 %): disponibilidade de manuais, esquemas e diagnósticos (1,00–5,00, nos termos do anexo IV, ponto 5 do Reg. (UE) 2023/1669)",
+        "ro": "Subscor de reparabilitate (pondere 15 %): disponibilitatea manualelor, schemelor și diagnosticelor (1,00–5,00, conform Anexei IV punctul 5 din Reg. (UE) 2023/1669)",
+        "sk": "Čiastkové skóre opraviteľnosti (váha 15 %): dostupnosť príručiek, schém a diagnostiky (1,00–5,00, podľa prílohy IV bodu 5 nar. (EÚ) 2023/1669)",
+        "sl": "Delna ocena popravljivosti (utež 15 %): razpoložljivost priročnikov, shem in diagnostike (1,00–5,00, skladno s Prilogo IV točko 5 Uredbe (EU) 2023/1669)",
+        "sv": "Delpoäng reparerbarhet (vikt 15 %): tillgänglighet till manualer, scheman och diagnostik (1,00–5,00, enligt bilaga IV punkt 5 i förordning (EU) 2023/1669)"
       },
       "dataType": "number",
       "unit": "points",
@@ -6088,8 +6093,8 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "max": 100
+        "min": 1,
+        "max": 5
       },
       "category": "repairability",
       "categoryLabel": {
@@ -6121,11 +6126,12 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21f",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 21f",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Energy-labelling act for smartphones and slate tablets, Annex IV point 5 defines the six weighted sub-scores; Annex V Table 8 is the EPREL product information sheet. No digital product passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -6134,114 +6140,7 @@
           "repair docs score",
           "diagnostics score"
         ],
-        "expectedFormat": "Number 0-100 (weight 15%)",
-        "extractionPriority": 5
-      }
-    },
-    {
-      "key": "dropResistanceHeight",
-      "label": {
-        "en": "Drop Resistance Height",
-        "bg": "Височина на устойчивост при падане",
-        "de": "Fallhöhe-Widerstandsfähigkeit",
-        "cs": "Výška odolnosti proti pádu",
-        "da": "Faldsikkerhedshøjde",
-        "el": "Ύψος αντοχής σε πτώση",
-        "es": "Altura de resistencia a caídas",
-        "et": "Kukkumiskindluse kõrgus",
-        "fi": "Pudotuskestävyyden korkeus",
-        "fr": "Hauteur de résistance aux chutes",
-        "ga": "Airde frithsheasmhachta titime",
-        "hr": "Visina otpornosti na pad",
-        "hu": "Ejtésállósági magasság",
-        "it": "Altezza di resistenza alla caduta",
-        "lt": "Atsparumo kritimui aukštis",
-        "lv": "Kritiena izturības augstums",
-        "mt": "Għoli ta' reżistenza għall-waqgħa",
-        "nl": "Valbestendigheidshoogte",
-        "pl": "Wysokość odporności na upadek",
-        "pt": "Altura de resistência a quedas",
-        "ro": "Înălțime de rezistență la cădere",
-        "sk": "Výška odolnosti proti pádu",
-        "sl": "Višina odpornosti proti padcu",
-        "sv": "Höjd för fallmotstånd"
-      },
-      "description": {
-        "en": "Maximum drop height the device can withstand without functional failure",
-        "cs": "Maximální výška pádu, kterou zařízení vydrží bez poruchy funkce",
-        "da": "Maksimal faldhøjde enheden kan modstå uden funktionssvigt",
-        "el": "Μέγιστο ύψος πτώσης που αντέχει η συσκευή χωρίς λειτουργική αστοχία",
-        "es": "Altura máxima de caída que el dispositivo soporta sin fallo funcional",
-        "et": "Kukkumise suurim kõrgus, mida seade talub ilma talitlusrikketa",
-        "fi": "Suurin pudotuskorkeus, jonka laite kestää ilman toimintahäiriötä",
-        "fr": "Hauteur de chute maximale que l'appareil peut supporter sans défaillance fonctionnelle",
-        "ga": "Airde uasta titime is féidir leis an ngléas a sheasamh gan cliseadh feidhmiúil",
-        "hr": "Najveća visina pada koju uređaj podnosi bez funkcionalnog kvara",
-        "hu": "Maximális ejtési magasság, amelyet a készülék funkciózavar nélkül elvisel",
-        "it": "Altezza massima di caduta che il dispositivo sopporta senza guasto funzionale",
-        "lt": "Didžiausias kritimo aukštis, kurį įrenginys atlaiko be veikimo sutrikimo",
-        "lv": "Maksimālais kritiena augstums, ko ierīce iztur bez funkcionāla atteices",
-        "mt": "Għoli massimu ta' waqgħa li jiflaħ l-apparat mingħajr ħsara funzjonali",
-        "nl": "Maximale valhoogte die het toestel kan doorstaan zonder functiestoring",
-        "pl": "Maksymalna wysokość upadku, jaką urządzenie wytrzymuje bez utraty funkcjonalności",
-        "pt": "Altura máxima de queda que o dispositivo suporta sem falha funcional",
-        "ro": "Înălțimea maximă de cădere pe care dispozitivul o suportă fără defectare funcțională",
-        "sk": "Maximálna výška pádu, ktorú zariadenie vydrží bez poruchy funkcie",
-        "sl": "Največja višina padca, ki jo naprava prenese brez okvare delovanja",
-        "sv": "Maximal fallhöjd enheten tål utan funktionsfel"
-      },
-      "dataType": "number",
-      "unit": "m",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 0
-      },
-      "category": "smartphone_tablet",
-      "categoryLabel": {
-        "en": "Smartphones & Tablets",
-        "bg": "Смартфони и таблети",
-        "de": "Smartphones & Tablets",
-        "cs": "Chytré telefony a tablety",
-        "da": "Smartphones og tablets",
-        "el": "Smartphones και tablet",
-        "es": "Smartphones y tabletas",
-        "et": "Nutitelefonid ja tahvelarvutid",
-        "fi": "Älypuhelimet ja tabletit",
-        "fr": "Smartphones et tablettes",
-        "ga": "Fóin chliste agus táibléid",
-        "hr": "Pametni telefoni i tableti",
-        "hu": "Okostelefonok és táblagépek",
-        "it": "Smartphone e tablet",
-        "lt": "Išmanieji telefonai ir planšetės",
-        "lv": "Viedtālruņi un planšetdatori",
-        "mt": "Smartphones u tablets",
-        "nl": "Smartphones en tablets",
-        "pl": "Smartfony i tablety",
-        "pt": "Smartphones e tablets",
-        "ro": "Smartphone-uri și tablete",
-        "sk": "Smartfóny a tablety",
-        "sl": "Pametni telefoni in tablice",
-        "sv": "Smartphones och surfplattor"
-      },
-      "sortOrder": 47,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
-        "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "drop height",
-          "fall resistance",
-          "drop test height"
-        ],
-        "expectedFormat": "Numeric value in meters",
+        "expectedFormat": "Decimal 1.00–5.00",
         "extractionPriority": 5
       }
     },
@@ -6335,11 +6234,12 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(1)",
+        "annex": null,
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(1)",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Drop resistance test result for smartphones (Annex II B.1.2(1)), declared via ecodesign technical documentation; not an EPREL item and not passport content."
       },
       "aiHints": {
         "alternateNames": [
@@ -6442,11 +6342,12 @@
       "sortOrder": 49,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 17",
+        "annex": null,
+        "instrument": "32023R1669",
+        "provision": "Annex V, Table 8, item 17",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Front-glass scratch resistance class (Mohs scale, Annex V item 17); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -6550,11 +6451,12 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
+        "annex": null,
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(4)",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Minimum number of charge/discharge cycles retaining ≥80% initial rated capacity; technical documentation parameter under Annex II B.1.2(4). Not a passport item."
       },
       "aiHints": {
         "alternateNames": [
@@ -6658,11 +6560,12 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
+        "annex": null,
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(4)",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Battery capacity retention after the stated number of cycles; the 80% threshold is fixed by the test (Annex II B.1.2(4)). Technical documentation parameter; not a passport item."
       },
       "aiHints": {
         "alternateNames": [
@@ -6767,9 +6670,9 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 11",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)",
         "instrument": "32023R1670",
-        "provision": "Art. 11",
+        "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
         "description": "Spare-parts availability lists are mandated for specific ecodesign product groups (smartphones and tablets under Reg (EU) 2023/1670; displays under 2019/2021) via Dir 2009/125/EC, and are made available to professional repairers rather than published as passport data. No such duty applies to electronics generally."
       },
@@ -6813,28 +6716,28 @@
         "sv": "Tillgänglighet för reservdelar (år)"
       },
       "description": {
-        "en": "Number of years spare parts remain available after end of production (min 7)",
-        "cs": "Počet let, po které zůstávají náhradní díly dostupné po ukončení výroby (min. 7)",
-        "da": "Antal år, reservedele er tilgængelige efter produktionsophør (mindst 7)",
-        "el": "Έτη διαθεσιμότητας ανταλλακτικών μετά τη λήξη παραγωγής (ελάχ. 7)",
-        "es": "Años de disponibilidad de piezas de repuesto tras el fin de producción (mín. 7)",
-        "et": "Varuosade kättesaadavuse aastate arv pärast tootmise lõppu (vähemalt 7)",
-        "fi": "Varaosien saatavuusvuosien määrä tuotannon päättymisen jälkeen (väh. 7)",
-        "fr": "Nombre d'années de disponibilité des pièces détachées après fin de production (min. 7)",
-        "ga": "Líon blianta a fhanann páirteanna spártha ar fáil tar éis dheireadh na táirgeachta (íos. 7)",
-        "hr": "Broj godina dostupnosti rezervnih dijelova nakon prestanka proizvodnje (najmanje 7)",
-        "hu": "Pótalkatrészek elérhetőségének évei a gyártás vége után (min. 7)",
-        "it": "Numero di anni di disponibilità delle parti di ricambio dopo la fine della produzione (min. 7)",
-        "lt": "Metų skaičius, kurį atsarginės dalys lieka prieinamos pasibaigus gamybai (ne mažiau kaip 7)",
-        "lv": "Gadu skaits, cik rezerves daļas paliek pieejamas pēc ražošanas beigām (vismaz 7)",
-        "mt": "Numru ta' snin li l-ispare parts jibqgħu disponibbli wara tmiem il-produzzjoni (min. 7)",
-        "nl": "Aantal jaren dat reserveonderdelen beschikbaar blijven na het einde van de productie (min. 7)",
-        "pl": "Liczba lat dostępności części zamiennych po zakończeniu produkcji (min. 7)",
-        "pt": "Número de anos em que as peças sobressalentes continuam disponíveis após o fim da produção (mín. 7)",
-        "ro": "Numărul de ani în care piesele de schimb rămân disponibile după încetarea producției (min. 7)",
-        "sk": "Počet rokov, počas ktorých zostávajú náhradné diely dostupné po ukončení výroby (min. 7)",
-        "sl": "Število let razpoložljivosti nadomestnih delov po koncu proizvodnje (najmanj 7)",
-        "sv": "Antal år reservdelar är tillgängliga efter produktionens upphörande (min. 7)"
+        "en": "Years spare parts remain available after the date of end of placement on the market (placing of the last unit), not end of production (at least 7 for smartphones and tablets)",
+        "cs": "Roky dostupnosti náhradních dílů po datu ukončení uvádění na trh (poslední kus), nikoli po konci výroby (nejméně 7 pro smartphony a tablety)",
+        "da": "År reservedele er tilgængelige efter datoen for afslutning af markedsføring (den sidste enhed), ikke slutning af produktion (mindst 7 for smartphones og tablet-pc'er)",
+        "el": "Χρόνια διαθεσιμότητας ανταλλακτικών μετά την ημερομηνία λήξης διάθεσης στην αγορά (τελευταία μονάδα), όχι λήξης παραγωγής (τουλάχιστον 7 για smartphones και tablets)",
+        "es": "Años de disponibilidad de repuestos tras la fecha de fin de comercialización (última unidad), no fin de producción (al menos 7 para smartphones y tabletas)",
+        "et": "Aastad, millal varuosad on saadaval pärast turule laskmise lõpukuupäeva (viimane seade), mitte tootmise lõppu (vähemalt 7 nutitelefonide ja tahvelarvutite jaoks)",
+        "fi": "Vuodet, jolloin varaosat ovat saatavissa markkinoille saattamisen päättymisen jälkeen (viimeinen yksikkö), ei tuotannon lopettamisen (vähintään 7 älypuhelimille ja tableteille)",
+        "fr": "Années de disponibilité des pièces détachées après la date de fin de mise sur le marché (dernière unité), non de fin de production (au moins 7 pour les smartphones et tablettes)",
+        "ga": "Blianta infhaighteachta páirteanna ionadúla tar éis dháta deireadh na margaíochta (an t-aonad deireanach), ní deireadh an táirgthe (ar a laghad 7 do smartphones agus táblaí)",
+        "hr": "Godine dostupnosti rezervnih dijelova nakon datuma završetka stavljanja na tržište (posljednja jedinica), ne kraja proizvodnje (najmanje 7 za pametne telefone i tablice)",
+        "hu": "Az alkatrészek rendelkezésre állásának évei a piacra helyezés befejezésének dátuma (utolsó példány) után, nem a gyártás végét követően (legalább 7 okostelefonokhoz és táblagépekhez)",
+        "it": "Anni di disponibilità dei ricambi dopo la data di fine immissione sul mercato (ultima unità), non di fine produzione (almeno 7 per smartphone e tablet)",
+        "lt": "Atsarginių dalių prieinamumo metai po pateikimo rinkai pabaigos datos (paskutinis vienetas), ne gamybos pabaigos (ne mažiau kaip 7 išmaniesiems telefonams ir planšetiniams kompiuteriams)",
+        "lv": "Rezerves daļu pieejamības gadi pēc laišanas tirgū beigu datuma (pēdējais eksemplārs), nevis ražošanas beigām (vismaz 7 viedtālruņiem un planšetdatoriem)",
+        "mt": "Snin ta' disponibbiltà ta' partijiet ta' sostituzzjoni wara d-data tat-tmiem tat-tqegħid fis-suq (l-aħħar unità), mhux tat-tmiem tal-produzzjoni (mill-inqas 7 għal smartphones u tablets)",
+        "nl": "Jaren van beschikbaarheid van reserveonderdelen na de datum van het einde van het in de handel brengen (laatste eenheid), niet van het einde van de productie (minimaal 7 voor smartphones en tablets)",
+        "pl": "Lata dostępności części zamiennych po dacie zakończenia wprowadzania do obrotu (ostatnia jednostka), nie końca produkcji (co najmniej 7 dla smartfonów i tabletów)",
+        "pt": "Anos de disponibilidade de peças sobressalentes após a data do fim da colocação no mercado (última unidade), não do fim da produção (pelo menos 7 para smartphones e tablets)",
+        "ro": "Ani de disponibilitate a pieselor de schimb după data de sfârșit a introducerii pe piață (ultima unitate), nu a încetării producției (cel puțin 7 pentru smartphone-uri și tablete)",
+        "sk": "Roky dostupnosti náhradných dielov po dátume ukončenia uvádzania na trh (posledná kusová jednotka), nie po konci výroby (najmenej 7 pre smartfóny a tablety)",
+        "sl": "Leta razpoložljivosti nadomestnih delov po datumu konca dajanja na trg (zadnja enota), ne konca proizvodnje (vsaj 7 za pametne telefone in tablice)",
+        "sv": "År av tillgänglighet för reservdelar efter datumet för avslutandet av utsläppandet på marknaden (sista enheten), inte slutet av produktionen (minst 7 för smartphones och surfplattor)"
       },
       "dataType": "number",
       "unit": "years",
@@ -6878,9 +6781,9 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 11",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)(a),(c) / D.1.1(1)(a),(c)",
         "instrument": "32023R1670",
-        "provision": "Art. 11",
+        "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
         "description": "Minimum spare-parts availability periods are set per ecodesign product group — seven years after the last unit for smartphones and tablets under Reg (EU) 2023/1670. The duty is to keep the parts available, discharged toward professional repairers; the period is not a mandated passport field."
       },
@@ -7092,9 +6995,9 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Art. 11",
-        "instrument": "32024R1781",
-        "provision": "Art. 11",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)",
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
       },
@@ -7243,28 +7146,28 @@
         "sv": "Stöd för OS-uppdateringar (år)"
       },
       "description": {
-        "en": "Minimum years of OS update support from date of placing on market (min 5)",
-        "cs": "Minimální počet let podpory aktualizací OS od data uvedení na trh (min. 5)",
-        "da": "Mindste antal år med OS-opdateringssupport fra datoen for markedsføring (mindst 5)",
-        "el": "Ελάχιστα έτη υποστήριξης ενημερώσεων ΛΣ από την ημερομηνία διάθεσης στην αγορά (ελάχ. 5)",
-        "es": "Años mínimos de soporte de actualizaciones del SO desde la fecha de introducción en el mercado (mín. 5)",
-        "et": "Minimaalne operatsioonisüsteemi värskenduste tugiaastate arv alates turule laskmise kuupäevast (vähemalt 5)",
-        "fi": "Käyttöjärjestelmäpäivitysten vähimmäistukivuodet markkinoille saattamisen päivästä (väh. 5)",
-        "fr": "Années minimales de prise en charge des mises à jour OS à compter de la date de mise sur le marché (min. 5)",
-        "ga": "Íosmhéid blianta tacaíochta nuashonruithe OS ó dháta an chur ar an margadh (íos. 5)",
-        "hr": "Najmanji broj godina podrške ažuriranjima OS-a od datuma stavljanja na tržište (najmanje 5)",
-        "hu": "OS-frissítés támogatásának minimális évei a forgalomba hozataltól (min. 5)",
-        "it": "Anni minimi di supporto agli aggiornamenti del SO dalla data di immissione sul mercato (min. 5)",
-        "lt": "Minimalus OS atnaujinimų palaikymo metų skaičius nuo pateikimo rinkai dienos (ne mažiau kaip 5)",
-        "lv": "Minimālais OS atjauninājumu atbalsta gadu skaits no laišanas tirgū dienas (vismaz 5)",
-        "mt": "Snin minimi ta' appoġġ għall-aġġornamenti tal-OS mid-data tat-tqegħid fis-suq (min. 5)",
-        "nl": "Minimumaantal jaren OS-update-ondersteuning vanaf de datum van in de handel brengen (min. 5)",
-        "pl": "Minimalna liczba lat wsparcia aktualizacji OS od daty wprowadzenia do obrotu (min. 5)",
-        "pt": "Anos mínimos de apoio a atualizações do SO a partir da data de colocação no mercado (mín. 5)",
-        "ro": "Anii minimi de asistență pentru actualizări ale SO de la data introducerii pe piață (min. 5)",
-        "sk": "Minimálny počet rokov podpory aktualizácií OS od dátumu uvedenia na trh (min. 5)",
-        "sl": "Najmanjše število let podpore za posodobitve OS od datuma dajanja na trg (najmanj 5)",
-        "sv": "Minsta antal år med OS-uppdateringsstöd från datum för utsläppande på marknaden (min. 5)"
+        "en": "Minimum guaranteed years of operating-system updates (security, corrective and functionality), counted from the date of end of placement on the market, i.e. when the last unit of the model is placed on the market (at least 5 for smartphones and tablets)",
+        "cs": "Minimální zaručená léta aktualizací operačního systému (bezpečnostní, opravné a funkční), počítaná od data ukončení uvádění na trh, tj. kdy je na trh uveden poslední kus modelu (nejméně 5 pro smartphony a tablety)",
+        "da": "Garanterede minimumsår med operativsystemopdateringer (sikkerhed, korrigering og funktionalitet), talt fra datoen for afslutning af markedsføring, dvs. hvornår den sidste enhed af modellen er bragt i omsætning (mindst 5 for smartphones og tablet-pc'er)",
+        "el": "Ελάχιστα εγγυημένα έτη ενημερώσεων λειτουργικού συστήματος (ασφάλειας, διορθωτικών και λειτουργικότητας), μετρημένα από την ημερομηνία λήξης της διάθεσης στην αγορά, δηλ. όταν διατεθεί η τελευταία μονάδα του μοντέλου (τουλάχιστον 5 για smartphones και tablets)",
+        "es": "Años mínimos garantizados de actualizaciones del sistema operativo (seguridad, correctivas y funcionalidad), contados desde la fecha de fin de comercialización, es decir, cuando se comercializa la última unidad del modelo (al menos 5 para smartphones y tabletas)",
+        "et": "Minimaalselt garanteeritud aastad operatsioonisüsteemi uuendusteks (turvalisus, parandused ja funktsionaalsus), arvutades turule laskmise lõpukuupäevast, st millal mudeli viimane seade turule lastakse (vähemalt 5 nutitelefonide ja tahvelarvutite jaoks)",
+        "fi": "Käyttöjärjestelmäpäivityksille (turvallisuus, korjaus ja toiminnallisuus) taattu vähimmäisvuodet laskettuna markkinoille saattamisen päättymispäivästä eli siitä, kun mallin viimeinen yksikkö saatetaan markkinoille (vähintään 5 älypuhelimille ja tableteille)",
+        "fr": "Années minimales garanties de mises à jour du système d'exploitation (sécurité, correctives et fonctionnalité), comptées à partir de la date de fin de mise sur le marché, c'est-à-dire lorsque la dernière unité du modèle est mise sur le marché (au moins 5 pour les smartphones et les tablettes)",
+        "ga": "Blianta íosta ráthaithe d'nuashonruithe córais oibriúcháin (slándála, ceartúcháin agus feidhmiúlachta), comhairte ó dháta deireadh na margaíochta, i.e. nuair a chuirtear an t-aonad deireanach den mhúnla ar an margadh (ar a laghad 5 d'fhóin chliste agus táblaí)",
+        "hr": "Minimalno zajamčene godine ažuriranja operacijskog sustava (sigurnosna, korektivna i funkcionalna), računano od datuma završetka stavljanja na tržište, tj. kada se stavlja posljednja jedinica modela (najmanje 5 za pametne telefone i tablet računala)",
+        "hu": "Az operációs rendszer frissítéseinek (biztonsági, javítási és funkcionális) garantált minimális évei, a piacra helyezés befejezésének napjától számítva, azaz amikor a modell utolsó példányát piacra helyezik (legalább 5 okostelefonok és táblagépek esetén)",
+        "it": "Anni minimi garantiti di aggiornamenti del sistema operativo (sicurezza, correttivi e funzionalità), contati dalla data di fine immissione sul mercato, ovvero quando viene immessa sul mercato l'ultima unità del modello (almeno 5 per smartphone e tablet)",
+        "lt": "Minimaliai garantuojami operacinės sistemos atnaujinimų (saugumo, korekcinių ir funkcionalumo) metai, skaičiuojami nuo pateikimo rinkai pabaigos datos, t. y. kai paskutinis modelio vienetas pateikiamas rinkai (ne mažiau kaip 5 išmaniesiems telefonams ir planšetiniams kompiuteriams)",
+        "lv": "Minimāli garantētie operētājsistēmas atjauninājumu gadi (drošības, koriģējoši un funkcionālie), skaitīti no laišanas tirgū beigām, t. i., kad tirgū laists pēdējais modeļa eksemplārs (vismaz 5 viedtālruņiem un planšetdatoriem)",
+        "mt": "Snin minimu garantiti ta' aġġornamenti tas-sistema operattiva (sigurtà, korrettivi u funzjonalità), imqassma mid-data tat-tmiem tat-tqegħid fis-suq, jiġifieri meta l-aħħar unità tal-mudell titqiegħed fis-suq (mill-inqas 5 għal smartphones u tablets)",
+        "nl": "Gegarandeerde minimale jaren van besturingssysteemupdates (beveiliging, correctief en functionaliteit), geteld vanaf de datum van het einde van het in de handel brengen, d.w.z. wanneer de laatste eenheid van het model in de handel wordt gebracht (minimaal 5 voor smartphones en tablets)",
+        "pl": "Minimalnie gwarantowane lata aktualizacji systemu operacyjnego (bezpieczeństwo, poprawki i funkcjonalność), liczone od daty zakończenia wprowadzania do obrotu, tj. gdy ostatnia jednostka modelu zostaje wprowadzona do obrotu (co najmniej 5 dla smartfonów i tabletów)",
+        "pt": "Anos mínimos garantidos de atualizações do sistema operativo (segurança, corretivas e funcionalidade), contados a partir da data do fim da colocação no mercado, ou seja, quando a última unidade do modelo é colocada no mercado (pelo menos 5 para smartphones e tablets)",
+        "ro": "Ani minimi garantați de actualizări ale sistemului de operare (securitate, corective și funcționalitate), numărați de la data de sfârșit a introducerii pe piață, adică atunci când ultima unitate a modelului este introdusă pe piață (cel puțin 5 pentru smartphone-uri și tablete)",
+        "sk": "Minimálne garantované roky aktualizácií operačného systému (bezpečnostné, opravné a funkčné), počítané od dátumu ukončenia uvádzania na trh, tj. keď je na trh uvedená posledná kusová jednotka modelu (najmenej 5 pre smartfóny a tablety)",
+        "sl": "Minimalno zajamčena leta posodobitev operacijskega sistema (varnostnih, popravkov in funkcionalnosti), šteta od datuma konca dajanja na trg, tj. ko je zadnja enota modela dana na trg (vsaj 5 za pametne telefone in tablice)",
+        "sv": "Garanterade minimiår för uppdateringar av operativsystem (säkerhet, korrigeringar och funktionalitet), räknade från datumet för avslutandet av utsläppandet på marknaden, dvs. när den sista enheten av modellen släpps på marknaden (minst 5 för smartphones och surfplattor)"
       },
       "dataType": "number",
       "unit": "years",
@@ -7305,124 +7208,17 @@
       "sortOrder": 57,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Art. 10",
-        "instrument": "32024R1781",
-        "provision": "Art. 10",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(6)(a)",
         "kind": "legislation",
-        "description": "ESPR Art. 10 governs the passport's TECHNICAL design — data carrier, unique identifiers, access rights, availability — not which product data must be published. The substantive obligation still arrives via an Art. 4 delegated act, and none is adopted for this category. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Ecodesign requirement under Dir. 2009/125/EC, applies from 20 June 2025; the declared years also feed the Reg. 2023/1669 SSU score and EPREL item 19. No passport created."
       },
       "aiHints": {
         "alternateNames": [
           "OS updates",
           "software update years",
           "OS support duration"
-        ],
-        "expectedFormat": "Integer >= 5",
-        "extractionPriority": 7
-      }
-    },
-    {
-      "key": "securityUpdateSupportYears",
-      "label": {
-        "en": "Security Update Support (Years)",
-        "bg": "Поддръжка на актуализации за сигурност (години)",
-        "de": "Sicherheitsupdate-Support (Jahre)",
-        "cs": "Podpora bezpečnostních aktualizací (roky)",
-        "da": "Understøttelse af sikkerhedsopdateringer (år)",
-        "el": "Υποστήριξη ενημερώσεων ασφαλείας (έτη)",
-        "es": "Soporte de actualizaciones de seguridad (años)",
-        "et": "Turvauuenduste tugi (aastat)",
-        "fi": "Tietoturvapäivitysten tuki (vuotta)",
-        "fr": "Prise en charge des mises à jour de sécurité (années)",
-        "ga": "Tacaíocht nuashonruithe slándála (blianta)",
-        "hr": "Podrška za sigurnosna ažuriranja (godine)",
-        "hu": "Biztonsági frissítések támogatása (év)",
-        "it": "Supporto agli aggiornamenti di sicurezza (anni)",
-        "lt": "Saugos atnaujinimų palaikymas (metais)",
-        "lv": "Drošības atjauninājumu atbalsts (gadi)",
-        "mt": "Appoġġ għall-aġġornamenti tas-sigurtà (snin)",
-        "nl": "Ondersteuning beveiligingsupdates (jaren)",
-        "pl": "Wsparcie aktualizacji zabezpieczeń (lata)",
-        "pt": "Suporte a atualizações de segurança (anos)",
-        "ro": "Suport pentru actualizări de securitate (ani)",
-        "sk": "Podpora bezpečnostných aktualizácií (roky)",
-        "sl": "Podpora varnostnim posodobitvam (let)",
-        "sv": "Stöd för säkerhetsuppdateringar (år)"
-      },
-      "description": {
-        "en": "Minimum years of security patch support from date of placing on market (min 5)",
-        "cs": "Minimální počet let podpory bezpečnostních záplat od data uvedení na trh (min. 5)",
-        "da": "Mindste antal år med sikkerhedsopdateringssupport fra datoen for markedsføring (mindst 5)",
-        "el": "Ελάχιστα έτη υποστήριξης ενημερώσεων ασφαλείας από την ημερομηνία διάθεσης στην αγορά (ελάχ. 5)",
-        "es": "Años mínimos de soporte de parches de seguridad desde la fecha de introducción en el mercado (mín. 5)",
-        "et": "Minimaalne turvapaikade tugiaastate arv alates turule laskmise kuupäevast (vähemalt 5)",
-        "fi": "Tietoturvapäivitysten vähimmäistukivuodet markkinoille saattamisen päivästä (väh. 5)",
-        "fr": "Années minimales de prise en charge des correctifs de sécurité à compter de la date de mise sur le marché (min. 5)",
-        "ga": "Íosmhéid blianta tacaíochta paistí slándála ó dháta an chur ar an margadh (íos. 5)",
-        "hr": "Najmanji broj godina podrške sigurnosnim zakrpama od datuma stavljanja na tržište (najmanje 5)",
-        "hu": "Biztonsági javítások támogatásának minimális évei a forgalomba hozataltól (min. 5)",
-        "it": "Anni minimi di supporto alle patch di sicurezza dalla data di immissione sul mercato (min. 5)",
-        "lt": "Minimalus saugos pataisų palaikymo metų skaičius nuo pateikimo rinkai dienos (ne mažiau kaip 5)",
-        "lv": "Minimālais drošības ielāpu atbalsta gadu skaits no laišanas tirgū dienas (vismaz 5)",
-        "mt": "Snin minimi ta' appoġġ għall-patches tas-sigurtà mid-data tat-tqegħid fis-suq (min. 5)",
-        "nl": "Minimumaantal jaren ondersteuning van beveiligingspatches vanaf de datum van in de handel brengen (min. 5)",
-        "pl": "Minimalna liczba lat wsparcia poprawek bezpieczeństwa od daty wprowadzenia do obrotu (min. 5)",
-        "pt": "Anos mínimos de apoio a correções de segurança a partir da data de colocação no mercado (mín. 5)",
-        "ro": "Anii minimi de asistență pentru patchuri de securitate de la data introducerii pe piață (min. 5)",
-        "sk": "Minimálny počet rokov podpory bezpečnostných záplat od dátumu uvedenia na trh (min. 5)",
-        "sl": "Najmanjše število let podpore varnostnih popravkov od datuma dajanja na trg (najmanj 5)",
-        "sv": "Minsta antal år med säkerhetsuppdateringsstöd från datum för utsläppande på marknaden (min. 5)"
-      },
-      "dataType": "number",
-      "unit": "years",
-      "translatable": false,
-      "defaultValue": 5,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 5
-      },
-      "category": "smartphone_tablet",
-      "categoryLabel": {
-        "en": "Smartphones & Tablets",
-        "bg": "Смартфони и таблети",
-        "de": "Smartphones & Tablets",
-        "cs": "Chytré telefony a tablety",
-        "da": "Smartphones og tablets",
-        "el": "Smartphones και tablet",
-        "es": "Smartphones y tabletas",
-        "et": "Nutitelefonid ja tahvelarvutid",
-        "fi": "Älypuhelimet ja tabletit",
-        "fr": "Smartphones et tablettes",
-        "ga": "Fóin chliste agus táibléid",
-        "hr": "Pametni telefoni i tableti",
-        "hu": "Okostelefonok és táblagépek",
-        "it": "Smartphone e tablet",
-        "lt": "Išmanieji telefonai ir planšetės",
-        "lv": "Viedtālruņi un planšetdatori",
-        "mt": "Smartphones u tablets",
-        "nl": "Smartphones en tablets",
-        "pl": "Smartfony i tablety",
-        "pt": "Smartphones e tablets",
-        "ro": "Smartphone-uri și tablete",
-        "sk": "Smartfóny a tablety",
-        "sl": "Pametni telefoni in tablice",
-        "sv": "Smartphones och surfplattor"
-      },
-      "sortOrder": 58,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Reg. 2023/1670 Art. 10",
-        "instrument": "32024R1781",
-        "provision": "Art. 10",
-        "kind": "legislation",
-        "description": "ESPR Art. 10 governs the passport's TECHNICAL design — data carrier, unique identifiers, access rights, availability — not which product data must be published. The substantive obligation still arrives via an Art. 4 delegated act, and none is adopted for this category. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "security patches",
-          "security support years",
-          "patch support duration"
         ],
         "expectedFormat": "Integer >= 5",
         "extractionPriority": 7
@@ -7518,11 +7314,11 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Art. 10",
-        "instrument": "32024R1781",
-        "provision": "Art. 10",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(6)(a)",
         "kind": "legislation",
-        "description": "ESPR Art. 10 governs the passport's TECHNICAL design — data carrier, unique identifiers, access rights, availability — not which product data must be published. The substantive obligation still arrives via an Art. 4 delegated act, and none is adopted for this category. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Ecodesign requirement under Dir. 2009/125/EC, applies from 20 June 2025. No passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -7624,11 +7420,11 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2023/1670 Art. 10",
-        "instrument": "32024R1781",
-        "provision": "Art. 10",
+        "article": "Reg. (EU) 2023/1670 Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
+        "instrument": "32023R1670",
+        "provision": "Annex II, point B.1.2(6)(a)",
         "kind": "legislation",
-        "description": "ESPR Art. 10 governs the passport's TECHNICAL design — data carrier, unique identifiers, access rights, availability — not which product data must be published. The substantive obligation still arrives via an Art. 4 delegated act, and none is adopted for this category. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "Ecodesign requirement under Dir. 2009/125/EC, applies from 20 June 2025. No passport created."
       },
       "aiHints": {
         "alternateNames": [
@@ -11017,7 +10813,7 @@
       }
     },
     {
-      "key": "ratedCapacity",
+      "key": "ratedWashingCapacity",
       "label": {
         "en": "Rated Capacity",
         "bg": "Номинален капацитет",
@@ -11107,11 +10903,12 @@
       "sortOrder": 90,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V + Annex I",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 3",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Rated washing capacity in kg (Annex I definition); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11215,11 +11012,12 @@
       "sortOrder": 91,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II A Table 1 + Annex IV",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 1",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Energy Efficiency Index EEIW (washing machine), Annex II A Table 1; declared in EPREL product information sheet under Art. 3(1)(b). Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11321,11 +11119,12 @@
       "sortOrder": 92,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex III item VI + Annex IV",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 2",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Weighted energy consumption per 100 cycles (kWh); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11427,11 +11226,12 @@
       "sortOrder": 93,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 7",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Weighted water consumption per cycle (L); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11534,11 +11334,12 @@
       "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 9",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Duration of the eco 40-60 programme at rated capacity; declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11844,11 +11645,12 @@
       "sortOrder": 95,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II B Table 3 + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 5",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Spin-drying efficiency class (A–G); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11889,28 +11691,28 @@
         "sv": "Maximal centrifugeringshastighet"
       },
       "description": {
-        "en": "Maximum spin speed of the drum",
-        "cs": "Maximální rychlost odstřeďování bubnu",
-        "da": "Tromlens maksimale centrifugeringshastighed",
-        "el": "Μέγιστη ταχύτητα περιστροφής του κάδου",
-        "es": "Velocidad máxima de centrifugado del tambor",
-        "et": "Trumli maksimaalne tsentrifuugimiskiirus",
-        "fi": "Rummun linkoamisen enimmäisnopeus",
-        "fr": "Vitesse maximale d'essorage du tambour",
-        "ga": "Uasluas sciúrtha an druma",
-        "hr": "Maksimalna brzina centrifugiranja bubnja",
-        "hu": "A dob maximális centrifugálási sebessége",
-        "it": "Velocità massima di centrifugazione del cestello",
-        "lt": "Didžiausias būgno gręžimo greitis",
-        "lv": "Maksimālais trumuļa centrifugēšanas ātrums",
-        "mt": "Veloċità massima tat-tidwir tat-tanbur",
-        "nl": "Maximale centrifugeersnelheid van de trommel",
-        "pl": "Maksymalna prędkość wirowania bębna",
-        "pt": "Velocidade máxima de centrifugação do tambor",
-        "ro": "Viteza maximă de centrifugare a tamburului",
-        "sk": "Maximálna rýchlosť odstreďovania bubna",
-        "sl": "Največja hitrost ožemanja bobna",
-        "sv": "Maximal centrifugeringshastighet för trumman"
+        "en": "Spin speed of the eco 40-60 programme at rated capacity",
+        "cs": "Rychlost odstřeďování programu eco 40-60 při jmenovité kapacitě",
+        "da": "Centrifugeringshastighed for eco 40-60-programmet ved nominel kapacitet",
+        "el": "Ταχύτητα φυγοκέντρισης του προγράμματος eco 40-60 στην ονομαστική χωρητικότητα",
+        "es": "Velocidad de centrifugado del programa eco 40-60 a capacidad nominal",
+        "et": "Eco 40-60 programmi tsentrifuugimiskiirus nominaalvõimsuse juures",
+        "fi": "Eco 40-60 -ohjelman linkoausnopeus nimelliskapasiteetilla",
+        "fr": "Vitesse d'essorage du programme eco 40-60 à la capacité nominale",
+        "ga": "Luas casadh an chláir eco 40-60 ag acmhainn ainmniúil",
+        "hr": "Brzina centrifugiranja programa eco 40-60 pri nazivnom kapacitetu",
+        "hu": "Az eco 40-60 program centrifugálási sebessége névleges kapacitáson",
+        "it": "Velocità di centrifuga del programma eco 40-60 alla capacità nominale",
+        "lt": "Eco 40-60 programos išgręžimo greitis esant nominaliai talpai",
+        "lv": "Eco 40-60 programmas izspiešanas ātrums pie nominālās jaudas",
+        "mt": "Veloċità tal-ħesda tal-programm eco 40-60 f'kapaċità nominali",
+        "nl": "Centrifugeersnelheid van het eco 40-60-programma bij nominale belading",
+        "pl": "Prędkość wirowania programu eco 40-60 przy nominalnym załadunku",
+        "pt": "Velocidade de centrifugação do programa eco 40-60 à capacidade nominal",
+        "ro": "Viteza de stoarcere a programului eco 40-60 la capacitate nominală",
+        "sk": "Rýchlosť odstredivosti programu eco 40-60 pri menovitej kapacite",
+        "sl": "Hitrost centrifugiranja programa eco 40-60 pri nominalni zmogljivosti",
+        "sv": "Centrifugeringshastighet för eco 40-60-programmet vid märkkapacitet"
       },
       "dataType": "number",
       "unit": "rpm",
@@ -11951,11 +11753,12 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 6",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Spin speed of the eco 40-60 programme at rated capacity; declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12059,11 +11862,12 @@
       "sortOrder": 97,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 8",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Residual moisture content (%); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12165,11 +11969,12 @@
       "sortOrder": 98,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 4",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Washing efficiency index; declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12234,7 +12039,7 @@
         "sv": "Mått på hur effektivt tvättmedel sköljs ut"
       },
       "dataType": "number",
-      "unit": null,
+      "unit": "g/kg",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": null,
@@ -12272,11 +12077,12 @@
       "sortOrder": 99,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 10",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Rinsing effectiveness (g/kg); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12341,7 +12147,7 @@
         "sv": "Ljudnivå under programmets högsta fas"
       },
       "dataType": "number",
-      "unit": "dB",
+      "unit": "dB(A)",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": null,
@@ -12379,11 +12185,12 @@
       "sortOrder": 100,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V + Annex III item XI",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 12",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Airborne noise emission (dB(A) re 1 pW); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12603,11 +12410,12 @@
       "sortOrder": 101,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II C + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 13",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Noise class (A–D); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12709,11 +12517,12 @@
       "sortOrder": 102,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 14",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Off-mode power (W); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12816,11 +12625,12 @@
       "sortOrder": 103,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2023 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2014",
+        "provision": "Annex V, Table 3, item 15",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2023."
+        "description": "Left-on mode and standby power (W); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -12923,11 +12733,12 @@
       "sortOrder": 104,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 3",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Total volume of the appliance (L); declared in EPREL product information sheet. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13030,11 +12841,12 @@
       "sortOrder": 105,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 4",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Volume of fresh-food compartment(s) (L); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13137,11 +12949,12 @@
       "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 5",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Volume of frozen-food compartment(s) (L); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13360,11 +13173,12 @@
       "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 6",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Star rating of frozen-food compartment; declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13429,7 +13243,7 @@
         "sv": "Beräknat EEI för kylapparaten"
       },
       "dataType": "number",
-      "unit": null,
+      "unit": "%",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": null,
@@ -13467,11 +13281,12 @@
       "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex II + Annex IV point 5",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 2",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Energy Efficiency Index EEI (%) of refrigerating appliance, Annex II + Annex IV point 5; declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13480,112 +13295,6 @@
         ],
         "expectedFormat": "Numeric index value",
         "extractionPriority": 6
-      }
-    },
-    {
-      "key": "refrigeratorAnnualEnergyConsumption",
-      "label": {
-        "en": "Refrigerator Annual Energy Consumption",
-        "bg": "Годишно потребление на енергия на хладилника",
-        "de": "Jährlicher Energieverbrauch des Kühlschranks",
-        "cs": "Roční spotřeba energie chladničky",
-        "da": "Årligt energiforbrug for køleskab",
-        "el": "Ετήσια κατανάλωση ενέργειας ψυγείου",
-        "es": "Consumo anual de energía del frigorífico",
-        "et": "Külmiku aastane energiatarbimine",
-        "fi": "Jääkaapin vuotuinen energiankulutus",
-        "fr": "Consommation annuelle d'énergie du réfrigérateur",
-        "ga": "Tomhaltas fuinnimh bliantúil cuisneora",
-        "hr": "Godišnja potrošnja energije hladnjaka",
-        "hu": "Hűtőszekrény éves energiafogyasztása",
-        "it": "Consumo energetico annuo del frigorifero",
-        "lt": "Metinės šaldytuvo energijos sąnaudos",
-        "lv": "Ledusskapja gada enerģijas patēriņš",
-        "mt": "Konsum annwali tal-enerġija tal-friġġ",
-        "nl": "Jaarlijks energieverbruik van koelkast",
-        "pl": "Roczne zużycie energii chłodziarki",
-        "pt": "Consumo anual de energia do frigorífico",
-        "ro": "Consum anual de energie al frigiderului",
-        "sk": "Ročná spotreba energie chladničky",
-        "sl": "Letna poraba energije hladilnika",
-        "sv": "Årlig energiförbrukning för kylskåp"
-      },
-      "description": {
-        "en": "Annual energy consumption of the refrigerating appliance",
-        "cs": "Roční spotřeba energie chladicího spotřebiče",
-        "da": "Køleapparatets årlige energiforbrug",
-        "el": "Ετήσια κατανάλωση ενέργειας της συσκευής ψύξης",
-        "es": "Consumo anual de energía del aparato de refrigeración",
-        "et": "Külmutusseadme aastane energiatarbimine",
-        "fi": "Kylmäsäilytyslaitteen vuotuinen energiankulutus",
-        "fr": "Consommation annuelle d'énergie de l'appareil de réfrigération",
-        "ga": "Ídiú bliantúil fuinnimh an fhearais chuisniúcháin",
-        "hr": "Godišnja potrošnja energije rashladnog uređaja",
-        "hu": "A hűtőkészülék éves energiafogyasztása",
-        "it": "Consumo annuo di energia dell'apparecchio di refrigerazione",
-        "lt": "Šaldymo prietaiso metinės energijos sąnaudos",
-        "lv": "Aukstumiekārtas gada enerģijas patēriņš",
-        "mt": "Konsum annwali tal-enerġija tal-apparat tat-tkessiħ",
-        "nl": "Jaarlijks energieverbruik van het koelapparaat",
-        "pl": "Roczne zużycie energii urządzenia chłodniczego",
-        "pt": "Consumo anual de energia do aparelho de refrigeração",
-        "ro": "Consumul anual de energie al aparatului frigorific",
-        "sk": "Ročná spotreba energie chladiaceho spotrebiča",
-        "sl": "Letna poraba energije hladilne naprave",
-        "sv": "Kylapparatens årliga energiförbrukning"
-      },
-      "dataType": "number",
-      "unit": "kWh",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 0
-      },
-      "category": "refrigerator",
-      "categoryLabel": {
-        "en": "Refrigerators",
-        "bg": "Хладилници",
-        "de": "Kühlschränke",
-        "cs": "Chladničky",
-        "da": "Køleskabe",
-        "el": "Ψυγεία",
-        "es": "Frigoríficos",
-        "et": "Külmikud",
-        "fi": "Jääkaapit",
-        "fr": "Réfrigérateurs",
-        "ga": "Cuisneoirí",
-        "hr": "Hladnjaci",
-        "hu": "Hűtőszekrények",
-        "it": "Frigoriferi",
-        "lt": "Šaldytuvai",
-        "lv": "Ledusskapji",
-        "mt": "Friġġijiet",
-        "nl": "Koelkasten",
-        "pl": "Lodówki",
-        "pt": "Frigoríficos",
-        "ro": "Frigidere",
-        "sk": "Chladničky",
-        "sl": "Hladilniki",
-        "sv": "Kylskåp"
-      },
-      "sortOrder": 109,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
-        "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "fridge kWh/year",
-          "annual fridge consumption"
-        ],
-        "expectedFormat": "Numeric value in kWh",
-        "extractionPriority": 7
       }
     },
     {
@@ -13795,11 +13504,12 @@
       "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 7",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Climate class (SN/N/ST/T); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -13864,7 +13574,7 @@
         "sv": "Luftburen akustisk bulleremission från kylapparaten"
       },
       "dataType": "number",
-      "unit": "dB",
+      "unit": "dB(A)",
       "translatable": false,
       "defaultValue": null,
       "enumOptions": null,
@@ -13902,11 +13612,12 @@
       "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 9",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Airborne noise emission (dB(A) re 1 pW); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -14125,11 +13836,12 @@
       "sortOrder": 112,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex II",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 10",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Noise class (A–D); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -14231,11 +13943,12 @@
       "sortOrder": 113,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex V, Table 6, item 8",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Freezing capacity (kg/24h); declared in EPREL. Discharged there, no passport obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -14337,11 +14050,12 @@
       "sortOrder": 114,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
+        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex VI",
+        "annex": null,
+        "instrument": "32019R2016",
+        "provision": "Annex VI, technical documentation",
         "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
+        "description": "Temperature rise time (h) from -18°C to -9°C: technical documentation parameter (Annex VI), held in the technical documentation, not published in EPREL or on the label."
       },
       "aiHints": {
         "alternateNames": [
@@ -14351,112 +14065,6 @@
         ],
         "expectedFormat": "Numeric value in hours",
         "extractionPriority": 4
-      }
-    },
-    {
-      "key": "refrigeratorOffModePower",
-      "label": {
-        "en": "Refrigerator Off-Mode Power",
-        "bg": "Мощност в изключен режим на хладилника",
-        "de": "Leistungsaufnahme im Aus-Zustand des Kühlschranks",
-        "cs": "Příkon chladničky ve vypnutém režimu",
-        "da": "Effektforbrug i slukket tilstand for køleskab",
-        "el": "Ισχύς ψυγείου σε κατάσταση απενεργοποίησης",
-        "es": "Potencia del frigorífico en modo apagado",
-        "et": "Külmiku väljalülitatud režiimi võimsus",
-        "fi": "Jääkaapin pois päältä -tilan teho",
-        "fr": "Puissance du réfrigérateur en mode arrêt",
-        "ga": "Cumhacht an chuisneora sa mhód múchta",
-        "hr": "Snaga hladnjaka u isključenom načinu rada",
-        "hu": "Hűtőszekrény teljesítménye kikapcsolt üzemmódban",
-        "it": "Potenza del frigorifero in modalità spento",
-        "lt": "Šaldytuvo galia išjungties režimu",
-        "lv": "Ledusskapja jauda izslēgtā režīmā",
-        "mt": "Qawwa tal-friġġ fil-modalità mitfija",
-        "nl": "Vermogen koelkast in uit-stand",
-        "pl": "Moc chłodziarki w trybie wyłączenia",
-        "pt": "Potência do frigorífico no modo desligado",
-        "ro": "Putere frigider în modul oprit",
-        "sk": "Príkon chladničky vo vypnutom režime",
-        "sl": "Moč hladilnika v izklopljenem načinu",
-        "sv": "Effekt för kylskåp i frånläge"
-      },
-      "description": {
-        "en": "Power consumed by the refrigerator when switched off",
-        "cs": "Spotřeba energie chladničky ve vypnutém stavu",
-        "da": "Køleskabets strømforbrug i slukket tilstand",
-        "el": "Κατανάλωση ενέργειας του ψυγείου σε κατάσταση εκτός λειτουργίας",
-        "es": "Consumo de energía del frigorífico en modo apagado",
-        "et": "Külmiku energiatarbimine välja lülitatud olekus",
-        "fi": "Jääkaapin tehonkulutus sammutettuna",
-        "fr": "Consommation d'énergie du réfrigérateur en mode arrêt",
-        "ga": "Cumhacht a ídíonn an cuisneoir nuair atá sé múchta",
-        "hr": "Potrošnja energije hladnjaka u isključenom stanju",
-        "hu": "A hűtőszekrény energiafogyasztása kikapcsolt állapotban",
-        "it": "Consumo energetico del frigorifero in modalità spento",
-        "lt": "Šaldytuvo energijos sąnaudos išjungtoje būsenoje",
-        "lv": "Ledusskapja enerģijas patēriņš izslēgtā režīmā",
-        "mt": "Enerġija kkunsmata mill-friġġ meta tkun mitfija",
-        "nl": "Energieverbruik van de koelkast in uitgeschakelde stand",
-        "pl": "Zużycie energii przez chłodziarkę w stanie wyłączenia",
-        "pt": "Consumo de energia do frigorífico em modo desligado",
-        "ro": "Consum de energie al frigiderului în modul oprit",
-        "sk": "Spotreba energie chladničky vo vypnutom stave",
-        "sl": "Poraba energije hladilnika v izklopljenem stanju",
-        "sv": "Kylskåpets energiförbrukning i frånläge"
-      },
-      "dataType": "number",
-      "unit": "W",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 0
-      },
-      "category": "refrigerator",
-      "categoryLabel": {
-        "en": "Refrigerators",
-        "bg": "Хладилници",
-        "de": "Kühlschränke",
-        "cs": "Chladničky",
-        "da": "Køleskabe",
-        "el": "Ψυγεία",
-        "es": "Frigoríficos",
-        "et": "Külmikud",
-        "fi": "Jääkaapit",
-        "fr": "Réfrigérateurs",
-        "ga": "Cuisneoirí",
-        "hr": "Hladnjaci",
-        "hu": "Hűtőszekrények",
-        "it": "Frigoriferi",
-        "lt": "Šaldytuvai",
-        "lv": "Ledusskapji",
-        "mt": "Friġġijiet",
-        "nl": "Koelkasten",
-        "pl": "Lodówki",
-        "pt": "Frigoríficos",
-        "ro": "Frigidere",
-        "sk": "Chladničky",
-        "sl": "Hladilniki",
-        "sv": "Kylskåp"
-      },
-      "sortOrder": 115,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Reg. 2019/2019 Annex V",
-        "instrument": "32024R1781",
-        "provision": "Annex V",
-        "kind": "legislation",
-        "description": "ESPR Annex V is the EU DECLARATION OF CONFORMITY template (referred to in Art. 44) — a conformity form, not passport data. It prescribes what a DoC must contain for products already covered by an Art. 4 delegated act; it creates no obligation to publish this datum in a passport. Anticipated; voluntary today. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2019/2019."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "fridge off power",
-          "refrigerator standby"
-        ],
-        "expectedFormat": "Numeric value in Watts",
-        "extractionPriority": 3
       }
     },
     {
@@ -14672,7 +14280,7 @@
       }
     },
     {
-      "key": "leadContent",
+      "key": "leadConcentrationHomogeneousMaterial",
       "label": {
         "en": "Lead (Pb) Content",
         "bg": "Съдържание на олово (Pb)",
@@ -14888,7 +14496,7 @@
       }
     },
     {
-      "key": "cadmiumContent",
+      "key": "cadmiumConcentrationHomogeneousMaterial",
       "label": {
         "en": "Cadmium (Cd) Content",
         "bg": "Съдържание на кадмий (Cd)",
@@ -17150,93 +16758,6 @@
         ],
         "expectedFormat": "Percentage 0-100",
         "extractionPriority": 4
-      }
-    },
-    {
-      "key": "recycledContentTotal",
-      "label": {
-        "en": "Total Recycled Content",
-        "bg": "Общо рециклирано съдържание",
-        "de": "Gesamter Recyclinganteil",
-        "cs": "Celkový obsah recyklovaného materiálu",
-        "da": "Samlet indhold af genanvendt materiale",
-        "el": "Συνολικό ανακυκλωμένο περιεχόμενο",
-        "es": "Contenido reciclado total",
-        "et": "Ringlussevõetud materjali kogusisaldus",
-        "fi": "Kierrätysmateriaalin kokonaispitoisuus",
-        "fr": "Teneur totale en matières recyclées",
-        "ga": "Cion iomlán athchúrsáilte",
-        "hr": "Ukupni reciklirani sadržaj",
-        "hu": "Teljes újrahasznosított tartalom",
-        "it": "Contenuto riciclato totale",
-        "lt": "Bendras perdirbtų medžiagų kiekis",
-        "lv": "Kopējais pārstrādāta materiāla saturs",
-        "mt": "Kontenut riċiklat totali",
-        "nl": "Totaal gerecycled gehalte",
-        "pl": "Całkowita zawartość materiałów z recyklingu",
-        "pt": "Teor total de material reciclado",
-        "ro": "Conținut total de material reciclat",
-        "sk": "Celkový obsah recyklovaného materiálu",
-        "sl": "Skupna vsebnost recikliranih materialov",
-        "sv": "Totalt återvunnet innehåll"
-      },
-      "description": {
-        "en": "Total percentage of recycled materials in the product"
-      },
-      "dataType": "number",
-      "unit": "%",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": null,
-      "validation": {
-        "required": false,
-        "min": 0,
-        "max": 100
-      },
-      "category": "critical_raw_materials",
-      "categoryLabel": {
-        "en": "Critical Raw Materials",
-        "bg": "Критични суровини",
-        "de": "Kritische Rohstoffe",
-        "cs": "Kritické suroviny",
-        "da": "Kritiske råstoffer",
-        "el": "Κρίσιμες πρώτες ύλες",
-        "es": "Materias primas críticas",
-        "et": "Kriitilise tähtsusega toorained",
-        "fi": "Kriittiset raaka-aineet",
-        "fr": "Matières premières critiques",
-        "ga": "Amhábhair chriticiúla",
-        "hr": "Kritične sirovine",
-        "hu": "Kritikus nyersanyagok",
-        "it": "Materie prime critiche",
-        "lt": "Kritinės žaliavos",
-        "lv": "Kritiski svarīgas izejvielas",
-        "mt": "Materja prima kritika",
-        "nl": "Kritieke grondstoffen",
-        "pl": "Surowce krytyczne",
-        "pt": "Matérias-primas críticas",
-        "ro": "Materii prime critice",
-        "sk": "Kritické suroviny",
-        "sl": "Kritične surovine",
-        "sv": "Kritiska råvaror"
-      },
-      "sortOrder": 145,
-      "defaultAccessLevel": "public",
-      "regulationRef": {
-        "article": "Reg. 2024/1252 CRMA Art. 27",
-        "instrument": "32024R1781",
-        "provision": "Art. 27",
-        "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2024/1252 CRMA."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "total recycled",
-          "recycled material total",
-          "overall recycled content"
-        ],
-        "expectedFormat": "Percentage 0-100",
-        "extractionPriority": 6
       }
     },
     {
@@ -19735,7 +19256,7 @@
       }
     }
   ],
-  "fieldCount": 167,
+  "fieldCount": 162,
   "requiredFieldCount": 4,
   "categories": [
     {

@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 1005,
-    "requiredFields": 184,
-    "anticipatedFields": 220
+    "fields": 990,
+    "requiredFields": 164,
+    "anticipatedFields": 217
   },
   "categories": [
     {
@@ -51,8 +51,8 @@
       "label": "Detergents & Surfactants",
       "file": "templates/detergents.json",
       "version": 1,
-      "fieldCount": 87,
-      "requiredFieldCount": 28,
+      "fieldCount": 83,
+      "requiredFieldCount": 18,
       "anticipatedFieldCount": 17,
       "regulation": {
         "name": "Detergents Regulation",
@@ -67,9 +67,9 @@
       "label": "Electronics",
       "file": "templates/electronics.json",
       "version": 2,
-      "fieldCount": 167,
+      "fieldCount": 162,
       "requiredFieldCount": 4,
-      "anticipatedFieldCount": 20,
+      "anticipatedFieldCount": 19,
       "regulation": {
         "name": "EU ESPR - Electronics",
         "number": "(EU) 2024/1781",
@@ -157,8 +157,8 @@
       "label": "Paints & Coatings",
       "file": "templates/paints-coatings.json",
       "version": 1,
-      "fieldCount": 75,
-      "requiredFieldCount": 25,
+      "fieldCount": 70,
+      "requiredFieldCount": 15,
       "anticipatedFieldCount": 12,
       "regulation": {
         "name": "Decopaint Directive",
@@ -175,7 +175,7 @@
       "version": 2,
       "fieldCount": 84,
       "requiredFieldCount": 28,
-      "anticipatedFieldCount": 16,
+      "anticipatedFieldCount": 15,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",
         "number": "(EU) 2024/1781",
@@ -225,9 +225,9 @@
       "label": "Tyres",
       "file": "templates/tyres.json",
       "version": 2,
-      "fieldCount": 95,
+      "fieldCount": 94,
       "requiredFieldCount": 2,
-      "anticipatedFieldCount": 27,
+      "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Tyres",
         "number": "(EU) 2024/1781",

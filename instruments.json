@@ -250,10 +250,10 @@
     "32023R1670": {
       "kind": "legislation",
       "shortName": "Smartphone Ecodesign",
-      "title": "Commission Regulation (EU) 2023/1670 laying down ecodesign requirements for smartphones and slate tablets",
+      "title": "Commission Regulation (EU) 2023/1670 laying down ecodesign requirements for smartphones, mobile phones other than smartphones, cordless phones and slate tablets",
       "eli": "http://data.europa.eu/eli/reg/2023/1670/oj",
       "createsDpp": false,
-      "note": "Under the OLD Ecodesign Directive 2009/125/EC, not ESPR. Real durability/repairability/spare-parts obligations for smartphones and tablets, but no Digital Product Passport."
+      "note": "Under the OLD Ecodesign Directive 2009/125/EC, not ESPR. Real durability/repairability/spare-parts obligations for smartphones, mobile phones other than smartphones, cordless phones and slate tablets, but no Digital Product Passport."
     },
     "32019R0424": {
       "kind": "legislation",
@@ -306,6 +306,46 @@
       "title": "Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers",
       "eli": "http://data.europa.eu/eli/dir/2014/45/oj",
       "createsDpp": false
+    },
+    "32023R1669": {
+      "kind": "legislation",
+      "shortName": "Smartphone Energy Labelling",
+      "title": "Commission Delegated Regulation (EU) 2023/1669 supplementing Reg. (EU) 2017/1369 with regard to energy labelling of smartphones and slate tablets",
+      "eli": "http://data.europa.eu/eli/reg_del/2023/1669/oj",
+      "createsDpp": false,
+      "note": "Applies from 20 June 2025. Requires EPREL registration and display of energy label with repairability class (A–E) and index (R 1.00–5.00). No Digital Product Passport created."
+    },
+    "32019R2014": {
+      "kind": "legislation",
+      "shortName": "Washing Machines Energy Labelling",
+      "title": "Commission Delegated Regulation (EU) 2019/2014 supplementing Reg. (EU) 2017/1369 with regard to energy labelling of household washing machines and household washer-dryers",
+      "eli": "http://data.europa.eu/eli/reg_del/2019/2014/oj",
+      "createsDpp": false,
+      "note": "Applies from 1 March 2021. Product information sheet values entered in EPREL under Art. 3(1)(b). No Digital Product Passport created."
+    },
+    "32019R2016": {
+      "kind": "legislation",
+      "shortName": "Refrigerating Appliances Energy Labelling",
+      "title": "Commission Delegated Regulation (EU) 2019/2016 supplementing Reg. (EU) 2017/1369 with regard to energy labelling of refrigerating appliances",
+      "eli": "http://data.europa.eu/eli/reg_del/2019/2016/oj",
+      "createsDpp": false,
+      "note": "Applies from 1 March 2021. Product information sheet values entered in EPREL under Art. 3(1)(b). No Digital Product Passport created."
+    },
+    "32019R2023": {
+      "kind": "legislation",
+      "shortName": "Washing Machines Ecodesign",
+      "title": "Commission Regulation (EU) 2019/2023 laying down ecodesign requirements for household washing machines and household washer-dryers",
+      "eli": "http://data.europa.eu/eli/reg/2019/2023/oj",
+      "createsDpp": false,
+      "note": "Under Ecodesign Directive 2009/125/EC. Applies from 1 March 2021. Annex V provides indicative benchmarks; no Digital Product Passport created."
+    },
+    "32019R2019": {
+      "kind": "legislation",
+      "shortName": "Refrigerating Appliances Ecodesign",
+      "title": "Commission Regulation (EU) 2019/2019 laying down ecodesign requirements for refrigerating appliances",
+      "eli": "http://data.europa.eu/eli/reg/2019/2019/oj",
+      "createsDpp": false,
+      "note": "Under Ecodesign Directive 2009/125/EC. Applies from 1 March 2021. Annex V provides indicative benchmarks; no Digital Product Passport created."
     }
   },
   "nonLegislative": {

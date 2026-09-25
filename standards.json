@@ -596,6 +596,13 @@
       "body": "UNECE WP.29",
       "subject": "Pneumatic tyres for commercial vehicles (C2/C3)",
       "verified": false
+    },
+    "ISO 14021": {
+      "kind": "international-standard",
+      "family": "environmental-footprint",
+      "body": "ISO/TC 207",
+      "subject": "Self-declared environmental claims (Type II), incl. recycled-content definitions",
+      "verified": false
     }
   }
 }

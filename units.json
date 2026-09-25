@@ -271,6 +271,11 @@
     "tCO2/t": {
       "declaredBy": "CBAM (EU) 2023/956",
       "note": "Specific embedded emissions of CO2 ONLY. Not interchangeable with tCO2e/t — different substance scope."
+    },
+    "g/kg": {
+      "quantity": "mass fraction",
+      "siEquivalent": "g/kg",
+      "note": "Grams per kilogram; equivalent to parts per thousand (ppt). Used for rinsing effectiveness in washing machines (Reg. (EU) 2019/2014 Annex V)."
     }
   },
   "aliases": {
