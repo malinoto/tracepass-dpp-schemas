@@ -323,6 +323,7 @@ function audit(dir, label) {
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
   findings.listScalar = evidence.listScalar;
+  findings.quotes = evidence.quotes;
 
   const n = Object.values(findings).reduce((s, a) => s + a.length, 0);
   console.log(`\n=== ${label} (${templates.length} templates) — ${n} finding(s) ===`);
@@ -407,6 +408,10 @@ function audit(dir, label) {
   if (findings.listScalar.length) {
     console.log(`\n[15] list field beside single-value copies of its parts (${findings.listScalar.length}) — keep the list, move the parts into its entries`);
     for (const f of findings.listScalar) console.log(`    ${f.cat.padEnd(12)} ${f.list} ~ ${f.scalar}`);
+  }
+  if (findings.quotes.length) {
+    console.log(`\n[17] obligation quote not found in the stored act text (${findings.quotes.length}) — fix the quote, or fetch the act into audit/acts/<CELEX>.txt`);
+    for (const f of findings.quotes) console.log(`    ${f.id.padEnd(46)} ${f.why}`);
   }
   if (findings.unitClash.length) {
     console.log(`\n[11] one key, different units across templates (${findings.unitClash.length}) — the VC vocabulary maps a key to one IRI`);

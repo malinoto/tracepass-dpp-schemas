@@ -13,12 +13,17 @@
  *   [15] a list field sits beside single-value fields named after its parts
  *        (`ingredients` with `ingredientCasNumber`): one ingredient's values in
  *        scalars cannot represent the list the law asks for.
+ *   [17] an obligation's `quote` does not occur in the text of its instrument.
+ *        The acts are stored in audit/acts/<CELEX>.txt (fetched with the
+ *        fetch-eur-lex skill); a corrigendum cited in `provision` ("as corrected
+ *        by 32023R1542R(13)") is searched too. A quote may elide with "…": each
+ *        piece must occur. Without this, a quote is only as good as the typing.
  *
  * Found by reading the Detergents Regulation: 11 of 18 required detergent fields and
  * all 15 paint fields cited an SDS section or a CLP label article, and the substance
  * list was modelled twice, as a list and as scalar copies.
  */
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -91,10 +96,56 @@ export function checkListScalar(templates, knownDistinct) {
   return findings;
 }
 
+/** Collapse the differences between EUR-Lex text and a typed quote that are not wording. */
+const normalise = (t) =>
+  t
+    .replace(/[\u2018\u2019\u201a\u2032]/g, "'")
+    .replace(/[\u201c\u201d\u201e]/g, '"')
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+export function checkQuotes(templates, actsDir = join(here, "acts")) {
+  const cache = new Map();
+  const act = (celex) => {
+    if (!cache.has(celex)) {
+      const p = join(actsDir, `${celex}.txt`);
+      cache.set(celex, existsSync(p) ? normalise(readFileSync(p, "utf-8")) : null);
+    }
+    return cache.get(celex);
+  };
+  const findings = [];
+  for (const [, d] of templates)
+    for (const f of d.fields)
+      for (const o of (f.regulationRef ?? {}).obligations ?? []) {
+        const id = `${d.category}.${f.key}`;
+        const corrections = (o.provision ?? "").match(/\b3\d{4}[A-Z]\d{4}R\(\d+\)/g) ?? [];
+        const texts = [o.instrument, ...corrections].map((c) => [c, act(c)]);
+        const missing = texts.filter(([, t]) => t === null).map(([c]) => c);
+        if (missing.length) {
+          findings.push({ id, why: `no stored text for ${missing.join(", ")} in audit/acts/` });
+          continue;
+        }
+        const pieces = normalise(o.quote ?? "").split(/\s*(?:…|\.\.\.)\s*/).filter((x) => x.length);
+        const absent = pieces.filter((q) => !texts.some(([, t]) => t.includes(q)));
+        if (absent.length)
+          findings.push({ id, why: `quote not in ${o.instrument} ${o.provision}: "${absent[0].slice(0, 60)}"` });
+      }
+  // A stored act nothing cites is dead weight in the repo.
+  if (existsSync(actsDir)) {
+    const cited = new Set([...cache.keys()]);
+    for (const f of readdirSync(actsDir).filter((x) => x.endsWith(".txt")))
+      if (!cited.has(f.slice(0, -4))) findings.push({ id: `audit/acts/${f}`, why: "no obligation quotes this act; delete it" });
+  }
+  return findings;
+}
+
 export function runEvidenceChecks(templates) {
   return {
     unverified: checkVerification(templates, loadJson(join(here, "unverified-required.json"), {})),
     carrier: checkCarrier(templates, loadJson(join(here, "known-carriers.json"), {})),
     listScalar: checkListScalar(templates, loadJson(join(here, "known-distinct.json"), {})),
+    quotes: checkQuotes(templates),
   };
 }

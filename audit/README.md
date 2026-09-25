@@ -90,7 +90,7 @@ cannot say why two fields differ, they are probably duplicates.
 **[11] One key, different units across templates.** A vocabulary maps each key to one
 IRI in every category, so one key in kg and in Ah is one term with two meanings.
 
-## Evidence checks [13]–[15] (`evidence-checks.mjs`)
+## Evidence checks [13]–[17] (`evidence-checks.mjs`)
 
 **[13] and [16] `required` must match the recorded obligations.** `regulationRef.obligations`
 lists every law, read in its primary text, that requires the datum: the act (`instrument`),
@@ -113,6 +113,20 @@ wrong. A reviewed exception goes in `known-carriers.json` with the reason.
 `ingredientCasNumber` holds one substance's values in scalars beside the list the law asks
 for. Keep the list and move the parts into its entries.
 
+**[17] An obligation's `quote` is not in the act.** Each cited act's text is stored in
+`audit/acts/<CELEX>.txt`, and every quote must occur in it after whitespace, quote marks
+and dashes are normalised. A quote may elide with `…`; each piece must occur. A
+corrigendum named in `provision` (`as corrected by 32023R1542R(13)`) is searched as well,
+since corrected wording is not in the act as adopted. Also reported: a cited act with no
+stored text, and a stored text nothing quotes. `audit/self-test.mjs` (`npm run
+test:audit`, part of `npm run check`) reintroduces each defect and asserts it is caught.
+
+The texts are fetched with the `fetch-eur-lex` skill (`--out`; `--min-chars 300` for a
+corrigendum, which is genuinely short) with non-breaking spaces normalised. They are
+committed so CI can run without EUR-Lex, and are not in the npm package: `files` in
+`package.json` is a whitelist that leaves `audit/` out. Refetch one only when a
+consolidated or corrected version changes the wording a template quotes.
+
 **[12] The cited instrument is not in `instruments.json`.** Every other check looks the
 CELEX up in the registry and treats a miss as "nothing known", so an unregistered or
 mistyped CELEX would pass them all while pointing at nothing. Register the act, or fix
@@ -130,5 +144,6 @@ the citation.
 ## What stays human
 
 Whether a figure or scale matches the law, and whether the cited provision is the
-*right* one. Only reading the primary text answers those. Never bulk-rewrite citations
+*right* one. [17] proves a quote is real text of the act; it cannot prove the quoted
+sentence is the one that imposes the duty. Only reading the primary text answers those. Never bulk-rewrite citations
 from one reading: resolve per field.
