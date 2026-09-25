@@ -534,6 +534,37 @@
               },
               "uniqueItems": true,
               "description": "Keys into `standards.json` for the technical standards this field relates to (test method, declaration format, identifier scheme). Relating to a standard never makes a field required — only `kind: legislation` can — and naming one is not a claim of conformity."
+            },
+            "verification": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "description": "Evidence that the citation was checked against the act's primary text: the operative sentence and where it sits. Required on every `validation.required` field (npm run check:audit enforces it, with a shrinking baseline for fields not yet verified). It records what a reader confirmed, so it is only ever added by reading the act, never generated.",
+              "additionalProperties": false,
+              "required": [
+                "quote",
+                "at"
+              ],
+              "properties": {
+                "quote": {
+                  "type": "string",
+                  "minLength": 20,
+                  "description": "The operative sentence, verbatim from the Official Journal text (ellipses allowed), that imposes the duty this field discharges."
+                },
+                "at": {
+                  "type": "string",
+                  "minLength": 3,
+                  "description": "Where the quote sits, e.g. \"32026R0405 Annex VI Part A(h)\"."
+                },
+                "condition": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "The condition the law attaches, when the duty does not bind every product of the category (e.g. \"consumer detergents only; industrial and institutional products use the SDS\"). Null when it binds all."
+                }
+              }
             }
           }
         },

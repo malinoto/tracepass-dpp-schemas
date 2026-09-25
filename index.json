@@ -7,9 +7,9 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 984,
-    "requiredFields": 152,
-    "anticipatedFields": 228
+    "fields": 972,
+    "requiredFields": 131,
+    "anticipatedFields": 221
   },
   "categories": [
     {
@@ -51,9 +51,9 @@
       "label": "Detergents & Surfactants",
       "file": "templates/detergents.json",
       "version": 1,
-      "fieldCount": 83,
-      "requiredFieldCount": 18,
-      "anticipatedFieldCount": 17,
+      "fieldCount": 75,
+      "requiredFieldCount": 12,
+      "anticipatedFieldCount": 10,
       "regulation": {
         "name": "Detergents Regulation",
         "number": "(EU) 2026/405",
@@ -157,8 +157,8 @@
       "label": "Paints & Coatings",
       "file": "templates/paints-coatings.json",
       "version": 1,
-      "fieldCount": 69,
-      "requiredFieldCount": 15,
+      "fieldCount": 65,
+      "requiredFieldCount": 0,
       "anticipatedFieldCount": 12,
       "regulation": {
         "name": "Decopaint Directive",

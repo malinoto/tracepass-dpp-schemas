@@ -318,7 +318,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -350,10 +350,11 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 31 + Annex II SDS section 1.1",
-        "instrument": "32006R1907",
-        "provision": "Art. 31 + Annex II SDS section 1.1",
-        "kind": "legislation"
+        "article": "GPSR (EU) 2023/988 Art. 9(5)",
+        "instrument": "32023R0988",
+        "provision": "Art. 9(5)",
+        "kind": "legislation",
+        "description": "GPSR Art. 9(5) requires a type, batch or serial number on the consumer product or its packaging. A marking duty for consumer products, not passport data; paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -532,7 +533,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -564,10 +565,11 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 18 (product identifiers), SDS Section 1",
+        "article": "CLP Art. 18(3)(a)",
         "instrument": "32008R1272",
-        "provision": "Art. 18 (product identifiers)",
-        "kind": "legislation"
+        "provision": "Art. 18(3)(a)",
+        "kind": "legislation",
+        "description": "CLP Art. 18(3)(a) puts the trade name on the LABEL of classified mixtures (and SDS section 1.1 carries it). Paints and coatings carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -854,7 +856,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -886,9 +888,10 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Combined Nomenclature / TARIC — Council Reg (EEC) 2658/87 Annex I",
+        "article": "Council Reg (EEC) 2658/87 Annex I",
         "instrument": "31987R2658",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "The Combined Nomenclature classifies goods for customs; it creates no duty to publish a code with the product. Paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1470,7 +1473,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1502,10 +1505,11 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17 (label) & Art. 18, SDS Section 1.3",
+        "article": "CLP Art. 17(1)(a); GPSR (EU) 2023/988 Art. 9(6)",
         "instrument": "32008R1272",
-        "provision": "Art. 17 (label) & Art. 18",
-        "kind": "legislation"
+        "provision": "Art. 17(1)(a)",
+        "kind": "legislation",
+        "description": "CLP Art. 17(1)(a) names the supplier on the label of classified mixtures, and GPSR Art. 9(6) the manufacturer on consumer products. Marking duties, not passport data; paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1577,7 +1581,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1609,10 +1613,11 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17 (label), SDS Section 1.3",
+        "article": "CLP Art. 17(1)(a); GPSR (EU) 2023/988 Art. 9(6)",
         "instrument": "32008R1272",
-        "provision": "Art. 17 (label)",
-        "kind": "legislation"
+        "provision": "Art. 17(1)(a)",
+        "kind": "legislation",
+        "description": "CLP Art. 17(1)(a) names the supplier on the label of classified mixtures, and GPSR Art. 9(6) the manufacturer on consumer products. Marking duties, not passport data; paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1683,7 +1688,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1715,10 +1720,11 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.3",
+        "article": "REACH Annex II SDS section 1.3; GPSR (EU) 2023/988 Art. 9(6)",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 1.3",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "SDS section 1.3 and GPSR Art. 9(6) (an electronic address on consumer products). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1789,7 +1795,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1821,10 +1827,11 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(5)-(6) (manufacturer contact details)",
-        "instrument": "32023R0988",
-        "provision": "Article 9",
-        "kind": "legislation"
+        "article": "CLP Art. 17(1)(a)",
+        "instrument": "32008R1272",
+        "provision": "Art. 17(1)(a)",
+        "kind": "legislation",
+        "description": "CLP Art. 17(1)(a) puts the supplier's telephone number on the label of classified mixtures. GPSR Art. 9(6) does not require a telephone number. Paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -2598,66 +2605,66 @@
       }
     },
     {
-      "key": "ingredientSubstanceName",
+      "key": "ingredients",
       "label": {
-        "en": "Substance Name",
-        "bg": "Наименование на веществото",
-        "de": "Stoffname",
-        "nl": "Stofnaam",
-        "hr": "Naziv tvari",
-        "cs": "Název látky",
-        "da": "Stofnavn",
-        "et": "Aine nimi",
-        "fi": "Aineen nimi",
-        "fr": "Nom de la substance",
-        "el": "Όνομα ουσίας",
-        "hu": "Anyag neve",
-        "ga": "Ainm substainte",
-        "it": "Nome della sostanza",
-        "es": "Nombre de la sustancia",
-        "lt": "Medžiagos pavadinimas",
-        "lv": "Vielas nosaukums",
-        "mt": "Isem tas-sustanza",
-        "pl": "Nazwa substancji",
-        "pt": "Nome da substância",
-        "ro": "Denumirea substanței",
-        "sk": "Názov látky",
-        "sl": "Ime snovi",
-        "sv": "Ämnets namn"
+        "en": "Ingredients",
+        "bg": "Съставки",
+        "de": "Inhaltsstoffe",
+        "nl": "Ingrediënten",
+        "hr": "Sastojci",
+        "cs": "Složky",
+        "da": "Ingredienser",
+        "et": "Koostisained",
+        "fi": "Ainesosat",
+        "fr": "Ingrédients",
+        "el": "Συστατικά",
+        "hu": "Összetevők",
+        "ga": "Comhábhair",
+        "it": "Ingredienti",
+        "es": "Ingredientes",
+        "lt": "Sudedamosios dalys",
+        "lv": "Sastāvdaļas",
+        "mt": "Ingredjenti",
+        "pl": "Składniki",
+        "pt": "Ingredientes",
+        "ro": "Ingrediente",
+        "sk": "Zložky",
+        "sl": "Sestavine",
+        "sv": "Ingredienser"
       },
       "description": {
-        "en": "Chemical name of the ingredient substance.",
-        "bg": "Химично наименование на веществото съставка.",
-        "de": "Chemischer Name der Inhaltsstoffsubstanz.",
-        "nl": "Chemische naam van de ingrediëntstof.",
-        "hr": "Kemijski naziv tvari sastojka.",
-        "cs": "Chemický název složky.",
-        "da": "Kemisk navn på bestanddelen.",
-        "et": "Koostisaine keemiline nimi.",
-        "fi": "Ainesosan kemiallinen nimi.",
-        "fr": "Nom chimique de la substance constitutive.",
-        "el": "Χημική ονομασία της ουσίας του συστατικού.",
-        "hu": "Az összetevő anyag kémiai neve.",
-        "ga": "Ainm ceimiceach na substainte comhábhair.",
-        "it": "Denominazione chimica della sostanza ingrediente.",
-        "es": "Nombre químico de la sustancia ingrediente.",
-        "lt": "Sudedamosios medžiagos cheminis pavadinimas.",
-        "lv": "Sastāvdaļas vielas ķīmiskais nosaukums.",
-        "mt": "Isem kimiku tas-sustanza ingredjent.",
-        "pl": "Nazwa chemiczna substancji będącej składnikiem.",
-        "pt": "Nome químico da substância ingrediente.",
-        "ro": "Denumirea chimică a substanței ingredient.",
-        "sk": "Chemický názov zložkovej látky.",
-        "sl": "Kemijsko ime sestavine.",
-        "sv": "Kemiskt namn på ingrediensämnet."
+        "en": "Array of ingredients/substances in the product, each with name, identifiers, concentration and function.",
+        "bg": "Масив от съставки/вещества в продукта, всяка с наименование, идентификатори, концентрация и функция.",
+        "de": "Array von Inhaltsstoffen/Substanzen im Produkt, jeweils mit Name, Kennungen, Konzentration und Funktion.",
+        "nl": "Array van ingrediënten/stoffen in het product, elk met naam, identificatoren, concentratie en functie.",
+        "hr": "Niz sastojaka/tvari u proizvodu, svaki s nazivom, identifikatorima, koncentracijom i funkcijom.",
+        "cs": "Pole složek/látek v produktu, každá s názvem, identifikátory, koncentrací a funkcí.",
+        "da": "Liste over ingredienser/stoffer i produktet, hver med navn, identifikatorer, koncentration og funktion.",
+        "et": "Toote koostisainete/ainete loend, igaühel nimi, identifikaatorid, kontsentratsioon ja funktsioon.",
+        "fi": "Luettelo tuotteen ainesosista/aineista, kunkin nimi, tunnisteet, pitoisuus ja toiminto.",
+        "fr": "Liste des ingrédients/substances du produit, chacun avec nom, identifiants, concentration et fonction.",
+        "el": "Σειρά συστατικών/ουσιών στο προϊόν, με όνομα, αναγνωριστικά, συγκέντρωση και λειτουργία.",
+        "hu": "A termékben lévő összetevők/anyagok listája, mindegyiknél névvel, azonosítókkal, koncentrációval és funkcióval.",
+        "ga": "Eagar comhábhar/substaintí sa táirge, gach ceann le hainm, aitheantóirí, tiúchan agus feidhm.",
+        "it": "Array di ingredienti/sostanze nel prodotto, ciascuno con nome, identificatori, concentrazione e funzione.",
+        "es": "Lista de ingredientes/sustancias del producto, cada uno con nombre, identificadores, concentración y función.",
+        "lt": "Produkto sudedamųjų dalių / medžiagų sąrašas, kiekvieną apibūdinant pavadinimu, identifikatoriais, koncentracija ir funkcija.",
+        "lv": "Produkta sastāvdaļu/vielu saraksts ar nosaukumu, identifikatoriem, koncentrāciju un funkciju.",
+        "mt": "Lista tal-ingredjenti/sustanzi fil-prodott, kull wieħed b'isem, identifikaturi, konċentrazzjoni u funzjoni.",
+        "pl": "Lista składników/substancji w produkcie, każdy z nazwą, identyfikatorami, stężeniem i funkcją.",
+        "pt": "Lista de ingredientes/substâncias do produto, cada um com nome, identificadores, concentração e função.",
+        "ro": "Listă de ingrediente/substanțe din produs, fiecare cu denumire, identificatori, concentrație și funcție.",
+        "sk": "Zoznam zložiek/látok v produkte, každá s názvom, identifikátormi, koncentráciou a funkciou.",
+        "sl": "Seznam sestavin/snovi v izdelku, vsaka z imenom, identifikatorji, koncentracijo in funkcijo.",
+        "sv": "Lista över ingredienser/ämnen i produkten, var och en med namn, identifierare, koncentration och funktion."
       },
-      "dataType": "string",
+      "dataType": "array",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "composition",
       "categoryLabel": {
@@ -2689,444 +2696,20 @@
       "sortOrder": 22,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 3.2, SDS Section 3",
+        "article": "REACH Annex II SDS section 3.2; CLP Art. 18(3)(b)",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 3.2",
-        "kind": "legislation"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "chemical name",
-          "ingredient name"
-        ],
-        "expectedFormat": "Chemical name",
-        "extractionPriority": 9
-      }
-    },
-    {
-      "key": "ingredientIupacName",
-      "label": {
-        "en": "IUPAC Name",
-        "bg": "IUPAC наименование",
-        "de": "IUPAC-Name",
-        "nl": "IUPAC-naam",
-        "hr": "IUPAC naziv",
-        "cs": "Název IUPAC",
-        "da": "IUPAC-navn",
-        "et": "IUPACi nimi",
-        "fi": "IUPAC-nimi",
-        "fr": "Nom IUPAC",
-        "el": "Όνομα IUPAC",
-        "hu": "IUPAC-név",
-        "ga": "Ainm IUPAC",
-        "it": "Nome IUPAC",
-        "es": "Nombre IUPAC",
-        "lt": "IUPAC pavadinimas",
-        "lv": "IUPAC nosaukums",
-        "mt": "Isem IUPAC",
-        "pl": "Nazwa IUPAC",
-        "pt": "Denominação IUPAC",
-        "ro": "Denumire IUPAC",
-        "sk": "Názov IUPAC",
-        "sl": "Ime IUPAC",
-        "sv": "IUPAC-namn"
-      },
-      "description": {
-        "en": "IUPAC systematic chemical name of the substance.",
-        "bg": "Систематично химично наименование на веществото по IUPAC.",
-        "de": "Systematischer IUPAC-Chemikalienname der Substanz.",
-        "nl": "IUPAC-systematische chemische naam van de stof.",
-        "hr": "Sustavni kemijski IUPAC naziv tvari.",
-        "cs": "Systematický chemický název látky podle IUPAC.",
-        "da": "IUPAC-systematisk kemisk navn på stoffet.",
-        "et": "Aine IUPACi süstemaatiline keemiline nimi.",
-        "fi": "Aineen IUPAC-järjestelmällinen kemiallinen nimi.",
-        "fr": "Nom chimique systématique IUPAC de la substance.",
-        "el": "Συστηματική χημική ονομασία IUPAC της ουσίας.",
-        "hu": "Az anyag IUPAC szerinti rendszeres kémiai neve.",
-        "ga": "Ainm ceimiceach córasach IUPAC na substainte.",
-        "it": "Denominazione chimica sistematica IUPAC della sostanza.",
-        "es": "Nombre químico sistemático IUPAC de la sustancia.",
-        "lt": "IUPAC sisteminis cheminis medžiagos pavadinimas.",
-        "lv": "Vielas IUPAC sistemātiskais ķīmiskais nosaukums.",
-        "mt": "Isem kimiku sistematiku IUPAC tas-sustanza.",
-        "pl": "Systematyczna nazwa chemiczna IUPAC substancji.",
-        "pt": "Nome químico sistemático IUPAC da substância.",
-        "ro": "Denumirea chimică sistematică IUPAC a substanței.",
-        "sk": "Systematický chemický názov látky podľa IUPAC.",
-        "sl": "Sistematično kemijsko ime snovi po IUPAC.",
-        "sv": "IUPAC systematiskt kemiskt namn på ämnet."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 23,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "CLP 1272/2008",
-        "instrument": "32008R1272",
         "kind": "legislation",
-        "description": "CLP governs how a substance is IDENTIFIED on the label and in classification, through the Art. 18(3) product identifier rules — a name, not an amount. It creates no duty to publish an IUPAC name as product data; the label and the safety data sheet are the channels through which composition information reaches users."
+        "description": "SDS section 3.2 lists the hazardous components of a classified mixture, and CLP Art. 18(3)(b) names on the label the substances that contribute to its classification. Both are conditional on classification and neither is passport data; paints and coatings carry no passport duty. Entries follow the detergents shape: name plus identification number where one exists."
       },
       "aiHints": {
         "alternateNames": [
-          "IUPAC",
-          "systematic name"
+          "composition",
+          "formulation",
+          "ingredients list"
         ],
-        "expectedFormat": "IUPAC nomenclature",
-        "extractionPriority": 5
-      }
-    },
-    {
-      "key": "ingredientCasNumber",
-      "label": {
-        "en": "CAS Number",
-        "bg": "CAS номер",
-        "de": "CAS-Nummer",
-        "nl": "CAS-nummer",
-        "hr": "CAS broj",
-        "cs": "Číslo CAS",
-        "da": "CAS-nummer",
-        "et": "CAS-number",
-        "fi": "CAS-numero",
-        "fr": "Numéro CAS",
-        "el": "Αριθμός CAS",
-        "hu": "CAS-szám",
-        "ga": "Uimhir CAS",
-        "it": "Numero CAS",
-        "es": "Número CAS",
-        "lt": "CAS numeris",
-        "lv": "CAS numurs",
-        "mt": "Numru CAS",
-        "pl": "Numer CAS",
-        "pt": "Número CAS",
-        "ro": "Număr CAS",
-        "sk": "Číslo CAS",
-        "sl": "Številka CAS",
-        "sv": "CAS-nummer"
-      },
-      "description": {
-        "en": "Chemical Abstracts Service registry number for the ingredient.",
-        "bg": "Регистрационен номер на Chemical Abstracts Service за съставката.",
-        "de": "CAS-Registriernummer (Chemical Abstracts Service) für den Inhaltsstoff.",
-        "nl": "Chemical Abstracts Service registernummer voor het ingrediënt.",
-        "hr": "Registarski broj Chemical Abstracts Service za sastojak.",
-        "cs": "Registrační číslo Chemical Abstracts Service pro složku.",
-        "da": "Chemical Abstracts Service-registreringsnummer for bestanddelen.",
-        "et": "Koostisaine Chemical Abstracts Service'i registreerimisnumber.",
-        "fi": "Ainesosan Chemical Abstracts Service -rekisterinumero.",
-        "fr": "Numéro de registre Chemical Abstracts Service de l'ingrédient.",
-        "el": "Αριθμός μητρώου Chemical Abstracts Service για το συστατικό.",
-        "hu": "Az összetevő Chemical Abstracts Service nyilvántartási száma.",
-        "ga": "Uimhir chlárúcháin Chemical Abstracts Service don chomhábhar.",
-        "it": "Numero di registro Chemical Abstracts Service dell'ingrediente.",
-        "es": "Número de registro CAS (Chemical Abstracts Service) del ingrediente.",
-        "lt": "Sudedamosios dalies CAS (Chemical Abstracts Service) registracijos numeris.",
-        "lv": "Sastāvdaļas CAS (Chemical Abstracts Service) reģistrācijas numurs.",
-        "mt": "Numru tar-reġistru tas-Chemical Abstracts Service (CAS) għall-ingredjent.",
-        "pl": "Numer rejestrowy CAS (Chemical Abstracts Service) składnika.",
-        "pt": "Número de registo CAS (Chemical Abstracts Service) do ingrediente.",
-        "ro": "Numărul de înregistrare CAS (Chemical Abstracts Service) al ingredientului.",
-        "sk": "Registračné číslo CAS (Chemical Abstracts Service) zložky.",
-        "sl": "Registrska številka CAS (Chemical Abstracts Service) sestavine.",
-        "sv": "CAS-registernummer (Chemical Abstracts Service) för ingrediensen."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": true
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 24,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "CLP, REACH, SDS Section 3",
-        "instrument": "32006R1907",
-        "provision": "Annex II SDS section 3.2",
-        "kind": "legislation"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "CAS",
-          "CAS #",
-          "CAS-No."
-        ],
-        "expectedFormat": "XXXXXXX-XX-X",
-        "extractionPriority": 9
-      }
-    },
-    {
-      "key": "ingredientEcNumber",
-      "label": {
-        "en": "EC Number",
-        "bg": "EC номер",
-        "de": "EG-Nummer",
-        "nl": "EC-nummer",
-        "hr": "EC broj",
-        "cs": "Číslo EC",
-        "da": "EC-nummer",
-        "et": "EC-number",
-        "fi": "EC-numero",
-        "fr": "Numéro CE",
-        "el": "Αριθμός EC",
-        "hu": "EC-szám",
-        "ga": "Uimhir EC",
-        "it": "Numero CE",
-        "es": "Número CE",
-        "lt": "EC numeris",
-        "lv": "EC numurs",
-        "mt": "Numru EC",
-        "pl": "Numer WE",
-        "pt": "Número CE",
-        "ro": "Număr CE",
-        "sk": "Číslo ES",
-        "sl": "Številka ES",
-        "sv": "EG-nummer"
-      },
-      "description": {
-        "en": "European Community number (EINECS/ELINCS) for the substance.",
-        "bg": "Номер на Европейската общност (EINECS/ELINCS) на веществото.",
-        "de": "Nummer der Europäischen Gemeinschaft (EINECS/ELINCS) für die Substanz.",
-        "nl": "Nummer van de Europese Gemeenschap (EINECS/ELINCS) voor de stof.",
-        "hr": "Broj Europske zajednice (EINECS/ELINCS) za tvar.",
-        "cs": "Číslo Evropského společenství (EINECS/ELINCS) pro látku.",
-        "da": "Europæisk Fællesskabsnummer (EINECS/ELINCS) for stoffet.",
-        "et": "Aine Euroopa Ühenduse number (EINECS/ELINCS).",
-        "fi": "Aineen Euroopan yhteisön numero (EINECS/ELINCS).",
-        "fr": "Numéro de la Communauté européenne (EINECS/ELINCS) de la substance.",
-        "el": "Αριθμός Ευρωπαϊκής Κοινότητας (EINECS/ELINCS) για την ουσία.",
-        "hu": "Az anyag Európai Közösségi száma (EINECS/ELINCS).",
-        "ga": "Uimhir an Chomhphobail Eorpaigh (EINECS/ELINCS) don tsubstaint.",
-        "it": "Numero della Comunità europea (EINECS/ELINCS) della sostanza.",
-        "es": "Número de la Comunidad Europea (EINECS/ELINCS) de la sustancia.",
-        "lt": "Medžiagos Europos Bendrijos numeris (EINECS/ELINCS).",
-        "lv": "Vielas Eiropas Kopienas numurs (EINECS/ELINCS).",
-        "mt": "Numru tal-Komunità Ewropea (EINECS/ELINCS) tas-sustanza.",
-        "pl": "Numer Wspólnoty Europejskiej (EINECS/ELINCS) substancji.",
-        "pt": "Número da Comunidade Europeia (EINECS/ELINCS) da substância.",
-        "ro": "Numărul Comunității Europene (EINECS/ELINCS) al substanței.",
-        "sk": "Číslo Európskeho spoločenstva (EINECS/ELINCS) látky.",
-        "sl": "Številka Evropske skupnosti (EINECS/ELINCS) snovi.",
-        "sv": "Europeiska gemenskapens nummer (EINECS/ELINCS) för ämnet."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 25,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "REACH, SDS Section 3",
-        "kind": "specification",
-        "source": "Safety Data Sheet",
-        "description": "The EC (EINECS/ELINCS) number is a substance identifier carried on the Safety Data Sheet, not a datum any instrument requires in a passport. REACH is named because the SDS exists under it; the duty is the SDS, not this field."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "EINECS",
-          "ELINCS",
-          "EC-No."
-        ],
-        "expectedFormat": "XXX-XXX-X",
-        "extractionPriority": 6
-      }
-    },
-    {
-      "key": "ingredientReachRegistrationNumber",
-      "label": {
-        "en": "REACH Registration Number",
-        "bg": "REACH регистрационен номер",
-        "de": "REACH-Registrierungsnummer",
-        "nl": "REACH-registratienummer",
-        "hr": "REACH registracijski broj",
-        "cs": "Registrační číslo REACH",
-        "da": "REACH-registreringsnummer",
-        "et": "REACH registreerimisnumber",
-        "fi": "REACH-rekisteröintinumero",
-        "fr": "Numéro d'enregistrement REACH",
-        "el": "Αριθμός καταχώρισης REACH",
-        "hu": "REACH nyilvántartási szám",
-        "ga": "Uimhir chlárúcháin REACH",
-        "it": "Numero di registrazione REACH",
-        "es": "Número de registro REACH",
-        "lt": "REACH registracijos numeris",
-        "lv": "REACH reģistrācijas numurs",
-        "mt": "Numru ta' reġistrazzjoni REACH",
-        "pl": "Numer rejestracji REACH",
-        "pt": "Número de registo REACH",
-        "ro": "Număr de înregistrare REACH",
-        "sk": "Registračné číslo REACH",
-        "sl": "Registracijska številka REACH",
-        "sv": "REACH-registreringsnummer"
-      },
-      "description": {
-        "en": "REACH registration number assigned by ECHA.",
-        "bg": "Регистрационен номер по REACH, присвоен от ECHA.",
-        "de": "REACH-Registriernummer, vergeben von der ECHA.",
-        "nl": "REACH-registratienummer toegewezen door ECHA.",
-        "hr": "REACH registracijski broj koji je dodijelila ECHA.",
-        "cs": "Registrační číslo REACH přidělené agenturou ECHA.",
-        "da": "REACH-registreringsnummer tildelt af ECHA.",
-        "et": "ECHA poolt antud REACH registreerimisnumber.",
-        "fi": "ECHA:n antama REACH-rekisteröintinumero.",
-        "fr": "Numéro d'enregistrement REACH attribué par l'ECHA.",
-        "el": "Αριθμός καταχώρισης REACH που εκχωρήθηκε από τον ECHA.",
-        "hu": "Az ECHA által kiadott REACH nyilvántartási szám.",
-        "ga": "Uimhir chlárúcháin REACH arna sannadh ag ECHA.",
-        "it": "Numero di registrazione REACH assegnato dall'ECHA.",
-        "es": "Número de registro REACH asignado por la ECHA.",
-        "lt": "REACH registracijos numeris, suteiktas ECHA.",
-        "lv": "REACH reģistrācijas numurs, ko piešķīrusi ECHA.",
-        "mt": "Numru tar-reġistrazzjoni REACH assenjat mill-ECHA.",
-        "pl": "Numer rejestracji REACH nadany przez ECHA.",
-        "pt": "Número de registo REACH atribuído pela ECHA.",
-        "ro": "Numărul de înregistrare REACH atribuit de ECHA.",
-        "sk": "Registračné číslo REACH pridelené agentúrou ECHA.",
-        "sl": "Registracijska številka REACH, ki jo dodeli ECHA.",
-        "sv": "REACH-registreringsnummer tilldelat av Echa."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 26,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "REACH (EC) 1907/2006",
-        "instrument": "32006R1907",
-        "kind": "legislation",
-        "description": "A REACH registration number is assigned to the registrant and appears in section 1 of the safety data sheet supplied down the chain under Art. 31. REACH creates no duty to publish it as product data, and for a mixture it is the constituent substances that carry registrations, not the product."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "REACH number",
-          "REACH reg no."
-        ],
-        "expectedFormat": "XX-XXXXXXXXXX-XX-XXXX",
-        "extractionPriority": 5
+        "expectedFormat": "Array of {name, casNumber?, ecNumber?, indexNumber?, iupacName?, carryOverPreservative?, concentrationBand?, function?}: one entry per intentionally added substance, identified per CLP Art. 18(2) by name plus whichever number it has",
+        "extractionPriority": 10
       }
     },
     {
@@ -3221,10 +2804,11 @@
       "sortOrder": 27,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405, CLP",
-        "instrument": "32008R1272",
+        "article": "Biocidal Products Reg (EU) 528/2012 Art. 58(3)",
+        "instrument": "32012R0528",
+        "provision": "Art. 58(3)",
         "kind": "legislation",
-        "description": "Preservatives reach consumers through the CLP label and, where applicable, sector labelling rules; CLP itself creates no separate duty to publish a preservative list as product data. Its labelling duty is discharged by what is affixed to the package."
+        "description": "A paint with in-can preservatives is a treated article. BPR Art. 58(3)(c) puts the names of the active substances on its LABEL, but only where a biocidal claim is made or the substance's approval conditions require it. Not passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -3327,10 +2911,11 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405, CLP 2024/2865",
+        "article": "CLP Annex II, point 2.8",
         "instrument": "32008R1272",
+        "provision": "Annex II, point 2.8",
         "kind": "legislation",
-        "description": "Fragrance allergen disclosure is a LABELLING duty in the sector instruments that impose it, not a CLP one — CLP's own obligation is the hazard label. Publishing the list here is useful to allergic users but is not how the duty is discharged."
+        "description": "CLP Annex II 2.8 (EUH208) names sensitising substances present above the Annex I Table 3.4.6 threshold on the LABEL of a mixture not itself classified as sensitising. A label statement, not passport data; the Detergents Regulation's allergen rules do not apply to paints."
       },
       "aiHints": {
         "alternateNames": [
@@ -4154,7 +3739,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "hazard",
       "categoryLabel": {
@@ -4186,10 +3771,11 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 22, SDS Section 2",
+        "article": "CLP Art. 22 and Annex IV",
         "instrument": "32008R1272",
-        "provision": "Art. 22 & Annex IV",
-        "kind": "legislation"
+        "provision": "Art. 22",
+        "kind": "legislation",
+        "description": "CLP Art. 22 puts precautionary statements on the LABEL of mixtures classified as hazardous. Not passport data under Annex VI Part A, and not owed for an unclassified product. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -4584,7 +4170,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "poison_centre",
       "categoryLabel": {
@@ -4616,10 +4202,11 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.4, SDS Section 1.4",
+        "article": "REACH Annex II SDS section 1.4",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 1.4",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 1.4). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Not passport data under Annex VI Part A. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -4691,7 +4278,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "poison_centre",
       "categoryLabel": {
@@ -4723,10 +4310,11 @@
       "sortOrder": 38,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CLP Annex VIII, ECHA EuPCS",
+        "article": "CLP Annex VIII",
         "instrument": "32008R1272",
-        "provision": "Annex VIII (product categorisation, EuPCS)",
-        "kind": "legislation"
+        "provision": "Annex VIII",
+        "kind": "legislation",
+        "description": "The EuPCS category is part of the poison-centre notification under CLP Annex VIII, owed only for mixtures classified for health or physical hazards. It is a notification to appointed bodies, not passport data. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -5334,7 +4922,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "physical_chemical",
       "categoryLabel": {
@@ -5366,10 +4954,11 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1",
+        "article": "REACH Annex II SDS section 9.1",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 9.1",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 9.1). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -5546,7 +5135,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "physical_chemical",
       "categoryLabel": {
@@ -5578,10 +5167,11 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1",
+        "article": "REACH Annex II SDS section 9.1",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 9.1",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 9.1 in the current Annex II). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -6566,7 +6156,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -6598,10 +6188,11 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 13",
+        "article": "REACH Annex II SDS section 13",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 13",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 13, disposal considerations). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Paints and coatings carry no passport duty under any instrument."
       },
       "aiHints": {
         "alternateNames": [
@@ -8863,8 +8454,8 @@
       }
     }
   ],
-  "fieldCount": 69,
-  "requiredFieldCount": 15,
+  "fieldCount": 65,
+  "requiredFieldCount": 0,
   "categories": [
     "composition",
     "data_carrier",

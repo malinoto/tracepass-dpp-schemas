@@ -96,10 +96,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "ESPR Art. 9(1) requires a unique product identifier, but only once a product-group delegated act under Art. 4 applies to chemicals; none adopted."
+        "required": true
       },
       "category": "product_id",
       "categoryLabel": {
@@ -131,11 +128,17 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(1)",
-        "instrument": "32024R1781",
-        "provision": "Article 9(1)",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (a)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(a) requires the unique product identifier in the passport. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification",
+          "at": "32026R0405 Annex VI Part A(a)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -350,10 +353,17 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 31 + Annex II SDS section 1.1",
-        "instrument": "32006R1907",
-        "provision": "Art. 31 + Annex II SDS section 1.1",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(d)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (d)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(d) requires identification allowing traceability. The passport is per model (Art. 21(2)(a)), so a type number satisfies it as well as a batch or lot number. The REACH SDS section 1.1 citation it carried has no batch field. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the identification of the detergent or end-user surfactant allowing traceability",
+          "at": "32026R0405 Annex VI Part A(d)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -564,10 +574,17 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 18 (product identifiers), SDS Section 1",
-        "instrument": "32008R1272",
-        "provision": "Art. 18 (product identifiers)",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (a)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(a): the trade name identifies the passport's product. The CLP Art. 18 citation it carried is a label duty for classified mixtures only. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification",
+          "at": "32026R0405 Annex VI Part A(a)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -747,7 +764,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": true
       },
       "category": "product_id",
       "categoryLabel": {
@@ -779,11 +796,17 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (a)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(a) requires a colour image of the packaging or label clear enough to identify the model. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification",
+          "at": "32026R0405 Annex VI Part A(a)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -854,7 +877,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -886,9 +909,17 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Combined Nomenclature / TARIC — Council Reg (EEC) 2658/87 Annex I",
-        "instrument": "31987R2658",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(f)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (f)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(f) requires the commodity codes 'where applicable', so the field is optional; Reg (EEC) 2658/87 itself is a nomenclature, not a duty to publish a code.",
+        "verification": {
+          "quote": "where applicable, the commodity codes as set out in Annex I to Regulation (EEC) No 2658/87 under which the detergent or end-user surfactant is classified at the moment the digital product passport is created",
+          "at": "32026R0405 Annex VI Part A(f)",
+          "condition": "where applicable (the text's own qualifier)"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1502,10 +1533,17 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17 (label) & Art. 18, SDS Section 1.3",
-        "instrument": "32008R1272",
-        "provision": "Art. 17 (label) & Art. 18",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(b): the manufacturer's name. The CLP Art. 17 citation it carried names the label's supplier, for classified mixtures only. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1609,10 +1647,17 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17 (label), SDS Section 1.3",
-        "instrument": "32008R1272",
-        "provision": "Art. 17 (label)",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(b): the manufacturer's postal address. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1715,10 +1760,17 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.3",
-        "instrument": "32006R1907",
-        "provision": "Annex II SDS section 1.3",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(b): the manufacturer's electronic address. The SDS section 1.3 citation it carried is SDS content, owed only for classified mixtures. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1821,10 +1873,17 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(5)-(6) (manufacturer contact details)",
-        "instrument": "32023R0988",
-        "provision": "Article 9",
-        "kind": "legislation"
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(b): the manufacturer's telephone number. The GPSR Art. 9 citation it carried does not require a telephone number as product data. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1896,10 +1955,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "ESPR Art. 9/Annex III anticipates operator identifiers in a DPP, but only under a delegated act; not in force."
+        "required": true
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -1931,11 +1987,17 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(b) requires the manufacturer's unique operator identifier. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2040,11 +2102,17 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(b) requires the importer 'where applicable', so only when there is one.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": "only where an importer places the product on the market"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2147,11 +2215,17 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(b) requires the importer's details 'where applicable', so only when there is one.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": "only where an importer places the product on the market"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2253,11 +2327,17 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (b)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(b) requires the authorised representative 'where applicable', so only when one is appointed.",
+        "verification": {
+          "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier",
+          "at": "32026R0405 Annex VI Part A(b)",
+          "condition": "only where an authorised representative is appointed"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2328,10 +2408,7 @@
       "defaultValue": "TracePass",
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "The passport-service-provider role exists in the ESPR DPP architecture (Art. 10 area) but binds no chemicals product until a delegated act applies."
+        "required": true
       },
       "category": "economic_operator",
       "categoryLabel": {
@@ -2363,11 +2440,17 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10",
-        "instrument": "32024R1781",
-        "provision": "Article 10",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(c)",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (c)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "ESPR Art. 10 governs the passport's TECHNICAL design — data carrier, unique identifiers, access rights, availability — not which product data must be published. The substantive obligation still arrives via an Art. 4 delegated act, and none is adopted for this category. Anticipated; voluntary today. Verified against the EUR-Lex text."
+        "description": "Annex VI Part A(c) requires the reference to the DPP service provider hosting the back-up copy. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "the reference to the digital product passport service provider hosting the back-up copy of the digital product passport",
+          "at": "32026R0405 Annex VI Part A(c)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2595,538 +2678,6 @@
         ],
         "expectedFormat": "ISO 3166-1 alpha-2 (e.g. DE, BG)",
         "extractionPriority": 7
-      }
-    },
-    {
-      "key": "ingredientSubstanceName",
-      "label": {
-        "en": "Substance Name",
-        "bg": "Наименование на веществото",
-        "de": "Stoffname",
-        "nl": "Stofnaam",
-        "hr": "Naziv tvari",
-        "cs": "Název látky",
-        "da": "Stofnavn",
-        "et": "Aine nimi",
-        "fi": "Aineen nimi",
-        "fr": "Nom de la substance",
-        "el": "Όνομα ουσίας",
-        "hu": "Anyag neve",
-        "ga": "Ainm substainte",
-        "it": "Nome della sostanza",
-        "es": "Nombre de la sustancia",
-        "lt": "Medžiagos pavadinimas",
-        "lv": "Vielas nosaukums",
-        "mt": "Isem tas-sustanza",
-        "pl": "Nazwa substancji",
-        "pt": "Nome da substância",
-        "ro": "Denumirea substanței",
-        "sk": "Názov látky",
-        "sl": "Ime snovi",
-        "sv": "Ämnets namn"
-      },
-      "description": {
-        "en": "Chemical name of the ingredient substance.",
-        "bg": "Химично наименование на веществото съставка.",
-        "de": "Chemischer Name der Inhaltsstoffsubstanz.",
-        "nl": "Chemische naam van de ingrediëntstof.",
-        "hr": "Kemijski naziv tvari sastojka.",
-        "cs": "Chemický název složky.",
-        "da": "Kemisk navn på bestanddelen.",
-        "et": "Koostisaine keemiline nimi.",
-        "fi": "Ainesosan kemiallinen nimi.",
-        "fr": "Nom chimique de la substance constitutive.",
-        "el": "Χημική ονομασία της ουσίας του συστατικού.",
-        "hu": "Az összetevő anyag kémiai neve.",
-        "ga": "Ainm ceimiceach na substainte comhábhair.",
-        "it": "Denominazione chimica della sostanza ingrediente.",
-        "es": "Nombre químico de la sustancia ingrediente.",
-        "lt": "Sudedamosios medžiagos cheminis pavadinimas.",
-        "lv": "Sastāvdaļas vielas ķīmiskais nosaukums.",
-        "mt": "Isem kimiku tas-sustanza ingredjent.",
-        "pl": "Nazwa chemiczna substancji będącej składnikiem.",
-        "pt": "Nome químico da substância ingrediente.",
-        "ro": "Denumirea chimică a substanței ingredient.",
-        "sk": "Chemický názov zložkovej látky.",
-        "sl": "Kemijsko ime sestavine.",
-        "sv": "Kemiskt namn på ingrediensämnet."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": true
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 22,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "REACH Annex II SDS section 3.2, SDS Section 3",
-        "instrument": "32006R1907",
-        "provision": "Annex II SDS section 3.2",
-        "kind": "legislation"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "chemical name",
-          "ingredient name"
-        ],
-        "expectedFormat": "Chemical name",
-        "extractionPriority": 9
-      }
-    },
-    {
-      "key": "ingredientIupacName",
-      "label": {
-        "en": "IUPAC Name",
-        "bg": "IUPAC наименование",
-        "de": "IUPAC-Name",
-        "nl": "IUPAC-naam",
-        "hr": "IUPAC naziv",
-        "cs": "Název IUPAC",
-        "da": "IUPAC-navn",
-        "et": "IUPACi nimi",
-        "fi": "IUPAC-nimi",
-        "fr": "Nom IUPAC",
-        "el": "Όνομα IUPAC",
-        "hu": "IUPAC-név",
-        "ga": "Ainm IUPAC",
-        "it": "Nome IUPAC",
-        "es": "Nombre IUPAC",
-        "lt": "IUPAC pavadinimas",
-        "lv": "IUPAC nosaukums",
-        "mt": "Isem IUPAC",
-        "pl": "Nazwa IUPAC",
-        "pt": "Denominação IUPAC",
-        "ro": "Denumire IUPAC",
-        "sk": "Názov IUPAC",
-        "sl": "Ime IUPAC",
-        "sv": "IUPAC-namn"
-      },
-      "description": {
-        "en": "IUPAC systematic chemical name of the substance.",
-        "bg": "Систематично химично наименование на веществото по IUPAC.",
-        "de": "Systematischer IUPAC-Chemikalienname der Substanz.",
-        "nl": "IUPAC-systematische chemische naam van de stof.",
-        "hr": "Sustavni kemijski IUPAC naziv tvari.",
-        "cs": "Systematický chemický název látky podle IUPAC.",
-        "da": "IUPAC-systematisk kemisk navn på stoffet.",
-        "et": "Aine IUPACi süstemaatiline keemiline nimi.",
-        "fi": "Aineen IUPAC-järjestelmällinen kemiallinen nimi.",
-        "fr": "Nom chimique systématique IUPAC de la substance.",
-        "el": "Συστηματική χημική ονομασία IUPAC της ουσίας.",
-        "hu": "Az anyag IUPAC szerinti rendszeres kémiai neve.",
-        "ga": "Ainm ceimiceach córasach IUPAC na substainte.",
-        "it": "Denominazione chimica sistematica IUPAC della sostanza.",
-        "es": "Nombre químico sistemático IUPAC de la sustancia.",
-        "lt": "IUPAC sisteminis cheminis medžiagos pavadinimas.",
-        "lv": "Vielas IUPAC sistemātiskais ķīmiskais nosaukums.",
-        "mt": "Isem kimiku sistematiku IUPAC tas-sustanza.",
-        "pl": "Systematyczna nazwa chemiczna IUPAC substancji.",
-        "pt": "Nome químico sistemático IUPAC da substância.",
-        "ro": "Denumirea chimică sistematică IUPAC a substanței.",
-        "sk": "Systematický chemický názov látky podľa IUPAC.",
-        "sl": "Sistematično kemijsko ime snovi po IUPAC.",
-        "sv": "IUPAC systematiskt kemiskt namn på ämnet."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 23,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "CLP 1272/2008",
-        "instrument": "32008R1272",
-        "kind": "legislation",
-        "description": "CLP governs how a substance is IDENTIFIED on the label and in classification, through the Art. 18(3) product identifier rules — a name, not an amount. It creates no duty to publish an IUPAC name as product data; the label and the safety data sheet are the channels through which composition information reaches users."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "IUPAC",
-          "systematic name"
-        ],
-        "expectedFormat": "IUPAC nomenclature",
-        "extractionPriority": 5
-      }
-    },
-    {
-      "key": "ingredientCasNumber",
-      "label": {
-        "en": "CAS Number",
-        "bg": "CAS номер",
-        "de": "CAS-Nummer",
-        "nl": "CAS-nummer",
-        "hr": "CAS broj",
-        "cs": "Číslo CAS",
-        "da": "CAS-nummer",
-        "et": "CAS-number",
-        "fi": "CAS-numero",
-        "fr": "Numéro CAS",
-        "el": "Αριθμός CAS",
-        "hu": "CAS-szám",
-        "ga": "Uimhir CAS",
-        "it": "Numero CAS",
-        "es": "Número CAS",
-        "lt": "CAS numeris",
-        "lv": "CAS numurs",
-        "mt": "Numru CAS",
-        "pl": "Numer CAS",
-        "pt": "Número CAS",
-        "ro": "Număr CAS",
-        "sk": "Číslo CAS",
-        "sl": "Številka CAS",
-        "sv": "CAS-nummer"
-      },
-      "description": {
-        "en": "Chemical Abstracts Service registry number for the ingredient.",
-        "bg": "Регистрационен номер на Chemical Abstracts Service за съставката.",
-        "de": "CAS-Registriernummer (Chemical Abstracts Service) für den Inhaltsstoff.",
-        "nl": "Chemical Abstracts Service registernummer voor het ingrediënt.",
-        "hr": "Registarski broj Chemical Abstracts Service za sastojak.",
-        "cs": "Registrační číslo Chemical Abstracts Service pro složku.",
-        "da": "Chemical Abstracts Service-registreringsnummer for bestanddelen.",
-        "et": "Koostisaine Chemical Abstracts Service'i registreerimisnumber.",
-        "fi": "Ainesosan Chemical Abstracts Service -rekisterinumero.",
-        "fr": "Numéro de registre Chemical Abstracts Service de l'ingrédient.",
-        "el": "Αριθμός μητρώου Chemical Abstracts Service για το συστατικό.",
-        "hu": "Az összetevő Chemical Abstracts Service nyilvántartási száma.",
-        "ga": "Uimhir chlárúcháin Chemical Abstracts Service don chomhábhar.",
-        "it": "Numero di registro Chemical Abstracts Service dell'ingrediente.",
-        "es": "Número de registro CAS (Chemical Abstracts Service) del ingrediente.",
-        "lt": "Sudedamosios dalies CAS (Chemical Abstracts Service) registracijos numeris.",
-        "lv": "Sastāvdaļas CAS (Chemical Abstracts Service) reģistrācijas numurs.",
-        "mt": "Numru tar-reġistru tas-Chemical Abstracts Service (CAS) għall-ingredjent.",
-        "pl": "Numer rejestrowy CAS (Chemical Abstracts Service) składnika.",
-        "pt": "Número de registo CAS (Chemical Abstracts Service) do ingrediente.",
-        "ro": "Numărul de înregistrare CAS (Chemical Abstracts Service) al ingredientului.",
-        "sk": "Registračné číslo CAS (Chemical Abstracts Service) zložky.",
-        "sl": "Registrska številka CAS (Chemical Abstracts Service) sestavine.",
-        "sv": "CAS-registernummer (Chemical Abstracts Service) för ingrediensen."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": true
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 24,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "CLP, REACH, SDS Section 3",
-        "instrument": "32006R1907",
-        "provision": "Annex II SDS section 3.2",
-        "kind": "legislation"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "CAS",
-          "CAS #",
-          "CAS-No."
-        ],
-        "expectedFormat": "XXXXXXX-XX-X",
-        "extractionPriority": 9
-      }
-    },
-    {
-      "key": "ingredientEcNumber",
-      "label": {
-        "en": "EC Number",
-        "bg": "EC номер",
-        "de": "EG-Nummer",
-        "nl": "EC-nummer",
-        "hr": "EC broj",
-        "cs": "Číslo EC",
-        "da": "EC-nummer",
-        "et": "EC-number",
-        "fi": "EC-numero",
-        "fr": "Numéro CE",
-        "el": "Αριθμός EC",
-        "hu": "EC-szám",
-        "ga": "Uimhir EC",
-        "it": "Numero CE",
-        "es": "Número CE",
-        "lt": "EC numeris",
-        "lv": "EC numurs",
-        "mt": "Numru EC",
-        "pl": "Numer WE",
-        "pt": "Número CE",
-        "ro": "Număr CE",
-        "sk": "Číslo ES",
-        "sl": "Številka ES",
-        "sv": "EG-nummer"
-      },
-      "description": {
-        "en": "European Community number (EINECS/ELINCS) for the substance.",
-        "bg": "Номер на Европейската общност (EINECS/ELINCS) на веществото.",
-        "de": "Nummer der Europäischen Gemeinschaft (EINECS/ELINCS) für die Substanz.",
-        "nl": "Nummer van de Europese Gemeenschap (EINECS/ELINCS) voor de stof.",
-        "hr": "Broj Europske zajednice (EINECS/ELINCS) za tvar.",
-        "cs": "Číslo Evropského společenství (EINECS/ELINCS) pro látku.",
-        "da": "Europæisk Fællesskabsnummer (EINECS/ELINCS) for stoffet.",
-        "et": "Aine Euroopa Ühenduse number (EINECS/ELINCS).",
-        "fi": "Aineen Euroopan yhteisön numero (EINECS/ELINCS).",
-        "fr": "Numéro de la Communauté européenne (EINECS/ELINCS) de la substance.",
-        "el": "Αριθμός Ευρωπαϊκής Κοινότητας (EINECS/ELINCS) για την ουσία.",
-        "hu": "Az anyag Európai Közösségi száma (EINECS/ELINCS).",
-        "ga": "Uimhir an Chomhphobail Eorpaigh (EINECS/ELINCS) don tsubstaint.",
-        "it": "Numero della Comunità europea (EINECS/ELINCS) della sostanza.",
-        "es": "Número de la Comunidad Europea (EINECS/ELINCS) de la sustancia.",
-        "lt": "Medžiagos Europos Bendrijos numeris (EINECS/ELINCS).",
-        "lv": "Vielas Eiropas Kopienas numurs (EINECS/ELINCS).",
-        "mt": "Numru tal-Komunità Ewropea (EINECS/ELINCS) tas-sustanza.",
-        "pl": "Numer Wspólnoty Europejskiej (EINECS/ELINCS) substancji.",
-        "pt": "Número da Comunidade Europeia (EINECS/ELINCS) da substância.",
-        "ro": "Numărul Comunității Europene (EINECS/ELINCS) al substanței.",
-        "sk": "Číslo Európskeho spoločenstva (EINECS/ELINCS) látky.",
-        "sl": "Številka Evropske skupnosti (EINECS/ELINCS) snovi.",
-        "sv": "Europeiska gemenskapens nummer (EINECS/ELINCS) för ämnet."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 25,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "REACH, SDS Section 3",
-        "kind": "specification",
-        "source": "Safety Data Sheet",
-        "description": "The EC (EINECS/ELINCS) number is a substance identifier carried on the Safety Data Sheet, not a datum any instrument requires in a passport. REACH is named because the SDS exists under it; the duty is the SDS, not this field."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "EINECS",
-          "ELINCS",
-          "EC-No."
-        ],
-        "expectedFormat": "XXX-XXX-X",
-        "extractionPriority": 6
-      }
-    },
-    {
-      "key": "ingredientReachRegistrationNumber",
-      "label": {
-        "en": "REACH Registration Number",
-        "bg": "REACH регистрационен номер",
-        "de": "REACH-Registrierungsnummer",
-        "nl": "REACH-registratienummer",
-        "hr": "REACH registracijski broj",
-        "cs": "Registrační číslo REACH",
-        "da": "REACH-registreringsnummer",
-        "et": "REACH registreerimisnumber",
-        "fi": "REACH-rekisteröintinumero",
-        "fr": "Numéro d'enregistrement REACH",
-        "el": "Αριθμός καταχώρισης REACH",
-        "hu": "REACH nyilvántartási szám",
-        "ga": "Uimhir chlárúcháin REACH",
-        "it": "Numero di registrazione REACH",
-        "es": "Número de registro REACH",
-        "lt": "REACH registracijos numeris",
-        "lv": "REACH reģistrācijas numurs",
-        "mt": "Numru ta' reġistrazzjoni REACH",
-        "pl": "Numer rejestracji REACH",
-        "pt": "Número de registo REACH",
-        "ro": "Număr de înregistrare REACH",
-        "sk": "Registračné číslo REACH",
-        "sl": "Registracijska številka REACH",
-        "sv": "REACH-registreringsnummer"
-      },
-      "description": {
-        "en": "REACH registration number assigned by ECHA.",
-        "bg": "Регистрационен номер по REACH, присвоен от ECHA.",
-        "de": "REACH-Registriernummer, vergeben von der ECHA.",
-        "nl": "REACH-registratienummer toegewezen door ECHA.",
-        "hr": "REACH registracijski broj koji je dodijelila ECHA.",
-        "cs": "Registrační číslo REACH přidělené agenturou ECHA.",
-        "da": "REACH-registreringsnummer tildelt af ECHA.",
-        "et": "ECHA poolt antud REACH registreerimisnumber.",
-        "fi": "ECHA:n antama REACH-rekisteröintinumero.",
-        "fr": "Numéro d'enregistrement REACH attribué par l'ECHA.",
-        "el": "Αριθμός καταχώρισης REACH που εκχωρήθηκε από τον ECHA.",
-        "hu": "Az ECHA által kiadott REACH nyilvántartási szám.",
-        "ga": "Uimhir chlárúcháin REACH arna sannadh ag ECHA.",
-        "it": "Numero di registrazione REACH assegnato dall'ECHA.",
-        "es": "Número de registro REACH asignado por la ECHA.",
-        "lt": "REACH registracijos numeris, suteiktas ECHA.",
-        "lv": "REACH reģistrācijas numurs, ko piešķīrusi ECHA.",
-        "mt": "Numru tar-reġistrazzjoni REACH assenjat mill-ECHA.",
-        "pl": "Numer rejestracji REACH nadany przez ECHA.",
-        "pt": "Número de registo REACH atribuído pela ECHA.",
-        "ro": "Numărul de înregistrare REACH atribuit de ECHA.",
-        "sk": "Registračné číslo REACH pridelené agentúrou ECHA.",
-        "sl": "Registracijska številka REACH, ki jo dodeli ECHA.",
-        "sv": "REACH-registreringsnummer tilldelat av Echa."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 26,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "REACH (EC) 1907/2006",
-        "instrument": "32006R1907",
-        "kind": "legislation",
-        "description": "A REACH registration number is assigned to the registrant and appears in section 1 of the safety data sheet supplied down the chain under Art. 31. REACH creates no duty to publish it as product data, and for a mixture it is the constituent substances that carry registrations, not the product."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "REACH number",
-          "REACH reg no."
-        ],
-        "expectedFormat": "XX-XXXXXXXXXX-XX-XXXX",
-        "extractionPriority": 5
       }
     },
     {
@@ -4154,7 +3705,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "hazard",
       "categoryLabel": {
@@ -4186,10 +3737,11 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 22, SDS Section 2",
+        "article": "CLP Art. 22 and Annex IV",
         "instrument": "32008R1272",
-        "provision": "Art. 22 & Annex IV",
-        "kind": "legislation"
+        "provision": "Art. 22",
+        "kind": "legislation",
+        "description": "CLP Art. 22 puts precautionary statements on the LABEL of mixtures classified as hazardous. Not passport data under Annex VI Part A, and not owed for an unclassified product."
       },
       "aiHints": {
         "alternateNames": [
@@ -4584,7 +4136,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "poison_centre",
       "categoryLabel": {
@@ -4616,10 +4168,11 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.4, SDS Section 1.4",
+        "article": "REACH Annex II SDS section 1.4",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 1.4",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 1.4). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one. Not passport data under Annex VI Part A."
       },
       "aiHints": {
         "alternateNames": [
@@ -4691,7 +4244,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "poison_centre",
       "categoryLabel": {
@@ -4723,10 +4276,11 @@
       "sortOrder": 38,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CLP Annex VIII, ECHA EuPCS",
+        "article": "CLP Annex VIII",
         "instrument": "32008R1272",
-        "provision": "Annex VIII (product categorisation, EuPCS)",
-        "kind": "legislation"
+        "provision": "Annex VIII",
+        "kind": "legislation",
+        "description": "The EuPCS category is part of the poison-centre notification under CLP Annex VIII, owed only for mixtures classified for health or physical hazards. It is a notification to appointed bodies, not passport data."
       },
       "aiHints": {
         "alternateNames": [
@@ -5334,7 +4888,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "physical_chemical",
       "categoryLabel": {
@@ -5366,10 +4920,11 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1",
+        "article": "REACH Annex II SDS section 9.1",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 9.1",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 9.1). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one."
       },
       "aiHints": {
         "alternateNames": [
@@ -5546,7 +5101,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "physical_chemical",
       "categoryLabel": {
@@ -5578,10 +5133,11 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 9.1",
+        "article": "REACH Annex II SDS section 9.1",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 9.1",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 9.1 in the current Annex II). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one."
       },
       "aiHints": {
         "alternateNames": [
@@ -6566,7 +6122,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "environmental",
       "categoryLabel": {
@@ -6598,10 +6154,11 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "SDS Section 13",
+        "article": "REACH Annex II SDS section 13",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 13",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 13, disposal considerations). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one."
       },
       "aiHints": {
         "alternateNames": [
@@ -7433,10 +6990,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32026R0405",
-        "anticipatedNote": "Detergents Reg (EU) 2026/405 mandates a digital ingredient list, but applies from 23 Sep 2029; not in force. For non-detergent chemicals, SDS section 3 (REACH Annex II) covers hazardous constituents instead."
+        "required": false
       },
       "category": "composition",
       "categoryLabel": {
@@ -7468,11 +7022,17 @@
       "sortOrder": 65,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Annex III, Detergents Reg 2026/405, SDS Section 3",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(h)",
         "instrument": "32026R0405",
-        "provision": "Annex III",
+        "provision": "Annex VI Part A, point (h)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "Annex VI Part A point (h) makes a FULL LIST of intentionally added substances, identified per CLP Art. 18(3), genuine passport content — one of the nine Part A points. Note the inversion against the label: the passport carries the full list but no amounts, while Annex V Part A carries banded concentrations for a narrower set. Applies from 23 Sep 2029."
+        "description": "Annex VI Part A(h) requires the full list of intentionally added substances, each identified per CLP Art. 18(3) (name plus identification number where one exists), with no amounts. It does not apply to industrial and institutional detergents whose SDS carries the equivalent, and the template cannot yet express that condition, so the field is optional. Label bands (Annex V Part A 1(h)(i)) and functions may be recorded per entry but are label content, not Part A(h).",
+        "verification": {
+          "quote": "a full list of substances intentionally added in the detergent or surfactant, identified in accordance with Article 18(3) of Regulation (EC) No 1272/2008",
+          "at": "32026R0405 Annex VI Part A(h)",
+          "condition": "not for industrial and institutional detergents, or surfactants, whose Art. 31 safety data sheet provides the equivalent"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7480,943 +7040,8 @@
           "formulation",
           "ingredients list"
         ],
-        "expectedFormat": "Array of ingredient objects",
+        "expectedFormat": "Array of {name, casNumber?, ecNumber?, indexNumber?, iupacName?, carryOverPreservative?, concentrationBand?, function?}: one entry per intentionally added substance, identified per CLP Art. 18(2) by name plus whichever number it has",
         "extractionPriority": 10
-      }
-    },
-    {
-      "key": "ingredientInciName",
-      "label": {
-        "en": "INCI Name",
-        "bg": "INCI наименование",
-        "de": "INCI-Name",
-        "nl": "INCI-naam",
-        "hr": "INCI naziv",
-        "cs": "Název INCI",
-        "da": "INCI-navn",
-        "et": "INCI nimi",
-        "fi": "INCI-nimi",
-        "fr": "Nom INCI",
-        "el": "Όνομα INCI",
-        "hu": "INCI-név",
-        "ga": "Ainm INCI",
-        "it": "Nome INCI",
-        "es": "Nombre INCI",
-        "lt": "INCI pavadinimas",
-        "lv": "INCI nosaukums",
-        "mt": "Isem INCI",
-        "pl": "Nazwa INCI",
-        "pt": "Denominação INCI",
-        "ro": "Denumire INCI",
-        "sk": "Názov INCI",
-        "sl": "Ime INCI",
-        "sv": "INCI-namn"
-      },
-      "description": {
-        "en": "International Nomenclature of Cosmetic Ingredients name, where applicable.",
-        "bg": "Наименование по Международната номенклатура на козметичните съставки, ако е приложимо.",
-        "de": "Name nach der Internationalen Nomenklatur der Kosmetikinhaltsstoffe (INCI), soweit zutreffend.",
-        "nl": "Internationale Nomenclatuur voor Cosmetische Ingrediënten naam, indien van toepassing.",
-        "hr": "Naziv prema Međunarodnoj nomenklaturi kozmetičkih sastojaka, gdje je primjenjivo.",
-        "cs": "Název podle Mezinárodní nomenklatury kosmetických složek, je-li to relevantní.",
-        "da": "Navn efter International Nomenclature of Cosmetic Ingredients, hvor relevant.",
-        "et": "Rahvusvahelise kosmeetikatoote koostisainete nomenklatuuri nimi, kui kohaldatav.",
-        "fi": "Kansainvälisen kosmeettisten ainesosien nimikkeistön mukainen nimi, jos sovellettavissa.",
-        "fr": "Nom selon la Nomenclature internationale des ingrédients cosmétiques, le cas échéant.",
-        "el": "Ονομασία κατά τη Διεθνή Ονοματολογία Καλλυντικών Συστατικών, όπου ισχύει.",
-        "hu": "Kozmetikai összetevők nemzetközi nómenklatúrája szerinti név, ha alkalmazható.",
-        "ga": "Ainm de réir Ainmníocht Idirnáisiúnta Comhábhar Cosmaidí, nuair is infheidhme.",
-        "it": "Nome secondo la Nomenclatura Internazionale degli Ingredienti Cosmetici, ove applicabile.",
-        "es": "Nombre según la Nomenclatura Internacional de Ingredientes Cosméticos (INCI), cuando proceda.",
-        "lt": "Tarptautinės kosmetikos sudedamųjų dalių nomenklatūros (INCI) pavadinimas, kai taikoma.",
-        "lv": "Nosaukums saskaņā ar Starptautisko kosmētikas sastāvdaļu nomenklatūru (INCI), ja piemērojams.",
-        "mt": "Isem skont in-Nomenklatura Internazzjonali tal-Ingredjenti Kożmetiċi (INCI), fejn applikabbli.",
-        "pl": "Nazwa zgodna z Międzynarodową Nomenklaturą Składników Kosmetycznych (INCI), jeśli dotyczy.",
-        "pt": "Nome segundo a Nomenclatura Internacional de Ingredientes Cosméticos (INCI), quando aplicável.",
-        "ro": "Denumirea conform Nomenclaturii Internaționale a Ingredientelor Cosmetice (INCI), dacă este cazul.",
-        "sk": "Názov podľa medzinárodnej nomenklatúry kozmetických zložiek (INCI), ak je to relevantné.",
-        "sl": "Ime po Mednarodni nomenklaturi kozmetičnih sestavin (INCI), kjer je to relevantno.",
-        "sv": "Namn enligt International Nomenclature of Cosmetic Ingredients (INCI), där tillämpligt."
-      },
-      "dataType": "string",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [],
-      "validation": {
-        "required": false
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 66,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "Detergents Reg 2026/405",
-        "instrument": "32026R0405",
-        "kind": "legislation",
-        "description": "An INCI name is a cosmetics naming convention. Under Reg (EU) 2026/405 the passport identifies substances per CLP Art. 18(3) (Annex VI Part A point (h)), not by INCI, so this is a convenience field rather than a mandated one."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "INCI",
-          "cosmetic ingredient name"
-        ],
-        "expectedFormat": "INCI nomenclature",
-        "extractionPriority": 4
-      }
-    },
-    {
-      "key": "ingredientConcentrationRangePercent",
-      "label": {
-        "en": "Concentration Range (%)",
-        "bg": "Диапазон на концентрация (%)",
-        "de": "Konzentrationsbereich (%)",
-        "nl": "Concentratiebereik (%)",
-        "hr": "Raspon koncentracije (%)",
-        "cs": "Rozsah koncentrace (%)",
-        "da": "Koncentrationsinterval (%)",
-        "et": "Kontsentratsioonivahemik (%)",
-        "fi": "Pitoisuusalue (%)",
-        "fr": "Plage de concentration (%)",
-        "el": "Εύρος συγκέντρωσης (%)",
-        "hu": "Koncentrációtartomány (%)",
-        "ga": "Raon tiúchana (%)",
-        "it": "Intervallo di concentrazione (%)",
-        "es": "Intervalo de concentración (%)",
-        "lt": "Koncentracijos intervalas (%)",
-        "lv": "Koncentrācijas diapazons (%)",
-        "mt": "Medda tal-konċentrazzjoni (%)",
-        "pl": "Zakres stężenia (%)",
-        "pt": "Intervalo de concentração (%)",
-        "ro": "Interval de concentrație (%)",
-        "sk": "Rozsah koncentrácie (%)",
-        "sl": "Razpon koncentracije (%)",
-        "sv": "Koncentrationsintervall (%)"
-      },
-      "description": {
-        "en": "Weight percentage concentration range of the ingredient in the product.",
-        "bg": "Диапазон на концентрация в тегловни проценти на съставката в продукта.",
-        "de": "Gewichtsprozentualer Konzentrationsbereich des Inhaltsstoffs im Produkt.",
-        "nl": "Gewichtspercentage concentratiebereik van het ingrediënt in het product.",
-        "hr": "Raspon koncentracije sastojka u proizvodu izražen u postocima mase.",
-        "cs": "Rozsah hmotnostní procentní koncentrace složky v produktu.",
-        "da": "Vægtprocentinterval for bestanddelens koncentration i produktet.",
-        "et": "Koostisaine massiprotsendi kontsentratsioonivahemik tootes.",
-        "fi": "Ainesosan painoprosenttipitoisuusalue tuotteessa.",
-        "fr": "Plage de concentration en pourcentage massique de l'ingrédient dans le produit.",
-        "el": "Εύρος κατά βάρος ποσοστιαίας συγκέντρωσης του συστατικού στο προϊόν.",
-        "hu": "Az összetevő tömegszázalékos koncentrációtartománya a termékben.",
-        "ga": "Raon tiúchana céatadán meáchain den chomhábhar sa táirge.",
-        "it": "Intervallo di concentrazione in percentuale di peso dell'ingrediente nel prodotto.",
-        "es": "Intervalo de concentración en porcentaje en peso del ingrediente en el producto.",
-        "lt": "Sudedamosios dalies koncentracijos intervalas produkte, masės procentais.",
-        "lv": "Sastāvdaļas koncentrācijas diapazons produktā masas procentos.",
-        "mt": "Firxa tal-konċentrazzjoni f'perċentwal tal-piż tal-ingredjent fil-prodott.",
-        "pl": "Zakres stężenia składnika w produkcie wyrażony w procentach masowych.",
-        "pt": "Intervalo de concentração em percentagem mássica do ingrediente no produto.",
-        "ro": "Intervalul de concentrație al ingredientului în produs, în procente de masă.",
-        "sk": "Rozsah koncentrácie zložky v produkte v hmotnostných percentách.",
-        "sl": "Razpon koncentracije sestavine v izdelku v masnih odstotkih.",
-        "sv": "Viktprocentintervall för ingrediensens koncentration i produkten."
-      },
-      "dataType": "enum",
-      "unit": "%",
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [
-        {
-          "value": "<5%",
-          "label": {
-            "en": "<5%",
-            "bg": "<5%",
-            "de": "<5%",
-            "fr": "<5%",
-            "hr": "<5%",
-            "cs": "<5%",
-            "da": "<5%",
-            "nl": "<5%",
-            "et": "<5%",
-            "fi": "<5%",
-            "el": "<5%",
-            "hu": "<5%",
-            "ga": "<5%",
-            "it": "<5%",
-            "lv": "<5%",
-            "lt": "<5%",
-            "mt": "<5%",
-            "pl": "<5%",
-            "pt": "<5%",
-            "ro": "<5%",
-            "sk": "<5%",
-            "sl": "<5%",
-            "es": "<5%",
-            "sv": "<5%"
-          }
-        },
-        {
-          "value": "5-15%",
-          "label": {
-            "en": "5–15%",
-            "bg": "5–15%",
-            "de": "5–15%",
-            "fr": "5–15%",
-            "hr": "5–15%",
-            "cs": "5–15%",
-            "da": "5–15%",
-            "nl": "5–15%",
-            "et": "5–15%",
-            "fi": "5–15%",
-            "el": "5–15%",
-            "hu": "5–15%",
-            "ga": "5–15%",
-            "it": "5–15%",
-            "lv": "5–15%",
-            "lt": "5–15%",
-            "mt": "5–15%",
-            "pl": "5–15%",
-            "pt": "5–15%",
-            "ro": "5–15%",
-            "sk": "5–15%",
-            "sl": "5–15%",
-            "es": "5–15%",
-            "sv": "5–15%"
-          }
-        },
-        {
-          "value": "15-30%",
-          "label": {
-            "en": "15–30%",
-            "bg": "15–30%",
-            "de": "15–30%",
-            "fr": "15–30%",
-            "hr": "15–30%",
-            "cs": "15–30%",
-            "da": "15–30%",
-            "nl": "15–30%",
-            "et": "15–30%",
-            "fi": "15–30%",
-            "el": "15–30%",
-            "hu": "15–30%",
-            "ga": "15–30%",
-            "it": "15–30%",
-            "lv": "15–30%",
-            "lt": "15–30%",
-            "mt": "15–30%",
-            "pl": "15–30%",
-            "pt": "15–30%",
-            "ro": "15–30%",
-            "sk": "15–30%",
-            "sl": "15–30%",
-            "es": "15–30%",
-            "sv": "15–30%"
-          }
-        },
-        {
-          "value": ">=30%",
-          "label": {
-            "en": "≥30%",
-            "bg": "≥30%",
-            "de": "≥30%",
-            "fr": "≥30%",
-            "hr": "≥30%",
-            "cs": "≥30%",
-            "da": "≥30%",
-            "nl": "≥30%",
-            "et": "≥30%",
-            "fi": "≥30%",
-            "el": "≥30%",
-            "hu": "≥30%",
-            "ga": "≥30%",
-            "it": "≥30%",
-            "lv": "≥30%",
-            "lt": "≥30%",
-            "mt": "≥30%",
-            "pl": "≥30%",
-            "pt": "≥30%",
-            "ro": "≥30%",
-            "sk": "≥30%",
-            "sl": "≥30%",
-            "es": "≥30%",
-            "sv": "≥30%"
-          }
-        }
-      ],
-      "validation": {
-        "required": true
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 67,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex V Part A 1(h)(i)",
-        "instrument": "32026R0405",
-        "provision": "Annex V Part A, point 1(h)(i)",
-        "annex": "Annex V",
-        "kind": "legislation"
-      },
-      "aiHints": {
-        "alternateNames": [
-          "concentration",
-          "content %",
-          "weight percent"
-        ],
-        "expectedFormat": "One of: <5%, 5-15%, 15-30%, >=30%",
-        "extractionPriority": 8
-      }
-    },
-    {
-      "key": "ingredientFunctionCategory",
-      "label": {
-        "en": "Functional Category",
-        "bg": "Функционална категория",
-        "de": "Funktionskategorie",
-        "nl": "Functionele categorie",
-        "hr": "Funkcionalna kategorija",
-        "cs": "Funkční kategorie",
-        "da": "Funktionel kategori",
-        "et": "Funktsionaalne kategooria",
-        "fi": "Toiminnallinen kategoria",
-        "fr": "Catégorie fonctionnelle",
-        "el": "Λειτουργική κατηγορία",
-        "hu": "Funkcionális kategória",
-        "ga": "Catagóir fheidhmiúil",
-        "it": "Categoria funzionale",
-        "es": "Categoría funcional",
-        "lt": "Funkcinė kategorija",
-        "lv": "Funkcionālā kategorija",
-        "mt": "Kategorija funzjonali",
-        "pl": "Kategoria funkcjonalna",
-        "pt": "Categoria funcional",
-        "ro": "Categorie funcțională",
-        "sk": "Funkčná kategória",
-        "sl": "Funkcijska kategorija",
-        "sv": "Funktionskategori"
-      },
-      "description": {
-        "en": "Functional classification of the ingredient in the formulation.",
-        "bg": "Функционална класификация на съставката във формулацията.",
-        "de": "Funktionale Klassifizierung des Inhaltsstoffs in der Formulierung.",
-        "nl": "Functionele classificatie van het ingrediënt in de formulering.",
-        "hr": "Funkcionalna klasifikacija sastojka u formulaciji.",
-        "cs": "Funkční klasifikace složky v přípravku.",
-        "da": "Funktionel klassificering af bestanddelen i formuleringen.",
-        "et": "Koostisaine funktsionaalne klassifikatsioon valemis.",
-        "fi": "Ainesosan toiminnallinen luokittelu formulaatiossa.",
-        "fr": "Classification fonctionnelle de l'ingrédient dans la formulation.",
-        "el": "Λειτουργική ταξινόμηση του συστατικού στη σύνθεση.",
-        "hu": "Az összetevő funkcionális besorolása a készítményben.",
-        "ga": "Aicmiú feidhmiúil an chomhábhair sa fhoirmliú.",
-        "it": "Classificazione funzionale dell'ingrediente nella formulazione.",
-        "es": "Clasificación funcional del ingrediente en la formulación.",
-        "lt": "Funkcinė sudedamosios dalies klasifikacija formulėje.",
-        "lv": "Sastāvdaļas funkcionālā klasifikācija formulā.",
-        "mt": "Klassifikazzjoni funzjonali tal-ingredjent fil-formulazzjoni.",
-        "pl": "Klasyfikacja funkcjonalna składnika w recepturze.",
-        "pt": "Classificação funcional do ingrediente na formulação.",
-        "ro": "Clasificarea funcțională a ingredientului în formulare.",
-        "sk": "Funkčná klasifikácia zložky vo formulácii.",
-        "sl": "Funkcijska razvrstitev sestavine v formulaciji.",
-        "sv": "Funktionell klassificering av ingrediensen i formuleringen."
-      },
-      "dataType": "enum",
-      "unit": null,
-      "translatable": false,
-      "defaultValue": null,
-      "enumOptions": [
-        {
-          "value": "anionic_surfactant",
-          "label": {
-            "en": "Anionic surfactant",
-            "bg": "Анионно повърхностно активно вещество",
-            "de": "Anionisches Tensid",
-            "fr": "Tensioactif anionique",
-            "hr": "Anionski površinski aktivni dodatak",
-            "cs": "Anionický tenzid",
-            "da": "Anionisk overfladeaktivt stof",
-            "nl": "Anionische oppervlakteactieve stof",
-            "et": "Anioonne pindaktiivne aine",
-            "fi": "Anioninen pinta-aktiivinen aine",
-            "el": "Ανιονικό επιφανειοδραστικό",
-            "hu": "Anionos felületaktív anyag",
-            "ga": "Dromhaicín aniónach",
-            "it": "Tensioattivo anionico",
-            "lv": "Anjonisks virsmaktīvs viela",
-            "lt": "Anijoninis paviršiaus aktyvioji medžiaga",
-            "mt": "Surfaxxant anjoniku",
-            "pl": "Surfaktant anionowy",
-            "pt": "Tensoativo aniónico",
-            "ro": "Surfactant anionic",
-            "sk": "Aniónová povrchovo aktívna látka",
-            "sl": "Anionska površinsko aktivna snov",
-            "es": "Tensioactivo aniónico",
-            "sv": "Anjontensid"
-          }
-        },
-        {
-          "value": "cationic_surfactant",
-          "label": {
-            "en": "Cationic surfactant",
-            "bg": "Катионно повърхностно активно вещество",
-            "de": "Kationisches Tensid",
-            "fr": "Tensioactif cationique",
-            "hr": "Kationski površinski aktivni dodatak",
-            "cs": "Kationický tenzid",
-            "da": "Kationisk overfladeaktivt stof",
-            "nl": "Kationische oppervlakteactieve stof",
-            "et": "Katioonne pindaktiivne aine",
-            "fi": "Kationinen pinta-aktiivinen aine",
-            "el": "Κατιονικό επιφανειοδραστικό",
-            "hu": "Kationos felületaktív anyag",
-            "ga": "Dromhaicín caitiónach",
-            "it": "Tensioattivo cationico",
-            "lv": "Katjonisks virsmaktīvs viela",
-            "lt": "Katijoninis paviršiaus aktyvioji medžiaga",
-            "mt": "Surfaxxant katjoniku",
-            "pl": "Surfaktant kationowy",
-            "pt": "Tensoativo catiónico",
-            "ro": "Surfactant cationic",
-            "sk": "Katiónová povrchovo aktívna látka",
-            "sl": "Kationska površinsko aktivna snov",
-            "es": "Tensioactivo catiónico",
-            "sv": "Katjontensid"
-          }
-        },
-        {
-          "value": "non_ionic_surfactant",
-          "label": {
-            "en": "Non-ionic surfactant",
-            "bg": "Нейонно повърхностно активно вещество",
-            "de": "Nichtionisches Tensid",
-            "fr": "Tensioactif non ionique",
-            "hr": "Neionski površinski aktivni dodatak",
-            "cs": "Neionický tenzid",
-            "da": "Nonionisk overfladeaktivt stof",
-            "nl": "Niet-ionische oppervlakteactieve stof",
-            "et": "Mitteioonne pindaktiivne aine",
-            "fi": "Ei-ioninen pinta-aktiivinen aine",
-            "el": "Μη ιονικό επιφανειοδραστικό",
-            "hu": "Nemionos felületaktív anyag",
-            "ga": "Dromhaicín neamh-iónach",
-            "it": "Tensioattivo non ionico",
-            "lv": "Nejonisks virsmaktīvs viela",
-            "lt": "Nejoninis paviršiaus aktyvioji medžiaga",
-            "mt": "Surfaxxant mhux jonku",
-            "pl": "Surfaktant niejonowy",
-            "pt": "Tensoativo não iónico",
-            "ro": "Surfactant neionic",
-            "sk": "Neiónová povrchovo aktívna látka",
-            "sl": "Neionska površinsko aktivna snov",
-            "es": "Tensioactivo no iónico",
-            "sv": "Nonjontensid"
-          }
-        },
-        {
-          "value": "amphoteric_surfactant",
-          "label": {
-            "en": "Amphoteric surfactant",
-            "bg": "Амфотерно повърхностно активно вещество",
-            "de": "Amphoteres Tensid",
-            "fr": "Tensioactif amphotère",
-            "hr": "Amfoterni površinski aktivni dodatak",
-            "cs": "Amfoterní tenzid",
-            "da": "Amfotert overfladeaktivt stof",
-            "nl": "Amfotere oppervlakteactieve stof",
-            "et": "Amfoteerne pindaktiivne aine",
-            "fi": "Amfoteerinen pinta-aktiivinen aine",
-            "el": "Αμφοτερικό επιφανειοδραστικό",
-            "hu": "Amfoter felületaktív anyag",
-            "ga": "Dromhaicín amfaitéarach",
-            "it": "Tensioattivo anfotero",
-            "lv": "Amfoteriski virsmaktīvs viela",
-            "lt": "Amfoterinis paviršiaus aktyvioji medžiaga",
-            "mt": "Surfaxxant amfoteriku",
-            "pl": "Surfaktant amfoteryczny",
-            "pt": "Tensoativo anfotérico",
-            "ro": "Surfactant amfoter",
-            "sk": "Amfotérna povrchovo aktívna látka",
-            "sl": "Amfoterna površinsko aktivna snov",
-            "es": "Tensioactivo anfótero",
-            "sv": "Amfotert tensid"
-          }
-        },
-        {
-          "value": "phosphate",
-          "label": {
-            "en": "Phosphate",
-            "bg": "Фосфат",
-            "de": "Phosphat",
-            "fr": "Phosphate",
-            "hr": "Fosfat",
-            "cs": "Fosfát",
-            "da": "Fosfat",
-            "nl": "Fosfaat",
-            "et": "Fosfaat",
-            "fi": "Fosfaatti",
-            "el": "Φωσφορικό άλας",
-            "hu": "Foszfát",
-            "ga": "Fosfáit",
-            "it": "Fosfato",
-            "lv": "Fosfāts",
-            "lt": "Fosfatas",
-            "mt": "Fosfat",
-            "pl": "Fosforan",
-            "pt": "Fosfato",
-            "ro": "Fosfat",
-            "sk": "Fosfát",
-            "sl": "Fosfat",
-            "es": "Fosfato",
-            "sv": "Fosfat"
-          }
-        },
-        {
-          "value": "zeolite",
-          "label": {
-            "en": "Zeolite",
-            "bg": "Зеолит",
-            "de": "Zeolith",
-            "fr": "Zéolithe",
-            "hr": "Zeolit",
-            "cs": "Zeolit",
-            "da": "Zeolit",
-            "nl": "Zeoliet",
-            "et": "Tseoliit",
-            "fi": "Zeoliitti",
-            "el": "Ζεόλιθος",
-            "hu": "Zeolit",
-            "ga": "Séalait",
-            "it": "Zeolite",
-            "lv": "Ceolīts",
-            "lt": "Ceolitas",
-            "mt": "Żeoliti",
-            "pl": "Zeolit",
-            "pt": "Zeólito",
-            "ro": "Zeolit",
-            "sk": "Zeolit",
-            "sl": "Zeolit",
-            "es": "Zeolita",
-            "sv": "Zeolit"
-          }
-        },
-        {
-          "value": "bleach_oxygen",
-          "label": {
-            "en": "Oxygen bleach",
-            "bg": "Кислороден белина",
-            "de": "Sauerstoffbleichmittel",
-            "fr": "Agent de blanchiment à l'oxygène",
-            "hr": "Kisikovo izbjeljivalo",
-            "cs": "Kyslíkové bělidlo",
-            "da": "Iltbleger",
-            "nl": "Zuurstofbleekmiddel",
-            "et": "Hapnikuvalgendi",
-            "fi": "Happivalkaisuaine",
-            "el": "Λευκαντικό οξυγόνου",
-            "hu": "Oxigénes fehérítő",
-            "ga": "Tuargatóir ocsaigine",
-            "it": "Sbiancante a base di ossigeno",
-            "lv": "Skābekļa balinātājs",
-            "lt": "Deguonies baliklis",
-            "mt": "Bjankatur tal-ossiġnu",
-            "pl": "Wybielacz tlenowy",
-            "pt": "Branqueador de oxigénio",
-            "ro": "Înălbitor pe bază de oxigen",
-            "sk": "Kyslíkové bielidlo",
-            "sl": "Kisikovo belilo",
-            "es": "Blanqueador de oxígeno",
-            "sv": "Syrebaserat blekmedel"
-          }
-        },
-        {
-          "value": "bleach_chlorine",
-          "label": {
-            "en": "Chlorine bleach",
-            "bg": "Хлорна белина",
-            "de": "Chlorbleichmittel",
-            "fr": "Eau de Javel",
-            "hr": "Klorovo izbjeljivalo",
-            "cs": "Chlorové bělidlo",
-            "da": "Klorbleger",
-            "nl": "Chloorbleekmiddel",
-            "et": "Klooripõhine valgendaja",
-            "fi": "Klooripohjainen valkaisuaine",
-            "el": "Λευκαντικό χλωρίου",
-            "hu": "Klóros fehérítő",
-            "ga": "Tuargatóir clóirín",
-            "it": "Candeggina al cloro",
-            "lv": "Hlora balinātājs",
-            "lt": "Chloro baliklis",
-            "mt": "Bjankatur tal-klorin",
-            "pl": "Wybielacz chlorowy",
-            "pt": "Lixívia de cloro",
-            "ro": "Înălbitor pe bază de clor",
-            "sk": "Chlórové bielidlo",
-            "sl": "Klorovo belilo",
-            "es": "Lejía de cloro",
-            "sv": "Klorblekmedel"
-          }
-        },
-        {
-          "value": "enzyme",
-          "label": {
-            "en": "Enzyme",
-            "bg": "Ензим",
-            "de": "Enzym",
-            "fr": "Enzyme",
-            "hr": "Enzim",
-            "cs": "Enzym",
-            "da": "Enzym",
-            "nl": "Enzym",
-            "et": "Ensüüm",
-            "fi": "Entsyymi",
-            "el": "Ένζυμο",
-            "hu": "Enzim",
-            "ga": "Einsím",
-            "it": "Enzima",
-            "lv": "Enzīms",
-            "lt": "Fermentas",
-            "mt": "Enżima",
-            "pl": "Enzym",
-            "pt": "Enzima",
-            "ro": "Enzimă",
-            "sk": "Enzým",
-            "sl": "Encim",
-            "es": "Enzima",
-            "sv": "Enzym"
-          }
-        },
-        {
-          "value": "preservative",
-          "label": {
-            "en": "Preservative",
-            "bg": "Консервант",
-            "de": "Konservierungsmittel",
-            "fr": "Conservateur",
-            "hr": "Konzervans",
-            "cs": "Konzervant",
-            "da": "Konserveringsmiddel",
-            "nl": "Conserveermiddel",
-            "et": "Säilitusaine",
-            "fi": "Säilöntäaine",
-            "el": "Συντηρητικό",
-            "hu": "Tartósítószer",
-            "ga": "Leasaitheach",
-            "it": "Conservante",
-            "lv": "Konservants",
-            "lt": "Konservantas",
-            "mt": "Preservattiv",
-            "pl": "Środek konserwujący",
-            "pt": "Conservante",
-            "ro": "Conservant",
-            "sk": "Konzervant",
-            "sl": "Konzervans",
-            "es": "Conservante",
-            "sv": "Konserveringsmedel"
-          }
-        },
-        {
-          "value": "fragrance",
-          "label": {
-            "en": "Fragrance",
-            "bg": "Парфюм",
-            "de": "Duftstoff",
-            "fr": "Parfum",
-            "hr": "Miris",
-            "cs": "Vůně",
-            "da": "Parfume",
-            "nl": "Parfum",
-            "et": "Lõhnaaine",
-            "fi": "Tuoksu",
-            "el": "Άρωμα",
-            "hu": "Illatszer",
-            "ga": "Cumhrán",
-            "it": "Profumo",
-            "lv": "Smarža",
-            "lt": "Kvapas",
-            "mt": "Fwieħa",
-            "pl": "Substancja zapachowa",
-            "pt": "Fragrância",
-            "ro": "Parfum",
-            "sk": "Parfum",
-            "sl": "Dišava",
-            "es": "Fragancia",
-            "sv": "Doft"
-          }
-        },
-        {
-          "value": "colourant",
-          "label": {
-            "en": "Colourant",
-            "bg": "Оцветител",
-            "de": "Farbstoff",
-            "fr": "Colorant",
-            "hr": "Bojilo",
-            "cs": "Barvivo",
-            "da": "Farvestof",
-            "nl": "Kleurstof",
-            "et": "Värvaine",
-            "fi": "Väriaine",
-            "el": "Χρωστική",
-            "hu": "Színezék",
-            "ga": "Dathadán",
-            "it": "Colorante",
-            "lv": "Krāsviela",
-            "lt": "Dažiklis",
-            "mt": "Kuluranti",
-            "pl": "Barwnik",
-            "pt": "Corante",
-            "ro": "Colorant",
-            "sk": "Farbivo",
-            "sl": "Barvilo",
-            "es": "Colorante",
-            "sv": "Färgämne"
-          }
-        },
-        {
-          "value": "solvent",
-          "label": {
-            "en": "Solvent",
-            "bg": "Разтворител",
-            "de": "Lösungsmittel",
-            "fr": "Solvant",
-            "hr": "Otapalo",
-            "cs": "Rozpouštědlo",
-            "da": "Opløsningsmiddel",
-            "nl": "Oplosmiddel",
-            "et": "Lahusti",
-            "fi": "Liuotin",
-            "el": "Διαλύτης",
-            "hu": "Oldószer",
-            "ga": "Tuaslagóir",
-            "it": "Solvente",
-            "lv": "Šķīdinātājs",
-            "lt": "Tirpiklis",
-            "mt": "Solvent",
-            "pl": "Rozpuszczalnik",
-            "pt": "Solvente",
-            "ro": "Solvent",
-            "sk": "Rozpúšťadlo",
-            "sl": "Topilo",
-            "es": "Disolvente",
-            "sv": "Lösningsmedel"
-          }
-        },
-        {
-          "value": "filler",
-          "label": {
-            "en": "Filler",
-            "bg": "Пълнител",
-            "de": "Füllstoff",
-            "fr": "Charge",
-            "hr": "Punilo",
-            "cs": "Plnivo",
-            "da": "Fyldstof",
-            "nl": "Vulstof",
-            "et": "Täiteaine",
-            "fi": "Täyteaine",
-            "el": "Πληρωτικό",
-            "hu": "Töltőanyag",
-            "ga": "Líonadóir",
-            "it": "Riempitivo",
-            "lv": "Pildviela",
-            "lt": "Užpildas",
-            "mt": "Mili",
-            "pl": "Wypełniacz",
-            "pt": "Carga",
-            "ro": "Material de umplutură",
-            "sk": "Plnivo",
-            "sl": "Polnilo",
-            "es": "Carga",
-            "sv": "Fyllmedel"
-          }
-        },
-        {
-          "value": "binder",
-          "label": {
-            "en": "Binder",
-            "bg": "Свързващо вещество",
-            "de": "Bindemittel",
-            "fr": "Liant",
-            "hr": "Vezivo",
-            "cs": "Pojivo",
-            "da": "Bindemiddel",
-            "nl": "Bindmiddel",
-            "et": "Sideaine",
-            "fi": "Sideaine",
-            "el": "Συνδετικό",
-            "hu": "Kötőanyag",
-            "ga": "Ceanglóir",
-            "it": "Legante",
-            "lv": "Saistviela",
-            "lt": "Rišiklis",
-            "mt": "Lejant",
-            "pl": "Spoiwo",
-            "pt": "Aglutinante",
-            "ro": "Liant",
-            "sk": "Spojivo",
-            "sl": "Vezivo",
-            "es": "Aglutinante",
-            "sv": "Bindemedel"
-          }
-        },
-        {
-          "value": "pigment",
-          "label": {
-            "en": "Pigment",
-            "bg": "Пигмент",
-            "de": "Pigment",
-            "fr": "Pigment",
-            "hr": "Pigment",
-            "cs": "Pigment",
-            "da": "Pigment",
-            "nl": "Pigment",
-            "et": "Pigment",
-            "fi": "Pigmentti",
-            "el": "Χρωστική (πιγμέντο)",
-            "hu": "Pigment",
-            "ga": "Lí",
-            "it": "Pigmento",
-            "lv": "Pigments",
-            "lt": "Pigmentas",
-            "mt": "Pigment",
-            "pl": "Pigment",
-            "pt": "Pigmento",
-            "ro": "Pigment",
-            "sk": "Pigment",
-            "sl": "Pigment",
-            "es": "Pigmento",
-            "sv": "Pigment"
-          }
-        },
-        {
-          "value": "other",
-          "label": {
-            "en": "Other",
-            "bg": "Друго",
-            "de": "Andere",
-            "fr": "Autre",
-            "hr": "Ostalo",
-            "cs": "Jiné",
-            "da": "Andet",
-            "nl": "Anders",
-            "et": "Muu",
-            "fi": "Muu",
-            "el": "Άλλο",
-            "hu": "Egyéb",
-            "ga": "Eile",
-            "it": "Altro",
-            "lv": "Cits",
-            "lt": "Kita",
-            "mt": "Oħra",
-            "pl": "Inne",
-            "pt": "Outro",
-            "ro": "Altul",
-            "sk": "Iné",
-            "sl": "Drugo",
-            "es": "Otro",
-            "sv": "Annat"
-          }
-        }
-      ],
-      "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32026R0405",
-        "anticipatedNote": "Ingredient functional category is a Detergents Reg (EU) 2026/405 labelling concept, applicable from 23 Sep 2029; not in force."
-      },
-      "category": "composition",
-      "categoryLabel": {
-        "en": "Composition / Ingredients",
-        "bg": "Състав / Съставки",
-        "de": "Zusammensetzung / Inhaltsstoffe",
-        "nl": "Samenstelling / Ingrediënten",
-        "hr": "Sastav / Sastojci",
-        "cs": "Složení / Složky",
-        "da": "Sammensætning / Ingredienser",
-        "et": "Koostis / Koostisained",
-        "fi": "Koostumus / Ainesosat",
-        "fr": "Composition / Ingrédients",
-        "el": "Σύνθεση / Συστατικά",
-        "hu": "Összetétel / Összetevők",
-        "ga": "Comhdhéanamh / Comhábhair",
-        "it": "Composizione / Ingredienti",
-        "es": "Composición / Ingredientes",
-        "lt": "Sudėtis / Ingredientai",
-        "lv": "Sastāvs / Sastāvdaļas",
-        "mt": "Kompożizzjoni / Ingredjenti",
-        "pl": "Skład / Składniki",
-        "pt": "Composição / Ingredientes",
-        "ro": "Compoziție / Ingrediente",
-        "sk": "Zloženie / Zložky",
-        "sl": "Sestava / Sestavine",
-        "sv": "Sammansättning / Ingredienser"
-      },
-      "sortOrder": 68,
-      "defaultAccessLevel": "restricted",
-      "regulationRef": {
-        "article": "Detergents Reg 2026/405",
-        "instrument": "32026R0405",
-        "kind": "legislation",
-        "description": "Functional categories such as surfactant or enzyme are an Annex V Part A LABELLING construct. Annex VI Part A — the passport dataset — asks for a list of intentionally added substances, not a functional breakdown. Applies from 23 Sep 2029 and lands on the label."
-      },
-      "aiHints": {
-        "alternateNames": [
-          "function",
-          "ingredient role",
-          "substance function"
-        ],
-        "expectedFormat": "One of enum values",
-        "extractionPriority": 7
       }
     },
     {
@@ -9256,10 +7881,17 @@
       "sortOrder": 76,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(i)",
         "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (i)",
+        "annex": "Annex VI",
         "kind": "legislation",
-        "description": "Annex VI Part A point (i) requires all intentionally added micro-organisms with their taxonomic classification — genus, species, and strain name or code. Genuine passport content under Reg (EU) 2026/405, applying from 23 Sep 2029."
+        "description": "Annex VI Part A(i) requires the list of intentionally added micro-organisms with genus, species and strain; a product with none has an empty list, so the field is optional.",
+        "verification": {
+          "quote": "the list of all intentionally added micro-organisms providing their taxonomic classification (genus, species and strain name or code)",
+          "at": "32026R0405 Annex VI Part A(i)",
+          "condition": "only where micro-organisms are intentionally added"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9791,10 +8423,12 @@
       "sortOrder": 81,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Reg (EU) 2026/405 Annex V Part B, point 1(a)",
         "instrument": "32026R0405",
         "kind": "legislation",
-        "description": "Dosage instructions are Annex V Part A LABEL content for consumer laundry detergents, expressed for the reference conditions the annex sets. The passport dataset in Annex VI Part A does not include dosage."
+        "description": "Dosage instructions are Annex V Part B LABEL content for consumer laundry detergents (point 1(a)); points 3 and 4 cover dishwasher and surface detergents. Annex VI Part A does not include dosage.",
+        "provision": "Annex V Part B, point 1(a)",
+        "annex": "Annex V"
       },
       "aiHints": {
         "alternateNames": [
@@ -10121,10 +8755,12 @@
       "sortOrder": 83,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Reg (EU) 2026/405 Annex V Part B, point 1(b)",
         "instrument": "32026R0405",
         "kind": "legislation",
-        "description": "The number of standard machine loads per package is an Annex V Part A LABEL statement for consumer laundry detergents. It is not passport content under Annex VI Part A."
+        "description": "The number of standard machine loads per package is an Annex V Part B LABEL statement for consumer laundry detergents (point 1(b)). It is not passport content under Annex VI Part A.",
+        "provision": "Annex V Part B, point 1(b)",
+        "annex": "Annex V"
       },
       "aiHints": {
         "alternateNames": [
@@ -10196,7 +8832,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "dosage_use",
       "categoryLabel": {
@@ -10228,12 +8864,11 @@
       "sortOrder": 84,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Regulation Annex V Part A, point 1(e)",
+        "article": "Detergents Reg (EU) 2026/405 Annex V Part A 1(e)",
         "instrument": "32026R0405",
         "provision": "Annex V Part A, point 1(e)",
         "kind": "legislation",
-        "source": "Safety Data Sheet",
-        "description": "Annex V Part A point 1(e) requires 'instructions for use and special precautions, where necessary and relevant' in the label content. Verified against the EUR-Lex text; the previous 'ESPR, SDS Section 7' article cited a framework that mandates no fields."
+        "description": "Annex V Part A 1(e) puts instructions for use on the LABEL, 'where necessary and relevant'. Annex VI Part B lets the passport carry label information, but Part A does not require it."
       },
       "aiHints": {
         "alternateNames": [
@@ -10305,7 +8940,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "dosage_use",
       "categoryLabel": {
@@ -10337,10 +8972,11 @@
       "sortOrder": 85,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.2, SDS Section 1.2",
+        "article": "REACH Annex II SDS section 1.2",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 1.2",
-        "kind": "legislation"
+        "kind": "legislation",
+        "description": "Safety-data-sheet content (section 1.2). REACH Art. 31(1) requires a safety data sheet only for mixtures classified as dangerous (and certain PBT/vPvB or Candidate-List cases), and Art. 31(4) lets a product sold to the general public with sufficient information go without one."
       },
       "aiHints": {
         "alternateNames": [
@@ -10412,10 +9048,7 @@
       "defaultValue": true,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32026R0405",
-        "anticipatedNote": "Annex VI Part A(e) of Reg (EU) 2026/405 requires the passport to indicate it is issued under the manufacturer's sole responsibility; applicable 23 Sep 2029, not in force."
+        "required": true
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -10452,7 +9085,12 @@
         "provision": "Annex VI Part A, point (e)",
         "annex": "Annex VI",
         "kind": "legislation",
-        "description": "Annex VI Part A point (e) requires the passport to state that it is issued under the sole responsibility of the manufacturer. Genuine passport content, applying from 23 Sep 2029."
+        "description": "Annex VI Part A(e) requires the passport to state that it is issued under the manufacturer's sole responsibility. A manufacturer's statement: never AI-filled. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "an indication that the digital product passport is issued under the sole responsibility of the manufacturer",
+          "at": "32026R0405 Annex VI Part A(e)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -10520,10 +9158,7 @@
       "defaultValue": true,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32026R0405",
-        "anticipatedNote": "Annex VI Part A(g) of Reg (EU) 2026/405 requires a statement that compliance has been demonstrated; applicable 23 Sep 2029, not in force."
+        "required": true
       },
       "category": "data_carrier",
       "categoryLabel": {
@@ -10560,7 +9195,12 @@
         "provision": "Annex VI Part A, point (g)",
         "annex": "Annex VI",
         "kind": "legislation",
-        "description": "Annex VI Part A point (g) requires a statement that compliance has been demonstrated, with references to the other Union law complied with. Genuine passport content, applying from 23 Sep 2029."
+        "description": "Annex VI Part A(g) requires a statement that compliance has been demonstrated, with references to other Union law complied with. A manufacturer's statement: never AI-filled. The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A); like the battery template's Annex XIII fields, the data of an adopted, dated passport act is required ahead of that date.",
+        "verification": {
+          "quote": "a statement that compliance of the detergent or end-user surfactant with this Regulation has been demonstrated, and, where relevant, references to other Union law with which the detergent or end-user surfactant complies",
+          "at": "32026R0405 Annex VI Part A(g)",
+          "condition": null
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -10569,8 +9209,8 @@
       }
     }
   ],
-  "fieldCount": 83,
-  "requiredFieldCount": 18,
+  "fieldCount": 75,
+  "requiredFieldCount": 12,
   "categories": [
     "biodegradability",
     "composition",

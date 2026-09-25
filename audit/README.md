@@ -90,6 +90,25 @@ cannot say why two fields differ, they are probably duplicates.
 **[11] One key, different units across templates.** A vocabulary maps each key to one
 IRI in every category, so one key in kg and in Ah is one term with two meanings.
 
+## Evidence checks [13]–[15] (`evidence-checks.mjs`)
+
+**[13] A required field has no verification quote.** `regulationRef.verification` holds
+the operative sentence, quoted from the act (`quote`), where it sits (`at`), and the
+condition the law attaches when it does not bind every product (`condition`). It is added
+only by reading the act. Required fields not yet verified are listed in
+`unverified-required.json`, which may only shrink: a new required field must arrive
+verified, and an entry that is verified, optional or gone fails the run until removed.
+
+**[14] A required field cites a safety-data-sheet or label provision.** Those duties land
+on a document or a physical label, and REACH Art. 31 and the CLP labelling articles apply
+only to classified mixtures, so they rarely make passport data mandatory for every
+product. That pattern made 11 of 18 required detergent fields and all 15 paint fields
+wrong. A reviewed exception goes in `known-carriers.json` with the reason.
+
+**[15] A list field beside single-value copies of its parts.** `ingredients` next to
+`ingredientCasNumber` holds one substance's values in scalars beside the list the law asks
+for. Keep the list and move the parts into its entries.
+
 **[12] The cited instrument is not in `instruments.json`.** Every other check looks the
 CELEX up in the registry and treats a miss as "nothing known", so an unregistered or
 mistyped CELEX would pass them all while pointing at nothing. Register the act, or fix

@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-984-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-972-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,20 +39,20 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **984 fields in total. 152 are required by
-an instrument in force; 228 are anticipated under a rule that has not yet been adopted.**
+Thirteen JSON files, one per product category. **972 fields in total. 131 are required by
+an instrument in force; 221 are anticipated under a rule that has not yet been adopted.**
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 120 | 50 | Regulation (EU) 2023/1542 |
 | `construction` | 49 | 4 | CPR (EU) 2024/3110 |
-| `detergents` | 83 | 18 | Regulation (EU) 2026/405 |
+| `detergents` | 75 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 4 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 9 | ESPR (EU) 2024/1781 |
 | `furniture` | 79 | 4 | ESPR (EU) 2024/1781 |
 | `jewelry` | 53 | 3 | ESPR (EU) 2024/1781 |
 | `packaging` | 64 | 8 | PPWR (EU) 2025/40 |
-| `paints-coatings` | 69 | 15 | Directive 2004/42/EC |
+| `paints-coatings` | 65 | 0 | Directive 2004/42/EC |
 | `steel` | 84 | 16 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 5 | ESPR (EU) 2024/1781 |
 | `toys` | 28 | 14 | Regulation (EU) 2025/2509 |
@@ -191,7 +191,11 @@ else:
 
 **`regulationRef`** is the reason this data is worth having. Every field says which
 article and annex mandates it, so a compliance report can cite its source rather than
-assert it.
+assert it. A required field's `regulationRef.verification` quotes the operative sentence
+from the act, says where it sits, and states any condition the law attaches (for
+example, the Detergents Regulation's substance list does not bind industrial products).
+Required fields not yet verified against the primary text are listed in
+`audit/unverified-required.json`, which only shrinks.
 
 **`label`** is provided in the 24 official EU languages, because ESPR Article 8 requires
 the passport to be available in the language of the member state where the product is

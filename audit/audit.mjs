@@ -13,6 +13,7 @@ import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, basename, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { runContentChecks } from "./content-checks.mjs";
+import { runEvidenceChecks } from "./evidence-checks.mjs";
 
 const REPO = join(dirname(fileURLToPath(import.meta.url)), "..");
 const which = process.argv.includes("--platform") ? "platform" : "schemas";
@@ -318,6 +319,10 @@ function audit(dir, label) {
   findings.missingProvision = content.missingProvision;
   findings.duplicates = content.duplicates;
   findings.unitClash = content.unitClash;
+  const evidence = runEvidenceChecks(templates);
+  findings.unverified = evidence.unverified;
+  findings.carrier = evidence.carrier;
+  findings.listScalar = evidence.listScalar;
 
   const n = Object.values(findings).reduce((s, a) => s + a.length, 0);
   console.log(`\n=== ${label} (${templates.length} templates) — ${n} finding(s) ===`);
@@ -390,6 +395,18 @@ function audit(dir, label) {
     console.log(`\n[10] probable duplicate fields in one template (${findings.duplicates.length}) — merge, or record in known-distinct.json with the reason`);
     for (const f of findings.duplicates)
       console.log(`    ${f.cat.padEnd(12)} ${f.a} ~ ${f.b}  [${f.unit}; ${f.shape}]`);
+  }
+  if (findings.unverified.length) {
+    console.log(`\n[13] required field without a verification quote (${findings.unverified.length}) — quote the operative sentence in regulationRef.verification, or fix the baseline`);
+    for (const f of findings.unverified) console.log(`    ${f.id.padEnd(46)} ${f.why}`);
+  }
+  if (findings.carrier.length) {
+    console.log(`\n[14] required field cites a safety-data-sheet or label provision (${findings.carrier.length}) — that duty lands on a document or label, usually for classified mixtures only`);
+    for (const f of findings.carrier) console.log(`    ${f.id.padEnd(46)} ${f.cites.slice(0, 70)}`);
+  }
+  if (findings.listScalar.length) {
+    console.log(`\n[15] list field beside single-value copies of its parts (${findings.listScalar.length}) — keep the list, move the parts into its entries`);
+    for (const f of findings.listScalar) console.log(`    ${f.cat.padEnd(12)} ${f.list} ~ ${f.scalar}`);
   }
   if (findings.unitClash.length) {
     console.log(`\n[11] one key, different units across templates (${findings.unitClash.length}) — the VC vocabulary maps a key to one IRI`);
