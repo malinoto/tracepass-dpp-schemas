@@ -1,0 +1,21 @@
+{
+  "_note": "Pairs check [10] flags as probable duplicates that a human has judged distinct. Each entry records why, so the check stays quiet on them and loud on new pairs. Add a pair only after reading both fields' descriptions and citations; if you cannot say why they differ, they are probably duplicates.",
+  "pairs": [
+    { "category": "battery", "a": "ratedCapacity", "b": "dynamicRatedCapacity",
+      "why": "Nameplate rated capacity at manufacture (Annex XIII 1(g)) vs the in-service value of the Annex IV Part A(1) parameter (Annex XIII 4(a))." },
+    { "category": "battery", "a": "expectedLifetimeCycles", "b": "dynamicExpectedLifetimeCycles",
+      "why": "Declared expected lifetime at placing on the market vs the value updated in service when the battery's status changes (Annex XIII 4(a))." },
+    { "category": "electronics", "a": "recycledContentPercentage", "b": "recycledPlasticContent",
+      "why": "Whole-product recycled share vs the plastic-specific share." },
+    { "category": "electronics", "a": "recycledContentPercentage", "b": "recycledMetalContent",
+      "why": "Whole-product recycled share vs the metal-specific share." },
+    { "category": "electronics", "a": "totalVolume", "b": "frozenVolume",
+      "why": "Refrigerating appliance total volume vs the frozen-compartment volume (Reg. 2019/2016 Annex V lists both)." },
+    { "category": "textile", "a": "recycledContentPercentage", "b": "packagingRecycledContentPct",
+      "why": "Recycled share of the textile product vs of its packaging." },
+    { "category": "tyres", "a": "treadDepthMm", "b": "minimumTreadDepthMm",
+      "why": "Tread depth of the new tyre vs the legal minimum before replacement (1.6 mm, Dir. 2014/45/EU Annex I)." },
+    { "category": "tyres", "a": "recycledContentPercentage", "b": "recycledRubberContentPercentage",
+      "why": "Whole-tyre recycled share vs the rubber-specific share." }
+  ]
+}

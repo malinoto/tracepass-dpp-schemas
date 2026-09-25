@@ -12210,7 +12210,8 @@
       "description": {
         "en": "Percentage share of renewable content in the battery (Annex XIII 1(f))",
         "bg": "Процентен дял на възобновяемото съдържание в батерията (приложение XIII 1(е))",
-        "de": "Prozentualer Anteil erneuerbarer Inhalte in der Batterie (Anhang XIII 1(f))"
+        "de": "Prozentualer Anteil erneuerbarer Inhalte in der Batterie (Anhang XIII 1(f))",
+        "it": "Quota percentuale di contenuto rinnovabile nella batteria (allegato XIII, punto 1, lettera f))."
       },
       "dataType": "number",
       "unit": "%",
@@ -12303,7 +12304,8 @@
       "description": {
         "en": "Energy round-trip efficiency measured at 50% of the battery's rated cycle-life (Annex XIII 1(n) DP 37). Distinct from the t=0 measurement in initialEnergyRoundTripEfficiency.",
         "bg": "Ефективност на кръговото преминаване на енергията, измерена при 50% от номиналния цикличен живот на батерията (приложение XIII 1(н) DP 37). Различна от измерването при t=0 в initialEnergyRoundTripEfficiency.",
-        "de": "Energiekreiswirkungsgrad, gemessen bei 50 % der Nennzyklenlebensdauer der Batterie (Anhang XIII 1(n) DP 37). Unterscheidet sich von der t=0-Messung in initialEnergyRoundTripEfficiency."
+        "de": "Energiekreiswirkungsgrad, gemessen bei 50 % der Nennzyklenlebensdauer der Batterie (Anhang XIII 1(n) DP 37). Unterscheidet sich von der t=0-Messung in initialEnergyRoundTripEfficiency.",
+        "it": "Efficienza energetica di andata e ritorno misurata al 50% della durata di vita nominale in cicli della batteria (allegato XIII, punto 1, lettera n), DP 37). Distinta dalla misura a t=0 in initialEnergyRoundTripEfficiency."
       },
       "dataType": "number",
       "unit": "%",
@@ -12402,7 +12404,8 @@
       "description": {
         "en": "Part numbers for components subject to replacement, per Annex XIII 2(b). Structured list with component name and part number.",
         "bg": "Каталожни номера на компонентите, подлежащи на замяна, съгласно приложение XIII 2(б). Структуриран списък с наименование на компонента и каталожен номер.",
-        "de": "Teilenummern für austauschpflichtige Komponenten gemäß Anhang XIII 2(b). Strukturierte Liste mit Komponentenname und Teilenummer."
+        "de": "Teilenummern für austauschpflichtige Komponenten gemäß Anhang XIII 2(b). Strukturierte Liste mit Komponentenname und Teilenummer.",
+        "it": "Codici dei componenti soggetti a sostituzione, ai sensi dell'allegato XIII, punto 2, lettera b). Elenco strutturato con nome del componente e codice."
       },
       "dataType": "array",
       "unit": null,
@@ -12495,7 +12498,8 @@
       "description": {
         "en": "In-service power capability in watts, measured dynamically per Annex XIII 4(a) DP 53. Distinct from originalPowerCapability which is the static nameplate value at manufacture.",
         "bg": "Мощностен капацитет в експлоатация в вата, измерен динамично съгласно приложение XIII 4(а) DP 53. Различен от originalPowerCapability, което е статичната номинална стойност при производство.",
-        "de": "Leistungsfähigkeit im Betrieb in Watt, dynamisch gemessen gemäß Anhang XIII 4(a) DP 53. Unterscheidet sich von originalPowerCapability, dem statischen Nennwert bei der Herstellung."
+        "de": "Leistungsfähigkeit im Betrieb in Watt, dynamisch gemessen gemäß Anhang XIII 4(a) DP 53. Unterscheidet sich von originalPowerCapability, dem statischen Nennwert bei der Herstellung.",
+        "it": "Capacità di potenza in servizio in watt, misurata dinamicamente ai sensi dell'allegato XIII, punto 4, lettera a), DP 53. Distinta da originalPowerCapability, il valore nominale statico alla fabbricazione."
       },
       "dataType": "number",
       "unit": "W",
@@ -12594,7 +12598,8 @@
       "description": {
         "en": "Where applicable, in-service energy round-trip efficiency percentage per Annex XIII 4(a) DP 57. Conditional for all three battery categories.",
         "bg": "При приложимост, процентна ефективност на кръговото преминаване на енергията в експлоатация съгласно приложение XIII 4(а) DP 57. Условна за трите категории батерии.",
-        "de": "Soweit anwendbar, prozentualer Energiekreiswirkungsgrad im Betrieb gemäß Anhang XIII 4(a) DP 57. Bedingt für alle drei Batteriekategorien."
+        "de": "Soweit anwendbar, prozentualer Energiekreiswirkungsgrad im Betrieb gemäß Anhang XIII 4(a) DP 57. Bedingt für alle drei Batteriekategorien.",
+        "it": "Ove applicabile, percentuale di efficienza energetica di andata e ritorno in servizio ai sensi dell'allegato XIII, punto 4, lettera a), DP 57. Condizionale per tutte e tre le categorie di batterie."
       },
       "dataType": "number",
       "unit": "%",
@@ -12688,7 +12693,8 @@
       "description": {
         "en": "In-service capacity in ampere-hours, measured dynamically per Annex XIII 4(a) DP 51. The guidance defines it as \"same as data point 11 (capacity), but now dynamic\" — so it is the same quantity as ratedCapacity (Annex XIII 1(g)) re-measured in service, not a second nameplate figure.",
         "bg": "Капацитет в експлоатация в ампер-часове, измерен динамично съгласно приложение XIII 4(а) DP 51. Насоките го определят като „същото като точка от данни 11 (капацитет), но сега динамично“ — т.е. това е същата величина като ratedCapacity (приложение XIII 1(ж)), преизмерена в експлоатация, а не второ номинално значение.",
-        "de": "Kapazität im Betrieb in Amperestunden, dynamisch gemessen gemäß Anhang XIII 4(a) DP 51. Der Leitfaden definiert sie als „derselbe wie Datenpunkt 11 (Kapazität), aber jetzt dynamisch“ — somit handelt es sich um dieselbe Größe wie ratedCapacity (Anhang XIII 1(g)), im Betrieb neu gemessen, nicht um einen zweiten Nennwert."
+        "de": "Kapazität im Betrieb in Amperestunden, dynamisch gemessen gemäß Anhang XIII 4(a) DP 51. Der Leitfaden definiert sie als „derselbe wie Datenpunkt 11 (Kapazität), aber jetzt dynamisch“ — somit handelt es sich um dieselbe Größe wie ratedCapacity (Anhang XIII 1(g)), im Betrieb neu gemessen, nicht um einen zweiten Nennwert.",
+        "it": "Capacità in servizio in ampere-ora, misurata dinamicamente ai sensi dell'allegato XIII, punto 4, lettera a), DP 51. Gli orientamenti la definiscono \"uguale al punto dati 11 (capacità), ma ora dinamica\": è quindi la stessa grandezza di ratedCapacity (allegato XIII, punto 1, lettera g)) rimisurata in servizio, non un secondo valore nominale."
       },
       "dataType": "number",
       "unit": "Ah",
@@ -12786,7 +12792,8 @@
       "description": {
         "en": "In-service internal resistance in ohms, measured dynamically per Annex XIII 4(a) DP 55. Distinct from initialInternalResistancePack (Annex XIII 1(o)), the static value at manufacture, and from currentInternalResistancePack (Annex XIII 4(b)), which is the state-of-health reading that must not be filled for EV.",
         "bg": "Вътрешно съпротивление в експлоатация в ома, измерено динамично съгласно приложение XIII 4(а) DP 55. Различно от initialInternalResistancePack (приложение XIII 1(о)), статичната стойност при производство, и от currentInternalResistancePack (приложение XIII 4(б)), което е отчетът за техническо състояние, който не трябва да се попълва за EV.",
-        "de": "Innenwiderstand im Betrieb in Ohm, dynamisch gemessen gemäß Anhang XIII 4(a) DP 55. Unterscheidet sich von initialInternalResistancePack (Anhang XIII 1(o)), dem statischen Wert bei der Herstellung, und von currentInternalResistancePack (Anhang XIII 4(b)), dem Gesundheitsparameter, der für EV nicht befüllt werden darf."
+        "de": "Innenwiderstand im Betrieb in Ohm, dynamisch gemessen gemäß Anhang XIII 4(a) DP 55. Unterscheidet sich von initialInternalResistancePack (Anhang XIII 1(o)), dem statischen Wert bei der Herstellung, und von currentInternalResistancePack (Anhang XIII 4(b)), dem Gesundheitsparameter, der für EV nicht befüllt werden darf.",
+        "it": "Resistenza interna in servizio in ohm, misurata dinamicamente ai sensi dell'allegato XIII, punto 4, lettera a), DP 55. Distinta da initialInternalResistancePack (allegato XIII, punto 1, lettera o)), il valore statico alla fabbricazione, e da currentInternalResistancePack (allegato XIII, punto 4, lettera b)), la lettura dello stato di salute che non deve essere compilata per i veicoli elettrici."
       },
       "dataType": "number",
       "unit": "Ohm",
@@ -12883,7 +12890,8 @@
       "description": {
         "en": "Expected remaining lifetime in cycles under the battery's design reference conditions, per Annex XIII 4(a) DP 59 — the in-service re-estimate. Distinct from expectedLifetimeCycles (Annex XIII 1(j)), the design figure declared at manufacture. Excluded for non-cycle applications.",
         "bg": "Очакван оставащ ресурс в цикли при референтните конструктивни условия на батерията, съгласно приложение XIII 4(а) DP 59 — преоценка в експлоатация. Различен от expectedLifetimeCycles (приложение XIII 1(й)), проектната стойност, декларирана при производство. Не се прилага за приложения без цикли.",
-        "de": "Erwartete verbleibende Lebensdauer in Zyklen unter den Auslegungsreferenzbedingungen der Batterie gemäß Anhang XIII 4(a) DP 59 — die betriebliche Neuschätzung. Unterscheidet sich von expectedLifetimeCycles (Anhang XIII 1(j)), dem bei der Herstellung deklarierten Auslegungswert. Ausgeschlossen für Nicht-Zyklusanwendungen."
+        "de": "Erwartete verbleibende Lebensdauer in Zyklen unter den Auslegungsreferenzbedingungen der Batterie gemäß Anhang XIII 4(a) DP 59 — die betriebliche Neuschätzung. Unterscheidet sich von expectedLifetimeCycles (Anhang XIII 1(j)), dem bei der Herstellung deklarierten Auslegungswert. Ausgeschlossen für Nicht-Zyklusanwendungen.",
+        "it": "Durata di vita residua prevista in cicli nelle condizioni di riferimento di progetto della batteria, ai sensi dell'allegato XIII, punto 4, lettera a), DP 59: la stima aggiornata in servizio. Distinta da expectedLifetimeCycles (allegato XIII, punto 1, lettera j)), il valore di progetto dichiarato alla fabbricazione. Esclusa per le applicazioni non a cicli."
       },
       "dataType": "number",
       "unit": "cycles",
@@ -12980,7 +12988,8 @@
       "description": {
         "en": "Where possible, the remaining energy round-trip efficiency as part of the state-of-health information per Annex XIII 4(b) DP 64. Applies to LMT batteries (mandatory); conditional for industrial; not applicable to EV.",
         "bg": "При възможност, оставащата ефективност на кръговото преминаване на енергията като част от информацията за техническото състояние съгласно приложение XIII 4(б) DP 64. Прилага се за LMT батерии (задължително); условна за промишлени; не се прилага за EV.",
-        "de": "Soweit möglich, der verbleibende Energiekreiswirkungsgrad als Teil der Gesundheitszustandsinformationen gemäß Anhang XIII 4(b) DP 64. Gilt für LMT-Batterien (verpflichtend); bedingt für Industriebatterien; nicht anwendbar für EV."
+        "de": "Soweit möglich, der verbleibende Energiekreiswirkungsgrad als Teil der Gesundheitszustandsinformationen gemäß Anhang XIII 4(b) DP 64. Gilt für LMT-Batterien (verpflichtend); bedingt für Industriebatterien; nicht anwendbar für EV.",
+        "it": "Ove possibile, l'efficienza energetica di andata e ritorno residua, come parte delle informazioni sullo stato di salute ai sensi dell'allegato XIII, punto 4, lettera b), DP 64. Obbligatoria per le batterie LMT; condizionale per le industriali; non applicabile ai veicoli elettrici."
       },
       "dataType": "number",
       "unit": "%",

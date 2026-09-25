@@ -259,6 +259,18 @@ Two conventions the schema pins down, both of which will bite you otherwise:
   Treat `null` as *no constraint*, and be careful not to coerce it to `0`.
 - **Dates are ISO 8601 strings** (`"2027-02-18"`), not timestamps.
 
+The schema checks shape only. `npm run check` adds the gates it cannot express, and CI
+runs it on every push:
+
+- **Locales** (`scripts/check-locales.mjs`): every label carries all 24 EU languages;
+  every description and option label carries at least English, Bulgarian, German and
+  Italian. Strings still below 24 languages are listed in `scripts/locale-gaps.json`,
+  which may only shrink.
+- **Citations** (`audit/`): whether each field's citation supports the obligation it
+  claims. It catches a field required under an act that mandates nothing, an article
+  missing from the act it cites, duplicate fields, and one key with two units. See
+  [`audit/README.md`](./audit/README.md).
+
 ## Related
 
 - **[tracepass-open](https://github.com/malinoto/tracepass-open)** — the compliance
@@ -282,7 +294,7 @@ market-placement decision. Corrections are welcome — open an issue.
 
 Corrections to a field's regulatory citation, datatype, or translation are the most
 valuable contributions. Open an issue with the article you're citing, or a pull request
-that keeps `schema.json` passing.
+that keeps `npm run check` passing.
 
 ## License
 

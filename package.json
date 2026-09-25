@@ -1,6 +1,6 @@
 {
   "name": "@tracepass/dpp-schemas",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 13 product categories, 987 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
   "keywords": [
     "digital-product-passport",
@@ -46,7 +46,9 @@
     "validate": "python3 -c \"import json,glob,sys;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));bad=0\nfor p in sorted(glob.glob('templates/*.json')):\n    e=list(v.iter_errors(json.load(open(p))));bad+=bool(e);print(('FAIL' if e else 'ok  '),p)\n    [print('     ',str(x.absolute_path),x.message[:120]) for x in e[:3]]\nsys.exit(1 if bad else 0)\"",
     "build:index": "node scripts/build-index.mjs",
     "check:index": "node scripts/build-index.mjs --check",
-    "check": "npm run validate && npm run check:index && npm run check:standards",
-    "check:standards": "node scripts/check-standards.mjs"
+    "check": "npm run validate && npm run check:index && npm run check:standards && npm run check:locales && npm run check:audit",
+    "check:standards": "node scripts/check-standards.mjs",
+    "check:locales": "node scripts/check-locales.mjs",
+    "check:audit": "node audit/audit.mjs"
   }
 }

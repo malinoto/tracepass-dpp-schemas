@@ -15298,7 +15298,8 @@
       "description": {
         "en": "Dibutyl phthalate concentration (threshold 0.1%)",
         "bg": "Концентрация на дибутил фталат (праг 0,1 %)",
-        "de": "Dibutylphthalat-Konzentration (Schwellenwert 0,1 %)"
+        "de": "Dibutylphthalat-Konzentration (Schwellenwert 0,1 %)",
+        "it": "Concentrazione di dibutilftalato (soglia 0,1%)"
       },
       "dataType": "number",
       "unit": "%",
@@ -15385,7 +15386,8 @@
       "description": {
         "en": "Diisobutyl phthalate concentration (threshold 0.1%)",
         "bg": "Концентрация на диизобутил фталат (праг 0,1 %)",
-        "de": "Diisobutylphthalat-Konzentration (Schwellenwert 0,1 %)"
+        "de": "Diisobutylphthalat-Konzentration (Schwellenwert 0,1 %)",
+        "it": "Concentrazione di diisobutilftalato (soglia 0,1%)"
       },
       "dataType": "number",
       "unit": "%",
@@ -15472,7 +15474,8 @@
       "description": {
         "en": "List of RoHS exemptions (Annex III/IV) applied to this product",
         "bg": "Списък на изключенията по RoHS (приложение III/IV), приложени за този продукт",
-        "de": "Liste der auf dieses Produkt angewandten RoHS-Ausnahmen (Anhang III/IV)"
+        "de": "Liste der auf dieses Produkt angewandten RoHS-Ausnahmen (Anhang III/IV)",
+        "it": "Elenco delle esenzioni RoHS (allegati III/IV) applicate a questo prodotto"
       },
       "dataType": "array",
       "unit": null,
@@ -15559,7 +15562,8 @@
       "description": {
         "en": "REACH/SCIP substances of concern present above 0.1% w/w",
         "bg": "Вещества, пораждащи загриженост съгласно REACH/SCIP, присъстващи над 0,1 % w/w",
-        "de": "REACH/SCIP-Stoffe mit besonderen Bedenken mit mehr als 0,1 % w/w"
+        "de": "REACH/SCIP-Stoffe mit besonderen Bedenken mit mehr als 0,1 % w/w",
+        "it": "Sostanze preoccupanti REACH/SCIP presenti in concentrazione superiore allo 0,1% in peso"
       },
       "dataType": "array",
       "unit": null,
@@ -15647,7 +15651,8 @@
       "description": {
         "en": "ECHA SCIP database notification identifier",
         "bg": "Идентификатор на уведомлението в базата данни SCIP на ECHA",
-        "de": "Benachrichtigungsidentifikator der ECHA-SCIP-Datenbank"
+        "de": "Benachrichtigungsidentifikator der ECHA-SCIP-Datenbank",
+        "it": "Identificativo della notifica nella banca dati SCIP dell'ECHA"
       },
       "dataType": "string",
       "unit": null,
@@ -15734,7 +15739,8 @@
       "description": {
         "en": "Whether any Substance of Very High Concern is present above 0.1% w/w",
         "bg": "Дали някое вещество, пораждащо много голяма загриженост (SVHC), е налице над 0,1 % w/w",
-        "de": "Ob ein besonders besorgniserregender Stoff (SVHC) mit mehr als 0,1 % w/w vorhanden ist"
+        "de": "Ob ein besonders besorgniserregender Stoff (SVHC) mit mehr als 0,1 % w/w vorhanden ist",
+        "it": "Indica se è presente una sostanza estremamente preoccupante (SVHC) in concentrazione superiore allo 0,1% in peso"
       },
       "dataType": "boolean",
       "unit": null,
@@ -15821,7 +15827,8 @@
       "description": {
         "en": "Whether the product contains permanent magnets weighing > 0.2 kg",
         "bg": "Дали продуктът съдържа постоянни магнити с тегло > 0,2 kg",
-        "de": "Ob das Produkt Permanentmagnete mit einem Gewicht von mehr als 0,2 kg enthält"
+        "de": "Ob das Produkt Permanentmagnete mit einem Gewicht von mehr als 0,2 kg enthält",
+        "it": "Indica se il prodotto contiene magneti permanenti di peso superiore a 0,2 kg"
       },
       "dataType": "boolean",
       "unit": null,
@@ -15908,7 +15915,8 @@
       "description": {
         "en": "Total weight of all permanent magnets in the product",
         "bg": "Общо тегло на всички постоянни магнити в продукта",
-        "de": "Gesamtgewicht aller Permanentmagnete im Produkt"
+        "de": "Gesamtgewicht aller Permanentmagnete im Produkt",
+        "it": "Peso totale di tutti i magneti permanenti presenti nel prodotto"
       },
       "dataType": "number",
       "unit": "kg",
@@ -15995,7 +16003,8 @@
       "description": {
         "en": "Description of where permanent magnets are located within the product",
         "bg": "Описание на местоположението на постоянните магнити в продукта",
-        "de": "Beschreibung des Standorts der Permanentmagnete im Produkt"
+        "de": "Beschreibung des Standorts der Permanentmagnete im Produkt",
+        "it": "Descrizione della posizione dei magneti permanenti all'interno del prodotto"
       },
       "dataType": "string",
       "unit": null,
@@ -16082,7 +16091,8 @@
       "description": {
         "en": "Chemical composition of the permanent magnets (e.g. NdFeB, SmCo)",
         "bg": "Химичен състав на постоянните магнити (напр. NdFeB, SmCo)",
-        "de": "Chemische Zusammensetzung der Permanentmagnete (z. B. NdFeB, SmCo)"
+        "de": "Chemische Zusammensetzung der Permanentmagnete (z. B. NdFeB, SmCo)",
+        "it": "Composizione chimica dei magneti permanenti (ad es. NdFeB, SmCo)"
       },
       "dataType": "string",
       "unit": null,
@@ -16170,7 +16180,8 @@
       "description": {
         "en": "Surface coatings applied to the permanent magnets",
         "bg": "Повърхностни покрития, нанесени върху постоянните магнити",
-        "de": "Auf die Permanentmagnete aufgebrachte Oberflächenbeschichtungen"
+        "de": "Auf die Permanentmagnete aufgebrachte Oberflächenbeschichtungen",
+        "it": "Rivestimenti superficiali applicati ai magneti permanenti"
       },
       "dataType": "string",
       "unit": null,
@@ -16256,7 +16267,8 @@
       "description": {
         "en": "Percentage of recycled neodymium in permanent magnets",
         "bg": "Процент на рециклиран неодим в постоянните магнити",
-        "de": "Anteil an recyceltem Neodym in Permanentmagneten"
+        "de": "Anteil an recyceltem Neodym in Permanentmagneten",
+        "it": "Percentuale di neodimio riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16344,7 +16356,8 @@
       "description": {
         "en": "Percentage of recycled dysprosium in permanent magnets",
         "bg": "Процент на рециклиран диспрозий в постоянните магнити",
-        "de": "Anteil an recyceltem Dysprosium in Permanentmagneten"
+        "de": "Anteil an recyceltem Dysprosium in Permanentmagneten",
+        "it": "Percentuale di disprosio riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16432,7 +16445,8 @@
       "description": {
         "en": "Percentage of recycled praseodymium in permanent magnets",
         "bg": "Процент на рециклиран прасеодим в постоянните магнити",
-        "de": "Anteil an recyceltem Praseodym in Permanentmagneten"
+        "de": "Anteil an recyceltem Praseodym in Permanentmagneten",
+        "it": "Percentuale di praseodimio riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16520,7 +16534,8 @@
       "description": {
         "en": "Percentage of recycled terbium in permanent magnets",
         "bg": "Процент на рециклиран тербий в постоянните магнити",
-        "de": "Anteil an recyceltem Terbium in Permanentmagneten"
+        "de": "Anteil an recyceltem Terbium in Permanentmagneten",
+        "it": "Percentuale di terbio riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16608,7 +16623,8 @@
       "description": {
         "en": "Percentage of recycled boron in permanent magnets",
         "bg": "Процент на рециклиран бор в постоянните магнити",
-        "de": "Anteil an recyceltem Bor in Permanentmagneten"
+        "de": "Anteil an recyceltem Bor in Permanentmagneten",
+        "it": "Percentuale di boro riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16696,7 +16712,8 @@
       "description": {
         "en": "Percentage of recycled samarium in permanent magnets",
         "bg": "Процент на рециклиран самарий в постоянните магнити",
-        "de": "Anteil an recyceltem Samarium in Permanentmagneten"
+        "de": "Anteil an recyceltem Samarium in Permanentmagneten",
+        "it": "Percentuale di samario riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16784,7 +16801,8 @@
       "description": {
         "en": "Percentage of recycled nickel in permanent magnets",
         "bg": "Процент на рециклиран никел в постоянните магнити",
-        "de": "Anteil an recyceltem Nickel in Permanentmagneten"
+        "de": "Anteil an recyceltem Nickel in Permanentmagneten",
+        "it": "Percentuale di nichel riciclato nei magneti permanenti"
       },
       "dataType": "number",
       "unit": "%",
@@ -16872,7 +16890,8 @@
       "description": {
         "en": "Percentage of recycled cobalt in the product",
         "bg": "Процент на рециклиран кобалт в продукта",
-        "de": "Anteil an recyceltem Kobalt im Produkt"
+        "de": "Anteil an recyceltem Kobalt im Produkt",
+        "it": "Percentuale di cobalto riciclato nel prodotto"
       },
       "dataType": "number",
       "unit": "%",
@@ -16960,7 +16979,8 @@
       "description": {
         "en": "Percentage of recycled plastic in the product",
         "bg": "Процент на рециклирана пластмаса в продукта",
-        "de": "Anteil an recyceltem Kunststoff im Produkt"
+        "de": "Anteil an recyceltem Kunststoff im Produkt",
+        "it": "Percentuale di plastica riciclata nel prodotto"
       },
       "dataType": "number",
       "unit": "%",
@@ -17049,7 +17069,8 @@
       "description": {
         "en": "Percentage of recycled metal in the product",
         "bg": "Процент на рециклиран метал в продукта",
-        "de": "Anteil an recyceltem Metall im Produkt"
+        "de": "Anteil an recyceltem Metall im Produkt",
+        "it": "Percentuale di metallo riciclato nel prodotto"
       },
       "dataType": "number",
       "unit": "%",
@@ -17137,7 +17158,8 @@
       "description": {
         "en": "Percentage of recycled lithium in the product",
         "bg": "Процент на рециклиран литий в продукта",
-        "de": "Anteil an recyceltem Lithium im Produkt"
+        "de": "Anteil an recyceltem Lithium im Produkt",
+        "it": "Percentuale di litio riciclato nel prodotto"
       },
       "dataType": "number",
       "unit": "%",
@@ -17225,7 +17247,8 @@
       "description": {
         "en": "Total percentage of recycled rare earth elements in the product",
         "bg": "Общ процент на рециклирани редкоземни елементи в продукта",
-        "de": "Gesamtanteil recycelter Seltenerdmetalle im Produkt"
+        "de": "Gesamtanteil recycelter Seltenerdmetalle im Produkt",
+        "it": "Percentuale totale di terre rare riciclate nel prodotto"
       },
       "dataType": "number",
       "unit": "%",
@@ -17314,7 +17337,8 @@
       "description": {
         "en": "Percentage of post-consumer recycled material",
         "bg": "Процент на материал от рециклиране след употреба от потребители",
-        "de": "Anteil an Post-Consumer-Recyclat"
+        "de": "Anteil an Post-Consumer-Recyclat",
+        "it": "Percentuale di materiale riciclato post-consumo"
       },
       "dataType": "number",
       "unit": "%",
@@ -17403,7 +17427,8 @@
       "description": {
         "en": "Percentage of pre-consumer (post-industrial) recycled material",
         "bg": "Процент на материал от рециклиране преди употреба от потребители (след производство)",
-        "de": "Anteil an Pre-Consumer-Recyclat (Nachproduktionsabfall)"
+        "de": "Anteil an Pre-Consumer-Recyclat (Nachproduktionsabfall)",
+        "it": "Percentuale di materiale riciclato pre-consumo (post-industriale)"
       },
       "dataType": "number",
       "unit": "%",
@@ -17492,7 +17517,8 @@
       "description": {
         "en": "WEEE directive product category (1-6)",
         "bg": "Категория на продукта по директива WEEE (1–6)",
-        "de": "Produktkategorie gemäß WEEE-Richtlinie (1–6)"
+        "de": "Produktkategorie gemäß WEEE-Richtlinie (1–6)",
+        "it": "Categoria di prodotto ai sensi della direttiva WEEE (1-6)"
       },
       "dataType": "enum",
       "unit": null,
@@ -17757,7 +17783,8 @@
       "description": {
         "en": "National WEEE producer registration number",
         "bg": "Национален регистрационен номер на производителя по WEEE",
-        "de": "Nationale WEEE-Herstellerregistrierungsnummer"
+        "de": "Nationale WEEE-Herstellerregistrierungsnummer",
+        "it": "Numero nazionale di registrazione del produttore WEEE"
       },
       "dataType": "string",
       "unit": null,
@@ -17844,7 +17871,8 @@
       "description": {
         "en": "Net weight of the product as placed on the market, in kg: the product with every part supplied with it (a TV's stand, detachable feet, batteries or remote control shipped in the box), excluding packaging. This is the basis WEEE placed-on-market reporting uses. It is TracePass's field definition, not a legal one. When a spec sheet gives several weights (\"set weight with stand\" vs \"without stand\", or \"package weight\"), use the with-stand figure and never the package weight.",
         "bg": "Нетно тегло на продукта в момента на пускане на пазара, в kg: продуктът с всяка приложена към него съставна част (стойката на телевизора, откачащите се крака, батериите или дистанционното управление в кутията), без опаковката. Това е основата, използвана за отчитане на пуснатите на пазара стоки по WEEE. Тя представлява дефиниция на TracePass, не правна такава. Когато техническа спецификация дава няколко тегла (\"тегло на комплекта със стойка\" срещу \"без стойка\" или \"тегло на опаковката\"), използвайте стойността със стойка, а не теглото на опаковката.",
-        "de": "Nettogewicht des auf dem Markt platzierten Produkts in kg: das Produkt mit jedem mitgelieferten Teil (Fernsehständer, abnehmbare Füße, mitgelieferte Batterien oder Fernbedienung), ohne Verpackung. Dies ist die Grundlage für die WEEE-Marktmengenberichterstattung. Es handelt sich um eine Felddefinition von TracePass, keine rechtliche. Wenn ein Datenblatt mehrere Gewichte angibt (\"Set-Gewicht mit Ständer\" vs. \"ohne Ständer\" oder \"Verpackungsgewicht\"), verwenden Sie die Angabe mit Ständer und niemals das Verpackungsgewicht."
+        "de": "Nettogewicht des auf dem Markt platzierten Produkts in kg: das Produkt mit jedem mitgelieferten Teil (Fernsehständer, abnehmbare Füße, mitgelieferte Batterien oder Fernbedienung), ohne Verpackung. Dies ist die Grundlage für die WEEE-Marktmengenberichterstattung. Es handelt sich um eine Felddefinition von TracePass, keine rechtliche. Wenn ein Datenblatt mehrere Gewichte angibt (\"Set-Gewicht mit Ständer\" vs. \"ohne Ständer\" oder \"Verpackungsgewicht\"), verwenden Sie die Angabe mit Ständer und niemals das Verpackungsgewicht.",
+        "it": "Peso netto del prodotto come immesso sul mercato, in kg: il prodotto con tutte le parti fornite con esso (il supporto di un televisore, i piedini rimovibili, le batterie o il telecomando inclusi nella confezione), imballaggio escluso. È la base usata per la rendicontazione WEEE dell'immesso sul mercato. È la definizione del campo di TracePass, non una definizione giuridica. Se una scheda tecnica riporta più pesi (\"peso con supporto\" e \"senza supporto\", oppure \"peso della confezione\"), usare il valore con supporto e mai il peso della confezione."
       },
       "dataType": "number",
       "unit": "kg",
@@ -17937,7 +17965,8 @@
       "description": {
         "en": "URL to instructions for dismantling/recycling the product",
         "bg": "URL на инструкциите за демонтаж/рециклиране на продукта",
-        "de": "URL zu den Anweisungen für die Demontage/das Recycling des Produkts"
+        "de": "URL zu den Anweisungen für die Demontage/das Recycling des Produkts",
+        "it": "URL delle istruzioni per lo smontaggio/riciclaggio del prodotto"
       },
       "dataType": "url",
       "unit": null,
@@ -18024,7 +18053,8 @@
       "description": {
         "en": "List of components that can be recycled",
         "bg": "Списък на компонентите, подлежащи на рециклиране",
-        "de": "Liste der recyclingfähigen Komponenten"
+        "de": "Liste der recyclingfähigen Komponenten",
+        "it": "Elenco dei componenti riciclabili"
       },
       "dataType": "array",
       "unit": null,
@@ -18111,7 +18141,8 @@
       "description": {
         "en": "List of components containing hazardous substances requiring special treatment",
         "bg": "Списък на компонентите, съдържащи опасни вещества, изискващи специално третиране",
-        "de": "Liste der Komponenten mit gefährlichen Stoffen, die einer Sonderbehandlung bedürfen"
+        "de": "Liste der Komponenten mit gefährlichen Stoffen, die einer Sonderbehandlung bedürfen",
+        "it": "Elenco dei componenti contenenti sostanze pericolose che richiedono un trattamento specifico"
       },
       "dataType": "array",
       "unit": null,
@@ -18198,7 +18229,8 @@
       "description": {
         "en": "Breakdown of materials in the product with percentages and recyclability",
         "bg": "Разбивка на материалите в продукта с проценти и степен на рециклируемост",
-        "de": "Aufschlüsselung der Materialien im Produkt mit Prozentsätzen und Recyclingfähigkeit"
+        "de": "Aufschlüsselung der Materialien im Produkt mit Prozentsätzen und Recyclingfähigkeit",
+        "it": "Ripartizione dei materiali del prodotto con percentuali e riciclabilità"
       },
       "dataType": "array",
       "unit": null,
@@ -18289,7 +18321,8 @@
       "description": {
         "en": "Whether the product bears the WEEE crossed-out wheelie bin symbol",
         "bg": "Дали продуктът носи символа на WEEE (зачеркнат кош на колела)",
-        "de": "Ob das Produkt das WEEE-Symbol (durchgestrichene Mülltonne auf Rädern) trägt"
+        "de": "Ob das Produkt das WEEE-Symbol (durchgestrichene Mülltonne auf Rädern) trägt",
+        "it": "Indica se il prodotto reca il simbolo WEEE del contenitore di rifiuti su ruote barrato"
       },
       "dataType": "boolean",
       "unit": null,
@@ -18377,7 +18410,8 @@
       "description": {
         "en": "Date when the Digital Product Passport was first issued",
         "bg": "Дата на първото издаване на цифровия продуктов паспорт",
-        "de": "Datum der Erstausstellung des Digitalen Produktpasses"
+        "de": "Datum der Erstausstellung des Digitalen Produktpasses",
+        "it": "Data di prima emissione del passaporto digitale di prodotto"
       },
       "dataType": "date",
       "unit": null,
@@ -18466,7 +18500,8 @@
       "description": {
         "en": "Date when the DPP was last modified",
         "bg": "Дата на последната промяна на DPP",
-        "de": "Datum der letzten Änderung des DPP"
+        "de": "Datum der letzten Änderung des DPP",
+        "it": "Data dell'ultima modifica del passaporto digitale di prodotto"
       },
       "dataType": "date",
       "unit": null,
@@ -18556,7 +18591,8 @@
       "description": {
         "en": "Date when the DPP expires and needs renewal",
         "bg": "Дата на изтичане на срока на DPP и необходимостта от подновяване",
-        "de": "Datum, an dem der DPP abläuft und erneuert werden muss"
+        "de": "Datum, an dem der DPP abläuft und erneuert werden muss",
+        "it": "Data di scadenza del passaporto digitale di prodotto, dopo la quale va rinnovato"
       },
       "dataType": "date",
       "unit": null,
@@ -18643,7 +18679,8 @@
       "description": {
         "en": "Type of physical data carrier used to link to the DPP",
         "bg": "Вид на физическия носител на данни, използван за връзка с DPP",
-        "de": "Art des physischen Datenträgers zur Verknüpfung mit dem DPP"
+        "de": "Art des physischen Datenträgers zur Verknüpfung mit dem DPP",
+        "it": "Tipo di supporto di dati fisico usato per collegarsi al passaporto digitale di prodotto"
       },
       "dataType": "multi_enum",
       "unit": null,
@@ -18880,7 +18917,8 @@
       "description": {
         "en": "URL encoded in the data carrier (GS1 Digital Link)",
         "bg": "URL адрес, кодиран в носителя на данни (GS1 Digital Link)",
-        "de": "Im Datenträger kodierte URL (GS1 Digital Link)"
+        "de": "Im Datenträger kodierte URL (GS1 Digital Link)",
+        "it": "URL codificato nel supporto di dati (GS1 Digital Link)"
       },
       "dataType": "url",
       "unit": null,
@@ -18971,7 +19009,8 @@
       "description": {
         "en": "Standard used for product identification (GS1 or ISO 15459)",
         "bg": "Стандарт, използван за идентификация на продукта (GS1 или ISO 15459)",
-        "de": "Zur Produktidentifikation verwendeter Standard (GS1 oder ISO 15459)"
+        "de": "Zur Produktidentifikation verwendeter Standard (GS1 oder ISO 15459)",
+        "it": "Standard usato per l'identificazione del prodotto (GS1 o ISO 15459)"
       },
       "dataType": "enum",
       "unit": null,
@@ -19120,7 +19159,8 @@
       "description": {
         "en": "Default access level for the DPP data",
         "bg": "Ниво на достъп по подразбиране за данните в DPP",
-        "de": "Standardzugriffsstufe für die DPP-Daten"
+        "de": "Standardzugriffsstufe für die DPP-Daten",
+        "it": "Livello di accesso predefinito ai dati del passaporto digitale di prodotto"
       },
       "dataType": "enum",
       "unit": null,

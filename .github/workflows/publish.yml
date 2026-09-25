@@ -73,10 +73,10 @@ jobs:
         run: pip install jsonschema
 
       - name: Validate templates and manifest
-        # Fails the release if any of the 12 templates no longer conforms to
-        # schema.json, or if index.json disagrees with what the templates
-        # actually contain. `npm run check` exits non-zero on either, so the
-        # published counts can never drift from the published data.
+        # Fails the release if any template no longer conforms to schema.json,
+        # if index.json disagrees with what the templates actually contain, or
+        # if the locale or citation-audit gates fail. check.yml runs the same
+        # gate on every push; this is the last line before npm.
         run: npm run check
 
       - name: Publish to npm
