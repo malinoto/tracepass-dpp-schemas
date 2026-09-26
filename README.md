@@ -83,10 +83,12 @@ rather than `required`, with the CELEX of the instrument expected to impose them
 **An obligation does not always apply uniformly across a category.** Where the governing
 instrument distinguishes sub-categories, the field carries `validation.requiredBy` — a map
 from sub-category to `required`, `conditional`, or `notApplicable`. Battery uses the
-Regulation (EU) 2023/1542 split (`EV`, `LMT`, `industrial_gt_2kwh`): everything applies to
-EV batteries, LMT is exempt from the capacity-threshold-for-exhaustion field, and industrial
-batteries are largely conditional on gates such as having a battery management system or
-containing Annex X materials. `conditional` means the instrument compels the field only when
+Regulation (EU) 2023/1542 split (`EV`, `LMT`, `industrial_gt_2kwh`). The capacity threshold
+for exhaustion (Annex XIII point 1(k)) and the state of certified energy are EV-only; the
+remaining-capacity, power, round-trip-efficiency, self-discharge, resistance and throughput
+parameters of Annex VII apply to LMT (and stationary storage) but not to EV. Industrial
+batteries are largely conditional on gates such as being rechargeable, having a battery
+management system, or containing Annex X materials. `conditional` means the instrument compels the field only when
 its stated gate is met — so a passport legitimately leaves it empty otherwise. Fields with no
 `requiredBy` apply to the whole category.
 
