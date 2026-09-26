@@ -286,6 +286,18 @@ runs it on every push:
   validator, EPCIS 2.0 event mapper, and GS1 utilities that consume these specs.
   Apache-2.0, zero dependencies.
 
+Plain-language explainers of the law these specs encode:
+
+- [Article 77 battery passport — Regulation (EU) 2023/1542](https://www.tracepass.eu/regulatory/battery-articles/article-77)
+  — the article behind the `battery` template's required fields.
+- [EU Battery Regulation: the February 2027 compliance guide](https://www.tracepass.eu/resources/eu-battery-regulation-february-2027)
+  — who has to issue a battery passport, and from when.
+- [ESPR delegated acts, category by category](https://www.tracepass.eu/regulatory/delegated-acts)
+  — why most templates carry `anticipated` rather than `required` fields.
+- [Standards are not law](https://www.tracepass.eu/regulatory/standards-are-not-law)
+  — what makes a DPP field mandatory, and what does not.
+- [DPP glossary](https://www.tracepass.eu/glossary) — ESPR, PPWR, delegated act, economic operator, EPCIS.
+
 ## Provenance and limits
 
 These specs are hand-authored from the regulations and the relevant standards, and are
