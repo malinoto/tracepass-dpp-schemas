@@ -1,5 +1,5 @@
 {
-  "_note": "Registry of the technical standards a template field or a DPP system may relate to. Keys are UNDATED designations; editions are listed per entry. A standard never makes a field required - only `regulationRef.kind: legislation` can. `ojCitation` is present only where an implementing decision published the reference in the Official Journal, which is what confers a presumption of conformity. `verified: true` means title and status were checked against the OJ or the standard's own text; `false` means `subject` is a descriptive label, not the official title. Every CEN/CENELEC member adopts an EN identically as a national standard (e.g. DIN EN, BDS EN) - those are aliases of the same text, recorded under `nationalAdoptions` where confirmed, not separate standards.",
+  "_note": "Registry of the technical standards a template field or a DPP system may relate to. Keys are UNDATED designations; editions are listed per entry. A standard never makes a field required - only `regulationRef.kind: legislation` can. `ojCitation` is present only where an implementing decision published the reference in the Official Journal, which is what confers a presumption of conformity. `verified: true` means the title and status were checked against the OJ, the publisher's own catalogue (CEN/CENELEC, ISO Open Data, BSI, GS1) or the standard's own text, and `notes` names the source; `false` means `subject` is a descriptive label, not the official title. Every CEN/CENELEC member adopts an EN identically as a national standard (e.g. DIN EN, BDS EN) - those are aliases of the same text, recorded under `nationalAdoptions` where confirmed, not separate standards.",
   "kinds": {
     "harmonised-standard": "An EN whose reference is published in the OJ under an EU act; conformity gives a presumption of conformity with the provisions named.",
     "european-standard": "A published EN (or EN ISO / EN IEC) not cited in the OJ for DPP purposes.",
@@ -28,128 +28,213 @@
     "BS 5852": {
       "kind": "national-standard",
       "family": "furniture",
-      "body": "BSI (GB)",
-      "subject": "Ignitability of upholstered seating (UK market)",
-      "verified": false
+      "body": "BSI FW/6",
+      "subject": "Test method for the ignitability of upholstered seating. The UK duty to meet it comes from UK furniture fire-safety law, not from the standard.",
+      "verified": true,
+      "title": "Methods of test for assessment of the ignitability of upholstered seating by smouldering and flaming ignition sources",
+      "edition": "BS 5852:2006",
+      "status": "published",
+      "notes": "Title checked against the BSI Knowledge catalogue."
     },
     "EN 10025": {
       "kind": "european-standard",
       "family": "metals",
-      "body": "CEN/TC 459",
+      "body": "CEN/TC 459/SC 3",
       "subject": "Hot rolled products of structural steels",
-      "verified": false
+      "verified": true,
+      "title": "Hot rolled products of structural steels",
+      "editions": [
+        "EN 10025-1:2004",
+        "EN 10025-2:2019",
+        "EN 10025-3:2019",
+        "EN 10025-4:2019+A1:2022",
+        "EN 10025-5:2019",
+        "EN 10025-6:2019+A1:2022"
+      ],
+      "status": "published",
+      "notes": "Multi-part series: Part 1 general technical delivery conditions; Parts 2-6 by steel type. EN 10025-1:2004 is harmonised under Regulation (EU) No 305/2011. Revisions of Parts 2-6 are being drafted. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 10027-1": {
       "kind": "european-standard",
       "family": "metals",
-      "body": "CEN/TC 459",
+      "body": "CEN/TC 459/SC 12",
       "subject": "Designation systems for steels – steel names",
-      "verified": false
+      "verified": true,
+      "title": "Designation systems for steels - Part 1: Steel names",
+      "edition": "EN 10027-1:2016",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 10027-2": {
       "kind": "european-standard",
       "family": "metals",
-      "body": "CEN/TC 459",
-      "subject": "Designation systems for steels – steel numbers",
-      "verified": false
+      "body": "CEN/TC 459/SC 12",
+      "subject": "Designation systems for steels - numerical system (steel numbers)",
+      "verified": true,
+      "title": "Designation systems for steels - Part 2: Numerical system",
+      "edition": "EN 10027-2:2015",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 10088": {
       "kind": "european-standard",
       "family": "metals",
-      "body": "CEN/TC 459",
+      "body": "CEN/TC 459/SC 13",
       "subject": "Stainless steels",
-      "verified": false
+      "verified": true,
+      "title": "Stainless steels",
+      "editions": [
+        "EN 10088-1:2023",
+        "EN 10088-2:2024",
+        "EN 10088-3:2023",
+        "EN 10088-4:2009",
+        "EN 10088-5:2009"
+      ],
+      "status": "published",
+      "notes": "Multi-part series: Part 1 list of stainless steels; Parts 2-5 technical delivery conditions by product form and use. EN 10088-4 and -5 are harmonised under Regulation (EU) No 305/2011. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 10204": {
       "kind": "european-standard",
       "family": "metals",
-      "body": "CEN/TC 459",
+      "body": "CEN/TC 459/SC 12",
       "subject": "Metallic products – types of inspection documents",
-      "verified": false
+      "verified": true,
+      "title": "Metallic products - Types of inspection documents",
+      "edition": "EN 10204:2004",
+      "status": "published",
+      "notes": "A revision is being drafted. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 1021-1": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – ignitability of upholstered furniture – cigarette source",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Assessment of the ignitability of upholstered furniture - Part 1: Ignition source smouldering cigarette",
+      "edition": "EN 1021-1:2014",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 1021-2": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – ignitability of upholstered furniture – match-flame equivalent",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Assessment of the ignitability of upholstered furniture - Part 2: Ignition source match flame equivalent",
+      "edition": "EN 1021-2:2014",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 1090-1": {
       "kind": "european-standard",
       "family": "construction",
       "body": "CEN/TC 135",
       "subject": "Execution of steel and aluminium structures – conformity assessment of structural components",
-      "verified": false
+      "verified": true,
+      "title": "Execution of steel structures and aluminium structures - Part 1: Requirements for conformity assessment of structural components",
+      "edition": "EN 1090-1:2009+A1:2011",
+      "status": "published",
+      "notes": "Harmonised under Regulation (EU) No 305/2011; no edition is yet cited under Regulation (EU) 2024/3110, and a revision is being drafted. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 12520": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – domestic seating – strength, durability and safety",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Safety, strength and durability - Requirements for domestic seating",
+      "edition": "EN 12520:2024",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 12521": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – domestic tables – strength, durability and safety",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Safety, strength and durability - Requirements for domestic tables",
+      "edition": "EN 12521:2023",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 13300": {
       "kind": "european-standard",
       "family": "paints-coatings",
       "body": "CEN/TC 139",
-      "subject": "Paints – water-borne coatings for interior walls and ceilings – classification",
-      "verified": false
+      "subject": "Classification of paints and varnishes for interior walls and ceilings (the 2022 edition is not limited to water-borne products)",
+      "verified": true,
+      "title": "Paints and varnishes - Paints and varnishes for interior walls and ceilings - Classification",
+      "edition": "EN 13300:2022",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 13986": {
       "kind": "european-standard",
       "family": "construction",
       "body": "CEN/TC 112",
       "subject": "Wood-based panels for use in construction",
-      "verified": false
+      "verified": true,
+      "title": "Wood-based panels for use in construction - Characteristics, evaluation of conformity and marking",
+      "edition": "EN 13986:2004+A1:2015",
+      "status": "published",
+      "notes": "Harmonised under Regulation (EU) No 305/2011. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 15804": {
       "kind": "european-standard",
       "family": "environmental-footprint",
       "body": "CEN/TC 350",
       "subject": "Environmental product declarations – core rules for construction products (A2 amendment)",
-      "verified": false
+      "verified": true,
+      "title": "Sustainability of construction works - Environmental product declarations - Core rules for the product category of construction products",
+      "edition": "EN 15804:2012+A2:2019",
+      "status": "published",
+      "notes": "The A2:2019 amendment has a corrigendum (AC:2021). A revision is at preliminary stage. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 16139": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – non-domestic seating – strength, durability and safety",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Safety, strength and durability - Requirements and test methods for non-domestic seating",
+      "edition": "EN 16139:2025",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 16516": {
       "kind": "european-standard",
       "family": "construction",
       "body": "CEN/TC 351",
       "subject": "Construction products – determination of emissions into indoor air",
-      "verified": false
+      "verified": true,
+      "title": "Construction products: Assessment of release of dangerous substances - Determination of emissions into indoor air",
+      "edition": "EN 16516:2017+A1:2020",
+      "status": "published",
+      "notes": "A test method; not in the harmonised list under Regulation (EU) No 305/2011. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 1706": {
       "kind": "european-standard",
       "family": "metals",
       "body": "CEN/TC 132",
       "subject": "Aluminium castings – chemical composition and mechanical properties",
-      "verified": false
+      "verified": true,
+      "title": "Aluminium and aluminium alloys - Castings - Chemical composition and mechanical properties",
+      "edition": "EN 1706:2020+A1:2021",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 1725": {
       "kind": "european-standard",
       "family": "furniture",
       "body": "CEN/TC 207",
-      "subject": "Domestic furniture – beds and mattresses – safety requirements and test methods",
-      "verified": false
+      "subject": "Safety, strength and durability of beds (mattress test methods are in EN 1957)",
+      "verified": true,
+      "title": "Furniture - Beds - Requirements for safety, strength and durability",
+      "edition": "EN 1725:2023",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 18216": {
       "kind": "harmonised-standard",
@@ -339,69 +424,105 @@
       "family": "furniture",
       "body": "CEN/TC 207",
       "subject": "Furniture – beds and mattresses – test methods for functional characteristics",
-      "verified": false
+      "verified": true,
+      "title": "Furniture - Beds and mattresses - Test methods for the determination of functional characteristics and assessment criteria",
+      "edition": "EN 1957:2012",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 573-3": {
       "kind": "european-standard",
       "family": "metals",
       "body": "CEN/TC 132",
       "subject": "Aluminium – chemical composition of wrought products",
-      "verified": false
+      "verified": true,
+      "title": "Aluminium and aluminium alloys - Chemical composition and form of wrought products - Part 3: Chemical composition and form of products",
+      "edition": "EN 573-3:2026",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 71-1": {
       "kind": "european-standard",
       "family": "toys",
       "body": "CEN/TC 52",
       "subject": "Safety of toys – mechanical and physical properties",
-      "verified": false
+      "verified": true,
+      "title": "Safety of toys - Part 1: Mechanical and physical properties",
+      "edition": "EN 71-1:2026",
+      "status": "published",
+      "notes": "The edition cited in the Official Journal under Directive 2009/48/EC is EN 71-1:2014+A1:2018 (with a restriction), per the Commission's summary list of 12.9.2025. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 71-2": {
       "kind": "european-standard",
       "family": "toys",
       "body": "CEN/TC 52",
       "subject": "Safety of toys – flammability",
-      "verified": false
+      "verified": true,
+      "title": "Safety of toys - Part 2: Flammability",
+      "edition": "EN 71-2:2020+A1:2025",
+      "status": "published",
+      "notes": "The edition cited in the Official Journal under Directive 2009/48/EC is EN 71-2:2020, per the Commission's summary list of 12.9.2025. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 71-3": {
       "kind": "european-standard",
       "family": "toys",
       "body": "CEN/TC 52",
       "subject": "Safety of toys – migration of certain elements",
-      "verified": false
+      "verified": true,
+      "title": "Safety of toys - Part 3: Migration of certain elements",
+      "edition": "EN 71-3:2019+A2:2024",
+      "status": "published",
+      "notes": "This edition is cited in the Official Journal under Directive 2009/48/EC. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN 717-1": {
       "kind": "european-standard",
       "family": "construction",
       "body": "CEN/TC 112",
       "subject": "Wood-based panels – formaldehyde release by the chamber method",
-      "verified": false
+      "verified": true,
+      "title": "Wood-based panels - Determination of formaldehyde release - Part 1: Formaldehyde emission by the chamber method",
+      "edition": "EN 717-1:2004",
+      "status": "published",
+      "notes": "A replacement edition is at formal vote, so a new edition is expected soon. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN IEC 61406-1": {
       "kind": "european-standard",
       "family": "identification-and-carriers",
-      "body": "IEC TC 65 / CENELEC",
+      "body": "IEC TC 65 / CLC/TC 65X",
       "subject": "Identification Link – Part 1",
       "editions": [
         "2022"
       ],
-      "verified": false
+      "verified": true,
+      "title": "Identification Link - Part 1: General requirements",
+      "edition": "EN IEC 61406-1:2022",
+      "status": "published",
+      "notes": "A new edition is under approval. Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN IEC 61406-2": {
       "kind": "european-standard",
       "family": "identification-and-carriers",
-      "body": "IEC TC 65 / CENELEC",
+      "body": "IEC TC 65 / CLC/TC 65X",
       "subject": "Identification Link – Part 2",
       "editions": [
         "2024"
       ],
-      "verified": false
+      "verified": true,
+      "title": "Identification link - Part 2: Types/models, lots/batches, items and characteristics",
+      "edition": "EN IEC 61406-2:2024",
+      "status": "published",
+      "notes": "Title checked against the CEN/CENELEC catalogue (committee published-standards list)."
     },
     "EN ISO 845": {
       "kind": "european-standard",
       "family": "furniture",
-      "body": "ISO/TC 61 / CEN",
+      "body": "ISO/TC 61/SC 10 / CEN",
       "subject": "Cellular plastics and rubbers – apparent density",
-      "verified": false
+      "verified": true,
+      "title": "Cellular plastics and rubbers - Determination of apparent density",
+      "edition": "EN ISO 845:2009",
+      "status": "published",
+      "notes": "EN ISO 845:2009 adopts ISO 845:2006. Title checked against the ISO Open Data catalogue."
     },
     "GS1 Digital Link": {
       "kind": "industry-specification",
@@ -412,106 +533,190 @@
         "1.6.0",
         "1.7.0"
       ],
-      "notes": "EN 18219 cites 1.6.0; 1.7.0 was ratified August 2026.",
-      "verified": false
+      "notes": "EN 18219 cites 1.6.0; 1.7.0 was ratified August 2026. Related to, but not the same document as, ISO/IEC 18975 (a generic identifier-over-HTTP standard that does not name GS1). Title checked against the GS1 standards pages.",
+      "verified": true,
+      "title": "GS1 Digital Link Standard: URI Syntax",
+      "edition": "1.7.0",
+      "status": "published"
     },
     "ISO 105-C06": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 1",
       "subject": "Textiles – colour fastness to domestic and commercial laundering",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Tests for colour fastness - Part C06: Colour fastness to domestic and commercial laundering",
+      "edition": "ISO 105-C06:2010",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO 12944": {
       "kind": "international-standard",
       "family": "paints-coatings",
-      "body": "ISO/TC 35",
+      "body": "ISO/TC 35/SC 14",
       "subject": "Corrosion protection of steel structures by protective paint systems",
-      "verified": false
+      "verified": true,
+      "title": "Paints and varnishes - Corrosion protection of steel structures by protective paint systems",
+      "editions": [
+        "ISO 12944-1:2017",
+        "ISO 12944-2:2017",
+        "ISO 12944-3:2017",
+        "ISO 12944-4:2017",
+        "ISO 12944-5:2019",
+        "ISO 12944-6:2018",
+        "ISO 12944-7:2017",
+        "ISO 12944-8:2017",
+        "ISO 12944-9:2018"
+      ],
+      "status": "published",
+      "notes": "Multi-part series (Part 2 classifies corrosivity environments). Every part is under revision. Title checked against the ISO Open Data catalogue."
     },
     "ISO 12945": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 24",
       "subject": "Textiles – pilling",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Determination of fabric propensity to surface pilling, fuzzing or matting",
+      "editions": [
+        "ISO 12945-1:2020",
+        "ISO 12945-2:2020",
+        "ISO 12945-3:2020",
+        "ISO 12945-4:2020"
+      ],
+      "status": "published",
+      "notes": "Multi-part series by test method. Title checked against the ISO Open Data catalogue."
     },
     "ISO 12947": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 24",
       "subject": "Textiles – abrasion resistance (Martindale)",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Determination of the abrasion resistance of fabrics by the Martindale method",
+      "editions": [
+        "ISO 12947-1:1998",
+        "ISO 12947-2:2016",
+        "ISO 12947-3:1998",
+        "ISO 12947-4:1998"
+      ],
+      "status": "published",
+      "notes": "Multi-part series. Title checked against the ISO Open Data catalogue."
     },
     "ISO 13937": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 24",
       "subject": "Textiles – tear properties of fabrics",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Tear properties of fabrics",
+      "editions": [
+        "ISO 13937-1:2000",
+        "ISO 13937-2:2000",
+        "ISO 13937-3:2000",
+        "ISO 13937-4:2000"
+      ],
+      "status": "published",
+      "notes": "Multi-part series by specimen shape. Title checked against the ISO Open Data catalogue."
     },
     "ISO 14025": {
       "kind": "international-standard",
-      "family": "environmental-footprint",
-      "body": "ISO/TC 207",
-      "subject": "Type III environmental declarations",
-      "verified": false
+      "family": "environmental-claims",
+      "body": "ISO/TC 207/SC 3",
+      "subject": "Environmental product declarations (EPDs)",
+      "verified": true,
+      "title": "Environmental statements and programmes for products - Environmental product declarations (EPDs)",
+      "edition": "ISO 14025:2026",
+      "status": "published",
+      "notes": "The 2026 edition replaces ISO 14025:2006 (then titled Type III environmental declarations). Title checked against the ISO Open Data catalogue."
     },
     "ISO 14046": {
       "kind": "international-standard",
       "family": "environmental-footprint",
-      "body": "ISO/TC 207",
+      "body": "ISO/TC 207/SC 5",
       "subject": "Water footprint",
-      "verified": false
+      "verified": true,
+      "title": "Environmental management - Water footprint - Principles, requirements and guidelines",
+      "edition": "ISO 14046:2014",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO 14067": {
       "kind": "international-standard",
       "family": "environmental-footprint",
-      "body": "ISO/TC 207",
+      "body": "ISO/TC 207/SC 7",
       "subject": "Carbon footprint of products",
-      "verified": false
+      "verified": true,
+      "title": "Greenhouse gases - Carbon footprint of products - Requirements and guidelines for quantification",
+      "edition": "ISO 14067:2018",
+      "status": "published",
+      "notes": "A revision is at working-draft stage. Title checked against the ISO Open Data catalogue."
     },
     "ISO 148-1": {
       "kind": "international-standard",
       "family": "metals",
-      "body": "ISO/TC 164",
+      "body": "ISO/TC 164/SC 4",
       "subject": "Charpy pendulum impact test",
-      "verified": false
+      "verified": true,
+      "title": "Metallic materials - Charpy pendulum impact test - Part 1: Test method",
+      "edition": "ISO 148-1:2016",
+      "status": "published",
+      "notes": "A new edition is at FDIS. Title checked against the ISO Open Data catalogue."
     },
     "ISO 19447": {
       "kind": "international-standard",
       "family": "tyres",
       "body": "ISO/TC 31",
       "subject": "Tyres – ice-grip test method for C1 tyres",
-      "verified": false
+      "verified": true,
+      "title": "Passenger car tyres - Method for measuring ice grip performance - Loaded new tyres",
+      "edition": "ISO 19447:2021",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO 2076": {
       "kind": "international-standard",
       "family": "textiles",
       "body": "ISO/TC 38",
       "subject": "Textiles – man-made fibres – generic names",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Man-made fibres - Generic names",
+      "edition": "ISO 2076:2021",
+      "status": "published",
+      "notes": "A revision retitles it '... Generic names and specific names'. Title checked against the ISO Open Data catalogue."
     },
     "ISO 2813": {
       "kind": "international-standard",
       "family": "paints-coatings",
-      "body": "ISO/TC 35",
-      "subject": "Paints and varnishes – specular gloss",
-      "verified": false
+      "body": "ISO/TC 35/SC 9",
+      "subject": "Paints and varnishes - gloss value at 20°, 60° and 85°",
+      "verified": true,
+      "title": "Paints and varnishes - Determination of gloss value at 20°, 60° and 85°",
+      "edition": "ISO 2813:2014",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO 3758": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 2",
       "subject": "Textiles – care labelling code using symbols",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Care labelling code using symbols",
+      "edition": "ISO 3758:2023",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO 5077": {
       "kind": "international-standard",
       "family": "textiles",
-      "body": "ISO/TC 38",
+      "body": "ISO/TC 38/SC 2",
       "subject": "Textiles – dimensional change in washing and drying",
-      "verified": false
+      "verified": true,
+      "title": "Textiles - Determination of dimensional change in washing and drying",
+      "edition": "ISO 5077:2007",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO/IEC 15418": {
       "kind": "international-standard",
@@ -521,7 +726,11 @@
       "editions": [
         "2016"
       ],
-      "verified": false
+      "verified": true,
+      "title": "Information technology - Automatic identification and data capture techniques - GS1 Application Identifiers and ASC MH10 Data Identifiers and maintenance",
+      "edition": "ISO/IEC 15418:2016",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO/IEC 15459": {
       "kind": "international-standard",
@@ -533,11 +742,17 @@
         "32024R1781 Annex III"
       ],
       "editions": [
-        "2014",
-        "2015"
+        "ISO/IEC 15459-1:2014",
+        "ISO/IEC 15459-2:2015",
+        "ISO/IEC 15459-3:2014",
+        "ISO/IEC 15459-4:2014",
+        "ISO/IEC 15459-5:2014",
+        "ISO/IEC 15459-6:2014"
       ],
-      "notes": "The identifier benchmark named by Battery Regulation Art. 77(3) and ESPR Annex III until replaced; Art. 77(3) allows 'or their equivalent'.",
-      "verified": false
+      "notes": "The identifier benchmark named by Battery Regulation Art. 77(3) and ESPR Annex III until replaced; Art. 77(3) allows 'or their equivalent'. Multi-part series (Part 8 is withdrawn). Title checked against the ISO Open Data catalogue.",
+      "verified": true,
+      "title": "Information technology - Automatic identification and data capture techniques - Unique identification",
+      "status": "published"
     },
     "ISO/IEC 16022": {
       "kind": "international-standard",
@@ -547,7 +762,11 @@
       "editions": [
         "2024"
       ],
-      "verified": false
+      "verified": true,
+      "title": "Information technology - Automatic identification and data capture techniques - Data Matrix bar code symbology specification",
+      "edition": "ISO/IEC 16022:2024",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "ISO/IEC 18004": {
       "kind": "international-standard",
@@ -557,52 +776,73 @@
       "editions": [
         "2024"
       ],
-      "verified": false
+      "verified": true,
+      "title": "Information technology - Automatic identification and data capture techniques - QR code bar code symbology specification",
+      "edition": "ISO/IEC 18004:2024",
+      "status": "published",
+      "notes": "A revision is at working-draft stage. Title checked against the ISO Open Data catalogue."
     },
     "ISO/IEC 18975": {
       "kind": "international-standard",
       "family": "identification-and-carriers",
       "body": "ISO/IEC JTC 1/SC 31",
       "subject": "Encoding and resolving identifiers over HTTP",
-      "editions": [
-        "2024"
-      ],
-      "verified": false
+      "verified": true,
+      "title": "Information technology - Automatic identification and data capture techniques - Encoding and resolving identifiers over HTTP",
+      "edition": "ISO/IEC 18975:2024",
+      "status": "published",
+      "notes": "Title checked against the ISO Open Data catalogue."
     },
     "UNECE R108": {
       "kind": "un-regulation",
       "family": "tyres",
       "body": "UNECE WP.29",
       "subject": "Retreaded tyres for passenger cars (C1)",
-      "verified": false
+      "verified": true,
+      "title": "UN Regulation No 108 - Uniform provisions concerning the approval for the production of retreaded pneumatic tyres for motor vehicles and their trailers",
+      "status": "published",
+      "notes": "The current series and amendment level is not confirmed. Title checked against the Official Journal text of the regulation (UNECE's own site blocks automated access)."
     },
     "UNECE R109": {
       "kind": "un-regulation",
       "family": "tyres",
       "body": "UNECE WP.29",
       "subject": "Retreaded tyres for commercial vehicles (C2/C3)",
-      "verified": false
+      "verified": true,
+      "title": "UN Regulation No 109 - Uniform provisions concerning the approval for the production of retreaded pneumatic tyres for commercial vehicles and their trailers",
+      "status": "published",
+      "notes": "The current series and amendment level is not confirmed. Title checked against the Official Journal text of the regulation (UNECE's own site blocks automated access)."
     },
     "UNECE R30": {
       "kind": "un-regulation",
       "family": "tyres",
       "body": "UNECE WP.29",
       "subject": "Pneumatic tyres for passenger cars (C1)",
-      "verified": false
+      "verified": true,
+      "title": "Uniform provisions concerning the approval of pneumatic tyres for motor vehicles and their trailers",
+      "status": "published",
+      "notes": "The current revision is not confirmed. Title checked against the Official Journal text of the regulation (UNECE's own site blocks automated access)."
     },
     "UNECE R54": {
       "kind": "un-regulation",
       "family": "tyres",
       "body": "UNECE WP.29",
       "subject": "Pneumatic tyres for commercial vehicles (C2/C3)",
-      "verified": false
+      "verified": true,
+      "title": "Uniform provisions concerning the approval of pneumatic tyres for commercial vehicles and their trailers",
+      "status": "published",
+      "notes": "The current revision is not confirmed. Title checked against the Official Journal text of the regulation (UNECE's own site blocks automated access)."
     },
     "ISO 14021": {
       "kind": "international-standard",
-      "family": "environmental-footprint",
-      "body": "ISO/TC 207",
-      "subject": "Self-declared environmental claims (Type II), incl. recycled-content definitions",
-      "verified": false
+      "family": "environmental-claims",
+      "body": "ISO/TC 207/SC 3",
+      "subject": "Self-declared environmental claims, incl. recycled-content definitions",
+      "verified": true,
+      "title": "Environmental statements and programmes for products - Self-declared environmental claims",
+      "edition": "ISO 14021:2026",
+      "status": "published",
+      "notes": "The 2026 edition replaces ISO 14021:2016 and its 2021 amendment. Title checked against the ISO Open Data catalogue."
     }
   }
 }
