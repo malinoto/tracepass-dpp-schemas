@@ -9993,7 +9993,12 @@
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -11776,7 +11781,12 @@
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13914,7 +13924,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,
@@ -14033,7 +14043,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,
@@ -14152,7 +14162,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,
@@ -14271,7 +14281,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,
@@ -14390,7 +14400,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,
@@ -14509,7 +14519,7 @@
         "requiredBy": {
           "EV": "required",
           "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "industrial_gt_2kwh": "conditional"
         },
         "min": 0,
         "max": 100,

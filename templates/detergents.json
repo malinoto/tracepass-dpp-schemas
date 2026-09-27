@@ -3006,7 +3006,7 @@
           "biocides",
           "antimicrobials"
         ],
-        "expectedFormat": "Array of {name, casNumber}",
+        "expectedFormat": "Array of {name, casNumber?, ecNumber?, iupacName?}: one object per substance, keeping every CAS or EC number the document states",
         "extractionPriority": 6
       }
     },
@@ -3114,7 +3114,7 @@
           "fragrance substances",
           "perfume allergens"
         ],
-        "expectedFormat": "Array of {name, casNumber}",
+        "expectedFormat": "Array of {name, casNumber?, ecNumber?, iupacName?}: one object per substance, keeping every CAS or EC number the document states",
         "extractionPriority": 7
       }
     },
