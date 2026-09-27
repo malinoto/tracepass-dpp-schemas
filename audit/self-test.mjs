@@ -110,3 +110,19 @@ test("a primary-then-secondary string over the primary's CELEX passes", () => {
   });
   assert.doesNotMatch(out, new RegExp(`\\b${key}\\b`));
 });
+
+import { checkFlattenedUnits } from "./content-checks.mjs";
+
+test("[18] the shipped templates carry no flattened units in prose", () =>
+  assert.deepEqual(checkFlattenedUnits(load()), []));
+
+test("[18] a flattened exponent in a description is reported; the unit key is exempt", () => {
+  const t = load();
+  const [, jewelry] = t.find(([, d]) => d.category === "jewelry");
+  const f = jewelry.fields.find((x) => x.key === "nickelMigrationRate");
+  f.description.de = f.description.de.replace("µg/cm²", "µg/cm2");
+  f.unit = "ug/cm2/week";
+  assert.deepEqual(checkFlattenedUnits(t).map((x) => [x.id, x.where]), [
+    ["jewelry.nickelMigrationRate", "description.de"],
+  ]);
+});

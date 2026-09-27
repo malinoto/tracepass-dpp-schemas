@@ -5372,7 +5372,7 @@
           "specific gravity",
           "relative density"
         ],
-        "expectedFormat": "Numeric in g/cm3",
+        "expectedFormat": "Numeric in g/cm³",
         "extractionPriority": 5
       }
     },

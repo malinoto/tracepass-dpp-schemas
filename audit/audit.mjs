@@ -334,6 +334,7 @@ function audit(dir, label) {
   findings.missingProvision = content.missingProvision;
   findings.duplicates = content.duplicates;
   findings.unitClash = content.unitClash;
+  findings.flatUnits = content.flatUnits;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -431,6 +432,10 @@ function audit(dir, label) {
   if (findings.unitClash.length) {
     console.log(`\n[11] one key, different units across templates (${findings.unitClash.length}) — the VC vocabulary maps a key to one IRI`);
     for (const f of findings.unitClash) console.log(`    ${f.key}: ${f.units.join(" | ")}`);
+  }
+  if (findings.flatUnits.length) {
+    console.log(`\n[18] unit with a flattened exponent or ASCII "ug" in prose (${findings.flatUnits.length}) — write m³, cm², µg; the \`unit\` key is exempt`);
+    for (const f of findings.flatUnits) console.log(`    ${f.id.padEnd(40)} ${f.where}: ${f.text}`);
   }
   if (!n) console.log("    clean");
   return n;

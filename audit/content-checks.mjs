@@ -152,6 +152,34 @@ export function checkCrossTemplateUnits(templates) {
   return out;
 }
 
+// [18] A unit written with a flattened exponent ("m3", "µg/cm2") or the ASCII
+// "ug" in prose meant for people. The `unit` key keeps its machine spelling
+// (ug/cm2/week, m3 world eq.) and is not scanned.
+const FLAT_UNIT = /(?:^|[\s(\/\d])(?:(?:µg|mg|kg|g|ug)\/)?(?:mm|cm|m)[23](?=$|[\s\/.,;:)])|(?:^|[\s(\d])ug\//;
+
+function proseStrings(f) {
+  const out = [];
+  const push = (where, v) => {
+    if (typeof v === "string") out.push([where, v]);
+    else if (v && typeof v === "object" && !Array.isArray(v))
+      for (const [k, x] of Object.entries(v)) if (typeof x === "string") out.push([`${where}.${k}`, x]);
+  };
+  push("label", f.label);
+  push("description", f.description);
+  for (const [k, v] of Object.entries(f.aiHints ?? {})) push(`aiHints.${k}`, v);
+  for (const k of ["article", "provision", "description"]) push(`regulationRef.${k}`, f.regulationRef?.[k]);
+  return out;
+}
+
+export function checkFlattenedUnits(templates) {
+  const out = [];
+  for (const [, d] of templates)
+    for (const f of d.fields)
+      for (const [where, text] of proseStrings(f))
+        if (FLAT_UNIT.test(text)) out.push({ id: `${d.category}.${f.key}`, where, text: text.slice(0, 90) });
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -162,5 +190,6 @@ export function runContentChecks(templates, registry = {}) {
     amended: prov.amended,
     duplicates: checkDuplicates(templates, known),
     unitClash: checkCrossTemplateUnits(templates),
+    flatUnits: checkFlattenedUnits(templates),
   };
 }
