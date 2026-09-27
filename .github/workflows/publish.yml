@@ -84,3 +84,25 @@ jobs:
         # ENEEDAUTH before attempting OIDC. Absent ⇒ OIDC engages cleanly.
         # Provenance comes from publishConfig.provenance: true in package.json.
         run: npm publish
+
+  github-release:
+    # npm does not need a GitHub Release, but the repo page, its "Latest" badge
+    # and catalogues that read GitHub do. Created only after npm accepted the
+    # version, so the two never disagree. A separate job keeps the publish job's
+    # token read-only.
+    name: GitHub Release
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Create the release for this tag (skip if it exists)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release $GITHUB_REF_NAME already exists"
+          else
+            gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" \
+              --verify-tag --generate-notes --title "$GITHUB_REF_NAME"
+          fi
