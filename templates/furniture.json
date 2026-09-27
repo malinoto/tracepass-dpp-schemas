@@ -2976,30 +2976,30 @@
         "sv": "Skogscertifieringssystem"
       },
       "description": {
-        "en": "Forest certification (FSC, PEFC, or equivalent). Required for virgin wood.",
-        "bg": "Горска сертификация (FSC, PEFC или еквивалент). Задължителна за дървесина от първичен добив.",
-        "de": "Forstzertifizierung (FSC, PEFC oder gleichwertig). Erforderlich für Frischholz.",
-        "it": "Certificazione forestale (FSC, PEFC o equivalente). Obbligatoria per legno vergine.",
-        "hr": "Certifikat šuma (FSC, PEFC ili jednakovrijedan). Obvezno za primarno drvo.",
-        "cs": "Certifikace lesů (FSC, PEFC nebo ekvivalent). Povinné pro primární dřevo.",
-        "da": "Skovcertificering (FSC, PEFC eller tilsvarende). Påkrævet for nyt træ.",
-        "nl": "Boscertificering (FSC, PEFC of gelijkwaardig). Vereist voor virgin hout.",
-        "et": "Metsa sertifitseerimine (FSC, PEFC või samaväärne). Nõutav esmase puidu puhul.",
-        "fi": "Metsäsertifiointi (FSC, PEFC tai vastaava). Vaaditaan neitseellisestä puusta.",
-        "fr": "Certification forestière (FSC, PEFC ou équivalent). Requise pour le bois vierge.",
-        "el": "Πιστοποίηση δασών (FSC, PEFC ή ισοδύναμη). Απαιτείται για παρθένο ξύλο.",
-        "hu": "Erdőtanúsítás (FSC, PEFC vagy azzal egyenértékű). Szűz fa esetén kötelező.",
-        "ga": "Deimhniúchán foraoise (FSC, PEFC nó a chomhionann). Riachtanach d'adhmad úr.",
-        "es": "Certificación forestal (FSC, PEFC o equivalente). Obligatoria para madera virgen.",
-        "lt": "Miško sertifikatas (FSC, PEFC arba lygiavertis). Būtinas pirminei medienai.",
-        "lv": "Mežu sertifikāts (FSC, PEFC vai līdzvērtīgs). Obligāts neapstrādātai koksnei.",
-        "mt": "Ċertifikazzjoni forestali (FSC, PEFC, jew ekwivalenti). Meħtieġa għal injam verġni.",
-        "pl": "Certyfikacja leśna (FSC, PEFC lub równoważna). Wymagana dla drewna pierwotnego.",
-        "pt": "Certificação florestal (FSC, PEFC ou equivalente). Obrigatória para madeira virgem.",
-        "ro": "Certificare forestieră (FSC, PEFC sau echivalentă). Obligatorie pentru lemn virgin.",
-        "sk": "Lesná certifikácia (FSC, PEFC alebo ekvivalent). Povinná pre neupravené drevo.",
-        "sl": "Gozdarski certifikat (FSC, PEFC ali enakovredno). Obvezno za neobdelan les.",
-        "sv": "Skogscertifiering (FSC, PEFC eller likvärdig). Krävs för jungfruligt trä."
+        "en": "Forest certification (FSC, PEFC, or equivalent).",
+        "bg": "Горска сертификация (FSC, PEFC или еквивалент).",
+        "de": "Forstzertifizierung (FSC, PEFC oder gleichwertig).",
+        "it": "Certificazione forestale (FSC, PEFC o equivalente).",
+        "hr": "Certifikat šuma (FSC, PEFC ili jednakovrijedan).",
+        "cs": "Certifikace lesů (FSC, PEFC nebo ekvivalent).",
+        "da": "Skovcertificering (FSC, PEFC eller tilsvarende).",
+        "nl": "Boscertificering (FSC, PEFC of gelijkwaardig).",
+        "et": "Metsa sertifitseerimine (FSC, PEFC või samaväärne).",
+        "fi": "Metsäsertifiointi (FSC, PEFC tai vastaava).",
+        "fr": "Certification forestière (FSC, PEFC ou équivalent).",
+        "el": "Πιστοποίηση δασών (FSC, PEFC ή ισοδύναμη).",
+        "hu": "Erdőtanúsítás (FSC, PEFC vagy azzal egyenértékű).",
+        "ga": "Deimhniúchán foraoise (FSC, PEFC nó a chomhionann).",
+        "es": "Certificación forestal (FSC, PEFC o equivalente).",
+        "lt": "Miško sertifikatas (FSC, PEFC arba lygiavertis).",
+        "lv": "Mežu sertifikāts (FSC, PEFC vai līdzvērtīgs).",
+        "mt": "Ċertifikazzjoni forestali (FSC, PEFC, jew ekwivalenti).",
+        "pl": "Certyfikacja leśna (FSC, PEFC lub równoważna).",
+        "pt": "Certificação florestal (FSC, PEFC ou equivalente).",
+        "ro": "Certificare forestieră (FSC, PEFC sau echivalentă).",
+        "sk": "Lesná certifikácia (FSC, PEFC alebo ekvivalent).",
+        "sl": "Gozdarski certifikat (FSC, PEFC ali enakovredno).",
+        "sv": "Skogscertifiering (FSC, PEFC eller likvärdig)."
       },
       "dataType": "string",
       "unit": null,
@@ -3039,11 +3039,11 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EU Ecolabel Decision 2016/1332 Criterion 1; EUDR 2023/1115",
-        "instrument": "32023R1115",
-        "kind": "legislation",
-        "provision": "FSC / PEFC are voluntary certification schemes; EUDR mandates due diligence, not certification",
-        "description": "EUDR requires due diligence and mandates no certification scheme; FSC and PEFC are voluntary."
+        "article": "EU Ecolabel Decision 2016/1332 Criterion 3.1; EUDR Art. 10(2)(n)",
+        "instrument": "32010R0066",
+        "kind": "scheme",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "Under the voluntary EU Ecolabel criteria for furniture (Decision 2016/1332, Criterion 3.1), all virgin wood must be covered by valid sustainable forest management certificates from an independent third-party scheme such as FSC, PEFC or equivalent. EUDR (EU) 2023/1115 mandates due diligence, not certification; certification can feed its risk assessment as complementary information (Art. 10(2)(n))."
       },
       "aiHints": {
         "alternateNames": [
@@ -3579,11 +3579,11 @@
       "sortOrder": 29,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(5); REACH Art. 33",
+        "article": "REACH Art. 33; ESPR Art. 7(5)",
         "instrument": "32006R1907",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
+        "provision": "Art. 33(1)–(2)",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty to recipients above 0.1% w/w, answered with at minimum the substance name; SCIP notification is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33(1) obliges the supplier of an article containing a candidate-list substance above 0.1% w/w to give recipients sufficient information for safe use, at minimum the substance name — unconditionally; Art. 33(2) gives consumers the same on request, within 45 days. SCIP notification to ECHA is the database side (Waste Framework Directive Art. 9(1)(i)). ESPR Art. 7(5) sets out the substances-of-concern information a future delegated act will require; none is adopted for this category. Neither duty is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [
@@ -4086,7 +4086,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EU Ecolabel Decision 2016/1332 Criterion 4; EN 16516",
+        "article": "EU Ecolabel Decision 2016/1332 Criterion 9.5; EN 16516",
         "instrument": "32010R0066",
         "kind": "scheme",
         "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
@@ -4197,11 +4197,14 @@
       "sortOrder": 33,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EN 16516; EU Ecolabel Criterion 4",
-        "kind": "standard",
+        "article": "EU Ecolabel Decision 2016/1332 Criterion 9.5; EN 16516",
+        "kind": "scheme",
         "standards": [
           "EN 16516"
-        ]
+        ],
+        "instrument": "32010R0066",
+        "provision": "Reg. (EC) 66/2010 Art. 1 — the EU Ecolabel is a VOLUNTARY award scheme",
+        "description": "The voluntary EU Ecolabel furniture criteria (Decision 2016/1332, Criterion 9.5) set 28-day TVOC limits of ≤ 400 µg/m³ for office chairs and ≤ 450 µg/m³ for other furniture, tested per ISO 16000 (CEN/TS 16516 accepted as equivalent). Testing applies only to leather or coated-fabric upholstery or heavily coated parts. No binding EU act sets a furniture TVOC figure."
       },
       "aiHints": {
         "alternateNames": [

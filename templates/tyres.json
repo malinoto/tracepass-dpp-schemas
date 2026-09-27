@@ -7137,11 +7137,11 @@
       "sortOrder": 55,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(5); REACH Art. 33",
+        "article": "REACH Art. 33; ESPR Art. 7(5)",
         "instrument": "32006R1907",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "provision": "Art. 33(1)–(2)",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33(1) obliges the supplier of an article containing a candidate-list substance above 0.1% w/w to give recipients sufficient information for safe use, at minimum the substance name — unconditionally; Art. 33(2) gives consumers the same on request, within 45 days. SCIP notification to ECHA is the database side (Waste Framework Directive Art. 9(1)(i)). ESPR Art. 7(5) sets out the substances-of-concern information a future delegated act will require; none is adopted for this category. Neither duty is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [

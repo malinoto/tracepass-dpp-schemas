@@ -1124,7 +1124,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, CBAM Annex I",
+        "article": "CBAM Annex I; ESPR Art. 4 delegated act (not adopted)",
         "annex": null,
         "instrument": "32023R0956",
         "provision": "Annex I",
@@ -2570,7 +2570,7 @@
       "validation": {
         "required": false,
         "anticipated": true,
-        "anticipatedUnder": "32023R0956",
+        "anticipatedUnder": "32024R1781",
         "anticipatedNote": "CBAM benchmarking distinguishes steel types via CN code, but a separate 'material type' field is not a mandated CBAM data element; folded into CN code."
       },
       "category": "material_composition",
@@ -2603,7 +2603,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR, CBAM",
+        "article": "CBAM; ESPR Art. 4 delegated act (not adopted)",
         "annex": null,
         "instrument": "32023R0956",
         "kind": "legislation",

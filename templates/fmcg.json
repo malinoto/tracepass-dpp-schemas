@@ -2111,9 +2111,9 @@
       "sortOrder": 12,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH Art. 33; ESPR Art. 7(5)",
+        "article": "ESPR Art. 7(5); REACH Art. 33",
         "instrument": "32024R1781",
-        "provision": "Art. 33",
+        "provision": "Art. 7(5)(a)–(d)",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -3154,10 +3154,11 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; (EU) 2023/988",
-        "instrument": "32023R0988",
+        "article": "CLP Art. 22; REACH Annex II 4.1",
+        "instrument": "32008R1272",
         "kind": "legislation",
-        "description": "GPSR Art. 9 requires safety information and instructions to ACCOMPANY the product where needed for safe use. The duty is discharged by supplying them with the product; a passport copy is a convenience."
+        "description": "GPSR's economic-operator duties (Chapter III Section 1, including Art. 9) do not apply to products covered by Union harmonisation legislation (GPSR Art. 2(1)(b)). For a hazardous mixture the label must include the relevant precautionary statements (CLP Art. 22(1)), and a safety data sheet gives first-aid instructions by route of exposure (REACH Annex II 4.1.1); the SDS title does not apply to cosmetic products (REACH Art. 2(6)(b)). Discharged on the label and the SDS, not by publishing here.",
+        "provision": "Art. 22(1)"
       },
       "aiHints": {
         "alternateNames": [
@@ -5038,11 +5039,11 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 648/2004 Art. 11(4); (EC) 1223/2009",
-        "instrument": "32009R1223",
-        "provision": "Art. 11(4)",
+        "article": "Detergents Regulation Art. 17(4), Annex V Part B; Detergents Regulation (2004) Art. 11(4)",
+        "instrument": "32026R0405",
+        "provision": "Art. 17(4); Annex V Part B",
         "kind": "legislation",
-        "description": "Art. 19 requires particulars concerning precautions for use to appear on the container and packaging. Usage or dosage guidance is delivered through that pack labelling rather than as published product data."
+        "description": "For consumer laundry, automatic dishwasher and surface detergents, Reg. (EU) 2026/405 Art. 17(4) requires dosage information on the label per Annex V Part B, and Annex VI Part B lets the digital product passport include it; until 22 September 2029 Reg. (EC) 648/2004 Art. 11(4) and Annex VII B govern. The Cosmetics Regulation imposes no dosage duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -5149,11 +5150,11 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19(1); (EU) 1169/2011",
-        "instrument": "32011R1169",
-        "provision": "Art. 19(1)",
+        "article": "Cosmetics Regulation Art. 19(1)(c); Food Information Regulation Art. 9(1)(f), 24",
+        "instrument": "32009R1223",
+        "provision": "Art. 19(1)(c)",
         "kind": "legislation",
-        "description": "Reg (EU) 1169/2011 Art. 19(1) concerns food information; where a date of minimum durability or use-by date is required it must appear ON THE FOOD LABEL. A shelf-life duration in months is a derived figure, and the labelling duty is discharged on pack."
+        "description": "Cosmetics Regulation Art. 19(1)(c): a date of minimum durability on the pack, or the period-after-opening (PAO) symbol for products with a minimum durability above 30 months. For food, the best-before or use-by date (Reg. (EU) 1169/2011 Arts. 9(1)(f), 24). Both are label dates; a shelf life in months is a derived figure, and the labelling duty is discharged on pack."
       },
       "aiHints": {
         "alternateNames": [

@@ -848,9 +848,9 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 11(3)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 11 — importer identity, only where there is an EU importer",
+        "provision": "Art. 11(3) — importer identity, only where there is an EU importer",
         "kind": "legislation",
         "description": "Conditional: no EU importer, no duty. Marked required unconditionally, it demands data that does not exist for a domestic manufacturer."
       },
@@ -956,9 +956,9 @@
       "sortOrder": 8,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 11(3)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 11 — importer address, only where there is an EU importer",
+        "provision": "Art. 11(3) — importer address, only where there is an EU importer",
         "kind": "legislation",
         "description": "Conditional: no EU importer, no duty."
       },
@@ -1063,11 +1063,11 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "GPSR Art. 16(1), (3)",
         "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 16 — an EU-established responsible economic operator must EXIST",
+        "provision": "Art. 16(1), (3)",
         "kind": "legislation",
-        "description": "An existence duty on the supply chain, not a label line or a passport field. Note it does NOT rest on Reg. (EU) 2019/1020 Art. 4 — textiles are not on the Art. 4(5) list."
+        "description": "GPSR Art. 16(1) requires an EU-established responsible economic operator; Art. 16(3) requires its name and contact details, including postal and electronic address, on the product, its packaging, the parcel or an accompanying document. It is not a passport requirement. It does NOT rest on Reg. (EU) 2019/1020 Art. 4 — textiles are not on the Art. 4(5) list."
       },
       "aiHints": {
         "alternateNames": [
@@ -1601,8 +1601,8 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
-        "annex": "Annex III",
+        "article": "Textile Labelling Regulation Arts. 9(1), 14(1), 16",
+        "annex": "Annex I",
         "instrument": "32011R1007",
         "provision": "Reg. (EU) 1007/2011 Arts. 9(1), 14(1), 16 — a durable, legible label physically attached to the product, in the language of the Member State",
         "kind": "legislation",

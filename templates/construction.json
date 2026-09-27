@@ -4206,11 +4206,11 @@
       "sortOrder": 31,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CPR 2024/3110 REACH, SCIP",
+        "article": "REACH Art. 31, 33; CPR Art. 15(6)",
         "instrument": "32006R1907",
         "kind": "legislation",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
-        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here. Operative instrument for this field: CPR 2024/3110."
+        "provision": "Art. 31; Art. 33(1)–(2)",
+        "description": "REACH Art. 33(1) obliges the supplier of an article containing a candidate-list substance above 0.1% w/w to give the recipient sufficient information for safe use, at minimum the substance name — unconditionally; Art. 33(2) gives consumers the same on request. For a mixture the route is the safety data sheet (Art. 31). CPR (EU) 2024/3110 Art. 15(6) requires that REACH information to be supplied together with the declaration of performance and conformity. SCIP notification to ECHA stems from the Waste Framework Directive Art. 9(1)(i), not REACH. None of these is discharged by publishing here."
       },
       "aiHints": {
         "alternateNames": [

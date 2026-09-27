@@ -170,22 +170,37 @@ function audit(dir, label) {
           const acronym = /^[A-Z]{3,}$/.test(short)
             ? short
             : short.split(/\s+/).filter((w) => /^[A-Z]/.test(w) && w.length > 2).map((w) => w[0]).join("");
-          const alts = [num && num.replace("/", "\\/"), acronym.length >= 3 && `\\b${acronym}\\b`].filter(Boolean);
+          // The full short name too: the canonical article form leads with it
+          // ("CPR (EU) 305/2011 Art. 4"), and without it an instrument whose
+          // short name yields no acronym is only found by its number, later in
+          // the string — so a sibling's acronym ("CPR") wrongly takes the lead.
+          const esc = short ? short.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") : "";
+          const alts = [esc, num && num.replace("/", "\\/"), acronym.length >= 3 && `\\b${acronym}\\b`].filter(Boolean);
           if (!alts.length) continue;
           const derived = new RegExp(alts.join("|"), "i");
           names[celex] = names[celex] ? new RegExp(`${names[celex].source}|${derived.source}`, "i") : derived;
         }
-        const named = Object.entries(names).filter(([, re]) => re.test(art));
-        const claimed = named[0];
-        const namesOwn = new RegExp(names[inst]?.source ?? "$^", "i").test(art)
-          || new RegExp(String(instruments[inst]?.shortName ?? "$^").split(" ")[0], "i").test(art);
-        if (claimed && claimed[0] !== inst && !namesOwn && named.length === 1) {
-          findings.mismatch.push({
-            cat: d.category, key: f.key,
-            says: instruments[claimed[0]]?.shortName ?? claimed[0],
-            is: instruments[inst]?.shortName ?? inst,
-            art: art.slice(0, 50),
-          });
+        // The article string LEADS with its primary instrument ("short name +
+        // provision"; a secondary instrument follows after a semicolon). So the
+        // instrument named FIRST must be the CELEX's own. Naming two instruments
+        // used to pass unconditionally as "multi-source", which let a REACH CELEX
+        // under "ESPR Art. 7(5); REACH Art. 33" through — 15 fields did.
+        // Several instruments can match at the same position (the 2004 and 2026
+        // Detergents Regulations share a name): pass if the CELEX is among them.
+        const positions = Object.entries(names)
+          .map(([celex, re]) => [celex, art.search(new RegExp(re.source, "i"))])
+          .filter(([, i]) => i >= 0);
+        if (positions.length > 0) {
+          const first = Math.min(...positions.map(([, i]) => i));
+          const leading = positions.filter(([, i]) => i === first).map(([c]) => c);
+          if (!leading.includes(inst)) {
+            findings.mismatch.push({
+              cat: d.category, key: f.key,
+              says: instruments[leading[0]]?.shortName ?? leading[0],
+              is: instruments[inst]?.shortName ?? inst,
+              art: art.slice(0, 50),
+            });
+          }
         }
       }
 

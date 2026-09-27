@@ -69,3 +69,44 @@ test("a stored act nothing quotes is reported", () => {
   });
   assert.deepEqual(found.map((f) => f.id), ["audit/acts/32099R9999.txt"]);
 });
+
+// ── [2] the article string must LEAD with its CELEX's instrument ─────────────
+// Runs the real audit.mjs over a one-template corpus with planted citations.
+import { spawnSync } from "node:child_process";
+const auditMismatches = (mutate) => {
+  const dir = mkdtempSync(join(tmpdir(), "tpl-"));
+  try {
+    const t = JSON.parse(readFileSync(join(TEMPLATES, "battery.json"), "utf-8"));
+    mutate(t);
+    writeFileSync(join(dir, "battery.json"), JSON.stringify(t));
+    const r = spawnSync(process.execPath, [join(here, "audit.mjs")], {
+      env: { ...process.env, DPP_TEMPLATES_PUBLIC: dir },
+      encoding: "utf-8",
+    });
+    const section = (r.stdout + r.stderr).split("[2]")[1]?.split("\n\n")[0] ?? "";
+    return section;
+  } finally {
+    rmSync(dir, { recursive: true });
+  }
+};
+const cited = (t) => t.fields.find((f) => f.regulationRef?.instrument === "32023R1542");
+
+test("a string leading with another instrument than its CELEX is reported", () => {
+  let key;
+  const out = auditMismatches((t) => {
+    const f = cited(t);
+    key = f.key;
+    f.regulationRef.article = "ESPR Art. 7(5); Battery Regulation Art. 13(1)";
+  });
+  assert.match(out, new RegExp(`\\b${key}\\b`));
+});
+
+test("a primary-then-secondary string over the primary's CELEX passes", () => {
+  let key;
+  const out = auditMismatches((t) => {
+    const f = cited(t);
+    key = f.key;
+    f.regulationRef.article = "Battery Regulation Art. 13(1); ESPR Art. 7(5)";
+  });
+  assert.doesNotMatch(out, new RegExp(`\\b${key}\\b`));
+});

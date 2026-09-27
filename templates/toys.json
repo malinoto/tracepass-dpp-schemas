@@ -5267,11 +5267,11 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "TSD Art. 6; GPSR Art. 11",
-        "instrument": "32023R0988",
-        "provision": "Art. 6",
+        "article": "Toy Safety Regulation Art. 9(4); Toy Safety Directive Art. 6(3)",
+        "instrument": "32025R2509",
+        "provision": "Art. 9(4)",
         "kind": "legislation",
-        "description": "GPSR Art. 6 places duties on the importer, and identification is CONDITIONAL — where there is no EU importer there is no duty. Where one exists, the name and address are marked on the product, its packaging or an accompanying document rather than published as passport data."
+        "description": "Toy Safety Regulation (EU) 2025/2509 Art. 9(4): importers indicate their name and postal and electronic address on the toy or, where that is not feasible, on its packaging, in an accompanying document or in the digital product passport. It applies from 1 August 2030, when Directive 2009/48/EC is repealed; until then the Directive's Art. 6(3) requires the same on the toy, its packaging or an accompanying document. Conditional: where there is no EU importer there is no duty. GPSR's economic-operator duties (Chapter III Section 1) do not apply to toys."
       },
       "aiHints": {
         "alternateNames": [
