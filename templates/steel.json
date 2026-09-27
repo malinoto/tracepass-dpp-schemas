@@ -1352,7 +1352,7 @@
         "instrument": "32023R0956",
         "provision": "Annex I",
         "kind": "legislation",
-        "description": "CBAM Annex I scopes iron and steel at CN 7206-7326 (Section 2) and aluminium at 7601-7616 (Section 3); the CN code itself is the customs classification."
+        "description": "CBAM Annex I covers iron and steel as CN 2601 12 00, all of Chapter 72 except the ferro-alloys listed under 7202 and scrap 7204, and headings 7301–7311, 7318 and 7326; aluminium as 7601, 7603–7614 and 7616. The CN code itself is the customs classification."
       },
       "aiHints": {
         "alternateNames": [
@@ -2041,12 +2041,12 @@
       "sortOrder": 13,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Art. 9",
+        "article": "CPR (EU) 305/2011 Art. 13(3); CPR Art. 24(6)",
         "annex": null,
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "instrument": "32011R0305",
+        "provision": "Art. 13(3)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "For steel or aluminium placed on the market as a construction product, the importer's name, registered trade name or mark and contact address go on the product, its packaging or an accompanying document; Reg. (EU) 2024/3110 Art. 24(6) carries the same duty, adding place of business and electronic contact. Mill products sold between businesses carry no importer-identification duty: GPSR covers consumer products only (Art. 3(1)), and CBAM names the authorised declarant in its declaration, not on the product. ESPR Art. 29(3)(a) will put the importer on the public passport once an iron and steel delegated act is adopted (working plan: 2026)."
       },
       "aiHints": {
         "alternateNames": [
@@ -2150,12 +2150,12 @@
       "sortOrder": 14,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Art. 9",
+        "article": "CPR (EU) 305/2011 Art. 13(3); CPR Art. 24(6)",
         "annex": null,
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "instrument": "32011R0305",
+        "provision": "Art. 13(3)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "For steel or aluminium placed on the market as a construction product, the importer's name, registered trade name or mark and contact address go on the product, its packaging or an accompanying document; Reg. (EU) 2024/3110 Art. 24(6) carries the same duty, adding place of business and electronic contact. Mill products sold between businesses carry no importer-identification duty: GPSR covers consumer products only (Art. 3(1)), and CBAM names the authorised declarant in its declaration, not on the product. ESPR Art. 29(3)(a) will put the importer on the public passport once an iron and steel delegated act is adopted (working plan: 2026)."
       },
       "aiHints": {
         "alternateNames": [

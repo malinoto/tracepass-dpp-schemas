@@ -1464,11 +1464,11 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9(2)",
-        "instrument": "32024R1781",
-        "provision": "Art. 9(2)",
+        "article": "GPSR Art. 11(3)",
+        "instrument": "32023R0988",
+        "provision": "Art. 11(3) — importer identity, only where there is an EU importer",
         "kind": "legislation",
-        "description": "ESPR Art. 9(2) does NOT mandate this datum. It tells the Commission what a DELEGATED ACT must specify — 'the requirements related to the digital product passport laid down in the delegated acts adopted pursuant to Article 4 shall … specify the following: (a) the data to be included …'. No furniture/textile delegated act is adopted, so nothing here is legally required yet. Anticipated under the coming act; voluntary today. Verified against the EUR-Lex text."
+        "description": "Conditional: imported consumer furniture must carry the importer's name, trade name or mark and postal and electronic address on the product, its packaging or an accompanying document; with no EU importer there is no duty, and furniture supplied only to businesses is outside GPSR (Art. 3(1)). GPSR applies in full to furniture because no harmonisation legislation covers it. ESPR Art. 29(3)(a) will add the same data to the public passport once a furniture delegated act is adopted (working plan: 2028)."
       },
       "aiHints": {
         "alternateNames": [

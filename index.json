@@ -9,7 +9,7 @@
     "categories": 13,
     "fields": 987,
     "requiredFields": 65,
-    "anticipatedFields": 220
+    "anticipatedFields": 223
   },
   "categories": [
     {
@@ -193,7 +193,7 @@
       "version": 2,
       "fieldCount": 60,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 32,
+      "anticipatedFieldCount": 35,
       "regulation": {
         "name": "EU ESPR - Textiles",
         "number": "(EU) 2024/1781",

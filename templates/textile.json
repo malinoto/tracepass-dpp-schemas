@@ -245,19 +245,12 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
+        "article": "GPSR Art. 19(c)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "provision": "Art. 19(c)",
         "kind": "legislation",
-        "description": "A type or model number is one of the identifying elements GPSR Art. 9(5) accepts on consumer products, not a mandated one. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "description": "For distance sales only: the online offer must carry information identifying the product, including its type. GPSR Art. 9(5) does not apply to textiles, which Art. 2(1)(b) removes from Chapter III Section 1 as products under Reg. (EU) 1007/2011, and that Regulation requires no identifier. No adopted act creates a passport for this category.",
         "obligations": [
-          {
-            "instrument": "32023R0988",
-            "provision": "Art. 9(5)",
-            "carrier": "product",
-            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law); any one of these elements satisfies it",
-            "quote": "Manufacturers shall ensure that their products bear a type, batch or serial number or other element enabling the identification of the product"
-          },
           {
             "instrument": "32023R0988",
             "provision": "Art. 19(c)",
@@ -371,20 +364,12 @@
       "sortOrder": 3,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "GPSR Art. 9(5)",
-        "instrument": "32023R0988",
-        "provision": "Art. 9(5)",
+        "article": "ESPR Art. 27(5)",
+        "instrument": "32024R1781",
+        "provision": "Art. 27(5)",
         "kind": "legislation",
-        "description": "GPSR Art. 9(5) asks for a type, batch or serial number OR another identifying element on consumer products; a batch number as such is never mandatory. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
-        "obligations": [
-          {
-            "instrument": "32023R0988",
-            "provision": "Art. 9(5)",
-            "carrier": "product",
-            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law); any one of these elements satisfies it",
-            "quote": "Manufacturers shall ensure that their products bear a type, batch or serial number or other element enabling the identification of the product"
-          }
-        ]
+        "description": "No law requires a batch number on a textile product: GPSR Art. 9(5) is disapplied by Art. 2(1)(b) because Reg. (EU) 1007/2011 is Union harmonisation legislation, and that Regulation requires no identifier. ESPR Art. 27(5) will require a type, batch or serial number or other identifying element once a textile delegated act applies — any one of them, so a batch number as such never becomes mandatory.",
+        "obligations": []
       },
       "aiHints": {
         "alternateNames": [
@@ -599,19 +584,12 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
+        "article": "GPSR Art. 19(a)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "Art. 19(a)",
         "kind": "legislation",
-        "description": "GPSR Art. 9(6) puts the manufacturer's name and addresses on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "description": "For distance sales only: the online offer must give the manufacturer's name and postal and electronic address. Textile products are subject to Reg. (EU) 1007/2011, Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I, item 40), so GPSR Art. 2(1)(b) disapplies Chapter III Section 1 in full, including the Art. 9(6) on-product duty; Reg. 1007/2011 requires no manufacturer identification. No adopted act creates a passport for this category.",
         "obligations": [
-          {
-            "instrument": "32023R0988",
-            "provision": "Art. 9(6)",
-            "carrier": "product",
-            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
-            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
-          },
           {
             "instrument": "32023R0988",
             "provision": "Art. 19(a)",
@@ -724,19 +702,12 @@
       "sortOrder": 6,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "GPSR Art. 9(6)",
+        "article": "GPSR Art. 19(a)",
         "instrument": "32023R0988",
-        "provision": "Art. 9(6)",
+        "provision": "Art. 19(a)",
         "kind": "legislation",
-        "description": "GPSR Art. 9(6) puts the manufacturer's postal and electronic address on consumer products, and Art. 19(a) in online offers. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "description": "For distance sales only: the online offer must give the manufacturer's postal and electronic address. Textile products are subject to Reg. (EU) 1007/2011, Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I, item 40), so GPSR Art. 2(1)(b) disapplies Chapter III Section 1 in full, including the Art. 9(6) on-product duty; Reg. 1007/2011 requires no manufacturer identification. No adopted act creates a passport for this category.",
         "obligations": [
-          {
-            "instrument": "32023R0988",
-            "provision": "Art. 9(6)",
-            "carrier": "product",
-            "condition": "consumer products outside Union harmonisation legislation (GPSR Art. 2(1)(b) switches Art. 9 off for products under sector law)",
-            "quote": "Manufacturers shall indicate their name, their registered trade name or registered trade mark, their postal and electronic address"
-          },
           {
             "instrument": "32023R0988",
             "provision": "Art. 19(a)",
@@ -816,7 +787,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 29(3)(a) requires importers of products covered by an Art. 4 delegated act to give their name and contact details on the public part of the passport; the textile act is planned (working plan COM(2025) 187: 2027) and not adopted."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -848,11 +822,11 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 11(3)",
-        "instrument": "32023R0988",
-        "provision": "Art. 11(3) — importer identity, only where there is an EU importer",
+        "article": "ESPR Art. 29(3)(a)",
+        "instrument": "32024R1781",
+        "provision": "Art. 29(3)(a); Annex III(j)",
         "kind": "legislation",
-        "description": "Conditional: no EU importer, no duty. Marked required unconditionally, it demands data that does not exist for a domestic manufacturer."
+        "description": "No EU law requires importer identification on a textile product today: GPSR Art. 11(3) sits in Chapter III Section 1, which Art. 2(1)(b) disapplies because Reg. (EU) 1007/2011 is Union harmonisation legislation, and Reg. 1007/2011 Art. 15(1) makes the importer answer for the label's accuracy without requiring its identity."
       },
       "aiHints": {
         "alternateNames": [
@@ -924,7 +898,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Art. 29(3)(a) requires importers of products covered by an Art. 4 delegated act to give their name and contact details on the public part of the passport; the textile act is planned (working plan COM(2025) 187: 2027) and not adopted."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -956,11 +933,11 @@
       "sortOrder": 8,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "GPSR Art. 11(3)",
-        "instrument": "32023R0988",
-        "provision": "Art. 11(3) — importer address, only where there is an EU importer",
+        "article": "ESPR Art. 29(3)(a)",
+        "instrument": "32024R1781",
+        "provision": "Art. 29(3)(a); Annex III(j)",
         "kind": "legislation",
-        "description": "Conditional: no EU importer, no duty."
+        "description": "No EU law requires importer identification on a textile product today: GPSR Art. 11(3) sits in Chapter III Section 1, which Art. 2(1)(b) disapplies because Reg. (EU) 1007/2011 is Union harmonisation legislation, and Reg. 1007/2011 Art. 15(1) makes the importer answer for the label's accuracy without requiring its identity."
       },
       "aiHints": {
         "alternateNames": [
@@ -1031,7 +1008,10 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "anticipated": true,
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "ESPR Annex III(k) lists the EU responsible operator's name, contact details and identifier among the data a textile delegated act under Art. 4 may put in the passport (working plan COM(2025) 187: 2027); none is adopted."
       },
       "category": "general_info",
       "categoryLabel": {
@@ -1063,11 +1043,11 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 16(1), (3)",
-        "instrument": "32023R0988",
-        "provision": "Art. 16(1), (3)",
+        "article": "ESPR Art. 9(2)",
+        "instrument": "32024R1781",
+        "provision": "Art. 9(2)(a)",
         "kind": "legislation",
-        "description": "GPSR Art. 16(1) requires an EU-established responsible economic operator; Art. 16(3) requires its name and contact details, including postal and electronic address, on the product, its packaging, the parcel or an accompanying document. It is not a passport requirement. It does NOT rest on Reg. (EU) 2019/1020 Art. 4 — textiles are not on the Art. 4(5) list."
+        "description": "Nothing requires an EU responsible person for a textile product today: GPSR Art. 16 sits in Chapter III Section 1, which Art. 2(1)(b) disapplies because Reg. (EU) 1007/2011 is Union harmonisation legislation, and Reg. (EU) 2019/1020 Art. 4 covers only the acts listed in its Art. 4(5), which do not include it. GPSR Art. 19(b) therefore has no responsible person to name in an online offer."
       },
       "aiHints": {
         "alternateNames": [
@@ -1175,7 +1155,7 @@
         "instrument": "32023R0988",
         "provision": "Art. 19(c)",
         "kind": "legislation",
-        "description": "No law requires a product name as such: GPSR Art. 9(5) requires an identifying element on consumer products, and Art. 19(c) product identification in an online offer. No adopted act creates a passport for this category, so nothing here is passport-mandatory.",
+        "description": "No law requires a product name as such. For distance sales, an online offer must carry information identifying the product, including its type and any other identifier; GPSR Art. 9(5) does not apply to textiles, which Art. 2(1)(b) removes from Chapter III Section 1 as products under Reg. (EU) 1007/2011. No adopted act creates a passport for this category.",
         "obligations": [
           {
             "instrument": "32023R0988",

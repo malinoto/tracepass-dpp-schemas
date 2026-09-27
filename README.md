@@ -40,7 +40,7 @@ this repository contains.
 ## What's in here
 
 Thirteen JSON files, one per product category. **987 fields in total. 65 are required by
-a law that creates a passport; 220 are anticipated under a rule that has not yet been adopted.**
+a law that creates a passport; 223 are anticipated under a rule that has not yet been adopted.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
 

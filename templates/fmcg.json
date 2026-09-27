@@ -2111,11 +2111,11 @@
       "sortOrder": 12,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(5); REACH Art. 33",
+        "article": "ESPR Art. 7(5); REACH Art. 31(3)(b), Art. 33",
         "instrument": "32024R1781",
         "provision": "Art. 7(5)(a)–(d)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "No adopted act requires this in a passport, and none is planned: substance-of-concern tracking binds only through an ESPR Art. 4 delegated act, the 2025–2030 working plan (COM(2025) 187) schedules none for detergents, cosmetics or other FMCG, and food is outside ESPR altogether (Art. 1(2)(a)). Today candidate-list substances above 0.1% w/w are communicated under REACH — Art. 33 for articles, and a safety data sheet on request under Art. 31(3)(b) for unclassified mixtures other than finished cosmetics, which Art. 2(6)(b) exempts."
       },
       "aiHints": {
         "alternateNames": [

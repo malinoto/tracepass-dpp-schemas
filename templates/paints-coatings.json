@@ -1505,11 +1505,11 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17(1)(a); GPSR Art. 9(6)",
+        "article": "CLP Art. 17(1)(a); REACH Annex II 1.3",
         "instrument": "32008R1272",
         "provision": "Art. 17(1)(a)",
         "kind": "legislation",
-        "description": "CLP Art. 17(1)(a) names the supplier on the label of classified mixtures, and GPSR Art. 9(6) the manufacturer on consumer products. Marking duties, not passport data; paints carry no passport duty."
+        "description": "CLP Art. 17(1)(a) names the supplier on the label of mixtures classified as hazardous, and REACH Annex II section 1.3 on the safety data sheet. GPSR Art. 9(6) does not apply: CLP and the Decopaint Directive are Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I), so GPSR Art. 2(1)(b) disapplies Chapter III Section 1. Marking duties, not passport data; paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -1613,11 +1613,11 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17(1)(a); GPSR Art. 9(6)",
+        "article": "CLP Art. 17(1)(a); REACH Annex II 1.3",
         "instrument": "32008R1272",
         "provision": "Art. 17(1)(a)",
         "kind": "legislation",
-        "description": "CLP Art. 17(1)(a) names the supplier on the label of classified mixtures, and GPSR Art. 9(6) the manufacturer on consumer products. Marking duties, not passport data; paints carry no passport duty."
+        "description": "CLP Art. 17(1)(a) names the supplier on the label of mixtures classified as hazardous, and REACH Annex II section 1.3 on the safety data sheet. GPSR Art. 9(6) does not apply: CLP and the Decopaint Directive are Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I), so GPSR Art. 2(1)(b) disapplies Chapter III Section 1. Marking duties, not passport data; paints carry no passport duty."
       },
       "aiHints": {
         "alternateNames": [
@@ -2047,11 +2047,11 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "CLP Art. 17(1)(a); REACH Annex II 1.3",
+        "instrument": "32008R1272",
+        "provision": "Art. 17(1)(a)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Conditional on the importer being the supplier placing the mixture on the market: CLP requires the supplier's name, address and telephone number on the label of a mixture classified as hazardous, and REACH Annex II section 1.3 on its safety data sheet; an unclassified paint carries no such duty. GPSR Art. 11(3) does not apply, because CLP and the Decopaint Directive are Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I) and GPSR Art. 2(1)(b) disapplies Chapter III Section 1. ESPR is no basis: the 2025–2030 working plan (COM(2025) 187) leaves paints out."
       },
       "aiHints": {
         "alternateNames": [
@@ -2154,11 +2154,11 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 9",
-        "instrument": "32024R1781",
-        "provision": "Article 9",
+        "article": "CLP Art. 17(1)(a); REACH Annex II 1.3",
+        "instrument": "32008R1272",
+        "provision": "Art. 17(1)(a)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "Conditional on the importer being the supplier placing the mixture on the market: CLP requires the supplier's name, address and telephone number on the label of a mixture classified as hazardous, and REACH Annex II section 1.3 on its safety data sheet; an unclassified paint carries no such duty. GPSR Art. 11(3) does not apply, because CLP and the Decopaint Directive are Union harmonisation legislation (Reg. (EU) 2019/1020 Annex I) and GPSR Art. 2(1)(b) disapplies Chapter III Section 1. ESPR is no basis: the 2025–2030 working plan (COM(2025) 187) leaves paints out."
       },
       "aiHints": {
         "alternateNames": [
