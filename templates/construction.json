@@ -3392,7 +3392,7 @@
           "water footprint",
           "water scarcity"
         ],
-        "expectedFormat": "Numeric value in m3 world eq.",
+        "expectedFormat": "Numeric value in m³ world eq.",
         "extractionPriority": 6
       }
     },

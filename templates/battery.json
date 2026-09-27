@@ -8328,7 +8328,12 @@
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -8358,7 +8363,7 @@
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
       "sortOrder": 62,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "article": "Battery Regulation Annex XIII 4(b) with Annex VII Part A(4)",
         "annex": "Annex XIII",
@@ -11436,12 +11441,21 @@
       "sortOrder": 87,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": null,
-        "instrument": null,
-        "provision": null,
-        "kind": "specification",
-        "article": null,
-        "description": "GEFEG BatteryPass-Ready data model — required for LMT and stationary industrial >2kWh, not defined for EV. No corresponding data point in the Commission's Annex XIII list (DG GROW v1.0, 28 Jul 2026)."
+        "article": "Battery Regulation Annex XIII 4(b) with Annex VII Part B(3)",
+        "annex": "Annex VII",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(b) with Annex VII Part B(3)",
+        "kind": "legislation",
+        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries, so it is conditional on the battery type, not required.",
+        "obligations": [
+          {
+            "instrument": "32023R1542",
+            "provision": "Annex XIII 4(b) with Annex VII Part B(3)",
+            "carrier": "passport",
+            "condition": "stationary battery energy storage systems and LMT batteries only (Art. 14(1); Annex VII Part B)",
+            "quote": "the capacity throughput;"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11556,12 +11570,21 @@
       "sortOrder": 88,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": null,
-        "instrument": null,
-        "provision": null,
-        "kind": "specification",
-        "article": null,
-        "description": "GEFEG BatteryPass-Ready data model — required for LMT and stationary industrial >2kWh, not defined for EV. No corresponding data point in the Commission's Annex XIII list (DG GROW v1.0, 28 Jul 2026)."
+        "article": "Battery Regulation Annex XIII 4(b) with Annex VII Part B(2)",
+        "annex": "Annex VII",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(b) with Annex VII Part B(2)",
+        "kind": "legislation",
+        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries, so it is conditional on the battery type, not required.",
+        "obligations": [
+          {
+            "instrument": "32023R1542",
+            "provision": "Annex XIII 4(b) with Annex VII Part B(2)",
+            "carrier": "passport",
+            "condition": "stationary battery energy storage systems and LMT batteries only (Art. 14(1); Annex VII Part B)",
+            "quote": "the energy throughput;"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
