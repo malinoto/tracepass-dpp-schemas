@@ -50,11 +50,11 @@ recorded per field in `regulationRef.obligations` instead of being marked requir
 | `construction` | 49 | 0 | CPR (EU) 2024/3110 |
 | `detergents` | 76 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |
-| `fmcg` | 42 | 0 | ESPR (EU) 2024/1781 |
+| `fmcg` | 42 | 0 | none scheduled (ESPR could apply; not in the working plan) |
 | `furniture` | 79 | 0 | ESPR (EU) 2024/1781 |
-| `jewelry` | 53 | 0 | ESPR (EU) 2024/1781 |
+| `jewelry` | 53 | 0 | none scheduled (ESPR could apply; not in the working plan) |
 | `packaging` | 64 | 0 | PPWR (EU) 2025/40 |
-| `paints-coatings` | 65 | 0 | Directive 2004/42/EC |
+| `paints-coatings` | 65 | 0 | none scheduled (VOC limits: Directive 2004/42/EC) |
 | `steel` | 84 | 0 | ESPR (EU) 2024/1781 |
 | `textile` | 60 | 0 | ESPR (EU) 2024/1781 |
 | `toys` | 42 | 15 | Regulation (EU) 2025/2509 |

@@ -29,13 +29,11 @@
   "version": 2,
   "isLatest": true,
   "regulation": {
-    "name": "EU ESPR - FMCG",
+    "name": "EU ESPR - FMCG (no passport act adopted or scheduled)",
     "number": "(EU) 2024/1781",
-    "effectiveDate": "2028-01-01",
-    "datePrecision": "year",
-    "mandatoryDate": "2030-01-01",
-    "mandatoryDatePrecision": "year",
-    "dateBasis": "indicative"
+    "effectiveDate": "9999-12-31",
+    "mandatoryDate": "9999-12-31",
+    "dateBasis": "none"
   },
   "fields": [
     {

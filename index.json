@@ -89,13 +89,11 @@
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 3,
       "regulation": {
-        "name": "EU ESPR - FMCG",
+        "name": "EU ESPR - FMCG (no passport act adopted or scheduled)",
         "number": "(EU) 2024/1781",
-        "effectiveDate": "2028-01-01",
-        "datePrecision": "year",
-        "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year",
-        "dateBasis": "indicative"
+        "effectiveDate": "9999-12-31",
+        "mandatoryDate": "9999-12-31",
+        "dateBasis": "none"
       }
     },
     {
@@ -125,13 +123,11 @@
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {
-        "name": "EU ESPR - Jewelry",
+        "name": "EU ESPR - Jewelry (no passport act adopted or scheduled)",
         "number": "(EU) 2024/1781",
-        "effectiveDate": "2030-01-01",
-        "datePrecision": "year",
-        "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year",
-        "dateBasis": "indicative"
+        "effectiveDate": "9999-12-31",
+        "mandatoryDate": "9999-12-31",
+        "dateBasis": "none"
       }
     },
     {
@@ -161,11 +157,11 @@
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {
-        "name": "Decopaint Directive",
+        "name": "Decopaint Directive (no passport act adopted or scheduled)",
         "number": "2004/42/EC",
-        "effectiveDate": "2010-01-01",
-        "mandatoryDate": "2010-01-01",
-        "dateBasis": "indicative"
+        "effectiveDate": "9999-12-31",
+        "mandatoryDate": "9999-12-31",
+        "dateBasis": "none"
       }
     },
     {

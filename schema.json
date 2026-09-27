@@ -96,10 +96,11 @@
           "type": "string",
           "enum": [
             "statutory",
-            "indicative"
+            "indicative",
+            "none"
           ],
           "default": "statutory",
-          "description": "Whether effectiveDate and mandatoryDate rest on an ADOPTED instrument. \"statutory\" = the date is fixed by a provision in force and can be cited (battery: 2027-02-18, Reg (EU) 2023/1542 Art. 77(1)). \"indicative\" = NO adopted act sets it; the value is a planning target taken from the Commission's working plan, and no legal deadline exists for the category yet. Every ESPR (EU) 2024/1781 category is indicative, because ESPR creates DPP obligations only through delegated acts adopted under Art. 4 and none has been adopted for any product group. This is a stronger statement than datePrecision: \"year\" means the day/month are filler, while \"indicative\" means the whole date has no legal force. Never present an indicative date to an end user as a deadline, and never cite it as an obligation."
+          "description": "Whether effectiveDate and mandatoryDate rest on an ADOPTED instrument. \"statutory\" = the date is fixed by a provision in force and can be cited (battery: 2027-02-18, Reg (EU) 2023/1542 Art. 77(1)). \"indicative\" = NO adopted act sets it; the value is a planning target taken from the Commission's working plan, and no legal deadline exists for the category yet. Every ESPR (EU) 2024/1781 category is indicative, because ESPR creates DPP obligations only through delegated acts adopted under Art. 4 and none has been adopted for any product group. This is a stronger statement than datePrecision: \"year\" means the day/month are filler, while \"indicative\" means the whole date has no legal force. Never present an indicative date to an end user as a deadline, and never cite it as an obligation. \"none\" = no adopted act creates a passport for this category and none is scheduled (not in the ESPR working plan, no legal deadline); a passport is voluntary. effectiveDate and mandatoryDate then carry the sentinel 9999-12-31 only because they are required fields: they mean nothing and MUST NOT be presented, compared or used."
         }
       }
     },
