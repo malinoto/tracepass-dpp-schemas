@@ -362,7 +362,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -472,7 +472,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -582,7 +582,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1030,10 +1030,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Anticipated DPP content under ESPR Art. 9(2)/Annex III"
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1070,7 +1067,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and no scheduled measure covers it: the ESPR working plan COM(2025) 187 reaches electronics only through horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029) — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1143,10 +1140,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Plausible DPP content under Annex III, but not enumerated by Art. 9(2) and not mandated absent a delegated act under Art. 4."
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1183,7 +1177,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and no scheduled measure covers it: the ESPR working plan COM(2025) 187 reaches electronics only through horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029) — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1256,10 +1250,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Country of manufacture is plausible Annex III identifying content, pending a delegated act."
+        "required": false
       },
       "category": "product_id",
       "categoryLabel": {
@@ -1296,7 +1287,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and no scheduled measure covers it: the ESPR working plan COM(2025) 187 reaches electronics only through horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029) — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1406,7 +1397,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1782,7 +1773,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1892,7 +1883,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -2001,7 +1992,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -2110,7 +2101,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -2455,7 +2446,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -2782,7 +2773,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -3960,10 +3951,7 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Carbon/environmental footprint is an ESPR Annex I(f) parameter a delegated act may require; none is in force for electronics."
+        "min": 0
       },
       "category": "sustainability",
       "categoryLabel": {
@@ -4000,7 +3988,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and no scheduled measure covers it: the ESPR working plan COM(2025) 187 reaches electronics only through horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029) — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -4594,7 +4582,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -4703,7 +4691,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6690,8 +6678,8 @@
       "validation": {
         "required": false,
         "anticipated": true,
-        "anticipatedUnder": "32023R1670",
-        "anticipatedNote": "Spare-parts availability lists are mandated for specific ecodesign groups (e.g. smartphones/tablets 2023/1670; displays 2019/2021) under Dir 2009/125, not ESPR, and only for those groups. The '15 for professionals, 5 for end-users' figures come from the smartphone act."
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated under the scheduled ESPR horizontal repairability measure (COM(2025) 187: 2027; initiative 17873 scope: consumer electronics, small household appliances, light means of transport). Reg. (EU) 2023/1670 already applies but requires the list on a free-access website, not in a passport."
       },
       "category": "repairability",
       "categoryLabel": {
@@ -6803,8 +6791,8 @@
         "required": false,
         "min": 7,
         "anticipated": true,
-        "anticipatedUnder": "32023R1670",
-        "anticipatedNote": "A minimum spare-parts availability period (e.g. 7 years after last unit) is set by ecodesign acts for specific groups (smartphones/tablets 2023/1670, displays 2019/2021) under Dir 2009/125, not ESPR."
+        "anticipatedUnder": "32024R1781",
+        "anticipatedNote": "Anticipated under the scheduled ESPR horizontal repairability measure (COM(2025) 187: 2027). Reg. (EU) 2023/1670 already imposes a 7-year spare-parts availability duty, discharged by supplying parts rather than by a passport datum."
       },
       "category": "repairability",
       "categoryLabel": {
@@ -7058,7 +7046,7 @@
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: Reg. 2023/1670."
       },
       "aiHints": {
         "alternateNames": [
@@ -17380,7 +17368,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
       },
       "aiHints": {
         "alternateNames": [
@@ -17490,7 +17478,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
       },
       "aiHints": {
         "alternateNames": [
@@ -17818,7 +17806,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
       },
       "aiHints": {
         "alternateNames": [
@@ -17928,7 +17916,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
       },
       "aiHints": {
         "alternateNames": [
@@ -18175,10 +18163,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "WEEE 2012/19 Annex III defines six EEE categories (from 15 Aug 2018) used for reporting, but no rule requires publishing the category number in a DPP; the numbers '1-6' match Annex III."
+        "required": false
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -18395,10 +18380,7 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "min": 0,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Product mass is plausible Annex III/technical DPP content a delegated act may include, but nothing in force mandates it as a passport field."
+        "min": 0
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -19310,7 +19292,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and ESPR measures reach electronics only through scheduled horizontal acts on repairability (2027) and on recycled content and recyclability of electrical and electronic equipment (2029), so whether one will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Operative instrument for this field: ESPR 2024/1781."
       },
       "aiHints": {
         "alternateNames": [

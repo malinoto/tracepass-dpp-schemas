@@ -414,11 +414,11 @@
             },
             "anticipated": {
               "type": "boolean",
-              "description": "A named future instrument is expected to require this data, and none in force does. Does not block publishing. Never set alongside `required: true`."
+              "description": "A named future instrument is expected to require this data, and none in force does. Expected means one of two things: (1) an act IN FORCE requires the data, but when or how it applies waits on a further act (a delegated or implementing act) that has not been adopted, so there is no fixed date (an act in force that compels the data from a fixed date, even a future one, makes the field `required`); or (2) the Commission has SCHEDULED an act covering this product group, in the ESPR working plan or by a legal deadline in a regulation. That an empowering framework such as ESPR could in principle reach the product does not qualify. Does not block publishing. Never set alongside `required: true`."
             },
             "anticipatedUnder": {
               "type": "string",
-              "description": "CELEX id of the instrument expected to impose it, e.g. \"32024R1781\"."
+              "description": "CELEX id of the instrument expected to impose it: the adopted act in case (1), or the empowering instrument whose scheduled act will (e.g. \"32024R1781\" for a product group in the ESPR working plan) in case (2)."
             },
             "anticipatedNote": {
               "type": "string",

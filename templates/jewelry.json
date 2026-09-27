@@ -98,10 +98,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "A future jewellery DPP delegated act under ESPR Art. 4 would specify a unique product identifier; data content framed by Annex III. ESPR Art. 9(2) does not itself enumerate this field and mandates nothing absent a delegated act, of which none exists for jewellery (not an ESPR priority group)."
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -137,7 +134,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -650,10 +647,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Product-type classification is standard DPP metadata a future ESPR delegated act (Annex III) would specify; not mandated today, Art. 9(2) lists no fields."
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -689,7 +683,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -798,7 +792,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -907,7 +901,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1230,10 +1224,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Country of the registered economic operator is anticipated DPP data under a future ESPR delegated act (Annex III); not mandated today by Art. 9(2)."
+        "required": false
       },
       "category": "product_identity",
       "categoryLabel": {
@@ -1269,7 +1260,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -1377,7 +1368,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -2249,7 +2240,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -5847,7 +5838,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -5958,7 +5949,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6068,7 +6059,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6140,10 +6131,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
+        "required": false
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -6177,7 +6165,7 @@
       "regulationRef": {
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6251,10 +6239,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
+        "required": false
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -6288,7 +6273,7 @@
       "regulationRef": {
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6361,10 +6346,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
+        "required": false
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -6398,7 +6380,7 @@
       "regulationRef": {
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6471,10 +6453,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
+        "required": false
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -6508,7 +6487,7 @@
       "regulationRef": {
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6581,10 +6560,7 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Pending a product-group delegated act under ESPR Art. 4; no instrument in force compels this."
+        "required": false
       },
       "category": "care_end_of_life",
       "categoryLabel": {
@@ -6618,7 +6594,7 @@
       "regulationRef": {
         "instrument": "32024R1781",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -7155,7 +7131,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -7373,10 +7349,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "ESPR Art. 9 addresses the DPP data carrier, but the specific carrier requirement only takes effect once a jewellery delegated act under Art. 4 exists — none does. Provision is cited correctly in substance but imposes nothing today."
+        "required": false
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -7412,7 +7385,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(3)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -7639,7 +7612,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(3)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -7801,10 +7774,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "ESPR Art. 9 governs access rights/levels to DPP data, but concrete access requirements are set per product group by a delegated act under Art. 4, none adopted for jewellery. Cited provision is substantively right but not operative today."
+        "required": false
       },
       "category": "passport_metadata",
       "categoryLabel": {
@@ -7840,7 +7810,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(4)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled: jewellery is not in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [

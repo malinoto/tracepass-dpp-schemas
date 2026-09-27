@@ -2417,7 +2417,8 @@
         "maxLength": 2048,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "labels_markings",
       "categoryLabel": {
@@ -2449,9 +2450,9 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 7(3)",
+        "article": "Battery Regulation Art. 7(2)",
         "instrument": "32023R1542",
-        "provision": "Art. 7(3)",
+        "provision": "Art. 7(2)",
         "kind": "legislation",
         "description": "Art. 7(1) requires a carbon footprint declaration and Annex XIII 1(c) carries that information into the passport, but the declaration's format and the calculation methodology come from a delegated act that is not adopted. The label form in particular does not yet exist to be produced."
       },
@@ -3035,7 +3036,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3153,7 +3155,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3270,7 +3273,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3386,7 +3390,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3503,7 +3508,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3824,7 +3830,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3942,7 +3949,8 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted."
+        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
       "categoryLabel": {
@@ -3974,11 +3982,11 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)(g)",
         "instrument": "32023R1542",
-        "provision": "Art. 7(1)",
+        "provision": "Art. 7(1)(g)",
         "kind": "legislation",
-        "description": "The supporting study is the evidence behind the Art. 7(1) declaration rather than a declared Annex XIII item. Publishing a link is voluntary transparency."
+        "description": "Art. 7(1)(g) puts a web link to the public version of the study supporting the carbon footprint values into the carbon footprint declaration, which Annex XIII 1(c) carries into the passport; the declaration's methodology and format await acts that are not adopted."
       },
       "aiHints": {
         "alternateNames": [
@@ -4058,7 +4066,8 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4095,7 +4104,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
         "kind": "legislation",
-        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but Art. 52 applies from 18 Aug 2027 and the report is due in the passport from Aug 2028, later than the passport itself."
+        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but the due diligence obligations apply from 18 Aug 2027 (Art. 48(1) as amended by Reg. (EU) 2025/1561), and the Commission's data-points guidance v2.0 (DP 19) puts the report in the passport from Aug 2028, later than the passport itself."
       },
       "aiHints": {
         "alternateNames": [
@@ -4173,9 +4182,7 @@
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$",
-        "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
+        "pattern": "^https?://.*$"
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -4291,7 +4298,8 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561)."
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "supply_chain",
       "categoryLabel": {
@@ -5289,7 +5297,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5405,7 +5414,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5521,7 +5531,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -5637,7 +5648,8 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies."
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -6617,7 +6629,8 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027 pending the Art. 8 delegated act. Required when those shares become required."
+        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027 pending the Art. 8 delegated act. Required when those shares become required.",
+        "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
       "categoryLabel": {

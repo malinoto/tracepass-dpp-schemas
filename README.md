@@ -40,7 +40,7 @@ this repository contains.
 ## What's in here
 
 Thirteen JSON files, one per product category. **987 fields in total. 65 are required by
-a law that creates a passport; 223 are anticipated under a rule that has not yet been adopted.**
+a law that creates a passport; 176 are anticipated under a rule that has not yet been adopted.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
 
@@ -79,6 +79,19 @@ framework: it mandates no field directly, and every Digital Product Passport obl
 flows through a delegated act adopted under its Article 4. No product-group delegated act
 has been adopted. Fields expected under a future act carry `validation.anticipated`
 rather than `required`, with the CELEX of the instrument expected to impose them.
+
+**`anticipated` needs a concrete basis.** Either an act in force requires the data but when
+or how it applies waits on a further act that isn't adopted, so there's no fixed date (the
+battery carbon-footprint fields waiting on their delegated act); or the Commission has
+scheduled an act for the product group. An act in force that compels the data from a fixed
+date, even a future one, makes the field `required` (the battery, detergents and toy
+passports). The ESPR working plan COM(2025) 187 schedules textiles, furniture, tyres,
+mattresses, iron and steel, aluminium, and horizontal requirements for electrical and
+electronic equipment. Where a group is covered only by horizontal acts for specific aspects (electronics:
+repairability, recycled content and recyclability), only the passport mechanics and fields
+within those aspects are anticipated. That ESPR *could* reach a product doesn't qualify. The working plan
+leaves detergents, paints and lubricants out, so those templates carry no ESPR-anticipated
+fields; their passport duties come from their own acts, where one exists.
 
 **An obligation does not always apply uniformly across a category.** Where the governing
 instrument distinguishes sub-categories, the field carries `validation.requiredBy` — a map

@@ -392,10 +392,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for FMCG; none is adopted. ESPR Art. 9(2) — previously cited as the mandate — lists what a delegated act must specify, not product data, so no obligation exists yet."
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -431,7 +428,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -504,10 +501,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Anticipated as DPP identifier content under ESPR Art. 9(2)/Annex III. GS1 GTIN is a voluntary standard, not law."
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -543,7 +537,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text.",
         "standards": [
           "ISO/IEC 15459"
         ]
@@ -825,10 +819,7 @@
         }
       ],
       "validation": {
-        "required": false,
-        "anticipated": true,
-        "anticipatedUnder": "32024R1781",
-        "anticipatedNote": "Anticipated under an ESPR Art. 4 delegated act for FMCG; none is adopted. ESPR Art. 9(2) — previously cited as the mandate — lists what a delegated act must specify, not product data, so no obligation exists yet."
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -864,7 +855,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -3377,7 +3368,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -3487,7 +3478,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text.",
         "standards": [
           "ISO 14046"
         ]
@@ -5891,7 +5882,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text."
       },
       "aiHints": {
         "alternateNames": [
@@ -6682,7 +6673,7 @@
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
-        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
+        "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and none is scheduled in the ESPR working plan COM(2025) 187 — so this field is optional. Verified against the EUR-Lex text.",
         "standards": [
           "ISO/IEC 15459"
         ]

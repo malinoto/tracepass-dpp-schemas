@@ -9,7 +9,7 @@
     "categories": 13,
     "fields": 987,
     "requiredFields": 65,
-    "anticipatedFields": 223
+    "anticipatedFields": 176
   },
   "categories": [
     {
@@ -19,7 +19,7 @@
       "version": 5,
       "fieldCount": 120,
       "requiredFieldCount": 38,
-      "anticipatedFieldCount": 16,
+      "anticipatedFieldCount": 15,
       "regulation": {
         "name": "EU Battery Regulation",
         "number": "(EU) 2023/1542",
@@ -53,7 +53,7 @@
       "version": 1,
       "fieldCount": 76,
       "requiredFieldCount": 12,
-      "anticipatedFieldCount": 10,
+      "anticipatedFieldCount": 4,
       "regulation": {
         "name": "Detergents Regulation",
         "number": "(EU) 2026/405",
@@ -69,7 +69,7 @@
       "version": 2,
       "fieldCount": 160,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 19,
+      "anticipatedFieldCount": 13,
       "regulation": {
         "name": "EU ESPR - Electronics",
         "number": "(EU) 2024/1781",
@@ -87,7 +87,7 @@
       "version": 2,
       "fieldCount": 42,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 6,
+      "anticipatedFieldCount": 3,
       "regulation": {
         "name": "EU ESPR - FMCG",
         "number": "(EU) 2024/1781",
@@ -123,7 +123,7 @@
       "version": 2,
       "fieldCount": 53,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 10,
+      "anticipatedFieldCount": 0,
       "regulation": {
         "name": "EU ESPR - Jewelry",
         "number": "(EU) 2024/1781",
@@ -141,7 +141,7 @@
       "version": 2,
       "fieldCount": 64,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 29,
+      "anticipatedFieldCount": 28,
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",
@@ -159,7 +159,7 @@
       "version": 1,
       "fieldCount": 65,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 12,
+      "anticipatedFieldCount": 0,
       "regulation": {
         "name": "Decopaint Directive",
         "number": "2004/42/EC",
@@ -175,7 +175,7 @@
       "version": 2,
       "fieldCount": 84,
       "requiredFieldCount": 0,
-      "anticipatedFieldCount": 27,
+      "anticipatedFieldCount": 26,
       "regulation": {
         "name": "EU ESPR - Iron, Steel & Aluminium",
         "number": "(EU) 2024/1781",
@@ -211,7 +211,7 @@
       "version": 2,
       "fieldCount": 42,
       "requiredFieldCount": 15,
-      "anticipatedFieldCount": 7,
+      "anticipatedFieldCount": 0,
       "regulation": {
         "name": "Toy Safety Regulation",
         "number": "(EU) 2025/2509",
