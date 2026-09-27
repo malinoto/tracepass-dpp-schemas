@@ -133,7 +133,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -247,7 +247,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -357,7 +357,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -467,7 +467,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -577,7 +577,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -689,7 +689,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "UCC Art. 57",
+        "article": "Union Customs Code Art. 57",
         "annex": "Annex III",
         "instrument": "32013R0952",
         "provision": "Reg. (EU) 952/2013 (UCC) — customs classification declared by the declarant at import",
@@ -1065,7 +1065,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1178,7 +1178,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1291,7 +1291,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1401,7 +1401,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1512,7 +1512,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011L0065 Art. 7(h)",
+        "article": "RoHS Art. 7(h)",
         "instrument": "32011L0065",
         "provision": "Art. 7(h)",
         "kind": "legislation",
@@ -1645,7 +1645,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011L0065 Art. 7(h)",
+        "article": "RoHS Art. 7(h)",
         "instrument": "32011L0065",
         "provision": "Art. 7(h)",
         "kind": "legislation",
@@ -1777,7 +1777,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1887,7 +1887,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1996,7 +1996,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -2105,7 +2105,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -2325,7 +2325,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011L0065 Art. 15(1)",
+        "article": "RoHS Art. 15(1)",
         "instrument": "32011L0065",
         "provision": "Art. 15(1)",
         "kind": "legislation",
@@ -2450,7 +2450,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -2777,7 +2777,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -3091,7 +3091,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -3346,7 +3346,7 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex II point C (Table 4) + Annex III label + Annex V item 20",
+        "article": "Smartphone Energy Labelling Annex II point C (Table 4) + Annex III label + Annex V item 20",
         "instrument": "32023R1669",
         "provision": "Annex II, point C, Table 4",
         "kind": "legislation",
@@ -3456,7 +3456,7 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex II point C, Annex IV point 5, Annex V item 21",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex II point C, Annex IV point 5, Annex V item 21",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21",
@@ -3769,7 +3769,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Energy Labelling Arts. 3(1) and 4",
+        "article": "Energy Labelling Regulation Arts. 3(1) and 4",
         "annex": "Annex I",
         "instrument": "32017R1369",
         "provision": "Reg. (EU) 2017/1369 Arts. 3(1) and 4 — physical energy label supplied with the product and EPREL registration",
@@ -3881,7 +3881,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6",
@@ -3995,7 +3995,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -4252,7 +4252,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -4367,7 +4367,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.2(1)(d) / D.2(1)(d)",
+        "article": "Smartphone Ecodesign Annex II point B.2(1)(d) / D.2(1)(d)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.2(1)(d)",
         "kind": "legislation",
@@ -4480,7 +4480,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -4589,7 +4589,7 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -4698,7 +4698,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7",
+        "article": "ESPR Art. 7",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7",
@@ -4808,7 +4808,7 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 8",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex V item 8",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 8",
@@ -4919,7 +4919,7 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 9",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex V item 9",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 9",
@@ -5029,7 +5029,7 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 10",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex V item 10",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 10",
@@ -5138,7 +5138,7 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1542 Art. 11(1)",
+        "article": "Battery Regulation Art. 11(1)",
         "instrument": "32023R1542",
         "provision": "Art. 11(1)",
         "kind": "legislation",
@@ -5392,7 +5392,7 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex II Table 3 + Annex V item 14",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex II Table 3 + Annex V item 14",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 14",
@@ -5501,7 +5501,7 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 15",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex V item 15",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 15",
@@ -5614,7 +5614,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21a",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21a",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21a",
@@ -5725,7 +5725,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21b",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21b",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21b",
@@ -5836,7 +5836,7 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21c",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21c",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21c",
@@ -5947,7 +5947,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21d",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21d",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21d",
@@ -6058,7 +6058,7 @@
       "sortOrder": 45,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21e",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21e",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21e",
@@ -6169,7 +6169,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Annex IV point 5, Annex V item 21f",
+        "article": "Smartphone Energy Labelling Annex IV point 5, Annex V item 21f",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 21f",
@@ -6279,7 +6279,7 @@
       "sortOrder": 48,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(1)",
+        "article": "Smartphone Ecodesign Annex II B.1.2(1)",
         "annex": null,
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.2(1)",
@@ -6389,7 +6389,7 @@
       "sortOrder": 49,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1669 Art. 3(1)(b) + Annex V item 17",
+        "article": "Smartphone Energy Labelling Art. 3(1)(b) + Annex V item 17",
         "annex": null,
         "instrument": "32023R1669",
         "provision": "Annex V, Table 8, item 17",
@@ -6500,7 +6500,7 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
+        "article": "Smartphone Ecodesign Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
         "annex": null,
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.2(4)",
@@ -6611,7 +6611,7 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
+        "article": "Smartphone Ecodesign Annex II B.1.2(4) (smartphones), D.1.2(3) (tablets)",
         "annex": null,
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.2(4)",
@@ -6723,7 +6723,7 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)",
+        "article": "Smartphone Ecodesign Annex II point B.1.1(1)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
@@ -6836,7 +6836,7 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)(a),(c) / D.1.1(1)(a),(c)",
+        "article": "Smartphone Ecodesign Annex II point B.1.1(1)(a),(c) / D.1.1(1)(a),(c)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
@@ -6946,7 +6946,7 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II, point B.1.1(3) (smartphones), D.1.1(3) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II, point B.1.1(3) (smartphones), D.1.1(3) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(3)",
         "kind": "legislation",
@@ -7054,7 +7054,7 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.1.1(1)",
+        "article": "Smartphone Ecodesign Annex II point B.1.1(1)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(1)",
         "kind": "legislation",
@@ -7162,7 +7162,7 @@
       "sortOrder": 56,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II, point B.1.1(4) (smartphones), D.1.1(4) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II, point B.1.1(4) (smartphones), D.1.1(4) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(4)",
         "kind": "legislation",
@@ -7271,7 +7271,7 @@
       "sortOrder": 57,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.2(6)(a)",
         "kind": "legislation",
@@ -7379,7 +7379,7 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II point B.1.2(6)(a) (smartphones), D.1.2(5)(a) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.2(6)(a)",
         "kind": "legislation",
@@ -7487,7 +7487,7 @@
       "sortOrder": 61,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II, point B.1.1(7) (smartphones), D.1.1(7) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II, point B.1.1(7) (smartphones), D.1.1(7) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(7)",
         "kind": "legislation",
@@ -7595,7 +7595,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2023/1670 Annex II, point B.1.1(6)(b) (smartphones), D.1.1(6)(b) (slate tablets)",
+        "article": "Smartphone Ecodesign Annex II, point B.1.1(6)(b) (smartphones), D.1.1(6)(b) (slate tablets)",
         "instrument": "32023R1670",
         "provision": "Annex II, point B.1.1(6)(b)",
         "kind": "legislation",
@@ -7704,7 +7704,7 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR (EU) 2024/1781 Annex I, point (c)",
+        "article": "ESPR Annex I, point (c)",
         "instrument": "32024R1781",
         "provision": "Annex I, point (c)",
         "kind": "legislation",
@@ -7814,7 +7814,7 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -7923,7 +7923,7 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8031,7 +8031,7 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8139,7 +8139,7 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8248,7 +8248,7 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8357,7 +8357,7 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8466,7 +8466,7 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8575,7 +8575,7 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8857,7 +8857,7 @@
       "sortOrder": 72,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -8965,7 +8965,7 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9190,7 +9190,7 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9299,7 +9299,7 @@
       "sortOrder": 75,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9407,7 +9407,7 @@
       "sortOrder": 76,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9515,7 +9515,7 @@
       "sortOrder": 77,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9624,7 +9624,7 @@
       "sortOrder": 78,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9733,7 +9733,7 @@
       "sortOrder": 79,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9842,7 +9842,7 @@
       "sortOrder": 80,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -9951,7 +9951,7 @@
       "sortOrder": 81,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10059,7 +10059,7 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10167,7 +10167,7 @@
       "sortOrder": 83,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10275,7 +10275,7 @@
       "sortOrder": 84,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10382,7 +10382,7 @@
       "sortOrder": 85,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10490,7 +10490,7 @@
       "sortOrder": 86,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10598,7 +10598,7 @@
       "sortOrder": 87,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10705,7 +10705,7 @@
       "sortOrder": 88,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10813,7 +10813,7 @@
       "sortOrder": 89,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Commission Reg (EU) 2019/424 (server & data storage ecodesign)",
+        "article": "Server & Data Storage Ecodesign",
         "instrument": "32019R0424",
         "provision": "Annex II (ecodesign requirements)",
         "kind": "legislation",
@@ -10922,7 +10922,7 @@
       "sortOrder": 90,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V + Annex I",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V + Annex I",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 3",
@@ -11033,7 +11033,7 @@
       "sortOrder": 91,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II A Table 1 + Annex IV",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex II A Table 1 + Annex IV",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 1",
@@ -11142,7 +11142,7 @@
       "sortOrder": 92,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex III item VI + Annex IV",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex III item VI + Annex IV",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 2",
@@ -11251,7 +11251,7 @@
       "sortOrder": 93,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 7",
@@ -11361,7 +11361,7 @@
       "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 9",
@@ -11674,7 +11674,7 @@
       "sortOrder": 95,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II B Table 3 + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex II B Table 3 + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 5",
@@ -11784,7 +11784,7 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 6",
@@ -11895,7 +11895,7 @@
       "sortOrder": 97,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 8",
@@ -12004,7 +12004,7 @@
       "sortOrder": 98,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 4",
@@ -12114,7 +12114,7 @@
       "sortOrder": 99,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 10",
@@ -12224,7 +12224,7 @@
       "sortOrder": 100,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V + Annex III item XI",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V + Annex III item XI",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 12",
@@ -12451,7 +12451,7 @@
       "sortOrder": 101,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex II C + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex II C + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 13",
@@ -12560,7 +12560,7 @@
       "sortOrder": 102,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 14",
@@ -12670,7 +12670,7 @@
       "sortOrder": 103,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2014 Art. 3(1)(b) + Annex V",
+        "article": "Washing Machines Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2014",
         "provision": "Annex V, Table 3, item 15",
@@ -12780,7 +12780,7 @@
       "sortOrder": 104,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 3",
@@ -12890,7 +12890,7 @@
       "sortOrder": 105,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 4",
@@ -13000,7 +13000,7 @@
       "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 5",
@@ -13226,7 +13226,7 @@
       "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 6",
@@ -13336,7 +13336,7 @@
       "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex II + Annex IV point 5",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex II + Annex IV point 5",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 2",
@@ -13561,7 +13561,7 @@
       "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 7",
@@ -13671,7 +13671,7 @@
       "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 9",
@@ -13897,7 +13897,7 @@
       "sortOrder": 112,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex II",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex II",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 10",
@@ -14006,7 +14006,7 @@
       "sortOrder": 113,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex V",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex V",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex V, Table 6, item 8",
@@ -14115,7 +14115,7 @@
       "sortOrder": 114,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg. (EU) 2019/2016 Art. 3(1)(b) + Annex VI",
+        "article": "Refrigerating Appliances Energy Labelling Art. 3(1)(b) + Annex VI",
         "annex": null,
         "instrument": "32019R2016",
         "provision": "Annex VI, technical documentation",
@@ -14224,7 +14224,7 @@
       "sortOrder": 116,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 4",
+        "article": "RoHS Art. 4",
         "instrument": "32011L0065",
         "provision": "RoHS Dir. 2011/65/EU Art. 4(1) — substance restriction evidenced through the DoC and CE marking",
         "kind": "legislation",
@@ -14332,7 +14332,7 @@
       "sortOrder": 117,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Dir. 2011/65/EU (RoHS) Art. 13 and Annex VI",
+        "article": "RoHS Art. 13 and Annex VI",
         "instrument": "32011L0065",
         "provision": "Art. 13",
         "kind": "legislation",
@@ -14442,7 +14442,7 @@
       "sortOrder": 118,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -14552,7 +14552,7 @@
       "sortOrder": 119,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -14662,7 +14662,7 @@
       "sortOrder": 120,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -14772,7 +14772,7 @@
       "sortOrder": 121,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -14882,7 +14882,7 @@
       "sortOrder": 122,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -14990,7 +14990,7 @@
       "sortOrder": 123,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -15098,7 +15098,7 @@
       "sortOrder": 124,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -15207,7 +15207,7 @@
       "sortOrder": 125,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -15315,7 +15315,7 @@
       "sortOrder": 126,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -15423,7 +15423,7 @@
       "sortOrder": 127,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex II (restricted substances)",
+        "article": "RoHS Annex II (restricted substances)",
         "instrument": "32011L0065",
         "provision": "Annex II",
         "kind": "legislation",
@@ -15529,7 +15529,7 @@
       "sortOrder": 128,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "RoHS Directive 2011/65/EU Annex III (exemptions)",
+        "article": "RoHS Annex III (exemptions)",
         "instrument": "32011L0065",
         "provision": "Annex III",
         "kind": "legislation",
@@ -15637,7 +15637,7 @@
       "sortOrder": 129,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 33",
+        "article": "REACH Art. 33",
         "instrument": "32006R1907",
         "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
         "kind": "legislation",
@@ -15746,7 +15746,7 @@
       "sortOrder": 130,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC Art. 9(1)(i)",
+        "article": "Waste Framework Directive Art. 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Art. 9(1)(i)",
         "kind": "legislation",
@@ -15854,7 +15854,7 @@
       "sortOrder": 131,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 33",
+        "article": "REACH Art. 33",
         "instrument": "32006R1907",
         "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
         "kind": "legislation",
@@ -15962,7 +15962,7 @@
       "sortOrder": 132,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CRMA Art. 28",
+        "article": "Critical Raw Materials Act Art. 28",
         "instrument": "32024R1252",
         "provision": "Reg. (EU) 2024/1252 (CRMA) Art. 28 — permanent-magnet information, applicable from 24 May 2029 for covered categories",
         "kind": "legislation",
@@ -16071,7 +16071,7 @@
       "sortOrder": 133,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 28(4)(b)",
+        "article": "Critical Raw Materials Act Art. 28(4)(b)",
         "instrument": "32024R1252",
         "provision": "Art. 28(4)(b)",
         "kind": "legislation",
@@ -16178,7 +16178,7 @@
       "sortOrder": 134,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 28(4)(b)",
+        "article": "Critical Raw Materials Act Art. 28(4)(b)",
         "instrument": "32024R1252",
         "provision": "Art. 28(4)(b)",
         "kind": "legislation",
@@ -16286,7 +16286,7 @@
       "sortOrder": 135,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 28(4)(b)",
+        "article": "Critical Raw Materials Act Art. 28(4)(b)",
         "instrument": "32024R1252",
         "provision": "Art. 28(4)(b)",
         "kind": "legislation",
@@ -16395,7 +16395,7 @@
       "sortOrder": 136,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 28(4)(b)",
+        "article": "Critical Raw Materials Act Art. 28(4)(b)",
         "instrument": "32024R1252",
         "provision": "Art. 28(4)(b)",
         "kind": "legislation",
@@ -16504,7 +16504,7 @@
       "sortOrder": 137,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -16613,7 +16613,7 @@
       "sortOrder": 138,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -16722,7 +16722,7 @@
       "sortOrder": 139,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -16831,7 +16831,7 @@
       "sortOrder": 140,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -16940,7 +16940,7 @@
       "sortOrder": 141,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -17049,7 +17049,7 @@
       "sortOrder": 142,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -17158,7 +17158,7 @@
       "sortOrder": 143,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -17267,7 +17267,7 @@
       "sortOrder": 144,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg. (EU) 2024/1252 (CRMA) Art. 29(1)",
+        "article": "Critical Raw Materials Act Art. 29(1)",
         "instrument": "32024R1252",
         "provision": "Art. 29(1)",
         "kind": "legislation",
@@ -17376,7 +17376,7 @@
       "sortOrder": 146,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7",
+        "article": "ESPR Art. 7",
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
@@ -17486,7 +17486,7 @@
       "sortOrder": 147,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7",
+        "article": "ESPR Art. 7",
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
@@ -17595,7 +17595,7 @@
       "sortOrder": 148,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR (EU) 2024/1781 Annex I, point (h)",
+        "article": "ESPR Annex I, point (h)",
         "instrument": "32024R1781",
         "provision": "Annex I, point (h)",
         "kind": "legislation",
@@ -17704,7 +17704,7 @@
       "sortOrder": 149,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR (EU) 2024/1781 Annex I, point (h)",
+        "article": "ESPR Annex I, point (h)",
         "instrument": "32024R1781",
         "provision": "Annex I, point (h)",
         "kind": "legislation",
@@ -17814,7 +17814,7 @@
       "sortOrder": 150,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7",
+        "article": "ESPR Art. 7",
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
@@ -17924,7 +17924,7 @@
       "sortOrder": 151,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7",
+        "article": "ESPR Art. 7",
         "instrument": "32024R1781",
         "provision": "Art. 7",
         "kind": "legislation",
@@ -18210,7 +18210,7 @@
       "sortOrder": 152,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "WEEE Directive 2012/19/EU Annex III (categories)",
+        "article": "WEEE Annex III (categories)",
         "instrument": "32012L0019",
         "provision": "Annex III",
         "kind": "legislation",
@@ -18318,7 +18318,7 @@
       "sortOrder": 153,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 16",
+        "article": "WEEE Art. 16",
         "instrument": "32012L0019",
         "provision": "WEEE Dir. 2012/19/EU Art. 16(2) — producer registration in each Member State's national register",
         "kind": "legislation",
@@ -18430,7 +18430,7 @@
       "sortOrder": 154,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Dir. 2012/19/EU (WEEE) Art. 16, Annex X Part B(4)",
+        "article": "WEEE Art. 16, Annex X Part B(4)",
         "instrument": "32012L0019",
         "provision": "Annex X, Part B(4)",
         "kind": "legislation",
@@ -18540,7 +18540,7 @@
       "sortOrder": 155,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Dir. 2012/19/EU (WEEE) Art. 15(1)",
+        "article": "WEEE Art. 15(1)",
         "instrument": "32012L0019",
         "provision": "Art. 15(1)",
         "kind": "legislation",
@@ -18648,7 +18648,7 @@
       "sortOrder": 156,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Dir. 2012/19/EU (WEEE) Art. 15(1)",
+        "article": "WEEE Art. 15(1)",
         "instrument": "32012L0019",
         "provision": "Art. 15(1)",
         "kind": "legislation",
@@ -18756,7 +18756,7 @@
       "sortOrder": 157,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Dir. 2012/19/EU (WEEE) Art. 15(1)",
+        "article": "WEEE Art. 15(1)",
         "instrument": "32012L0019",
         "provision": "Art. 15(1)",
         "kind": "legislation",
@@ -18867,7 +18867,7 @@
       "sortOrder": 158,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Dir. 2012/19/EU (WEEE) Art. 15(1)",
+        "article": "WEEE Art. 15(1)",
         "instrument": "32012L0019",
         "provision": "Art. 15(1)",
         "kind": "legislation",
@@ -18976,7 +18976,7 @@
       "sortOrder": 159,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 14",
+        "article": "WEEE Art. 14",
         "instrument": "32012L0019",
         "provision": "WEEE Dir. 2012/19/EU Art. 14(4) + Annex IX — crossed-out wheeled bin symbol marked on the product",
         "kind": "legislation",
@@ -19088,7 +19088,7 @@
       "sortOrder": 161,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Art. 9",
         "kind": "legislation",
@@ -19198,7 +19198,7 @@
       "sortOrder": 162,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Art. 9",
         "kind": "legislation",
@@ -19306,7 +19306,7 @@
       "sortOrder": 163,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Art. 9",
         "kind": "legislation",
@@ -19563,7 +19563,7 @@
       "sortOrder": 164,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(3)",
+        "article": "ESPR Art. 9(3)",
         "instrument": "32024R1781",
         "provision": "Art. 9(3)",
         "kind": "legislation",
@@ -19675,7 +19675,7 @@
       "sortOrder": 165,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(3)",
+        "article": "ESPR Art. 9(3)",
         "instrument": "32024R1781",
         "provision": "Art. 9(3)",
         "kind": "legislation",
@@ -19846,7 +19846,7 @@
       "sortOrder": 166,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -20045,7 +20045,7 @@
       "sortOrder": 167,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Art. 10",
         "kind": "legislation",
@@ -20247,7 +20247,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011L0065 Art. 15(1)",
+        "article": "RoHS Art. 15(1)",
         "instrument": "32011L0065",
         "provision": "Art. 15(1)",
         "kind": "legislation",

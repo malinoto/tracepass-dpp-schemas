@@ -133,7 +133,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 77(3)",
+        "article": "Battery Regulation Art. 77(3)",
         "annex": null,
         "instrument": "32023R1542",
         "provision": "Art. 77(3)",
@@ -264,7 +264,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "instrument": "32023R1542",
         "provision": "Art. 77(3)",
         "kind": "legislation",
@@ -379,7 +379,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "instrument": "32023R1542",
         "provision": "Art. 77(3)",
         "kind": "legislation",
@@ -493,7 +493,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(1)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(1)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
@@ -631,7 +631,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 38(7)",
+        "article": "Battery Regulation Art. 38(7)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
@@ -755,7 +755,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(1)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(1)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
@@ -893,7 +893,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 38(7)",
+        "article": "Battery Regulation Art. 38(7)",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
@@ -1007,7 +1007,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 38(7)",
+        "article": "Battery Regulation Art. 38(7)",
         "instrument": "32023R1542",
         "provision": "Art. 38(7)",
         "kind": "legislation",
@@ -1122,7 +1122,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(4)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(4)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(4)",
@@ -1252,7 +1252,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(3)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(3)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(3)",
@@ -1558,7 +1558,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(2)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(2)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(2)",
@@ -1688,7 +1688,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(5)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(5)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(5)",
@@ -1969,7 +1969,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(c)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 4(c)",
+        "article": "Battery Regulation Annex XIII 4(c)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -2088,7 +2088,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(q), as corrected by 32023R1542R(13)",
+        "article": "Battery Regulation Annex XIII 1(q), as corrected by 32023R1542R(13)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(q), as corrected by 32023R1542R(13)",
@@ -2219,7 +2219,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(5)",
+        "article": "Battery Regulation Art. 13(5)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(q)",
@@ -2333,7 +2333,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(5)",
+        "article": "Battery Regulation Art. 13(5)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(q)",
@@ -2449,7 +2449,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(3)",
+        "article": "Battery Regulation Art. 7(3)",
         "instrument": "32023R1542",
         "provision": "Art. 7(3)",
         "kind": "legislation",
@@ -2563,7 +2563,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(s) with Art. 74(1)(e)",
+        "article": "Battery Regulation Annex XIII 1(s) with Art. 74(1)(e)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(s) with Art. 74(1)(e)",
@@ -2686,7 +2686,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(r)",
+        "article": "Battery Regulation Annex XIII 1(r)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(r)",
@@ -2817,7 +2817,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 3",
+        "article": "Battery Regulation Annex XIII 3",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 3",
@@ -2941,7 +2941,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 20(1)",
+        "article": "Battery Regulation Art. 20(1)",
         "annex": null,
         "instrument": "32023R1542",
         "provision": "Art. 20(1)",
@@ -3067,7 +3067,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3185,7 +3185,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3302,7 +3302,7 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3418,7 +3418,7 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3535,7 +3535,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3856,7 +3856,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)",
+        "article": "Battery Regulation Art. 7(2)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(c)",
@@ -3974,7 +3974,7 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(1)",
+        "article": "Battery Regulation Art. 7(1)",
         "instrument": "32023R1542",
         "provision": "Art. 7(1)",
         "kind": "legislation",
@@ -4090,7 +4090,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 52",
+        "article": "Battery Regulation Art. 52",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
@@ -4207,7 +4207,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 52",
+        "article": "Battery Regulation Art. 52",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
@@ -4323,7 +4323,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 52",
+        "article": "Battery Regulation Art. 52",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
@@ -4438,7 +4438,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(7)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(7)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(7)",
@@ -4575,7 +4575,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(a)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(a)",
+        "article": "Battery Regulation Annex XIII 2(a)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -4698,7 +4698,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(a)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(a)",
+        "article": "Battery Regulation Annex XIII 2(a)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -4821,7 +4821,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(a)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(a)",
+        "article": "Battery Regulation Annex XIII 2(a)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -4940,7 +4940,7 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(10)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(10)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(10)",
@@ -5074,7 +5074,7 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(8)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(8)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(8)",
@@ -5205,7 +5205,7 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "instrument": "32023R1542",
         "provision": "Art. 77",
         "kind": "legislation",
@@ -5321,7 +5321,7 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8",
+        "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(e)",
@@ -5437,7 +5437,7 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8",
+        "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(e)",
@@ -5553,7 +5553,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8",
+        "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(e)",
@@ -5669,7 +5669,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8",
+        "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(e)",
@@ -5783,7 +5783,7 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(s) with Art. 74(1)(a)",
+        "article": "Battery Regulation Annex XIII 1(s) with Art. 74(1)(a)",
         "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(s) with Art. 74(1)(a)",
@@ -5906,7 +5906,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(s) with Art. 74(1)(b)",
+        "article": "Battery Regulation Annex XIII 1(s) with Art. 74(1)(b)",
         "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(s) with Art. 74(1)(b)",
@@ -6029,7 +6029,7 @@
       "sortOrder": 119,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(s) with Art. 74(1)(c)",
+        "article": "Battery Regulation Annex XIII 1(s) with Art. 74(1)(c)",
         "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(s) with Art. 74(1)(c)",
@@ -6158,7 +6158,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(c)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(c)",
+        "article": "Battery Regulation Annex XIII 2(c)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -6277,7 +6277,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 11(1)",
+        "article": "Battery Regulation Art. 11(1)",
         "instrument": "32023R1542",
         "provision": "Art. 11(1)",
         "kind": "legislation",
@@ -6403,7 +6403,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(b)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(b)",
+        "article": "Battery Regulation Annex XIII 2(b)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -6528,7 +6528,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 2(d)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(d)",
+        "article": "Battery Regulation Annex XIII 2(d)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -6649,7 +6649,7 @@
       "sortOrder": 49,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Art. 8",
+        "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(e)",
@@ -6851,7 +6851,7 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 11(5)",
+        "article": "Battery Regulation Art. 11(5)",
         "instrument": "32023R1542",
         "provision": "Art. 11(5)",
         "kind": "legislation",
@@ -6978,7 +6978,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(g)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(g)",
+        "article": "Battery Regulation Annex XIII 1(g)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7122,7 +7122,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(h)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(h)",
+        "article": "Battery Regulation Annex XIII 1(h)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7245,7 +7245,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(h)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(h)",
+        "article": "Battery Regulation Annex XIII 1(h)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7368,7 +7368,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(h)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(h)",
+        "article": "Battery Regulation Annex XIII 1(h)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7490,7 +7490,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(i)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(i)",
+        "article": "Battery Regulation Annex XIII 1(i)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7620,7 +7620,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(i)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(i)",
+        "article": "Battery Regulation Annex XIII 1(i)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -7739,7 +7739,7 @@
       "sortOrder": 57,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 10(1)",
+        "article": "Battery Regulation Art. 10(1)",
         "annex": "Annex IV",
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(2)",
@@ -7862,7 +7862,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(n)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Initial round trip energy efficiency, and the same at 50% of cycle-life, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
@@ -7977,7 +7977,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(o)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(o)",
+        "article": "Battery Regulation Annex XIII 1(o)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -8107,7 +8107,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(o)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(o)",
+        "article": "Battery Regulation Annex XIII 1(o)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -8237,7 +8237,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(o)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII 1(o) names 'internal battery cell and pack resistance'; module resistance is not a legal datum."
       },
       "aiHints": {
@@ -8347,7 +8347,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 4(b) with Annex VII Part A(4)",
+        "article": "Battery Regulation Annex XIII 4(b) with Annex VII Part A(4)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part A(4)",
@@ -8710,7 +8710,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Expected battery lifetime in cycles, together with the reference test used, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
@@ -8830,7 +8830,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -8950,7 +8950,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "It requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra."
       },
       "aiHints": {
@@ -9066,7 +9066,7 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(k)",
@@ -9185,7 +9185,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(l)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(l)",
+        "article": "Battery Regulation Annex XIII 1(l)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -9307,7 +9307,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(l)",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(l)",
+        "article": "Battery Regulation Annex XIII 1(l)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -9434,7 +9434,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(p)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "The c-rate of the relevant cycle-life test is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
@@ -9549,7 +9549,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(m)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "The period for which the commercial warranty for calendar life applies is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
       },
       "aiHints": {
@@ -10011,7 +10011,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
-        "article": "Art. 14",
+        "article": "Battery Regulation Art. 14",
         "description": "State of health pursuant to Art. 14 is per-battery data that the Regulation restricts to persons with a legitimate interest, never the public. Art. 14 separately requires the battery management system to hold the underlying data with read-only access."
       },
       "aiHints": {
@@ -10128,7 +10128,7 @@
       "sortOrder": 76,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
@@ -10247,7 +10247,7 @@
       "sortOrder": 77,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
@@ -10366,7 +10366,7 @@
       "sortOrder": 78,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
@@ -10480,7 +10480,7 @@
       "sortOrder": 79,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 14",
+        "article": "Battery Regulation Art. 14",
         "annex": null,
         "instrument": "32023R1542",
         "provision": "Art. 77",
@@ -10599,7 +10599,7 @@
       "sortOrder": 80,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 14",
+        "article": "Battery Regulation Art. 14",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
@@ -10722,7 +10722,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -10841,7 +10841,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -10960,7 +10960,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -11074,7 +11074,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -11189,7 +11189,7 @@
       "sortOrder": 85,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
@@ -11303,7 +11303,7 @@
       "sortOrder": 86,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Annex XIII 4(d)",
+        "article": "Battery Regulation Annex XIII 4(d)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
@@ -11662,7 +11662,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "Data resulting from use, including charging and discharging cycles. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
@@ -11772,7 +11772,7 @@
       "sortOrder": 90,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 4(b) with Annex VII Part B(1)",
+        "article": "Battery Regulation Annex XIII 4(b) with Annex VII Part B(1)",
         "annex": "Annex VII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part B(1)",
@@ -11900,7 +11900,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "It names negative events such as accidents explicitly. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
@@ -12016,7 +12016,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "It covers periodically recorded operating information including the state of charge. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
@@ -12132,7 +12132,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(d)",
         "kind": "legislation",
-        "article": "Art. 77",
+        "article": "Battery Regulation Art. 77",
         "description": "It covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest."
       },
       "aiHints": {
@@ -12243,7 +12243,7 @@
       "sortOrder": 95,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(2)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(2)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(2)",
@@ -12380,7 +12380,7 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 38(7)",
+        "article": "Battery Regulation Art. 38(7)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
         "provision": "Annex VI Part A (1)",
@@ -12583,7 +12583,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Art. 20(1)",
+        "article": "Battery Regulation Art. 20(1)",
         "annex": null,
         "instrument": "32023R1542",
         "provision": "Art. 20(1)",
@@ -12705,7 +12705,7 @@
       "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(a) with Annex VI Part A(9)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(9)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(a) with Annex VI Part A(9)",
@@ -12839,7 +12839,7 @@
         "provision": "Annex XIII 1(f)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 1(f)",
+        "article": "Battery Regulation Annex XIII 1(f)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -12967,7 +12967,7 @@
         "provision": "Annex XIII 1(n)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 1(n)",
+        "article": "Battery Regulation Annex XIII 1(n)",
         "description": "The second half of Annex XIII 1(n), which requires round trip energy efficiency both initially and at 50% of cycle-life. Publicly accessible passport content from 18 Feb 2027."
       },
       "aiHints": {
@@ -13082,7 +13082,7 @@
         "provision": "Annex XIII 2(b)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Reg (EU) 2023/1542 Annex XIII 2(b)",
+        "article": "Battery Regulation Annex XIII 2(b)",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -13210,7 +13210,7 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)",
+        "article": "Battery Regulation Annex XIII 4(a)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13325,7 +13325,7 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)",
+        "article": "Battery Regulation Annex XIII 4(a)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13444,7 +13444,7 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)",
+        "article": "Battery Regulation Annex XIII 4(a)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13563,7 +13563,7 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Art. 10(1)",
+        "article": "Battery Regulation Art. 10(1)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13681,7 +13681,7 @@
         "provision": "Annex XIII 4(a)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(a)",
+        "article": "Battery Regulation Annex XIII 4(a)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13800,7 +13800,7 @@
         "provision": "Annex XIII 4(b)",
         "annex": "Annex XIII",
         "kind": "legislation",
-        "article": "Annex XIII 4(b)",
+        "article": "Battery Regulation Annex XIII 4(b)",
         "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
       },
       "aiHints": {
@@ -13916,7 +13916,7 @@
       "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14035,7 +14035,7 @@
       "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14154,7 +14154,7 @@
       "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14273,7 +14273,7 @@
       "sortOrder": 109,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14392,7 +14392,7 @@
       "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14511,7 +14511,7 @@
       "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
@@ -14625,7 +14625,7 @@
       "sortOrder": 112,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex IV Part B(4)",
+        "article": "Battery Regulation Annex IV Part B(4)",
         "annex": "Annex XIII (1i)",
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(4)",
@@ -14739,7 +14739,7 @@
       "sortOrder": 113,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2023/1542 Annex IV Part B(4)",
+        "article": "Battery Regulation Annex IV Part B(4)",
         "annex": "Annex XIII (1i)",
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(4)",
@@ -14858,7 +14858,7 @@
       "sortOrder": 114,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Annex XIII (4d)",
+        "article": "Battery Regulation Annex XIII (4d)",
         "annex": "Annex XIII (4d)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (4d)",
@@ -14977,7 +14977,7 @@
       "sortOrder": 115,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 13(5)",
+        "article": "Battery Regulation Art. 13(5)",
         "annex": "Annex XIII (1s)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1s)",
@@ -15096,7 +15096,7 @@
       "sortOrder": 116,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Annex XIII (2b)",
+        "article": "Battery Regulation Annex XIII (2b)",
         "annex": "Annex XIII (2b)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
@@ -15215,7 +15215,7 @@
       "sortOrder": 117,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Annex XIII (2b)",
+        "article": "Battery Regulation Annex XIII (2b)",
         "annex": "Annex XIII (2b)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
@@ -15334,7 +15334,7 @@
       "sortOrder": 118,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Annex XIII (4d)",
+        "article": "Battery Regulation Annex XIII (4d)",
         "annex": "Annex XIII (4d)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (4d)",

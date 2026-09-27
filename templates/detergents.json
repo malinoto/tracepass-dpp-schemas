@@ -128,7 +128,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "article": "Detergents Regulation Annex VI Part A(a)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (a)",
         "annex": "Annex VI",
@@ -249,7 +249,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, GS1",
+        "article": "ESPR Art. 9, GS1",
         "instrument": "32024R1781",
         "provision": "Article 9, GS1",
         "kind": "legislation",
@@ -357,7 +357,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(d)",
+        "article": "Detergents Regulation Annex VI Part A(d)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (d)",
         "annex": "Annex VI",
@@ -475,7 +475,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -582,7 +582,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "article": "Detergents Regulation Annex VI Part A(a)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (a)",
         "annex": "Annex VI",
@@ -700,7 +700,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -808,7 +808,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(a)",
+        "article": "Detergents Regulation Annex VI Part A(a)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (a)",
         "annex": "Annex VI",
@@ -925,7 +925,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(f)",
+        "article": "Detergents Regulation Annex VI Part A(f)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (f)",
         "annex": "Annex VI",
@@ -1338,7 +1338,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -1505,7 +1505,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Reg (EU) 2026/405 Annex V Part A, point 1(f)",
+        "article": "Detergents Regulation Annex V Part A, point 1(f)",
         "instrument": "32026R0405",
         "provision": "Annex V Part A, point 1(f)",
         "kind": "legislation",
@@ -1621,7 +1621,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -1729,7 +1729,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -1847,7 +1847,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -1964,7 +1964,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2081,7 +2081,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2199,7 +2199,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2318,7 +2318,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2435,7 +2435,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2551,7 +2551,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (b)",
         "annex": "Annex VI",
@@ -2668,7 +2668,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(c)",
+        "article": "Detergents Regulation Annex VI Part A(c)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (c)",
         "annex": "Annex VI",
@@ -2785,7 +2785,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2896,7 +2896,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -3217,7 +3217,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008, SDS Section 2",
+        "article": "CLP, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Title II, Arts. 9-13 (classification)",
         "kind": "legislation",
@@ -3384,7 +3384,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 20, SDS Section 2",
+        "article": "CLP Art. 20, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 20",
         "kind": "legislation",
@@ -3753,7 +3753,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 19, SDS Section 2",
+        "article": "CLP Art. 19, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 19 & Annex V",
         "kind": "legislation",
@@ -3861,7 +3861,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 21, SDS Section 2",
+        "article": "CLP Art. 21, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 21 & Annex III",
         "kind": "legislation",
@@ -4077,7 +4077,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Annex II",
+        "article": "CLP Annex II",
         "instrument": "32008R1272",
         "provision": "Annex II",
         "kind": "legislation",
@@ -4185,7 +4185,7 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 45, Annex VIII",
+        "article": "CLP Art. 45, Annex VIII",
         "instrument": "32008R1272",
         "provision": "Art. 45 & Annex VIII",
         "kind": "legislation",
@@ -4830,7 +4830,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5)(b)",
+        "article": "ESPR Art. 7(5)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(5)(b)",
         "kind": "legislation",
@@ -4937,7 +4937,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Article 59",
+        "article": "REACH Art. 59",
         "instrument": "32006R1907",
         "provision": "Article 59",
         "kind": "legislation",
@@ -5044,7 +5044,7 @@
       "sortOrder": 47,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)",
+        "article": "Waste Framework Directive Art. 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Article 9(1)(i)",
         "kind": "legislation",
@@ -5788,7 +5788,7 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -5955,7 +5955,7 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -6062,7 +6062,7 @@
       "sortOrder": 56,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -6278,7 +6278,7 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(c)",
         "kind": "legislation",
@@ -6614,7 +6614,7 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3)",
+        "article": "ESPR Art. 9(3)",
         "instrument": "32024R1781",
         "provision": "Article 9(3)",
         "kind": "legislation",
@@ -6725,7 +6725,7 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3), GS1 Digital Link",
+        "article": "ESPR Art. 9(3), GS1 Digital Link",
         "instrument": "32024R1781",
         "provision": "Article 9(3), GS1 Digital Link",
         "kind": "legislation",
@@ -6836,7 +6836,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Article 10",
         "kind": "legislation",
@@ -6947,7 +6947,7 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(3)",
+        "article": "ESPR Art. 10(3)",
         "instrument": "32024R1781",
         "provision": "Article 10(3)",
         "kind": "legislation",
@@ -7146,7 +7146,7 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(4)",
+        "article": "ESPR Art. 10(4)",
         "instrument": "32024R1781",
         "provision": "Article 10(4)",
         "kind": "legislation",
@@ -7258,7 +7258,7 @@
       "sortOrder": 65,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(h)",
+        "article": "Detergents Regulation Annex VI Part A(h)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (h)",
         "annex": "Annex VI",
@@ -7376,7 +7376,7 @@
       "sortOrder": 69,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Banded ingredient content is an Annex V Part A LABEL obligation. There is no concentration or percentage anywhere in Annex VI Part A, so a total-surfactant figure discharges the labelling duty, not the passport one."
@@ -7482,7 +7482,7 @@
       "sortOrder": 70,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
@@ -7588,7 +7588,7 @@
       "sortOrder": 71,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
@@ -7693,7 +7693,7 @@
       "sortOrder": 72,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
@@ -7799,7 +7799,7 @@
       "sortOrder": 73,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "A banded content figure under Annex V Part A, which is the LABEL. The Annex VI Part A passport dataset carries no amounts."
@@ -7908,7 +7908,7 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Optical brightener disclosure is an Annex V Part A labelling item under Reg (EU) 2026/405, applying from 23 Sep 2029. It is not among the nine Annex VI Part A passport points."
@@ -8015,7 +8015,7 @@
       "sortOrder": 75,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Enzymes appear as an Annex V Part A labelling category. The passport's own duty is the Annex VI Part A point (h) list of intentionally added substances; a separate enzyme field is label-shaped, not passport-shaped."
@@ -8121,7 +8121,7 @@
       "sortOrder": 76,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(i)",
+        "article": "Detergents Regulation Annex VI Part A(i)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (i)",
         "annex": "Annex VI",
@@ -8239,7 +8239,7 @@
       "sortOrder": 77,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Surfactant biodegradability is a market-placement CONDITION — a surfactant must meet the ultimate-biodegradation criterion to be placed on the market, with the test evidence held in the technical documentation. Passing is the duty; publishing the result is not among the Annex VI Part A passport points."
@@ -8346,7 +8346,7 @@
       "sortOrder": 78,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405 Annex I, point A.2",
+        "article": "Detergents Regulation Annex I, point A.2",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "The test method underpins the biodegradability evidence held in the technical documentation. It is not an Annex VI Part A passport point and not label content.",
@@ -8454,7 +8454,7 @@
       "sortOrder": 79,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "The measured degradation figure is evidence supporting the biodegradability condition, held in the technical documentation rather than published. Annex VI Part A carries no percentages."
@@ -8560,7 +8560,7 @@
       "sortOrder": 80,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "The pass threshold is a property of the test criterion, not of the product. It is neither Annex V Part A label content nor an Annex VI Part A passport point."
@@ -8667,7 +8667,7 @@
       "sortOrder": 81,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex V Part B, point 1(a)",
+        "article": "Detergents Regulation Annex V Part B, point 1(a)",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Dosage instructions are Annex V Part B LABEL content for consumer laundry detergents (point 1(a)); points 3 and 4 cover dishwasher and surface detergents. Annex VI Part A does not include dosage.",
@@ -8893,7 +8893,7 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg 2026/405",
+        "article": "Detergents Regulation",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "Water hardness is a reference condition for the Annex V Part A dosage statement on the LABEL, not an Annex VI Part A passport point."
@@ -8999,7 +8999,7 @@
       "sortOrder": 83,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex V Part B, point 1(b)",
+        "article": "Detergents Regulation Annex V Part B, point 1(b)",
         "instrument": "32026R0405",
         "kind": "legislation",
         "description": "The number of standard machine loads per package is an Annex V Part B LABEL statement for consumer laundry detergents (point 1(b)). It is not passport content under Annex VI Part A.",
@@ -9108,7 +9108,7 @@
       "sortOrder": 84,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex V Part A 1(e)",
+        "article": "Detergents Regulation Annex V Part A 1(e)",
         "instrument": "32026R0405",
         "provision": "Annex V Part A, point 1(e)",
         "kind": "legislation",
@@ -9324,7 +9324,7 @@
       "sortOrder": 86,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(e)",
+        "article": "Detergents Regulation Annex VI Part A(e)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (e)",
         "annex": "Annex VI",
@@ -9438,7 +9438,7 @@
       "sortOrder": 87,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Detergents Reg (EU) 2026/405 Annex VI Part A(g)",
+        "article": "Detergents Regulation Annex VI Part A(g)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A, point (g)",
         "annex": "Annex VI",

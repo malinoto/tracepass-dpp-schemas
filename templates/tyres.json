@@ -133,7 +133,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2); ISO/IEC 15459",
+        "article": "ESPR Art. 9(2); ISO/IEC 15459",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -249,7 +249,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -361,7 +361,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -470,7 +470,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32020R0740 Annex III(a)",
+        "article": "Tyre Labelling Regulation Annex III(a)",
         "instrument": "32020R0740",
         "provision": "Annex III(a)",
         "kind": "legislation",
@@ -599,7 +599,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -708,7 +708,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -816,7 +816,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -924,7 +924,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -1034,7 +1034,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -1231,7 +1231,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Art. 2",
+        "article": "Tyre Labelling Regulation Art. 2",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 2 — C1/C2/C3 definitions determining which label applies",
         "kind": "legislation",
@@ -1449,7 +1449,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II; UNECE Reg. 30/54",
+        "article": "Tyre Labelling Regulation Annex II; UNECE Reg. 30/54",
         "instrument": "32020R0740",
         "provision": "UNECE R30 / R54 — marking moulded on the tyre sidewall under type approval",
         "kind": "legislation",
@@ -1562,7 +1562,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -1670,7 +1670,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Annex II",
         "kind": "legislation",
@@ -1782,7 +1782,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -1891,7 +1891,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Art. 4(2)",
+        "article": "Tyre Labelling Regulation Art. 4(2)",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -2000,7 +2000,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740",
+        "article": "Tyre Labelling Regulation",
         "instrument": "32020R0740",
         "kind": "legislation",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
@@ -2257,7 +2257,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -2369,7 +2369,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -2477,7 +2477,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II; UNECE Reg. 30/54",
+        "article": "Tyre Labelling Regulation Annex II; UNECE Reg. 30/54",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -2590,7 +2590,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -2787,7 +2787,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -2898,7 +2898,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex II",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
         "kind": "legislation",
@@ -3403,7 +3403,7 @@
           "label": {
             "en": "All-season",
             "bg": "Всесезонни",
-            "de": "Ganzjahres",
+            "de": "Ganzjahr",
             "fr": "Toutes saisons",
             "hr": "Cjelogodišnje",
             "cs": "Celoroční",
@@ -4289,7 +4289,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part A",
+        "article": "Tyre Labelling Regulation Annex I Part A",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part A — class shown on the tyre label and registered in EPREL",
         "kind": "legislation",
@@ -4398,7 +4398,7 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part A; UNECE Reg. 117 Annex 6",
+        "article": "Tyre Labelling Regulation Annex I Part A; UNECE Reg. 117 Annex 6",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Annex I Part A + Annex II — measured value in the EPREL product information sheet",
         "kind": "legislation",
@@ -4653,7 +4653,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part B",
+        "article": "Tyre Labelling Regulation Annex I Part B",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part B — class shown on the tyre label and registered in EPREL",
         "kind": "legislation",
@@ -4762,7 +4762,7 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part B",
+        "article": "Tyre Labelling Regulation Annex I Part B",
         "instrument": "32020R0740",
         "provision": "Annex I",
         "kind": "legislation",
@@ -4959,7 +4959,7 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part C",
+        "article": "Tyre Labelling Regulation Annex I Part C",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part C — class shown on the tyre label and registered in EPREL",
         "kind": "legislation",
@@ -5068,7 +5068,7 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part C; UNECE Reg. 117 Annex 3",
+        "article": "Tyre Labelling Regulation Annex I Part C; UNECE Reg. 117 Annex 3",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Annex I Part C — measured dB value on the label and in EPREL",
         "kind": "legislation",
@@ -5177,7 +5177,7 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part D; UNECE Reg. 117",
+        "article": "Tyre Labelling Regulation Annex I Part D; UNECE Reg. 117",
         "instrument": "32020R0740",
         "provision": "Art. 4 + Annex I (3PMSF snow-grip pictogram where applicable)",
         "kind": "legislation",
@@ -5287,7 +5287,7 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Annex I Part E; ISO 19447",
+        "article": "Tyre Labelling Regulation Annex I Part E; ISO 19447",
         "instrument": "32020R0740",
         "provision": "Art. 4 + Annex I (ice-grip marking, C1 tyres, per ISO 19447)",
         "kind": "legislation",
@@ -5402,7 +5402,7 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2024/1257 (Euro 7); UNECE TFTA methodology",
+        "article": "Euro 7; UNECE TFTA methodology",
         "instrument": "32024R1257",
         "kind": "legislation",
         "description": "Euro 7 (Reg (EU) 2024/1257) defines tyre abrasion as the mass of material lost and emitted into the environment, and provides for abrasion LIMITS per tyre class — but those limits and their measurement method come from UN WP.29, due 1 July 2026 for C1, 1 April 2028 for C2 and 1 April 2030 for C3, with a Commission delegated act only as a fallback. There is no limit to meet and no prescribed method to report against yet."
@@ -5513,7 +5513,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2024/1257; UNECE TFTA convoy method",
+        "article": "Euro 7; UNECE TFTA convoy method",
         "instrument": "32024R1257",
         "kind": "legislation",
         "description": "A relative abrasion index depends on the same pending UN WP.29 method as the absolute rate. Until that method exists an index has no defined basis, and Euro 7 is a type-approval regulation that would bind the vehicle or tyre approval rather than a product passport."
@@ -5682,7 +5682,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2024/1257; UNECE WP.29",
+        "article": "Euro 7; UNECE WP.29",
         "instrument": "32024R1257",
         "kind": "legislation",
         "description": "The method — convoy-on-road versus laboratory drum — is exactly what the pending UN WP.29 work under Euro 7 must settle. Naming a method today records the basis of a voluntary measurement rather than compliance with a prescribed one."
@@ -6041,7 +6041,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2024/1257 (Euro 7) - pending delegated act",
+        "article": "Euro 7 - pending delegated act",
         "instrument": "32024R1257",
         "kind": "legislation",
         "description": "Euro 7's recital ties tyre abrasion to the Union objective of reducing microplastics released into the environment by 30% by 2030, but the Regulation creates no emission CLASS for tyres. Any grading would follow the pending WP.29 limits."
@@ -6257,7 +6257,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a); delegated act (tyres)",
+        "article": "ESPR Art. 7(2)(a); delegated act (tyres)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6370,7 +6370,7 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6482,7 +6482,7 @@
       "sortOrder": 49,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6594,7 +6594,7 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -6703,7 +6703,7 @@
       "sortOrder": 51,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -6811,7 +6811,7 @@
       "sortOrder": 52,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -6919,7 +6919,7 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -7028,7 +7028,7 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Regulation (EC) 1907/2006 Annex XVII Entry 50",
+        "article": "REACH Annex XVII Entry 50",
         "instrument": "32006R1907",
         "provision": "REACH Annex XVII entry 50 — restriction on PAH content in extender oils and tyres",
         "kind": "legislation",
@@ -7463,7 +7463,7 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) 1907/2006 REACH",
+        "article": "REACH",
         "instrument": "32006R1907",
         "kind": "legislation",
         "provision": "REACH (EC) 1907/2006 — registration and restriction obligations evidenced in the manufacturer's records",
@@ -7575,7 +7575,7 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a); PEF methodology",
+        "article": "ESPR Art. 7(2)(a); PEF methodology",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -7688,7 +7688,7 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781; EU PEF Guide",
+        "article": "ESPR; EU PEF Guide",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
@@ -7796,7 +7796,7 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 informational",
+        "article": "Tyre Labelling Regulation (informational)",
         "instrument": "32020R0740",
         "kind": "legislation",
         "description": "Reg (EU) 2020/740 requires the fuel efficiency CLASS (Annex I Part A) on the label, in the product information sheet and in EPREL. A lifetime fuel-saving estimate is a derived marketing figure that the Regulation neither defines nor requires, and technical promotional material must show the label rather than substitute for it."
@@ -7903,7 +7903,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 informational",
+        "article": "Tyre Labelling Regulation (informational)",
         "instrument": "32020R0740",
         "kind": "legislation",
         "description": "A derived estimate, not a regulated parameter. What Reg (EU) 2020/740 mandates is the fuel efficiency class on the label, the product information sheet and the EPREL entry."
@@ -8010,7 +8010,7 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EUDR 2023/1115 (rubber is a covered commodity)",
+        "article": "EUDR (rubber is a covered commodity)",
         "instrument": "32023R1115",
         "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
         "kind": "legislation",
@@ -8230,7 +8230,7 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a); delegated act (tyres)",
+        "article": "ESPR Art. 7(2)(a); delegated act (tyres)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -8446,7 +8446,7 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Roadworthiness Dir. Annex I",
+        "article": "Roadworthiness Testing Directive Annex I",
         "instrument": "32014L0045",
         "kind": "legislation",
         "provision": "Dir. 2014/45/EU Annex I — roadworthiness test requirement on the vehicle in use",
@@ -8555,7 +8555,7 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -8772,7 +8772,7 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c); UNECE Reg. 108/109",
+        "article": "ESPR Art. 7(2)(c); UNECE Reg. 108/109",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -9102,7 +9102,7 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -9213,7 +9213,7 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -9322,7 +9322,7 @@
       "sortOrder": 75,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC; national EPR schemes",
+        "article": "Waste Framework Directive; national EPR schemes",
         "instrument": "32008L0098",
         "kind": "legislation",
         "provision": "WFD Dir. 2008/98/EC Art. 8a — extended producer responsibility discharged through national EPR scheme registration",
@@ -9434,7 +9434,7 @@
       "sortOrder": 76,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -9860,7 +9860,7 @@
       "sortOrder": 80,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2024/1257",
+        "article": "Euro 7",
         "instrument": "32024R1257",
         "kind": "legislation",
         "provision": "Reg. (EU) 2024/1257 — tyre abrasion limits not yet in force",
@@ -9968,7 +9968,7 @@
       "sortOrder": 81,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2020/740 Art. 4",
+        "article": "Tyre Labelling Regulation Art. 4",
         "instrument": "32020R0740",
         "provision": "Reg. (EU) 2020/740 Arts. 4 and 6 — label displayed in visual form at the point of sale",
         "kind": "legislation",
@@ -10624,7 +10624,7 @@
       "sortOrder": 88,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2019/2144 Art. 6",
+        "article": "General Safety Regulation (vehicles) Art. 6",
         "instrument": "32019R2144",
         "kind": "legislation",
         "description": "TPMS is required by Reg (EU) 2019/2144 (General Safety Regulation), which repealed Reg (EC) 661/2009 with effect from 6 July 2022; references to the old regulation are construed as references to this one. The duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data."
@@ -10837,7 +10837,7 @@
       "sortOrder": 90,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "General Product Safety Regulation (EU) 2023/988",
+        "article": "GPSR",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(7) — warnings and safety information, where the product's risks require them",
         "kind": "legislation",
@@ -11054,7 +11054,7 @@
       "sortOrder": 92,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 implementing acts",
+        "article": "ESPR implementing acts",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
@@ -11164,7 +11164,7 @@
       "sortOrder": 94,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Art. 10",
         "kind": "legislation",
@@ -11363,7 +11363,7 @@
       "sortOrder": 95,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 10(3)",
+        "article": "ESPR Art. 10(3)",
         "instrument": "32024R1781",
         "provision": "Art. 10(3)",
         "kind": "legislation",
@@ -11474,7 +11474,7 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9-10",
+        "article": "ESPR Art. 9-10",
         "instrument": "32024R1781",
         "provision": "Art. 9-10",
         "kind": "legislation",

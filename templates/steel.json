@@ -134,7 +134,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(1)",
+        "article": "ESPR Art. 9(1)",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 9(1)",
@@ -249,7 +249,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -359,7 +359,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 11(4)",
+        "article": "CPR (EU) 305/2011 Art. 11(4)",
         "instrument": "32011R0305",
         "provision": "Art. 11(4)",
         "kind": "legislation",
@@ -1348,7 +1348,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CBAM (EU) 2023/956 Annex I",
+        "article": "CBAM Annex I",
         "instrument": "32023R0956",
         "provision": "Annex I",
         "kind": "legislation",
@@ -1576,7 +1576,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 11(5)",
+        "article": "CPR (EU) 305/2011 Art. 11(5)",
         "instrument": "32011R0305",
         "provision": "Art. 11(5)",
         "kind": "legislation",
@@ -1696,7 +1696,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "32011R0305 Art. 11(5)",
+        "article": "CPR (EU) 305/2011 Art. 11(5)",
         "instrument": "32011R0305",
         "provision": "Art. 11(5)",
         "kind": "legislation",
@@ -2041,7 +2041,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 9",
@@ -2150,7 +2150,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 9",
@@ -2257,7 +2257,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 9",
@@ -2712,7 +2712,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "32011R0305 Art. 6(1)",
+        "article": "CPR (EU) 305/2011 Art. 6(1)",
         "instrument": "32011R0305",
         "provision": "Art. 6(1)",
         "kind": "legislation",
@@ -2842,7 +2842,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(j)",
+        "article": "ESPR Art. 5(5)(j)",
         "instrument": "32024R1781",
         "provision": "Article 5(5)(j)",
         "kind": "legislation",
@@ -3513,7 +3513,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 6(1)",
+        "article": "CPR (EU) 305/2011 Art. 6(1)",
         "instrument": "32011R0305",
         "provision": "Art. 6(1)",
         "kind": "legislation",
@@ -3638,7 +3638,7 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 6(1)",
+        "article": "CPR (EU) 305/2011 Art. 6(1)",
         "instrument": "32011R0305",
         "provision": "Art. 6(1)",
         "kind": "legislation",
@@ -3761,7 +3761,7 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 6(1)",
+        "article": "CPR (EU) 305/2011 Art. 6(1)",
         "instrument": "32011R0305",
         "provision": "Art. 6(1)",
         "kind": "legislation",
@@ -3882,7 +3882,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R0305 Art. 6(1)",
+        "article": "CPR (EU) 305/2011 Art. 6(1)",
         "instrument": "32011R0305",
         "provision": "Art. 6(1)",
         "kind": "legislation",
@@ -5949,7 +5949,7 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(b)",
+        "article": "ESPR Art. 5(5)(b)",
         "instrument": "32024R1781",
         "provision": "Article 5(5)(b)",
         "kind": "legislation",
@@ -6690,7 +6690,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CBAM Reg (EU) 2023/956 Annex IV (embedded emissions calculation)",
+        "article": "CBAM Annex IV (embedded emissions calculation)",
         "annex": null,
         "instrument": "32023R0956",
         "kind": "legislation",
@@ -7116,7 +7116,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7",
+        "article": "ESPR Art. 7",
         "instrument": "32024R1781",
         "provision": "Article 7",
         "kind": "legislation",
@@ -7625,7 +7625,7 @@
       "sortOrder": 47,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CBAM (EU) 2023/956",
+        "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
         "provision": "Annex IV",
@@ -7738,7 +7738,7 @@
       "sortOrder": 48,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CBAM (EU) 2023/956",
+        "article": "CBAM",
         "annex": null,
         "instrument": "32023R0956",
         "provision": "Annex IV",
@@ -7851,7 +7851,7 @@
       "sortOrder": 49,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "CBAM Article 9",
+        "article": "CBAM Art. 9",
         "annex": null,
         "instrument": "32023R0956",
         "provision": "Article 9",
@@ -8178,7 +8178,7 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32006R1907 Art. 33(1)",
+        "article": "REACH Art. 33(1)",
         "instrument": "32006R1907",
         "provision": "Art. 33(1)",
         "kind": "legislation",
@@ -9498,7 +9498,7 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(a)",
+        "article": "ESPR Art. 5(5)(a)",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 5(5)(a)",
@@ -9611,7 +9611,7 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(i)",
+        "article": "ESPR Art. 5(5)(i)",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 5(5)(i)",
@@ -9720,7 +9720,7 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(l)",
+        "article": "ESPR Art. 5(5)(l)",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 5(5)(l)",
@@ -10043,7 +10043,7 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR (EU) 2024/3110 Arts. 13, 17-18",
+        "article": "CPR Arts. 13, 17-18",
         "annex": null,
         "instrument": "32024R3110",
         "provision": "Arts. 13(1), 17-18; Art. 94 (Reg. (EU) 305/2011 Arts. 4-9 continue to apply until 8 Jan 2040 for products under harmonised standards cited under it)",
@@ -10381,7 +10381,7 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32014L0068 Annex I, point 4.3",
+        "article": "Pressure Equipment Directive Annex I, point 4.3",
         "instrument": "32014L0068",
         "provision": "Annex I, point 4.3",
         "kind": "legislation",
@@ -10831,7 +10831,7 @@
       "sortOrder": 75,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "EU ETS Directive 2003/87/EC",
+        "article": "EU ETS",
         "annex": null,
         "instrument": "32003L0087",
         "kind": "legislation",
@@ -11152,7 +11152,7 @@
       "sortOrder": 78,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Article 5(5)(o)",
+        "article": "ESPR Art. 5(5)(o)",
         "instrument": "32024R1781",
         "provision": "Article 5(5)(o)",
         "kind": "legislation",
@@ -11917,7 +11917,7 @@
       "sortOrder": 85,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 8",
+        "article": "ESPR Art. 8",
         "annex": null,
         "instrument": "32024R1781",
         "provision": "Article 8",
@@ -12119,7 +12119,7 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR (EU) 2024/3110 Arts. 13, 17-18",
+        "article": "CPR Arts. 13, 17-18",
         "annex": null,
         "instrument": "32024R3110",
         "provision": "Arts. 13(1), 17-18; Art. 94 (Reg. (EU) 305/2011 Arts. 4-9 continue to apply until 8 Jan 2040 for products under harmonised standards cited under it)",

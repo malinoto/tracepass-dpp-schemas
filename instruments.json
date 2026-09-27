@@ -44,7 +44,7 @@
     },
     "32019R1020": {
       "kind": "legislation",
-      "shortName": "Market surveillance",
+      "shortName": "Market Surveillance Regulation",
       "title": "Regulation (EU) 2019/1020 on market surveillance and compliance of products",
       "eli": "http://data.europa.eu/eli/reg/2019/1020/oj",
       "createsDpp": false,
@@ -82,7 +82,7 @@
     },
     "32020R0740": {
       "kind": "legislation",
-      "shortName": "Tyre labelling",
+      "shortName": "Tyre Labelling Regulation",
       "title": "Regulation (EU) 2020/740 on the labelling of tyres with respect to fuel efficiency and other parameters",
       "eli": "http://data.europa.eu/eli/reg/2020/740/oj",
       "createsDpp": false
@@ -96,7 +96,7 @@
     },
     "32017R0821": {
       "kind": "legislation",
-      "shortName": "Conflict Minerals",
+      "shortName": "Conflict Minerals Regulation",
       "title": "Regulation (EU) 2017/821 laying down supply chain due diligence obligations for importers of tin, tantalum, tungsten and gold",
       "eli": "http://data.europa.eu/eli/reg/2017/821/oj",
       "createsDpp": false
@@ -130,7 +130,7 @@
     },
     "32011R1007": {
       "kind": "legislation",
-      "shortName": "Textile labelling",
+      "shortName": "Textile Labelling Regulation",
       "title": "Regulation (EU) 1007/2011 on fibre names and related labelling of textile products",
       "eli": "http://data.europa.eu/eli/reg/2011/1007/oj",
       "createsDpp": false,
@@ -138,7 +138,7 @@
     },
     "32011R1169": {
       "kind": "legislation",
-      "shortName": "Food information",
+      "shortName": "Food Information Regulation",
       "title": "Regulation (EU) 1169/2011 on the provision of food information to consumers",
       "eli": "http://data.europa.eu/eli/reg/2011/1169/oj",
       "createsDpp": false
@@ -349,7 +349,7 @@
     },
     "32011R0305": {
       "kind": "legislation",
-      "shortName": "CPR 2011",
+      "shortName": "CPR (EU) 305/2011",
       "title": "Regulation (EU) No 305/2011 laying down harmonised conditions for the marketing of construction products",
       "eli": "http://data.europa.eu/eli/reg/2011/305/oj",
       "createsDpp": false,

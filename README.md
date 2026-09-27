@@ -139,7 +139,13 @@ registry:
   "unit": "Ah",
   "validation": { "required": true, "min": 0, "max": null },
   "defaultAccessLevel": "public",
-  "regulationRef": { "article": "Art. 77", "annex": "Annex VI" },
+  "regulationRef": {
+    "article": "Battery Regulation Annex XIII 1(g)",   // human-facing: short name + provision
+    "annex": "Annex XIII",
+    "instrument": "32023R1542",                        // CELEX, machine-facing
+    "provision": "Annex XIII 1(g)",
+    "kind": "legislation"
+  },
   "aiHints": {
     "alternateNames": ["capacity", "nominal capacity", "battery capacity", "Ah rating"],
     "expectedFormat": "Numeric value in Ah",

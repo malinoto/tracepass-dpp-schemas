@@ -131,7 +131,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(1)",
+        "article": "ESPR Art. 9(1)",
         "instrument": "32024R1781",
         "provision": "Article 9(1)",
         "kind": "legislation",
@@ -242,7 +242,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9, GS1",
+        "article": "ESPR Art. 9, GS1",
         "instrument": "32024R1781",
         "provision": "Article 9, GS1",
         "kind": "legislation",
@@ -350,7 +350,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR (EU) 2023/988 Art. 9(5)",
+        "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
         "kind": "legislation",
@@ -458,7 +458,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -673,7 +673,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -781,7 +781,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -888,7 +888,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Council Reg (EEC) 2658/87 Annex I",
+        "article": "Combined Nomenclature Annex I",
         "instrument": "31987R2658",
         "kind": "legislation",
         "description": "The Combined Nomenclature classifies goods for customs; it creates no duty to publish a code with the product. Paints carry no passport duty."
@@ -1290,7 +1290,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -1397,7 +1397,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -1505,7 +1505,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17(1)(a); GPSR (EU) 2023/988 Art. 9(6)",
+        "article": "CLP Art. 17(1)(a); GPSR Art. 9(6)",
         "instrument": "32008R1272",
         "provision": "Art. 17(1)(a)",
         "kind": "legislation",
@@ -1613,7 +1613,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 17(1)(a); GPSR (EU) 2023/988 Art. 9(6)",
+        "article": "CLP Art. 17(1)(a); GPSR Art. 9(6)",
         "instrument": "32008R1272",
         "provision": "Art. 17(1)(a)",
         "kind": "legislation",
@@ -1720,7 +1720,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Annex II SDS section 1.3; GPSR (EU) 2023/988 Art. 9(6)",
+        "article": "REACH Annex II SDS section 1.3; GPSR Art. 9(6)",
         "instrument": "32006R1907",
         "provision": "Annex II SDS section 1.3",
         "kind": "legislation",
@@ -1938,7 +1938,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2047,7 +2047,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2154,7 +2154,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2260,7 +2260,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2370,7 +2370,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Article 10",
         "kind": "legislation",
@@ -2477,7 +2477,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2588,7 +2588,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9",
+        "article": "ESPR Art. 9",
         "instrument": "32024R1781",
         "provision": "Article 9",
         "kind": "legislation",
@@ -2804,7 +2804,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Biocidal Products Reg (EU) 528/2012 Art. 58(3)",
+        "article": "Biocidal Products Regulation Art. 58(3)",
         "instrument": "32012R0528",
         "provision": "Art. 58(3)",
         "kind": "legislation",
@@ -3019,7 +3019,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008, SDS Section 2",
+        "article": "CLP, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Title II, Arts. 9-13 (classification)",
         "kind": "legislation",
@@ -3186,7 +3186,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 20, SDS Section 2",
+        "article": "CLP Art. 20, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 20",
         "kind": "legislation",
@@ -3555,7 +3555,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 19, SDS Section 2",
+        "article": "CLP Art. 19, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 19 & Annex V",
         "kind": "legislation",
@@ -3663,7 +3663,7 @@
       "sortOrder": 32,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 21, SDS Section 2",
+        "article": "CLP Art. 21, SDS Section 2",
         "instrument": "32008R1272",
         "provision": "Art. 21 & Annex III",
         "kind": "legislation",
@@ -3879,7 +3879,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Annex II",
+        "article": "CLP Annex II",
         "instrument": "32008R1272",
         "provision": "Annex II",
         "kind": "legislation",
@@ -3987,7 +3987,7 @@
       "sortOrder": 35,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP 1272/2008 Article 45, Annex VIII",
+        "article": "CLP Art. 45, Annex VIII",
         "instrument": "32008R1272",
         "provision": "Art. 45 & Annex VIII",
         "kind": "legislation",
@@ -4632,7 +4632,7 @@
       "sortOrder": 44,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(5)(b)",
+        "article": "ESPR Art. 7(5)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(5)(b)",
         "kind": "legislation",
@@ -4739,7 +4739,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Article 59",
+        "article": "REACH Art. 59",
         "instrument": "32006R1907",
         "provision": "Article 59",
         "kind": "legislation",
@@ -4846,7 +4846,7 @@
       "sortOrder": 47,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC Article 9(1)(i)",
+        "article": "Waste Framework Directive Art. 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Article 9(1)(i)",
         "kind": "legislation",
@@ -5590,7 +5590,7 @@
       "sortOrder": 54,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -5757,7 +5757,7 @@
       "sortOrder": 55,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -5864,7 +5864,7 @@
       "sortOrder": 56,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(b)",
         "kind": "legislation",
@@ -6080,7 +6080,7 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Article 7(2)(c)",
         "kind": "legislation",
@@ -6416,7 +6416,7 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3)",
+        "article": "ESPR Art. 9(3)",
         "instrument": "32024R1781",
         "provision": "Article 9(3)",
         "kind": "legislation",
@@ -6527,7 +6527,7 @@
       "sortOrder": 61,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 9(3), GS1 Digital Link",
+        "article": "ESPR Art. 9(3), GS1 Digital Link",
         "instrument": "32024R1781",
         "provision": "Article 9(3), GS1 Digital Link",
         "kind": "legislation",
@@ -6638,7 +6638,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Article 10",
         "kind": "legislation",
@@ -6749,7 +6749,7 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(3)",
+        "article": "ESPR Art. 10(3)",
         "instrument": "32024R1781",
         "provision": "Article 10(3)",
         "kind": "legislation",
@@ -6948,7 +6948,7 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Article 10(4)",
+        "article": "ESPR Art. 10(4)",
         "instrument": "32024R1781",
         "provision": "Article 10(4)",
         "kind": "legislation",
@@ -7056,7 +7056,7 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Annex II",
+        "article": "Decopaint Directive Annex II",
         "instrument": "32004L0042",
         "provision": "Annex II",
         "kind": "legislation",
@@ -7163,7 +7163,7 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Annex I",
+        "article": "Decopaint Directive Annex I",
         "instrument": "32004L0042",
         "provision": "Annex I",
         "kind": "legislation",
@@ -7590,7 +7590,7 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC",
+        "article": "Decopaint Directive",
         "instrument": "32004L0042",
         "kind": "legislation",
         "description": "The Directive's operative distinction is the Annex I subcategory, which Art. 4(a) puts on the label. A free product-type description is not a mandated datum."
@@ -7697,7 +7697,7 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC Arts. 3(1), 4(b)",
+        "article": "Decopaint Directive Arts. 3(1), 4(b)",
         "instrument": "32004L0042",
         "provision": "Art. 3(1), Art. 4(b)",
         "kind": "legislation",
@@ -7863,7 +7863,7 @@
       "sortOrder": 71,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Decopaint Directive 2004/42/EC",
+        "article": "Decopaint Directive",
         "instrument": "32004L0042",
         "kind": "legislation",
         "description": "Annex I distinguishes water-borne from solvent-borne products because they carry different Annex II limit values, so the distinction has legal effect — but what Art. 4 requires on the label is the subcategory and the VOC figures, not the solvent type itself."

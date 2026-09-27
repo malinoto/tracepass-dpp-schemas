@@ -134,7 +134,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32026R0405 Annex VI Part A(a)",
+        "article": "Detergents Regulation Annex VI Part A(a)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A(a)",
         "kind": "legislation",
@@ -277,7 +277,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32026R0405 Annex VI Part A(b)",
+        "article": "Detergents Regulation Annex VI Part A(b)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A(b)",
         "kind": "legislation",
@@ -969,7 +969,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R1169 Art. 9(1)(e)",
+        "article": "Food Information Regulation Art. 9(1)(e)",
         "instrument": "32011R1169",
         "provision": "Art. 9(1)(e)",
         "kind": "legislation",
@@ -1241,7 +1241,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32011R1169 Art. 23(1)",
+        "article": "Food Information Regulation Art. 23(1)",
         "instrument": "32011R1169",
         "provision": "Art. 23(1)",
         "kind": "legislation",
@@ -1369,7 +1369,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32026R0405 Annex VI Part A(h)",
+        "article": "Detergents Regulation Annex VI Part A(h)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A(h)",
         "kind": "legislation",
@@ -1765,7 +1765,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex III; (EU) 2023/1545",
+        "article": "Cosmetics Regulation Annex III; (EU) 2023/1545",
         "instrument": "32009R1223",
         "provision": "Annex III",
         "kind": "legislation",
@@ -1883,7 +1883,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 19(1)(g); (EC) 648/2004 Art. 11(6)",
+        "article": "Cosmetics Regulation Art. 19(1)(g); Detergents Regulation (2004) Art. 11(6)",
         "instrument": "32009R1223",
         "provision": "Art. 19(1)(g)",
         "kind": "legislation",
@@ -2002,7 +2002,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex V; (EC) 648/2004",
+        "article": "Cosmetics Regulation Annex V; Detergents Regulation (2004)",
         "instrument": "32009R1223",
         "provision": "Annex V",
         "kind": "legislation",
@@ -2230,7 +2230,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Annex IV",
+        "article": "Cosmetics Regulation Annex IV",
         "instrument": "32009R1223",
         "provision": "Annex IV",
         "kind": "legislation",
@@ -2349,7 +2349,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 1223/2009 Art. 16",
+        "article": "Cosmetics Regulation Art. 16",
         "instrument": "32009R1223",
         "provision": "Art. 16",
         "kind": "legislation",
@@ -2458,7 +2458,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; (EU) 2024/2865",
+        "article": "CLP; (EU) 2024/2865",
         "instrument": "32008R1272",
         "kind": "legislation",
         "description": "CLP's operative duty is to classify the substance or mixture and to communicate the resulting classification through the LABEL and the safety data sheet. Publishing the classification as product data neither creates nor discharges that obligation."
@@ -2829,7 +2829,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008",
+        "article": "CLP",
         "instrument": "32008R1272",
         "kind": "legislation",
         "description": "Hazard pictograms are label elements: CLP requires them to be affixed on the package. A passport copy repeats the information without discharging the labelling duty."
@@ -2938,7 +2938,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008",
+        "article": "CLP",
         "instrument": "32008R1272",
         "kind": "legislation",
         "description": "Hazard statements (H-phrases) are CLP label elements, required on the package alongside the pictogram, signal word and precautionary statements. The label is the vehicle."
@@ -3046,7 +3046,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008",
+        "article": "CLP",
         "instrument": "32008R1272",
         "kind": "legislation",
         "description": "Precautionary statements (P-phrases) are CLP label elements required on the package. Reproducing them here is useful to a reader but is not how the duty is met."
@@ -3263,7 +3263,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008 Art. 45; (EU) 2017/542",
+        "article": "CLP Art. 45; (EU) 2017/542",
         "instrument": "32008R1272",
         "provision": "Art. 45",
         "kind": "legislation",
@@ -3594,7 +3594,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EC) 648/2004 Art. 4; OECD 301B",
+        "article": "Detergents Regulation (2004) Art. 4; OECD 301B",
         "instrument": "32004R0648",
         "provision": "Art. 4",
         "kind": "legislation",
@@ -3878,7 +3878,7 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP (EC) 1272/2008; EU Ecolabel",
+        "article": "CLP; EU Ecolabel",
         "instrument": "32008R1272",
         "kind": "legislation",
         "description": "Aquatic hazard is a CLP classification, communicated through the hazard statement and pictogram on the LABEL and through the safety data sheet. CLP requires no separate publication of toxicity data as product information."
@@ -4327,7 +4327,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32025R0040 Art. 12(1)",
+        "article": "PPWR Art. 12(1)",
         "instrument": "32025R0040",
         "provision": "Art. 12(1)",
         "kind": "legislation",
@@ -4449,7 +4449,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 7",
+        "article": "PPWR Art. 7",
         "instrument": "32025R0040",
         "provision": "Art. 7",
         "kind": "legislation",
@@ -4708,7 +4708,7 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 6",
+        "article": "PPWR Art. 6",
         "instrument": "32025R0040",
         "provision": "Art. 6",
         "kind": "legislation",
@@ -4820,7 +4820,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 10",
+        "article": "PPWR Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
@@ -4929,7 +4929,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 10",
+        "article": "PPWR Art. 10",
         "instrument": "32025R0040",
         "provision": "Art. 10",
         "kind": "legislation",
@@ -5261,7 +5261,7 @@
       "sortOrder": 33,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2023/988; (EC) 1223/2009",
+        "article": "GPSR; Cosmetics Regulation",
         "instrument": "32023R0988",
         "kind": "legislation",
         "description": "GPSR requires the instructions and safety information needed for safe use to accompany the product. Storage guidance is part of that accompanying information rather than mandated passport data."
@@ -5374,7 +5374,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32026R0405 Annex VI Part A(d)",
+        "article": "Detergents Regulation Annex VI Part A(d)",
         "instrument": "32026R0405",
         "provision": "Annex VI Part A(d)",
         "kind": "legislation",
@@ -5996,7 +5996,7 @@
       "sortOrder": 36,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) 66/2010",
+        "article": "EU Ecolabel",
         "instrument": "32010R0066",
         "kind": "scheme",
         "description": "A licence number exists only where the manufacturer has voluntarily applied for and been awarded the EU Ecolabel. Nothing requires seeking it, so nothing requires publishing it."
@@ -6104,7 +6104,7 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "(EU) 2018/848; COSMOS Standard",
+        "article": "Organic Regulation; COSMOS Standard",
         "instrument": "32018R0848",
         "kind": "legislation",
         "description": "Organic certification under Reg (EU) 2018/848 applies to operators who choose to place products on the market as organic; the control body's code then appears in the labelling that regime prescribes. It is conditional on a voluntary claim, not a general duty."
@@ -6212,7 +6212,7 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32025R0040 Art. 12(1)",
+        "article": "PPWR Art. 12(1)",
         "instrument": "32025R0040",
         "provision": "Art. 12(1)",
         "kind": "legislation",
@@ -6331,7 +6331,7 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 28",
+        "article": "PPWR Art. 28",
         "instrument": "32025R0040",
         "provision": "Art. 28",
         "kind": "legislation",
@@ -6441,7 +6441,7 @@
       "sortOrder": 40,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "PPWR (EU) 2025/40 Art. 44-48",
+        "article": "PPWR Art. 44-48",
         "instrument": "32025R0040",
         "provision": "Art. 44-48",
         "kind": "legislation",
@@ -6551,7 +6551,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32009R1223 Art. 19(1)(a)",
+        "article": "Cosmetics Regulation Art. 19(1)(a)",
         "instrument": "32009R1223",
         "provision": "Art. 19(1)(a)",
         "kind": "legislation",

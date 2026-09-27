@@ -133,7 +133,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -245,7 +245,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(5)",
+        "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
         "kind": "legislation",
@@ -371,7 +371,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(5)",
+        "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
         "kind": "legislation",
@@ -489,7 +489,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -599,7 +599,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(6)",
+        "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
         "kind": "legislation",
@@ -724,7 +724,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(6)",
+        "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
         "kind": "legislation",
@@ -1171,7 +1171,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 19(c)",
+        "article": "GPSR Art. 19(c)",
         "instrument": "32023R0988",
         "provision": "Art. 19(c)",
         "kind": "legislation",
@@ -1380,7 +1380,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1492,7 +1492,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -1718,7 +1718,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
@@ -1831,7 +1831,7 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)",
+        "article": "ESPR Art. 7(2)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)",
@@ -1945,7 +1945,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "REACH (EC) 1907/2006 Art. 33(1); POPs Regulation (EU) 2019/1021 Annex I (PFOS, PFOA, PFHxS)",
+        "article": "REACH Art. 33(1); POPs Regulation Annex I (PFOS, PFOA, PFHxS)",
         "instrument": "32006R1907",
         "provision": "REACH Art. 33(1) — to B2B recipients on request, above 0.1% w/w, minimum content the substance name",
         "kind": "legislation",
@@ -2317,7 +2317,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -2428,7 +2428,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "annex": "Annex III",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
@@ -2541,7 +2541,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -2658,7 +2658,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -2771,7 +2771,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
@@ -2942,7 +2942,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
@@ -3054,7 +3054,7 @@
       "sortOrder": 24,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
@@ -3166,7 +3166,7 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3280,7 +3280,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3396,7 +3396,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3512,7 +3512,7 @@
       "sortOrder": 28,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3627,7 +3627,7 @@
       "sortOrder": 29,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3740,7 +3740,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -3856,7 +3856,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
@@ -4636,7 +4636,7 @@
       "sortOrder": 38,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -4749,7 +4749,7 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -5512,7 +5512,7 @@
       "sortOrder": 46,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -5622,7 +5622,7 @@
       "sortOrder": 47,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
@@ -6294,7 +6294,7 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
@@ -6403,7 +6403,7 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "annex": "Annex I",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",

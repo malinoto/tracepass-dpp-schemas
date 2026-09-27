@@ -133,7 +133,7 @@
       "sortOrder": 1,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2); ISO/IEC 15459",
+        "article": "ESPR Art. 9(2); ISO/IEC 15459",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -248,7 +248,7 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -359,7 +359,7 @@
       "sortOrder": 3,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -467,7 +467,7 @@
       "sortOrder": 4,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 19(c)",
+        "article": "GPSR Art. 19(c)",
         "instrument": "32023R0988",
         "provision": "Art. 19(c)",
         "kind": "legislation",
@@ -587,7 +587,7 @@
       "sortOrder": 5,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -696,7 +696,7 @@
       "sortOrder": 6,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(5)",
+        "article": "GPSR Art. 9(5)",
         "instrument": "32023R0988",
         "provision": "Art. 9(5)",
         "kind": "legislation",
@@ -1108,7 +1108,7 @@
       "sortOrder": 7,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 delegated act (furniture)",
+        "article": "ESPR delegated act (furniture)",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "Cites the future furniture delegated act, which is NOT adopted — so nothing here is legally required yet. ESPR itself mandates no product data (Art. 7(1) and Art. 9(2) both defer to the Art. 4 act). Anticipated; voluntary today. Verified against the EUR-Lex text."
@@ -1215,7 +1215,7 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(6)",
+        "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
         "kind": "legislation",
@@ -1340,7 +1340,7 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "32023R0988 Art. 9(6)",
+        "article": "GPSR Art. 9(6)",
         "instrument": "32023R0988",
         "provision": "Art. 9(6)",
         "kind": "legislation",
@@ -1464,7 +1464,7 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -1571,7 +1571,7 @@
       "sortOrder": 11,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -1682,7 +1682,7 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -1793,7 +1793,7 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -1904,7 +1904,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -2161,7 +2161,7 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2)",
+        "article": "ESPR Art. 9(2)",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -2273,7 +2273,7 @@
       "sortOrder": 17,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a); delegated act (furniture)",
+        "article": "ESPR Art. 7(2)(a); delegated act (furniture)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -2385,7 +2385,7 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 delegated act (furniture)",
+        "article": "ESPR delegated act (furniture)",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "Cites the future furniture delegated act, which is NOT adopted — so nothing here is legally required yet. ESPR itself mandates no product data (Art. 7(1) and Art. 9(2) both defer to the Art. 4 act). Anticipated; voluntary today. Verified against the EUR-Lex text."
@@ -2496,7 +2496,7 @@
       "sortOrder": 19,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -2607,7 +2607,7 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -2715,7 +2715,7 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -2823,7 +2823,7 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(b)",
         "kind": "legislation",
@@ -2931,7 +2931,7 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EUDR 2023/1115; EU Ecolabel Decision 2016/1332",
+        "article": "EUDR; EU Ecolabel Decision 2016/1332",
         "instrument": "32023R1115",
         "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
         "kind": "legislation",
@@ -3254,7 +3254,7 @@
       "sortOrder": 26,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "EUDR 2023/1115 Art. 4",
+        "article": "EUDR Art. 4",
         "instrument": "32023R1115",
         "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
         "kind": "legislation",
@@ -3362,7 +3362,7 @@
       "sortOrder": 27,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "EUDR 2023/1115 Art. 3",
+        "article": "EUDR Art. 3",
         "instrument": "32023R1115",
         "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
         "kind": "legislation",
@@ -3470,7 +3470,7 @@
       "sortOrder": 28,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "EUDR 2023/1115 Art. 9(1)(d)",
+        "article": "EUDR Art. 9(1)(d)",
         "instrument": "32023R1115",
         "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
         "kind": "legislation",
@@ -3863,7 +3863,7 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2023/1464 (REACH Entry 77); EN 717-1; EN 13986",
+        "article": "Formaldehyde restriction (REACH Entry 77); EN 717-1; EN 13986",
         "instrument": "32023R1464",
         "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
         "kind": "legislation",
@@ -3886,30 +3886,30 @@
     {
       "key": "formaldehydeEmissionValueMgM3",
       "label": {
-        "en": "Formaldehyde Emission Value (mg/m3)",
-        "bg": "Стойност на емисия на формалдехид (mg/m3)",
-        "de": "Formaldehyd-Emissionswert (mg/m3)",
+        "en": "Formaldehyde Emission Value (mg/m³)",
+        "bg": "Стойност на емисия на формалдехид (mg/m³)",
+        "de": "Formaldehyd-Emissionswert (mg/m³)",
         "it": "Valore di Emissione di Formaldeide (mg/m³)",
-        "hr": "Vrijednost emisije formaldehida (mg/m3)",
-        "cs": "Hodnota emisí formaldehydu (mg/m3)",
-        "da": "Formaldehydemissionsværdi (mg/m3)",
-        "nl": "Formaldehyde-emissiewaarde (mg/m3)",
-        "et": "Formaldehüüdi emissiooniväärtus (mg/m3)",
-        "fi": "Formaldehydipäästöarvo (mg/m3)",
-        "fr": "Valeur d'émission de formaldéhyde (mg/m3)",
-        "el": "Τιμή εκπομπών φορμαλδεΰδης (mg/m3)",
-        "hu": "Formaldehid-kibocsátási érték (mg/m3)",
-        "ga": "Luach astaíochta formaildéhíde (mg/m3)",
-        "es": "Valor de emisión de formaldehído (mg/m3)",
-        "lt": "Formaldehido emisijos vertė (mg/m3)",
-        "lv": "Formaldehīda emisijas vērtība (mg/m3)",
-        "mt": "Valur tal-emissjoni tal-formaldeide (mg/m3)",
-        "pl": "Wartość emisji formaldehydu (mg/m3)",
-        "pt": "Valor de emissão de formaldeído (mg/m3)",
-        "ro": "Valoarea emisiei de formaldehidă (mg/m3)",
-        "sk": "Hodnota emisií formaldehydu (mg/m3)",
-        "sl": "Vrednost emisij formaldehida (mg/m3)",
-        "sv": "Formaldehydemissionsvärde (mg/m3)"
+        "hr": "Vrijednost emisije formaldehida (mg/m³)",
+        "cs": "Hodnota emisí formaldehydu (mg/m³)",
+        "da": "Formaldehydemissionsværdi (mg/m³)",
+        "nl": "Formaldehyde-emissiewaarde (mg/m³)",
+        "et": "Formaldehüüdi emissiooniväärtus (mg/m³)",
+        "fi": "Formaldehydipäästöarvo (mg/m³)",
+        "fr": "Valeur d'émission de formaldéhyde (mg/m³)",
+        "el": "Τιμή εκπομπών φορμαλδεΰδης (mg/m³)",
+        "hu": "Formaldehid-kibocsátási érték (mg/m³)",
+        "ga": "Luach astaíochta formaildéhíde (mg/m³)",
+        "es": "Valor de emisión de formaldehído (mg/m³)",
+        "lt": "Formaldehido emisijos vertė (mg/m³)",
+        "lv": "Formaldehīda emisijas vērtība (mg/m³)",
+        "mt": "Valur tal-emissjoni tal-formaldeide (mg/m³)",
+        "pl": "Wartość emisji formaldehydu (mg/m³)",
+        "pt": "Valor de emissão de formaldeído (mg/m³)",
+        "ro": "Valoarea emisiei de formaldehidă (mg/m³)",
+        "sk": "Hodnota emisií formaldehydu (mg/m³)",
+        "sl": "Vrednost emisij formaldehida (mg/m³)",
+        "sv": "Formaldehydemissionsvärde (mg/m³)"
       },
       "description": {
         "en": "Formaldehyde emission measured per EN 717-1 chamber test (mg/m3). Must be <= 0.062 mg/m3 for furniture from Aug 2026.",
@@ -3975,7 +3975,7 @@
       "sortOrder": 31,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EU) 2023/1464; EN 717-1",
+        "article": "Formaldehyde restriction; EN 717-1",
         "instrument": "32023R1464",
         "provision": "REACH Annex XVII entry 77 — market-placement limit (0.062 mg/m3)",
         "kind": "legislation",
@@ -4108,30 +4108,30 @@
     {
       "key": "totalVocEmissionUgM3",
       "label": {
-        "en": "Total VOC Emission (ug/m3)",
-        "bg": "Обща емисия на ЛОС (ug/m3)",
-        "de": "Gesamt-VOC-Emission (ug/m3)",
+        "en": "Total VOC Emission (µg/m³)",
+        "bg": "Обща емисия на ЛОС (µg/m³)",
+        "de": "Gesamt-VOC-Emission (µg/m³)",
         "it": "Emissione VOC Totale (µg/m³)",
-        "hr": "Ukupna emisija VOC (ug/m3)",
-        "cs": "Celkové emise VOC (ug/m3)",
-        "da": "Samlet VOC-emission (ug/m3)",
-        "nl": "Totale VOC-emissie (ug/m3)",
-        "et": "Summaarne VOC emissioon (ug/m3)",
-        "fi": "Kokonais-VOC-päästö (ug/m3)",
-        "fr": "Émission totale de VOC (ug/m3)",
-        "el": "Συνολικές εκπομπές VOC (ug/m3)",
-        "hu": "Teljes VOC-kibocsátás (ug/m3)",
-        "ga": "Astaíocht VOC iomlán (ug/m3)",
-        "es": "Emisión total de VOC (ug/m3)",
-        "lt": "Bendra VOC emisija (ug/m3)",
-        "lv": "Kopējā VOC emisija (ug/m3)",
-        "mt": "Emissjoni totali ta' VOC (ug/m3)",
-        "pl": "Całkowita emisja VOC (ug/m3)",
-        "pt": "Emissão total de VOC (ug/m3)",
-        "ro": "Emisia totală de VOC (ug/m3)",
-        "sk": "Celkové emisie VOC (ug/m3)",
-        "sl": "Skupne emisije VOC (ug/m3)",
-        "sv": "Total VOC-emission (ug/m3)"
+        "hr": "Ukupna emisija VOC (µg/m³)",
+        "cs": "Celkové emise VOC (µg/m³)",
+        "da": "Samlet VOC-emission (µg/m³)",
+        "nl": "Totale VOC-emissie (µg/m³)",
+        "et": "Summaarne VOC emissioon (µg/m³)",
+        "fi": "Kokonais-VOC-päästö (µg/m³)",
+        "fr": "Émission totale de VOC (µg/m³)",
+        "el": "Συνολικές εκπομπές VOC (µg/m³)",
+        "hu": "Teljes VOC-kibocsátás (µg/m³)",
+        "ga": "Astaíocht VOC iomlán (µg/m³)",
+        "es": "Emisión total de VOC (µg/m³)",
+        "lt": "Bendra VOC emisija (µg/m³)",
+        "lv": "Kopējā VOC emisija (µg/m³)",
+        "mt": "Emissjoni totali ta' VOC (µg/m³)",
+        "pl": "Całkowita emisja VOC (µg/m³)",
+        "pt": "Emissão total de VOC (µg/m³)",
+        "ro": "Emisia totală de VOC (µg/m³)",
+        "sk": "Celkové emisie VOC (µg/m³)",
+        "sl": "Skupne emisije VOC (µg/m³)",
+        "sv": "Total VOC-emission (µg/m³)"
       },
       "description": {
         "en": "Total VOC emission after 28 days (ug/m3) per EN 16516",
@@ -4305,7 +4305,7 @@
       "sortOrder": 34,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "POPs Regulation (EU) 2019/1021; REACH Annex XVII; ECHA Flame Retardant Strategy 2023",
+        "article": "POPs Regulation; REACH Annex XVII; ECHA Flame Retardant Strategy 2023",
         "instrument": "32019R1021",
         "provision": "POPs Reg. (EU) 2019/1021 Annex I — market restriction",
         "kind": "legislation",
@@ -4413,7 +4413,7 @@
       "sortOrder": 35,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "POPs Regulation (EU) 2019/1021; Delegated Regulation (EU) 2025/1482",
+        "article": "POPs Regulation; Delegated Regulation (EU) 2025/1482",
         "instrument": "32019R1021",
         "provision": "POPs Reg. (EU) 2019/1021 Annex I (as amended by Del. Reg. (EU) 2025/1482) — unintentional trace limit 10 mg/kg",
         "kind": "legislation",
@@ -4521,7 +4521,7 @@
       "sortOrder": 36,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Biocidal Products Regulation (EU) 528/2012",
+        "article": "Biocidal Products Regulation",
         "instrument": "32012R0528",
         "kind": "legislation",
         "description": "Reg (EU) 528/2012 duties attach to AUTHORISATION of the biocidal product and to LABELLING of a treated article (Art. 58(3): the label must state the biocide when a claim is made about treated-article properties). It requires no passport entry; recording it here is voluntary transparency."
@@ -5071,7 +5071,7 @@
       "sortOrder": 41,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -5180,7 +5180,7 @@
       "sortOrder": 42,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -5288,7 +5288,7 @@
       "sortOrder": 43,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -5522,30 +5522,30 @@
     {
       "key": "foamDensityKgM3",
       "label": {
-        "en": "Foam Density (kg/m3)",
-        "bg": "Плътност на пяната (kg/m3)",
-        "de": "Schaumdichte (kg/m3)",
+        "en": "Foam Density (kg/m³)",
+        "bg": "Плътност на пяната (kg/m³)",
+        "de": "Schaumdichte (kg/m³)",
         "it": "Densità della Schiuma (kg/m³)",
-        "hr": "Gustoća pjene (kg/m3)",
-        "cs": "Hustota pěny (kg/m3)",
-        "da": "Skumdensitet (kg/m3)",
-        "nl": "Schuimdichtheid (kg/m3)",
-        "et": "Vahu tihedus (kg/m3)",
-        "fi": "Vaahdon tiheys (kg/m3)",
-        "fr": "Densité de la mousse (kg/m3)",
-        "el": "Πυκνότητα αφρού (kg/m3)",
-        "hu": "Hab sűrűsége (kg/m3)",
-        "ga": "Dlús cúráin (kg/m3)",
-        "es": "Densidad de la espuma (kg/m3)",
-        "lt": "Putų tankis (kg/m3)",
-        "lv": "Putu blīvums (kg/m3)",
-        "mt": "Densità tal-fowm (kg/m3)",
-        "pl": "Gęstość pianki (kg/m3)",
-        "pt": "Densidade da espuma (kg/m3)",
-        "ro": "Densitatea spumei (kg/m3)",
-        "sk": "Hustota peny (kg/m3)",
-        "sl": "Gostota pene (kg/m3)",
-        "sv": "Skumdensitet (kg/m3)"
+        "hr": "Gustoća pjene (kg/m³)",
+        "cs": "Hustota pěny (kg/m³)",
+        "da": "Skumdensitet (kg/m³)",
+        "nl": "Schuimdichtheid (kg/m³)",
+        "et": "Vahu tihedus (kg/m³)",
+        "fi": "Vaahdon tiheys (kg/m³)",
+        "fr": "Densité de la mousse (kg/m³)",
+        "el": "Πυκνότητα αφρού (kg/m³)",
+        "hu": "Hab sűrűsége (kg/m³)",
+        "ga": "Dlús cúráin (kg/m³)",
+        "es": "Densidad de la espuma (kg/m³)",
+        "lt": "Putų tankis (kg/m³)",
+        "lv": "Putu blīvums (kg/m³)",
+        "mt": "Densità tal-fowm (kg/m³)",
+        "pl": "Gęstość pianki (kg/m³)",
+        "pt": "Densidade da espuma (kg/m³)",
+        "ro": "Densitatea spumei (kg/m³)",
+        "sk": "Hustota peny (kg/m³)",
+        "sl": "Gostota pene (kg/m³)",
+        "sv": "Skumdensitet (kg/m³)"
       },
       "description": {
         "en": "Density of the primary foam layer (kg/m3)",
@@ -6149,7 +6149,7 @@
       "sortOrder": 51,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a); PEF methodology",
+        "article": "ESPR Art. 7(2)(a); PEF methodology",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6261,7 +6261,7 @@
       "sortOrder": 52,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781; EU PEF Guide",
+        "article": "ESPR; EU PEF Guide",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "Cites the future furniture delegated act, which is NOT adopted — so nothing here is legally required yet. ESPR itself mandates no product data (Art. 7(1) and Art. 9(2) both defer to the Art. 4 act). Anticipated; voluntary today. Verified against the EUR-Lex text."
@@ -6477,7 +6477,7 @@
       "sortOrder": 54,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6585,7 +6585,7 @@
       "sortOrder": 55,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6696,7 +6696,7 @@
       "sortOrder": 56,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -6807,7 +6807,7 @@
       "sortOrder": 57,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -6918,7 +6918,7 @@
       "sortOrder": 58,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -7029,7 +7029,7 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -7140,7 +7140,7 @@
       "sortOrder": 60,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -7248,7 +7248,7 @@
       "sortOrder": 61,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -7355,7 +7355,7 @@
       "sortOrder": 62,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -7462,7 +7462,7 @@
       "sortOrder": 63,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(c)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(c)",
         "kind": "legislation",
@@ -7570,7 +7570,7 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781; national EPR schemes",
+        "article": "ESPR; national EPR schemes",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "Cites the future furniture delegated act, which is NOT adopted — so nothing here is legally required yet. ESPR itself mandates no product data (Art. 7(1) and Art. 9(2) both defer to the Art. 4 act). Anticipated; voluntary today. Verified against the EUR-Lex text."
@@ -7785,7 +7785,7 @@
       "sortOrder": 67,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) No 66/2010; Decision 2016/1332",
+        "article": "EU Ecolabel; Decision 2016/1332",
         "instrument": "32010R0066",
         "kind": "scheme",
         "description": "Reg (EC) No 66/2010 is a VOLUNTARY scheme — a licence exists only if the manufacturer applied and was awarded one. Nothing requires holding an Ecolabel, so nothing requires publishing the number. Decision 2016/1332 sets the furniture criteria for those who opt in."
@@ -8108,7 +8108,7 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Regulation (EC) 1907/2006 REACH",
+        "article": "REACH",
         "instrument": "32006R1907",
         "kind": "legislation",
         "provision": "REACH (EC) 1907/2006 — obligations evidenced in the manufacturer's records",
@@ -8216,7 +8216,7 @@
       "sortOrder": 71,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Waste Framework Directive 2008/98/EC Art. 9(1)(i)",
+        "article": "Waste Framework Directive Art. 9(1)(i)",
         "instrument": "32008L0098",
         "provision": "Art. 9(1)(i)",
         "kind": "legislation",
@@ -8436,7 +8436,7 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(a)",
         "instrument": "32024R1781",
         "provision": "Art. 7(2)(a)",
         "kind": "legislation",
@@ -8544,7 +8544,7 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "General Product Safety Regulation (EU) 2023/988",
+        "article": "GPSR",
         "instrument": "32023R0988",
         "kind": "legislation",
         "description": "GPSR Art. 9(7) requires the product to be ACCOMPANIED by clear instructions and safety information, and only where it cannot be used safely without them. The duty attaches to what accompanies the product; a URL in a passport is one compliant way to meet it, not a separate obligation. Verified against the EUR-Lex text."
@@ -8650,7 +8650,7 @@
       "sortOrder": 75,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "General Product Safety Regulation (EU) 2023/988",
+        "article": "GPSR",
         "instrument": "32023R0988",
         "provision": "GPSR (EU) 2023/988 Art. 9(7) — warnings and safety information, where the product's risks require them",
         "kind": "legislation",
@@ -8759,7 +8759,7 @@
       "sortOrder": 76,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9(2); CSDDD",
+        "article": "ESPR Art. 9(2); CSDDD",
         "instrument": "32024R1781",
         "provision": "Art. 9(2)",
         "kind": "legislation",
@@ -8868,7 +8868,7 @@
       "sortOrder": 77,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "EUDR 2023/1115; CSDDD (EU) 2024/1760",
+        "article": "EUDR; CSDDD (EU) 2024/1760",
         "instrument": "32023R1115",
         "kind": "legislation",
         "description": "EUDR 2023/1115 requires a due-diligence STATEMENT submitted to the EU information system (Art. 4/33), and CSDDD 2024/1760 is a corporate-conduct duty on large undertakings — neither requires a per-product passport link. Voluntary transparency; note CSDDD does not bind an SME manufacturer at all."
@@ -8978,7 +8978,7 @@
       "sortOrder": 78,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 implementing acts",
+        "article": "ESPR implementing acts",
         "instrument": "32024R1781",
         "kind": "legislation",
         "description": "Cites ESPR implementing acts, which are not adopted for this category. The datum is passport plumbing rather than a product characteristic any instrument requires today. Anticipated; voluntary."
@@ -9088,7 +9088,7 @@
       "sortOrder": 80,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 10",
+        "article": "ESPR Art. 10",
         "instrument": "32024R1781",
         "provision": "Art. 10",
         "kind": "legislation",
@@ -9287,7 +9287,7 @@
       "sortOrder": 81,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 10(3)",
+        "article": "ESPR Art. 10(3)",
         "instrument": "32024R1781",
         "provision": "Art. 10(3)",
         "kind": "legislation",
@@ -9398,7 +9398,7 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR 2024/1781 Art. 9-10",
+        "article": "ESPR Art. 9-10",
         "instrument": "32024R1781",
         "provision": "Art. 9-10",
         "kind": "legislation",
