@@ -2390,7 +2390,7 @@
       "label": {
         "en": "Tyre Size Designation",
         "bg": "Означение на размера на гумата",
-        "de": "Reifengroeenbezeichnung",
+        "de": "Reifengrößenbezeichnung",
         "hr": "Oznaka veličine gume",
         "cs": "Označení rozměru pneumatiky",
         "da": "Dækstørrelsesbetegnelse",
@@ -2503,7 +2503,7 @@
       "label": {
         "en": "Load Capacity Index",
         "bg": "Индекс на товароносимост",
-        "de": "Tragfaehigkeitsindex",
+        "de": "Tragfähigkeitsindex",
         "hr": "Indeks nosivosti",
         "cs": "Index nosnosti",
         "da": "Belastningsindeks",
@@ -3620,7 +3620,7 @@
       "label": {
         "en": "Aspect Ratio",
         "bg": "Съотношение на профила",
-        "de": "Querschnittsverhaeltnis",
+        "de": "Querschnittsverhältnis",
         "hr": "Omjer visine i širine",
         "cs": "Profil (poměr výšky a šířky)",
         "da": "Højde-bredde-forhold",
@@ -4784,7 +4784,7 @@
       "label": {
         "en": "External Rolling Noise Class",
         "bg": "Клас на външен шум при търкаляне",
-        "de": "Externe Rollgeraeuschklasse",
+        "de": "Externe Rollgeräuschklasse",
         "hr": "Klasa vanjske buke kotrljanja",
         "cs": "Třída vnějšího hluku odvalování",
         "da": "Klasse for ekstern rullestøj",
@@ -4981,7 +4981,7 @@
       "label": {
         "en": "External Rolling Noise (dB)",
         "bg": "Външен шум при търкаляне (dB)",
-        "de": "Externes Rollgeraeusch (dB)",
+        "de": "Externes Rollgeräusch (dB)",
         "hr": "Vanjska buka kotrljanja (dB)",
         "cs": "Vnější hluk odvalování (dB)",
         "da": "Ekstern rullestøj (dB)",
@@ -5533,7 +5533,7 @@
       "label": {
         "en": "Abrasion Test Method",
         "bg": "Метод на изпитване за износване",
-        "de": "Abriebpruefverfahren",
+        "de": "Abriebprüfverfahren",
         "hr": "Metoda ispitivanja abrazije",
         "cs": "Metoda zkoušky otěru",
         "da": "Slid-testmetode",
@@ -6167,7 +6167,7 @@
       "label": {
         "en": "Bill of Materials",
         "bg": "Спецификация на материалите",
-        "de": "Stueckliste",
+        "de": "Stückliste",
         "hr": "Popis materijala",
         "cs": "Kusovník",
         "da": "Materialeliste",
@@ -6724,7 +6724,7 @@
       "label": {
         "en": "Recycled Carbon Black (%)",
         "bg": "Рециклиран въглероден черен (%)",
-        "de": "Recycelter Russ (%)",
+        "de": "Recycelter Ruß (%)",
         "hr": "Reciklirana čađa (%)",
         "cs": "Recyklované saze (%)",
         "da": "Genanvendt carbon black (%)",
@@ -7267,7 +7267,7 @@
       "label": {
         "en": "Heavy Metals Compliance",
         "bg": "Съответствие с изискванията за тежки метали",
-        "de": "Schwermetall-Konformitaet",
+        "de": "Schwermetall-Konformität",
         "hr": "Sukladnost s teškim metalima",
         "cs": "Soulad s limity těžkých kovů",
         "da": "Overensstemmelse med tungmetaller",
@@ -7376,7 +7376,7 @@
       "label": {
         "en": "REACH Compliance",
         "bg": "Съответствие с REACH",
-        "de": "REACH-Konformitaet",
+        "de": "REACH-Konformität",
         "hr": "Sukladnost s REACH-om",
         "cs": "Soulad s REACH",
         "da": "REACH-overensstemmelse",
@@ -7485,7 +7485,7 @@
       "label": {
         "en": "Carbon Footprint (kg CO2e)",
         "bg": "Въглероден отпечатък (kg CO2e)",
-        "de": "CO2-Fussabdruck (kg CO2e)",
+        "de": "CO2-Fußabdruck (kg CO2e)",
         "hr": "Ugljični otisak (kg CO2e)",
         "cs": "Uhlíková stopa (kg CO2e)",
         "da": "CO2-aftryk (kg CO2e)",
@@ -7598,7 +7598,7 @@
       "label": {
         "en": "Carbon Footprint Methodology",
         "bg": "Методология за въглероден отпечатък",
-        "de": "CO2-Fussabdruck-Methodik",
+        "de": "CO2-Fußabdruck-Methodik",
         "hr": "Metodologija ugljičnog otiska",
         "cs": "Metodika uhlíkové stopy",
         "da": "CO2-aftryksmetode",
@@ -7709,7 +7709,7 @@
       "label": {
         "en": "Fuel Savings Over Lifetime (liters)",
         "bg": "Спестяване на гориво за целия живот (литри)",
-        "de": "Kraftstoffeinsparung ueber Lebensdauer (Liter)",
+        "de": "Kraftstoffeinsparung über Lebensdauer (Liter)",
         "hr": "Ušteda goriva tijekom životnog vijeka (litre)",
         "cs": "Úspory paliva za dobu životnosti (litry)",
         "da": "Brændstofbesparelser over levetiden (liter)",
@@ -7816,7 +7816,7 @@
       "label": {
         "en": "CO2 Savings Over Lifetime (kg)",
         "bg": "Спестяване на CO2 за целия живот (кг)",
-        "de": "CO2-Einsparung ueber Lebensdauer (kg)",
+        "de": "CO2-Einsparung über Lebensdauer (kg)",
         "hr": "Ušteda CO2 tijekom životnog vijeka (kg)",
         "cs": "Úspory CO2 za dobu životnosti (kg)",
         "da": "CO2-besparelser over levetiden (kg)",
@@ -8032,7 +8032,7 @@
       "label": {
         "en": "Natural Rubber Sustainability Certification",
         "bg": "Сертификат за устойчивост на натурален каучук",
-        "de": "Nachhaltigkeitszertifizierung fuer Naturkautschuk",
+        "de": "Nachhaltigkeitszertifizierung für Naturkautschuk",
         "hr": "Certifikat održivosti prirodne gume",
         "cs": "Certifikace udržitelnosti přírodního kaučuku",
         "da": "Bæredygtighedscertificering for naturgummi",
@@ -8252,7 +8252,7 @@
       "label": {
         "en": "Treadwear Rating",
         "bg": "Рейтинг на износване на протектора",
-        "de": "Laufflaechen-Abriebwert",
+        "de": "Laufflächen-Abriebwert",
         "hr": "Ocjena trošenja profila",
         "cs": "Hodnocení opotřebení dezénu",
         "da": "Slidklassificering af mønster",
@@ -8576,7 +8576,7 @@
       "label": {
         "en": "Max Age Recommendation (years)",
         "bg": "Препоръчителна максимална възраст (години)",
-        "de": "Empfohlenes Hoechstalter (Jahre)",
+        "de": "Empfohlenes Höchstalter (Jahre)",
         "hr": "Preporuka maksimalne starosti (godine)",
         "cs": "Doporučené maximální stáří (roky)",
         "da": "Anbefalet maksimal alder (år)",
@@ -8907,7 +8907,7 @@
       "label": {
         "en": "Retread Service Life Extension (km)",
         "bg": "Удължаване на живота при регенериране (км)",
-        "de": "Lebensdauerverlaengerung durch Runderneuerung (km)",
+        "de": "Lebensdauerverlängerung durch Runderneuerung (km)",
         "hr": "Produljenje životnog vijeka protektiranjem (km)",
         "cs": "Prodloužení provozní životnosti protektorováním (km)",
         "da": "Forlængelse af servicelevetid ved regummiering (km)",
@@ -9012,7 +9012,7 @@
       "label": {
         "en": "Recyclability (%)",
         "bg": "Възможност за възможност за рециклиране (%)",
-        "de": "Recyclingfaehigkeit (%)",
+        "de": "Recyclingfähigkeit (%)",
         "hr": "Mogućnost recikliranja (%)",
         "cs": "Recyklovatelnost (%)",
         "da": "Genanvendelighed (%)",
@@ -9123,7 +9123,7 @@
       "label": {
         "en": "Recyclability Breakdown",
         "bg": "Разбивка на възможността за възможност за рециклиране",
-        "de": "Recyclingaufschluesselung",
+        "de": "Recyclingaufschlüsselung",
         "hr": "Razrada mogućnosti recikliranja",
         "cs": "Rozpis recyklovatelnosti",
         "da": "Oversigt over genanvendelighed",
@@ -9344,7 +9344,7 @@
       "label": {
         "en": "Disassembly Instructions URL",
         "bg": "URL за инструкции за разглобяване",
-        "de": "URL fuer Demontageanleitungen",
+        "de": "URL für Demontageanleitungen",
         "hr": "URL uputa za rastavljanje",
         "cs": "URL pokynů k demontáži",
         "da": "URL til demonteringsvejledning",
@@ -9724,7 +9724,7 @@
       "categoryLabel": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",
@@ -9773,7 +9773,7 @@
       "label": {
         "en": "Euro 7 Compliance",
         "bg": "Съответствие с Евро 7",
-        "de": "Euro 7-Konformitaet",
+        "de": "Euro 7-Konformität",
         "hr": "Sukladnost s Euro 7",
         "cs": "Soulad s Euro 7",
         "da": "Euro 7-overensstemmelse",
@@ -9834,7 +9834,7 @@
       "categoryLabel": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",
@@ -9942,7 +9942,7 @@
       "categoryLabel": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",
@@ -9990,7 +9990,7 @@
       "label": {
         "en": "Declaration of Conformity URL",
         "bg": "URL на декларация за съответствие",
-        "de": "URL der Konformitaetserklaerung",
+        "de": "URL der Konformitätserklärung",
         "hr": "URL izjave o sukladnosti",
         "cs": "URL prohlášení o shodě",
         "da": "URL til overensstemmelseserklæring",
@@ -10051,7 +10051,7 @@
       "categoryLabel": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",
@@ -10163,7 +10163,7 @@
       "categoryLabel": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",
@@ -10427,7 +10427,7 @@
       "label": {
         "en": "Maximum Load (kg)",
         "bg": "Максимално натоварване (кг)",
-        "de": "Hoechstlast (kg)",
+        "de": "Höchstlast (kg)",
         "hr": "Maksimalno opterećenje (kg)",
         "cs": "Maximální zatížení (kg)",
         "da": "Maksimal belastning (kg)",
@@ -11769,7 +11769,7 @@
       "label": {
         "en": "Compliance and Type Approval",
         "bg": "Съответствие и одобрение на типа",
-        "de": "Konformitaet und Typgenehmigung",
+        "de": "Konformität und Typgenehmigung",
         "hr": "Usklađenost i homologacija",
         "cs": "Soulad a schválení typu",
         "da": "Overensstemmelse og typegodkendelse",

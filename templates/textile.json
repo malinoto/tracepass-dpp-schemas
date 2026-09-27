@@ -2451,7 +2451,7 @@
       "label": {
         "en": "Carbon Footprint",
         "bg": "Въглероден отпечатък",
-        "de": "CO2-Fussabdruck",
+        "de": "CO2-Fußabdruck",
         "nl": "Koolstofvoetafdruk",
         "hr": "Ugljični otisak",
         "cs": "Uhlíková stopa",
@@ -2568,7 +2568,7 @@
       "label": {
         "en": "Environmental Footprint Score (PEF)",
         "bg": "Екологичен отпечатък (PEF)",
-        "de": "Umweltfussabdruck (PEF)",
+        "de": "Umweltfußabdruck (PEF)",
         "nl": "Milieuvoerafdrukscore (PEF)",
         "hr": "Ocjena otiska na okoliš (PEF)",
         "cs": "Skóre environmentální stopy (PEF)",
@@ -3190,7 +3190,7 @@
       "label": {
         "en": "Pilling Resistance",
         "bg": "Устойчивост на пилинг",
-        "de": "Pillingbestandigkeit",
+        "de": "Pillingbeständigkeit",
         "nl": "Pluisbestendigheid",
         "hr": "Otpornost na pilling",
         "cs": "Odolnost proti žmolkování",
@@ -3650,7 +3650,7 @@
       "label": {
         "en": "Dimensional Stability (Shrinkage)",
         "bg": "Размерна стабилност (свиване)",
-        "de": "Dimensionsstabilitat (Schrumpfung)",
+        "de": "Dimensionsstabilität (Schrumpfung)",
         "nl": "Dimensionale stabiliteit (krimpen)",
         "hr": "Dimenzijska stabilnost (skupljanje)",
         "cs": "Rozměrová stálost (srážlivost)",
@@ -3766,7 +3766,7 @@
       "label": {
         "en": "Tear Strength",
         "bg": "Устойчивост на скъсване",
-        "de": "Reissfestigkeit",
+        "de": "Reißfestigkeit",
         "nl": "Scheuursterkte",
         "hr": "Čvrstoća trganja",
         "cs": "Pevnost v dotržení",
@@ -3993,7 +3993,7 @@
       "label": {
         "en": "Spare Parts Availability",
         "bg": "Наличност на резервни части",
-        "de": "Ersatzteilverfugbarkeit",
+        "de": "Ersatzteilverfügbarkeit",
         "nl": "Beschikbaarheid onderdelen",
         "hr": "Dostupnost rezervnih dijelova",
         "cs": "Dostupnost náhradních dílů",
@@ -4435,7 +4435,7 @@
       "label": {
         "en": "Take-Back Program",
         "bg": "Програма за обратно приемане",
-        "de": "Rucknahmeprogramm",
+        "de": "Rücknahmeprogramm",
         "nl": "Terugneem-programma",
         "hr": "Program preuzimanja",
         "cs": "Program zpětného odběru",
@@ -4771,7 +4771,7 @@
       "label": {
         "en": "Supply Chain Traceability",
         "bg": "Проследимост на веригата за доставки",
-        "de": "Lieferkettenruckverfolgbarkeit",
+        "de": "Lieferkettenrückverfolgbarkeit",
         "nl": "Traceerbaarheid van de toeleveringsketen",
         "hr": "Sljedivost opskrbnog lanca",
         "cs": "Sledovatelnost dodavatelského řetězce",
@@ -4989,7 +4989,7 @@
       "label": {
         "en": "Dyeing Country",
         "bg": "Страна на багрене",
-        "de": "Farbeland",
+        "de": "Färbeland",
         "nl": "Verfland",
         "hr": "Zemlja bojenja",
         "cs": "Země barvení",
@@ -5202,7 +5202,7 @@
       "label": {
         "en": "Dyeing Method",
         "bg": "Метод на багрене",
-        "de": "Farbeverfahren",
+        "de": "Färbeverfahren",
         "nl": "Verfmethode",
         "hr": "Metoda bojenja",
         "cs": "Metoda barvení",
@@ -5872,7 +5872,7 @@
           "label": {
             "en": "Road",
             "bg": "Шосеен",
-            "de": "Strasse",
+            "de": "Straße",
             "nl": "Weg",
             "hr": "Cesta",
             "cs": "Silnice",
@@ -6316,7 +6316,7 @@
       "label": {
         "en": "Packaging Recyclability",
         "bg": "Възможност за възможност за рециклиране на опаковка",
-        "de": "Recyclingfahigkeit der Verpackung",
+        "de": "Recyclingfähigkeit der Verpackung",
         "nl": "Recyclingbaarheid verpakking",
         "hr": "Recikličnost ambalaže",
         "cs": "Recyklovatelnost obalu",
@@ -6425,7 +6425,7 @@
       "label": {
         "en": "Eco-Score Value",
         "bg": "Стойност на еко-оценка",
-        "de": "Oko-Bewertungswert",
+        "de": "Öko-Bewertungswert",
         "nl": "Eco-Score-waarde",
         "hr": "Vrijednost Eco-Scorea",
         "cs": "Hodnota Eco-Score",
@@ -6486,7 +6486,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -6532,7 +6532,7 @@
       "label": {
         "en": "Eco-Score Grade",
         "bg": "Клас на еко-оценка",
-        "de": "Oko-Bewertungsklasse",
+        "de": "Öko-Bewertungsklasse",
         "nl": "Eco-Score-graad",
         "hr": "Ocjena Eco-Scorea",
         "cs": "Třída Eco-Score",
@@ -6739,7 +6739,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -6847,7 +6847,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -6955,7 +6955,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -7062,7 +7062,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -7108,7 +7108,7 @@
       "label": {
         "en": "PEF Resource Depletion",
         "bg": "PEF изчерпване на ресурси",
-        "de": "PEF Ressourcenerschopfung",
+        "de": "PEF Ressourcenerschöpfung",
         "nl": "PEF Bronnenuitputting",
         "hr": "PEF iscrpljivanje resursa",
         "cs": "PEF vyčerpávání zdrojů",
@@ -7169,7 +7169,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -7277,7 +7277,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -7384,7 +7384,7 @@
       "categoryLabel": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
@@ -7644,7 +7644,7 @@
       "label": {
         "en": "French Eco-Score",
         "bg": "Френска еко-оценка",
-        "de": "Franzosischer Oko-Score",
+        "de": "Französischer Öko-Score",
         "nl": "Franse Eco-Score",
         "hr": "Francuski Eco-Score",
         "cs": "Francouzské Eco-Score",
