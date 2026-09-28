@@ -3841,9 +3841,12 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Kimberley Process",
-        "kind": "scheme",
-        "source": "Kimberley Process"
+        "article": null,
+        "annex": null,
+        "instrument": null,
+        "provision": null,
+        "kind": "specification",
+        "description": "No EU instrument requires the mining country of a gemstone on a jewelry passport, and no passport act exists for jewelry. The Kimberley Process Certification Scheme (implemented in the EU by Council Regulation (EC) No 2368/2002) certifies shipments of rough diamonds at import and export; it does not cover coloured gemstones, amber or cut stones set in finished jewelry, and its certificates travel with rough-diamond shipments, not with an individual stone in a finished piece. Recorded here as the seller's own sourcing statement."
       },
       "aiHints": {
         "alternateNames": [
