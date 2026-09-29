@@ -65,30 +65,30 @@
         "sv": "Produktnamn"
       },
       "description": {
-        "en": "Commercial product name or trade designation of the toy",
-        "bg": "Търговско наименование или търговско обозначение на играчката",
-        "de": "Handelsname oder Handelsbezeichnung des Spielzeugs",
-        "nl": "Handelsnaam of handelsbenaming van het speelgoed",
-        "it": "Nome commerciale o denominazione commerciale del giocattolo",
-        "hr": "Komercijalni naziv ili trgovačka oznaka igračke",
-        "cs": "Obchodní název nebo obchodní označení hračky",
-        "da": "Kommercielt produktnavn eller handelsbetegnelse for legetøjet",
-        "et": "Mänguasja kaubanduslik nimi või kaubamärk",
-        "fi": "Lelun kaupallinen nimi tai kauppanimitys",
-        "fr": "Nom commercial ou désignation commerciale du jouet",
-        "el": "Εμπορική ονομασία ή εμπορικός χαρακτηρισμός του παιχνιδιού",
-        "hu": "A játék kereskedelmi neve vagy kereskedelmi megnevezése",
-        "ga": "Ainm tráchtála nó sonrúchán trádála an bhréagáin",
-        "lv": "Rotaļlietas komerciālais nosaukums vai tirdzniecības apzīmējums",
-        "lt": "Žaislo komercinis pavadinimas arba prekybinis pavadinimas",
-        "mt": "Isem kummerċjali jew denominazzjoni kummerċjali tal-ġugarell",
-        "pl": "Handlowa nazwa lub oznaczenie handlowe zabawki",
-        "pt": "Nome comercial ou designação comercial do brinquedo",
-        "ro": "Denumirea comercială sau denumirea de comerț a jucăriei",
-        "sk": "Obchodný názov alebo obchodné označenie hračky",
-        "sl": "Komercialno ime ali trgovska oznaka igrače",
-        "es": "Nombre comercial o denominación comercial del juguete",
-        "sv": "Kommersiellt produktnamn eller handelsbeteckning för leksaken"
+        "en": "Commercial name or trade designation of the toy (our product convenience field — not directly mandated by Regulation (EU) 2025/2509; point (e) requires identification allowing traceability, not a commercial name).",
+        "bg": "Търговско наименование или търговско обозначение на играчката (наше удобно поле за продукта — не е пряко предвидено в Регламент (ЕС) 2025/2509; буква (д) изисква идентификация, позволяваща проследяемост, не търговско наименование).",
+        "de": "Handelsname oder Handelsbezeichnung des Spielzeugs (unser Produktkomfortfeld — nicht direkt vorgeschrieben durch Verordnung (EU) 2025/2509; Buchstabe (e) verlangt eine Identifizierung zur Rückverfolgbarkeit, keinen Handelsnamen).",
+        "nl": "Handelsnaam of handelsbenaming van het speelgoed (ons product-gemaksveld — niet rechtstreeks voorgeschreven door Verordening (EU) 2025/2509; punt (e) vereist identificatie die traceerbaarheid mogelijk maakt, geen handelsnaam).",
+        "it": "Nome commerciale o denominazione commerciale del giocattolo (campo di convenienza del prodotto — non direttamente imposto dal reg. (UE) 2025/2509; il punto (e) richiede l'identificazione che consenta la tracciabilità, non una denominazione commerciale).",
+        "hr": "Komercijalni naziv ili trgovačka oznaka igračke (naše polje pogodnosti za proizvod — nije izravno propisano Uredbom (EU) 2025/2509; točka (e) zahtijeva identifikaciju koja omogućava sljedivost, a ne komercijalnu oznaku).",
+        "cs": "Obchodní název nebo obchodní označení hračky (naše pole pro usnadnění práce s produktem — není přímo vyžadováno nař. (EU) 2025/2509; písm. (e) vyžaduje identifikaci umožňující sledovatelnost, nikoli obchodní název).",
+        "da": "Kommercielt produktnavn eller handelsbetegnelse for legetøjet (vores produktkomfortfelt — ikke direkte påkrævet af forordning (EU) 2025/2509; litra (e) kræver identifikation, der muliggør sporbarhed, ikke et handelsnavn).",
+        "et": "Mänguasja kaubanduslik nimi või kaubamärk (meie tootele mõeldud mugavusväli — ei ole otseselt nõutud määruses (EL) 2025/2509; punkt (e) nõuab jälgitavust võimaldavat identifitseerimist, mitte kaubandusnime).",
+        "fi": "Lelun kaupallinen nimi tai kauppanimitys (tuotemukavuuskenttämme — asetuksen (EU) 2025/2509 ei suoraan edellytä; kohta (e) edellyttää jäljitettävyyden mahdollistavaa tunnistamista, ei kauppanimeä).",
+        "fr": "Nom commercial ou désignation commerciale du jouet (notre champ de commodité produit — pas directement imposé par le règl. (UE) 2025/2509; le point (e) exige une identification permettant la traçabilité, pas un nom commercial).",
+        "el": "Εμπορική ονομασία ή εμπορικός χαρακτηρισμός του παιχνιδιού (δικό μας πεδίο ευκολίας — δεν επιβάλλεται ρητά από τον Καν. (ΕΕ) 2025/2509· το στοιχείο (ε) απαιτεί αναγνώριση που επιτρέπει ιχνηλασιμότητα, όχι εμπορική ονομασία).",
+        "hu": "A játék kereskedelmi neve vagy kereskedelmi megnevezése (saját termékkényelmi mezőnk — nem közvetlenül előírja a (EU) 2025/2509 rendelet; az e) pont nyomon követhetőséget lehetővé tévő azonosítást kíván, nem kereskedelmi nevet).",
+        "ga": "Ainm tráchtála nó sonrúchán trádála an bhréagáin (ár réimse áise táirge — ní éilítear go díreach le Rialachán (AE) 2025/2509 é; éilíonn pointe (e) aitheantas a cheadaíonn inrianaitheacht, ní ainm tráchtála).",
+        "lv": "Rotaļlietas komerciālais nosaukums vai tirdzniecības apzīmējums (mūsu produkta ērtības lauks — tieši neparedz Regula (ES) 2025/2509; e) punkts prasa identifikāciju, kas ļauj izsekojamību, nevis tirdzniecības nosaukumu).",
+        "lt": "Žaislo komercinis pavadinimas arba prekybinis apibūdinimas (mūsų produkto patogumo laukas — tiesiogiai nereikalaujama Reglamento (ES) 2025/2509; (e) punktas reikalauja identifikacijos, leidžiančios atsekamumą, o ne komercinio pavadinimo).",
+        "mt": "Isem kummerċjali jew denominazzjoni kummerċjali tal-ġugarell (il-qasam tal-konvenjenza tal-prodott tagħna — mhux direttament mitlub mir-Reg. (UE) 2025/2509; il-punt (e) jeħtieġ identifikazzjoni li tippermetti t-traċċabbiltà, mhux isem kummerċjali).",
+        "pl": "Handlowa nazwa lub oznaczenie handlowe zabawki (nasze pole wygody dla produktu — nie jest bezpośrednio wymagane rozp. (UE) 2025/2509; lit. (e) wymaga identyfikacji umożliwiającej identyfikowalność, a nie nazwy handlowej).",
+        "pt": "Nome comercial ou designação comercial do brinquedo (campo de conveniência do nosso produto — não diretamente imposto pelo Reg. (UE) 2025/2509; a alínea (e) exige identificação que permita a rastreabilidade, não um nome comercial).",
+        "ro": "Denumirea comercială sau denumirea de comerț a jucăriei (câmpul nostru de conveniență a produsului — nu este impus direct de Reg. (UE) 2025/2509; punctul (e) impune o identificare care permite trasabilitatea, nu o denumire comercială).",
+        "sk": "Obchodný názov alebo obchodné označenie hračky (naše pole pohodlia pre výrobok — nie je priamo vyžadované nar. (EÚ) 2025/2509; písm. (e) vyžaduje identifikáciu umožňujúcu sledovateľnosť, nie obchodný názov).",
+        "sl": "Komercialno ime ali trgovska oznaka igrače (naše polje za udobje pri izdelku — ni neposredno določeno z Uredbo (EU) 2025/2509; točka (e) zahteva identifikacijo, ki omogoča sledljivost, ne komercialno ime).",
+        "es": "Nombre comercial o denominación comercial del juguete (nuestro campo de conveniencia del producto — no impuesto directamente por el Reg. (UE) 2025/2509; el punto (e) exige identificación que permita la trazabilidad, no un nombre comercial).",
+        "sv": "Kommersiellt produktnamn eller handelsbeteckning för leksaken (vårt produktbekvämlighetsifält — krävs inte direkt av förordning (EU) 2025/2509; led e kräver identifiering som möjliggör spårbarhet, inte ett handelsnamn)."
       },
       "dataType": "string",
       "unit": null,
@@ -96,7 +96,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true
+        "required": false
       },
       "category": "general_info",
       "categoryLabel": {
@@ -132,16 +132,7 @@
         "instrument": "32025R2509",
         "provision": "Annex VI Part I(e)",
         "kind": "legislation",
-        "description": "Annex VI Part I(e): identification of the toy allowing traceability. Applies from 1 August 2030 (Art. 59); like the battery and detergent templates, the data of an adopted, dated passport act is required ahead of that date.",
-        "obligations": [
-          {
-            "instrument": "32025R2509",
-            "provision": "Annex VI Part I(e)",
-            "carrier": "passport",
-            "condition": null,
-            "quote": "object of the digital product passport (identification of toy allowing traceability, including a colour image of sufficient clarity to enable the identification of the toy)"
-          }
-        ]
+        "description": "Annex VI Part I(e): identification of the toy allowing traceability. Applies from 1 August 2030 (Art. 59); like the battery and detergent templates, the data of an adopted, dated passport act is required ahead of that date."
       },
       "aiHints": {
         "alternateNames": [
@@ -377,7 +368,12 @@
             "condition": null,
             "quote": "unique product identifier of the toy;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -392,56 +388,56 @@
     {
       "key": "modelNumber",
       "label": {
-        "en": "Model / SKU",
-        "bg": "Модел / SKU",
-        "de": "Modell / SKU",
-        "nl": "Model / SKU",
-        "it": "Modello / SKU",
-        "hr": "Model / SKU",
-        "cs": "Model / SKU",
-        "da": "Model / SKU",
-        "et": "Mudel / SKU",
-        "fi": "Malli / SKU",
-        "fr": "Modèle / SKU",
-        "el": "Μοντέλο / SKU",
-        "hu": "Modell / SKU",
-        "ga": "Samhail / SKU",
-        "lv": "Modelis / SKU",
-        "lt": "Modelis / SKU",
-        "mt": "Mudell / SKU",
-        "pl": "Model / SKU",
-        "pt": "Modelo / SKU",
-        "ro": "Model / SKU",
-        "sk": "Model / SKU",
-        "sl": "Model / SKU",
-        "es": "Modelo / SKU",
-        "sv": "Modell / SKU"
+        "en": "Type / Batch / Serial / Model Number",
+        "bg": "Номер на тип / партида / сериен / модел",
+        "de": "Typen-/Chargen-/Serien-/Modellnummer",
+        "nl": "Type-/batch-/serie-/modelnummer",
+        "it": "Numero di tipo / lotto / serie / modello",
+        "hr": "Broj tipa / serije / serijskog broja / modela",
+        "cs": "Číslo typu / šarže / série / modelu",
+        "da": "Type-/batch-/serie-/modelnummer",
+        "et": "Tüübi-/partii-/seeria-/mudeli number",
+        "fi": "Tyyppi-/erä-/sarja-/mallinumero",
+        "fr": "Numéro de type / lot / série / modèle",
+        "el": "Αριθμός τύπου / παρτίδας / σειράς / μοντέλου",
+        "hu": "Típus-/sorozat-/szériaszám/modellszám",
+        "ga": "Uimhir chineáil / baisce / sraithe / samhla",
+        "lv": "Tipa/partijas/sērijas/modeļa numurs",
+        "lt": "Tipo / partijos / serijos / modelio numeris",
+        "mt": "Numru tat-tip / tal-lott / tas-serje / tal-mudell",
+        "pl": "Numer typu / partii / serii / modelu",
+        "pt": "Número de tipo / lote / série / modelo",
+        "ro": "Număr de tip / lot / serie / model",
+        "sk": "Číslo typu / šarže / série / modelu",
+        "sl": "Številka tipa / serije / serijske / modela",
+        "es": "Número de tipo / lote / serie / modelo",
+        "sv": "Typ-/sats-/serie-/modellnummer"
       },
       "description": {
-        "en": "Model number, SKU, or product variant identifier",
-        "bg": "Номер на модел, SKU или идентификатор на вариант на продукта",
-        "de": "Modellnummer, SKU oder Produktvarianten-Kennung",
-        "nl": "Modelnummer, SKU of productvariant-identifier",
-        "it": "Numero modello, SKU o identificativo della variante di prodotto",
-        "hr": "Broj modela, SKU ili identifikator varijante proizvoda",
-        "cs": "Číslo modelu, SKU nebo identifikátor varianty produktu",
-        "da": "Modelnummer, SKU eller produktvariantidentifikator",
-        "et": "Mudelinumber, SKU või toote variandi identifikaator",
-        "fi": "Mallinumero, SKU tai tuotevariantin tunniste",
-        "fr": "Numéro de modèle, SKU ou identifiant de variante de produit",
-        "el": "Αριθμός μοντέλου, SKU ή αναγνωριστικό παραλλαγής προϊόντος",
-        "hu": "Modellszám, SKU vagy termékváltozat-azonosító",
-        "ga": "Uimhir samhla, SKU nó aitheantóir leagain táirge",
-        "lv": "Modeļa numurs, SKU vai produkta varianta identifikators",
-        "lt": "Modelio numeris, SKU arba produkto varianto identifikatorius",
-        "mt": "Numru tal-mudell, SKU jew identifikatur ta' varjant tal-prodott",
-        "pl": "Numer modelu, SKU lub identyfikator wariantu produktu",
-        "pt": "Número do modelo, SKU ou identificador de variante do produto",
-        "ro": "Număr de model, SKU sau identificator de variantă a produsului",
-        "sk": "Číslo modelu, SKU alebo identifikátor varianty produktu",
-        "sl": "Številka modela, SKU ali identifikator različice izdelka",
-        "es": "Número de modelo, SKU o identificador de variante del producto",
-        "sv": "Modellnummer, SKU eller produktvariantidentifierare"
+        "en": "A type, batch, serial or model number or other element allowing the identification of the toy (Art. 7(5) of Regulation (EU) 2025/2509), contributing to the object of the passport per Annex VI Part I(e).",
+        "bg": "Номер на тип, партида, сериен или модел или друг елемент, позволяващ идентификацията на играчката (чл. 7(5) от Регламент (ЕС) 2025/2509), допринасящ за обекта на паспорта съгласно приложение VI, част I(д).",
+        "de": "Eine Typen-, Chargen-, Serien- oder Modellnummer oder ein anderes Element zur Identifizierung des Spielzeugs (Art. 7(5) der Verordnung (EU) 2025/2509), das zum Gegenstand des Reisepasses nach Anhang VI Teil I(e) beiträgt.",
+        "nl": "Een type-, batch-, serie- of modelnummer of ander element voor de identificatie van het speelgoed (art. 7(5) van Verordening (EU) 2025/2509), als bijdrage aan het object van het paspoort overeenkomstig bijlage VI deel I(e).",
+        "it": "Un numero di tipo, di lotto, di serie o di modello o altro elemento che consente l'identificazione del giocattolo (art. 7, par. 5, del regolamento (UE) 2025/2509), quale contributo all'oggetto del passaporto ai sensi dell'allegato VI parte I(e).",
+        "hr": "Broj tipa, serije, serijskog broja ili modela ili drugi element koji omogućuje identifikaciju igračke (čl. 7(5) Uredbe (EU) 2025/2509), koji pridonosi predmetu putovnice u skladu s prilogom VI dijelom I(e).",
+        "cs": "Číslo typu, šarže, série nebo modelu nebo jiný prvek umožňující identifikaci hračky (čl. 7(5) nař. (EU) 2025/2509), přispívající k předmětu pasu podle přílohy VI části I(e).",
+        "da": "Et type-, batch-, serie- eller modelnummer eller andet element, der muliggør identifikation af legetøjet (art. 7(5) i forordning (EU) 2025/2509), som bidrager til passportets genstand i henhold til bilag VI del I(e).",
+        "et": "Tüübi-, partii-, seeria- või mudelinumber või muu element, mis võimaldab mänguasja tuvastamist (art. 7(5) määrusest (EL) 2025/2509), mis aitab kaasa passi objektile vastavalt VI lisa I osa punktile (e).",
+        "fi": "Tyyppi-, erä-, sarja- tai mallinumero tai muu elementti, joka mahdollistaa lelun tunnistamisen (asetuksen (EU) 2025/2509 7 artiklan 5 kohta), joka edistää passin kohdetta liitteen VI I osan e kohdan mukaisesti.",
+        "fr": "Un numéro de type, de lot, de série ou de modèle ou un autre élément permettant l'identification du jouet (art. 7(5) du règl. (UE) 2025/2509), contribuant à l'objet du passeport selon l'annexe VI partie I(e).",
+        "el": "Αριθμός τύπου, παρτίδας, σειράς ή μοντέλου ή άλλο στοιχείο που επιτρέπει την αναγνώριση του παιχνιδιού (άρθρο 7(5) Καν. (ΕΕ) 2025/2509), συμβάλλοντας στον σκοπό του διαβατηρίου κατά παράρτημα VI μέρος I στοιχείο ε).",
+        "hu": "Típus-, sorozat-, szériaszám vagy modellszám vagy más elem, amely lehetővé teszi a játék azonosítását ((EU) 2025/2509 rendelet 7. cikk (5) bekezdés), hozzájárulva a VI. melléklet I. rész e) pontja szerinti útlevél tárgyához.",
+        "ga": "Uimhir chineáil, baisce, sraithe nó samhla nó eilimint eile a cheadaíonn aitheantas an bhréagáin (alt 7(5) de Rialachán (AE) 2025/2509), ag rannchuidiú le hábhar an phas de réir Iarscríbhinn VI Cuid I(e).",
+        "lv": "Tipa, partijas, sērijas vai modeļa numurs vai cits elements, kas ļauj identificēt rotaļlietu (Regulas (ES) 2025/2509 7. panta 5. punkts), kas sekmē pases priekšmetu saskaņā ar VI pielikuma I daļas e) punktu.",
+        "lt": "Tipo, partijos, serijos ar modelio numeris arba kitas elementas, leidžiantis identifikuoti žaislą (Reglamento (ES) 2025/2509 7 str. 5 d.), prisidedantis prie paso objekto pagal VI priedo I dalies (e) punktą.",
+        "mt": "Numru tat-tip, tal-lott, tas-serje jew tal-mudell jew element ieħor li jippermetti l-identifikazzjoni tal-ġugarell (art. 7(5) tar-Reg. (UE) 2025/2509), li jikkontribwixxi għall-oġġett tal-passaport skont l-Anness VI Parti I(e).",
+        "pl": "Numer typu, partii, serii lub modelu lub inny element umożliwiający identyfikację zabawki (art. 7(5) rozp. (UE) 2025/2509), przyczyniający się do przedmiotu paszportu zgodnie z załącznikiem VI część I lit. e).",
+        "pt": "Um número de tipo, de lote, de série ou de modelo ou outro elemento que permita a identificação do brinquedo (art. 7.º(5) do Reg. (UE) 2025/2509), contribuindo para o objeto do passaporte nos termos do Anexo VI Parte I(e).",
+        "ro": "Un număr de tip, de lot, de serie sau de model sau alt element care permite identificarea jucăriei (art. 7(5) din Reg. (UE) 2025/2509), care contribuie la obiectul pașaportului conform Anexei VI Partea I(e).",
+        "sk": "Typové číslo, číslo šarže, série alebo modelu alebo iný prvok umožňujúci identifikáciu hračky (čl. 7(5) nar. (EÚ) 2025/2509), prispievajúci k predmetu pasu podľa prílohy VI časti I písm. e).",
+        "sl": "Številka tipa, serije, serijskega broja ali modela ali drug element, ki omogoča identifikacijo igrače (člen 7(5) Uredbe (EU) 2025/2509), ki prispeva k predmetu potnega lista v skladu s prilogo VI delom I(e).",
+        "es": "Un número de tipo, de lote, de serie o de modelo u otro elemento que permita la identificación del juguete (art. 7(5) del Reg. (UE) 2025/2509), contribuyendo al objeto del pasaporte conforme al anexo VI parte I(e).",
+        "sv": "Ett typ-, sats-, serie- eller modellnummer eller annat element som möjliggör identifiering av leksaken (art. 7(5) i förordning (EU) 2025/2509), som bidrar till passportets syfte enligt bilaga VI del I(e)."
       },
       "dataType": "string",
       "unit": null,
@@ -481,27 +477,32 @@
       "sortOrder": 2,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Toy Safety Regulation Art. 19(2)(a)",
+        "article": "Toy Safety Regulation Annex VI Part I(e) with Art. 7(5)",
         "instrument": "32025R2509",
-        "provision": "Art. 19(2)(a)",
+        "provision": "Annex VI Part I(e); Art. 7(5)",
         "kind": "legislation",
-        "description": "The passport corresponds to a specific toy model (Art. 19(2)(a)); the toy bears an identifying element (Art. 7(5)). Applies from 1 August 2030 (Art. 59); like the battery and detergent templates, the data of an adopted, dated passport act is required ahead of that date.",
+        "description": "Annex VI Part I(e): the object of the digital product passport is the 'identification of toy allowing traceability', which is satisfied by the element required by Art. 7(5) — a type, batch, serial or model number or other identifying element. Applies from 1 August 2030 (Art. 59).",
         "obligations": [
           {
             "instrument": "32025R2509",
-            "provision": "Art. 19(2)(a)",
+            "provision": "Annex VI Part I(e)",
             "carrier": "passport",
             "condition": null,
-            "quote": "correspond to a specific toy model"
+            "quote": "object of the digital product passport (identification of toy allowing traceability, including a colour image of sufficient clarity to enable the identification of the toy)"
           },
           {
             "instrument": "32025R2509",
             "provision": "Art. 7(5)",
             "carrier": "product",
             "condition": "any one element satisfies it",
-            "quote": "Manufacturers shall ensure that toys bear a type, batch, serial or model number or other element allowing their identification"
+            "quote": "Manufacturers shall ensure that toys bear a type, batch, serial or model number or other element allowing their identification, or, where the size or nature of the toy does not allow it, that the required information is provided on the packaging or in a document accompanying the toy."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -626,9 +627,14 @@
             "provision": "Art. 7(6)",
             "carrier": "product",
             "condition": null,
-            "quote": "Manufacturers shall indicate their name, registered trade name or registered trade mark and the postal and electronic address at which they can be contacted on the toy"
+            "quote": "Manufacturers shall indicate their name, registered trade name or registered trade mark and the postal and electronic address at which they can be contacted on the toy or, where that is not feasible, on its packaging, in a document accompanying the toy or in the digital product passport."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -752,9 +758,14 @@
             "provision": "Art. 7(6)",
             "carrier": "product",
             "condition": null,
-            "quote": "Manufacturers shall indicate their name, registered trade name or registered trade mark and the postal and electronic address at which they can be contacted on the toy"
+            "quote": "Manufacturers shall indicate their name, registered trade name or registered trade mark and the postal and electronic address at which they can be contacted on the toy or, where that is not feasible, on its packaging, in a document accompanying the toy or in the digital product passport."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -872,7 +883,12 @@
             "condition": null,
             "quote": "the reference of the digital product passport service provider hosting the back-up copy of the digital product passport."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -988,7 +1004,12 @@
             "condition": null,
             "quote": "the communication channel as provided for in Article 7(12);"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -1101,7 +1122,12 @@
             "condition": null,
             "quote": "name and address of the economic operator responsible for carrying out the tasks set out in Article 4 of Regulation (EU) 2019/1020, as well as the unique operator identifier;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -1330,7 +1356,12 @@
             "condition": null,
             "quote": "name and address of the manufacturer and, where applicable, of the manufacturer’s authorised representative, as well as the unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1676,7 +1707,12 @@
             "condition": null,
             "quote": "including a colour image of sufficient clarity to enable the identification of the toy"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1801,7 +1837,12 @@
             "condition": null,
             "quote": "Toys made available on the market shall bear the CE marking"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2145,7 +2186,12 @@
             "condition": null,
             "quote": "references to the relevant harmonised standards used, or references to common specifications in relation to which conformity is declared;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -2371,7 +2417,12 @@
             "condition": null,
             "quote": "references to all Union law that the toy is in compliance with;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -2484,7 +2535,12 @@
             "condition": null,
             "quote": "state that compliance of the toy with the requirements set out in this Regulation and, in particular, the essential safety requirements, has been demonstrated;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -2597,7 +2653,12 @@
             "condition": null,
             "quote": "a statement indicating that the digital product passport is issued under the sole responsibility of the manufacturer;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32025R2509",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -3557,30 +3618,30 @@
         "sv": "Anmält organ"
       },
       "description": {
-        "en": "Name and number of the notified body involved in conformity assessment, if applicable (EC type-examination)",
-        "bg": "Име и номер на нотифицирания орган, участвал в оценката на съответствието, ако е приложимо (EC изследване на типа)",
-        "de": "Name und Nummer der benannten Stelle, die an der Konformitätsbewertung beteiligt ist, falls zutreffend (EC-Baumusterprüfung)",
-        "nl": "Naam en nummer van de aangemelde instantie betrokken bij conformiteitsbeoordeling, indien van toepassing (EC-typeonderzoek)",
-        "it": "Nome e numero dell'organismo notificato coinvolto nella valutazione della conformità, se applicabile (esame del tipo CE)",
-        "hr": "Naziv i broj prijavljenog tijela uključenog u ocjenu sukladnosti, ako je primjenjivo (EC pregled tipa)",
-        "cs": "Název a číslo oznámeného subjektu zapojeného do posuzování shody, je-li použitelné (EC přezkoušení typu)",
-        "da": "Navn og nummer på det bemyndigede organ, der er involveret i overensstemmelsesvurderingen, hvis relevant (EC-typeafprøvning)",
-        "et": "Vastavushindamises osaleva teavitatud asutuse nimi ja number, kui see on asjakohane (EC tüübihindamine)",
-        "fi": "Vaatimustenmukaisuuden arviointiin osallistuvan ilmoitetun laitoksen nimi ja numero, jos sovellettavissa (EC-tyyppitarkastus)",
-        "fr": "Nom et numéro de l'organisme notifié impliqué dans l'évaluation de la conformité, le cas échéant (examen EC de type)",
-        "el": "Όνομα και αριθμός του κοινοποιημένου οργανισμού που συμμετέχει στην αξιολόγηση της συμμόρφωσης, εάν ισχύει (εξέταση τύπου EC)",
-        "hu": "A megfelelőségértékelésben részt vevő bejelentett szervezet neve és száma, ha alkalmazható (EC típusvizsgálat)",
-        "ga": "Ainm agus uimhir an chomhlachta ainmnithe a bhfuil páirt aige sa mheasúnú comhréireachta, más infheidhme (scrúdú cineáil EC)",
-        "lv": "Atbilstības novērtēšanā iesaistītās paziņotās struktūras nosaukums un numurs, ja piemērojams (EC tipa pārbaude)",
-        "lt": "Atitikties vertinime dalyvaujančios notifikuotosios įstaigos pavadinimas ir numeris, jei taikoma (EC tipo tyrimas)",
-        "mt": "Isem u numru tal-korp innotifikat involut fil-valutazzjoni tal-konformità, jekk applikabbli (eżami tat-tip EC)",
-        "pl": "Nazwa i numer jednostki notyfikowanej uczestniczącej w ocenie zgodności, jeżeli ma zastosowanie (badanie typu EC)",
-        "pt": "Nome e número do organismo notificado envolvido na avaliação da conformidade, se aplicável (exame EC de tipo)",
-        "ro": "Numele și numărul organismului notificat implicat în evaluarea conformității, dacă este cazul (examinare EC de tip)",
-        "sk": "Názov a číslo notifikovaného subjektu zapojeného do posudzovania zhody, ak je to relevantné (EC skúška typu)",
-        "sl": "Ime in številka priglašenega organa, vključenega v ugotavljanje skladnosti, če je primerno (EC-pregled tipa)",
-        "es": "Nombre y número del organismo notificado que interviene en la evaluación de la conformidad, si procede (examen EC de tipo)",
-        "sv": "Namn och nummer på det anmälda organ som är involverat i bedömningen av överensstämmelse, om tillämpligt (EC-typkontroll)"
+        "en": "Where applicable, name and number of the notified body that intervened in the conformity assessment procedure and issued a certificate, as well as the reference to the certificate (Annex VI Part I(j) of Regulation (EU) 2025/2509).",
+        "bg": "Когато е приложимо, наименование и номер на нотифицирания орган, участвал в процедурата за оценяване на съответствието и издал сертификат, както и позоваване на сертификата (приложение VI, част I(й) от Регламент (ЕС) 2025/2509).",
+        "de": "Gegebenenfalls Name und Nummer der benannten Stelle, die das Konformitätsbewertungsverfahren durchgeführt und eine Bescheinigung ausgestellt hat, sowie Verweis auf die Bescheinigung (Anhang VI Teil I(j) der Verordnung (EU) 2025/2509).",
+        "nl": "Indien van toepassing, naam en nummer van de aangemelde instantie die aan de conformiteitsbeoordelingsprocedure heeft deelgenomen en een certificaat heeft afgegeven, alsmede de verwijzing naar dat certificaat (bijlage VI deel I(j) van Verordening (EU) 2025/2509).",
+        "it": "Ove applicabile, nome e numero dell'organismo notificato che ha partecipato alla procedura di valutazione della conformità e ha rilasciato un certificato, nonché il riferimento al certificato (allegato VI parte I(j) del reg. (UE) 2025/2509).",
+        "hr": "Gdje je primjenjivo, naziv i broj prijavljenog tijela koje je sudjelovalo u postupku ocjenjivanja sukladnosti i izdalo certifikat, kao i upućivanje na certifikat (prilog VI dio I(j) Uredbe (EU) 2025/2509).",
+        "cs": "Je-li to relevantní, název a číslo oznámeného subjektu, který se účastnil postupu posuzování shody a vydal certifikát, jakož i odkaz na certifikát (příloha VI část I(j) nař. (EU) 2025/2509).",
+        "da": "Hvis relevant, navn og nummer på det bemyndigede organ, der var involveret i overensstemmelsesvurderingsproceduren og udstedte et certifikat, samt referencen til certifikatet (bilag VI del I(j) i forordning (EU) 2025/2509).",
+        "et": "Asjakohase korral selle teavitatud asutuse nimi ja number, kes osales vastavushindamismenetluses ja väljastas sertifikaadi, ning viide sertifikaadile (VI lisa I osa punkt (j) määrusest (EL) 2025/2509).",
+        "fi": "Tarvittaessa sen ilmoitetun laitoksen nimi ja numero, joka osallistui vaatimustenmukaisuuden arviointimenettelyyn ja myönsi sertifikaatin, sekä viittaus sertifikaattiin (asetuksen (EU) 2025/2509 liitteen VI I osan j kohta).",
+        "fr": "Le cas échéant, nom et numéro de l'organisme notifié ayant participé à la procédure d'évaluation de la conformité et délivré un certificat, ainsi que la référence au certificat (annexe VI partie I(j) du règl. (UE) 2025/2509).",
+        "el": "Κατά περίπτωση, επωνυμία και αριθμός του κοινοποιημένου οργανισμού που συμμετείχε στη διαδικασία αξιολόγησης της συμμόρφωσης και εξέδωσε πιστοποιητικό, καθώς και παραπομπή στο πιστοποιητικό (παράρτημα VI μέρος I στοιχείο ι) του Καν. (ΕΕ) 2025/2509).",
+        "hu": "Ahol alkalmazható, a megfelelőségértékelési eljárásban részt vevő és tanúsítványt kiállító bejelentett szervezet neve és száma, valamint a tanúsítványra való hivatkozás (a (EU) 2025/2509 rendelet VI. melléklete I. részének j) pontja).",
+        "ga": "I gcás inarb infheidhme, ainm agus uimhir an chomhlachta ainmnithe a bhí páirteach sa nós imeachta um measúnú comhréireachta agus a d'eisigh deimhniú, chomh maith leis an tagairt don deimhniú sin (Iarscríbhinn VI Cuid I(j) de Rialachán (AE) 2025/2509).",
+        "lv": "Attiecīgā gadījumā tās paziņotās struktūras nosaukums un numurs, kas piedalījusies atbilstības novērtēšanas procedūrā un izdevusi sertifikātu, kā arī atsauce uz sertifikātu (VI pielikuma I daļas j) punkts Regulā (ES) 2025/2509).",
+        "lt": "Kai taikoma, konformiteto vertinimo procedūroje dalyvavusios ir sertifikatą išdavusios notifikuotosios įstaigos pavadinimas ir numeris bei nuoroda į sertifikatą (Reglamento (ES) 2025/2509 VI priedo I dalies (j) punktas).",
+        "mt": "Fejn applikabbli, l-isem u n-numru tal-korp innotifikat li intervjena fil-proċedura ta' valutazzjoni tal-konformità u ħareġ ċertifikat, kif ukoll ir-referenza għaċ-ċertifikat (l-Anness VI Parti I(j) tar-Reg. (UE) 2025/2509).",
+        "pl": "W stosownych przypadkach nazwa i numer jednostki notyfikowanej, która uczestniczyła w procedurze oceny zgodności i wydała certyfikat, a także odniesienie do certyfikatu (załącznik VI część I lit. j) rozp. (UE) 2025/2509).",
+        "pt": "Se aplicável, nome e número do organismo notificado que interveio no procedimento de avaliação da conformidade e emitiu um certificado, bem como a referência ao certificado (Anexo VI Parte I(j) do Reg. (UE) 2025/2509).",
+        "ro": "Dacă este cazul, denumirea și numărul organismului notificat care a intervenit în procedura de evaluare a conformității și a emis un certificat, precum și referința la certificat [Anexa VI Partea I litera (j) din Reg. (UE) 2025/2509].",
+        "sk": "Ak je to relevantné, názov a číslo notifikovaného subjektu, ktorý sa zúčastnil postupu posudzovania zhody a vydal certifikát, ako aj odkaz na certifikát (príloha VI časť I písm. j) nar. (EÚ) 2025/2509).",
+        "sl": "Kjer je primerno, ime in številka priglašenega organa, ki je sodeloval v postopku ugotavljanja skladnosti in izdal certifikat, ter sklic na certifikat (Priloga VI del I(j) Uredbe (EU) 2025/2509).",
+        "es": "En su caso, nombre y número del organismo notificado que intervino en el procedimiento de evaluación de la conformidad y expidió un certificado, así como la referencia al certificado (Anexo VI Parte I(j) del Reg. (UE) 2025/2509).",
+        "sv": "I tillämpliga fall namn och nummer på det anmälda organ som deltog i förfarandet för bedömning av överensstämmelse och utfärdade ett intyg, samt referensen till intyget (bilaga VI del I(j) i förordning (EU) 2025/2509)."
       },
       "dataType": "string",
       "unit": null,
@@ -3620,11 +3681,20 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Toy Safety Directive Art. 20",
-        "instrument": "32009L0048",
-        "provision": "Art. 20",
+        "article": "Toy Safety Regulation Annex VI Part I(j)",
+        "instrument": "32025R2509",
+        "provision": "Annex VI Part I(j)",
         "kind": "legislation",
-        "description": "Toy Safety Directive 2009/48/EC Art. 20 concerns EC type-examination, which is required only where no harmonised standard covers the toy or the manufacturer has not applied it. Where a notified body IS involved, its number accompanies the CE marking; there is no general duty to publish its identity."
+        "description": "Annex VI Part I(j): where applicable, name and number of the notified body that has intervened in the conformity assessment procedure and issued a certificate, as well as the reference to the certificate. Conditional — only where a notified body is involved (EC type-examination or other third-party conformity assessment procedure). Applies from 1 August 2030 (Art. 59).",
+        "obligations": [
+          {
+            "instrument": "32025R2509",
+            "provision": "Annex VI Part I(j)",
+            "carrier": "passport",
+            "condition": "where applicable",
+            "quote": "where applicable, name and number of the notified body that has intervened in the conformity assessment procedure and issued a certificate, as well as the reference to the certificate"
+          }
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -5475,7 +5545,7 @@
     }
   ],
   "fieldCount": 42,
-  "requiredFieldCount": 15,
+  "requiredFieldCount": 14,
   "categories": [
     {
       "key": "general_info",

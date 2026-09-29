@@ -7,8 +7,8 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 989,
-    "requiredFields": 65,
+    "fields": 992,
+    "requiredFields": 66,
     "anticipatedFields": 176
   },
   "categories": [
@@ -17,8 +17,8 @@
       "label": "Battery",
       "file": "templates/battery.json",
       "version": 5,
-      "fieldCount": 122,
-      "requiredFieldCount": 38,
+      "fieldCount": 124,
+      "requiredFieldCount": 40,
       "anticipatedFieldCount": 15,
       "regulation": {
         "name": "EU Battery Regulation",
@@ -51,7 +51,7 @@
       "label": "Detergents & Surfactants",
       "file": "templates/detergents.json",
       "version": 1,
-      "fieldCount": 76,
+      "fieldCount": 77,
       "requiredFieldCount": 12,
       "anticipatedFieldCount": 4,
       "regulation": {
@@ -206,7 +206,7 @@
       "file": "templates/toys.json",
       "version": 2,
       "fieldCount": 42,
-      "requiredFieldCount": 15,
+      "requiredFieldCount": 14,
       "anticipatedFieldCount": 0,
       "regulation": {
         "name": "Toy Safety Regulation",

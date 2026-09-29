@@ -142,7 +142,12 @@
             "condition": null,
             "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -265,56 +270,56 @@
     {
       "key": "batchLotNumber",
       "label": {
-        "en": "Batch / Lot ID",
-        "bg": "Партиден номер",
-        "de": "Chargen- / Losnummer",
-        "nl": "Batch-/Lotnummer",
-        "hr": "ID serije / šarže",
-        "cs": "ID šarže",
-        "da": "Batch-/lot-ID",
-        "et": "Partii / seerianumber",
-        "fi": "Erä-/lottitunnus",
-        "fr": "ID de lot",
-        "el": "Αναγνωριστικό παρτίδας",
-        "hu": "Tétel-/sorozatazonosító",
-        "ga": "Aitheantas baisce / crannchuir",
-        "it": "ID lotto",
-        "es": "ID de lote",
-        "lt": "Partijos ID",
-        "lv": "Partijas ID",
-        "mt": "ID tal-lott",
-        "pl": "Identyfikator partii",
-        "pt": "ID do lote",
-        "ro": "ID lot",
-        "sk": "ID šarže",
-        "sl": "ID serije",
-        "sv": "Batch-/sats-ID"
+        "en": "Traceability Identifier",
+        "bg": "Идентификатор за проследяемост",
+        "de": "Rückverfolgbarkeitskennung",
+        "nl": "Traceerbaarheidsidentificator",
+        "hr": "Identifikator za sljedivost",
+        "cs": "Identifikátor pro sledovatelnost",
+        "da": "Sporbarhedsidentifikator",
+        "et": "Jälgitavuse identifikaator",
+        "fi": "Jäljitettävyystunniste",
+        "fr": "Identifiant de traçabilité",
+        "el": "Αναγνωριστικό ιχνηλασιμότητας",
+        "hu": "Nyomon követhetőségi azonosító",
+        "ga": "Aitheantóir inrianaitheachta",
+        "it": "Identificativo di tracciabilità",
+        "es": "Identificador de trazabilidad",
+        "lt": "Atsekamumą užtikrinantis identifikatorius",
+        "lv": "Izsekojamības identifikators",
+        "mt": "Identifikatur ta' traċċabbiltà",
+        "pl": "Identyfikator identyfikowalności",
+        "pt": "Identificador de rastreabilidade",
+        "ro": "Identificator de trasabilitate",
+        "sk": "Identifikátor sledovateľnosti",
+        "sl": "Identifikator sledljivosti",
+        "sv": "Spårbarhetstidentifierare"
       },
       "description": {
-        "en": "Production batch or lot identifier for traceability.",
-        "bg": "Идентификатор на производствена партида или лот за проследяемост.",
-        "de": "Chargen- oder Loskennung des Produkts für die Rückverfolgbarkeit.",
-        "nl": "Productiebatch- of lot-identificator voor traceerbaarheid.",
-        "hr": "Identifikator proizvodne serije ili šarže za sljedivost.",
-        "cs": "Identifikátor výrobní šarže pro sledovatelnost.",
-        "da": "Produktionsbatch- eller lot-identifikator til sporbarhed.",
-        "et": "Tootmispartii või seerianumber jälgitavuse tagamiseks.",
-        "fi": "Tuotantoerän tai -lotin tunniste jäljitettävyyttä varten.",
-        "fr": "Identifiant de lot de production pour la traçabilité.",
-        "el": "Αναγνωριστικό παρτίδας παραγωγής για ιχνηλασιμότητα.",
-        "hu": "Gyártási tétel vagy sorozatazonosító a nyomon követhetőséghez.",
-        "ga": "Aitheantóir baisce nó crannchuir táirgthe le haghaidh inrianaitheachta.",
-        "it": "Identificatore del lotto di produzione per la tracciabilità.",
-        "es": "Identificador de lote o partida de producción para trazabilidad.",
-        "lt": "Gamybos partijos arba siuntos identifikatorius atsekamumui užtikrinti.",
-        "lv": "Ražošanas partijas vai lotes identifikators izsekojamībai.",
-        "mt": "Identifikatur tal-lott jew tal-batch tal-produzzjoni għat-traċċabbiltà.",
-        "pl": "Identyfikator partii lub serii produkcyjnej zapewniający identyfikowalność.",
-        "pt": "Identificador de lote ou batch de produção para rastreabilidade.",
-        "ro": "Identificatorul lotului sau al seriei de producție pentru trasabilitate.",
-        "sk": "Identifikátor výrobnej šarže alebo dávky na sledovateľnosť.",
-        "sl": "Identifikator proizvodne serije ali šarže za sledljivost.",
-        "sv": "Produktionssats- eller partiidentifierare för spårbarhet."
+        "en": "The element that allows the detergent or end-user surfactant to be traced (Annex VI Part A(d)): a type number, batch number or other element ensuring the product's traceability, as provided for in Annex V Part A 1(a) of Regulation (EU) 2026/405.",
+        "bg": "Елементът, позволяващ проследяването на детергента или повърхностноактивното вещество за краен потребител (приложение VI, част А(г)): номер на типа, партиден номер или друг елемент, осигуряващ проследяемостта на продукта, съгласно приложение V, част А, т. 1(а).",
+        "de": "Das Element, das die Rückverfolgbarkeit des Detergens oder des Tensids für den Endverbraucher ermöglicht (Anhang VI Teil A Buchstabe d): eine Typen-, Chargen- oder Seriennummer oder ein anderes Element zur Gewährleistung der Rückverfolgbarkeit des Produkts gemäß Anhang V Teil A Nummer 1 Buchstabe a.",
+        "nl": "Het element dat de traceerbaarheid van het wasmiddel of tenside voor de eindgebruiker mogelijk maakt (bijlage VI deel A(d)): een type-, batch- of serienummer of een ander element dat de traceerbaarheid van het product waarborgt, overeenkomstig bijlage V deel A punt 1(a).",
+        "hr": "Element koji omogućuje sljedivost detergentu ili surfaktantu za krajnjeg korisnika (prilog VI dio A(d)): broj tipa, serije ili drugi element koji osigurava sljedivost proizvoda, u skladu s prilogom V dijelom A točkom 1(a).",
+        "cs": "Prvek umožňující sledovatelnost detergentu nebo povrchově aktivní látky pro konečného uživatele (příloha VI část A(d)): číslo typu, šarže nebo jiný prvek zajišťující sledovatelnost výrobku dle přílohy V části A bodu 1(a).",
+        "da": "Det element, der muliggør sporbarheden af vaskemidlet eller slutbrugersurfaktanten (bilag VI del A(d)): et typenummer, batchnummer eller andet element, der sikrer produktets sporbarhed, jf. bilag V del A punkt 1(a).",
+        "et": "Element, mis võimaldab pesuvahendi või lõppkasutaja pindaktiivse aine jälgitavust (VI lisa A osa (d)): tüübi- või partii number või muu element, mis tagab toote jälgitavuse vastavalt V lisa A osa punktile 1(a).",
+        "fi": "Elementti, joka mahdollistaa pesuaineen tai loppukäyttäjän tensiidin jäljitettävyyden (liite VI osa A(d)): tyyppi- tai eränumero tai muu tuotteen jäljitettävyyden varmistava elementti asetuksen (EU) 2026/405 liitteen V osan A kohdan 1(a) mukaisesti.",
+        "fr": "L'élément permettant la traçabilité du détergent ou du tensioactif pour l'utilisateur final (annexe VI partie A(d)): un numéro de type, de lot ou un autre élément assurant la traçabilité du produit, conformément à l'annexe V partie A point 1(a).",
+        "el": "Το στοιχείο που επιτρέπει την ιχνηλασιμότητα του απορρυπαντικού ή του τασιενεργού τελικού χρήστη (παράρτημα VI μέρος Α(δ)): αριθμός τύπου, παρτίδας ή άλλο στοιχείο που διασφαλίζει την ιχνηλασιμότητα του προϊόντος σύμφωνα με το παράρτημα V μέρος Α σημείο 1(α).",
+        "hu": "Az elem, amely lehetővé teszi a mosószer vagy a végfelhasználói felületaktív anyag nyomon követhetőségét (VI. melléklet A. rész (d) pont): típus-, charge- vagy sorozatszám, vagy egyéb elem, amely biztosítja a termék nyomon követhetőségét az V. melléklet A. rész 1(a) pontja szerint.",
+        "ga": "An eilimint a cheadaíonn inrianaitheacht an ghlanúcháin nó an teanntaigh d'úsáideoirí deiridh (Iarscríbhinn VI Cuid A(d)): uimhir chineáil, uimhir bhaise nó eilimint eile lena n-áirítear inrianaitheacht an táirge de réir Iarscríbhinn V Cuid A mír 1(a).",
+        "it": "L'elemento che consente la tracciabilità del detergente o del tensioattivo per l'utente finale (allegato VI parte A(d)): un numero di tipo, di lotto o altro elemento che garantisce la tracciabilità del prodotto conformemente all'allegato V parte A punto 1(a).",
+        "es": "El elemento que permite la trazabilidad del detergente o tensioactivo para el usuario final (anexo VI parte A(d)): un número de tipo, de lote u otro elemento que garantice la trazabilidad del producto conforme al anexo V parte A punto 1(a).",
+        "lt": "Elementas, leidžiantis identifikuoti ploviklį arba galutiniam vartotojui skirtą paviršiaus aktyvią medžiagą atsekamumui užtikrinti (VI priedo A dalies (d) punktas): tipo numeris, partijos numeris ar kitas elementas, kuriuo užtikrinamas produkto atsekamumas pagal V priedo A dalies 1(a) punktą.",
+        "lv": "Elements, kas ļauj izsekot mazgāšanas līdzekļa vai galalietotāja virsmas aktīvās vielas izcelsmi (VI pielikuma A daļas (d) punkts): tipa numurs, partijas numurs vai cits elements, kas nodrošina produkta izsekojamību saskaņā ar V pielikuma A daļas 1(a) punktu.",
+        "mt": "L-element li jippermetti t-traċċabbiltà tad-deterġent jew tas-surfatant tal-utent finali (Anness VI Parti A(d)): numru tat-tip, tal-lott jew element ieħor li jiżgura t-traċċabbiltà tal-prodott skont l-Anness V Parti A punt 1(a).",
+        "pl": "Element umożliwiający identyfikowalność detergentu lub środka powierzchniowo czynnego dla użytkownika końcowego (załącznik VI część A(d)): numer typu, numer partii lub inny element zapewniający identyfikowalność produktu zgodnie z załącznikiem V część A pkt 1(a).",
+        "pt": "O elemento que permite a rastreabilidade do detergente ou do tensioativo para o utilizador final (Anexo VI Parte A(d)): um número de tipo, número de lote ou outro elemento que garanta a rastreabilidade do produto, nos termos do Anexo V Parte A ponto 1(a).",
+        "ro": "Elementul care permite trasabilitatea detergentului sau a tensioactivului pentru utilizatorul final (Anexa VI Partea A(d)): un număr de tip, un număr de lot sau un alt element care asigură trasabilitatea produsului conform Anexei V Partea A punctul 1(a).",
+        "sk": "Prvok umožňujúci sledovateľnosť detergentu alebo povrchovo aktívnej látky pre koncového používateľa (príloha VI časť A(d)): typové číslo, číslo šarže alebo iný prvok zabezpečujúci sledovateľnosť výrobku podľa prílohy V časti A bodu 1(a).",
+        "sl": "Element, ki omogoča sledljivost detergenta ali površinsko aktivne snovi za končnega uporabnika (Priloga VI del A(d)): številka tipa, številka serije ali drug element, ki zagotavlja sledljivost izdelka v skladu s prilogo V delom A točko 1(a).",
+        "sv": "Det element som möjliggör spårbarhet för tvättmedlet eller slutanvändarytaktivsubstansen (bilaga VI del A(d)): ett typnummer, batchnummer eller annat element som säkerställer produktens spårbarhet i enlighet med bilaga V del A punkt 1(a)."
       },
       "dataType": "string",
       "unit": null,
@@ -367,14 +372,29 @@
             "carrier": "passport",
             "condition": null,
             "quote": "the identification of the detergent or end-user surfactant allowing traceability"
+          },
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex V Part A, point 1(a)",
+            "carrier": "label",
+            "condition": null,
+            "quote": "a type number, batch number or other element ensuring the product's traceability"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
-          "lot number",
+          "type number",
           "batch number",
-          "lot ID"
+          "lot number",
+          "serial number",
+          "lot ID",
+          "product identifier"
         ],
         "expectedFormat": "Alphanumeric",
         "extractionPriority": 8
@@ -593,7 +613,12 @@
             "condition": null,
             "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -819,7 +844,12 @@
             "condition": null,
             "quote": "the trade name, unique product identifier of the detergent or end-user surfactant and a colour image of the packaging or the label of the model of detergent or end-user surfactant of sufficient clarity to enable its identification"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1737,7 +1767,12 @@
             "condition": null,
             "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1855,7 +1890,12 @@
             "condition": null,
             "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1972,7 +2012,12 @@
             "condition": null,
             "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2089,7 +2134,12 @@
             "condition": null,
             "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2207,7 +2257,12 @@
             "condition": null,
             "quote": "the name, postal and electronic address and telephone number of the manufacturer and, where applicable, of the importer or the authorised representative, as well the manufacturer’s unique operator identifier"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2676,7 +2731,12 @@
             "condition": null,
             "quote": "the reference to the digital product passport service provider hosting the back-up copy of the digital product passport"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7176,30 +7236,30 @@
         "sv": "Ingredienser"
       },
       "description": {
-        "en": "Array of ingredients/substances in the product, each with name, identifiers, concentration and function.",
-        "bg": "Масив от съставки/вещества в продукта, всяка с наименование, идентификатори, концентрация и функция.",
-        "de": "Array von Inhaltsstoffen/Substanzen im Produkt, jeweils mit Name, Kennungen, Konzentration und Funktion.",
-        "nl": "Array van ingrediënten/stoffen in het product, elk met naam, identificatoren, concentratie en functie.",
-        "hr": "Niz sastojaka/tvari u proizvodu, svaki s nazivom, identifikatorima, koncentracijom i funkcijom.",
-        "cs": "Pole složek/látek v produktu, každá s názvem, identifikátory, koncentrací a funkcí.",
-        "da": "Liste over ingredienser/stoffer i produktet, hver med navn, identifikatorer, koncentration og funktion.",
-        "et": "Toote koostisainete/ainete loend, igaühel nimi, identifikaatorid, kontsentratsioon ja funktsioon.",
-        "fi": "Luettelo tuotteen ainesosista/aineista, kunkin nimi, tunnisteet, pitoisuus ja toiminto.",
-        "fr": "Liste des ingrédients/substances du produit, chacun avec nom, identifiants, concentration et fonction.",
-        "el": "Σειρά συστατικών/ουσιών στο προϊόν, με όνομα, αναγνωριστικά, συγκέντρωση και λειτουργία.",
-        "hu": "A termékben lévő összetevők/anyagok listája, mindegyiknél névvel, azonosítókkal, koncentrációval és funkcióval.",
-        "ga": "Eagar comhábhar/substaintí sa táirge, gach ceann le hainm, aitheantóirí, tiúchan agus feidhm.",
-        "it": "Array di ingredienti/sostanze nel prodotto, ciascuno con nome, identificatori, concentrazione e funzione.",
-        "es": "Lista de ingredientes/sustancias del producto, cada uno con nombre, identificadores, concentración y función.",
-        "lt": "Produkto sudedamųjų dalių / medžiagų sąrašas, kiekvieną apibūdinant pavadinimu, identifikatoriais, koncentracija ir funkcija.",
-        "lv": "Produkta sastāvdaļu/vielu saraksts ar nosaukumu, identifikatoriem, koncentrāciju un funkciju.",
-        "mt": "Lista tal-ingredjenti/sustanzi fil-prodott, kull wieħed b'isem, identifikaturi, konċentrazzjoni u funzjoni.",
-        "pl": "Lista składników/substancji w produkcie, każdy z nazwą, identyfikatorami, stężeniem i funkcją.",
-        "pt": "Lista de ingredientes/substâncias do produto, cada um com nome, identificadores, concentração e função.",
-        "ro": "Listă de ingrediente/substanțe din produs, fiecare cu denumire, identificatori, concentrație și funcție.",
-        "sk": "Zoznam zložiek/látok v produkte, každá s názvom, identifikátormi, koncentráciou a funkciou.",
-        "sl": "Seznam sestavin/snovi v izdelku, vsaka z imenom, identifikatorji, koncentracijo in funkcijo.",
-        "sv": "Lista över ingredienser/ämnen i produkten, var och en med namn, identifierare, koncentration och funktion."
+        "en": "Full list of substances intentionally added in the detergent or surfactant (Annex VI Part A(h)), each identified per CLP Art. 18(3) by name and, where applicable, its identification number. No amounts or concentrations are required. Not applicable to industrial and institutional detergents whose REACH SDS carries the equivalent.",
+        "bg": "Пълен списък на веществата, умишлено добавени в детергента или повърхностноактивното вещество (приложение VI, част А(з)), всяко идентифицирано съгласно чл. 18(3) от CLP по наименование и, когато е приложимо, идентификационен номер. Количества или концентрации не се изискват. Не се прилага за промишлени и институционални детергенти, чийто лист за безопасност по REACH съдържа еквивалентна информация.",
+        "de": "Vollständige Liste der absichtlich hinzugefügten Stoffe im Detergens oder Tensid (Anhang VI Teil A Buchstabe h), jeder identifiziert gemäß CLP-Art. 18(3) nach Name und, soweit vorhanden, Kennnummer. Mengen oder Konzentrationen sind nicht erforderlich. Gilt nicht für gewerbliche und institutionelle Detergenzien, deren REACH-SDB das Äquivalent enthält.",
+        "nl": "Volledige lijst van opzettelijk toegevoegde stoffen in het wasmiddel of de surfactant (bijlage VI deel A(h)), elk geïdentificeerd per CLP art. 18(3) op naam en, indien van toepassing, identificatienummer. Hoeveelheden of concentraties zijn niet vereist. Niet van toepassing op industriële en institutionele wasmiddelen waarvan het REACH-VIB het equivalent bevat.",
+        "hr": "Puni popis tvari namjerno dodanih u deterdžent ili surfaktant (prilog VI dio A(h)), svaka identificirana prema CLP čl. 18(3) po imenu i, gdje je primjenjivo, identifikacijskom broju. Količine ili koncentracije nisu potrebne. Ne primjenjuje se na industrijske i institucionalne deterdžente čiji REACH SDS sadržava ekvivalentne podatke.",
+        "cs": "Úplný seznam záměrně přidaných látek v detergentu nebo tenzidu (příloha VI část A(h)), každá identifikovaná dle CLP čl. 18(3) názvem a případně identifikačním číslem. Množství ani koncentrace se nevyžadují. Nevztahuje se na průmyslové a institucionální detergenty, jejichž bezpečnostní list REACH obsahuje ekvivalentní informace.",
+        "da": "Fuld liste over stoffer, der tilsættes bevidst i vaskemidlet eller surfaktanten (bilag VI del A(h)), hvert identificeret i henhold til CLP art. 18(3) ved navn og, hvis relevant, identifikationsnummer. Mængder eller koncentrationer er ikke påkrævet. Gælder ikke for industri- og institutionsvaskemidler, hvis REACH-SDS indeholder det tilsvarende.",
+        "et": "Pesuvahendisse või pindaktiivsesse ainesse tahtlikult lisatud ainete täielik loetelu (VI lisa A osa (h)), iga aine identifitseeritud CLP art. 18(3) kohaselt nime ja vajaduse korral identifikatsiooninumbriga. Koguseid ega kontsentratsioone ei nõuta. Ei kohaldata tööstuslike ja institutsionaalsete pesuvahenditega, mille REACHi ohutuskaart sisaldab samaväärset.",
+        "fi": "Täydellinen luettelo pesuaineeseen tai tensiidiin tahallisesti lisätyistä aineista (liite VI osa A(h)), kukin tunnistettu CLP 18(3) artiklan mukaisesti nimellä ja tarvittaessa tunnistenumerolla. Määriä tai pitoisuuksia ei vaadita. Ei sovelleta teollisuus- ja laitospesuaineisiin, joiden REACH-KTT sisältää vastaavat tiedot.",
+        "fr": "Liste complète des substances intentionnellement ajoutées dans le détergent ou le tensioactif (annexe VI partie A(h)), chacune identifiée selon le règl. CLP art. 18(3) par son nom et, le cas échéant, son numéro d'identification. Aucune quantité ni concentration n'est requise. Ne s'applique pas aux détergents industriels et institutionnels dont la FDS REACH comporte l'équivalent.",
+        "el": "Πλήρης κατάλογος ουσιών που προστίθενται εκ προθέσεως στο απορρυπαντικό ή τασιενεργό (παράρτημα VI μέρος Α(η)), κάθε ουσία αναγνωρισμένη σύμφωνα με τον Καν. CLP άρθρ. 18(3) με ονομασία και, κατά περίπτωση, αριθμό αναγνώρισης. Ποσότητες ή συγκεντρώσεις δεν απαιτούνται. Δεν εφαρμόζεται σε βιομηχανικά και θεσμικά απορρυπαντικά το ΔΑΑ REACH των οποίων περιέχει τα ισοδύναμα.",
+        "hu": "A mosószerben vagy a tenzidben szándékosan hozzáadott anyagok teljes listája (VI. melléklet A. rész (h) pont), minden anyag azonosítva a CLP-rendelet 18. cikk (3) bekezdése szerint névvel és adott esetben azonosítószámával. Mennyiségek vagy koncentrációk nem szükségesek. Nem vonatkozik ipari és intézményi mosószerekre, amelyek REACH biztonsági adatlapja tartalmazza az egyenértékű adatokat.",
+        "ga": "Liosta iomlán de na substaintí a chuirtear isteach d'aon ghnó sa ghlanachán nó sa teanntach (Iarscríbhinn VI Cuid A(h)), gach ceann aitheanta de réir CLP alt 18(3) d'ainm agus, i gcás inarb infheidhme, uimhir aitheantais. Ní gá méideanna ná tiúchan. Ní bhaineann le glantacháin thionsclaíoch agus institiúideach a bhfuil an coibhéis ag a gcomhad sonraí sábháilteachta REACH.",
+        "it": "Elenco completo delle sostanze aggiunte intenzionalmente nel detergente o nel tensioattivo (allegato VI parte A(h)), ciascuna identificata ai sensi del reg. CLP art. 18(3) con il nome e, se del caso, il numero di identificazione. Non sono richieste quantità né concentrazioni. Non si applica ai detergenti industriali e istituzionali il cui SDS REACH reca le informazioni equivalenti.",
+        "es": "Lista completa de sustancias añadidas intencionalmente en el detergente o tensioactivo (anexo VI parte A(h)), cada una identificada según el Reg. CLP art. 18(3) por nombre y, en su caso, número de identificación. No se requieren cantidades ni concentraciones. No se aplica a los detergentes industriales e institucionales cuya FDS REACH contiene lo equivalente.",
+        "lt": "Išsamus tyčia pridėtų medžiagų ploviklyje ar paviršiaus aktyviojoje medžiagoje sąrašas (VI priedo A dalies (h) punktas), kiekviena identifikuota pagal CLP regl. 18 str. 3 d. pavadinimu ir prireikus identifikacijos numeriu. Kiekiai ar koncentracijos nereikalingi. Netaikoma pramoninių ir institucinių ploviklių REACH saugos duomenų lapams, kuriuose yra lygiavertė informacija.",
+        "lv": "Pilns mērķtiecīgi pievienoto vielu saraksts mazgāšanas līdzeklī vai virsmaktīvajā vielā (VI pielikuma A daļas (h) punkts), katra identificēta saskaņā ar CLP reg. 18. panta 3. punktu ar nosaukumu un vajadzības gadījumā ar identifikācijas numuru. Daudzumi vai koncentrācijas nav nepieciešami. Neattiecas uz rūpnieciskajiem un institucionālajiem mazgāšanas līdzekļiem, kuru REACH drošības datu lapā ir līdzvērtīga informācija.",
+        "mt": "Lista sħiħa ta' sustanzi miżjuda intenzjonalment fid-deterġent jew fis-surfatant (Anness VI Parti A(h)), kull waħda identifikata skont ir-Reg. CLP art. 18(3) bl-isem u, fejn applikabbli, in-numru ta' identifikazzjoni. Ma jitolbux ammonti jew konċentrazzjonijiet. Ma tapplikax għad-deterġenti industrijali u istituzzjonali li s-SDS REACH tagħhom fih l-ekwivalenti.",
+        "pl": "Pełna lista substancji celowo dodanych do detergentu lub środka powierzchniowo czynnego (załącznik VI część A(h)), każda zidentyfikowana zgodnie z rozp. CLP art. 18(3) nazwą i w stosownych przypadkach numerem identyfikacyjnym. Ilości ani stężenia nie są wymagane. Nie dotyczy przemysłowych i instytucjonalnych detergentów, których karta charakterystyki REACH zawiera równoważne informacje.",
+        "pt": "Lista completa das substâncias intencionalmente adicionadas ao detergente ou tensioativo (Anexo VI Parte A(h)), cada uma identificada nos termos do Reg. CLP art. 18.º(3) pelo nome e, quando aplicável, número de identificação. Não são necessárias quantidades ou concentrações. Não se aplica aos detergentes industriais e institucionais cuja FDS REACH contém informações equivalentes.",
+        "ro": "Lista completă a substanțelor adăugate intenționat în detergent sau tensioactiv (Anexa VI Partea A(h)), fiecare identificată conform Reg. CLP art. 18(3) prin denumire și, dacă este cazul, număr de identificare. Nu se cer cantități sau concentrații. Nu se aplică detergenților industriali și instituționali al căror FDS REACH conține informații echivalente.",
+        "sk": "Úplný zoznam látok zámerene pridaných do detergentu alebo tenzidu (príloha VI časť A(h)), každá identifikovaná podľa nar. CLP čl. 18(3) názvom a prípadne identifikačným číslom. Množstvá ani koncentrácie sa nevyžadujú. Nevzťahuje sa na priemyselné a inštitucionálne detergenty, ktorých bezpečnostný list REACH obsahuje ekvivalentné informácie.",
+        "sl": "Celoten seznam snovi, namerno dodanih v detergent ali površinsko aktivno snov (Priloga VI del A(h)), vsaka identificirana skladno z Uredbo CLP čl. 18(3) z imenom in po potrebi identifikacijsko številko. Količine ali koncentracije niso potrebne. Ne velja za industrijske in institucionalne detergente, katerih varnostni list REACH vsebuje enakovredne informacije.",
+        "sv": "Fullständig lista över ämnen som avsiktligt tillsätts i tvättmedlet eller surfaktanten (bilaga VI del A(h)), vardera identifierade enligt CLP-förordningens art. 18(3) med namn och i tillämpliga fall identifikationsnummer. Mängder eller koncentrationer krävs ej. Gäller ej industri- och institutionstvättmedel vars REACH-SDB innehåller motsvarigheten."
       },
       "dataType": "array",
       "unit": null,
@@ -7248,7 +7308,7 @@
         "provision": "Annex VI Part A, point (h)",
         "annex": "Annex VI",
         "kind": "legislation",
-        "description": "Annex VI Part A(h) requires the full list of intentionally added substances, each identified per CLP Art. 18(3) (name plus identification number where one exists), with no amounts. It does not apply to industrial and institutional detergents whose SDS carries the equivalent, and the template cannot yet express that condition, so the field is optional. Label bands (Annex V Part A 1(h)(i)) and functions may be recorded per entry but are label content, not Part A(h).",
+        "description": "Annex VI Part A(h) requires the full list of intentionally added substances, each identified per CLP Art. 18(3) (name plus identification number where one exists). No amounts or concentrations are required. Carry-over preservatives that must be labelled per Annex V Part A 1(h)(iii), Art. 58 of Reg. (EU) No 528/2012 or CLP Art. 18(3)(b) are also listed. The obligation does not apply to industrial and institutional detergents, or surfactants, for which an Art. 31 REACH SDS provides the equivalent; the template captures this via requiredBy (consumer: required; industrial_institutional: conditional).",
         "obligations": [
           {
             "instrument": "32026R0405",
@@ -7257,7 +7317,12 @@
             "condition": "not for industrial and institutional detergents, or surfactants, whose Art. 31 safety data sheet provides the equivalent",
             "quote": "a full list of substances intentionally added in the detergent or surfactant, identified in accordance with Article 18(3) of Regulation (EC) No 1272/2008"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8124,7 +8189,12 @@
             "condition": "only where micro-organisms are intentionally added",
             "quote": "the list of all intentionally added micro-organisms providing their taxonomic classification (genus, species and strain name or code)"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9327,7 +9397,12 @@
             "condition": null,
             "quote": "an indication that the digital product passport is issued under the sole responsibility of the manufacturer"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
@@ -9364,30 +9439,30 @@
         "sv": "Överensstämmelse påvisad"
       },
       "description": {
-        "en": "The manufacturer's statement that compliance of the detergent or end-user surfactant with Reg (EU) 2026/405 has been demonstrated (Annex VI Part A(g); Art. 21(2)(b)). Made by the manufacturer; the platform only records it. References to other Union law complied with belong in the EU declaration of conformity.",
-        "bg": "Изявление на производителя, че е доказано съответствието на детергента или повърхностноактивното вещество за крайния потребител с Регламент (ЕС) 2026/405 (приложение VI, част А, буква ж); чл. 21, параграф 2, буква б)). Прави се от производителя; платформата само го записва.",
-        "de": "Die Erklärung des Herstellers, dass die Konformität des Detergens oder des Tensids für den Endverbraucher mit der Verordnung (EU) 2026/405 nachgewiesen wurde (Anhang VI Teil A Buchstabe g; Art. 21 Abs. 2 Buchstabe b). Sie wird vom Hersteller abgegeben; die Plattform zeichnet sie nur auf.",
-        "nl": "De verklaring van de fabrikant dat de conformiteit van het wasmiddel of tenside voor de eindgebruiker met Verordening (EU) 2026/405 is aangetoond (bijlage VI deel A(g); art. 21(2)(b)). Afgegeven door de fabrikant; het platform legt het alleen vast.",
-        "hr": "Izjava proizvođača da je usklađenost deterdženta ili surfaktanta za krajnjeg korisnika s Uredbom (EU) 2026/405 dokazana (prilog VI dio A(g); čl. 21(2)(b)). Daje je proizvođač; platforma je samo bilježi.",
-        "cs": "Prohlášení výrobce, že soulad detergentu nebo povrchově aktivní látky pro konečného uživatele s nař. (EU) 2026/405 byl prokázán (příloha VI část A(g); čl. 21(2)(b)). Vydává výrobce; platforma ho pouze zaznamenává.",
-        "da": "Producentens erklæring om, at vaskemidlets eller slutbrugersurfaktantens overensstemmelse med forordn. (EU) 2026/405 er påvist (bilag VI del A(g); art. 21(2)(b)). Afgives af producenten; platformen registrerer det blot.",
-        "et": "Tootja avaldus, et pesuvahendi või lõppkasutaja pindaktiivse aine vastavus määrusele (EL) 2026/405 on tõendatud (VI lisa A osa (g); art 21(2)(b)). Väljastab tootja; platvorm registreerib selle ainult.",
-        "fi": "Valmistajan lausunto siitä, että pesuaineen tai loppukäyttäjän tensiidin vaatimustenmukaisuus asetuksen (EU) 2026/405 kanssa on osoitettu (liite VI osa A(g); 21 art. (2)(b)). Valmistaja antaa sen; alusta vain rekisteröi.",
-        "fr": "La déclaration du fabricant que la conformité du détergent ou du tensioactif pour l'utilisateur final avec le règl. (UE) 2026/405 a été démontrée (annexe VI partie A(g); art. 21(2)(b)). Faite par le fabricant; la plateforme ne fait que l'enregistrer.",
-        "el": "Δήλωση κατασκευαστή ότι η συμμόρφωση του απορρυπαντικού ή τασιενεργού τελικού χρήστη με τον Καν. (ΕΕ) 2026/405 αποδείχθηκε (παράρτημα VI μέρος Α(ζ)· άρθρο 21(2)(β)). Γίνεται από τον κατασκευαστή· η πλατφόρμα μόνο καταγράφει.",
-        "hu": "A gyártó nyilatkozata arról, hogy a mosószer vagy végfelhasználói felületaktív anyag megfelelősége a (EU) 2026/405 rendeletnek igazoltan teljesül (VI. melléklet A. rész (g); 21. cikk (2)(b)). A gyártó teszi; a platform csak rögzíti.",
-        "ga": "Ráiteas an mhonaróra go bhfuil comhlíonadh an ghlanúcháin nó an teanntaigh d'úsáideoirí deiridh le Rialachán (AE) 2026/405 léirithe (Iarscríbhinn VI Cuid A(g); alt 21(2)(b)). Arna dhéanamh ag an monaróir; ní dhéanann an ardán ach é a thaifeadadh.",
-        "it": "La dichiarazione del fabbricante che la conformità del detergente o del tensioattivo per l'utente finale al reg. (UE) 2026/405 è stata dimostrata (allegato VI parte A(g); art. 21(2)(b)). Fatta dal fabbricante; la piattaforma si limita a registrarla.",
-        "es": "Declaración del fabricante de que se ha demostrado la conformidad del detergente o tensioactivo para el usuario final con el Reg. (UE) 2026/405 (anexo VI parte A(g); art. 21(2)(b)). El fabricante la emite; la plataforma solo la registra.",
-        "lt": "Gamintojo pareiškimas, kad ploviklio arba galutiniam vartotojui skirto paviršiaus aktyviosios medžiagos atitiktis Reglamentui (ES) 2026/405 yra įrodyta (VI priedo A dalies (g) punktas; 21 str. 2 d. b p.). Teikia gamintojas; platforma tik registruoja.",
-        "lv": "Ražotāja paziņojums, ka mazgāšanas līdzekļa vai galalietotāja virsmas aktīvās vielas atbilstība Regulai (ES) 2026/405 ir pierādīta (VI pielikuma A daļas (g) punkts; 21. pants (2)(b)). Ražotājs to izdara; platforma tikai reģistrē.",
-        "mt": "Id-dikjarazzjoni tal-manifattur li l-konformità tad-deterġent jew tas-surfatant tal-utent finali mar-Reg. (UE) 2026/405 ġiet murija (Anness VI Parti A(g); Art. 21(2)(b)). Magħmula mill-manifattur; il-pjattaforma biss tirreġistraha.",
-        "pl": "Oświadczenie producenta, że zgodność detergentu lub środka powierzchniowo czynnego dla użytkownika końcowego z Rozp. (UE) 2026/405 została wykazana (załącznik VI część A(g); art. 21(2)(b)). Składa producent; platforma tylko to odnotowuje.",
-        "pt": "A declaração do fabricante de que a conformidade do detergente ou do tensioativo para o utilizador final com o Reg. (UE) 2026/405 foi demonstrada (Anexo VI Parte A(g); art. 21.º(2)(b)). Feita pelo fabricante; a plataforma apenas a regista.",
-        "ro": "Declarația producătorului că s-a demonstrat conformitatea detergentului sau a tensioactivului pentru utilizatorul final cu Reg. (UE) 2026/405 (Anexa VI Partea A(g); art. 21(2)(b)). Emisă de producător; platforma doar o înregistrează.",
-        "sk": "Vyhlásenie výrobcu, že súlad detergentu alebo povrchovo aktívnej látky pre koncového používateľa s nar. (EÚ) 2026/405 bol preukázaný (príloha VI časť A(g); čl. 21(2)(b)). Vydáva výrobca; platforma ho iba zaznamenáva.",
-        "sl": "Izjava proizvajalca, da je bila ugotovljena skladnost detergenta ali površinsko aktivne snovi za končnega uporabnika z Uredbo (EU) 2026/405 (Priloga VI del A(g); člen 21(2)(b)). Izdaja proizvajalec; platforma to samo beleži.",
-        "sv": "Tillverkarens uttalande att tvätmedelets eller slutanvändarytaktivsubstansens efterlevnad av förordning (EU) 2026/405 har demonstrerats (bilaga VI del A(g); art. 21(2)(b)). Görs av tillverkaren; plattformen registrerar det bara."
+        "en": "The manufacturer's statement that compliance of the detergent or end-user surfactant with Reg (EU) 2026/405 has been demonstrated (Annex VI Part A(g) first limb). Made by the manufacturer; the platform only records it. The second limb of point (g) — references to other Union law — is captured in a separate field.",
+        "bg": "Изявление на производителя, че е доказано съответствието на детергента или повърхностноактивното вещество за крайния потребител с Регламент (ЕС) 2026/405 (приложение VI, част А(ж), първи компонент). Прави се от производителя; платформата само го записва. Вторият компонент на буква (ж) — позовавания на друго право на Съюза — се записва в отделно поле.",
+        "de": "Die Erklärung des Herstellers, dass die Konformität des Detergens oder des Tensids für den Endverbraucher mit der Verordnung (EU) 2026/405 nachgewiesen wurde (Anhang VI Teil A Buchstabe g, erster Satzteil). Sie wird vom Hersteller abgegeben; die Plattform zeichnet sie nur auf. Der zweite Satzteil von Buchstabe g — Bezugnahmen auf anderes Unionsrecht — wird in einem separaten Feld erfasst.",
+        "nl": "De verklaring van de fabrikant dat de conformiteit van het wasmiddel of tenside voor de eindgebruiker met Verordening (EU) 2026/405 is aangetoond (bijlage VI deel A(g), eerste deel). Afgegeven door de fabrikant; het platform legt het alleen vast. Het tweede deel van punt (g) — verwijzingen naar ander Unierecht — wordt vastgelegd in een apart veld.",
+        "hr": "Izjava proizvođača da je usklađenost deterdženta ili surfaktanta za krajnjeg korisnika s Uredbom (EU) 2026/405 dokazana (prilog VI dio A(g), prvi dio). Daje je proizvođač; platforma je samo bilježi. Drugi dio točke (g) — upućivanja na drugo pravo Unije — evidentira se u zasebnom polju.",
+        "cs": "Prohlášení výrobce, že soulad detergentu nebo povrchově aktivní látky pro konečného uživatele s nař. (EU) 2026/405 byl prokázán (příloha VI část A(g), první část). Vydává výrobce; platforma ho pouze zaznamenává. Druhá část písm. (g) — odkazy na jiné právo Unie — se zaznamenává v samostatném poli.",
+        "da": "Producentens erklæring om, at vaskemidlets eller slutbrugersurfaktantens overensstemmelse med forordn. (EU) 2026/405 er påvist (bilag VI del A(g), første led). Afgives af producenten; platformen registrerer det blot. Det andet led i litra (g) — henvisninger til anden EU-ret — registreres i et separat felt.",
+        "et": "Tootja avaldus, et pesuvahendi või lõppkasutaja pindaktiivse aine vastavus määrusele (EL) 2026/405 on tõendatud (VI lisa A osa (g), esimene osa). Väljastab tootja; platvorm registreerib selle ainult. Punkti (g) teine osa — viited muudele liidu õigusaktidele — registreeritakse eraldi väljal.",
+        "fi": "Valmistajan lausunto siitä, että pesuaineen tai loppukäyttäjän tensiidin vaatimustenmukaisuus asetuksen (EU) 2026/405 kanssa on osoitettu (liite VI osa A(g), ensimmäinen osa). Valmistaja antaa sen; alusta vain rekisteröi. Kohdan (g) toinen osa — viittaukset muuhun unionin lainsäädäntöön — kirjataan erilliseen kenttään.",
+        "fr": "La déclaration du fabricant que la conformité du détergent ou du tensioactif pour l'utilisateur final avec le règl. (UE) 2026/405 a été démontrée (annexe VI partie A(g), premier membre). Faite par le fabricant; la plateforme ne fait que l'enregistrer. Le second membre du point (g) — références à d'autres actes du droit de l'Union — est consigné dans un champ distinct.",
+        "el": "Δήλωση κατασκευαστή ότι η συμμόρφωση του απορρυπαντικού ή τασιενεργού τελικού χρήστη με τον Καν. (ΕΕ) 2026/405 αποδείχθηκε (παράρτημα VI μέρος Α(ζ), πρώτο σκέλος). Γίνεται από τον κατασκευαστή· η πλατφόρμα μόνο καταγράφει. Το δεύτερο σκέλος του στοιχείου (ζ) — παραπομπές σε άλλες πράξεις δικαίου της Ένωσης — καταγράφεται σε ξεχωριστό πεδίο.",
+        "hu": "A gyártó nyilatkozata arról, hogy a mosószer vagy végfelhasználói felületaktív anyag megfelelősége a (EU) 2026/405 rendeletnek igazoltan teljesül (VI. melléklet A. rész (g) pont, első fordulat). A gyártó teszi; a platform csak rögzíti. A (g) pont második fordulata — más uniós jogszabályokra való hivatkozások — külön mezőben kerül rögzítésre.",
+        "ga": "Ráiteas an mhonaróra go bhfuil comhlíonadh an ghlanúcháin nó an teanntaigh d'úsáideoirí deiridh le Rialachán (AE) 2026/405 léirithe (Iarscríbhinn VI Cuid A(g), an chéad fhoirmle). Arna dhéanamh ag an monaróir; ní dhéanann an ardán ach é a thaifeadadh. An dara foirmle den phointe (g) — tagairtí do dhlí eile an Aontais — is i réimse ar leith a thaifeadtar é.",
+        "it": "La dichiarazione del fabbricante che la conformità del detergente o del tensioattivo per l'utente finale al reg. (UE) 2026/405 è stata dimostrata (allegato VI parte A(g), primo periodo). Fatta dal fabbricante; la piattaforma si limita a registrarla. Il secondo periodo del punto (g) — riferimenti ad altro diritto dell'Unione — è registrato in un campo separato.",
+        "es": "Declaración del fabricante de que se ha demostrado la conformidad del detergente o tensioactivo para el usuario final con el Reg. (UE) 2026/405 (anexo VI parte A(g), primer inciso). El fabricante la emite; la plataforma solo la registra. El segundo inciso del punto (g) — referencias a otro derecho de la Unión — se recoge en un campo separado.",
+        "lt": "Gamintojo pareiškimas, kad ploviklio arba galutiniam vartotojui skirtos paviršiaus aktyviosios medžiagos atitiktis Reglamentui (ES) 2026/405 yra įrodyta (VI priedo A dalies (g) punktas, pirmoji dalis). Teikia gamintojas; platforma tik registruoja. Antroji (g) punkto dalis — nuorodos į kitą Sąjungos teisę — registruojama atskirame lauke.",
+        "lv": "Ražotāja paziņojums, ka mazgāšanas līdzekļa vai galalietotāja virsmas aktīvās vielas atbilstība Regulai (ES) 2026/405 ir pierādīta (VI pielikuma A daļas (g) punkts, pirmā daļa). Ražotājs to izdara; platforma tikai reģistrē. Punkta (g) otrā daļa — atsauces uz citu Savienības tiesību aktu — tiek reģistrēta atsevišķā laukā.",
+        "mt": "Id-dikjarazzjoni tal-manifattur li l-konformità tad-deterġent jew tas-surfatant tal-utent finali mar-Reg. (UE) 2026/405 ġiet murija (Anness VI Parti A(g), l-ewwel parti). Magħmula mill-manifattur; il-pjattaforma biss tirreġistraha. It-tieni parti tal-punt (g) — referenzi għal liġi oħra tal-Unjoni — tiġi rreġistrata f'qasam separat.",
+        "pl": "Oświadczenie producenta, że zgodność detergentu lub środka powierzchniowo czynnego dla użytkownika końcowego z Rozp. (UE) 2026/405 została wykazana (załącznik VI część A(g), pierwsza część). Składa producent; platforma tylko to odnotowuje. Druga część lit. (g) — odniesienia do innego prawa Unii — jest rejestrowana w odrębnym polu.",
+        "pt": "A declaração do fabricante de que a conformidade do detergente ou do tensioativo para o utilizador final com o Reg. (UE) 2026/405 foi demonstrada (Anexo VI Parte A(g), primeiro membro). Feita pelo fabricante; a plataforma apenas a regista. O segundo membro do ponto (g) — referências a outro direito da União — é registado num campo separado.",
+        "ro": "Declarația producătorului că s-a demonstrat conformitatea detergentului sau a tensioactivului pentru utilizatorul final cu Reg. (UE) 2026/405 (Anexa VI Partea A(g), prima parte). Emisă de producător; platforma doar o înregistrează. A doua parte a punctului (g) — trimiteri la alt drept al Uniunii — este înregistrată într-un câmp separat.",
+        "sk": "Vyhlásenie výrobcu, že súlad detergentu alebo povrchovo aktívnej látky pre koncového používateľa s nar. (EÚ) 2026/405 bol preukázaný (príloha VI časť A(g), prvá časť). Vydáva výrobca; platforma ho iba zaznamenáva. Druhá časť písm. (g) — odkazy na iné právo Únie — sa zaznamenáva v samostatnom poli.",
+        "sl": "Izjava proizvajalca, da je bila ugotovljena skladnost detergenta ali površinsko aktivne snovi za končnega uporabnika z Uredbo (EU) 2026/405 (Priloga VI del A(g), prvi del). Izdaja proizvajalec; platforma to samo beleži. Drugi del točke (g) — sklici na drugo pravo Unije — se beleži v ločenem polju.",
+        "sv": "Tillverkarens uttalande att tvättmedelets eller slutanvändarytaktivsubstansens efterlevnad av förordning (EU) 2026/405 har demonstrerats (bilaga VI del A(g), första led). Görs av tillverkaren; plattformen registrerar det bara. Det andra ledet i led g — hänvisningar till annan unionsrätt — registreras i ett separat fält."
       },
       "dataType": "boolean",
       "unit": null,
@@ -9441,16 +9516,148 @@
             "condition": null,
             "quote": "a statement that compliance of the detergent or end-user surfactant with this Regulation has been demonstrated, and, where relevant, references to other Union law with which the detergent or end-user surfactant complies"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [],
         "expectedFormat": "boolean — manufacturer's statement, pre-filled on creation; never extracted",
         "extractionPriority": 0
       }
+    },
+    {
+      "key": "unionLawReferences",
+      "label": {
+        "en": "Other Union Law Complied With",
+        "bg": "Друго спазено законодателство на Съюза",
+        "de": "Weiteres eingehaltenes Unionsrecht",
+        "nl": "Ander nageleefd Unierecht",
+        "hr": "Drugo poštovano pravo Unije",
+        "cs": "Jiné dodržované právo Unie",
+        "da": "Anden overholdt EU-ret",
+        "et": "Muu järgitud liidu õigus",
+        "fi": "Muu noudatettu unionin oikeus",
+        "fr": "Autre droit de l'Union respecté",
+        "el": "Άλλο δίκαιο της Ένωσης που τηρείται",
+        "hu": "Egyéb betartott uniós jog",
+        "ga": "Dlí eile an Aontais a Chomhlíontar",
+        "it": "Altro diritto dell'Unione rispettato",
+        "es": "Otro derecho de la Unión cumplido",
+        "lt": "Kiti laikomasi Sąjungos teisės aktai",
+        "lv": "Citi ievērotie Savienības tiesību akti",
+        "mt": "Liġi oħra tal-Unjoni osservata",
+        "pl": "Inne przestrzegane prawo Unii",
+        "pt": "Outro direito da União cumprido",
+        "ro": "Altă legislație a Uniunii respectată",
+        "sk": "Iné dodržiavané právo Únie",
+        "sl": "Druga upoštevano pravo Unije",
+        "sv": "Annan unionsrätt som uppfylls"
+      },
+      "description": {
+        "en": "Where relevant, references to other Union law with which the detergent or end-user surfactant complies (Annex VI Part A(g) second limb of Regulation (EU) 2026/405). Conditional: only required where applicable.",
+        "bg": "Където е приложимо, позовавания на друго законодателство на Съюза, на което съответства детергентът или повърхностноактивното вещество за краен потребител (приложение VI, част А(ж), втори компонент от Регламент (ЕС) 2026/405). Условно: необходимо само когато е приложимо.",
+        "de": "Sofern relevant, Bezugnahmen auf weiteres Unionsrecht, dem das Detergens oder das Tensid für den Endverbraucher entspricht (Anhang VI Teil A Buchstabe g, zweiter Satzteil der Verordnung (EU) 2026/405). Bedingt: nur erforderlich, soweit anwendbar.",
+        "nl": "Indien relevant, verwijzingen naar ander Unierecht waarmee het wasmiddel of tenside voor de eindgebruiker conform is (bijlage VI deel A(g) tweede lid van Verordening (EU) 2026/405). Voorwaardelijk: alleen vereist indien van toepassing.",
+        "hr": "Gdje je relevantno, upućivanja na drugo pravo Unije s kojim je deterdžent ili surfaktant za krajnjeg korisnika sukladan (prilog VI dio A(g), drugi dio Uredbe (EU) 2026/405). Uvjetno: potrebno samo gdje je primjenjivo.",
+        "cs": "Pokud je to relevantní, odkaz na jiné právo Unie, s nímž je detergent nebo povrchově aktivní látka pro konečného uživatele v souladu (příloha VI část A(g), druhá část nař. (EU) 2026/405). Podmíněné: požadováno pouze je-li použitelné.",
+        "da": "Hvis relevant, henvisninger til anden EU-ret, som vaskemidlet eller slutbrugersurfaktanten overholder (bilag VI del A(g) andet led i forordning (EU) 2026/405). Betinget: kun krævet, hvis det er relevant.",
+        "et": "Asjakohasel juhul viited muule liidu õigusele, millele pesuvahend või lõppkasutaja pindaktiivne aine vastab (VI lisa A osa (g) punkti teine osa määruses (EL) 2026/405). Tingimuses: nõutav ainult asjakohaste isikute puhul.",
+        "fi": "Tarvittaessa viittaukset muuhun unionin lainsäädäntöön, jota pesuaine tai loppukäyttäjän tensidi noudattaa (asetuksen (EU) 2026/405 liitteen VI A osan g kohdan toinen osa). Ehdollinen: vaaditaan vain sovellettaessa.",
+        "fr": "Le cas échéant, références à d'autres actes du droit de l'Union auxquels le détergent ou le tensioactif pour l'utilisateur final est conforme (annexe VI partie A(g), second membre du règl. (UE) 2026/405). Conditionnel: requis uniquement si applicable.",
+        "el": "Κατά περίπτωση, παραπομπές σε άλλες πράξεις δικαίου της Ένωσης με τις οποίες συμμορφώνεται το απορρυπαντικό ή το τασιενεργό τελικού χρήστη (παράρτημα VI μέρος Α(ζ), δεύτερο σκέλος του Καν. (ΕΕ) 2026/405). Υπό αίρεση: απαιτείται μόνον κατά περίπτωση.",
+        "hu": "Ahol releváns, hivatkozások más uniós jogszabályokra, amelynek a mosószer vagy a végfelhasználói felületaktív anyag megfelel (VI. melléklet A. rész (g) pont második fordulata, (EU) 2026/405 rendelet). Feltételes: csak akkor szükséges, ha alkalmazható.",
+        "ga": "I gcás inarb ábhartha, tagairtí do dhlí eile an Aontais a gcomhlíonann an glanachán nó an teanntach d'úsáideoirí deiridh (Iarscríbhinn VI Cuid A(g) an dara foirmle de Rialachán (AE) 2026/405). Coinníollach: éilítear é sin amháin nuair is infheidhme.",
+        "it": "Ove pertinente, riferimenti ad altro diritto dell'Unione con cui il detergente o il tensioattivo per l'utente finale è conforme (allegato VI parte A(g), secondo periodo del reg. (UE) 2026/405). Condizionale: richiesto solo se applicabile.",
+        "es": "En su caso, referencias a otro derecho de la Unión con el que cumple el detergente o tensioactivo para el usuario final (anexo VI parte A(g) segundo inciso del Reg. (UE) 2026/405). Condicional: requerido únicamente cuando sea aplicable.",
+        "lt": "Kai aktualu, nuorodos į kitą Sąjungos teisę, kurią atitinka ploviklis arba galutiniam vartotojui skirta paviršiaus aktyvioji medžiaga (VI priedo A dalies (g) punkto antroji dalis Reglamente (ES) 2026/405). Sąlyginis: reikalingas tik kai taikoma.",
+        "lv": "Attiecīgā gadījumā atsauces uz citu Savienības tiesību aktu, kuram mazgāšanas līdzeklis vai galalietotāja virsmas aktīvā viela atbilst (VI pielikuma A daļas (g) punkta otrā daļa Regulā (ES) 2026/405). Nosacīts: nepieciešams tikai gadījumā, ja piemērojams.",
+        "mt": "Fejn rilevanti, referenzi għal liġi oħra tal-Unjoni li biha l-konformità tad-deterġent jew tas-surfatant tal-utent finali hija konformi (Anness VI Parti A(g) it-tieni parti tar-Reg. (UE) 2026/405). Kondizzjonali: meħtieġ biss fejn applikabbli.",
+        "pl": "W stosownych przypadkach odniesienia do innego prawa Unii, z którym zgodny jest detergent lub środek powierzchniowo czynny dla użytkownika końcowego (załącznik VI część A(g) drugi człon rozp. (UE) 2026/405). Warunkowe: wymagane tylko w przypadku zastosowania.",
+        "pt": "Se pertinente, referências a outro direito da União com o qual o detergente ou o tensioativo para o utilizador final cumpre (Anexo VI Parte A(g) segundo membro do Reg. (UE) 2026/405). Condicional: necessário apenas quando aplicável.",
+        "ro": "Dacă este relevant, trimiteri la alt drept al Uniunii cu care detergentul sau tensioactivul pentru utilizatorul final este conform [Anexa VI Partea A(g) al doilea termen din Reg. (UE) 2026/405]. Condițional: necesar numai atunci când este aplicabil.",
+        "sk": "Pokiaľ je to relevantné, odkazy na iné právo Únie, s ktorým je detergent alebo povrchovo aktívna látka pre koncového používateľa v súlade (príloha VI časť A(g), druhá časť nar. (EÚ) 2026/405). Podmienené: požadované iba v prípade použiteľnosti.",
+        "sl": "Kjer je relevantno, sklici na drugo pravo Unije, s katerim je detergent ali površinsko aktivna snov za končnega uporabnika skladna (Priloga VI del A(g) drugi del Uredbe (EU) 2026/405). Pogojno: potrebno le, kadar je primerno.",
+        "sv": "I tillämpliga fall hänvisningar till annan unionsrätt som tvättmedlet eller slutanvändarytaktivsubstansen uppfyller (bilaga VI del A(g) andra ledet i förordning (EU) 2026/405). Villkorligt: krävs endast när det är tillämpligt."
+      },
+      "dataType": "array",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false,
+        "requiredBy": {
+          "consumer": "conditional",
+          "industrial_institutional": "conditional"
+        }
+      },
+      "category": "data_carrier",
+      "categoryLabel": {
+        "en": "Data Carrier",
+        "bg": "Носител на данни",
+        "de": "Datenträger",
+        "nl": "Gegevensdrager",
+        "hr": "Nosač podataka",
+        "cs": "Nosič dat",
+        "da": "Databærer",
+        "et": "Andmekandja",
+        "fi": "Tiedonkantaja",
+        "fr": "Support de données",
+        "el": "Φορέας δεδομένων",
+        "hu": "Adathordozó",
+        "ga": "Iompróir sonraí",
+        "it": "Supporto dati",
+        "es": "Soporte de datos",
+        "lt": "Duomenų laikmena",
+        "lv": "Datu nesējs",
+        "mt": "Trasportatur tad-data",
+        "pl": "Nośnik danych",
+        "pt": "Suporte de dados",
+        "ro": "Suport de date",
+        "sk": "Nosič údajov",
+        "sl": "Nosilec podatkov",
+        "sv": "Databärare"
+      },
+      "sortOrder": 88,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "Detergents Regulation Annex VI Part A(g) second limb",
+        "instrument": "32026R0405",
+        "provision": "Annex VI Part A, point (g) second limb",
+        "annex": "Annex VI",
+        "kind": "legislation",
+        "description": "Annex VI Part A(g) second limb: where relevant, references to other Union law with which the detergent or end-user surfactant complies. Conditional ('where relevant') for all subcategories. Distinct from the compliance-demonstrated field which captures the first limb (the statement itself). The passport duty applies from 23 September 2029 (Art. 21 with Annex VI Part A).",
+        "obligations": [
+          {
+            "instrument": "32026R0405",
+            "provision": "Annex VI Part A(g) second limb",
+            "carrier": "passport",
+            "condition": "where relevant",
+            "quote": "where relevant, references to other Union law with which the detergent or end-user surfactant complies"
+          }
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "32026R0405",
+          "by": "TracePass"
+        }
+      },
+      "aiHints": {
+        "alternateNames": [
+          "other Union law",
+          "other applicable legislation",
+          "compliance references"
+        ],
+        "expectedFormat": "Array of regulation references, e.g. ['Regulation (EC) No 1272/2008', 'Directive 2011/65/EU']",
+        "extractionPriority": 2
+      }
     }
   ],
-  "fieldCount": 76,
+  "fieldCount": 77,
   "requiredFieldCount": 12,
   "categories": [
     "biodegradability",
