@@ -225,6 +225,20 @@ manufacturer name can be required in the battery passport and, in a category wit
 passport law yet, optional with GPSR Art. 9(6) recorded as the duty to show it on the
 product.
 
+**`regulationRef.verifiedAgainstPrimaryText`** records that a person read the cited
+provision in the official EUR-Lex text and confirmed the field's requirement, scale and
+unit match. It is absent on most fields today — marking a field requires reading the act,
+which is intentionally not done in bulk. The citation audit (`npm run check:audit`) reports
+the verified share per category. When present, the shape is:
+
+```jsonc
+"verifiedAgainstPrimaryText": {
+  "on": "2026-09-28",           // ISO 8601 date the act was read
+  "celex": "32023R1542",        // consolidated version consulted
+  "by": "TracePass"             // who verified
+}
+```
+
 **`label`** is provided in the 24 official EU languages, because ESPR Article 8 requires
 the passport to be available in the language of the member state where the product is
 placed on the market.

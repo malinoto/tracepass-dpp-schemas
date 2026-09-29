@@ -111,7 +111,7 @@ test("a primary-then-secondary string over the primary's CELEX passes", () => {
   assert.doesNotMatch(out, new RegExp(`\\b${key}\\b`));
 });
 
-import { checkFlattenedUnits } from "./content-checks.mjs";
+import { checkFlattenedUnits, checkAnnexInventory } from "./content-checks.mjs";
 
 test("[18] the shipped templates carry no flattened units in prose", () =>
   assert.deepEqual(checkFlattenedUnits(load()), []));
@@ -125,4 +125,52 @@ test("[18] a flattened exponent in a description is reported; the unit key is ex
   assert.deepEqual(checkFlattenedUnits(t).map((x) => [x.id, x.where]), [
     ["jewelry.nickelMigrationRate", "description.de"],
   ]);
+});
+
+// ── [19] annex inventory ──────────────────────────────────────────────────────
+
+// The shipped templates must all pass the annex-inventory check.
+test("[19] the shipped templates have no annex-inventory finding", () => {
+  const instruments = JSON.parse(
+    readFileSync(join(here, "..", "instruments.json"), "utf-8"),
+  ).instruments;
+  const findings = checkAnnexInventory(load(), instruments);
+  assert.deepEqual(findings.map((f) => `${f.cat}.${f.key}: ${f.annex} on ${f.celex}`), []);
+});
+
+test("[19] a field citing an annex not in the act's list is reported", () => {
+  const instruments = { "32023R1542": { annexes: ["I", "XIII"] } };
+  const t = [["battery.json", { category: "battery", fields: [
+    { key: "testField", regulationRef: { instrument: "32023R1542", annex: "Annex XIV" }, validation: { required: false } },
+  ] }]];
+  const findings = checkAnnexInventory(t, instruments);
+  assert.equal(findings.length, 1);
+  assert.equal(findings[0].key, "testField");
+});
+
+test("[19] a field citing an annex on an act with no annexes is reported", () => {
+  const instruments = { "32023R0988": { annexes: [] } };
+  const t = [["electronics.json", { category: "electronics", fields: [
+    { key: "gpsr_field", regulationRef: { instrument: "32023R0988", annex: "Annex III" }, validation: { required: false } },
+  ] }]];
+  const findings = checkAnnexInventory(t, instruments);
+  assert.equal(findings.length, 1);
+  assert.equal(findings[0].validAnnexes.length, 0);
+});
+
+test("[19] a field citing a valid annex passes", () => {
+  const instruments = { "32023R1542": { annexes: ["I", "VI", "XIII", "XIV", "XV"] } };
+  const t = [["battery.json", { category: "battery", fields: [
+    { key: "testField", regulationRef: { instrument: "32023R1542", annex: "Annex XIII" }, validation: { required: false } },
+    { key: "part_a", regulationRef: { instrument: "32023R1542", annex: "Annex VI Part A" }, validation: { required: false } },
+  ] }]];
+  assert.deepEqual(checkAnnexInventory(t, instruments), []);
+});
+
+test("[19] a field whose instrument has no annexes key is skipped", () => {
+  const instruments = { "32024R1781": {} };   // no annexes key at all
+  const t = [["electronics.json", { category: "electronics", fields: [
+    { key: "espr_field", regulationRef: { instrument: "32024R1781", annex: "Annex I" }, validation: { required: false } },
+  ] }]];
+  assert.deepEqual(checkAnnexInventory(t, instruments), []);
 });

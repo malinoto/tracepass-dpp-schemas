@@ -180,6 +180,48 @@ export function checkFlattenedUnits(templates) {
   return out;
 }
 
+// ── [19] regulationRef.annex vs instrument's verified annex list ──────────────
+// `instruments.json` now carries `annexes: ["I","II",...]` per instrument —
+// either a non-empty list of the act's roman-numeral annexes, or `[]` when the
+// act has no numbered annexes (both states are verified). A field whose
+// `regulationRef.annex` points to an annex not in that list is a mis-citation:
+// the annex does not exist in the act it belongs to.
+//
+// Only fires when the instrument has an `annexes` key in the registry (so an
+// instrument that has not been indexed yet is skipped rather than flagged).
+// The base roman numeral is extracted from the annex string, e.g.:
+//   "Annex XIII"          → "XIII"
+//   "Annex VI Part A"     → "VI"
+//   "Annex I, Requirement 1" → "I"
+//   "Annex XIII (1e)"     → "XIII"
+export function checkAnnexInventory(templates, instruments) {
+  const out = [];
+  for (const [, d] of templates) {
+    for (const f of d.fields) {
+      const rr = f.regulationRef ?? {};
+      const annex = (rr.annex ?? "").trim();
+      const inst = rr.instrument;
+      if (!annex || !inst) continue;
+      const reg = instruments[inst];
+      if (!reg || !("annexes" in reg)) continue;       // not yet indexed — skip
+      const m = annex.match(/^Annex\s+([IVXLC]+)/i);
+      const base = m ? m[1].toUpperCase() : null;
+      const validAnnexes = reg.annexes;                // [] = act has no annexes
+      if (!base || validAnnexes.length === 0 || !validAnnexes.includes(base)) {
+        out.push({
+          cat: d.category,
+          key: f.key,
+          celex: inst,
+          annex,
+          base,
+          validAnnexes,
+        });
+      }
+    }
+  }
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -191,5 +233,6 @@ export function runContentChecks(templates, registry = {}) {
     duplicates: checkDuplicates(templates, known),
     unitClash: checkCrossTemplateUnits(templates),
     flatUnits: checkFlattenedUnits(templates),
+    annexInventory: checkAnnexInventory(templates, registry),
   };
 }

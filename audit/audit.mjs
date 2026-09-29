@@ -67,7 +67,7 @@ function loadTemplates(dir) {
 
 function audit(dir, label) {
   const templates = loadTemplates(dir);
-  const findings = { overRequired: [], mismatch: [], noInstrument: [], phantom: [], wrongAnnex: [], staleCount: [], unreasoned: [], kindMismatch: [], unresolved: [] };
+  const findings = { overRequired: [], mismatch: [], noInstrument: [], phantom: [], wrongAnnex: [], staleCount: [], unreasoned: [], kindMismatch: [], unresolved: [], annexInventory: [] };
 
   for (const [, d] of templates) {
     for (const f of d.fields) {
@@ -335,6 +335,7 @@ function audit(dir, label) {
   findings.duplicates = content.duplicates;
   findings.unitClash = content.unitClash;
   findings.flatUnits = content.flatUnits;
+  findings.annexInventory = content.annexInventory;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -436,6 +437,15 @@ function audit(dir, label) {
   if (findings.flatUnits.length) {
     console.log(`\n[18] unit with a flattened exponent or ASCII "ug" in prose (${findings.flatUnits.length}) — write m³, cm², µg; the \`unit\` key is exempt`);
     for (const f of findings.flatUnits) console.log(`    ${f.id.padEnd(40)} ${f.where}: ${f.text}`);
+  }
+  if (findings.annexInventory.length) {
+    console.log(`\n[19] regulationRef.annex not in instrument's verified list (${findings.annexInventory.length}) — fix the annex or the cited instrument`);
+    for (const f of findings.annexInventory) {
+      const valid = f.validAnnexes.length
+        ? `valid: ${f.validAnnexes.join(",")}`
+        : "act has no numbered annexes";
+      console.log(`    ${f.cat.padEnd(12)} ${f.key.slice(0, 30).padEnd(32)} ${f.celex}  cites ${f.annex}  (${valid})`);
+    }
   }
   if (!n) console.log("    clean");
   return n;
