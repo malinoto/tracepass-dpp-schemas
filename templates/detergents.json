@@ -271,7 +271,7 @@
       "key": "batchLotNumber",
       "label": {
         "en": "Traceability Identifier",
-        "bg": "Идентификатор за проследяемост",
+        "bg": "Идентификатор, който позволява проследимост",
         "de": "Rückverfolgbarkeitskennung",
         "nl": "Traceerbaarheidsidentificator",
         "hr": "Identifikator za sljedivost",
@@ -280,7 +280,7 @@
         "et": "Jälgitavuse identifikaator",
         "fi": "Jäljitettävyystunniste",
         "fr": "Identifiant de traçabilité",
-        "el": "Αναγνωριστικό ιχνηλασιμότητας",
+        "el": "Αναγνωριστικό που επιτρέπει την ανιχνευσιμότητα",
         "hu": "Nyomon követhetőségi azonosító",
         "ga": "Aitheantóir inrianaitheachta",
         "it": "Identificativo di tracciabilità",
