@@ -153,7 +153,12 @@
             "condition": null,
             "quote": "all batteries shall be marked with a QR code as described in Part C of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -520,7 +525,12 @@
             "condition": null,
             "quote": "their name, registered trade name or registered trade mark"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -782,7 +792,12 @@
             "condition": null,
             "quote": "their postal address, indicating a single contact point"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1142,7 +1157,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1272,7 +1292,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1578,7 +1603,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1708,7 +1738,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -1978,7 +2013,12 @@
             "condition": null,
             "quote": "information on the status of the battery, defined as ‘original’, ‘repurposed’, ‘re-used’, ‘remanufactured’ or ‘waste’;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2109,7 +2149,12 @@
             "condition": null,
             "quote": "all batteries shall be marked with the symbol for separate collection"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2578,7 +2623,12 @@
             "condition": null,
             "quote": "the meaning of the labels and symbols on batteries in accordance with Article 13"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2708,7 +2758,12 @@
             "condition": null,
             "quote": "The EU declaration of conformity shall state that the compliance with the requirements laid down in Articles 6 to 10 and Articles 12, 13 and 14 has been demonstrated."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -2832,7 +2887,12 @@
             "condition": null,
             "quote": "results of test reports proving compliance with the requirements laid down in this Regulation"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -4466,7 +4526,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -4592,7 +4657,12 @@
             "condition": null,
             "quote": "detailed composition, including materials used in the cathode, anode and electrolyte;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -4715,7 +4785,12 @@
             "condition": null,
             "quote": "detailed composition, including materials used in the cathode, anode and electrolyte;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -4838,7 +4913,12 @@
             "condition": null,
             "quote": "detailed composition, including materials used in the cathode, anode and electrolyte;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -4968,7 +5048,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -5102,7 +5187,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -5809,7 +5899,12 @@
             "condition": null,
             "quote": "the role of end-users in contributing to waste prevention"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -5932,7 +6027,12 @@
             "condition": null,
             "quote": "the role of end-users in contributing to the separate collection of waste batteries"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -6055,7 +6155,12 @@
             "condition": null,
             "quote": "the separate collection, take-back and collection points, preparation for re-use, preparation for repurposing and treatment available for waste batteries;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -6179,7 +6284,12 @@
             "condition": null,
             "quote": "dismantling information, including at least"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -6424,7 +6534,12 @@
             "condition": null,
             "quote": "part numbers for components and contact details of sources for replacement spares;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -6549,7 +6664,12 @@
             "condition": null,
             "quote": "safety measures."
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7021,7 +7141,12 @@
             "condition": "rechargeable industrial batteries with a capacity greater than 2 kWh, LMT batteries and electric vehicle batteries",
             "quote": "shall be accompanied by a document containing values for the electrochemical performance and durability parameters set out in Part A of Annex IV"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7144,7 +7269,12 @@
             "condition": null,
             "quote": "minimal, nominal and maximum voltage, with temperature ranges when relevant;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7267,7 +7397,12 @@
             "condition": null,
             "quote": "minimal, nominal and maximum voltage, with temperature ranges when relevant;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7390,7 +7525,12 @@
             "condition": null,
             "quote": "minimal, nominal and maximum voltage, with temperature ranges when relevant;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7519,7 +7659,12 @@
             "condition": "rechargeable industrial batteries with a capacity greater than 2 kWh, LMT batteries and electric vehicle batteries",
             "quote": "shall be accompanied by a document containing values for the electrochemical performance and durability parameters set out in Part A of Annex IV"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7642,7 +7787,12 @@
             "condition": null,
             "quote": "original power capability (in Watts) and limits, with temperature range when relevant;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -7875,8 +8025,13 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(n)",
         "kind": "legislation",
-        "article": "Battery Regulation Art. 77",
-        "description": "Initial round trip energy efficiency, and the same at 50% of cycle-life, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "article": "Battery Regulation Annex XIII 1(n)",
+        "description": "Initial round-trip energy efficiency, and the same at 50 % of cycle-life, is publicly accessible passport content from 18 Feb 2027. It binds for LMT and EV batteries; for industrial >2 kWh it applies when the battery is rechargeable (conditional — see validation.requiredBy). Art. 77 carries the passport obligation; Annex XIII 1(n) is where the content item sits.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8006,7 +8161,12 @@
             "condition": "rechargeable industrial batteries with a capacity greater than 2 kWh, LMT batteries and electric vehicle batteries",
             "quote": "shall be accompanied by a document containing values for the electrochemical performance and durability parameters set out in Part A of Annex IV"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8136,7 +8296,12 @@
             "condition": "rechargeable industrial batteries with a capacity greater than 2 kWh, LMT batteries and electric vehicle batteries",
             "quote": "shall be accompanied by a document containing values for the electrochemical performance and durability parameters set out in Part A of Annex IV"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8729,7 +8894,12 @@
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Expected battery lifetime in cycles, together with the reference test used, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "Expected battery lifetime in cycles, together with the reference test used, is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8849,7 +9019,12 @@
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -8969,7 +9144,12 @@
         "provision": "Annex XIII 1(j)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "It requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra."
+        "description": "It requires the reference test alongside the expected lifetime, so the conditions are part of that publicly accessible passport item rather than an extra.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9089,7 +9269,12 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(k)",
         "kind": "legislation",
-        "description": "The capacity threshold for exhaustion is publicly accessible passport content, and the Annex scopes it explicitly to ELECTRIC VEHICLE batteries only. That is why it is not required category-wide; see validation.requiredBy."
+        "description": "The capacity threshold for exhaustion is publicly accessible passport content, and the Annex scopes it explicitly to ELECTRIC VEHICLE batteries only. That is why it is not required category-wide; see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9212,7 +9397,12 @@
             "condition": null,
             "quote": "temperature range the battery can withstand when not in use (reference test);"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9334,7 +9524,12 @@
             "condition": null,
             "quote": "temperature range the battery can withstand when not in use (reference test);"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -9453,7 +9648,12 @@
         "provision": "Annex XIII 1(p)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "The c-rate of the relevant cycle-life test is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "The c-rate of the relevant cycle-life test is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -10151,12 +10351,17 @@
       "sortOrder": 76,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Art. 77",
+        "article": "Battery Regulation Annex XIII 4(b)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery in-service data accessible ONLY to persons with a legitimate interest, never to the public. State of Certified Energy (SOCE) is EV-specific per Art. 14 and Annex VII: it is the certified remaining energy for EV traction batteries, measured against the Art. 14 protocol. LMT and industrial >2 kWh batteries report the five granular Annex XIII 4(b) state-of-health metrics instead (remainingCapacity, remainingPowerCapability, remainingRoundTripEfficiency, evolutionOfSelfDischargeRate, currentInternalResistancePack). Binds from 18 Feb 2027.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -10270,12 +10475,17 @@
       "sortOrder": 77,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Art. 77",
+        "article": "Battery Regulation Annex XIII 4(b)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery in-service data accessible ONLY to persons with a legitimate interest, never to the public. Remaining capacity is required for LMT batteries and stationary storage systems (industrial >2 kWh); it is NOT required for EV traction batteries (which report SOCE instead under Art. 14). Binds from 18 Feb 2027 — see validation.requiredBy for per-category applicability.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -10746,7 +10956,12 @@
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -10865,7 +11080,12 @@
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -10984,7 +11204,12 @@
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -11212,12 +11437,17 @@
       "sortOrder": 85,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Art. 77",
+        "article": "Battery Regulation Annex XIII 4(b)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b)",
         "kind": "legislation",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery in-service data accessible ONLY to persons with a legitimate interest, never to the public. Evolution of self-discharge rate is required for LMT batteries and stationary storage systems (industrial >2 kWh); it is NOT applicable to EV traction batteries. Binds from 18 Feb 2027 — see validation.requiredBy for per-category applicability.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -12316,7 +12546,12 @@
             "condition": null,
             "quote": "bear a model identification and batch or serial number, or product number or another element allowing their identification"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -12771,7 +13006,12 @@
             "condition": null,
             "quote": "batteries shall bear a label containing the general information on batteries set out in Part A of Annex VI"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -12894,7 +13134,12 @@
             "condition": null,
             "quote": "the share of renewable content;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13014,7 +13259,12 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 1(n)",
-        "description": "The second half of Annex XIII 1(n), which requires round trip energy efficiency both initially and at 50% of cycle-life. Publicly accessible passport content from 18 Feb 2027."
+        "description": "The second half of Annex XIII 1(n), which requires round trip energy efficiency both initially and at 50% of cycle-life. Publicly accessible passport content from 18 Feb 2027.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13137,7 +13387,12 @@
             "condition": null,
             "quote": "part numbers for components and contact details of sources for replacement spares;"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13257,7 +13512,12 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 4(a)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13372,7 +13632,7 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 4(a)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data accessible only to persons with a legitimate interest, never to the public. Binds from 18 Feb 2027. Energy round-trip efficiency (Annex XIII 4(a)) is qualified ‘where applicable’ by the Regulation — all battery categories include it when the measurement is available; the obligation is conditional on applicability, not on battery category, so no per-category requiredBy flag is set."
       },
       "aiHints": {
         "alternateNames": [
@@ -13491,7 +13751,12 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 4(a)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13610,7 +13875,12 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Art. 10(1)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13728,7 +13998,12 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 4(a)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -13863,56 +14138,56 @@
     {
       "key": "preConsumerRecycledNickelShare",
       "label": {
-        "en": "Pre-Consumer Recycled Nickel Share",
-        "bg": "Дял на рециклиран никел от предпотребителски отпадъци",
-        "de": "Vorverbraucher-Recyclinganteil — Nickel",
-        "hr": "Predpotrošački udio recikliranog nickela",
-        "cs": "Předspotřebitelský podíl recyklovaného nickelu",
-        "da": "Forforbruger genanvendt nickel",
-        "nl": "Pre-consument gerecycled nickel",
-        "et": "Tarbijaeelne ringlusnickel",
-        "fi": "Esikulüttajan kierrätetty nickel",
-        "fr": "Part pré-consommateur de nickel recyclé",
-        "hu": "Fogyasztás előtti jrahasznosított nickel",
-        "ga": "Sciar Nickel Athchúrsáilte Réamh-Tomhaltóra",
-        "it": "Quota Pre-Consumatore di Nickel Riciclato",
-        "lv": "Pirmspatēriņa pārstrādāts nickels",
-        "lt": "Ikivartotojinis perdirbtas nickels",
-        "mt": "Sehem Nickel Riċiklat Qabel il-Konsum",
-        "pl": "Przedkonsumencki recykling nickelu",
-        "pt": "Quota Pré-Consumidor de Nickel Reciclado",
-        "ro": "Cotă Pre-Consum de Nickel Reciclat",
-        "sk": "Predspotrebitelský podiel recyklovaného nickelu",
-        "sl": "Predpotrošniški delež predelanega nickela",
-        "es": "Cuota Pre-Consumidor de Nickel Reciclado",
-        "sv": "Förkonsument återvunnet nickel",
-        "el": "Μερίδιο ανακυκλωμένου νικελίου από απόβλητα προ της κατανάλωσης"
+        "en": "Recycled Content — Nickel (battery manufacturing waste)",
+        "bg": "Рециклирано съдържание — Никел (отпадъци от производството на батерии)",
+        "de": "Recyclinganteil — Nickel (Abfälle der Batterieerzeugung)",
+        "hr": "Sadržaj recikliranih materijala — Nikal (otpad od izrade baterije)",
+        "cs": "Obsah recyklovaného materiálu — Nikl (odpad z výroby baterií)",
+        "da": "Genanvendt indhold — Nikkel (affald fra batterifremstilling)",
+        "nl": "Gerecyclede inhoud — Nikkel (fabricageafval van batterijen)",
+        "et": "Ringlusmaterjal — nikkel (patareide ja akude tootmisjäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Nikkeli (akkujen ja paristojen valmistusjäte)",
+        "fr": "Teneur en nickel recyclé (déchets de fabrication de batteries)",
+        "hu": "Újrahasznosított tartalom — nikkel (elem-, illetve akkumulátorgyártási hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Nicil (dramhaíl monaraíochta ceallraí)",
+        "it": "Contenuto Riciclato — Nichel (rifiuti della fabbricazione di batterie)",
+        "lv": "Pārstrādāts saturs — Niķelis (bateriju izgatavošanas atkritumi)",
+        "lt": "Perdirbto turinio — Nikelis (baterijų fizinės gamybos atliekos)",
+        "mt": "Kontenut Riċiklat — Niklu (skart tal-manifattura tal-batteriji)",
+        "pl": "Zawartość recyklingowana — Nikiel (odpady z wytwarzania baterii)",
+        "pt": "Conteúdo Reciclado — Níquel (resíduos do fabrico de baterias)",
+        "ro": "Conținut Reciclat — Nichel (deșeuri provenite din fabricarea bateriilor)",
+        "sk": "Recyklovaný obsah — nikel (odpad z výroby batérií)",
+        "sl": "Reciklirana vsebina – nikelj (odpadki iz proizvodnje baterij)",
+        "es": "Contenido Reciclado — Níquel (residuos de la fabricación de pilas o baterías)",
+        "sv": "Återvunnet innehål — nickel (batteritillverkningsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Νικέλιο (απόβλητα κατασκευής μπαταριών)"
       },
       "description": {
-        "en": "Percentage of Nickel from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentNickel figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на никел от рециклирани отпадъци от предпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentNickel, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Nickel aus vorverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentNickel, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak nickel iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento nickel z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af nickel fra pre-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage nickel uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Nickel protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Nickeln osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de nickel issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
-        "hu": "A pre-consumer újrahasznosított hulladékból származó nickel százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán nickel ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di nickel da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
-        "lv": "Nickel procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Nickel procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' nickel minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent nickel z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de nickel proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de nickel din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel nickel z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek nickel iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de nickel de residuos reciclados pre-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel nickel från pre-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο νικελίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentNickel showing the share sourced from battery manufacturing waste (Art. 3(1)(51): waste generated by the battery manufacturing process that has not been intentionally produced). The combined recycledContentNickel figure is the Art. 8(1) passport obligation; this split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentNickel, показваща дела, произхождащ от отпадъци от производство на батерии (чл. 3(1)(51): отпадъци, генерирани в процеса на производство на батерии, без да са предназначени нарочно). Общата стойност на recycledContentNickel е задължението за паспорта съгласно чл. 8(1); тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) (все още неприет) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentNickel mit Angabe des Anteils, der aus Batterieherstellungsabfällen stammt (Art. 3(1)(51): Abfälle, die im Batterieherstellungsprozess entstehen, ohne absichtlich erzeugt zu werden). Die kombinierte Angabe recycledContentNickel ist die Passportpflicht nach Art. 8(1); diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) (noch nicht angenommen) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentNickel koji prikazuje udio koji potječe iz otpada od proizvodnje baterija (čl. 3(1)(51)). Kombinirani recycledContentNickel je obveza putovnice prema čl. 8(1); ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentNickel udávající podíl pocházející z odpadu z výroby baterií (čl. 3(1)(51)). Kombinovaný recycledContentNickel je povinností pasu dle čl. 8(1); toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentNickel der viser andelen fra batteriproduktionsaffald (art. 3(1)(51)). Den kombinerede recycledContentNickel er pasportforpligtelsen i henhold til art. 8(1); denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentNickel met het aandeel afkomstig uit fabricageafval van batterijen (art. 3(1)(51)). De gecombineerde recycledContentNickel is de paspoortplicht onder art. 8(1); deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentNickel vabatahtlik jaotus, mis näitab akutootmise jäätmetest pärit osa (art. 3(1)(51)). Kombineeritud recycledContentNickel on passi kohustus art. 8(1) alusel; see jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentNickel-erittely, joka osoittaa akkujen valmistusjätteistä peräisin olevan osuuden (art. 3(1)(51)). Yhdistetty recycledContentNickel on art. 8(1) passivelvoite; tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentNickel indiquant la part provenant de déchets de fabrication de batteries (art. 3(1)(51)). La valeur combinée recycledContentNickel est l'obligation passeport selon l'art. 8(1); cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) (non encore adopté) l'exige expressément.",
+        "hu": "A recycledContentNickel önkéntes lebontása, amely mutatja az akkumulátorgyártási hulladékból (art. 3(1)(51)) származó részt. A kombinált recycledContentNickel az art. 8(1) szerinti passportkötelezettség; ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus (még nem fogadták el) kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentNickel ag taispeáint an scair ó dhramhaíl déantúsaíochta cadhnraí (airteagal 3(1)(51)). Is é an recycledContentNickel comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentNickel che indica la quota proveniente da rifiuti della fabbricazione di batterie (art. 3(1)(51)). Il valore combinato recycledContentNickel è l'obbligo del passaporto ai sensi dell'art. 8(1); questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) (non ancora adottato) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentNickel sadalījums, kurā norādīta daļa, kas nākusi no akumulatoru ražošanas atkritumiem (art. 3(1)(51)). Kombinētais recycledContentNickel ir pases pienākums saskaņā ar art. 8(1); šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentNickel paskirstymas, nurodantis iš baterijų gamybos atliekų (str. 3(1)(51)) gaunamą dalį. Bendrasis recycledContentNickel yra paso prievolė pagal str. 8(1); šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentNickel li juri l-parti oriġinata minn skart mill-manifattura ta' batteriji (art. 3(1)(51)). Il-valur kombinat recycledContentNickel huwa l-obbligu tal-passaport skont l-art. 8(1); dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentNickel wskazujący udział pochodzący z odpadów z produkcji baterii (art. 3(1)(51)). Łączny recycledContentNickel jest obowiązkiem paszportowym na podstawie art. 8(1); ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentNickel que mostra a quota proveniente de resíduos da fabricação de baterias (art. 3(1)(51)). O valor combinado recycledContentNickel é a obrigação de passaporte ao abrigo do art. 8(1); esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentNickel care arată cota provenind din deșeuri din fabricarea bateriilor (art. 3(1)(51)). Valoarea combinată recycledContentNickel este obligația pașaportului conform art. 8(1); această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentNickel ukazujúce podiel pochádzajúci z odpadu z výroby batérií (čl. 3(1)(51)). Kombinovaný recycledContentNickel je povinnosťou pasu podľa čl. 8(1); toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentNickel, ki kaže delež, izvirajoč iz odpadkov iz proizvodnje baterij (čl. 3(1)(51)). Skupni recycledContentNickel je potna obveznost po čl. 8(1); ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentNickel que muestra la cuota procedente de residuos de fabricación de baterías (art. 3(1)(51)). El valor combinado recycledContentNickel es la obligación del pasaporte según el art. 8(1); este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentNickel som visar andelen från avfall vid batteritillverkning (art. 3(1)(51)). Den kombinerade recycledContentNickel är passobligationen enligt art. 8(1); denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentNickel που δείχνει το μερίδιο από απόβλητα κατασκευής μπαταριών (άρθρο 3(1)(51)). Το συνδυασμένο recycledContentNickel είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -13921,11 +14196,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -13962,12 +14232,12 @@
       "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) carries the recycled content information contained in the Art. 8(1) documentation into the passport. Art. 8 recognises PRE-consumer and post-consumer recyclate differently, and the share targets themselves phase in from 18 Aug 2031, so the passport item exists before the minima bite."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentNickel figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -13982,56 +14252,56 @@
     {
       "key": "preConsumerRecycledCobaltShare",
       "label": {
-        "en": "Pre-Consumer Recycled Cobalt Share",
-        "bg": "Дял на рециклиран кобалт от предпотребителски отпадъци",
-        "de": "Vorverbraucher-Recyclinganteil — Cobalt",
-        "hr": "Predpotrošački udio recikliranog cobalta",
-        "cs": "Předspotřebitelský podíl recyklovaného cobaltu",
-        "da": "Forforbruger genanvendt cobalt",
-        "nl": "Pre-consument gerecycled cobalt",
-        "et": "Tarbijaeelne ringluscobalt",
-        "fi": "Esikulüttajan kierrätetty cobalt",
-        "fr": "Part pré-consommateur de cobalt recyclé",
-        "hu": "Fogyasztás előtti jrahasznosított cobalt",
-        "ga": "Sciar Cobalt Athchúrsáilte Réamh-Tomhaltóra",
-        "it": "Quota Pre-Consumatore di Cobalt Riciclato",
-        "lv": "Pirmspatēriņa pārstrādāts cobalts",
-        "lt": "Ikivartotojinis perdirbtas cobalts",
-        "mt": "Sehem Cobalt Riċiklat Qabel il-Konsum",
-        "pl": "Przedkonsumencki recykling cobaltu",
-        "pt": "Quota Pré-Consumidor de Cobalt Reciclado",
-        "ro": "Cotă Pre-Consum de Cobalt Reciclat",
-        "sk": "Predspotrebitelský podiel recyklovaného cobaltu",
-        "sl": "Predpotrošniški delež predelanega cobalta",
-        "es": "Cuota Pre-Consumidor de Cobalt Reciclado",
-        "sv": "Förkonsument återvunnet cobalt",
-        "el": "Μερίδιο ανακυκλωμένου κοβαλτίου από απόβλητα προ της κατανάλωσης"
+        "en": "Recycled Content — Cobalt (battery manufacturing waste)",
+        "bg": "Рециклирано съдържание — Кобалт (отпадъци от производството на батерии)",
+        "de": "Recyclinganteil — Kobalt (Abfälle der Batterieerzeugung)",
+        "hr": "Sadržaj recikliranih materijala — Kobalt (otpad od izrade baterije)",
+        "cs": "Obsah recyklovaného materiálu — Kobalt (odpad z výroby baterií)",
+        "da": "Genanvendt indhold — Kobalt (affald fra batterifremstilling)",
+        "nl": "Gerecyclede inhoud — Kobalt (fabricageafval van batterijen)",
+        "et": "Ringlusmaterjal — koobalt (patareide ja akude tootmisjäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Koboltti (akkujen ja paristojen valmistusjäte)",
+        "fr": "Teneur en cobalt recyclé (déchets de fabrication de batteries)",
+        "hu": "Újrahasznosított tartalom — kobalt (elem-, illetve akkumulátorgyártási hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Cobalt (dramhaíl monaraíochta ceallraí)",
+        "it": "Contenuto Riciclato — Cobalto (rifiuti della fabbricazione di batterie)",
+        "lv": "Pārstrādāts saturs — Kobalts (bateriju izgatavošanas atkritumi)",
+        "lt": "Perdirbto turinio — Kobaltas (baterijų fizinės gamybos atliekos)",
+        "mt": "Kontenut Riċiklat — Kobaltu (skart tal-manifattura tal-batteriji)",
+        "pl": "Zawartość recyklingowana — Kobalt (odpady z wytwarzania baterii)",
+        "pt": "Conteúdo Reciclado — Cobalto (resíduos do fabrico de baterias)",
+        "ro": "Conținut Reciclat — Cobalt (deșeuri provenite din fabricarea bateriilor)",
+        "sk": "Recyklovaný obsah — kobalt (odpad z výroby batérií)",
+        "sl": "Reciklirana vsebina – kobalt (odpadki iz proizvodnje baterij)",
+        "es": "Contenido Reciclado — Cobalto (residuos de la fabricación de pilas o baterías)",
+        "sv": "Återvunnet innehål — kobolt (batteritillverkningsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Κοβάλτιο (απόβλητα κατασκευής μπαταριών)"
       },
       "description": {
-        "en": "Percentage of Cobalt from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentCobalt figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на кобалт от рециклирани отпадъци от предпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentCobalt, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Kobalt aus vorverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentCobalt, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak cobalt iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento cobalt z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af cobalt fra pre-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage cobalt uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Cobalt protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Cobaltn osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de cobalt issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
-        "hu": "A pre-consumer újrahasznosított hulladékból származó cobalt százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán cobalt ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di cobalt da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
-        "lv": "Cobalt procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Cobalt procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' cobalt minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent cobalt z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de cobalt proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de cobalt din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel cobalt z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek cobalt iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de cobalt de residuos reciclados pre-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel cobalt från pre-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο κοβαλτίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentCobalt showing the share sourced from battery manufacturing waste (Art. 3(1)(51): waste generated by the battery manufacturing process that has not been intentionally produced). The combined recycledContentCobalt figure is the Art. 8(1) passport obligation; this split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentCobalt, показваща дела, произхождащ от отпадъци от производство на батерии (чл. 3(1)(51): отпадъци, генерирани в процеса на производство на батерии, без да са предназначени нарочно). Общата стойност на recycledContentCobalt е задължението за паспорта съгласно чл. 8(1); тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) (все още неприет) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentCobalt mit Angabe des Anteils, der aus Batterieherstellungsabfällen stammt (Art. 3(1)(51): Abfälle, die im Batterieherstellungsprozess entstehen, ohne absichtlich erzeugt zu werden). Die kombinierte Angabe recycledContentCobalt ist die Passportpflicht nach Art. 8(1); diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) (noch nicht angenommen) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentCobalt koji prikazuje udio koji potječe iz otpada od proizvodnje baterija (čl. 3(1)(51)). Kombinirani recycledContentCobalt je obveza putovnice prema čl. 8(1); ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentCobalt udávající podíl pocházející z odpadu z výroby baterií (čl. 3(1)(51)). Kombinovaný recycledContentCobalt je povinností pasu dle čl. 8(1); toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentCobalt der viser andelen fra batteriproduktionsaffald (art. 3(1)(51)). Den kombinerede recycledContentCobalt er pasportforpligtelsen i henhold til art. 8(1); denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentCobalt met het aandeel afkomstig uit fabricageafval van batterijen (art. 3(1)(51)). De gecombineerde recycledContentCobalt is de paspoortplicht onder art. 8(1); deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentCobalt vabatahtlik jaotus, mis näitab akutootmise jäätmetest pärit osa (art. 3(1)(51)). Kombineeritud recycledContentCobalt on passi kohustus art. 8(1) alusel; see jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentCobalt-erittely, joka osoittaa akkujen valmistusjätteistä peräisin olevan osuuden (art. 3(1)(51)). Yhdistetty recycledContentCobalt on art. 8(1) passivelvoite; tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentCobalt indiquant la part provenant de déchets de fabrication de batteries (art. 3(1)(51)). La valeur combinée recycledContentCobalt est l'obligation passeport selon l'art. 8(1); cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) (non encore adopté) l'exige expressément.",
+        "hu": "A recycledContentCobalt önkéntes lebontása, amely mutatja az akkumulátorgyártási hulladékból (art. 3(1)(51)) származó részt. A kombinált recycledContentCobalt az art. 8(1) szerinti passportkötelezettség; ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus (még nem fogadták el) kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentCobalt ag taispeáint an scair ó dhramhaíl déantúsaíochta cadhnraí (airteagal 3(1)(51)). Is é an recycledContentCobalt comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentCobalt che indica la quota proveniente da rifiuti della fabbricazione di batterie (art. 3(1)(51)). Il valore combinato recycledContentCobalt è l'obbligo del passaporto ai sensi dell'art. 8(1); questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) (non ancora adottato) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentCobalt sadalījums, kurā norādīta daļa, kas nākusi no akumulatoru ražošanas atkritumiem (art. 3(1)(51)). Kombinētais recycledContentCobalt ir pases pienākums saskaņā ar art. 8(1); šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentCobalt paskirstymas, nurodantis iš baterijų gamybos atliekų (str. 3(1)(51)) gaunamą dalį. Bendrasis recycledContentCobalt yra paso prievolė pagal str. 8(1); šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentCobalt li juri l-parti oriġinata minn skart mill-manifattura ta' batteriji (art. 3(1)(51)). Il-valur kombinat recycledContentCobalt huwa l-obbligu tal-passaport skont l-art. 8(1); dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentCobalt wskazujący udział pochodzący z odpadów z produkcji baterii (art. 3(1)(51)). Łączny recycledContentCobalt jest obowiązkiem paszportowym na podstawie art. 8(1); ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentCobalt que mostra a quota proveniente de resíduos da fabricação de baterias (art. 3(1)(51)). O valor combinado recycledContentCobalt é a obrigação de passaporte ao abrigo do art. 8(1); esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentCobalt care arată cota provenind din deșeuri din fabricarea bateriilor (art. 3(1)(51)). Valoarea combinată recycledContentCobalt este obligația pașaportului conform art. 8(1); această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentCobalt ukazujúce podiel pochádzajúci z odpadu z výroby batérií (čl. 3(1)(51)). Kombinovaný recycledContentCobalt je povinnosťou pasu podľa čl. 8(1); toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentCobalt, ki kaže delež, izvirajoč iz odpadkov iz proizvodnje baterij (čl. 3(1)(51)). Skupni recycledContentCobalt je potna obveznost po čl. 8(1); ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentCobalt que muestra la cuota procedente de residuos de fabricación de baterías (art. 3(1)(51)). El valor combinado recycledContentCobalt es la obligación del pasaporte según el art. 8(1); este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentCobalt som visar andelen från avfall vid batteritillverkning (art. 3(1)(51)). Den kombinerade recycledContentCobalt är passobligationen enligt art. 8(1); denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentCobalt που δείχνει το μερίδιο από απόβλητα κατασκευής μπαταριών (άρθρο 3(1)(51)). Το συνδυασμένο recycledContentCobalt είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -14040,11 +14310,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -14081,12 +14346,12 @@
       "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation. The Art. 8 minimum shares apply from 18 Aug 2031."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentCobalt figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -14101,56 +14366,56 @@
     {
       "key": "preConsumerRecycledLithiumShare",
       "label": {
-        "en": "Pre-Consumer Recycled Lithium Share",
-        "bg": "Дял на рециклиран литий от предпотребителски отпадъци",
-        "de": "Vorverbraucher-Recyclinganteil — Lithium",
-        "hr": "Predpotrošački udio recikliranog lithiuma",
-        "cs": "Předspotřebitelský podíl recyklovaného lithiumu",
-        "da": "Forforbruger genanvendt lithium",
-        "nl": "Pre-consument gerecycled lithium",
-        "et": "Tarbijaeelne ringluslithium",
-        "fi": "Esikulüttajan kierrätetty lithium",
-        "fr": "Part pré-consommateur de lithium recyclé",
-        "hu": "Fogyasztás előtti jrahasznosított lithium",
-        "ga": "Sciar Lithium Athchúrsáilte Réamh-Tomhaltóra",
-        "it": "Quota Pre-Consumatore di Lithium Riciclato",
-        "lv": "Pirmspatēriņa pārstrādāts lithiums",
-        "lt": "Ikivartotojinis perdirbtas lithiums",
-        "mt": "Sehem Lithium Riċiklat Qabel il-Konsum",
-        "pl": "Przedkonsumencki recykling lithiumu",
-        "pt": "Quota Pré-Consumidor de Lithium Reciclado",
-        "ro": "Cotă Pre-Consum de Lithium Reciclat",
-        "sk": "Predspotrebitelský podiel recyklovaného lithiumu",
-        "sl": "Predpotrošniški delež predelanega lithiuma",
-        "es": "Cuota Pre-Consumidor de Lithium Reciclado",
-        "sv": "Förkonsument återvunnet lithium",
-        "el": "Μερίδιο ανακυκλωμένου λιθίου από απόβλητα προ της κατανάλωσης"
+        "en": "Recycled Content — Lithium (battery manufacturing waste)",
+        "bg": "Рециклирано съдържание — Литий (отпадъци от производството на батерии)",
+        "de": "Recyclinganteil — Lithium (Abfälle der Batterieerzeugung)",
+        "hr": "Sadržaj recikliranih materijala — Litij (otpad od izrade baterije)",
+        "cs": "Obsah recyklovaného materiálu — Lithium (odpad z výroby baterií)",
+        "da": "Genanvendt indhold — Lithium (affald fra batterifremstilling)",
+        "nl": "Gerecyclede inhoud — Lithium (fabricageafval van batterijen)",
+        "et": "Ringlusmaterjal — liitiumi (patareide ja akude tootmisjäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Litium (akkujen ja paristojen valmistusjäte)",
+        "fr": "Teneur en lithium recyclé (déchets de fabrication de batteries)",
+        "hu": "Újrahasznosított tartalom — lítium (elem-, illetve akkumulátorgyártási hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Litiam (dramhaíl monaraíochta ceallraí)",
+        "it": "Contenuto Riciclato — Litio (rifiuti della fabbricazione di batterie)",
+        "lv": "Pārstrādāts saturs — Ļitijs (bateriju izgatavošanas atkritumi)",
+        "lt": "Perdirbto turinio — Litis (baterijų fizinės gamybos atliekos)",
+        "mt": "Kontenut Riċiklat — Litju (skart tal-manifattura tal-batteriji)",
+        "pl": "Zawartość recyklingowana — Lit (odpady z wytwarzania baterii)",
+        "pt": "Conteúdo Reciclado — Lítio (resíduos do fabrico de baterias)",
+        "ro": "Conținut Reciclat — Litiu (deșeuri provenite din fabricarea bateriilor)",
+        "sk": "Recyklovaný obsah — lítium (odpad z výroby batérií)",
+        "sl": "Reciklirana vsebina – litij (odpadki iz proizvodnje baterij)",
+        "es": "Contenido Reciclado — Litio (residuos de la fabricación de pilas o baterías)",
+        "sv": "Återvunnet innehål — litium (batteritillverkningsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Λίθιο (απόβλητα κατασκευής μπαταριών)"
       },
       "description": {
-        "en": "Percentage of Lithium from pre-consumer recycled waste in the battery's active materials. Complements the combined recycledContentLithium figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на литий от рециклирани отпадъци от предпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentLithium, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Lithium aus vorverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentLithium, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak lithium iz pre-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento lithium z pre-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af lithium fra pre-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage lithium uit pre-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Lithium protsent pre-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Lithiumn osuusprosentti pre-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de lithium issu de déchets recyclés pre-consumer dans les matières actives de la batterie.",
-        "hu": "A pre-consumer újrahasznosított hulladékból származó lithium százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán lithium ó dhramhaíl athchúrsáilte pre-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di lithium da rifiuti riciclati pre-consumer nei materiali attivi della batteria.",
-        "lv": "Lithium procents no pre-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Lithium procentas iš pre-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' lithium minn skart riċiklat pre-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent lithium z odpadów recyklingowanych pre-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de lithium proveniente de resíduos reciclados pre-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de lithium din deșeuri reciclate pre-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel lithium z pre-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek lithium iz pre-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de lithium de residuos reciclados pre-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel lithium från pre-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο λιθίου που ανακυκλώνεται από απόβλητα προ της κατανάλωσης στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentLithium showing the share sourced from battery manufacturing waste (Art. 3(1)(51): waste generated by the battery manufacturing process that has not been intentionally produced). The combined recycledContentLithium figure is the Art. 8(1) passport obligation; this split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentLithium, показваща дела, произхождащ от отпадъци от производство на батерии (чл. 3(1)(51): отпадъци, генерирани в процеса на производство на батерии, без да са предназначени нарочно). Общата стойност на recycledContentLithium е задължението за паспорта съгласно чл. 8(1); тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) (все още неприет) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentLithium mit Angabe des Anteils, der aus Batterieherstellungsabfällen stammt (Art. 3(1)(51): Abfälle, die im Batterieherstellungsprozess entstehen, ohne absichtlich erzeugt zu werden). Die kombinierte Angabe recycledContentLithium ist die Passportpflicht nach Art. 8(1); diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) (noch nicht angenommen) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentLithium koji prikazuje udio koji potječe iz otpada od proizvodnje baterija (čl. 3(1)(51)). Kombinirani recycledContentLithium je obveza putovnice prema čl. 8(1); ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentLithium udávající podíl pocházející z odpadu z výroby baterií (čl. 3(1)(51)). Kombinovaný recycledContentLithium je povinností pasu dle čl. 8(1); toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentLithium der viser andelen fra batteriproduktionsaffald (art. 3(1)(51)). Den kombinerede recycledContentLithium er pasportforpligtelsen i henhold til art. 8(1); denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentLithium met het aandeel afkomstig uit fabricageafval van batterijen (art. 3(1)(51)). De gecombineerde recycledContentLithium is de paspoortplicht onder art. 8(1); deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentLithium vabatahtlik jaotus, mis näitab akutootmise jäätmetest pärit osa (art. 3(1)(51)). Kombineeritud recycledContentLithium on passi kohustus art. 8(1) alusel; see jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentLithium-erittely, joka osoittaa akkujen valmistusjätteistä peräisin olevan osuuden (art. 3(1)(51)). Yhdistetty recycledContentLithium on art. 8(1) passivelvoite; tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentLithium indiquant la part provenant de déchets de fabrication de batteries (art. 3(1)(51)). La valeur combinée recycledContentLithium est l'obligation passeport selon l'art. 8(1); cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) (non encore adopté) l'exige expressément.",
+        "hu": "A recycledContentLithium önkéntes lebontása, amely mutatja az akkumulátorgyártási hulladékból (art. 3(1)(51)) származó részt. A kombinált recycledContentLithium az art. 8(1) szerinti passportkötelezettség; ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus (még nem fogadták el) kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentLithium ag taispeáint an scair ó dhramhaíl déantúsaíochta cadhnraí (airteagal 3(1)(51)). Is é an recycledContentLithium comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentLithium che indica la quota proveniente da rifiuti della fabbricazione di batterie (art. 3(1)(51)). Il valore combinato recycledContentLithium è l'obbligo del passaporto ai sensi dell'art. 8(1); questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) (non ancora adottato) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentLithium sadalījums, kurā norādīta daļa, kas nākusi no akumulatoru ražošanas atkritumiem (art. 3(1)(51)). Kombinētais recycledContentLithium ir pases pienākums saskaņā ar art. 8(1); šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentLithium paskirstymas, nurodantis iš baterijų gamybos atliekų (str. 3(1)(51)) gaunamą dalį. Bendrasis recycledContentLithium yra paso prievolė pagal str. 8(1); šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentLithium li juri l-parti oriġinata minn skart mill-manifattura ta' batteriji (art. 3(1)(51)). Il-valur kombinat recycledContentLithium huwa l-obbligu tal-passaport skont l-art. 8(1); dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentLithium wskazujący udział pochodzący z odpadów z produkcji baterii (art. 3(1)(51)). Łączny recycledContentLithium jest obowiązkiem paszportowym na podstawie art. 8(1); ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentLithium que mostra a quota proveniente de resíduos da fabricação de baterias (art. 3(1)(51)). O valor combinado recycledContentLithium é a obrigação de passaporte ao abrigo do art. 8(1); esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentLithium care arată cota provenind din deșeuri din fabricarea bateriilor (art. 3(1)(51)). Valoarea combinată recycledContentLithium este obligația pașaportului conform art. 8(1); această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentLithium ukazujúce podiel pochádzajúci z odpadu z výroby batérií (čl. 3(1)(51)). Kombinovaný recycledContentLithium je povinnosťou pasu podľa čl. 8(1); toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentLithium, ki kaže delež, izvirajoč iz odpadkov iz proizvodnje baterij (čl. 3(1)(51)). Skupni recycledContentLithium je potna obveznost po čl. 8(1); ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentLithium que muestra la cuota procedente de residuos de fabricación de baterías (art. 3(1)(51)). El valor combinado recycledContentLithium es la obligación del pasaporte según el art. 8(1); este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentLithium som visar andelen från avfall vid batteritillverkning (art. 3(1)(51)). Den kombinerade recycledContentLithium är passobligationen enligt art. 8(1); denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentLithium που δείχνει το μερίδιο από απόβλητα κατασκευής μπαταριών (άρθρο 3(1)(51)). Το συνδυασμένο recycledContentLithium είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -14159,11 +14424,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -14200,12 +14460,12 @@
       "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Art. 3, 1(51)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation. The Art. 8 minimum shares apply from 18 Aug 2031."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentLithium figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -14220,56 +14480,56 @@
     {
       "key": "postConsumerRecycledNickelShare",
       "label": {
-        "en": "Post-Consumer Recycled Nickel Share",
-        "bg": "Дял на рециклиран никел от следпотребителски отпадъци",
-        "de": "Nachverbraucher-Recyclinganteil — Nickel",
-        "hr": "Postpotrošački udio recikliranog nickela",
-        "cs": "Pospotřebitelský podíl recyklovaného nickelu",
-        "da": "Efterforbruger genanvendt nickel",
-        "nl": "Post-consument gerecycled nickel",
-        "et": "Tarbijajärgne ringlusnickel",
-        "fi": "Jälkikulüttajan kierrätetty nickel",
-        "fr": "Part post-consommateur de nickel recyclé",
-        "hu": "Fogyasztás utáni újrahasznosított nickel",
-        "ga": "Sciar Nickel Athchúrsáilte Iar-Thomhaltóra",
-        "it": "Quota Post-Consumatore di Nickel Riciclato",
-        "lv": "Pēcpatēriņa pārstrādāts nickels",
-        "lt": "Povartotojinis perdirbtas nickels",
-        "mt": "Sehem Nickel Riċiklat Wara l-Konsum",
-        "pl": "Pokonsumencki recykling nickelu",
-        "pt": "Quota Pós-Consumidor de Nickel Reciclado",
-        "ro": "Cotă Post-Consum de Nickel Reciclat",
-        "sk": "Pospotřebitelský podiel recyklovaného nickelu",
-        "sl": "Popotrošniški delež predelanega nickela",
-        "es": "Cuota Post-Consumidor de Nickel Reciclado",
-        "sv": "Efterkonsument återvunnet nickel",
-        "el": "Μερίδιο ανακυκλωμένου νικελίου από απόβλητα μετά την κατανάλωση"
+        "en": "Recycled Content — Nickel (post-consumer waste)",
+        "bg": "Рециклирано съдържание — Никел (отпадъци след потреблението)",
+        "de": "Recyclinganteil — Nickel (Verbraucherabfälle)",
+        "hr": "Sadržaj recikliranih materijala — Nikal (otpad nakon potrošnje)",
+        "cs": "Obsah recyklovaného materiálu — Nikl (spotřebitelský odpad)",
+        "da": "Genanvendt indhold — Nikkel (forbrugsaffald)",
+        "nl": "Gerecyclede inhoud — Nikkel (afval na consumptie)",
+        "et": "Ringlusmaterjal — nikkel (tarbimisjärgsed jäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Nikkeli (kulutusjäte)",
+        "fr": "Teneur en nickel recyclé (déchets post-consommation)",
+        "hu": "Újrahasznosított tartalom — nikkel (fogyasztói hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Nicil (dramhaíl iarthomhaltóra)",
+        "it": "Contenuto Riciclato — Nichel (rifiuti post-consumo)",
+        "lv": "Pārstrādāts saturs — Niķelis (pēcpatēriņa atkritumi)",
+        "lt": "Perdirbto turinio — Nikelis (po vartojimo susidariusios atliekos)",
+        "mt": "Kontenut Riċiklat — Niklu (skart ta' wara l-konsum)",
+        "pl": "Zawartość recyklingowana — Nikiel (odpady pokonsumenckie)",
+        "pt": "Conteúdo Reciclado — Níquel (resíduos pós-consumidor)",
+        "ro": "Conținut Reciclat — Nichel (deșeuri postconsum)",
+        "sk": "Recyklovaný obsah — nikel (spotrebiteľský odpad)",
+        "sl": "Reciklirana vsebina – nikelj (popotrošniški odpadki)",
+        "es": "Contenido Reciclado — Níquel (residuos posconsumo)",
+        "sv": "Återvunnet innehål — nickel (konsumtionsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Νικέλιο (μετακαταναλωτικά απόβλητα)"
       },
       "description": {
-        "en": "Percentage of Nickel from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentNickel figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на никел от рециклирани отпадъци от следпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentNickel, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Nickel aus nachverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentNickel, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak nickel iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento nickel z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af nickel fra post-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage nickel uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Nickel protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Nickeln osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de nickel issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
-        "hu": "A post-consumer újrahasznosított hulladékból származó nickel százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán nickel ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di nickel da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
-        "lv": "Nickel procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Nickel procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' nickel minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent nickel z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de nickel proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de nickel din deșeuri reciclate post-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel nickel z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek nickel iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de nickel de residuos reciclados post-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel nickel från post-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο νικελίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentNickel showing the share sourced from post-consumer recycled waste. The combined recycledContentNickel figure is the Art. 8(1) passport obligation; Art. 8(2) minimum shares are set against the combined share, not the post-consumer component alone. This split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentNickel, показваща дела от рециклирани следпотребителски отпадъци. Общата стойност на recycledContentNickel е задължението за паспорта съгласно чл. 8(1); минималните дялове по чл. 8(2) са определени спрямо общия дял, а не само спрямо следпотребителския компонент. Тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentNickel mit Angabe des aus nachverbraucherlichem Recyclingabfall stammenden Anteils. Die kombinierte Angabe recycledContentNickel ist die Passportpflicht nach Art. 8(1); die Mindestanteile nach Art. 8(2) beziehen sich auf den kombinierten Anteil, nicht allein auf die Nachverbraucher-Komponente. Diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentNickel koji prikazuje udio iz post-consumer recikliranog otpada. Kombinirani recycledContentNickel je obveza putovnice prema čl. 8(1); minimalni udjeli iz čl. 8(2) odnose se na kombinirani udio, ne samo na post-consumer komponentu. Ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentNickel udávající podíl z post-consumer recyklovaného odpadu. Kombinovaný recycledContentNickel je povinností pasu dle čl. 8(1); minimální podíly dle čl. 8(2) se vztahují na kombinovaný podíl, nikoli jen na post-consumer složku. Toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentNickel der viser andelen fra post-consumer genanvendt affald. Den kombinerede recycledContentNickel er pasportforpligtelsen i henhold til art. 8(1); minimumsandelene i henhold til art. 8(2) er fastsat i forhold til den kombinerede andel, ikke kun post-consumer-komponenten. Denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentNickel met het aandeel uit post-consumer gerecycled afval. De gecombineerde recycledContentNickel is de paspoortplicht onder art. 8(1); de minimumandelen onder art. 8(2) gelden voor het gecombineerde aandeel, niet alleen voor de post-consumer component. Deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentNickel vabatahtlik jaotus, mis näitab post-consumer ringlusjäätmetest pärit osa. Kombineeritud recycledContentNickel on passi kohustus art. 8(1) alusel; art. 8(2) miinimumosad on seatud kombineeritud osa suhtes, mitte ainult post-consumer komponendi suhtes. See jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentNickel-erittely, joka osoittaa post-consumer kierrätysjätteistä peräisin olevan osuuden. Yhdistetty recycledContentNickel on art. 8(1) passivelvoite; art. 8(2) vähimmäisosuudet asetetaan yhteenlasketun osuuden suhteen, ei pelkästään post-consumer-komponentin suhteen. Tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentNickel indiquant la part provenant de déchets recyclés post-consommateur. La valeur combinée recycledContentNickel est l'obligation passeport selon l'art. 8(1); les parts minimales de l'art. 8(2) sont fixées par rapport à la part combinée, et non à la seule composante post-consommateur. Cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) l'exige expressément.",
+        "hu": "A recycledContentNickel önkéntes lebontása, amely mutatja a post-consumer újrahasznosított hulladékból származó részt. A kombinált recycledContentNickel az art. 8(1) szerinti passportkötelezettség; az art. 8(2) szerinti minimumhányadok a kombinált hányaddal szemben vannak meghatározva, nem csak a post-consumer komponenssel. Ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentNickel ag taispeáint an scair ó dhramhaíl athchúrsáilte iar-tomhaltóra. Is é an recycledContentNickel comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); tá na híoschodanna de airteagal 8(2) socraithe i gcoinne an chodáin chomhcheangailte, ní an comhpháirt iar-tomhaltóra amháin. Ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentNickel che indica la quota proveniente da rifiuti riciclati post-consumatore. Il valore combinato recycledContentNickel è l'obbligo del passaporto ai sensi dell'art. 8(1); le quote minime dell'art. 8(2) sono fissate rispetto alla quota combinata, non alla sola componente post-consumatore. Questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentNickel sadalījums, kurā norādīta daļa no post-consumer pārstrādātajiem atkritumiem. Kombinētais recycledContentNickel ir pases pienākums saskaņā ar art. 8(1); art. 8(2) minimālās daļas ir noteiktas attiecībā pret kombinēto daļu, nevis tikai pret post-consumer komponentu. Šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentNickel paskirstymas, nurodantis iš post-consumer perdirbtų atliekų gaunamą dalį. Bendrasis recycledContentNickel yra paso prievolė pagal str. 8(1); str. 8(2) minimalios dalys nustatomos bendrosios dalies atžvilgiu, o ne tik post-consumer komponento. Šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentNickel li juri l-parti mill-iskart riċiklat post-konsum. Il-valur kombinat recycledContentNickel huwa l-obbligu tal-passaport skont l-art. 8(1); is-sehmijiet minimi tal-art. 8(2) huma stabbiliti kontra s-sehem kombinat, mhux il-komponent post-konsum biss. Dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentNickel wskazujący udział z post-consumer recyklowanych odpadów. Łączny recycledContentNickel jest obowiązkiem paszportowym na podstawie art. 8(1); minimalne udziały z art. 8(2) są określone względem łącznego udziału, a nie tylko składowej post-consumer. Ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentNickel que mostra a quota proveniente de resíduos reciclados pós-consumidor. O valor combinado recycledContentNickel é a obrigação de passaporte ao abrigo do art. 8(1); as quotas mínimas do art. 8(2) são fixadas em relação à quota combinada, não apenas à componente pós-consumidor. Esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentNickel care arată cota provenind din deșeuri reciclate post-consum. Valoarea combinată recycledContentNickel este obligația pașaportului conform art. 8(1); cotele minime ale art. 8(2) sunt stabilite față de cota combinată, nu numai față de componenta post-consum. Această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentNickel ukazujúce podiel z post-consumer recyklovaného odpadu. Kombinovaný recycledContentNickel je povinnosťou pasu podľa čl. 8(1); minimálne podiely podľa čl. 8(2) sú stanovené voči kombinovanému podielu, nie len voči post-consumer zložke. Toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentNickel, ki kaže delež iz post-consumer recikliranih odpadkov. Skupni recycledContentNickel je potna obveznost po čl. 8(1); minimalni deleži po čl. 8(2) so določeni glede na skupni delež, ne le glede na post-consumer komponento. Ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentNickel que muestra la cuota procedente de residuos reciclados post-consumidor. El valor combinado recycledContentNickel es la obligación del pasaporte según el art. 8(1); las cuotas mínimas del art. 8(2) se fijan respecto a la cuota combinada, no solo respecto al componente post-consumidor. Este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentNickel som visar andelen från post-consumer återvunnet avfall. Den kombinerade recycledContentNickel är passobligationen enligt art. 8(1); minimumandelarna enligt art. 8(2) fastställs mot den kombinerade andelen, inte enbart mot post-consumer-komponenten. Denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentNickel που δείχνει το μερίδιο από ανακυκλωμένα απόβλητα μετά την κατανάλωση. Το συνδυασμένο recycledContentNickel είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· τα ελάχιστα μερίδια του άρθρου 8(2) καθορίζονται σε σχέση με το συνδυασμένο μερίδιο, όχι μόνο με τη μετα-κατανάλωση συνιστώσα. Αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -14278,11 +14538,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -14319,12 +14574,12 @@
       "sortOrder": 109,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; post-consumer recyclate is the share the Art. 8 targets are written against, applying from 18 Aug 2031."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentNickel figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -14339,56 +14594,56 @@
     {
       "key": "postConsumerRecycledCobaltShare",
       "label": {
-        "en": "Post-Consumer Recycled Cobalt Share",
-        "bg": "Дял на рециклиран кобалт от следпотребителски отпадъци",
-        "de": "Nachverbraucher-Recyclinganteil — Cobalt",
-        "hr": "Postpotrošački udio recikliranog cobalta",
-        "cs": "Pospotřebitelský podíl recyklovaného cobaltu",
-        "da": "Efterforbruger genanvendt cobalt",
-        "nl": "Post-consument gerecycled cobalt",
-        "et": "Tarbijajärgne ringluscobalt",
-        "fi": "Jälkikulüttajan kierrätetty cobalt",
-        "fr": "Part post-consommateur de cobalt recyclé",
-        "hu": "Fogyasztás utáni újrahasznosított cobalt",
-        "ga": "Sciar Cobalt Athchúrsáilte Iar-Thomhaltóra",
-        "it": "Quota Post-Consumatore di Cobalt Riciclato",
-        "lv": "Pēcpatēriņa pārstrādāts cobalts",
-        "lt": "Povartotojinis perdirbtas cobalts",
-        "mt": "Sehem Cobalt Riċiklat Wara l-Konsum",
-        "pl": "Pokonsumencki recykling cobaltu",
-        "pt": "Quota Pós-Consumidor de Cobalt Reciclado",
-        "ro": "Cotă Post-Consum de Cobalt Reciclat",
-        "sk": "Pospotřebitelský podiel recyklovaného cobaltu",
-        "sl": "Popotrošniški delež predelanega cobalta",
-        "es": "Cuota Post-Consumidor de Cobalt Reciclado",
-        "sv": "Efterkonsument återvunnet cobalt",
-        "el": "Μερίδιο ανακυκλωμένου κοβαλτίου από απόβλητα μετά την κατανάλωση"
+        "en": "Recycled Content — Cobalt (post-consumer waste)",
+        "bg": "Рециклирано съдържание — Кобалт (отпадъци след потреблението)",
+        "de": "Recyclinganteil — Kobalt (Verbraucherabfälle)",
+        "hr": "Sadržaj recikliranih materijala — Kobalt (otpad nakon potrošnje)",
+        "cs": "Obsah recyklovaného materiálu — Kobalt (spotřebitelský odpad)",
+        "da": "Genanvendt indhold — Kobalt (forbrugsaffald)",
+        "nl": "Gerecyclede inhoud — Kobalt (afval na consumptie)",
+        "et": "Ringlusmaterjal — koobalt (tarbimisjärgsed jäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Koboltti (kulutusjäte)",
+        "fr": "Teneur en cobalt recyclé (déchets post-consommation)",
+        "hu": "Újrahasznosított tartalom — kobalt (fogyasztói hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Cobalt (dramhaíl iarthomhaltóra)",
+        "it": "Contenuto Riciclato — Cobalto (rifiuti post-consumo)",
+        "lv": "Pārstrādāts saturs — Kobalts (pēcpatēriņa atkritumi)",
+        "lt": "Perdirbto turinio — Kobaltas (po vartojimo susidariusios atliekos)",
+        "mt": "Kontenut Riċiklat — Kobaltu (skart ta' wara l-konsum)",
+        "pl": "Zawartość recyklingowana — Kobalt (odpady pokonsumenckie)",
+        "pt": "Conteúdo Reciclado — Cobalto (resíduos pós-consumidor)",
+        "ro": "Conținut Reciclat — Cobalt (deșeuri postconsum)",
+        "sk": "Recyklovaný obsah — kobalt (spotrebiteľský odpad)",
+        "sl": "Reciklirana vsebina – kobalt (popotrošniški odpadki)",
+        "es": "Contenido Reciclado — Cobalto (residuos posconsumo)",
+        "sv": "Återvunnet innehål — kobolt (konsumtionsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Κοβάλτιο (μετακαταναλωτικά απόβλητα)"
       },
       "description": {
-        "en": "Percentage of Cobalt from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentCobalt figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на кобалт от рециклирани отпадъци от следпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentCobalt, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Kobalt aus nachverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentCobalt, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak cobalt iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento cobalt z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af cobalt fra post-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage cobalt uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Cobalt protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Cobaltn osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de cobalt issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
-        "hu": "A post-consumer újrahasznosított hulladékból származó cobalt százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán cobalt ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di cobalt da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
-        "lv": "Cobalt procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Cobalt procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' cobalt minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent cobalt z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de cobalt proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de cobalt din deșeuri reciclate post-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel cobalt z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek cobalt iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de cobalt de residuos reciclados post-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel cobalt från post-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο κοβαλτίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentCobalt showing the share sourced from post-consumer recycled waste. The combined recycledContentCobalt figure is the Art. 8(1) passport obligation; Art. 8(2) minimum shares are set against the combined share, not the post-consumer component alone. This split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentCobalt, показваща дела от рециклирани следпотребителски отпадъци. Общата стойност на recycledContentCobalt е задължението за паспорта съгласно чл. 8(1); минималните дялове по чл. 8(2) са определени спрямо общия дял, а не само спрямо следпотребителския компонент. Тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentCobalt mit Angabe des aus nachverbraucherlichem Recyclingabfall stammenden Anteils. Die kombinierte Angabe recycledContentCobalt ist die Passportpflicht nach Art. 8(1); die Mindestanteile nach Art. 8(2) beziehen sich auf den kombinierten Anteil, nicht allein auf die Nachverbraucher-Komponente. Diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentCobalt koji prikazuje udio iz post-consumer recikliranog otpada. Kombinirani recycledContentCobalt je obveza putovnice prema čl. 8(1); minimalni udjeli iz čl. 8(2) odnose se na kombinirani udio, ne samo na post-consumer komponentu. Ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentCobalt udávající podíl z post-consumer recyklovaného odpadu. Kombinovaný recycledContentCobalt je povinností pasu dle čl. 8(1); minimální podíly dle čl. 8(2) se vztahují na kombinovaný podíl, nikoli jen na post-consumer složku. Toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentCobalt der viser andelen fra post-consumer genanvendt affald. Den kombinerede recycledContentCobalt er pasportforpligtelsen i henhold til art. 8(1); minimumsandelene i henhold til art. 8(2) er fastsat i forhold til den kombinerede andel, ikke kun post-consumer-komponenten. Denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentCobalt met het aandeel uit post-consumer gerecycled afval. De gecombineerde recycledContentCobalt is de paspoortplicht onder art. 8(1); de minimumandelen onder art. 8(2) gelden voor het gecombineerde aandeel, niet alleen voor de post-consumer component. Deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentCobalt vabatahtlik jaotus, mis näitab post-consumer ringlusjäätmetest pärit osa. Kombineeritud recycledContentCobalt on passi kohustus art. 8(1) alusel; art. 8(2) miinimumosad on seatud kombineeritud osa suhtes, mitte ainult post-consumer komponendi suhtes. See jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentCobalt-erittely, joka osoittaa post-consumer kierrätysjätteistä peräisin olevan osuuden. Yhdistetty recycledContentCobalt on art. 8(1) passivelvoite; art. 8(2) vähimmäisosuudet asetetaan yhteenlasketun osuuden suhteen, ei pelkästään post-consumer-komponentin suhteen. Tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentCobalt indiquant la part provenant de déchets recyclés post-consommateur. La valeur combinée recycledContentCobalt est l'obligation passeport selon l'art. 8(1); les parts minimales de l'art. 8(2) sont fixées par rapport à la part combinée, et non à la seule composante post-consommateur. Cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) l'exige expressément.",
+        "hu": "A recycledContentCobalt önkéntes lebontása, amely mutatja a post-consumer újrahasznosított hulladékból származó részt. A kombinált recycledContentCobalt az art. 8(1) szerinti passportkötelezettség; az art. 8(2) szerinti minimumhányadok a kombinált hányaddal szemben vannak meghatározva, nem csak a post-consumer komponenssel. Ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentCobalt ag taispeáint an scair ó dhramhaíl athchúrsáilte iar-tomhaltóra. Is é an recycledContentCobalt comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); tá na híoschodanna de airteagal 8(2) socraithe i gcoinne an chodáin chomhcheangailte, ní an comhpháirt iar-tomhaltóra amháin. Ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentCobalt che indica la quota proveniente da rifiuti riciclati post-consumatore. Il valore combinato recycledContentCobalt è l'obbligo del passaporto ai sensi dell'art. 8(1); le quote minime dell'art. 8(2) sono fissate rispetto alla quota combinata, non alla sola componente post-consumatore. Questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentCobalt sadalījums, kurā norādīta daļa no post-consumer pārstrādātajiem atkritumiem. Kombinētais recycledContentCobalt ir pases pienākums saskaņā ar art. 8(1); art. 8(2) minimālās daļas ir noteiktas attiecībā pret kombinēto daļu, nevis tikai pret post-consumer komponentu. Šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentCobalt paskirstymas, nurodantis iš post-consumer perdirbtų atliekų gaunamą dalį. Bendrasis recycledContentCobalt yra paso prievolė pagal str. 8(1); str. 8(2) minimalios dalys nustatomos bendrosios dalies atžvilgiu, o ne tik post-consumer komponento. Šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentCobalt li juri l-parti mill-iskart riċiklat post-konsum. Il-valur kombinat recycledContentCobalt huwa l-obbligu tal-passaport skont l-art. 8(1); is-sehmijiet minimi tal-art. 8(2) huma stabbiliti kontra s-sehem kombinat, mhux il-komponent post-konsum biss. Dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentCobalt wskazujący udział z post-consumer recyklowanych odpadów. Łączny recycledContentCobalt jest obowiązkiem paszportowym na podstawie art. 8(1); minimalne udziały z art. 8(2) są określone względem łącznego udziału, a nie tylko składowej post-consumer. Ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentCobalt que mostra a quota proveniente de resíduos reciclados pós-consumidor. O valor combinado recycledContentCobalt é a obrigação de passaporte ao abrigo do art. 8(1); as quotas mínimas do art. 8(2) são fixadas em relação à quota combinada, não apenas à componente pós-consumidor. Esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentCobalt care arată cota provenind din deșeuri reciclate post-consum. Valoarea combinată recycledContentCobalt este obligația pașaportului conform art. 8(1); cotele minime ale art. 8(2) sunt stabilite față de cota combinată, nu numai față de componenta post-consum. Această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentCobalt ukazujúce podiel z post-consumer recyklovaného odpadu. Kombinovaný recycledContentCobalt je povinnosťou pasu podľa čl. 8(1); minimálne podiely podľa čl. 8(2) sú stanovené voči kombinovanému podielu, nie len voči post-consumer zložke. Toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentCobalt, ki kaže delež iz post-consumer recikliranih odpadkov. Skupni recycledContentCobalt je potna obveznost po čl. 8(1); minimalni deleži po čl. 8(2) so določeni glede na skupni delež, ne le glede na post-consumer komponento. Ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentCobalt que muestra la cuota procedente de residuos reciclados post-consumidor. El valor combinado recycledContentCobalt es la obligación del pasaporte según el art. 8(1); las cuotas mínimas del art. 8(2) se fijan respecto a la cuota combinada, no solo respecto al componente post-consumidor. Este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentCobalt som visar andelen från post-consumer återvunnet avfall. Den kombinerade recycledContentCobalt är passobligationen enligt art. 8(1); minimumandelarna enligt art. 8(2) fastställs mot den kombinerade andelen, inte enbart mot post-consumer-komponenten. Denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentCobalt που δείχνει το μερίδιο από ανακυκλωμένα απόβλητα μετά την κατανάλωση. Το συνδυασμένο recycledContentCobalt είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· τα ελάχιστα μερίδια του άρθρου 8(2) καθορίζονται σε σχέση με το συνδυασμένο μερίδιο, όχι μόνο με τη μετα-κατανάλωση συνιστώσα. Αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -14397,11 +14652,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -14438,12 +14688,12 @@
       "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; the Art. 8 minimum shares apply from 18 Aug 2031."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentCobalt figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -14458,56 +14708,56 @@
     {
       "key": "postConsumerRecycledLithiumShare",
       "label": {
-        "en": "Post-Consumer Recycled Lithium Share",
-        "bg": "Дял на рециклиран литий от следпотребителски отпадъци",
-        "de": "Nachverbraucher-Recyclinganteil — Lithium",
-        "hr": "Postpotrošački udio recikliranog lithiuma",
-        "cs": "Pospotřebitelský podíl recyklovaného lithiumu",
-        "da": "Efterforbruger genanvendt lithium",
-        "nl": "Post-consument gerecycled lithium",
-        "et": "Tarbijajärgne ringluslithium",
-        "fi": "Jälkikulüttajan kierrätetty lithium",
-        "fr": "Part post-consommateur de lithium recyclé",
-        "hu": "Fogyasztás utáni újrahasznosított lithium",
-        "ga": "Sciar Lithium Athchúrsáilte Iar-Thomhaltóra",
-        "it": "Quota Post-Consumatore di Lithium Riciclato",
-        "lv": "Pēcpatēriņa pārstrādāts lithiums",
-        "lt": "Povartotojinis perdirbtas lithiums",
-        "mt": "Sehem Lithium Riċiklat Wara l-Konsum",
-        "pl": "Pokonsumencki recykling lithiumu",
-        "pt": "Quota Pós-Consumidor de Lithium Reciclado",
-        "ro": "Cotă Post-Consum de Lithium Reciclat",
-        "sk": "Pospotřebitelský podiel recyklovaného lithiumu",
-        "sl": "Popotrošniški delež predelanega lithiuma",
-        "es": "Cuota Post-Consumidor de Lithium Reciclado",
-        "sv": "Efterkonsument återvunnet lithium",
-        "el": "Μερίδιο ανακυκλωμένου λιθίου από απόβλητα μετά την κατανάλωση"
+        "en": "Recycled Content — Lithium (post-consumer waste)",
+        "bg": "Рециклирано съдържание — Литий (отпадъци след потреблението)",
+        "de": "Recyclinganteil — Lithium (Verbraucherabfälle)",
+        "hr": "Sadržaj recikliranih materijala — Litij (otpad nakon potrošnje)",
+        "cs": "Obsah recyklovaného materiálu — Lithium (spotřebitelský odpad)",
+        "da": "Genanvendt indhold — Lithium (forbrugsaffald)",
+        "nl": "Gerecyclede inhoud — Lithium (afval na consumptie)",
+        "et": "Ringlusmaterjal — liitiumi (tarbimisjärgsed jäätmed)",
+        "fi": "Kierrätetyn sisällön osuus — Litium (kulutusjäte)",
+        "fr": "Teneur en lithium recyclé (déchets post-consommation)",
+        "hu": "Újrahasznosított tartalom — lítium (fogyasztói hulladék)",
+        "ga": "Inneachar Athchúrsáilte — Litiam (dramhaíl iarthomhaltóra)",
+        "it": "Contenuto Riciclato — Litio (rifiuti post-consumo)",
+        "lv": "Pārstrādāts saturs — Ļitijs (pēcpatēriņa atkritumi)",
+        "lt": "Perdirbto turinio — Litis (po vartojimo susidariusios atliekos)",
+        "mt": "Kontenut Riċiklat — Litju (skart ta' wara l-konsum)",
+        "pl": "Zawartość recyklingowana — Lit (odpady pokonsumenckie)",
+        "pt": "Conteúdo Reciclado — Lítio (resíduos pós-consumidor)",
+        "ro": "Conținut Reciclat — Litiu (deșeuri postconsum)",
+        "sk": "Recyklovaný obsah — lítium (spotrebiteľský odpad)",
+        "sl": "Reciklirana vsebina – litij (popotrošniški odpadki)",
+        "es": "Contenido Reciclado — Litio (residuos posconsumo)",
+        "sv": "Återvunnet innehål — litium (konsumtionsavfall)",
+        "el": "Ανακυκλωμένο περιεχόμενο — Λίθιο (μετακαταναλωτικά απόβλητα)"
       },
       "description": {
-        "en": "Percentage of Lithium from post-consumer recycled waste in the battery's active materials. Complements the combined recycledContentLithium figure by splitting it into waste-origin streams per Annex XIII 1(e).",
-        "bg": "Процент на литий от рециклирани отпадъци от следпотребителски стадий в активните материали на батерията. Допълва общата стойност на recycledContentLithium, като я разделя на потоци по произход на отпадъка съгласно приложение XIII 1(д).",
-        "de": "Anteil an Lithium aus nachverbrauchlichem Recyclingabfall in den Aktivmaterialien der Batterie in Prozent. Ergänzt den kombinierten Wert recycledContentLithium, indem er ihn gemäß Anhang XIII 1(e) in Abfallherkunftsströme aufteilt.",
-        "hr": "Postotak lithium iz post-consumer recikliranih otpada u aktivnim materijalima baterije.",
-        "cs": "Procento lithium z post-consumer recyklovaného odpadu v aktivních materiálech baterie.",
-        "da": "Procentdel af lithium fra post-consumer genanvendt affald i batteriets aktive materialer.",
-        "nl": "Percentage lithium uit post-consumer gerecycled afval in de actieve materialen van de batterij.",
-        "et": "Lithium protsent post-consumer ringlusjäätmest akupatareide aktiivsetes materjalides.",
-        "fi": "Lithiumn osuusprosentti post-consumer kierrätysjätteistä akun aktiivisissa materiaaleissa.",
-        "fr": "Pourcentage de lithium issu de déchets recyclés post-consumer dans les matières actives de la batterie.",
-        "hu": "A post-consumer újrahasznosított hulladékból származó lithium százalékos aránya az akkumulátor aktív anyagaiban.",
-        "ga": "Céatadán lithium ó dhramhaíl athchúrsáilte post-consumer in ábhair ghníomhacha na cadhnra.",
-        "it": "Percentuale di lithium da rifiuti riciclati post-consumer nei materiali attivi della batteria.",
-        "lv": "Lithium procents no post-consumer pārstrādātiem atkritumiem akumulatora aktīvajos materiālos.",
-        "lt": "Lithium procentas iš post-consumer perdirbtų atliekų akumuliatoriaus aktyviose medžiagose.",
-        "mt": "Perċentwal ta' lithium minn skart riċiklat post-consumer fil-materjali attivi tal-batterija.",
-        "pl": "Procent lithium z odpadów recyklingowanych post-consumer w aktywnych materiałach baterii.",
-        "pt": "Percentagem de lithium proveniente de resíduos reciclados post-consumer nos materiais ativos da bateria.",
-        "ro": "Procentul de lithium din deșeuri reciclate post-consumer în materialele active ale bateriei.",
-        "sk": "Percentuálny podiel lithium z post-consumer recyklovaného odpadu v aktívnych materiáloch batérie.",
-        "sl": "Odstotek lithium iz post-consumer recikliranega odpadka v aktivnih materialih baterije.",
-        "es": "Porcentaje de lithium de residuos reciclados post-consumer en los materiales activos de la batería.",
-        "sv": "Procentandel lithium från post-consumer återvunnet avfall i batteriets aktiva material.",
-        "el": "Το μερίδιο λιθίου που ανακυκλώνεται από απόβλητα μετά την κατανάλωση στα ενεργά υλικά της μπαταρίας."
+        "en": "Voluntary breakdown of recycledContentLithium showing the share sourced from post-consumer recycled waste. The combined recycledContentLithium figure is the Art. 8(1) passport obligation; Art. 8(2) minimum shares are set against the combined share, not the post-consumer component alone. This split does not become binding unless the Art. 8(1) delegated act (not yet adopted) explicitly requires it.",
+        "bg": "Доброволна разбивка на recycledContentLithium, показваща дела от рециклирани следпотребителски отпадъци. Общата стойност на recycledContentLithium е задължението за паспорта съгласно чл. 8(1); минималните дялове по чл. 8(2) са определени спрямо общия дял, а не само спрямо следпотребителския компонент. Тази разбивка не е задължителна, освен ако делегираният акт по чл. 8(1) изрично не го изисква.",
+        "de": "Freiwillige Aufschlüsselung von recycledContentLithium mit Angabe des aus nachverbraucherlichem Recyclingabfall stammenden Anteils. Die kombinierte Angabe recycledContentLithium ist die Passportpflicht nach Art. 8(1); die Mindestanteile nach Art. 8(2) beziehen sich auf den kombinierten Anteil, nicht allein auf die Nachverbraucher-Komponente. Diese Aufteilung wird erst verbindlich, wenn der delegierte Rechtsakt nach Art. 8(1) dies ausdrücklich verlangt.",
+        "hr": "Dobrovoljni raščlanak recycledContentLithium koji prikazuje udio iz post-consumer recikliranog otpada. Kombinirani recycledContentLithium je obveza putovnice prema čl. 8(1); minimalni udjeli iz čl. 8(2) odnose se na kombinirani udio, ne samo na post-consumer komponentu. Ovaj raščlanak nije obvezujući osim ako to ne zahtijeva delegirani akt prema čl. 8(1).",
+        "cs": "Dobrovolné rozdělení recycledContentLithium udávající podíl z post-consumer recyklovaného odpadu. Kombinovaný recycledContentLithium je povinností pasu dle čl. 8(1); minimální podíly dle čl. 8(2) se vztahují na kombinovaný podíl, nikoli jen na post-consumer složku. Toto rozdělení není závazné, pokud to nevyžaduje delegovaný akt dle čl. 8(1).",
+        "da": "Frivillig opdeling af recycledContentLithium der viser andelen fra post-consumer genanvendt affald. Den kombinerede recycledContentLithium er pasportforpligtelsen i henhold til art. 8(1); minimumsandelene i henhold til art. 8(2) er fastsat i forhold til den kombinerede andel, ikke kun post-consumer-komponenten. Denne opdeling er ikke bindende medmindre den delegerede retsakt i henhold til art. 8(1) udtrykkelig kræver det.",
+        "nl": "Vrijwillige uitsplitsing van recycledContentLithium met het aandeel uit post-consumer gerecycled afval. De gecombineerde recycledContentLithium is de paspoortplicht onder art. 8(1); de minimumandelen onder art. 8(2) gelden voor het gecombineerde aandeel, niet alleen voor de post-consumer component. Deze uitsplitsing wordt pas bindend als de gedelegeerde handeling onder art. 8(1) dit uitdrukkelijk vereist.",
+        "et": "RecycledContentLithium vabatahtlik jaotus, mis näitab post-consumer ringlusjäätmetest pärit osa. Kombineeritud recycledContentLithium on passi kohustus art. 8(1) alusel; art. 8(2) miinimumosad on seatud kombineeritud osa suhtes, mitte ainult post-consumer komponendi suhtes. See jaotus ei ole kohustuslik, kui art. 8(1) delegeeritud akt seda sõnaselgelt ei nõua.",
+        "fi": "Vapaaehtoinen recycledContentLithium-erittely, joka osoittaa post-consumer kierrätysjätteistä peräisin olevan osuuden. Yhdistetty recycledContentLithium on art. 8(1) passivelvoite; art. 8(2) vähimmäisosuudet asetetaan yhteenlasketun osuuden suhteen, ei pelkästään post-consumer-komponentin suhteen. Tämä erittely ei ole sitova, ellei art. 8(1) delegoitu säädös sitä nimenomaisesti edellytä.",
+        "fr": "Décomposition volontaire de recycledContentLithium indiquant la part provenant de déchets recyclés post-consommateur. La valeur combinée recycledContentLithium est l'obligation passeport selon l'art. 8(1); les parts minimales de l'art. 8(2) sont fixées par rapport à la part combinée, et non à la seule composante post-consommateur. Cette décomposition ne devient contraignante que si l'acte délégué pris au titre de l'art. 8(1) l'exige expressément.",
+        "hu": "A recycledContentLithium önkéntes lebontása, amely mutatja a post-consumer újrahasznosított hulladékból származó részt. A kombinált recycledContentLithium az art. 8(1) szerinti passportkötelezettség; az art. 8(2) szerinti minimumhányadok a kombinált hányaddal szemben vannak meghatározva, nem csak a post-consumer komponenssel. Ez a lebontás nem válik kötelezővé, hacsak az art. 8(1) szerinti felhatalmazáson alapuló jogi aktus kifejezetten nem írja elő.",
+        "ga": "Miondealú deonach de recycledContentLithium ag taispeáint an scair ó dhramhaíl athchúrsáilte iar-tomhaltóra. Is é an recycledContentLithium comhcheangailte an oibleagáid phasanna faoi airteagal 8(1); tá na híoschodanna de airteagal 8(2) socraithe i gcoinne an chodáin chomhcheangailte, ní an comhpháirt iar-tomhaltóra amháin. Ní éiríonn an miondealú seo ceangailteach mura n-éilíonn an gníomh tarmligthe faoi airteagal 8(1) é go sonrach.",
+        "it": "Scomposizione volontaria di recycledContentLithium che indica la quota proveniente da rifiuti riciclati post-consumatore. Il valore combinato recycledContentLithium è l'obbligo del passaporto ai sensi dell'art. 8(1); le quote minime dell'art. 8(2) sono fissate rispetto alla quota combinata, non alla sola componente post-consumatore. Questa scomposizione non diventa vincolante a meno che l'atto delegato ai sensi dell'art. 8(1) non lo richieda esplicitamente.",
+        "lv": "Brīvprātīga recycledContentLithium sadalījums, kurā norādīta daļa no post-consumer pārstrādātajiem atkritumiem. Kombinētais recycledContentLithium ir pases pienākums saskaņā ar art. 8(1); art. 8(2) minimālās daļas ir noteiktas attiecībā pret kombinēto daļu, nevis tikai pret post-consumer komponentu. Šis sadalījums nekļūst saistošs, ja vien art. 8(1) deleģētais akts to skaidri neparedz.",
+        "lt": "Savanoriškas recycledContentLithium paskirstymas, nurodantis iš post-consumer perdirbtų atliekų gaunamą dalį. Bendrasis recycledContentLithium yra paso prievolė pagal str. 8(1); str. 8(2) minimalios dalys nustatomos bendrosios dalies atžvilgiu, o ne tik post-consumer komponento. Šis paskirstymas netampa privalomas, nebent str. 8(1) deleguotasis aktas tai aiškiai reikalauja.",
+        "mt": "Tqassim volontarju ta' recycledContentLithium li juri l-parti mill-iskart riċiklat post-konsum. Il-valur kombinat recycledContentLithium huwa l-obbligu tal-passaport skont l-art. 8(1); is-sehmijiet minimi tal-art. 8(2) huma stabbiliti kontra s-sehem kombinat, mhux il-komponent post-konsum biss. Dan it-tqassim ma jsirx vinkolanti sakemm l-att delegat skont l-art. 8(1) ma jitolbux b'mod espliċitu.",
+        "pl": "Dobrowolny podział recycledContentLithium wskazujący udział z post-consumer recyklowanych odpadów. Łączny recycledContentLithium jest obowiązkiem paszportowym na podstawie art. 8(1); minimalne udziały z art. 8(2) są określone względem łącznego udziału, a nie tylko składowej post-consumer. Ten podział nie staje się wiążący, chyba że akt delegowany na podstawie art. 8(1) wyraźnie tego wymaga.",
+        "pt": "Desagregação voluntária de recycledContentLithium que mostra a quota proveniente de resíduos reciclados pós-consumidor. O valor combinado recycledContentLithium é a obrigação de passaporte ao abrigo do art. 8(1); as quotas mínimas do art. 8(2) são fixadas em relação à quota combinada, não apenas à componente pós-consumidor. Esta desagregação só se torna vinculativa se o ato delegado ao abrigo do art. 8(1) o exigir explicitamente.",
+        "ro": "Defalcare voluntară a recycledContentLithium care arată cota provenind din deșeuri reciclate post-consum. Valoarea combinată recycledContentLithium este obligația pașaportului conform art. 8(1); cotele minime ale art. 8(2) sunt stabilite față de cota combinată, nu numai față de componenta post-consum. Această defalcare nu devine obligatorie dacă actul delegat conform art. 8(1) nu o impune în mod explicit.",
+        "sk": "Dobrovoľné rozdelenie recycledContentLithium ukazujúce podiel z post-consumer recyklovaného odpadu. Kombinovaný recycledContentLithium je povinnosťou pasu podľa čl. 8(1); minimálne podiely podľa čl. 8(2) sú stanovené voči kombinovanému podielu, nie len voči post-consumer zložke. Toto rozdelenie sa nestane záväzným, pokiaľ to delegovaný akt podľa čl. 8(1) výslovne nevyžaduje.",
+        "sl": "Prostovoljna razčlenitev recycledContentLithium, ki kaže delež iz post-consumer recikliranih odpadkov. Skupni recycledContentLithium je potna obveznost po čl. 8(1); minimalni deleži po čl. 8(2) so določeni glede na skupni delež, ne le glede na post-consumer komponento. Ta razčlenitev ne postane zavezujoča, razen če to izrecno zahteva delegirani akt po čl. 8(1).",
+        "es": "Desglose voluntario de recycledContentLithium que muestra la cuota procedente de residuos reciclados post-consumidor. El valor combinado recycledContentLithium es la obligación del pasaporte según el art. 8(1); las cuotas mínimas del art. 8(2) se fijan respecto a la cuota combinada, no solo respecto al componente post-consumidor. Este desglose no se vuelve vinculante a menos que el acto delegado según el art. 8(1) lo exija explícitamente.",
+        "sv": "Frivillig uppdelning av recycledContentLithium som visar andelen från post-consumer återvunnet avfall. Den kombinerade recycledContentLithium är passobligationen enligt art. 8(1); minimumandelarna enligt art. 8(2) fastställs mot den kombinerade andelen, inte enbart mot post-consumer-komponenten. Denna uppdelning blir inte bindande om inte den delegerade akten enligt art. 8(1) uttryckligen kräver det.",
+        "el": "Εθελοντική ανάλυση του recycledContentLithium που δείχνει το μερίδιο από ανακυκλωμένα απόβλητα μετά την κατανάλωση. Το συνδυασμένο recycledContentLithium είναι η υποχρέωση διαβατηρίου βάσει άρθρου 8(1)· τα ελάχιστα μερίδια του άρθρου 8(2) καθορίζονται σε σχέση με το συνδυασμένο μερίδιο, όχι μόνο με τη μετα-κατανάλωση συνιστώσα. Αυτή η ανάλυση δεν καθίσταται δεσμευτική εκτός εάν η κατ' εξουσιοδότηση πράξη βάσει άρθρου 8(1) το απαιτεί ρητά."
       },
       "dataType": "number",
       "unit": "%",
@@ -14516,11 +14766,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "conditional"
-        },
         "min": 0,
         "max": 100,
         "minLength": null,
@@ -14557,12 +14802,12 @@
       "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1)",
+        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
         "annex": "Annex XIII (1e)",
         "instrument": "32023R1542",
         "provision": "Annex XIII (1e)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content, sourced from the Art. 8(1) recycled-content documentation; the Art. 8 minimum shares apply from 18 Aug 2031."
+        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentLithium figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -14950,7 +15195,7 @@
         "el": "URL συμβόλων καδμίου και μολύβδου"
       },
       "description": {
-        "en": "URI linking to the artwork or documentation for the cadmium and lead chemical symbols required to be marked on the battery per Art. 13(5). Complements the cadmiumSymbol and leadSymbol boolean fields, which only indicate presence.",
+        "en": "URI linking to the artwork or documentation for the cadmium and/or lead chemical symbols required to be marked on qualifying batteries per Annex XIII 1(q) (as corrected by 32023R1542R(13)) with Art. 13(4) and (5). Applicable only to batteries containing more than 0.002 % cadmium or more than 0.004 % lead by weight. The symbol is printed on the battery; this URL is a GEFEG data-model format choice to link the artwork, not a substitute for the marking itself.",
         "bg": "URI препратка към графичните материали или документацията за химичните символи на кадмий и олово, изискващи се за маркиране на батерията съгласно чл. 13(5). Допълва булевите полета cadmiumSymbol и leadSymbol, които само указват наличие.",
         "de": "URI, der auf das Bildmaterial oder die Dokumentation für die auf der Batterie gemäß Art. 13(5) vorgeschriebenen chemischen Symbole für Cadmium und Blei verweist. Ergänzt die booleschen Felder cadmiumSymbol und leadSymbol, die nur das Vorhandensein anzeigen.",
         "hr": "URI koji upućuje na oznake za kemijske simbole kadmija i olova prema čl. 13(5).",
@@ -14983,9 +15228,9 @@
       "validation": {
         "required": false,
         "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "required"
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
         },
         "min": null,
         "max": null,
@@ -15023,12 +15268,12 @@
       "sortOrder": 115,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 13(5)",
-        "annex": "Annex XIII (1s)",
+        "article": "Battery Regulation Annex XIII 1(q), as corrected by 32023R1542R(13)",
+        "annex": "Annex XIII (1q)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1s)",
+        "provision": "Annex XIII 1(q) as corrected by 32023R1542R(13) together with Art. 13(5)",
         "kind": "legislation",
-        "description": "Annex XIII 1(s) carries the Art. 74(1)(a)-(f) waste-management information into the publicly accessible passport, and 1(q) cross-references the Art. 13(4) and (5) marking requirements. The Cd/Pb symbols themselves are discharged by printing them on the battery; a link documents that marking rather than replacing it."
+        "description": "Annex XIII 1(q), as corrected by 32023R1542R(13) (corrigendum C4, changing '1s' to '1q'), cross-references the Art. 13(4) and (5) marking requirements into the passport. The obligation is CONDITIONAL: Art. 13(5) applies only to batteries containing more than 0.002 % cadmium or more than 0.004 % lead by weight. The symbol itself is discharged by printing it physically on the battery; this URI field is a GEFEG data-model choice to link the artwork or documentation — it does not replace the marking obligation."
       },
       "aiHints": {
         "alternateNames": [
@@ -15069,7 +15314,7 @@
         "el": "URL αριθμών μερών εξαρτημάτων"
       },
       "description": {
-        "en": "URI linking to a list of part numbers for components and spare parts of the battery per Annex XIII 2(b). Complements the componentPartNumbers array field, which holds the structured part-number list; this URI field satisfies the GEFEG format:uri requirement.",
+        "en": "URI linking to a list of part numbers for components and spare parts of the battery. Annex XIII 2(b) mandates the data (carried by the componentPartNumbers array); this URI field is a GEFEG format:uri choice, not an independent legal obligation. Accessible only to persons with a legitimate interest.",
         "bg": "URI препратка към списък с каталожни номера на компоненти и резервни части на батерията съгласно приложение XIII 2(б). Допълва масивното поле componentPartNumbers, което съдържа структурирания списък с каталожни номера; това поле URI удовлетворява изискването за format:uri на GEFEG.",
         "de": "URI, der auf eine Liste von Teilenummern für Komponenten und Ersatzteile der Batterie gemäß Anhang XIII 2(b) verweist. Ergänzt das Array-Feld componentPartNumbers, das die strukturierte Teilenummernliste enthält; dieses URI-Feld erfüllt die GEFEG-Anforderung format:uri.",
         "hr": "URI koji upućuje na popis broja dijelova za komponente i rezervne dijelove baterije prema Aneksu XIII 2(b).",
@@ -15101,11 +15346,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "required"
-        },
         "min": null,
         "max": null,
         "minLength": null,
@@ -15147,7 +15387,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
         "kind": "legislation",
-        "description": "Annex XIII 2(b) — part numbers for components and contact details of sources for replacement spares — is passport content accessible only to persons with a legitimate interest and the Commission, not to the public."
+        "description": "Annex XIII 2(b) requires the component part-number data (carried by the componentPartNumbers array field), not a URI per se. This URL field is a GEFEG data-model format choice (format:uri requirement) — it is not an independent legal duty. Omit if the componentPartNumbers array already carries the structured part-number list."
       },
       "aiHints": {
         "alternateNames": [
@@ -15188,7 +15428,7 @@
         "el": "URL πηγών ανταλλακτικών"
       },
       "description": {
-        "en": "URI linking to information on sources where spare parts can be obtained for the battery per Annex XIII 2(b). When present, takes precedence over the URL derived from the sparePartsInformation.catalogUrl field in the GEFEG export.",
+        "en": "URI linking to information on sources where spare parts can be obtained for the battery. Annex XIII 2(b) mandates the data (carried by the sparePartsInformation array); this URI field is a GEFEG format:uri choice, not an independent legal obligation. Accessible only to persons with a legitimate interest.",
         "bg": "URI препратка към информация за източници, от които могат да се получат резервни части за батерията съгласно приложение XIII 2(б). При наличие има предимство пред URL адреса, производен от полето sparePartsInformation.catalogUrl при GEFEG експорта.",
         "de": "URI, der auf Informationen zu Quellen verweist, bei denen Ersatzteile für die Batterie gemäß Anhang XIII 2(b) bezogen werden können. Hat bei Vorhandensein Vorrang vor der aus dem Feld sparePartsInformation.catalogUrl abgeleiteten URL im GEFEG-Export.",
         "hr": "URI koji upućuje na izvore rezervnih dijelova za bateriju prema Aneksu XIII 2(b).",
@@ -15220,11 +15460,6 @@
       "enumOptions": null,
       "validation": {
         "required": false,
-        "requiredBy": {
-          "EV": "required",
-          "LMT": "required",
-          "industrial_gt_2kwh": "required"
-        },
         "min": null,
         "max": null,
         "minLength": null,
@@ -15266,7 +15501,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII (2b)",
         "kind": "legislation",
-        "description": "Annex XIII 2(b) covers contact details of sources for replacement spares, accessible only to persons with a legitimate interest and the Commission."
+        "description": "Annex XIII 2(b) requires the spare-parts source data (carried by the sparePartsInformation array field), not a URI per se. This URL field is a GEFEG data-model format choice (format:uri requirement) — it is not an independent legal duty. Omit if the sparePartsInformation array already carries the structured source details."
       },
       "aiHints": {
         "alternateNames": [
@@ -15396,9 +15631,245 @@
         "expectedFormat": "Full URL to accidents/incidents information",
         "extractionPriority": 5
       }
+    },
+    {
+      "key": "remainingPowerCapabilityAt80Soc",
+      "label": {
+        "en": "Remaining Power Capability at 80% SoC",
+        "bg": "Остатъчна мощностна способност при 80% СОЗ",
+        "de": "Verbleibende Leistungsfähigkeit bei 80 % SoC",
+        "hr": "Preostala mogućnost snage pri 80% SoC",
+        "cs": "Zbývající výkonová schopnost při 80 % SoC",
+        "da": "Resterende effektkapacitet ved 80 % SoC",
+        "nl": "Resterende vermogenscapaciteit bij 80 % SoC",
+        "et": "Järelejäänud võimsuse võimekus 80% laetuse juures",
+        "fi": "Jäljellä oleva tehotoimintakyky 80 % SoC:lla",
+        "fr": "Capacité de puissance restante à 80 % d’état de charge",
+        "hu": "Fennmaradó teljesítménylehetőség 80%-os SoC-nál",
+        "ga": "Inneachar Cumhachta Fhanúil ag 80% SoC",
+        "it": "Capacità di Potenza Rimanente all’ 80% SoC",
+        "lv": "Atlikusi jaudas spēja pie 80% SoC",
+        "lt": "Likutinė galios galimybė esant 80% įkrovos",
+        "mt": "Kapaċità ta’ Enerġija li Jifdal fl-80% SoC",
+        "pl": "Pozostała zdolność mocy przy 80% SoC",
+        "pt": "Capacidade de Potência Restante a 80% SoC",
+        "ro": "Capacitate de Putere Rămasă la 80% SoC",
+        "sk": "Zvyšná výkonová kapacita pri 80% SoC",
+        "sl": "Preostala zmogljivost moči pri 80% SoC",
+        "es": "Capacidad de Potencia Restante al 80% SoC",
+        "sv": "Återstående effektkapacitet vid 80% SoC",
+        "el": "Εναπομένουσα ικανότητα ισχύος στο 80% SoC"
+      },
+      "description": {
+        "en": "Power capability of the battery at 80% state of charge in watts, as reported by the battery management system in service. Together with the 20% SoC figure forms the RemainingPowerCapability GEFEG composite (Annex XIII 4(b)).",
+        "bg": "Мощностен капацитет на батерията при 80% степен на заряд (вата), отчетен от системата за управление на батерията в реална работа. Заедно с показателя за 20% SoC формира съставния показател RemainingPowerCapability GEFEG (приложение XIII 4(б)).",
+        "de": "Leistungsfähigkeit der Batterie bei 80 % Ladezustand (Watt), wie vom Batteriemanagementsystem im Betrieb ausgelesen. Zusammen mit dem 20-%-SoC-Wert bildet er das RemainingPowerCapability-GEFEG-Verbundfeld (Anhang XIII 4(b)).",
+        "hr": "Preostala mogućnost snage baterije pri 80% stanja napunjenosti (Wati).",
+        "cs": "Zbývající výkonová schopnost baterie při 80 % stavu nabití (Watty).",
+        "da": "Batteriets resterende effektkapacitet ved 80 % ladetilstand (Watt).",
+        "nl": "Resterende vermogenscapaciteit van de batterij bij 80 % laadtoestand (Watt).",
+        "et": "Aku järelejäänud võimsuse võimekus 80% laadimisseisundis (Vatid).",
+        "fi": "Akun jäljellä oleva tehotoimintakyky 80 % lataustilassa (Wattia).",
+        "fr": "Capacité de puissance restante de la batterie à 80 % d’état de charge (Watts).",
+        "hu": "Az akkumulátor fennmaradó teljesítménylehetősége 80%-os SoC-nál (Watt).",
+        "ga": "Inneachar cumhachta fhanúil an chaidhnra ag 80% staid luchtú (Watts).",
+        "it": "Capacità di potenza rimanente della batteria all’ 80% dello stato di carica (Watt).",
+        "lv": "Akumulatora atlikušā jaudas spēja pie 80% uzlādes stāvokļa (Vati).",
+        "lt": "Akumuliatoriaus likutinė galios galimybė 80% įkrovos būsenoje (Vatai).",
+        "mt": "Kapaċità ta’ enerġija li jifdal tal-batterija fl-80% tal-istat tal-bżieq (Watts).",
+        "pl": "Pozostała zdolność mocy baterii przy 80% stanu naładowania (Waty).",
+        "pt": "Capacidade de potência restante da bateria a 80% do estado de carga (Watts).",
+        "ro": "Capacitate de putere rămasă a bateriei la 80% stare de încărcare (Wați).",
+        "sk": "Zvyšná výkonová kapacita batérie pri 80% stave nabitia (Wattov).",
+        "sl": "Preostala zmogljivost moči baterije pri 80% stanju polnjenja (Wati).",
+        "es": "Capacidad de potencia restante de la batería al 80% del estado de carga (Vatios).",
+        "sv": "Batteriets återstående effektkapacitet vid 80% laddningstillstånd (Watt).",
+        "el": "Εναπομένουσα ικανότητα ισχύος της μπαταρίας στο 80% κατάστασης φόρτισης (Watt)."
+      },
+      "dataType": "number",
+      "unit": "W",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 120,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Battery Regulation Art. 77",
+        "annex": "Annex XIII",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(b)",
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data accessible only to persons with a legitimate interest, never to the public. Binds from 18 Feb 2027. RemainingPowerCapability (point 4(b)) requires the SoC-split pair (at 80% and at 20% state of charge); the GEFEG composite is emitted only when both fields are present."
+      },
+      "aiHints": {
+        "alternateNames": [
+          "remaining power at 80% SoC",
+          "power capability 80 SoC remaining"
+        ],
+        "expectedFormat": "Numeric value in Watts",
+        "extractionPriority": 5
+      }
+    },
+    {
+      "key": "remainingPowerCapabilityAt20Soc",
+      "label": {
+        "en": "Remaining Power Capability at 20% SoC",
+        "bg": "Остатъчна мощностна способност при 20% СОЗ",
+        "de": "Verbleibende Leistungsfähigkeit bei 20 % SoC",
+        "hr": "Preostala mogućnost snage pri 20% SoC",
+        "cs": "Zbývající výkonová schopnost při 20 % SoC",
+        "da": "Resterende effektkapacitet ved 20 % SoC",
+        "nl": "Resterende vermogenscapaciteit bij 20 % SoC",
+        "et": "Järelejäänud võimsuse võimekus 20% laetuse juures",
+        "fi": "Jäljellä oleva tehotoimintakyky 20 % SoC:lla",
+        "fr": "Capacité de puissance restante à 20 % d’état de charge",
+        "hu": "Fennmaradó teljesítménylehetőség 20%-os SoC-nál",
+        "ga": "Inneachar Cumhachta Fhanúil ag 20% SoC",
+        "it": "Capacità di Potenza Rimanente all’ 20% SoC",
+        "lv": "Atlikusi jaudas spēja pie 20% SoC",
+        "lt": "Likutinė galios galimybė esant 20% įkrovos",
+        "mt": "Kapaċità ta’ Enerġija li Jifdal fl-20% SoC",
+        "pl": "Pozostała zdolność mocy przy 20% SoC",
+        "pt": "Capacidade de Potência Restante a 20% SoC",
+        "ro": "Capacitate de Putere Rămasă la 20% SoC",
+        "sk": "Zvyšná výkonová kapacita pri 20% SoC",
+        "sl": "Preostala zmogljivost moči pri 20% SoC",
+        "es": "Capacidad de Potencia Restante al 20% SoC",
+        "sv": "Återstående effektkapacitet vid 20% SoC",
+        "el": "Εναπομένουσα ικανότητα ισχύος στο 20% SoC"
+      },
+      "description": {
+        "en": "Power capability of the battery at 20% state of charge in watts, as reported by the battery management system in service. Together with the 80% SoC figure forms the RemainingPowerCapability GEFEG composite (Annex XIII 4(b)).",
+        "bg": "Мощностен капацитет на батерията при 20% степен на заряд (вата), отчетен от системата за управление на батерията в реална работа. Заедно с показателя за 80% SoC формира съставния показател RemainingPowerCapability GEFEG (приложение XIII 4(б)).",
+        "de": "Leistungsfähigkeit der Batterie bei 20 % Ladezustand (Watt), wie vom Batteriemanagementsystem im Betrieb ausgelesen. Zusammen mit dem 80-%-SoC-Wert bildet er das RemainingPowerCapability-GEFEG-Verbundfeld (Anhang XIII 4(b)).",
+        "hr": "Preostala mogućnost snage baterije pri 20% stanja napunjenosti (Wati).",
+        "cs": "Zbývající výkonová schopnost baterie při 20 % stavu nabití (Watty).",
+        "da": "Batteriets resterende effektkapacitet ved 20 % ladetilstand (Watt).",
+        "nl": "Resterende vermogenscapaciteit van de batterij bij 20 % laadtoestand (Watt).",
+        "et": "Aku järelejäänud võimsuse võimekus 20% laadimisseisundis (Vatid).",
+        "fi": "Akun jäljellä oleva tehotoimintakyky 20 % lataustilassa (Wattia).",
+        "fr": "Capacité de puissance restante de la batterie à 20 % d’état de charge (Watts).",
+        "hu": "Az akkumulátor fennmaradó teljesítménylehetősége 20%-os SoC-nál (Watt).",
+        "ga": "Inneachar cumhachta fhanúil an chaidhnra ag 20% staid luchtú (Watts).",
+        "it": "Capacità di potenza rimanente della batteria all’ 20% dello stato di carica (Watt).",
+        "lv": "Akumulatora atlikušā jaudas spēja pie 20% uzlādes stāvokļa (Vati).",
+        "lt": "Akumuliatoriaus likutinė galios galimybė 20% įkrovos būsenoje (Vatai).",
+        "mt": "Kapaċità ta’ enerġija li jifdal tal-batterija fl-20% tal-istat tal-bżieq (Watts).",
+        "pl": "Pozostała zdolność mocy baterii przy 20% stanu naładowania (Waty).",
+        "pt": "Capacidade de potência restante da bateria a 20% do estado de carga (Watts).",
+        "ro": "Capacitate de putere rămasă a bateriei la 20% stare de încărcare (Wați).",
+        "sk": "Zvyšná výkonová kapacita batérie pri 20% stave nabitia (Wattov).",
+        "sl": "Preostala zmogljivost moči baterije pri 20% stanju polnjenja (Wati).",
+        "es": "Capacidad de potencia restante de la batería al 20% del estado de carga (Vatios).",
+        "sv": "Batteriets återstående effektkapacitet vid 20% laddningstillstånd (Watt).",
+        "el": "Εναπομένουσα ικανότητα ισχύος της μπαταρίας στο 20% κατάστασης φόρτισης (Watt)."
+      },
+      "dataType": "number",
+      "unit": "W",
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": null,
+      "validation": {
+        "required": false,
+        "min": 0,
+        "max": null,
+        "minLength": null,
+        "maxLength": null,
+        "pattern": null,
+        "requiredBy": {
+          "EV": "notApplicable",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
+      },
+      "category": "performance",
+      "categoryLabel": {
+        "en": "Performance & Durability",
+        "bg": "Производителност и дълготрайност",
+        "de": "Leistung & Haltbarkeit",
+        "hr": "Učinkovitost i trajnost",
+        "cs": "Výkonnost a trvanlivost",
+        "da": "Ydeevne og holdbarhed",
+        "nl": "Prestaties en duurzaamheid",
+        "et": "Jõudlus ja vastupidavus",
+        "fi": "Suorituskyky ja kestävyys",
+        "fr": "Performance et durabilité",
+        "hu": "Teljesítmény és tartósság",
+        "ga": "Feidhmíochta agus Teannas",
+        "it": "Prestazioni e Durabilità",
+        "lv": "Veiktspēja un ilgtspēja",
+        "lt": "Veikimas ir trumalunas",
+        "mt": "Prestazzjoni u Durabilità",
+        "pl": "Wydajność i trwałość",
+        "pt": "Desempenho e Durabilidade",
+        "ro": "Performanță și Durabilitate",
+        "sk": "Výkonnosť a trvanlivosť",
+        "sl": "Zmogljivost in trajnost",
+        "es": "Desempeño y Durabilidad",
+        "sv": "Prestanda och hållbarhet",
+        "el": "Επιδόσεις και ανθεκτικότητα"
+      },
+      "sortOrder": 121,
+      "defaultAccessLevel": "restricted",
+      "regulationRef": {
+        "article": "Battery Regulation Art. 77",
+        "annex": "Annex XIII",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 4(b)",
+        "kind": "legislation",
+        "description": "Annex XIII point 4 is per-battery data accessible only to persons with a legitimate interest, never to the public. Binds from 18 Feb 2027. RemainingPowerCapability (point 4(b)) requires the SoC-split pair (at 80% and at 20% state of charge); the GEFEG composite is emitted only when both fields are present."
+      },
+      "aiHints": {
+        "alternateNames": [
+          "remaining power at 20% SoC",
+          "power capability 20 SoC remaining"
+        ],
+        "expectedFormat": "Numeric value in Watts",
+        "extractionPriority": 5
+      }
     }
   ],
-  "fieldCount": 120,
+  "fieldCount": 122,
   "requiredFieldCount": 38,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [

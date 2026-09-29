@@ -141,6 +141,23 @@ the citation.
   non-breaking spaces normalised.
 - `known-distinct.json` holds reviewed pairs with the reason each is distinct.
 
+## Verified-against-primary-text coverage
+
+The audit always prints a per-category verified-share summary at the end of its
+output (informational, never a finding):
+
+```
+--- verified-against-primary-text coverage: 55/989 fields (6%)
+    battery              55/122 [#########           ]
+    construction          0/49  [                    ]
+    …
+```
+
+`regulationRef.verifiedAgainstPrimaryText` marks a field whose cited provision was
+read in the official EUR-Lex text. Coverage grows one field at a time, never in bulk
+— reading is the work, not filling the property. See [13]/[16] for the stronger
+evidence tier (`obligations[]` + `quote`).
+
 ## What stays human
 
 Whether a figure or scale matches the law, and whether the cited provision is the

@@ -557,7 +557,9 @@
       "shortName": "Tyre tread depth Directive",
       "title": "Directive 89/459/EEC on the tread depth of tyres of certain categories of motor vehicles",
       "eli": "http://data.europa.eu/eli/dir/1989/459/oj",
-      "createsDpp": false
+      "createsDpp": false,
+      "annexes": [],
+      "annexesVerifiedFrom": "31989L0459"
     },
     "32023R1670": {
       "kind": "legislation",

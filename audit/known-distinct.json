@@ -68,6 +68,18 @@
       "why": "Headline figure vs one of its two state-of-charge points (Annex XIII 1(i)). Whether the headline field should exist at all is part of the open Annex XIII review."
     },
     {
+      "category": "battery",
+      "a": "remainingPowerCapability",
+      "b": "remainingPowerCapabilityAt80Soc",
+      "why": "Aggregate in-service power reading vs the 80% SoC component (Annex XIII 4(b)). GEFEG requires the SoC-split pair; the single headline field is retained so existing passports that hold only the aggregate are not broken."
+    },
+    {
+      "category": "battery",
+      "a": "remainingPowerCapability",
+      "b": "remainingPowerCapabilityAt20Soc",
+      "why": "Aggregate in-service power reading vs the 20% SoC component (Annex XIII 4(b)). GEFEG requires the SoC-split pair; the single headline field is retained so existing passports that hold only the aggregate are not broken."
+    },
+    {
       "category": "construction",
       "a": "gwpTotal",
       "b": "gwpFossil",

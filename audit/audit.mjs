@@ -447,6 +447,31 @@ function audit(dir, label) {
       console.log(`    ${f.cat.padEnd(12)} ${f.key.slice(0, 30).padEnd(32)} ${f.celex}  cites ${f.annex}  (${valid})`);
     }
   }
+
+  // Verified-share report — informational, not a finding. Shows per-category how
+  // many fields carry a verifiedAgainstPrimaryText marker (a human read the cited
+  // provision in official EUR-Lex text). Not counted in `n`; output is always shown
+  // so the growth of coverage is visible in CI logs over time.
+  {
+    const rows = [];
+    let totalVerified = 0, totalFields = 0;
+    for (const [, d] of templates) {
+      const verified = d.fields.filter((f) => (f.regulationRef ?? {}).verifiedAgainstPrimaryText).length;
+      const all = d.fields.length;
+      rows.push({ cat: d.category, verified, all });
+      totalVerified += verified;
+      totalFields += all;
+    }
+    const pct = totalFields ? Math.round((totalVerified / totalFields) * 100) : 0;
+    console.log(`\n--- verified-against-primary-text coverage: ${totalVerified}/${totalFields} fields (${pct}%)`);
+    for (const r of rows.sort((a, b) => a.cat.localeCompare(b.cat))) {
+      const bar = totalFields
+        ? `[${"#".repeat(Math.round((r.verified / r.all) * 20)).padEnd(20)}]`
+        : "";
+      console.log(`    ${r.cat.padEnd(18)} ${String(r.verified).padStart(4)}/${r.all} ${bar}`);
+    }
+  }
+
   if (!n) console.log("    clean");
   return n;
 }

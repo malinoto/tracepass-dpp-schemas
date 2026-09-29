@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-987-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-989-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,14 +39,14 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **987 fields in total. 65 are required by
+Thirteen JSON files, one per product category. **989 fields in total. 65 are required by
 a law that creates a passport; 176 are anticipated under a rule that has not yet been adopted.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 120 | 38 | Regulation (EU) 2023/1542 |
+| `battery` | 122 | 38 | Regulation (EU) 2023/1542 |
 | `construction` | 49 | 0 | CPR (EU) 2024/3110 |
 | `detergents` | 76 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |
@@ -314,6 +314,26 @@ runs it on every push:
   claims. It catches a field required under an act that mandates nothing, an article
   missing from the act it cites, duplicate fields, and one key with two units. See
   [`audit/README.md`](./audit/README.md).
+
+## Recent changes
+
+**1.13.0** (unreleased) — battery template corrections and primary-text verification.
+
+*Legal corrections (Battery Regulation consolidated text 02023R1542-20260813):*
+
+- **Pre-consumer recycled-content fields relabelled.** `preConsumerRecycled{Nickel,Cobalt,Lithium}Share` labels now use the Art. 3(1)(51) official term "battery manufacturing waste" across all 24 EU languages. The field names are unchanged.
+- **Recycled-content split fields made optional.** Art. 8(1) and Annex XIII 1(e) require ONE combined recycled-content figure per metal. The pre-consumer / post-consumer breakdown is voluntary; both split fields lose their `requiredBy` entries. The share becomes binding only if a future Art. 8(1) delegated act mandates the split (not yet adopted).
+- **`cadmiumLeadSymbolsUrl` corrected.** Provision reference fixed from "Annex XIII (1s)" to "Annex XIII (1q)" per corrigendum 32023R1542R(13). `requiredBy` entries changed from `"required"` to `"conditional"` for all three battery categories — Art. 13(5) applies only to batteries with >0.002 % cadmium or >0.004 % lead.
+- **`componentPartNumbersUrl` and `sparePartsSourcesUrl` made optional.** Annex XIII 2(b) mandates the part-number and spare-parts data (carried by the array fields), not a URI format. The URL fields are a GEFEG data-model choice, not an independent legal duty.
+- **A4 description corrections.** `stateOfCertifiedEnergy` (EV-only, Art. 14 + Annex VII), `remainingCapacity`, `evolutionOfSelfDischargeRate` (LMT + stationary storage, not EV), and `initialEnergyRoundTripEfficiency` all carry corrected `regulationRef.article` and `regulationRef.description`.
+- **Per-category required-field counts after corrections:** EV 53, LMT 53, industrial >2 kWh 38 (flat required-field count stays at 38).
+
+*Primary-text verification:*
+
+- **`verifiedAgainstPrimaryText` set on 55 battery fields** read against the consolidated Battery Regulation 02023R1542-20260813. The eight legally-corrected fields listed above are deliberately NOT marked (they required a correction, not a confirmation).
+- **Audit script reports verified-share per category** — informational, not a gate.
+
+Two new battery state-of-health fields added: `remainingPowerCapabilityAt80Soc` (EV-only, Annex XIII 4(b)) and `remainingPowerCapabilityAt20Soc` (EV-only, Annex XIII 4(b)) — see 1.12.x notes.
 
 ## Related
 
