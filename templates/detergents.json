@@ -8074,7 +8074,11 @@
       "defaultValue": null,
       "enumOptions": [],
       "validation": {
-        "required": false
+        "required": false,
+        "requiredBy": {
+          "consumer": "conditional",
+          "industrial_institutional": "conditional"
+        }
       },
       "category": "composition",
       "categoryLabel": {
