@@ -26,7 +26,49 @@
         "XIV",
         "XV"
       ],
-      "annexesVerifiedFrom": "32023R1542"
+      "annexesVerifiedFrom": "32023R1542",
+      "phasedObligations": [
+        {
+          "id": "battery-due-diligence",
+          "topic": "supply-chain due diligence report",
+          "provision": "Art. 48, Art. 52(3); Annex XIII 1(d)",
+          "passportFrom": "2027-08-18",
+          "status": "dated",
+          "note": "Postponed from 18 Aug 2025 by Reg (EU) 2025/1561. Not in the passport at the February 2027 start.",
+          "source": "DG GROW battery data-point guidance v2.0 (15 Aug 2026) DP 19; Commission Battery Passport FAQ (1st ed., Sep 2026) §7.3",
+          "otherDates": [
+            "2025-08-18"
+          ]
+        },
+        {
+          "id": "battery-recycled-content",
+          "topic": "recycled-content shares",
+          "provision": "Art. 8(1); Annex XIII 1(e)",
+          "passportFrom": "2028-08-18",
+          "status": "dated-earliest",
+          "byCategory": {
+            "LMT": "2033-08-18"
+          },
+          "note": "EV, industrial >2 kWh and SLI: 18 Aug 2028 or 24 months after the Art. 8(1) delegated act enters into force, whichever is later (act not adopted). Minimum shares under Art. 8(2) apply from 2031 and 2036.",
+          "source": "Reg (EU) 2023/1542 Art. 8 (consolidated 02023R1542-20260813); guidance v2.0 DP 20-23",
+          "otherDates": [
+            "2031",
+            "2036"
+          ]
+        },
+        {
+          "id": "battery-carbon-footprint",
+          "topic": "carbon footprint declaration, class and label",
+          "provision": "Art. 7; Annex XIII 1(c)",
+          "passportFrom": null,
+          "status": "pending-act",
+          "note": "Applies once the Commission's calculation-method delegated act and format implementing act apply; no date can be stated.",
+          "source": "Guidance v2.0 DP 17-18; Battery Passport FAQ §7.2-7.3",
+          "otherDates": [
+            "2025-02-18"
+          ]
+        }
+      ]
     },
     "32024R1781": {
       "kind": "legislation",

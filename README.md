@@ -105,6 +105,26 @@ management system, or containing Annex X materials. `conditional` means the inst
 its stated gate is met — so a passport legitimately leaves it empty otherwise. Fields with no
 `requiredBy` apply to the whole category.
 
+## Phased obligation dates
+
+A passport's start date (`dppMandatoryFrom` in `instruments.json`) is not the date every
+data group binds. Where parts of an instrument phase in later, the instrument carries
+`phasedObligations`, one entry per data group:
+
+| Key | Meaning |
+|---|---|
+| `id` | Stable identifier, e.g. `battery-due-diligence` |
+| `provision` | The articles and annex points that impose it |
+| `passportFrom` | ISO date the data is required in the passport; `null` when it waits on an act not yet adopted |
+| `status` | `dated`; `dated-earliest` (that date or a later one set by an act); `pending-act` (no date can be stated) |
+| `byCategory` | A different date for one battery category (e.g. LMT recycled content) |
+| `otherDates` | Other dates legitimately tied to the obligation (a postponed original date, later minimum-share steps) |
+| `source` | The primary text or Commission guidance the date comes from, with its edition |
+
+This is the one place those dates are kept. Copy that states them (the TracePass
+marketing site checks every sentence against this registry) and the templates' own
+`anticipated` flags follow it.
+
 ## Standards
 
 [`standards.json`](./standards.json) is a registry of the technical standards a field — or
