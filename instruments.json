@@ -295,6 +295,7 @@
       "title": "Regulation (EU) 2026/405 on detergents and surfactants",
       "eli": "http://data.europa.eu/eli/reg/2026/405/oj",
       "createsDpp": true,
+      "dppProvision": "Art. 21(1)",
       "dppMandatoryFrom": "2029-09-23",
       "note": "Mandates a real DPP with a QR data carrier and a central-registry entry, replacing the EU declaration of conformity. The specific article number is not yet verified against primary text.",
       "annexes": [
