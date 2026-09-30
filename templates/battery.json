@@ -2462,7 +2462,7 @@
         "maxLength": 2048,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "labels_markings",
@@ -3096,7 +3096,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3215,7 +3215,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3333,7 +3333,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3450,7 +3450,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3568,7 +3568,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3890,7 +3890,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -4009,7 +4009,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Carbon footprint declaration format pending the implementing act (DP 17/18). Required when the implementing act is adopted.",
+        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -5387,7 +5387,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5504,7 +5504,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5621,7 +5621,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5738,7 +5738,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027; to be applied in line with Art. 8 and the relevant delegated act (recycled-content calculation/verification methodology, not adopted). Required when that act applies.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -7005,7 +7005,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027 pending the Art. 8 delegated act. Required when those shares become required.",
+        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027. Required with the shares: from 18 August 2028, or 24 months after the Art. 8(1) delegated act enters into force if that is later; LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
