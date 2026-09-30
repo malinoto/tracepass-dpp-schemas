@@ -11892,9 +11892,7 @@
         "maxLength": null,
         "pattern": null,
         "requiredBy": {
-          "EV": "notApplicable",
-          "LMT": "conditional",
-          "industrial_gt_2kwh": "conditional"
+          "EV": "notApplicable"
         }
       },
       "category": "performance",
@@ -11932,7 +11930,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part B(3)",
         "kind": "legislation",
-        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries, so it is conditional on the battery type, not required.",
+        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries. The Commission's data-point guidance (DG GROW, 2nd edition, 15 Aug 2026) lists only the Annex VII Part A items under point 4(b), so this field is optional and never blocks publishing until the Commission lists it.",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -12021,9 +12019,7 @@
         "maxLength": null,
         "pattern": null,
         "requiredBy": {
-          "EV": "notApplicable",
-          "LMT": "conditional",
-          "industrial_gt_2kwh": "conditional"
+          "EV": "notApplicable"
         }
       },
       "category": "performance",
@@ -12061,7 +12057,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part B(2)",
         "kind": "legislation",
-        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries, so it is conditional on the battery type, not required.",
+        "description": "An Annex VII Part B expected-lifetime parameter, carried into the passport by Annex XIII point 4(b) and accessible only to persons with a legitimate interest. Art. 14(1) and Annex VII Part B limit it to stationary battery energy storage systems and LMT batteries. The Commission's data-point guidance (DG GROW, 2nd edition, 15 Aug 2026) lists only the Annex VII Part A items under point 4(b), so this field is optional and never blocks publishing until the Commission lists it.",
         "obligations": [
           {
             "instrument": "32023R1542",
@@ -12264,9 +12260,7 @@
         "maxLength": null,
         "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
         "requiredBy": {
-          "EV": "notApplicable",
-          "LMT": "conditional",
-          "industrial_gt_2kwh": "conditional"
+          "EV": "notApplicable"
         }
       },
       "category": "performance",
@@ -12304,7 +12298,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part B(1)",
         "kind": "legislation",
-        "description": "The date of putting into service is Annex VII Part B data 'where appropriate', for stationary storage and LMT batteries.",
+        "description": "The date of putting into service is Annex VII Part B data 'where appropriate', for stationary storage and LMT batteries. The Commission's data-point guidance (DG GROW, 2nd edition, 15 Aug 2026) lists only the Annex VII Part A items under point 4(b), so this field is optional and never blocks publishing until the Commission lists it.",
         "obligations": [
           {
             "instrument": "32023R1542",

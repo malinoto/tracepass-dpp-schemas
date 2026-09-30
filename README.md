@@ -130,7 +130,10 @@ Batteries Passport – data point by category*, 2nd edition (15 Aug 2026), as
 which data point each publish-blocking field carries. Audit check [21] fails any field that
 is required for a category without a mandatory data point behind it, or conditional
 without a mandatory or certain-cases one. Fields the guidance omits but the primary text
-is read to require are listed under `primaryTextOnly`, with the reason.
+is read to require are listed under `primaryTextOnly`, with the reason. The map is
+empty: the Annex VII Part B lifetime fields (capacity and energy throughput, date of
+putting into service) have no data point, so they follow the Commission's list and
+stay optional.
 
 This is the one place those dates are kept. Copy that states them (the TracePass
 marketing site checks every sentence against this registry) and the templates' own

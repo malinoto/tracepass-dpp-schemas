@@ -399,9 +399,5 @@
       "why": "test report results, Annex XIII 3"
     }
   },
-  "primaryTextOnly": {
-    "capacityThroughput": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(3). The guidance lists only the Part A items under 4(b) (DP 61–66); the KB reads the primary text as putting Part B in the passport for LMT and stationary storage. Open divergence.",
-    "energyThroughput": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(2). As capacityThroughput.",
-    "dateOfServiceEntry": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(1). As capacityThroughput."
-  }
+  "primaryTextOnly": {}
 }
