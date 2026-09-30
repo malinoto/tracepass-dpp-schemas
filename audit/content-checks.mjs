@@ -222,6 +222,29 @@ export function checkAnnexInventory(templates, instruments) {
   return out;
 }
 
+// ── [20] default value on a battery use-data field ────────────────────────────
+// Annex XIII point 4 of Reg (EU) 2023/1542 is data generated while the battery
+// is used: state of health, fade, cycle counts, negative events. Only the
+// battery (its BMS) or the operator can supply it. The platform stores a
+// template default as an approved value when it creates a passport, so a
+// default here publishes a reading nobody took, such as a state of health of
+// 100 on a battery with no BMS. Commission battery FAQ §8.5–8.6: these fields
+// may be empty when the battery is placed on the market. Point 4(c), the
+// battery's status, is exempt: it is declared, not measured, and FAQ §8.5
+// requires it when the battery is placed on the market.
+const USE_DATA = /Annex\s+XIII\s*\(?\s*4\s*\(?\s*[abd]\b/i;
+export function checkUseDataDefaults(templates) {
+  const out = [];
+  for (const [, d] of templates)
+    for (const f of d.fields) {
+      if (f.defaultValue === null || f.defaultValue === undefined) continue;
+      const rr = f.regulationRef ?? {};
+      const cite = [rr.provision, rr.article, rr.annex].filter(Boolean).join(" ");
+      if (USE_DATA.test(cite)) out.push({ id: `${d.category}.${f.key}`, value: JSON.stringify(f.defaultValue), cite });
+    }
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -234,5 +257,6 @@ export function runContentChecks(templates, registry = {}) {
     unitClash: checkCrossTemplateUnits(templates),
     flatUnits: checkFlattenedUnits(templates),
     annexInventory: checkAnnexInventory(templates, registry),
+    useDataDefaults: checkUseDataDefaults(templates),
   };
 }

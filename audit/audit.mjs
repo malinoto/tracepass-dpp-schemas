@@ -336,6 +336,7 @@ function audit(dir, label) {
   findings.unitClash = content.unitClash;
   findings.flatUnits = content.flatUnits;
   findings.annexInventory = content.annexInventory;
+  findings.useDataDefaults = content.useDataDefaults;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -446,6 +447,10 @@ function audit(dir, label) {
         : "act has no numbered annexes";
       console.log(`    ${f.cat.padEnd(12)} ${f.key.slice(0, 30).padEnd(32)} ${f.celex}  cites ${f.annex}  (${valid})`);
     }
+  }
+  if (findings.useDataDefaults?.length) {
+    console.log(`\n[20] default value on a battery use-data field (${findings.useDataDefaults.length}) — Annex XIII point 4 comes from the battery; a default is published as a reading nobody took`);
+    for (const f of findings.useDataDefaults) console.log(`    ${f.id.padEnd(48)} default ${f.value}  (${f.cite})`);
   }
 
   // Verified-share report — informational, not a finding. Shows per-category how

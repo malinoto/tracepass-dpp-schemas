@@ -10,6 +10,7 @@ import { join, dirname } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { checkQuotes } from "./evidence-checks.mjs";
+import { checkUseDataDefaults } from "./content-checks.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const TEMPLATES = join(here, "..", "templates");
@@ -173,4 +174,20 @@ test("[19] a field whose instrument has no annexes key is skipped", () => {
     { key: "espr_field", regulationRef: { instrument: "32024R1781", annex: "Annex I" }, validation: { required: false } },
   ] }]];
   assert.deepEqual(checkAnnexInventory(t, instruments), []);
+});
+
+test("[20] the shipped templates carry no default on a battery use-data field", () =>
+  assert.deepEqual(checkUseDataDefaults(load()), []));
+
+test("[20] a default state of health of 100 is reported", () => {
+  const t = load();
+  field(t, "battery", "stateOfHealth").defaultValue = 100;
+  field(t, "battery", "negativeEvents").defaultValue = [];
+  assert.deepEqual(checkUseDataDefaults(t).map((f) => f.id), ["battery.stateOfHealth", "battery.negativeEvents"]);
+});
+
+test("[20] the declared battery status (point 4(c)) may keep its default", () => {
+  const t = load();
+  assert.equal(field(t, "battery", "batteryStatus").defaultValue, "original");
+  assert.deepEqual(checkUseDataDefaults(t), []);
 });

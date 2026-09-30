@@ -9475,7 +9475,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 80,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -10441,7 +10441,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 100,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -10562,7 +10562,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 100,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -11162,7 +11162,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -11286,7 +11286,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -11410,7 +11410,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -11534,7 +11534,7 @@
       "dataType": "number",
       "unit": "%",
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -11772,7 +11772,7 @@
       "dataType": "number",
       "unit": "cycles",
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -12145,7 +12145,7 @@
       "dataType": "number",
       "unit": null,
       "translatable": false,
-      "defaultValue": 0,
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
@@ -12388,7 +12388,7 @@
       "dataType": "array",
       "unit": null,
       "translatable": false,
-      "defaultValue": [],
+      "defaultValue": null,
       "enumOptions": null,
       "validation": {
         "required": false,
