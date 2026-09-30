@@ -70,8 +70,10 @@ with required fields; construction's passport points are recorded as obligations
 conditional on the delegated act under Reg (EU) 2024/3110 Art. 75(1).
 
 It is not the case that every battery field is required: the template also carries fields that are
-`anticipated` (pending the carbon-footprint and due-diligence acts, and — per the
-Commission's data-points guidance v2.0 — the Article 8 recycled-content act) and
+`anticipated`: data the Commission's data-points guidance v2.0 says is not to be filled or
+displayed at the February 2027 start (carbon footprint, pending its acts; the due-diligence
+report, required from 18 August 2027; recycled-content shares, pending the Article 8 act).
+The dates live in `phasedObligations` (see below). The template also carries
 fields that apply only to some battery sub-categories via `validation.requiredBy`.
 
 **`required` means an instrument in force compels the data.** ESPR (EU) 2024/1781 is a
