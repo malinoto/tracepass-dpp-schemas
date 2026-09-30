@@ -1,0 +1,861 @@
+{
+  "source": "DG GROW, Digital Batteries Passport – data point by category, 2nd edition (15 Aug 2026)",
+  "notes": {
+    "51": "EV/LMT cell 'same as data point 11 (capacity). but now dynamic' normalised to mandatory (DP 11 is mandatory; required to hit the 47/50 totals)",
+    "raw": "Cell text de-wrapped from PDF column extraction (line breaks joined with single spaces); '2' in DP 52 industrial is a footnote marker."
+  },
+  "datapoints": {
+    "1": {
+      "name": "Unique identifier",
+      "provision": "BR Article 77 (3)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "2": {
+      "name": "Identity of who is registering and/or is responsible for the battery passport",
+      "provision": "BR Article 77 (3)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "3": {
+      "name": "Manufacturer name, registered trade name or registered trademark",
+      "provision": "BR Annex VI A (1)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "4": {
+      "name": "Manufacturer postal address, indicating a single contact point",
+      "provision": "BR Annex VI A (1)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "5": {
+      "name": "If available, manufacturer web and email address",
+      "provision": "BR Annex VI A (1)",
+      "EV": "optional",
+      "LMT": "optional",
+      "industrial": "optional",
+      "raw": {
+        "EV": "optional, to be filled if such data is available",
+        "LMT": "optional, to be filled if such data is available",
+        "industrial": "optional, to be filled if such data is available"
+      }
+    },
+    "6": {
+      "name": "Battery category",
+      "provision": "BR Annex VI A (2)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "7": {
+      "name": "Model identification and batch or serial number, or product number or another element allowing their identification",
+      "provision": "BR Annex VI A (2)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "8": {
+      "name": "The place of manufacturer (geographical location of a battery manufacturing plant)",
+      "provision": "BR Annex VI A (3)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "9": {
+      "name": "The date of manufacturing (month and year)",
+      "provision": "BR Annex VI A (4)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "10": {
+      "name": "The weight",
+      "provision": "BR Annex VI A (5)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "11": {
+      "name": "The capacity",
+      "provision": "BR Annex VI A (6)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "12": {
+      "name": "The chemistry",
+      "provision": "BR Annex VI A (7)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "13": {
+      "name": "The hazardous substances present in the battery, other than mercury, cadmium or lead",
+      "provision": "BR Annex VI A (8)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "14": {
+      "name": "Usable extinguishing agent",
+      "provision": "BR Annex VI A (9)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "15": {
+      "name": "Critical raw materials present in the battery in a concentration of more than 0,1 % weight by weight",
+      "provision": "BR Annex VI A (10)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "16": {
+      "name": "The material composition of the battery, including its chemistry, hazardous substances present in the battery, other than mercury, cadmium or lead, and critical raw materials present in the battery",
+      "provision": "BR Annex XIII 1 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed - repetition, same data already required under previous data points",
+        "LMT": "Not to be filled/displayed - repetition, same data already required under previous data points",
+        "industrial": "Not to be filled/displayed - repetition, same data already required under previous data points"
+      }
+    },
+    "17": {
+      "name": "The carbon footprint declaration",
+      "provision": "BR Annex XIII 1 (c)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act",
+        "LMT": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act",
+        "industrial": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act"
+      }
+    },
+    "18": {
+      "name": "The carbon footprint label",
+      "provision": "BR Annex XIII 1 (c)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act",
+        "LMT": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act",
+        "industrial": "Not to be filled/displayed as of February 2027- format still to be specified in the upcoming implementing act"
+      }
+    },
+    "19": {
+      "name": "Information on responsible sourcing as indicated in the report on battery due diligence policy referred to in Article 52(3)",
+      "provision": "BR Annex XIII 1 (d)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- as provided in Article 48(1), required from August 2027",
+        "LMT": "Not to be filled/displayed as of February 2027- as provided in Article 48(1), required from August 2027",
+        "industrial": "Not to be filled/displayed as of February 2027- as provided in Article 48(1), required from August 2027"
+      }
+    },
+    "20": {
+      "name": "Percentage share of cobalt that is present in active materials and that has been recovered from battery manufacturing waste or post-consumer waste",
+      "provision": "BR Annex XIII 1 (e)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "LMT": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "industrial": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act"
+      }
+    },
+    "21": {
+      "name": "Percentage share of lithium that is present in active materials and that has been recovered from battery manufacturing waste or post-consumer waste",
+      "provision": "BR Annex XIII 1 (e)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "LMT": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "industrial": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act"
+      }
+    },
+    "22": {
+      "name": "Percentage share of nickel that is present in active materials and that has been recovered from battery manufacturing waste or post-consumer waste",
+      "provision": "BR Annex XIII 1 (e)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "LMT": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "industrial": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act"
+      }
+    },
+    "23": {
+      "name": "The percentage share of lead that is present in the battery and that has been recovered from waste",
+      "provision": "BR Annex XIII 1 (e)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "LMT": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act",
+        "industrial": "Not to be filled/displayed as of February 2027- to be applied in line with Article 8 and the relevant delegated act"
+      }
+    },
+    "24": {
+      "name": "The share of renewable content",
+      "provision": "BR Annex XIII 1 (f)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "25": {
+      "name": "Rated capacity (in Ah)",
+      "provision": "BR Annex XIII 1 (g)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed - repetition, same data required under data point 11",
+        "LMT": "Not to be filled/displayed - repetition, same data required under data point 11",
+        "industrial": "Not to be filled/displayed - repetition, same data required under data point 11"
+      }
+    },
+    "26": {
+      "name": "Minimal voltage, with temperature range when relevant",
+      "provision": "BR Annex XIII 1 (h)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "27": {
+      "name": "Nominal voltage, with temperature range when relevant",
+      "provision": "BR Annex XIII 1 (h)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "28": {
+      "name": "Maximum voltage, with temperature range when relevant",
+      "provision": "BR Annex XIII 1 (h)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "29": {
+      "name": "Original power capability (in Watts)",
+      "provision": "BR Annex XIII 1 (i)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "30": {
+      "name": "Power limits, with temperature range when relevant",
+      "provision": "BR Annex XIII 1 (i)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "31": {
+      "name": "Expected battery lifetime expressed in cycles",
+      "provision": "BR Annex XIII 1 (j)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "only applicable for some industrial batteries where lifetime can be expressed in cycles"
+      }
+    },
+    "32": {
+      "name": "Reference test used for expected battery lifetime expressed in cycles",
+      "provision": "BR Annex XIII 1 (j)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "only applicable for some industrial batteries where lifetime can be expressed in cycles"
+      }
+    },
+    "33": {
+      "name": "Capacity threshold for exhaustion",
+      "provision": "BR Annex XIII 1 (k)",
+      "EV": "mandatory",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Not to be filled/displayed",
+        "industrial": "Not to be filled/displayed"
+      }
+    },
+    "34": {
+      "name": "Temperature range the battery can withstand when not in use (reference test)",
+      "provision": "BR Annex XIII 1 (l)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "35": {
+      "name": "Period for which the commercial warranty for the calendar life applies",
+      "provision": "BR Annex XIII 1 (m)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable (if commercial warranty envisaged)",
+        "LMT": "if applicable (if commercial warranty envisaged)",
+        "industrial": "if applicable (if commercial warranty envisaged)"
+      }
+    },
+    "36": {
+      "name": "Initial round trip energy efficiency",
+      "provision": "BR Annex XIII 1 (n)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "only applicable for some industrial batteries"
+      }
+    },
+    "37": {
+      "name": "Round trip energy efficiency at 50 % of cycle-life",
+      "provision": "BR Annex XIII 1 (n)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "only applicable for some industrial batteries"
+      }
+    },
+    "38": {
+      "name": "Internal battery cell and pack resistance",
+      "provision": "BR Annex XIII 1 (o)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "39": {
+      "name": "C-rate of relevant cycle-life test",
+      "provision": "BR Annex XIII 1 (p)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "only applicable for some industrial batteries"
+      }
+    },
+    "40": {
+      "name": "The marking requirements laid down in Article 13(4)",
+      "provision": "BR Annex XIII 1 (q)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "41": {
+      "name": "The marking requirements laid down in Article 13(5)",
+      "provision": "BR Annex XIII 1 (q)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "cadmium or lead symbol if applicable",
+        "LMT": "cadmium or lead symbol if applicable",
+        "industrial": "cadmium or lead symbol if applicable"
+      }
+    },
+    "42": {
+      "name": "The EU declaration of conformity referred to in Article 18",
+      "provision": "BR Annex XIII 1 (r)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "43": {
+      "name": "The information regarding the prevention and management of waste batteries laid down in Article 74(1), points (a) to (f).",
+      "provision": "BR Annex XIII 1 (s)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "44": {
+      "name": "Clear, understandable and readable instructions for use in a format that makes it possible to print, download and save them on an electronic device so that the user can access them at all times, in particular during a breakdown of the battery",
+      "provision": "BR Annex XIII 1 (t)",
+      "EV": "not-to-be-filled",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Not to be filled/displayed as of February 2027 - application provisions on hold pending Omnibus adoption",
+        "LMT": "Not to be filled/displayed as of February 2027 - application provisions on hold pending Omnibus adoption",
+        "industrial": "Not to be filled/displayed as of February 2027 - application provisions on hold pending Omnibus adoption"
+      }
+    },
+    "45": {
+      "name": "Detailed composition, including materials used in the cathode, anode and electrolyte",
+      "provision": "BR Annex XIII 2 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "46": {
+      "name": "Part numbers for components",
+      "provision": "BR Annex XIII 2 (b)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "47": {
+      "name": "Contact details of sources for replacement spares",
+      "provision": "BR Annex XIII 2 (b)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "48": {
+      "name": "Dismantling information, including at least: - exploded diagrams of the battery system/pack showing the location of battery cells, - disassembly sequences, - type and number of fastening techniques to be unlocked, - tools required for disassembly, - warnings if risk of damaging parts exist, - amount of cells used and layout",
+      "provision": "BR Annex XIII 2 (c)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "49": {
+      "name": "Safety measures",
+      "provision": "BR Annex XIII 2 (d)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "50": {
+      "name": "Results of test reports proving compliance with the requirements laid down in this Regulation or any delegated or implementing act adopted pursuant to this Regulation",
+      "provision": "BR Annex XIII 3",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "51": {
+      "name": "Rated capacity (in Ah)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "same as data point 11 (capacity). but now dynamic",
+        "LMT": "same as data point 11 (capacity). but now dynamic",
+        "industrial": "if applicable, but now dynamic"
+      }
+    },
+    "52": {
+      "name": "Capacity fade (in %)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable2"
+      }
+    },
+    "53": {
+      "name": "Power (in W)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "54": {
+      "name": "Power fade (in %)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "55": {
+      "name": "Internal resistance (in Ω)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "56": {
+      "name": "Internal resistance increase (in %)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "57": {
+      "name": "Where applicable, energy round trip efficiency (in %)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    },
+    "58": {
+      "name": "Where applicable, energy round trip efficiency fade (in %)",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    },
+    "59": {
+      "name": "The expected life-time of the battery under the reference conditions for which it has been designed, in terms of cycles, except for non-cycle applications",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "60": {
+      "name": "The expected life-time of the battery under the reference conditions for which it has been designed, in terms of calendar years",
+      "provision": "BR Annex XIII 4 (a)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "61": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: state of certified energy (SOCE)",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "mandatory",
+      "LMT": "not-to-be-filled",
+      "industrial": "not-to-be-filled",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Not to be filled/displayed",
+        "industrial": "Not to be filled/displayed"
+      }
+    },
+    "62": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: remaining capacity",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Not to be filled/displayed",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "63": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: where possible, the remaining power capability",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Not to be filled/displayed",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "64": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: where possible, the remaining round trip efficiency",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Not to be filled/displayed",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "65": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: [where possible,] the evolution of self-discharging rates",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Not to be filled/displayed",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "66": {
+      "name": "Information on the state of health of the battery pursuant to Article 14: where possible, the ohmic resistance",
+      "provision": "BR Annex XIII 4 (b)",
+      "EV": "not-to-be-filled",
+      "LMT": "mandatory",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "Not to be filled/displayed",
+        "LMT": "Mandatory",
+        "industrial": "if applicable"
+      }
+    },
+    "67": {
+      "name": "Information on the status of the battery, defined as ‘original’, ‘repurposed’, ‘re-used’, ‘remanufactured’ or ‘waste’;",
+      "provision": "BR Annex XIII 4 (c)",
+      "EV": "mandatory",
+      "LMT": "mandatory",
+      "industrial": "mandatory",
+      "raw": {
+        "EV": "Mandatory",
+        "LMT": "Mandatory",
+        "industrial": "Mandatory"
+      }
+    },
+    "68": {
+      "name": "The number of charging and discharging cycles",
+      "provision": "BR Annex XIII 4 (d)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    },
+    "69": {
+      "name": "Negative events, such as accidents",
+      "provision": "BR Annex XIII 4 (d)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    },
+    "70": {
+      "name": "Periodically recorded information on the operating environmental conditions, including temperature",
+      "provision": "BR Annex XIII 4 (d)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    },
+    "71": {
+      "name": "Periodically recorded information on the state of charge",
+      "provision": "BR Annex XIII 4 (d)",
+      "EV": "certain-cases",
+      "LMT": "certain-cases",
+      "industrial": "certain-cases",
+      "raw": {
+        "EV": "if applicable",
+        "LMT": "if applicable",
+        "industrial": "if applicable"
+      }
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "_note": "Which official data point(s) of the DG GROW battery-passport guidance (battery-datapoints-v2.0.json) each battery.json field carries. Audit check [21] reads it: a field required for a category must carry a data point that is mandatory there; a conditional one, a data point that is mandatory or applies in certain cases. Only fields that can block publishing (required or conditional in some category) need an entry.",
+  "fields": {
+    "accidentsInformationUrl": {
+      "dp": [
+        69
+      ],
+      "why": "negative events such as accidents"
+    },
+    "anodeActiveMaterials": {
+      "dp": [
+        45
+      ],
+      "why": "anode part of detailed composition, Annex XIII 2(a)"
+    },
+    "batteryCategory": {
+      "dp": [
+        6
+      ],
+      "why": "battery category, Annex VI A(2)"
+    },
+    "batteryChemistry": {
+      "dp": [
+        12
+      ],
+      "why": "chemistry, Annex VI A(7)"
+    },
+    "batteryModelIdentifier": {
+      "dp": [
+        7
+      ],
+      "why": "model identification, Annex VI A(2)"
+    },
+    "batteryStatus": {
+      "dp": [
+        67
+      ],
+      "why": "battery status, Annex XIII 4(c)"
+    },
+    "batteryUniqueIdentifier": {
+      "dp": [
+        1
+      ],
+      "why": "unique identifier, Art. 77(3)"
+    },
+    "batteryWeight": {
+      "dp": [
+        10
+      ],
+      "why": "weight, Annex VI A(5)"
+    },
+    "cRateRelevantCycleLifeTest": {
+      "dp": [
+        39
+      ],
+      "why": "C-rate of cycle-life test, Annex XIII 1(p)"
+    },
+    "cadmiumLeadSymbolsUrl": {
+      "dp": [
+        41
+      ],
+      "why": "cadmium/lead symbol, if applicable"
+    },
+    "capacityFade": {
+      "dp": [
+        52
+      ],
+      "why": "capacity fade, Annex XIII 4(a)"
+    },
+    "capacityThresholdForExhaustion": {
+      "dp": [
+        33
+      ],
+      "why": "capacity threshold for exhaustion, Annex XIII 1(k)"
+    },
+    "cathodeActiveMaterials": {
+      "dp": [
+        45
+      ],
+      "why": "cathode part of detailed composition, Annex XIII 2(a)"
+    },
+    "componentPartNumbers": {
+      "dp": [
+        46
+      ],
+      "why": "component part numbers, Annex XIII 2(b)"
+    },
+    "criticalRawMaterials": {
+      "dp": [
+        15
+      ],
+      "why": "CRM >0.1% w/w, Annex VI A(10)"
+    },
+    "currentInternalResistancePack": {
+      "dp": [
+        66
+      ],
+      "why": "ohmic resistance"
+    },
+    "dismantlingInformation": {
+      "dp": [
+        48
+      ],
+      "why": "dismantling information, Annex XIII 2(c)"
+    },
+    "dynamicExpectedLifetimeCycles": {
+      "dp": [
+        59
+      ],
+      "why": "dynamic lifetime in cycles, Annex XIII 4(a)"
+    },
+    "dynamicInternalResistance": {
+      "dp": [
+        55
+      ],
+      "why": "dynamic internal resistance, Annex XIII 4(a)"
+    },
+    "dynamicPowerCapability": {
+      "dp": [
+        53
+      ],
+      "why": "dynamic power, Annex XIII 4(a)"
+    },
+    "dynamicRatedCapacity": {
+      "dp": [
+        51
+      ],
+      "why": "dynamic rated capacity, Annex XIII 4(a)"
+    },
+    "electrolyteComposition": {
+      "dp": [
+        45
+      ],
+      "why": "electrolyte part of detailed composition, Annex XIII 2(a)"
+    },
+    "euDeclarationOfConformity": {
+      "dp": [
+        42
+      ],
+      "why": "EU DoC, Annex XIII 1(r)"
+    },
+    "evolutionOfSelfDischargeRate": {
+      "dp": [
+        65
+      ],
+      "why": "SoH self-discharge evolution, Annex XIII 4(b)"
+    },
+    "expectedLifetimeCycles": {
+      "dp": [
+        31
+      ],
+      "why": "static lifetime in cycles, Annex XIII 1(j)"
+    },
+    "expectedLifetimeReferenceConditions": {
+      "dp": [
+        32
+      ],
+      "why": "reference test for cycle lifetime, Annex XIII 1(j)"
+    },
+    "expectedLifetimeYears": {
+      "dp": [
+        60
+      ],
+      "why": "lifetime in calendar years, Annex XIII 4(a)"
+    },
+    "extinguishingAgent": {
+      "dp": [
+        14
+      ],
+      "why": "usable extinguishing agent, Annex VI A(9)"
+    },
+    "hazardousSubstances": {
+      "dp": [
+        13
+      ],
+      "why": "hazardous substances, Annex VI A(8)"
+    },
+    "impactOfHazardousSubstances": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(f) part of waste info"
+    },
+    "informationOnCollectionAndEndOfLifeTreatment": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(c) part of waste info"
+    },
+    "informationOnSeparateCollection": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(b) part of waste info"
+    },
+    "initialEnergyRoundTripEfficiency": {
+      "dp": [
+        36
+      ],
+      "why": "initial RTE, Annex XIII 1(n)"
+    },
+    "initialInternalResistanceCell": {
+      "dp": [
+        38
+      ],
+      "why": "cell part of cell+pack resistance, Annex XIII 1(o)"
+    },
+    "initialInternalResistancePack": {
+      "dp": [
+        38
+      ],
+      "why": "pack part of cell+pack resistance, Annex XIII 1(o)"
+    },
+    "initialSelfDischargeRate": {
+      "dp": [
+        65
+      ],
+      "why": "self-discharge (Annex VII Part A(4)), part of DP 65"
+    },
+    "internalResistanceIncrease": {
+      "dp": [
+        56
+      ],
+      "why": "internal resistance increase, Annex XIII 4(a)"
+    },
+    "manufacturerName": {
+      "dp": [
+        3
+      ],
+      "why": "manufacturer name, Annex VI A(1)"
+    },
+    "manufacturerPostalAddress": {
+      "dp": [
+        4
+      ],
+      "why": "manufacturer postal address, Annex VI A(1)"
+    },
+    "manufacturingDate": {
+      "dp": [
+        9
+      ],
+      "why": "date of manufacture, Annex VI A(4)"
+    },
+    "manufacturingPlace": {
+      "dp": [
+        8
+      ],
+      "why": "place of manufacture, Annex VI A(3)"
+    },
+    "maximumAllowedBatteryPower": {
+      "dp": [
+        30
+      ],
+      "why": "power limits, Annex XIII 1(i)"
+    },
+    "maximumVoltage": {
+      "dp": [
+        28
+      ],
+      "why": "maximum voltage, Annex XIII 1(h)"
+    },
+    "meaningOfLabelsAndSymbols": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(e) part of waste info, Annex XIII 1(s)"
+    },
+    "minimumVoltage": {
+      "dp": [
+        26
+      ],
+      "why": "minimal voltage, Annex XIII 1(h)"
+    },
+    "nominalVoltage": {
+      "dp": [
+        27
+      ],
+      "why": "nominal voltage, Annex XIII 1(h)"
+    },
+    "originalPowerCapability": {
+      "dp": [
+        29
+      ],
+      "why": "original power capability, Annex XIII 1(i)"
+    },
+    "powerFade": {
+      "dp": [
+        54
+      ],
+      "why": "power fade, Annex XIII 4(a)"
+    },
+    "ratedCapacity": {
+      "dp": [
+        11,
+        25
+      ],
+      "why": "capacity in Ah; content = DP 11, cited provision 1(g) = DP 25 (repetition of 11)"
+    },
+    "remainingCapacity": {
+      "dp": [
+        62
+      ],
+      "why": "SoH remaining capacity, Annex XIII 4(b)"
+    },
+    "remainingPowerCapability": {
+      "dp": [
+        63
+      ],
+      "why": "remaining power capability"
+    },
+    "remainingPowerCapabilityAt20Soc": {
+      "dp": [
+        63
+      ],
+      "why": "remaining power capability at 20 % SoC, part of DP 63"
+    },
+    "remainingPowerCapabilityAt80Soc": {
+      "dp": [
+        63
+      ],
+      "why": "remaining power capability at 80 % SoC, part of DP 63"
+    },
+    "remainingRoundTripEfficiency": {
+      "dp": [
+        64
+      ],
+      "why": "remaining round-trip efficiency"
+    },
+    "renewableContentShare": {
+      "dp": [
+        24
+      ],
+      "why": "renewable content share, Annex XIII 1(f)"
+    },
+    "roleOfEndUsersInWastePrevention": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(a) part of waste info"
+    },
+    "roundTripEfficiencyAtHalfCycleLife": {
+      "dp": [
+        37
+      ],
+      "why": "RTE at 50% cycle-life, Annex XIII 1(n)"
+    },
+    "safetyInformationEndOfLife": {
+      "dp": [
+        49
+      ],
+      "why": "safety measures, Annex XIII 2(d)"
+    },
+    "safetyInstructionsWasteBatteries": {
+      "dp": [
+        43
+      ],
+      "why": "Art. 74(1)(d) part of waste info"
+    },
+    "separateCollectionSymbol": {
+      "dp": [
+        40
+      ],
+      "why": "Art. 13(4) marking, Annex XIII 1(q)"
+    },
+    "sparePartsInformation": {
+      "dp": [
+        47
+      ],
+      "why": "contact details of spare sources, Annex XIII 2(b)"
+    },
+    "stateOfCertifiedEnergy": {
+      "dp": [
+        61
+      ],
+      "why": "SOCE, Annex XIII 4(b)"
+    },
+    "temperatureInformation": {
+      "dp": [
+        70
+      ],
+      "why": "operating environmental conditions incl. temperature"
+    },
+    "temperatureRangeIdleMax": {
+      "dp": [
+        34
+      ],
+      "why": "upper bound of idle temperature range, Annex XIII 1(l)"
+    },
+    "temperatureRangeIdleMin": {
+      "dp": [
+        34
+      ],
+      "why": "lower bound of idle temperature range, Annex XIII 1(l)"
+    },
+    "testReportResults": {
+      "dp": [
+        50
+      ],
+      "why": "test report results, Annex XIII 3"
+    }
+  },
+  "primaryTextOnly": {
+    "capacityThroughput": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(3). The guidance lists only the Part A items under 4(b) (DP 61–66); the KB reads the primary text as putting Part B in the passport for LMT and stationary storage. Open divergence.",
+    "energyThroughput": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(2). As capacityThroughput.",
+    "dateOfServiceEntry": "Annex XIII 4(b) → Art. 14(1) → Annex VII Part B(1). As capacityThroughput."
+  }
+}

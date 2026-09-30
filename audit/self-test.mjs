@@ -10,7 +10,7 @@ import { join, dirname } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { checkQuotes } from "./evidence-checks.mjs";
-import { checkUseDataDefaults } from "./content-checks.mjs";
+import { checkUseDataDefaults, checkGuidanceDatapoints } from "./content-checks.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const TEMPLATES = join(here, "..", "templates");
@@ -190,4 +190,45 @@ test("[20] the declared battery status (point 4(c)) may keep its default", () =>
   const t = load();
   assert.equal(field(t, "battery", "batteryStatus").defaultValue, "original");
   assert.deepEqual(checkUseDataDefaults(t), []);
+});
+
+const GUIDANCE = JSON.parse(readFileSync(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), "utf-8"));
+const DP_MAP = JSON.parse(readFileSync(join(here, "..", "guidance", "battery-field-datapoints.json"), "utf-8"));
+const g21 = (t) => checkGuidanceDatapoints(t, GUIDANCE, DP_MAP);
+
+test("[21] the guidance table parses to the Commission's per-category totals", () => {
+  const tally = (cat) => Object.values(GUIDANCE.datapoints).reduce((a, d) => ({ ...a, [d[cat]]: (a[d[cat]] ?? 0) + 1 }), {});
+  assert.deepEqual(tally("EV"), { mandatory: 47, "certain-cases": 8, optional: 1, "not-to-be-filled": 15 });
+  assert.deepEqual(tally("LMT"), { mandatory: 50, "certain-cases": 8, optional: 1, "not-to-be-filled": 12 });
+  assert.deepEqual(tally("industrial"), { mandatory: 32, "certain-cases": 26, optional: 1, "not-to-be-filled": 12 });
+});
+
+test("[21] the shipped battery template has no field blocking publication without a data point", () =>
+  assert.deepEqual(g21(load()), []));
+
+test("[21] a conditional field with no data point is reported (the stateOfHealth hard block)", () => {
+  const t = load();
+  field(t, "battery", "stateOfHealth").validation.requiredBy = { EV: "conditional", LMT: "conditional", industrial_gt_2kwh: "conditional" };
+  assert.deepEqual([...new Set(g21(t).map((f) => f.key))], ["stateOfHealth"]);
+});
+
+test("[21] a field required against a deferred data point is reported (due diligence, DP 19)", () => {
+  const t = load();
+  const k = Object.entries(DP_MAP.fields).find(([, v]) => v.dp.includes(19))?.[0]
+    ?? t.find(([f]) => f === "battery.json")[1].fields.find((f) => /dueDiligence/i.test(f.key)).key;
+  const f = field(t, "battery", k);
+  f.validation.anticipated = false;
+  f.validation.required = true;
+  delete f.validation.requiredBy;
+  DP_MAP.fields[k] ??= { dp: [19], why: "test" };
+  const found = g21(t).filter((x) => x.key === k);
+  delete DP_MAP.fields[k];
+  assert.equal(found.length, 3);
+  assert.match(found[0].problem, /not-to-be-filled/);
+});
+
+test("[21] SOCE required for LMT is reported (DP 61 is not to be filled for LMT)", () => {
+  const t = load();
+  field(t, "battery", "stateOfCertifiedEnergy").validation.requiredBy.LMT = "required";
+  assert.deepEqual(g21(t).map((f) => f.key), ["stateOfCertifiedEnergy"]);
 });

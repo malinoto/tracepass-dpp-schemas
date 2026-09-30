@@ -121,6 +121,15 @@ data group binds. Where parts of an instrument phase in later, the instrument ca
 | `otherDates` | Other dates legitimately tied to the obligation (a postponed original date, later minimum-share steps) |
 | `source` | The primary text or Commission guidance the date comes from, with its edition |
 
+For batteries, `guidance/` holds the Commission's own data-point list: DG GROW, *Digital
+Batteries Passport – data point by category*, 2nd edition (15 Aug 2026), as
+`battery-datapoints-v2.0.json` (71 data points × EV / LMT / industrial: `mandatory`,
+`certain-cases`, `optional`, `not-to-be-filled`). `battery-field-datapoints.json` records
+which data point each publish-blocking field carries. Audit check [21] fails any field that
+is required for a category without a mandatory data point behind it, or conditional
+without a mandatory or certain-cases one. Fields the guidance omits but the primary text
+is read to require are listed under `primaryTextOnly`, with the reason.
+
 This is the one place those dates are kept. Copy that states them (the TracePass
 marketing site checks every sentence against this registry) and the templates' own
 `anticipated` flags follow it.

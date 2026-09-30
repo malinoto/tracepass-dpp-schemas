@@ -10449,12 +10449,7 @@
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null,
-        "requiredBy": {
-          "EV": "conditional",
-          "LMT": "conditional",
-          "industrial_gt_2kwh": "conditional"
-        }
+        "pattern": null
       },
       "category": "performance",
       "categoryLabel": {

@@ -337,6 +337,7 @@ function audit(dir, label) {
   findings.flatUnits = content.flatUnits;
   findings.annexInventory = content.annexInventory;
   findings.useDataDefaults = content.useDataDefaults;
+  findings.guidanceDatapoints = content.guidanceDatapoints;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -451,6 +452,10 @@ function audit(dir, label) {
   if (findings.useDataDefaults?.length) {
     console.log(`\n[20] default value on a battery use-data field (${findings.useDataDefaults.length}) — Annex XIII point 4 comes from the battery; a default is published as a reading nobody took`);
     for (const f of findings.useDataDefaults) console.log(`    ${f.id.padEnd(48)} default ${f.value}  (${f.cite})`);
+  }
+  if (findings.guidanceDatapoints?.length) {
+    console.log(`\n[21] battery field can block publishing without an official data point behind it (${findings.guidanceDatapoints.length}) — see guidance/battery-field-datapoints.json`);
+    for (const f of findings.guidanceDatapoints) console.log(`    battery.${f.key.padEnd(40)} ${f.problem}`);
   }
 
   // Verified-share report — informational, not a finding. Shows per-category how

@@ -245,6 +245,54 @@ export function checkUseDataDefaults(templates) {
   return out;
 }
 
+// ── [21] battery field required against the official data-point list ────────
+// The DG GROW battery-passport guidance (guidance/battery-datapoints-v2.0.json)
+// says, per data point and battery category, whether the data is mandatory,
+// applies in certain cases, is optional, or must not be filled. A template field
+// that can block publishing must rest on it:
+//   - required for a category  → carries a data point MANDATORY there;
+//   - conditional for a category → carries one mandatory or certain-cases there.
+// Which data point a field carries is recorded in
+// guidance/battery-field-datapoints.json; a field the guidance does not list,
+// but the primary text is read to require, sits in its `primaryTextOnly` map
+// with the reason. Anything else is an over-requirement: the stateOfHealth hard
+// block (no data point at all) and fields required against deferred data points
+// (carbon footprint, due diligence) are what this exists to catch.
+const GUIDANCE_CAT = { EV: "EV", LMT: "LMT", industrial_gt_2kwh: "industrial" };
+export function checkGuidanceDatapoints(templates, guidance, mapping) {
+  const out = [];
+  const battery = templates.find(([, d]) => d.category === "battery");
+  if (!battery || !guidance || !mapping) return out;
+  const fields = battery[1].fields;
+  const keys = new Set(fields.map((f) => f.key));
+  for (const k of [...Object.keys(mapping.fields ?? {}), ...Object.keys(mapping.primaryTextOnly ?? {})]) {
+    if (!keys.has(k)) out.push({ key: k, problem: "mapped field is not in battery.json (stale mapping)" });
+  }
+  for (const f of fields) {
+    const v = f.validation ?? {};
+    if (v.anticipated) continue;
+    for (const [cat, gcat] of Object.entries(GUIDANCE_CAT)) {
+      const duty = v.requiredBy?.[cat] ?? (v.required ? "required" : null);
+      if (duty !== "required" && duty !== "conditional") continue;
+      if (mapping.primaryTextOnly?.[f.key]) continue;
+      const entry = mapping.fields?.[f.key];
+      if (!entry) {
+        out.push({ key: f.key, problem: `${duty} for ${cat}, but carries no official data point` });
+        continue;
+      }
+      const ok = duty === "required" ? ["mandatory"] : ["mandatory", "certain-cases"];
+      const statuses = entry.dp.map((n) => guidance.datapoints?.[String(n)]?.[gcat] ?? "unknown");
+      if (!statuses.some((s) => ok.includes(s))) {
+        out.push({
+          key: f.key,
+          problem: `${duty} for ${cat}, but DP ${entry.dp.join("/")} is ${[...new Set(statuses)].join("/")} there`,
+        });
+      }
+    }
+  }
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -258,5 +306,10 @@ export function runContentChecks(templates, registry = {}) {
     flatUnits: checkFlattenedUnits(templates),
     annexInventory: checkAnnexInventory(templates, registry),
     useDataDefaults: checkUseDataDefaults(templates),
+    guidanceDatapoints: checkGuidanceDatapoints(
+      templates,
+      loadJson(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), null),
+      loadJson(join(here, "..", "guidance", "battery-field-datapoints.json"), null),
+    ),
   };
 }
