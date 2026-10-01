@@ -4602,6 +4602,21 @@
         "el": "Κατάλογος ενεργών υλικών καθόδου με όνομα και ποσοστό κατά βάρος"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the battery's total mass",
+          "required": true
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4671,7 +4686,7 @@
           "cathode composition",
           "CAM"
         ],
-        "expectedFormat": "Array of objects: [{name: 'Lithium Nickel Manganese Cobalt Oxide', weightPercent: 85.0}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lithium Nickel Cobalt Aluminum Oxide', casNumber: '193214-24-3', massPercent: 32.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
         "extractionPriority": 7
       }
     },
@@ -4730,6 +4745,21 @@
         "el": "Κατάλογος ενεργών υλικών ανόδου με όνομα και ποσοστό κατά βάρος"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the battery's total mass",
+          "required": true
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4799,7 +4829,7 @@
           "anode composition",
           "AAM"
         ],
-        "expectedFormat": "Array of objects: [{name: 'Graphite', weightPercent: 95.0}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Graphite', casNumber: '7782-42-5', massPercent: 18.2}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
         "extractionPriority": 7
       }
     },
@@ -4858,6 +4888,21 @@
         "el": "Κατάλογος συστατικών ηλεκτρολύτη με όνομα και ποσοστό κατά βάρος"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the battery's total mass",
+          "required": true
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4927,7 +4972,7 @@
           "electrolyte components",
           "solvent composition"
         ],
-        "expectedFormat": "Array of objects: [{name: 'LiPF6', weightPercent: 12.0}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lithium hexafluorophosphate (LiPF6)', casNumber: '21324-40-3', massPercent: 1.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
         "extractionPriority": 6
       }
     },
@@ -4986,6 +5031,21 @@
         "el": "Κρίσιμες πρώτες ύλες που περιέχονται στην μπαταρία σε συγκέντρωση άνω του 0,1 % κατά βάρος (παράρτημα VI μέρος Α σημείο 10, μέσω του παραρτήματος XIII σημείο 1 στοιχείο α)). Αναφέρετε την καθεμία με την ονομασία και το ποσοστό της."
       },
       "dataType": "array",
+      "entryProperties": {
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the battery's total mass",
+          "required": true
+        },
+        "countryOfOrigin": {
+          "type": "string",
+          "format": "iso3166-alpha2"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -5066,7 +5126,7 @@
           "graphite",
           "manganese"
         ],
-        "expectedFormat": "Array of objects: [{crmName: 'Cobalt', weightPercent: 12.5, countryOfOrigin: 'CD'}]. Each item has crmName (string), weightPercent (number), countryOfOrigin (ISO 3166 string, restricted access)",
+        "expectedFormat": "Array of objects: [{material: 'Cobalt', massPercent: 4.8, countryOfOrigin: 'CD'}]. Each item: material (string), massPercent (number, % of the battery's total mass), countryOfOrigin (ISO 3166 alpha-2, restricted access).",
         "extractionPriority": 8
       }
     },
@@ -5125,6 +5185,25 @@
         "el": "Επικίνδυνες ουσίες που περιέχονται στην μπαταρία, εκτός από υδράργυρο, κάδμιο ή μόλυβδο: ουσίες που ταξινομούνται ως επικίνδυνες σύμφωνα με το άρθρο 3 του κανονισμού (ΕΚ) αριθ. 1272/2008 (παράρτημα VI μέρος Α σημείο 8, μέσω του παραρτήματος XIII σημείο 1 στοιχείο α)). Αναφέρετε την καθεμία με την ονομασία της, τον αριθμό CAS της, εφόσον υπάρχει, και τη θέση της στην μπαταρία."
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number"
+        },
+        "hazardClassification": {
+          "type": "string"
+        },
+        "locationInBattery": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -12375,6 +12454,26 @@
         "el": "Αρχείο αρνητικών συμβάντων όπως βαθιά εκφόρτιση, ακραίες θερμοκρασίες ή ατυχήματα"
       },
       "dataType": "array",
+      "entryProperties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "required": true
+        },
+        "type": {
+          "type": "string",
+          "required": true,
+          "enum": [
+            "deep_discharge",
+            "extreme_temp",
+            "accident",
+            "other"
+          ]
+        },
+        "description": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -13577,6 +13676,16 @@
         "el": "Αριθμοί ανταλλακτικών για τα κατασκευαστικά στοιχεία που υπόκεινται σε αντικατάσταση, σύμφωνα με το παράρτημα XIII σημείο 2 στοιχείο β. Δομημένος κατάλογος με την ονομασία του κατασκευαστικού στοιχείου και τον αριθμό ανταλλακτικού."
       },
       "dataType": "array",
+      "entryProperties": {
+        "componentName": {
+          "type": "string",
+          "required": true
+        },
+        "partNumber": {
+          "type": "string",
+          "required": true
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,

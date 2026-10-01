@@ -10,7 +10,7 @@ import { join, dirname } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { checkQuotes } from "./evidence-checks.mjs";
-import { checkUseDataDefaults, checkGuidanceDatapoints } from "./content-checks.mjs";
+import { checkUseDataDefaults, checkGuidanceDatapoints, checkEntryShapes } from "./content-checks.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const TEMPLATES = join(here, "..", "templates");
@@ -231,4 +231,24 @@ test("[21] SOCE required for LMT is reported (DP 61 is not to be filled for LMT)
   const t = load();
   field(t, "battery", "stateOfCertifiedEnergy").validation.requiredBy.LMT = "required";
   assert.deepEqual(g21(t).map((f) => f.key), ["stateOfCertifiedEnergy"]);
+});
+
+// ── [22] declared entry shape vs extraction hint ───────────────────────────
+test("[22] the shipped templates' entry shapes match their hints", () =>
+  assert.deepEqual(checkEntryShapes(load()), []));
+
+test("[22] the old composition hint ({name, weightPercent}) is reported against the declared shape", () => {
+  const t = load();
+  field(t, "battery", "cathodeActiveMaterials").aiHints.expectedFormat =
+    "Array of objects: [{name: 'Lithium Nickel Manganese Cobalt Oxide', weightPercent: 85.0}]";
+  const problems = checkEntryShapes(t).map((f) => f.problem);
+  assert.ok(problems.some((p) => p.includes('"substanceName" is not in')), problems.join("; "));
+  assert.ok(problems.some((p) => p.includes('uses "weightPercent"')), problems.join("; "));
+});
+
+test("[22] entryProperties on a non-array field is reported", () => {
+  const t = load();
+  const f = field(t, "battery", "batteryStatus");
+  f.entryProperties = { x: { type: "string" } };
+  assert.ok(checkEntryShapes(t).some((x) => x.id === "battery.batteryStatus"));
 });

@@ -285,6 +285,15 @@ record.
 **`aiHints`** lists the synonyms a supplier datasheet might use for the field. If you are
 extracting values from unstructured PDFs, these are the search terms that work.
 
+**`entryProperties`** types the entries of an `array` field whose entries are objects:
+each member has a `type` (`string` | `number` | `boolean`), and optionally `required`,
+`enum`, `format` (`date`, `iso3166-alpha2`, `cas-number`) and a `description`. Battery
+composition, for example, is a list of `{substanceName, casNumber, massPercent}`, with
+`massPercent` as a share of the battery's total mass. Audit check [22] requires
+`aiHints.expectedFormat` to name every declared member, and to use no member that is
+not declared, so the extraction hint and the declared shape cannot drift apart. Fields
+without it are untyped lists.
+
 ## No build step
 
 There is nothing to compile and nothing to install. Read the JSON.

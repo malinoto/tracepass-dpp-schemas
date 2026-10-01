@@ -293,6 +293,41 @@ export function checkGuidanceDatapoints(templates, guidance, mapping) {
   return out;
 }
 
+// ── [22] declared entry shape vs the extraction hint ───────────────────────
+// `entryProperties` types the entries of an array field; `aiHints.expectedFormat`
+// is what extraction is told to write. When they disagree the AI writes one key
+// set while consumers read another — the battery composition hints asked for
+// {name, weightPercent} while the sample and supplier data held
+// {substance, casNumber, massPercent}. So every declared member must appear in
+// the hint, and every member the hint's example uses must be declared.
+export function checkEntryShapes(templates) {
+  const out = [];
+  for (const [, d] of templates) {
+    for (const f of d.fields) {
+      const shape = f.entryProperties;
+      if (!shape) continue;
+      const id = `${d.category}.${f.key}`;
+      if (f.dataType !== "array") {
+        out.push({ id, problem: `entryProperties on a ${f.dataType} field` });
+        continue;
+      }
+      const hint = f.aiHints?.expectedFormat ?? "";
+      const members = Object.keys(shape);
+      for (const m of members) {
+        if (!new RegExp(`\\b${m}\\b`).test(hint)) out.push({ id, problem: `member "${m}" is not in aiHints.expectedFormat` });
+      }
+      const used = new Set();
+      for (const obj of hint.match(/\{[^{}]*\}/g) ?? []) {
+        for (const m of obj.matchAll(/([A-Za-z_][A-Za-z0-9_]*)\s*:/g)) used.add(m[1]);
+      }
+      for (const u of used) {
+        if (!members.includes(u)) out.push({ id, problem: `the hint's example uses "${u}", which entryProperties does not declare` });
+      }
+    }
+  }
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -306,6 +341,7 @@ export function runContentChecks(templates, registry = {}) {
     flatUnits: checkFlattenedUnits(templates),
     annexInventory: checkAnnexInventory(templates, registry),
     useDataDefaults: checkUseDataDefaults(templates),
+    entryShapes: checkEntryShapes(templates),
     guidanceDatapoints: checkGuidanceDatapoints(
       templates,
       loadJson(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), null),

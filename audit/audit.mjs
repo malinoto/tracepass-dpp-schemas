@@ -338,6 +338,7 @@ function audit(dir, label) {
   findings.annexInventory = content.annexInventory;
   findings.useDataDefaults = content.useDataDefaults;
   findings.guidanceDatapoints = content.guidanceDatapoints;
+  findings.entryShapes = content.entryShapes;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -456,6 +457,11 @@ function audit(dir, label) {
   if (findings.guidanceDatapoints?.length) {
     console.log(`\n[21] battery field can block publishing without an official data point behind it (${findings.guidanceDatapoints.length}) — see guidance/battery-field-datapoints.json`);
     for (const f of findings.guidanceDatapoints) console.log(`    battery.${f.key.padEnd(40)} ${f.problem}`);
+  }
+
+  if (findings.entryShapes?.length) {
+    console.log(`\n[22] declared entry shape disagrees with the extraction hint (${findings.entryShapes.length}) — align entryProperties and aiHints.expectedFormat`);
+    for (const f of findings.entryShapes) console.log(`    ${f.id.padEnd(48)} ${f.problem}`);
   }
 
   // Verified-share report — informational, not a finding. Shows per-category how

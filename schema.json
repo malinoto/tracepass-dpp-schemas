@@ -250,6 +250,48 @@
             "file_reference"
           ]
         },
+        "entryProperties": {
+          "type": "object",
+          "description": "For an `array` field whose entries are objects: the members of one entry. Lets consumers type the list (the VC profile emits `items` from it) and is checked against `aiHints.expectedFormat`, which must name every member (audit [22]). Member names are camelCase.",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "type"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "enum": [
+                  "string",
+                  "number",
+                  "boolean"
+                ]
+              },
+              "description": {
+                "type": "string"
+              },
+              "required": {
+                "type": "boolean",
+                "description": "The entry is incomplete without this member."
+              },
+              "enum": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "format": {
+                "enum": [
+                  "date",
+                  "iso3166-alpha2",
+                  "cas-number"
+                ]
+              }
+            }
+          }
+        },
         "unit": {
           "description": "Unit of measure. Must be a canonical key from units.json — the historical free-text spellings are no longer permitted. `null` when the field has no unit.",
           "oneOf": [
