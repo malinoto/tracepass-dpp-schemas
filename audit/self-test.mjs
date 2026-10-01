@@ -259,3 +259,9 @@ test("[22] a URL inside a quoted example value is not read as a member", () => {
   assert.ok(f.aiHints.expectedFormat.includes("https://"), "fixture lost its URL example");
   assert.deepEqual(checkEntryShapes(t).filter((x) => x.id === "jewelry.customCertificates"), []);
 });
+
+test("[22] an object list without entryProperties is reported", () => {
+  const t = load();
+  delete field(t, "tyres", "billOfMaterials").entryProperties;
+  assert.ok(checkEntryShapes(t).some((x) => x.id === "tyres.billOfMaterials" && /no entryProperties/.test(x.problem)));
+});

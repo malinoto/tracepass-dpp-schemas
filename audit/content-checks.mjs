@@ -305,8 +305,15 @@ export function checkEntryShapes(templates) {
   for (const [, d] of templates) {
     for (const f of d.fields) {
       const shape = f.entryProperties;
-      if (!shape) continue;
       const id = `${d.category}.${f.key}`;
+      if (!shape) {
+        // An object list must say what its entries hold, or consumers (the VC
+        // profile, JSON-LD processors) cannot type them.
+        if (f.dataType === "array" && /array of objects/i.test(f.aiHints?.expectedFormat ?? "")) {
+          out.push({ id, problem: "an object list with no entryProperties" });
+        }
+        continue;
+      }
       if (f.dataType !== "array") {
         out.push({ id, problem: `entryProperties on a ${f.dataType} field` });
         continue;
