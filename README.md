@@ -291,8 +291,8 @@ each member has a `type` (`string` | `number` | `boolean`), and optionally `requ
 composition, for example, is a list of `{substanceName, casNumber, massPercent}`, with
 `massPercent` as a share of the battery's total mass. Audit check [22] requires
 `aiHints.expectedFormat` to name every declared member, and to use no member that is
-not declared, so the extraction hint and the declared shape cannot drift apart. Fields
-without it are untyped lists.
+not declared, so the extraction hint and the declared shape cannot drift apart. Every object list in
+every category declares one.
 
 ## No build step
 

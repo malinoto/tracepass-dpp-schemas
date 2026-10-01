@@ -1945,6 +1945,16 @@
         "sv": "Konserveringsämnen med CAS-nummer, obligatorisk deklaration för kosmetika och rengöringsmedel"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -2004,7 +2014,7 @@
           "biocide",
           "conservation agent"
         ],
-        "expectedFormat": "Array of objects with substanceName and casNumber",
+        "expectedFormat": "Array of objects: [{substanceName: 'Phenoxyethanol', casNumber: '122-99-6'}]. Each item: substanceName (string, required); casNumber (string).",
         "extractionPriority": 3
       }
     },
@@ -2063,6 +2073,23 @@
         "sv": "SVHC-ämnen närvarande över 0,1 % w/w med namn, CAS-nummer, koncentrationsintervall och instruktioner för säker användning"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "safeUseInstructions": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -2114,7 +2141,7 @@
           "hazardous substances",
           "REACH substances"
         ],
-        "expectedFormat": "Array of objects: {substanceName, casNumber, concentrationPercent, safeUseInstructions}",
+        "expectedFormat": "Array of objects: [{substanceName: 'Butylparaben', casNumber: '94-26-8', concentrationPercent: 0.12, safeUseInstructions: 'Keep away from children'}]. Each item: substanceName (string, required); casNumber (string); concentrationPercent (number, % by mass of the article or mixture); safeUseInstructions (string).",
         "extractionPriority": 4
       }
     },
@@ -2890,6 +2917,15 @@
         "sv": "H-kodade faroangivelser som beskriver farans natur (t.ex. H315 Irriterar huden)"
       },
       "dataType": "array",
+      "entryProperties": {
+        "code": {
+          "type": "string",
+          "required": true
+        },
+        "text": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -2939,7 +2975,7 @@
           "H-codes",
           "risk phrases"
         ],
-        "expectedFormat": "Array of objects: {code: 'H315', text: 'Causes skin irritation'}",
+        "expectedFormat": "Array of objects: [{code: 'H315', text: 'Causes skin irritation'}]. Each item: code (string, required); text (string).",
         "extractionPriority": 5
       }
     },
@@ -2998,6 +3034,15 @@
         "sv": "P-kodade skyddsangivelser som beskriver rekommenderade säkerhetsåtgärder"
       },
       "dataType": "array",
+      "entryProperties": {
+        "code": {
+          "type": "string",
+          "required": true
+        },
+        "text": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -3047,7 +3092,7 @@
           "P-codes",
           "safety phrases"
         ],
-        "expectedFormat": "Array of objects: {code: 'P264', text: 'Wash hands thoroughly after handling'}",
+        "expectedFormat": "Array of objects: [{code: 'P264', text: 'Wash hands thoroughly after handling'}]. Each item: code (string, required); text (string).",
         "extractionPriority": 4
       }
     },

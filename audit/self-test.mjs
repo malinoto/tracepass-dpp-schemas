@@ -252,3 +252,10 @@ test("[22] entryProperties on a non-array field is reported", () => {
   f.entryProperties = { x: { type: "string" } };
   assert.ok(checkEntryShapes(t).some((x) => x.id === "battery.batteryStatus"));
 });
+
+test("[22] a URL inside a quoted example value is not read as a member", () => {
+  const t = load();
+  const f = field(t, "jewelry", "customCertificates");
+  assert.ok(f.aiHints.expectedFormat.includes("https://"), "fixture lost its URL example");
+  assert.deepEqual(checkEntryShapes(t).filter((x) => x.id === "jewelry.customCertificates"), []);
+});

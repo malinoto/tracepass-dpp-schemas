@@ -5200,6 +5200,10 @@
         "hazardClassification": {
           "type": "string"
         },
+        "precautionaryStatements": {
+          "type": "string",
+          "description": "CLP P-statements from the SDS, e.g. P201; P280"
+        },
         "locationInBattery": {
           "type": "string"
         }
@@ -5281,7 +5285,7 @@
           "REACH substances",
           "substances of concern"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'Lead', casNumber: '7439-92-1', concentrationPercent: 0.15, hazardClassification: 'Repr. 1A', locationInBattery: 'Solder joints'}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lead', casNumber: '7439-92-1', concentrationPercent: 0.15, hazardClassification: 'Repr. 1A', precautionaryStatements: 'P201; P280', locationInBattery: 'Solder joints'}]. precautionaryStatements are the CLP P-statements from the SDS.",
         "extractionPriority": 7
       }
     },

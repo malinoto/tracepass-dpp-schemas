@@ -7092,6 +7092,15 @@
         "sv": "Array av ytterligare anpassade certifikat som inte täcks av standardfält"
       },
       "dataType": "array",
+      "entryProperties": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "url": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -7141,7 +7150,7 @@
           "additional certs",
           "extra certifications"
         ],
-        "expectedFormat": "Array of objects with name and URL/file reference",
+        "expectedFormat": "Array of objects: [{name: 'Assay certificate', url: 'https://example.com/cert.pdf'}]. Each item: name (string, required); url (string).",
         "extractionPriority": 3
       }
     },

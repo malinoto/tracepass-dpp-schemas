@@ -6217,6 +6217,20 @@
         "sv": "Strukturerad lista över däckmaterial i viktprocent"
       },
       "dataType": "array",
+      "entryProperties": {
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the tyre's total mass"
+        },
+        "countryOfOrigin": {
+          "type": "string",
+          "format": "iso3166-alpha2"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -6271,7 +6285,7 @@
           "ingredients",
           "material breakdown"
         ],
-        "expectedFormat": "Array of objects with material, weight_percentage, origin_country",
+        "expectedFormat": "Array of objects: [{material: 'Natural rubber', massPercent: 22, countryOfOrigin: 'TH'}]. Each item: material (string, required); massPercent (number, % of the tyre's total mass); countryOfOrigin (string).",
         "extractionPriority": 8
       }
     },
@@ -7100,6 +7114,26 @@
         "sv": "Ämnen som inger mycket stora betänkligheter över tröskelvärdet 0,1 vikt-%"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "locationInProduct": {
+          "type": "string"
+        },
+        "hazardClassification": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -7150,7 +7184,7 @@
           "REACH candidate list",
           "hazardous substances"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'DEHP', casNumber: '117-81-7', concentrationPercent: 0.15, locationInProduct: 'Sidewall compound'}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'DEHP', casNumber: '117-81-7', concentrationPercent: 0.15, locationInProduct: 'Sidewall compound', hazardClassification: 'Repr. 1B'}]. Each item: substanceName (string, required); casNumber (string); concentrationPercent (number, % by mass of the article or mixture); locationInProduct (string); hazardClassification (string).",
         "extractionPriority": 8
       }
     },
@@ -9173,6 +9207,19 @@
         "sv": "Återvinningsvägar vid livslängdens slut och procentandelar"
       },
       "dataType": "array",
+      "entryProperties": {
+        "pathway": {
+          "type": "string",
+          "required": true
+        },
+        "sharePercent": {
+          "type": "number",
+          "description": "% of the tyre's mass"
+        },
+        "outputUses": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -9226,7 +9273,7 @@
           "recycling routes",
           "end of life pathways"
         ],
-        "expectedFormat": "Array of objects with pathway, percentage, output_uses",
+        "expectedFormat": "Array of objects: [{pathway: 'Granulation', sharePercent: 60, outputUses: 'Sports surfaces'}]. Each item: pathway (string, required); sharePercent (number, % of the tyre's mass); outputUses (string).",
         "extractionPriority": 7
       }
     },
@@ -10152,6 +10199,15 @@
         "sv": "Ytterligare kvalitets-/miljöcertifieringar"
       },
       "dataType": "array",
+      "entryProperties": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "certificateNumber": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -10199,7 +10255,7 @@
           "quality certificates",
           "environmental certificates"
         ],
-        "expectedFormat": "Array of objects with name and certificate_number",
+        "expectedFormat": "Array of objects: [{name: 'SmartWay', certificateNumber: 'SW-2026-114'}]. Each item: name (string, required); certificateNumber (string).",
         "extractionPriority": 4
       }
     },

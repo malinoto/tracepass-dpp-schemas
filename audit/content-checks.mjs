@@ -318,7 +318,9 @@ export function checkEntryShapes(templates) {
       }
       const used = new Set();
       for (const obj of hint.match(/\{[^{}]*\}/g) ?? []) {
-        for (const m of obj.matchAll(/([A-Za-z_][A-Za-z0-9_]*)\s*:/g)) used.add(m[1]);
+        // Drop quoted values first: the "https" in 'https://…' is not a member.
+        const bare = obj.replace(/'[^']*'|"[^"]*"/g, "''");
+        for (const m of bare.matchAll(/([A-Za-z_][A-Za-z0-9_]*)\s*:/g)) used.add(m[1]);
       }
       for (const u of used) {
         if (!members.includes(u)) out.push({ id, problem: `the hint's example uses "${u}", which entryProperties does not declare` });

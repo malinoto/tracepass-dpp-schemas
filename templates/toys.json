@@ -3763,6 +3763,16 @@
         "sv": "Lista över primära material som används i leksaken (t.ex. ABS-plast, trä, bomullstyg, metall)"
       },
       "dataType": "array",
+      "entryProperties": {
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the toy's total mass"
+        }
+      },
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -3812,7 +3822,7 @@
           "material list",
           "components"
         ],
-        "expectedFormat": "Array of objects: [{material: 'ABS plastic', weightPercent: 60}, {material: 'Beech wood', weightPercent: 30}]",
+        "expectedFormat": "Array of objects: [{material: 'ABS plastic', massPercent: 60}]. Each item: material (string, required); massPercent (number, % of the toy's total mass).",
         "extractionPriority": 4
       }
     },
@@ -3990,6 +4000,23 @@
         "sv": "Detaljerad lista över ämnen som inger betänkligheter i leksaken, inklusive CAS-nummer, koncentrationer och placeringar (SCIP-nivå detalj)"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "locationInProduct": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4041,7 +4068,7 @@
           "SDS substances",
           "SVHC list"
         ],
-        "expectedFormat": "Array of objects: [{name: 'Di(2-ethylhexyl) phthalate', casNumber: '117-81-7', concentration: 0.05, location: 'PVC coating'}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Di(2-ethylhexyl) phthalate', casNumber: '117-81-7', concentrationPercent: 0.05, locationInProduct: 'PVC coating'}]. Each item: substanceName (string, required); casNumber (string); concentrationPercent (number, % by mass of the article or mixture); locationInProduct (string).",
         "extractionPriority": 3
       }
     },

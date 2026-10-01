@@ -15587,6 +15587,29 @@
         "sv": "Problematiska ämnen enligt REACH/SCIP som förekommer i halter över 0,1 % w/w"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "ecNumber": {
+          "type": "string"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "locationInProduct": {
+          "type": "string"
+        },
+        "safeUseInstructions": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -15637,7 +15660,7 @@
           "SCIP substances",
           "candidate list substances"
         ],
-        "expectedFormat": "Array of objects: {name, casNumber, ecNumber, concentration, location, safeUse}",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lead', casNumber: '7439-92-1', ecNumber: '231-100-4', concentrationPercent: 0.12, locationInProduct: 'Solder', safeUseInstructions: 'Do not dismantle'}]. Each item: substanceName (string, required); casNumber (string); ecNumber (string); concentrationPercent (number, % by mass of the article or mixture); locationInProduct (string); safeUseInstructions (string).",
         "extractionPriority": 8
       }
     },
@@ -18808,6 +18831,25 @@
         "sv": "Fördelning av materialen i produkten med procentandelar och återvinningsbarhet"
       },
       "dataType": "array",
+      "entryProperties": {
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the product's total mass"
+        },
+        "massKg": {
+          "type": "number"
+        },
+        "recyclable": {
+          "type": "boolean"
+        },
+        "recyclingMethod": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -18861,7 +18903,7 @@
           "material breakdown",
           "composition"
         ],
-        "expectedFormat": "Array of objects: {name, percentage, weight, isRecyclable, recyclingMethod}",
+        "expectedFormat": "Array of objects: [{material: 'Aluminium', massPercent: 35, massKg: 0.42, recyclable: true, recyclingMethod: 'Mechanical'}]. Each item: material (string, required); massPercent (number, % of the product's total mass); massKg (number); recyclable (boolean); recyclingMethod (string).",
         "extractionPriority": 8
       }
     },

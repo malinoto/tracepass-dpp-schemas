@@ -4169,6 +4169,23 @@
         "sv": "Ämnen som inger betänkligheter enligt REACH/SCIP med CAS-nummer"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "locationInProduct": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4221,7 +4238,7 @@
           "hazardous substances",
           "candidate list substances"
         ],
-        "expectedFormat": "Array of objects with substanceName (string), casNumber (string), concentration (%), location (string)",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lead', casNumber: '7439-92-1', concentrationPercent: 0.15, locationInProduct: 'Flashing'}]. Each item: substanceName (string, required); casNumber (string); concentrationPercent (number, % by mass of the article or mixture); locationInProduct (string).",
         "extractionPriority": 8
       }
     },

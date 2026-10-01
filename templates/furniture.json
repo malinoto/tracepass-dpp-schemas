@@ -2233,6 +2233,26 @@
         "sv": "Strukturerad lista över alla material per komponent med viktprocent"
       },
       "dataType": "array",
+      "entryProperties": {
+        "component": {
+          "type": "string"
+        },
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "massKg": {
+          "type": "number"
+        },
+        "massPercent": {
+          "type": "number",
+          "description": "% of the product's total mass"
+        },
+        "countryOfOrigin": {
+          "type": "string",
+          "format": "iso3166-alpha2"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -2286,7 +2306,7 @@
           "components list",
           "material breakdown"
         ],
-        "expectedFormat": "Array of objects: {component, material, weight_kg, weight_percentage, origin_country}",
+        "expectedFormat": "Array of objects: [{component: 'Seat frame', material: 'Beech wood', massKg: 6.2, massPercent: 41, countryOfOrigin: 'PL'}]. Each item: component (string); material (string, required); massKg (number); massPercent (number, % of the product's total mass); countryOfOrigin (string).",
         "extractionPriority": 9
       }
     },
@@ -2894,6 +2914,19 @@
         "sv": "Använt träslag (vanligt namn och vetenskapligt namn)"
       },
       "dataType": "array",
+      "entryProperties": {
+        "commonName": {
+          "type": "string",
+          "required": true
+        },
+        "scientificName": {
+          "type": "string"
+        },
+        "sharePercent": {
+          "type": "number",
+          "description": "% of the product's wood content"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -2943,7 +2976,7 @@
           "wood type",
           "tree species"
         ],
-        "expectedFormat": "Array of objects: {common_name, scientific_name, percentage}",
+        "expectedFormat": "Array of objects: [{commonName: 'European beech', scientificName: 'Fagus sylvatica', sharePercent: 80}]. Each item: commonName (string, required); scientificName (string); sharePercent (number, % of the product's wood content).",
         "extractionPriority": 8
       }
     },
@@ -3542,6 +3575,26 @@
         "sv": "Ämnen som inger mycket stora betänkligheter på REACH-kandidatförteckningen över 0,1 % w/w"
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article or mixture"
+        },
+        "locationInProduct": {
+          "type": "string"
+        },
+        "hazardClassification": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -3592,7 +3645,7 @@
           "REACH candidate list",
           "hazardous substances"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'Formaldehyde', casNumber: '50-00-0', concentrationPercent: 0.15, locationInProduct: 'Adhesive'}]",
+        "expectedFormat": "Array of objects: [{substanceName: 'Formaldehyde', casNumber: '50-00-0', concentrationPercent: 0.15, locationInProduct: 'Adhesive', hazardClassification: 'Carc. 1B'}]. Each item: substanceName (string, required); casNumber (string); concentrationPercent (number, % by mass of the article or mixture); locationInProduct (string); hazardClassification (string).",
         "extractionPriority": 9
       }
     },
@@ -4271,6 +4324,23 @@
         "sv": "Lista över använda flamskyddskemikalier, om tillämpligt. Halogenerade flamskyddsmedel granskas av ECHA."
       },
       "dataType": "array",
+      "entryProperties": {
+        "substanceName": {
+          "type": "string",
+          "required": true
+        },
+        "casNumber": {
+          "type": "string",
+          "format": "cas-number"
+        },
+        "type": {
+          "type": "string"
+        },
+        "concentrationPercent": {
+          "type": "number",
+          "description": "% by mass of the article"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4320,7 +4390,7 @@
           "FR chemicals",
           "flame retardant list"
         ],
-        "expectedFormat": "Array of objects: {substance_name, cas_number, type, concentration_percentage}",
+        "expectedFormat": "Array of objects: [{substanceName: 'Aluminium hydroxide', casNumber: '21645-51-2', type: 'Inorganic', concentrationPercent: 5}]. Each item: substanceName (string, required); casNumber (string); type (string); concentrationPercent (number, % by mass of the article).",
         "extractionPriority": 7
       }
     },
@@ -6992,6 +7062,18 @@
         "sv": "Lista över tillgängliga reservdelar med beställningsinformation"
       },
       "dataType": "array",
+      "entryProperties": {
+        "partName": {
+          "type": "string",
+          "required": true
+        },
+        "partNumber": {
+          "type": "string"
+        },
+        "orderingUrl": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -7044,7 +7126,7 @@
           "spare parts",
           "parts catalog"
         ],
-        "expectedFormat": "Array of objects: {part_name, part_number, ordering_url}",
+        "expectedFormat": "Array of objects: [{partName: 'Seat cushion', partNumber: 'SC-102', orderingUrl: 'https://example.com/parts/SC-102'}]. Each item: partName (string, required); partNumber (string); orderingUrl (string).",
         "extractionPriority": 6
       }
     },
@@ -7214,6 +7296,18 @@
         "sv": "Återvinningsbarhet per materialtyp"
       },
       "dataType": "array",
+      "entryProperties": {
+        "material": {
+          "type": "string",
+          "required": true
+        },
+        "recyclable": {
+          "type": "boolean"
+        },
+        "recyclingMethod": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -7262,7 +7356,7 @@
           "recyclability per material",
           "material recycling breakdown"
         ],
-        "expectedFormat": "Array of objects: {material, recyclable, method}",
+        "expectedFormat": "Array of objects: [{material: 'Steel', recyclable: true, recyclingMethod: 'Mechanical'}]. Each item: material (string, required); recyclable (boolean); recyclingMethod (string).",
         "extractionPriority": 5
       }
     },
@@ -7858,6 +7952,15 @@
         "sv": "Övriga innehavda miljö-/kvalitetscertifieringar"
       },
       "dataType": "array",
+      "entryProperties": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "licenseNumber": {
+          "type": "string"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -7905,7 +8008,7 @@
           "eco labels",
           "third-party certifications"
         ],
-        "expectedFormat": "Array of objects: {name, license_number}",
+        "expectedFormat": "Array of objects: [{name: 'Nordic Swan', licenseNumber: '3071-0001'}]. Each item: name (string, required); licenseNumber (string).",
         "extractionPriority": 5
       }
     },
@@ -8725,6 +8828,22 @@
         "sv": "Viktiga aktörer i leveranskedjan som är involverade i produktionen (i flera nivåer)"
       },
       "dataType": "array",
+      "entryProperties": {
+        "tier": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "companyName": {
+          "type": "string",
+          "required": true
+        },
+        "country": {
+          "type": "string",
+          "format": "iso3166-alpha2"
+        }
+      },
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -8775,7 +8894,7 @@
           "production chain",
           "tier 1 suppliers"
         ],
-        "expectedFormat": "Array of objects: {tier, role, company_name, country}",
+        "expectedFormat": "Array of objects: [{tier: '1', role: 'Upholstery', companyName: 'Example Textiles', country: 'PT'}]. Each item: tier (string); role (string); companyName (string, required); country (string).",
         "extractionPriority": 5
       }
     },
