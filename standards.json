@@ -397,27 +397,31 @@
       "kind": "european-standard",
       "family": "dpp-system",
       "body": "CEN/CLC/JTC 24",
-      "status": "draft",
-      "edition": null,
+      "status": "published",
+      "edition": "2026",
       "title": "Digital Product Passport – Access rights management, information system security, and business confidentiality",
       "scope": "Access-rights management, information-system security, data protection and business confidentiality (ESPR Art. 11).",
       "ojCitation": null,
-      "nationalAdoptions": {},
+      "nationalAdoptions": {
+        "GB": "BS EN 18239:2026"
+      },
       "verified": true,
-      "notes": "prEN when the six were cited. An implementing decision citing it is on the Commission's timeline for September 2026; not in the OJ yet."
+      "notes": "prEN when the six were cited. Published 30 Sep 2026 (BSI catalogue: BS EN 18239:2026, current). The implementing decision citing it was planned for September 2026 and is not in the OJ, so no presumption of conformity yet."
     },
     "EN 18246": {
       "kind": "european-standard",
       "family": "dpp-system",
       "body": "CEN/CLC/JTC 24",
-      "status": "draft",
-      "edition": null,
+      "status": "published",
+      "edition": "2026",
       "title": "Digital product passport – Data authentication, reliability and integrity",
       "scope": "Mechanisms to authenticate passport data, assess reliability and detect unauthorised change (ESPR Art. 11).",
       "ojCitation": null,
-      "nationalAdoptions": {},
+      "nationalAdoptions": {
+        "GB": "BS EN 18246:2026"
+      },
       "verified": true,
-      "notes": "prEN when the six were cited. An implementing decision citing it is on the Commission's timeline for September 2026; not in the OJ yet."
+      "notes": "prEN when the six were cited. Published 30 Sep 2026 (BSI catalogue: BS EN 18246:2026, current). The implementing decision citing it was planned for September 2026 and is not in the OJ, so no presumption of conformity yet."
     },
     "EN 1957": {
       "kind": "european-standard",
