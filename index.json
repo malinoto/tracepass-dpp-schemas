@@ -141,11 +141,9 @@
       "regulation": {
         "name": "Packaging and Packaging Waste Regulation",
         "number": "(EU) 2025/40",
-        "effectiveDate": "2027-01-01",
-        "datePrecision": "year",
-        "mandatoryDate": "2030-01-01",
-        "mandatoryDatePrecision": "year",
-        "dateBasis": "indicative"
+        "effectiveDate": "9999-12-31",
+        "mandatoryDate": "9999-12-31",
+        "dateBasis": "none"
       }
     },
     {

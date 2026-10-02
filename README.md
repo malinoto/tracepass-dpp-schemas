@@ -204,9 +204,11 @@ registry:
 Five things are worth pointing out.
 
 **`regulation.effectiveDate` is the date the passport obligation begins — not the date
-the regulation applies.** Those are different dates and can sit years apart. PPWR
-(EU) 2025/40 has applied since 12 August 2026, but its packaging DPP provisions phase
-in from 2027, so `packaging` carries `2027`, not `2026-08-12`.
+the regulation applies.** Those are different dates and can sit years apart, and
+some categories have no passport obligation at all. PPWR (EU) 2025/40 has applied since
+12 August 2026 but creates no packaging passport: Article 12 is a labelling regime (a
+harmonised material label, with a QR code optional except on reusable packaging), so
+`packaging` carries `dateBasis: "none"`, not `2026-08-12`.
 
 Read both dates with their precision marker. `datePrecision` / `mandatoryDatePrecision`
 are `"day"` or `"year"`; absent means `"day"`:
@@ -215,26 +217,25 @@ are `"day"` or `"year"`; absent means `"day"`:
   2023/1542 Article 77.
 - **`"year"`** — only the year is known, because the governing delegated or implementing
   act is not yet adopted. The day and month are filler. **Do not render these as a
-  deadline.** Nine of the thirteen categories are currently `"year"`; the other four
-  carry an exact date.
+  deadline.** Six of the thirteen categories are currently `"year"`.
 
 **`datePrecision` is not the same question as `dateBasis`, and you usually want the
 latter.** Precision asks *how exact is this date*; basis asks *does an adopted
 instrument set it at all*. `dateBasis: "statutory"` means a provision in force fixes
 the date and it can be cited — exactly three categories: `battery` (2027-02-18,
 Reg (EU) 2023/1542 Art. 77(1)), `detergents` (2029-09-23) and `toys` (2030-08-01).
-The other ten are `"indicative"`: no adopted act sets the date, so it is a planning
-target with no legal force.
-
-The two are independent, and `paints-coatings` is why the distinction matters — it has
-`datePrecision: "day"` (2010-01-01 is exact) but `dateBasis: "indicative"`, because the
-Decopaint Directive creates no passport duty at all. An exact date for an obligation
-that does not exist. Filter on `dateBasis`, not on precision, when you need to know
-what is actually mandated.
+Six are `"indicative"`: no adopted act sets the date, so it is a planning target with
+no legal force. Four are `"none"` — `fmcg`, `jewelry`, `packaging` and `paints-coatings`:
+no adopted act creates a passport for them and none is scheduled, so a passport is
+voluntary and both dates carry the sentinel `9999-12-31`, which must never be shown or
+compared. Filter on `dateBasis`, not on precision, when you need to know what is
+actually mandated.
 
 ```python
 r = template["regulation"]
-if r.get("datePrecision", "day") == "year":
+if r.get("dateBasis") == "none":
+    print("No passport obligation; a passport is voluntary")      # sentinel dates: ignore
+elif r.get("datePrecision", "day") == "year":
     print(f"DPP obligation expected in {r['effectiveDate'][:4]}")   # "2027"
 else:
     print(f"DPP obligation from {r['effectiveDate']}")              # "2027-02-18"
