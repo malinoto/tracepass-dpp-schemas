@@ -13009,12 +13009,12 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 38(7)",
+        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(1)",
         "annex": "Annex VI Part A",
         "instrument": "32023R1542",
-        "provision": "Annex VI Part A (1)",
+        "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
         "kind": "legislation",
-        "description": "Art. 38(7) and Annex VI Part A(1) require the manufacturer's name and postal address, not a registration or EORI number."
+        "description": "Annex XIII 1(a) puts the Annex VI Part A information in the passport, and Annex VI Part A(1) identifies the manufacturer by name and postal address (as Art. 38(7) requires) — not by a registration or EORI number. An operator identifier is therefore optional here."
       },
       "aiHints": {
         "alternateNames": [
