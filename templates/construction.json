@@ -4972,12 +4972,12 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR Art. 13-15",
+        "article": "CPR Arts. 13, 17-18",
         "annex": null,
         "instrument": "32024R3110",
-        "provision": "CPR (EU) 2024/3110 Arts. 13-17 — CE marking, only where a harmonised technical specification or a European Technical Assessment covers the product",
+        "provision": "Arts. 13, 17-18 — CE marking (Arts. 17-18), affixed only to products with a declaration of performance and conformity (Art. 13), and only where a harmonised technical specification or a European Technical Assessment covers the product",
         "kind": "legislation",
-        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. The duty is to affix the mark and draw up the Declaration of Performance behind it, not to publish a status flag."
+        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or a European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. The duty is to affix the mark and draw up the Declaration of Performance behind it, not to publish a status flag. Where the product falls under a harmonised standard cited under Regulation (EU) No 305/2011 and still in force, its declaration of performance and CE marking stay governed by Arts. 4 and 8-9 of that Regulation during the transition (Reg. (EU) 2024/3110 Arts. 94 and 95(3), 95(8))."
       },
       "aiHints": {
         "alternateNames": [
@@ -6496,12 +6496,12 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR Art. 13-15",
+        "article": "CPR Arts. 13, 17-18",
         "annex": null,
         "instrument": "32024R3110",
-        "provision": "Art. 13-15",
+        "provision": "Arts. 13, 17-18 — CE marking (Arts. 17-18), affixed only to products with a declaration of performance and conformity (Art. 13), and only where a harmonised technical specification or a European Technical Assessment covers the product",
         "kind": "legislation",
-        "description": "The CE mark is affixed to the product; the obligation is discharged by that mark and by the Declaration of Performance supporting it, and only where a harmonised technical specification or an ETA covers the product."
+        "description": "The CE mark is affixed to the product; the obligation is discharged by that mark and by the Declaration of Performance supporting it, and only where a harmonised technical specification or an ETA covers the product. Where the product falls under a harmonised standard cited under Regulation (EU) No 305/2011 and still in force, its declaration of performance and CE marking stay governed by Arts. 4 and 8-9 of that Regulation during the transition (Reg. (EU) 2024/3110 Arts. 94 and 95(3), 95(8))."
       },
       "aiHints": {
         "alternateNames": [
