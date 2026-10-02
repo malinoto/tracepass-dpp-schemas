@@ -10065,12 +10065,12 @@
       "sortOrder": 69,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR Arts. 13, 17-18",
+        "article": "CPR (EU) 305/2011 Arts. 4, 8-9",
         "annex": null,
-        "instrument": "32024R3110",
-        "provision": "Arts. 13(1), 17-18; Art. 94 (Reg. (EU) 305/2011 Arts. 4-9 continue to apply until 8 Jan 2040 for products under harmonised standards cited under it)",
+        "instrument": "32011R0305",
+        "provision": "Arts. 4, 8-9 (declaration of performance; CE marking)",
         "kind": "legislation",
-        "description": "CE marking under the CPR is conditional: it applies only where a harmonised technical specification or European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. For steel this is the sub-case — structural steelwork under a harmonised standard (EN 1090-1) is covered; mill products and much rebar are not.",
+        "description": "CE marking of a construction product is conditional: only a product covered by a harmonised standard or a European Technical Assessment can carry it. For structural steelwork that standard is EN 1090-1, cited under Regulation (EU) 305/2011, so 305/2011 Arts. 4 and 8-9 govern its declaration of performance and CE marking. Regulation (EU) 2024/3110 keeps those articles applying to such products until 8 January 2040 (Arts. 94, 95(3) and 95(8)) and applies its own operator obligations to a product family only one year after an implementing act covers it (Art. 95(9)); no such act covers structural steel. Mill products and much rebar fall under no harmonised standard and cannot be CE-marked.",
         "standards": [
           "EN 1090-1"
         ]
@@ -12141,12 +12141,12 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CPR Arts. 13, 17-18",
+        "article": "CPR (EU) 305/2011 Arts. 4, 8-9",
         "annex": null,
-        "instrument": "32024R3110",
-        "provision": "Arts. 13(1), 17-18; Art. 94 (Reg. (EU) 305/2011 Arts. 4-9 continue to apply until 8 Jan 2040 for products under harmonised standards cited under it)",
+        "instrument": "32011R0305",
+        "provision": "Arts. 4, 8-9 (declaration of performance; CE marking)",
         "kind": "legislation",
-        "description": "CE marking under the CPR is CONDITIONAL: it applies only where a harmonised technical specification or European Technical Assessment covers the product, and a product covered by neither cannot be CE-marked at all. For steel this is the sub-case — structural steelwork under a harmonised standard (paradigm EN 1090-1) is covered; mill products and much rebar are not. Never model steel as always-CE or never-CE, which is why not_applicable is an enum member and why the field cannot be required.",
+        "description": "CE marking of a construction product is conditional: only a product covered by a harmonised standard or a European Technical Assessment can carry it. For structural steelwork that standard is EN 1090-1, cited under Regulation (EU) 305/2011, so 305/2011 Arts. 4 and 8-9 govern its declaration of performance and CE marking. Regulation (EU) 2024/3110 keeps those articles applying to such products until 8 January 2040 (Arts. 94, 95(3) and 95(8)) and applies its own operator obligations to a product family only one year after an implementing act covers it (Art. 95(9)); no such act covers structural steel. Mill products and much rebar fall under no harmonised standard and cannot be CE-marked. Never model steel as always-CE or never-CE, which is why not_applicable is an enum member and why the field cannot be required.",
         "standards": [
           "EN 1090-1"
         ]
