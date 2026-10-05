@@ -878,6 +878,114 @@
       }
     },
     {
+      "key": "countryOfManufacture",
+      "label": {
+        "en": "Country of Manufacture",
+        "bg": "Държава на производство",
+        "de": "Herstellungsland",
+        "nl": "Productieland",
+        "hr": "Zemlja proizvodnje",
+        "cs": "Země výroby",
+        "da": "Fremstillingsland",
+        "et": "Tootmisriik",
+        "fi": "Valmistusmaa",
+        "fr": "Pays de fabrication",
+        "el": "Χώρα κατασκευής",
+        "hu": "Gyártás országa",
+        "ga": "Tír monaraíochta",
+        "it": "Paese di fabbricazione",
+        "es": "País de fabricación",
+        "lt": "Gamybos šalis",
+        "lv": "Ražošanas valsts",
+        "mt": "Pajjiż tal-manifattura",
+        "pl": "Kraj produkcji",
+        "pt": "País de fabrico",
+        "ro": "Țara de fabricație",
+        "sk": "Krajina výroby",
+        "sl": "Država proizvodnje",
+        "sv": "Tillverkningsland"
+      },
+      "description": {
+        "en": "ISO 3166-1 alpha-2 country code where the product was manufactured.",
+        "bg": "Двубуквен код на държавата ISO 3166-1 alpha-2, в която е произведен продуктът.",
+        "de": "ISO-3166-1-alpha-2-Ländercode des Herstellungslandes des Produkts.",
+        "nl": "ISO 3166-1 alfa-2-landcode waar het product is vervaardigd.",
+        "hr": "ISO 3166-1 alpha-2 kod zemlje u kojoj je proizvod proizveden.",
+        "cs": "Kód země ISO 3166-1 alpha-2, kde byl produkt vyroben.",
+        "da": "ISO 3166-1 alpha-2-landekode for det land, hvor produktet er fremstillet.",
+        "et": "ISO 3166-1 alpha-2 riigikood, kus toode toodeti.",
+        "fi": "ISO 3166-1 alpha-2 -maakoodi, jossa tuote valmistettiin.",
+        "fr": "Code pays ISO 3166-1 alpha-2 où le produit a été fabriqué.",
+        "el": "Κωδικός χώρας ISO 3166-1 alpha-2 όπου κατασκευάστηκε το προϊόν.",
+        "hu": "Az ISO 3166-1 alpha-2 országkód, ahol a terméket gyártották.",
+        "ga": "Cód tíre ISO 3166-1 alpha-2 ina ndearnadh an táirge a mhonarú.",
+        "it": "Codice paese ISO 3166-1 alpha-2 in cui è stato fabbricato il prodotto.",
+        "es": "Código de país ISO 3166-1 alpha-2 donde se fabricó el producto.",
+        "lt": "ISO 3166-1 alpha-2 šalies kodas, nurodantis, kur produktas buvo pagamintas.",
+        "lv": "ISO 3166-1 alpha-2 valsts kods, kurā produkts tika ražots.",
+        "mt": "Kodiċi tal-pajjiż ISO 3166-1 alpha-2 fejn ġie mmanifatturat il-prodott.",
+        "pl": "Kod kraju ISO 3166-1 alpha-2, w którym wytworzono produkt.",
+        "pt": "Código do país ISO 3166-1 alpha-2 onde o produto foi fabricado.",
+        "ro": "Codul de țară ISO 3166-1 alpha-2 în care a fost fabricat produsul.",
+        "sk": "Kód krajiny ISO 3166-1 alpha-2, v ktorej bol produkt vyrobený.",
+        "sl": "Koda države ISO 3166-1 alpha-2, v kateri je bil izdelek proizveden.",
+        "sv": "ISO 3166-1 alpha-2-landskod där produkten tillverkades."
+      },
+      "dataType": "string",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false
+      },
+      "category": "product_identification",
+      "categoryLabel": {
+        "en": "Product Identification",
+        "bg": "Идентификация на продукта",
+        "de": "Produktidentifikation",
+        "lt": "Produkto identifikacija",
+        "es": "Identificación del Producto",
+        "hr": "Identifikacija proizvoda",
+        "cs": "Identifikace produktu",
+        "da": "Produktidentifikation",
+        "nl": "Productidentificatie",
+        "et": "Toote identifitseerimine",
+        "fi": "Tuotteen tunnistus",
+        "fr": "Identification du produit",
+        "el": "Ταυτοποίηση προϊόντος",
+        "hu": "Termékazonosítás",
+        "ga": "Aitheantas Táirge",
+        "it": "Identificazione del prodotto",
+        "lv": "Produkta identifikācija",
+        "mt": "Identifikazzjoni tal-Prodott",
+        "pl": "Identyfikacja produktu",
+        "pt": "Identificação do Produto",
+        "ro": "Identificarea produsului",
+        "sk": "Identifikácia produktu",
+        "sl": "Identifikacija izdelka",
+        "sv": "Produktidentifiering"
+      },
+      "sortOrder": 7,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "CPR",
+        "instrument": "32024R3110",
+        "kind": "legislation",
+        "description": "No EU instrument in force requires publishing the country of manufacture: CPR (EU) 2024/3110 refers to manufacturing plants only for testing, and GPSR Art. 9(6) requires the manufacturer's address, not the factory location. Optional. The ISO code of the country in placeOfManufacture, so UNTP's countryOfProduction can be filled."
+      },
+      "aiHints": {
+        "alternateNames": [
+          "made in",
+          "country of origin",
+          "production country",
+          "manufacturing country"
+        ],
+        "expectedFormat": "ISO 3166-1 alpha-2 (e.g. DE, BG, IT)",
+        "extractionPriority": 6
+      }
+    },
+    {
       "key": "productFamily",
       "label": {
         "en": "Product Family",
@@ -6514,7 +6622,7 @@
       }
     }
   ],
-  "fieldCount": 49,
+  "fieldCount": 50,
   "requiredFieldCount": 0,
   "categories": [
     {

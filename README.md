@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-992-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-994-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,7 +39,7 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **992 fields in total. 66 are required by
+Thirteen JSON files, one per product category. **994 fields in total. 66 are required by
 a law that creates a passport; 176 are anticipated under a rule that has not yet been adopted.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
@@ -47,12 +47,12 @@ recorded per field in `regulationRef.obligations` instead of being marked requir
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
 | `battery` | 124 | 40 | Regulation (EU) 2023/1542 |
-| `construction` | 49 | 0 | CPR (EU) 2024/3110 |
+| `construction` | 50 | 0 | CPR (EU) 2024/3110 |
 | `detergents` | 77 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |
 | `fmcg` | 42 | 0 | none scheduled (ESPR could apply; not in the working plan) |
 | `furniture` | 79 | 0 | ESPR (EU) 2024/1781 |
-| `jewelry` | 53 | 0 | none scheduled (ESPR could apply; not in the working plan) |
+| `jewelry` | 54 | 0 | none scheduled (ESPR could apply; not in the working plan) |
 | `packaging` | 64 | 0 | PPWR (EU) 2025/40 |
 | `paints-coatings` | 65 | 0 | none scheduled (VOC limits: Directive 2004/42/EC) |
 | `steel` | 84 | 0 | ESPR (EU) 2024/1781 |

@@ -7,7 +7,7 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 992,
+    "fields": 994,
     "requiredFields": 66,
     "anticipatedFields": 176
   },
@@ -33,7 +33,7 @@
       "label": "Construction Materials",
       "file": "templates/construction.json",
       "version": 2,
-      "fieldCount": 49,
+      "fieldCount": 50,
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {
@@ -119,7 +119,7 @@
       "label": "Jewelry & Precious Metals",
       "file": "templates/jewelry.json",
       "version": 2,
-      "fieldCount": 53,
+      "fieldCount": 54,
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {
