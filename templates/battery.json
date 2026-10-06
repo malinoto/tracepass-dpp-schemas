@@ -4613,8 +4613,8 @@
         },
         "massPercent": {
           "type": "number",
-          "description": "% of the battery's total mass",
-          "required": true
+          "description": "Optional: % of the battery's total mass. Annex XIII asks for the materials, not their quantities.",
+          "required": false
         }
       },
       "unit": null,
@@ -4686,7 +4686,7 @@
           "cathode composition",
           "CAM"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'Lithium Nickel Cobalt Aluminum Oxide', casNumber: '193214-24-3', massPercent: 32.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lithium Nickel Cobalt Aluminum Oxide', casNumber: '193214-24-3', massPercent: 32.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (optional number, % of the battery's total mass).",
         "extractionPriority": 7
       }
     },
@@ -4756,8 +4756,8 @@
         },
         "massPercent": {
           "type": "number",
-          "description": "% of the battery's total mass",
-          "required": true
+          "description": "Optional: % of the battery's total mass. Annex XIII asks for the materials, not their quantities.",
+          "required": false
         }
       },
       "unit": null,
@@ -4829,7 +4829,7 @@
           "anode composition",
           "AAM"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'Graphite', casNumber: '7782-42-5', massPercent: 18.2}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
+        "expectedFormat": "Array of objects: [{substanceName: 'Graphite', casNumber: '7782-42-5', massPercent: 18.2}]. Each item: substanceName (string), casNumber (string, when known), massPercent (optional number, % of the battery's total mass).",
         "extractionPriority": 7
       }
     },
@@ -4899,8 +4899,8 @@
         },
         "massPercent": {
           "type": "number",
-          "description": "% of the battery's total mass",
-          "required": true
+          "description": "Optional: % of the battery's total mass. Annex XIII asks for the materials, not their quantities.",
+          "required": false
         }
       },
       "unit": null,
@@ -4972,7 +4972,7 @@
           "electrolyte components",
           "solvent composition"
         ],
-        "expectedFormat": "Array of objects: [{substanceName: 'Lithium hexafluorophosphate (LiPF6)', casNumber: '21324-40-3', massPercent: 1.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (number, % of the battery's total mass).",
+        "expectedFormat": "Array of objects: [{substanceName: 'Lithium hexafluorophosphate (LiPF6)', casNumber: '21324-40-3', massPercent: 1.5}]. Each item: substanceName (string), casNumber (string, when known), massPercent (optional number, % of the battery's total mass).",
         "extractionPriority": 6
       }
     },
@@ -5038,8 +5038,8 @@
         },
         "massPercent": {
           "type": "number",
-          "description": "% of the battery's total mass",
-          "required": true
+          "description": "Optional: % of the battery's total mass. Annex XIII asks for the materials, not their quantities.",
+          "required": false
         },
         "countryOfOrigin": {
           "type": "string",
@@ -5126,7 +5126,7 @@
           "graphite",
           "manganese"
         ],
-        "expectedFormat": "Array of objects: [{material: 'Cobalt', massPercent: 4.8, countryOfOrigin: 'CD'}]. Each item: material (string), massPercent (number, % of the battery's total mass), countryOfOrigin (ISO 3166 alpha-2, restricted access).",
+        "expectedFormat": "Array of objects: [{material: 'Cobalt', massPercent: 4.8, countryOfOrigin: 'CD'}]. Each item: material (string), massPercent (optional number, % of the battery's total mass), countryOfOrigin (ISO 3166 alpha-2, restricted access).",
         "extractionPriority": 8
       }
     },
