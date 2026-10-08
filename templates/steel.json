@@ -2842,9 +2842,9 @@
       "sortOrder": 18,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(j)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(j)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Reference: Delegated act TBD."
       },
@@ -5951,9 +5951,9 @@
       "sortOrder": 37,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(b)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(b)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text. Reference: ISO 14067.",
         "standards": [
@@ -9520,10 +9520,10 @@
       "sortOrder": 64,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(a)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "annex": null,
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(a)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and an iron and steel delegated act is scheduled (ESPR working plan COM(2025) 187: 2026; aluminium 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -9633,10 +9633,10 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(i)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "annex": null,
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(i)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and an iron and steel delegated act is scheduled (ESPR working plan COM(2025) 187: 2026; aluminium 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -9742,10 +9742,10 @@
       "sortOrder": 66,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(l)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "annex": null,
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(l)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and an iron and steel delegated act is scheduled (ESPR working plan COM(2025) 187: 2026; aluminium 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -11174,9 +11174,9 @@
       "sortOrder": 78,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "ESPR Art. 5(5)(o)",
+        "article": "ESPR Art. 4 delegated act (not adopted)",
         "instrument": "32024R1781",
-        "provision": "Article 5(5)(o)",
+        "provision": "Art. 4",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and an iron and steel delegated act is scheduled (ESPR working plan COM(2025) 187: 2026; aluminium 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text. Reference: GS1 EPCIS 2.0."
       },

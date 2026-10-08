@@ -840,6 +840,34 @@
         "VI"
       ],
       "annexesVerifiedFrom": "32014L0068"
+    },
+    "32026R1738": {
+      "kind": "legislation",
+      "shortName": "End-of-Life Vehicles Regulation",
+      "title": "Regulation (EU) 2026/1738 on circularity requirements for vehicle design and on management of end-of-life vehicles",
+      "eli": "http://data.europa.eu/eli/reg/2026/1738/oj",
+      "createsDpp": true,
+      "note": "Adopted 8 Jul 2026, OJ 24 Jul 2026. Art. 13(1): from 1 Sep 2032 each vehicle placed on the market shall have a Digital Circularity Vehicle Passport, aligned and interoperable with the battery passport (Reg 2023/1542 Art. 77) and ESPR passports. Scope M1/N1 (Art. 2(1)(a)); Art. 13 does not apply to M2, M3, N2, N3 and O vehicles (Art. 2(3)(h)), L-category vehicles (Art. 2(4)(f)) or special purpose vehicles (Art. 2(5)(i)). No TracePass template covers vehicles. Repeals Directives 2000/53/EC and 2005/64/EC.",
+      "dppMandatoryFrom": "2032-09-01",
+      "dppProvision": "Art. 13 (Digital Circularity Vehicle Passport) — from 1 Sep 2032",
+      "annexes": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII",
+        "IX",
+        "X",
+        "XI",
+        "XII",
+        "XIII",
+        "XIV",
+        "XV"
+      ],
+      "annexesVerifiedFrom": "32026R1738"
     }
   },
   "nonLegislative": {
