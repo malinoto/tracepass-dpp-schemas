@@ -143,9 +143,9 @@ marketing site checks every sentence against this registry) and the templates' o
 
 `instruments.json` also holds `plannedActs`: acts that are planned but **not adopted**,
 keyed by a stable id (`espr-da-textiles`). Each entry records the act it would be adopted
-under (`framework`, `article`), what it covers (`productGroup`, and `kind`:
-`product-group`, `horizontal` or `procedural`), its planning `stage`, and the planned
-adoption date with its precision:
+under (`framework`, `article`), what it covers (`productGroup`, a plain name; any
+qualification goes in `note`; and `kind`: `product-group`, `horizontal` or
+`procedural`), its planning `stage`, and the planned adoption date with its precision:
 
 | Source | `stage` | `planned.precision` |
 |---|---|---|

@@ -34,6 +34,8 @@ export function checkPlannedActs(registry) {
     if (typeof a.article !== 'string' || !a.article.startsWith('Art. ')) fail('article must name the empowering article ("Art. 4")')
     if (!KINDS.has(a.kind)) fail(`kind "${a.kind}" is not one of ${[...KINDS].join(', ')}`)
     if (typeof a.productGroup !== 'string' || !a.productGroup.trim()) fail('productGroup is empty')
+    if (/[()]/.test(a.productGroup ?? '')) fail('productGroup is a name; put any qualification in note')
+    if (a.note !== undefined && (typeof a.note !== 'string' || !a.note.trim())) fail('note, when present, is a non-empty string')
     if (!STAGES.has(a.stage)) fail(`stage "${a.stage}" is not one of ${[...STAGES].join(', ')}`)
     if (!/^\d{4}-\d{2}-\d{2}$/.test(a.lastChecked ?? '')) fail('lastChecked must be YYYY-MM-DD')
 

@@ -983,7 +983,8 @@
       "framework": "32024R1781",
       "article": "Art. 4",
       "kind": "horizontal",
-      "productGroup": "Horizontal repairability (consumer electronics, small household appliances, light means of transport)",
+      "productGroup": "Horizontal repairability",
+      "note": "The initiative names consumer electronics, small household appliances and light means of transport; the act will define its product scope.",
       "stage": "planned",
       "hysId": 17873,
       "planned": {
@@ -1037,7 +1038,8 @@
       "framework": "32024R1781",
       "article": "Art. 11, third subparagraph",
       "kind": "procedural",
-      "productGroup": "Digital product passport service providers (not a product group)",
+      "productGroup": "Digital product passport service providers",
+      "note": "Not a product group: requirements for providers of passport services (ESPR Art. 11).",
       "stage": "planned",
       "hysId": 14382,
       "planned": {

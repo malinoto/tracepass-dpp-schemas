@@ -48,3 +48,7 @@ test('an unknown framework, an adopted act left in the block, and precision none
   assert.match(errorsAfter((p) => { p['32024R1781'] = p['espr-da-tyres'] }), /an adopted act is an instrument|lowercase words/)
   assert.match(errorsAfter((p) => { p['cpr-art75-da'].planned.date = '2027-Q1' }), /precision none must be null/)
 })
+
+test('a qualification written into the product group name is reported (answers print the name as is)', () => {
+  assert.match(errorsAfter((p) => { p['espr-horizontal-repairability'].productGroup = 'Horizontal repairability (consumer electronics)' }), /put any qualification in note/)
+})
