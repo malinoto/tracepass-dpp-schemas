@@ -139,6 +139,30 @@ This is the one place those dates are kept. Copy that states them (the TracePass
 marketing site checks every sentence against this registry) and the templates' own
 `anticipated` flags follow it.
 
+## Planned acts
+
+`instruments.json` also holds `plannedActs`: acts that are planned but **not adopted**,
+keyed by a stable id (`espr-da-textiles`). Each entry records the act it would be adopted
+under (`framework`, `article`), what it covers (`productGroup`, and `kind`:
+`product-group`, `horizontal` or `procedural`), its planning `stage`, and the planned
+adoption date with its precision:
+
+| Source | `stage` | `planned.precision` |
+|---|---|---|
+| A Have Your Say initiative (`hysId`, `source.kind: hys`) | `planned` or `consultation` | `quarter` (the portal's planned period) |
+| The ESPR working plan COM(2025) 187 only (`source.kind: working_plan`) | `not-scheduled` | `year` |
+| Only the empowering article (`source.kind: act`) | `not-scheduled` | `none` (`date: null`) |
+
+A planned date is the Commission's intention, never an obligation date: render a quarter
+or a year as "planned", never as "from" or "by". When an act is adopted, its entry leaves
+`plannedActs` in the same release that adds the act to `instruments`. `lastChecked` is
+the day the entry was last read against its source. `npm run check:planned` enforces the
+shape, and that a date says no more than its source does.
+
+```js
+import instruments from "@tracepass/dpp-schemas/instruments.json" with { type: "json" };
+```
+
 ## Standards
 
 [`standards.json`](./standards.json) is a registry of the technical standards a field — or
@@ -358,6 +382,8 @@ runs it on every push:
   claims. It catches a field required under an act that mandates nothing, an article
   missing from the act it cites, duplicate fields, and one key with two units. See
   [`audit/README.md`](./audit/README.md).
+- **Planned acts** (`scripts/check-planned-acts.mjs`): every `plannedActs` entry names
+  an instrument it is adopted under, and its planned date matches its source's precision.
 
 ## Recent changes
 

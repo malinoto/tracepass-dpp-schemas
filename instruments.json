@@ -1,5 +1,5 @@
 {
-  "_note": "Canonical registry of the legal instruments and standards a template field may cite. `regulationRef.instrument` must be one of these keys. Every CELEX below was verified to resolve against the EU Publications Office RDF store (cdm:resource_legal_id_celex). Kinds: `legislation` binds; `standard` supports a presumption of conformity but binds nothing; `scheme` is voluntary; `national` is one member state's law; `specification` is not a reference at all.",
+  "_note": "Canonical registry of the legal instruments and standards a template field may cite. `regulationRef.instrument` must be one of these keys. Every CELEX below was verified to resolve against the EU Publications Office RDF store (cdm:resource_legal_id_celex). Kinds: `legislation` binds; `standard` supports a presumption of conformity but binds nothing; `scheme` is voluntary; `national` is one member state's law; `specification` is not a reference at all. `plannedActs` records acts that are planned but not adopted (an ESPR delegated act per product group, the DPP service-provider act, the CPR Art. 75(1) act): planning status and the planned adoption date with its precision (`quarter` from Have Your Say, `year` from the ESPR working plan COM(2025) 187, `none` when no plan states one). A planned date is the Commission's intention, never an obligation date; an entry is removed in the release that adds its adopted act to `instruments`.",
   "instruments": {
     "32023R1542": {
       "kind": "legislation",
@@ -868,6 +868,205 @@
         "XV"
       ],
       "annexesVerifiedFrom": "32026R1738"
+    }
+  },
+  "plannedActs": {
+    "espr-da-iron-steel": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Iron and steel",
+      "stage": "planned",
+      "hysId": 17672,
+      "planned": {
+        "date": "2026-Q4",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/17672"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-textiles": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Apparel textiles",
+      "stage": "planned",
+      "hysId": 16116,
+      "planned": {
+        "date": "2027-Q1",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16116"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-aluminium": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Aluminium",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2027",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-tyres": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Tyres",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2027",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-furniture": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Furniture",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2028",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-mattresses": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Mattresses",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2029",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-horizontal-repairability": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "horizontal",
+      "productGroup": "Horizontal repairability (consumer electronics, small household appliances, light means of transport)",
+      "stage": "planned",
+      "hysId": 17873,
+      "planned": {
+        "date": "2027-Q2",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/17873"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-dishwashers": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Household dishwashers",
+      "stage": "planned",
+      "hysId": 17874,
+      "planned": {
+        "date": "2027-Q3",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/17874"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-da-washing-machines": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Household washing machines and washer-dryers",
+      "stage": "planned",
+      "hysId": 17994,
+      "planned": {
+        "date": "2027-Q3",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/17994"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "espr-dppsp-da": {
+      "framework": "32024R1781",
+      "article": "Art. 11, third subparagraph",
+      "kind": "procedural",
+      "productGroup": "Digital product passport service providers (not a product group)",
+      "stage": "planned",
+      "hysId": 14382,
+      "planned": {
+        "date": "2026-Q4",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14382"
+      },
+      "lastChecked": "2026-10-09"
+    },
+    "cpr-art75-da": {
+      "framework": "32024R3110",
+      "article": "Art. 75(1)",
+      "kind": "procedural",
+      "productGroup": "Construction products digital product passport system",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": null,
+        "precision": "none",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "act",
+        "url": "http://data.europa.eu/eli/reg/2024/3110/oj"
+      },
+      "lastChecked": "2026-10-09"
     }
   },
   "nonLegislative": {
