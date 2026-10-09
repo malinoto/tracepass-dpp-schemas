@@ -297,7 +297,7 @@
       "createsDpp": true,
       "dppProvision": "Art. 21(1)",
       "dppMandatoryFrom": "2029-09-23",
-      "note": "Mandates a real DPP with a QR data carrier and a central-registry entry, replacing the EU declaration of conformity. The specific article number is not yet verified against primary text.",
+      "note": "The manufacturer creates a DPP per product model before placing it on the market (Art. 21(1), 21(2)(a)), connected through a data carrier (Art. 21(4)) and referenced in the Commission's DPP registry (Art. 8(2)(c), Art. 24(1)). The passport states that compliance has been demonstrated (Art. 21(2)(b)); the Regulation sets no separate EU declaration of conformity. Importers only ensure the passport exists (Art. 10(2)).",
       "annexes": [
         "I",
         "II",
