@@ -272,9 +272,10 @@
       "createsDpp": false,
       "annexes": [
         "I",
-        "II"
+        "II",
+        "III"
       ],
-      "annexesVerifiedFrom": "32023R1115"
+      "annexesVerifiedFrom": "02023R1115-20260918"
     },
     "32017R0821": {
       "kind": "legislation",

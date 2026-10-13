@@ -2474,8 +2474,9 @@
       "sortOrder": 15,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP; (EU) 2024/2865",
+        "article": "CLP Title II (Arts. 9-13); Arts. 17, 19-21",
         "instrument": "32008R1272",
+        "provision": "Title II, Arts. 9-13 (classification)",
         "kind": "legislation",
         "description": "CLP's operative duty is to classify the substance or mixture and to communicate the resulting classification through the LABEL and the safety data sheet. Publishing the classification as product data neither creates nor discharges that obligation."
       },
@@ -3298,9 +3299,9 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "CLP Art. 45; (EU) 2017/542",
+        "article": "CLP Art. 25(7), Art. 45; Annex VIII",
         "instrument": "32008R1272",
-        "provision": "Art. 45",
+        "provision": "Art. 45 & Annex VIII",
         "kind": "legislation",
         "description": "The unique formula identifier exists to link a product to the mixture information notified to the bodies appointed under CLP Art. 45 for emergency health response. The duties are to NOTIFY those bodies and to place the UFI on the label; publishing it in a passport does neither."
       },

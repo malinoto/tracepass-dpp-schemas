@@ -4498,7 +4498,7 @@
           "polybrominated diphenyl ethers",
           "brominated flame retardant content"
         ],
-        "expectedFormat": "Number in mg/kg (max 500 unintentional)",
+        "expectedFormat": "Number in mg/kg, sum of tetra-, penta-, hexa-, hepta- and decaBDE (POPs limit 10 mg/kg; 350 mg/kg for articles made of recovered material, 200 mg/kg from 30 Dec 2027)",
         "extractionPriority": 7
       }
     },

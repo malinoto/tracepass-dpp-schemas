@@ -8314,10 +8314,11 @@
       "sortOrder": 74,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "CLP 2024/2865 (TiO2 reclassification)",
+        "article": "CLP Title II (self-classification); harmonised entry 022-006-00-2 annulled",
         "instrument": "32008R1272",
+        "provision": "Title II, Arts. 9-13 (classification)",
         "kind": "legislation",
-        "description": "Titanium dioxide carries CLP classification and labelling consequences in certain forms, and any applicable hazard statement belongs on the LABEL. CLP creates no duty to publish a content figure as product data."
+        "description": "Titanium dioxide has no harmonised CLP classification. The Carc. 2 (inhalation) entry, Notes W and 10 and the EUH211/EUH212 label statements added by Delegated Regulation (EU) 2020/217 were annulled (General Court T-279/20, 23 Nov 2022; upheld by the Court of Justice, C-71/23 P and C-82/23 P, 1 Aug 2025; Commission notice C/2025/6670). A supplier still self-classifies under CLP Title II, and any resulting hazard statement belongs on the LABEL. CLP creates no duty to publish a content figure as product data."
       },
       "aiHints": {
         "alternateNames": [
