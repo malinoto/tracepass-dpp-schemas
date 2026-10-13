@@ -4242,7 +4242,7 @@
         "instrument": "32008R1272",
         "provision": "Art. 45 & Annex VIII",
         "kind": "legislation",
-        "description": "CLP Annex VIII Part A 3.1 and Art. 25(7): a UFI for mixtures classified for health or physical hazards and notified under Art. 45; not for mixtures classified only as gases under pressure or explosives (point 2.2). A labelling and notification duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information."
+        "description": "CLP Annex VIII Part A 3.1 and Art. 25(7): a UFI for mixtures classified for health or physical hazards and notified under Art. 45; not for mixtures classified only as gases under pressure or explosives (point 2.2). A labelling and notification duty, not a passport one. Reg. (EU) 2026/405 Annex VI Part A carries no CLP item; Part B lets the passport include the Art. 17 label information. Who notifies: importers and downstream users; from 1 January 2027 also distributors that rebrand or relabel the mixture or distribute it into another Member State, unless the appointed body already holds the same information (Art. 45(1b) and (1c), as amended by Reg. (EU) 2024/2865)."
       },
       "aiHints": {
         "alternateNames": [
@@ -4350,7 +4350,7 @@
         "instrument": "32008R1272",
         "provision": "Annex VIII",
         "kind": "legislation",
-        "description": "CLP Annex VIII governs notification of hazardous mixtures to the bodies appointed under Art. 45 for emergency health response. The duty is discharged by NOTIFYING those bodies — a database entry — and the resulting UFI belongs on the label. Publishing the notification reference in a passport neither creates nor satisfies the obligation."
+        "description": "CLP Annex VIII governs notification of hazardous mixtures to the bodies appointed under Art. 45 for emergency health response. The duty is discharged by NOTIFYING those bodies — a database entry — and the resulting UFI belongs on the label. Publishing the notification reference in a passport neither creates nor satisfies the obligation. Who notifies: importers and downstream users; from 1 January 2027 also distributors that rebrand or relabel the mixture or distribute it into another Member State, unless the appointed body already holds the same information (Art. 45(1b) and (1c), as amended by Reg. (EU) 2024/2865)."
       },
       "aiHints": {
         "alternateNames": [

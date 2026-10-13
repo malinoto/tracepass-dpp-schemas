@@ -7485,7 +7485,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8003,7 +8006,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8246,7 +8252,10 @@
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(2)",
         "kind": "legislation",
-        "description": "Annex IV Part B(2) requires this ratio in the technical documentation that explains the Art. 10(1) measurements. It is not Annex XIII passport content and binds nothing in the passport."
+        "description": "Annex IV Part B(2) requires this ratio in the technical documentation that explains the Art. 10(1) measurements. It is not Annex XIII passport content and binds nothing in the passport.",
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8370,7 +8379,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8505,7 +8517,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8640,7 +8655,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -8755,7 +8773,10 @@
         "provision": "Annex XIII 1(o)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII 1(o) names 'internal battery cell and pack resistance'; module resistance is not a legal datum."
+        "description": "Annex XIII 1(o) names 'internal battery cell and pack resistance'; module resistance is not a legal datum.",
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9238,7 +9259,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9363,7 +9387,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9488,7 +9515,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -9992,7 +10022,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11295,7 +11328,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11419,7 +11455,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11543,7 +11582,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -11657,7 +11699,10 @@
         "provision": "Annex XIII 4(a)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy.",
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -13612,7 +13657,10 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -15279,7 +15327,10 @@
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(4)",
         "kind": "legislation",
-        "description": "Power capability at 80 % and 20 % state of charge is one of the Annex IV Part B elements explaining the measurements, which Art. 10(1) second subparagraph places in the technical documentation. The passport datum is originalPowerCapability (Annex XIII 1(i)); this supplementary value is optional."
+        "description": "Power capability at 80 % and 20 % state of charge is one of the Annex IV Part B elements explaining the measurements, which Art. 10(1) second subparagraph places in the technical documentation. The passport datum is originalPowerCapability (Annex XIII 1(i)); this supplementary value is optional.",
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [
@@ -15393,7 +15444,10 @@
         "instrument": "32023R1542",
         "provision": "Annex IV Part B(4)",
         "kind": "legislation",
-        "description": "Power capability at 80 % and 20 % state of charge is one of the Annex IV Part B elements explaining the measurements, which Art. 10(1) second subparagraph places in the technical documentation. The passport datum is originalPowerCapability (Annex XIII 1(i)); this supplementary value is optional."
+        "description": "Power capability at 80 % and 20 % state of charge is one of the Annex IV Part B elements explaining the measurements, which Art. 10(1) second subparagraph places in the technical documentation. The passport datum is originalPowerCapability (Annex XIII 1(i)); this supplementary value is optional.",
+        "standards": [
+          "EN 18060"
+        ]
       },
       "aiHints": {
         "alternateNames": [

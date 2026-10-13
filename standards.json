@@ -847,6 +847,31 @@
       "edition": "ISO 14021:2026",
       "status": "published",
       "notes": "The 2026 edition replaces ISO 14021:2016 and its 2021 amendment. Title checked against the ISO Open Data catalogue."
+    },
+    "EN 18060": {
+      "kind": "harmonised-standard",
+      "family": "batteries",
+      "body": "CEN",
+      "status": "published",
+      "edition": "2025",
+      "title": "Road vehicles - Rechargeable batteries with internal energy storage - Performance and durability of alkali-Ion (Li-Ion, Na-Ion), Pb, NiMH and combined chemistries EV modules and batteries",
+      "scope": "Performance and durability test methods for electric vehicle (EV) battery modules and batteries: the Battery Regulation Art. 10 / Annex IV Part A parameters (capacity and capacity fade, power and power fade, internal resistance and its increase, energy round-trip efficiency and its fade, expected lifetime). EV batteries only; not LMT or industrial batteries, and not the battery passport itself.",
+      "ojCitation": {
+        "decision": "32026D2048",
+        "eli": "http://data.europa.eu/eli/dec_impl/2026/2048/oj",
+        "published": "2026-09-16",
+        "presumptionFor": {
+          "instrument": "32023R1542",
+          "provisions": [
+            "Art. 10",
+            "Annex IV"
+          ]
+        },
+        "reference": "EN 18060:2025",
+        "ojTitle": "Road vehicles- Rechargeable batteries with internal energy storage- Performance and durability of alkali-Ion (Li-Ion, Na-Ion), Pb, NiMH and combined chemistries EV modules and batteries."
+      },
+      "verified": true,
+      "notes": "Title, reference and date from Implementing Decision (EU) 2026/2048 (OJ L, 16.9.2026), drafted by CEN under request C(2021)8614. The decision names no articles; Art. 10 / Annex IV is inferred from the title and the Art. 15(3) list, because the standard's Annex ZA is not public. The drafting technical committee is not stated in the decision and was not checked."
     }
   }
 }

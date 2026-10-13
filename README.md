@@ -183,7 +183,10 @@ registry:
   `kind: "harmonised-standard"` carry `ojCitation` — the implementing decision and the
   provisions it covers. Today that is the six CEN/CLC/JTC 24 system standards
   (EN 18216, 18219, 18220, 18221, 18222, 18223) cited by Implementing Decision (EU)
-  2026/1736 for ESPR Articles 10 and 11. EN 18239 and EN 18246 are published but not
+  2026/1736 for ESPR Articles 10 and 11, and EN 18060 (EV battery performance and
+  durability) cited by Implementing Decision (EU) 2026/2048 under the Battery
+  Regulation. The battery fields carrying Annex IV Part A values link to EN 18060 as
+  their measurement method, for EV batteries. EN 18239 and EN 18246 are published but not
   yet cited in the Official Journal.
 - **National adoptions are aliases, not separate standards.** Every CEN/CENELEC member
   publishes an EN unchanged (DIN EN 18219, BDS EN …); confirmed ones are listed under
