@@ -2208,9 +2208,30 @@
         "article": "RoHS Art. 13",
         "annex": "Annex III",
         "instrument": "32011L0065",
-        "provision": "RoHS Dir. 2011/65/EU Art. 13 + EMC Dir. 2014/30/EU Art. 15 — DoC drawn up and kept, produced on request",
+        "provision": "RoHS Dir. 2011/65/EU Arts. 7(c), 13 + EMC Dir. 2014/30/EU Arts. 7(2), 15 — DoC drawn up and kept, produced on request",
         "kind": "legislation",
-        "description": "The Declaration of Conformity is drawn up and held by the manufacturer and produced to authorities on request, not published."
+        "description": "The Declaration of Conformity is drawn up and held by the manufacturer and produced to authorities on request, not published.",
+        "obligations": [
+          {
+            "instrument": "32011L0065",
+            "provision": "Art. 7(c)",
+            "carrier": "document",
+            "condition": "electrical and electronic equipment",
+            "quote": "manufacturers draw up an EU declaration of conformity and affix the CE marking on the finished product"
+          },
+          {
+            "instrument": "32014L0030",
+            "provision": "Art. 7(2)",
+            "carrier": "document",
+            "condition": "apparatus within the EMC Directive",
+            "quote": "Where compliance of apparatus with the applicable requirements has been demonstrated by that procedure, manufacturers shall draw up an EU declaration of conformity and affix the CE marking."
+          }
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-10-16",
+          "celex": "32011L0065",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -3764,7 +3785,28 @@
         "instrument": "32017R1369",
         "provision": "Reg. (EU) 2017/1369 Arts. 3(1) and 4 — physical energy label supplied with the product and EPREL registration",
         "kind": "legislation",
-        "description": "The energy class is discharged by the printed label and the EPREL entry, and only for product groups with a delegated act."
+        "description": "The energy class is discharged by the printed label and the EPREL entry, and only for product groups with a delegated act.",
+        "obligations": [
+          {
+            "instrument": "32017R1369",
+            "provision": "Art. 3(1)",
+            "carrier": "label",
+            "condition": "product groups covered by an energy-labelling delegated act",
+            "quote": "The supplier shall ensure that products that are placed on the market are accompanied, for each individual unit, free of charge, with accurate printed labels and with product information sheets in accordance with this Regulation and the relevant delegated acts."
+          },
+          {
+            "instrument": "32017R1369",
+            "provision": "Art. 4(1)",
+            "carrier": "notification",
+            "condition": "product groups covered by an energy-labelling delegated act; entered in EPREL before the first unit of a new model is placed on the market",
+            "quote": "the supplier shall, before placing on the market a unit of a new model covered by a delegated act, enter in the public and compliance parts of the product database the information for that model, as set out in Annex I."
+          }
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-10-16",
+          "celex": "32017R1369",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -15647,11 +15689,32 @@
       "sortOrder": 129,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 33",
+        "article": "REACH Art. 33(1)–(2)",
         "instrument": "32006R1907",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "provision": "REACH (EC) 1907/2006 Art. 33(1)–(2) — to every recipient of the article, and to a consumer on request, above 0.1% w/w; minimum content the substance name",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33 applies above 0.1% w/w of a Candidate List substance: the supplier must give every recipient of the article (Art. 33(1)) and, on request, a consumer within 45 days (Art. 33(2)) the information needed for safe use, at minimum the substance name. SCIP notification to ECHA is the database side. Neither is discharged by publishing here.",
+        "obligations": [
+          {
+            "instrument": "32006R1907",
+            "provision": "Art. 33(1)",
+            "carrier": "document",
+            "condition": "the article contains a Candidate List substance above 0.1% w/w; to the recipient of the article",
+            "quote": "Any supplier of an article containing a substance meeting the criteria in Article 57 and identified in accordance with Article 59(1) in a concentration above 0,1 % weight by weight (w/w) shall provide the recipient of the article with sufficient information, available to the supplier, to allow safe use of the article including, as a minimum, the name of that substance."
+          },
+          {
+            "instrument": "32006R1907",
+            "provision": "Art. 33(2)",
+            "carrier": "document",
+            "condition": "the article contains a Candidate List substance above 0.1% w/w; on a consumer's request, free of charge within 45 days",
+            "quote": "On request by a consumer any supplier of an article containing a substance meeting the criteria in Article 57 and identified in accordance with Article 59(1) in a concentration above 0,1 % weight by weight (w/w) shall provide the consumer with sufficient information, available to the supplier, to allow safe use of the article including, as a minimum, the name of that substance."
+          }
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-10-16",
+          "celex": "32006R1907",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -15864,11 +15927,32 @@
       "sortOrder": 131,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "REACH Art. 33",
+        "article": "REACH Art. 33(1)–(2)",
         "instrument": "32006R1907",
-        "provision": "REACH (EC) 1907/2006 Art. 33(1) — on request, above 0.1% w/w, minimum content the substance name",
+        "provision": "REACH (EC) 1907/2006 Art. 33(1)–(2) — to every recipient of the article, and to a consumer on request, above 0.1% w/w; minimum content the substance name",
         "kind": "legislation",
-        "description": "REACH Art. 33 is an on-request duty above 0.1% w/w, answered with at minimum the substance name; SCIP notification to ECHA is the database side. Neither is discharged by publishing here."
+        "description": "REACH Art. 33 applies above 0.1% w/w of a Candidate List substance: the supplier must give every recipient of the article (Art. 33(1)) and, on request, a consumer within 45 days (Art. 33(2)) the information needed for safe use, at minimum the substance name. SCIP notification to ECHA is the database side. Neither is discharged by publishing here.",
+        "obligations": [
+          {
+            "instrument": "32006R1907",
+            "provision": "Art. 33(1)",
+            "carrier": "document",
+            "condition": "the article contains a Candidate List substance above 0.1% w/w; to the recipient of the article",
+            "quote": "Any supplier of an article containing a substance meeting the criteria in Article 57 and identified in accordance with Article 59(1) in a concentration above 0,1 % weight by weight (w/w) shall provide the recipient of the article with sufficient information, available to the supplier, to allow safe use of the article including, as a minimum, the name of that substance."
+          },
+          {
+            "instrument": "32006R1907",
+            "provision": "Art. 33(2)",
+            "carrier": "document",
+            "condition": "the article contains a Candidate List substance above 0.1% w/w; on a consumer's request, free of charge within 45 days",
+            "quote": "On request by a consumer any supplier of an article containing a substance meeting the criteria in Article 57 and identified in accordance with Article 59(1) in a concentration above 0,1 % weight by weight (w/w) shall provide the consumer with sufficient information, available to the supplier, to allow safe use of the article including, as a minimum, the name of that substance."
+          }
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-10-16",
+          "celex": "32006R1907",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
