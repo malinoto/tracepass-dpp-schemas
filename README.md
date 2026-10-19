@@ -39,14 +39,14 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **994 fields in total. 67 are required by
+Thirteen JSON files, one per product category. **994 fields in total. 66 are required by
 a law that creates a passport; 176 are anticipated under a rule that has not yet been adopted.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 124 | 41 | Regulation (EU) 2023/1542 |
+| `battery` | 124 | 40 | Regulation (EU) 2023/1542 |
 | `construction` | 50 | 0 | CPR (EU) 2024/3110 |
 | `detergents` | 77 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |

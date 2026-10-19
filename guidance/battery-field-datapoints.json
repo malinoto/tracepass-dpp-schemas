@@ -397,12 +397,6 @@
         50
       ],
       "why": "test report results, Annex XIII 3"
-    },
-    "removalInformation": {
-      "dp": [
-        48
-      ],
-      "why": "removal/dismantling document URL, Annex XIII 2(c) — shares the dismantling information data point"
     }
   },
   "primaryTextOnly": {}

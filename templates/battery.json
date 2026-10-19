@@ -6670,7 +6670,7 @@
         "el": "Πληροφορίες / εγχειρίδιο αφαίρεσης"
       },
       "description": {
-        "en": "URL to battery removal manual or instructions for safe battery removal from the product",
+        "en": "Optional URL to the battery removal and dismantling procedure document (the navigable/downloadable form of the Annex XIII 2(c) dismantling information). The dismantling information obligation is discharged by the required field dismantlingInformation; this URL is an optional supporting reference for operators who prefer a direct link to the removal procedure.",
         "bg": "URL адрес към ръководство или инструкции за безопасно изваждане на батерията от продукта",
         "de": "URL zum Ausbauleitfaden oder zu Anweisungen für den sicheren Ausbau der Batterie aus dem Produkt",
         "hr": "URL priručnika o uklanjanju ili upute za sigurno uklanjanje baterije iz proizvoda",
@@ -6701,7 +6701,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": true,
+        "required": false,
         "min": null,
         "max": null,
         "minLength": null,
@@ -6743,16 +6743,8 @@
         "provision": "Annex XIII 2(c)",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 2(c)",
-        "description": "Annex XIII 2(c) requires dismantling information (accessible to persons with a legitimate interest) including exploded diagrams, disassembly sequences, fastening techniques, tools, warnings and cell layout. removalInformation holds the URL to the removal and dismantling procedure document for the battery — the navigable/downloadable component of the 2(c) dismantling information set. The previous citation (Art. 11(1)) covered products with incorporated PORTABLE batteries, which carry no passport.",
-        "obligations": [
-          {
-            "instrument": "32023R1542",
-            "provision": "Annex XIII 2(c)",
-            "carrier": "passport",
-            "condition": null,
-            "quote": "dismantling information, including at least:"
-          }
-        ],
+        "description": "Annex XIII 2(c) requires dismantling information (accessible to persons with a legitimate interest) including exploded diagrams, disassembly sequences, fastening techniques, tools, warnings and cell layout. dismantlingInformation (required) discharges this obligation; removalInformation is an optional supporting URL to the same procedural document. The previous citation (Art. 11(1)) covered products with incorporated PORTABLE batteries, which carry no passport.",
+        "obligations": [],
         "verifiedAgainstPrimaryText": {
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
@@ -16288,7 +16280,7 @@
     }
   ],
   "fieldCount": 124,
-  "requiredFieldCount": 41,
+  "requiredFieldCount": 40,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",
@@ -16300,5 +16292,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1). | v6: Four end-of-life field corrections. (1) roleOfEndUsersInWastePrevention: dataType url → string (text may contain URL), description updated to verbatim Art. 74(1)(a) scope (extending use phase, re-use, repurposing, remanufacturing). (2) informationOnSeparateCollection: dataType url → string, description corrected to Art. 74(1)(b) (end-users' role in separate collection under Art. 64), not Art. 74(1)(c) (collection points). (3) safetyInformationEndOfLife: dataType url → string, translatable false → true, label/description updated to 'safety measures for dismantling' (Annex XIII 2(d), legitimate-interest tier), distinguished from safetyInstructionsWasteBatteries (74(1)(d), public). (4) removalInformation: re-cited from Art. 11(1) (portable batteries in products, no passport) to Annex XIII 2(c) (dismantling information, legitimate-interest tier), required false → true (consistent with dismantlingInformation also under 2(c)). requiredFieldCount 40 → 41."
+  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1). | v6: Four end-of-life field corrections. (1) roleOfEndUsersInWastePrevention: dataType url → string (text may contain URL), description updated to verbatim Art. 74(1)(a) scope (extending use phase, re-use, repurposing, remanufacturing). (2) informationOnSeparateCollection: dataType url → string, description corrected to Art. 74(1)(b) (end-users' role in separate collection under Art. 64), not Art. 74(1)(c) (collection points). (3) safetyInformationEndOfLife: dataType url → string, translatable false → true, label/description updated to 'safety measures for dismantling' (Annex XIII 2(d), legitimate-interest tier), distinguished from safetyInstructionsWasteBatteries (74(1)(d), public). (4) removalInformation: re-cited from Art. 11(1) (portable batteries in products, no passport) to Annex XIII 2(c) (dismantling information, legitimate-interest tier), required stays false (optional supporting URL; the obligation is fully discharged by dismantlingInformation which is already required). requiredFieldCount stays 40."
 }
