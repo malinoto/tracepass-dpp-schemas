@@ -26,7 +26,7 @@
     "sv": "Batteri",
     "el": "Μπαταρία"
   },
-  "version": 5,
+  "version": 6,
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",
@@ -5900,32 +5900,32 @@
         "el": "Ρόλος των τελικών χρηστών στην πρόληψη αποβλήτων"
       },
       "description": {
-        "en": "Information on the role of end-users in contributing to waste prevention, including by responsible use and proper disposal",
-        "bg": "Информация за ролята на крайните потребители в допринасянето за предотвратяване на отпадъци, включително чрез отговорна употреба и правилно изхвърляне",
-        "de": "Informationen zur Rolle der Endnutzer bei der Abfallvermeidung, einschließlich verantwortungsvollem Gebrauch und ordnungsgemäßer Entsorgung",
-        "hr": "Informacije o ulozi krajnjih korisnika u doprinošenju sprječavanju otpada, uključujući odgovoran rad i pravilno odlaganje",
-        "cs": "Informace o roli koncových uživatelů v přispívání k prevenci odpadů, včetně odpovědného používání a řádné likvidace",
-        "da": "Oplysninger om slutbrugernes rolle i affaldsforebyggelse, blandt andet gennem ansvarlig brug og korrekt bortskaffelse",
-        "nl": "Informatie over de rol van eindgebruikers in afvalpreventie, inclusief verantwoord gebruik en juiste verwijdering",
-        "et": "Teave lõppkasutajate rollist jäätmete ennetamisel, sealhulgas vastutustundlikule kasutamisele ja nõuetekohasele kõrvaldamisele",
-        "fi": "Tiedot loppukäyttäjien roolista jätteiden ehkäisyyn, mukaan lukien vastuullinen käyttö ja asianmukainen hävittäminen",
-        "fr": "Informations sur le rôle des utilisateurs finaux dans la contribution à la prévention des déchets, y compris par une utilisation responsable et un élimination correcte",
-        "hu": "Információ a végfelhasználók hulladékmegelőzésben betöltött szerepéről, beleértve a felelős használatot és a megfelelő ártalmatlanítást",
-        "ga": "Faisnéis ar an ról a bhíonn ag úsáideoirí deireannacha i randaldhéanamh ar dhúlachas dramhaíola, lena n-áirítear trí úsáid fhreagrach agus foshochrú cuí",
-        "it": "Informazioni sul ruolo degli utenti finali nel contribuire alla prevenzione dei rifiuti, compreso l'uso responsabile e lo smaltimento corretto",
-        "lv": "Informācija par galapatērētāju lomu atkritumu novēršanā, ieskaitant atbildīgu izmantošanu un pareizu nodalīšanu",
-        "lt": "Informacija apie galutinių naudotojų vaidmenį atliekų prevencijoje, įskaitant atsakingą naudojimą ir tinkamą išmetimą",
-        "mt": "Informazzjoni dwar ir-rwol tal-end-users fil-kontribuzzjoni għall-prevenzjoni tal-iskart, inkluż permezz ta' użu responsabbli u tkeċċija xierqa",
-        "pl": "Informacje o roli użytkowników końcowych w przyczynianiu się do zapobiegania odpadom, w tym poprzez odpowiedzialne użytkowanie i właściwą utylizację",
-        "pt": "Informações sobre o papel dos utilizadores finais na contribuição para a prevenção de resíduos, incluindo utilização responsável e eliminação adequada",
-        "ro": "Informații despre rolul utilizatorilor finali în contribuția la prevenirea deșeurilor, inclusiv prin utilizare responsabilă și eliminare corespunzătoare",
-        "sk": "Informácie o úlohe koncových používateľov pri prispievaní k prevencii odpadov, vrátane zodpovedného používania a riadneho zneškodnenia",
-        "sl": "Informacije o vlogi končnih uporabnikov pri prispevanju k preprečevanju nastajanja odpadkov, vključno z odgovorno uporabo in pravilno odstranitvijo",
-        "es": "Información sobre la función de los usuarios finales en la contribución a la prevención de residuos, incluyendo uso responsable y eliminación adecuada",
-        "sv": "Information om slutanvändares roll i bidragandet till avfallsförebyggande, inklusive genom ansvarsfull användning och korrekt avfallshantering",
-        "el": "Πληροφορίες για τον ρόλο των τελικών χρηστών στη συμβολή για την πρόληψη αποβλήτων, μέσω υπεύθυνης χρήσης και ορθής απόρριψης"
+        "en": "Information and guidance on end-users' role in contributing to waste prevention, including good practices and recommendations concerning the use of batteries aimed at extending their use phase, and the possibilities of re-use, preparation for re-use, preparation for repurposing, repurposing and remanufacturing.",
+        "bg": "Информация и насоки за ролята на крайните потребители в допринасянето за предотвратяване на отпадъци, включително добри практики и препоръки относно употребата на батерии с цел удължаване на жизнения им цикъл и възможностите за повторна употреба, подготовка за повторна употреба, подготовка за преназначаване, преназначаване и рефабрикуване.",
+        "de": "Informationen und Orientierung zur Rolle der Endnutzer bei der Abfallvermeidung, einschließlich bewährter Verfahren und Empfehlungen zur Nutzung von Batterien zur Verlängerung ihrer Nutzungsphase sowie der Möglichkeiten zur Wiederverwendung, Vorbereitung zur Wiederverwendung, Vorbereitung zur Umwidmung, Umwidmung und Wiederaufarbeitung.",
+        "hr": "Informacije i smjernice o ulozi krajnjih korisnika u doprinosu sprječavanju otpada, uključujući dobre prakse i preporuke za korištenje baterija s ciljem produženja faze korištenja te mogućnosti ponovne uporabe, pripreme za ponovnu uporabu, pripreme za prenamjenu, prenamjene i ponovne proizvodnje.",
+        "cs": "Informace a pokyny o roli koncových uživatelů při přispívání k prevenci odpadů, včetně osvědčených postupů a doporučení týkajících se používání baterií k prodloužení jejich fáze používání a možností opětovného použití, přípravy k opětovnému použití, přípravy k novému určení, nového určení a přepracování.",
+        "da": "Oplysninger og vejledning om slutbrugernes rolle i affaldsforebyggelse, herunder god praksis og anbefalinger vedrørende brug af batterier med henblik på at forlænge deres brugsfase og mulighederne for genbrug, forberedelse til genbrug, forberedelse til genanvendelse til andet formål, genanvendelse til andet formål og remanufacturing.",
+        "nl": "Informatie en begeleiding over de rol van eindgebruikers bij afvalpreventie, inclusief goede praktijken en aanbevelingen voor het gebruik van batterijen gericht op het verlengen van de gebruiksfase en de mogelijkheden voor hergebruik, voorbereiding voor hergebruik, voorbereiding voor herbestemming, herbestemming en remanufacturing.",
+        "et": "Teave ja juhised lõppkasutajate rolli kohta jäätmete ennetamisse panustamisel, sealhulgas head tavad ja soovitused akude kasutamise kohta nende kasutusperioodi pikendamiseks ning taaskasutuse, taaskasutuseks ettevalmistamise, ümberkasutusse võtmiseks ettevalmistamise, ümberkasutusse võtmise ja uuendamise võimaluste kohta.",
+        "fi": "Tiedot ja ohjeistus loppukäyttäjien roolista jätteiden ehkäisyyn, mukaan lukien hyvät käytännöt ja suositukset paristojen käytöstä niiden käyttövaiheen pidentämiseksi sekä uudelleenkäytön, uudelleenkäyttöön valmistelun, uuteen käyttöön valmistelun, uuteen käyttöön oton ja uudelleenvalmistuksen mahdollisuuksista.",
+        "fr": "Informations et orientations sur le rôle des utilisateurs finaux dans la prévention des déchets, y compris les bonnes pratiques et recommandations concernant l'utilisation des batteries visant à prolonger leur phase d'utilisation et les possibilités de réemploi, de préparation en vue du réemploi, de préparation en vue du réemploi à d'autres fins, de réemploi à d'autres fins et de remanufacturing.",
+        "hu": "Információ és útmutatás a végfelhasználók hulladékmegelőzésben betöltött szerepéről, beleértve a bevált gyakorlatokat és ajánlásokat az akkumulátorok felhasználásával kapcsolatban a felhasználási fázis meghosszabbítása érdekében, valamint az újrahasználat, újrahasználatra való előkészítés, más célra való felhasználásra való előkészítés, más célra való felhasználás és újragyártás lehetőségeiről.",
+        "ga": "Faisnéis agus treoir maidir le ról úsáideoirí deireannacha i ranníocaíocht le cosc dramhaíola, lena n-áirítear dea-chleachtais agus moltaí maidir le húsáid cadhnraí arb é is aidhm leo a gcéim úsáide a fhadú agus na féidearthachtaí athúsáide, ullmhúcháin le haghaidh athúsáide, ullmhúcháin le haghaidh athchaipitlithe, athchaipitlithe agus athdhéantúsaíochta.",
+        "it": "Informazioni e indicazioni sul ruolo degli utenti finali nel contribuire alla prevenzione dei rifiuti, comprese le buone pratiche e le raccomandazioni riguardanti l'uso delle batterie per estendere la loro fase d'uso e le possibilità di riutilizzo, preparazione per il riutilizzo, preparazione per il reimpiego, reimpiego e rimanufacturing.",
+        "lv": "Informācija un norādes par galapatērētāju lomu atkritumu novēršanā, tostarp labā prakse un ieteikumi attiecībā uz akumulatoru izmantošanu, lai pagarinātu to izmantošanas fāzi, kā arī par atkārtotās izmantošanas, sagatavošanas atkārtotai izmantošanai, sagatavošanas pārprofilēšanai, pārprofilēšanas un pārražošanas iespējām.",
+        "lt": "Informacija ir gairės apie galutinių naudotojų vaidmenį prisidedant prie atliekų prevencijos, įskaitant geriausią praktiką ir rekomendacijas dėl baterijų naudojimo jų naudojimo fazei pratęsti bei pakartotinio naudojimo, ruošimo pakartotiniam naudojimui, ruošimo perprofilėjimui, perprofilėjimo ir perdirbimo galimybių.",
+        "mt": "Informazzjoni u gwida dwar ir-rwol tal-utenti finali fil-kontribuzzjoni għall-prevenzjoni tal-iskart, inklużi prattiki tajba u rakkomandazzjonijiet dwar l-użu tal-batteriji bil-ħsieb li jiġi estiż il-fażi tal-użu tagħhom u l-possibilitajiet ta' użu mill-ġdid, preparazzjoni għall-użu mill-ġdid, preparazzjoni għall-użu mill-ġdid għal skopijiet oħra, użu mill-ġdid għal skopijiet oħra u rimanufattura.",
+        "pl": "Informacje i wskazówki dotyczące roli użytkowników końcowych w przyczynianiu się do zapobiegania odpadom, w tym dobre praktyki i zalecenia dotyczące korzystania z baterii mające na celu przedłużenie ich fazy użytkowania oraz możliwości ponownego użycia, przygotowania do ponownego użycia, przygotowania do zmiany przeznaczenia, zmiany przeznaczenia i remanufacturingu.",
+        "pt": "Informações e orientações sobre o papel dos utilizadores finais na contribuição para a prevenção de resíduos, incluindo boas práticas e recomendações relativas à utilização de baterias com o objetivo de prolongar a sua fase de utilização e as possibilidades de reutilização, preparação para reutilização, preparação para requalificação, requalificação e refabricação.",
+        "ro": "Informații și orientări privind rolul utilizatorilor finali în contribuția la prevenirea deșeurilor, inclusiv bune practici și recomandări privind utilizarea bateriilor pentru prelungirea fazei lor de utilizare și posibilitățile de reutilizare, pregătire pentru reutilizare, pregătire pentru realocare, realocare și remanufacturare.",
+        "sk": "Informácie a usmernenia o úlohe koncových používateľov pri prispievaní k prevencii odpadov, vrátane osvedčených postupov a odporúčaní týkajúcich sa používania batérií s cieľom predĺženia ich fázy používania a možností opätovného použitia, prípravy na opätovné použitie, prípravy na iné použitie, iného použitia a repasáže.",
+        "sl": "Informacije in smernice o vlogi končnih uporabnikov pri prispevanju k preprečevanju nastajanja odpadkov, vključno z dobrimi praksami in priporočili glede uporabe baterij z namenom podaljšanja njihove uporabne faze ter možnosti ponovne uporabe, priprave za ponovno uporabo, priprave za prenamembnost, prenamembnosti in predelave.",
+        "es": "Información y orientación sobre el papel de los usuarios finales en la contribución a la prevención de residuos, incluidas las buenas prácticas y recomendaciones relativas al uso de las baterías destinadas a prolongar su fase de uso y las posibilidades de reutilización, preparación para la reutilización, preparación para la reconfiguración, reconfiguración y remanufactura.",
+        "sv": "Information och vägledning om slutanvändares roll i bidragandet till avfallsförebyggande, inklusive god praxis och rekommendationer om användning av batterier i syfte att förlänga användningsfasen samt möjligheter till återanvändning, förberedelse för återanvändning, förberedelse för omändamålsanvändning, omändamålsanvändning och ånytillverkning.",
+        "el": "Πληροφορίες και καθοδήγηση σχετικά με τον ρόλο των τελικών χρηστών στη συμβολή για την πρόληψη αποβλήτων, συμπεριλαμβανομένων ορθών πρακτικών και συστάσεων για τη χρήση μπαταριών με στόχο την παράταση της φάσης χρήσης τους και τις δυνατότητες επαναχρησιμοποίησης, προετοιμασίας για επαναχρησιμοποίηση, προετοιμασίας για επαναπροσδιορισμό χρήσης, επαναπροσδιορισμού χρήσης και ανακατασκευής."
       },
-      "dataType": "url",
+      "dataType": "string",
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -5980,7 +5980,7 @@
             "provision": "Annex XIII 1(s) with Art. 74(1)(a)",
             "carrier": "passport",
             "condition": null,
-            "quote": "the role of end-users in contributing to waste prevention"
+            "quote": "the role of end-users in contributing to waste prevention, including by information on good practices and recommendations concerning the use of batteries aimed at extending their use phase and the possibilities of re-use, preparation for re-use, preparation for repurposing, repurposing and remanufacturing;"
           }
         ],
         "verifiedAgainstPrimaryText": {
@@ -5995,7 +5995,7 @@
           "end user waste guidance",
           "user waste prevention"
         ],
-        "expectedFormat": "URL or descriptive text",
+        "expectedFormat": "Text (may include URL) describing end-users' role in waste prevention",
         "extractionPriority": 3
       }
     },
@@ -6028,32 +6028,32 @@
         "el": "Πληροφορίες για τη χωριστή συλλογή"
       },
       "description": {
-        "en": "Information about separate collection requirements and available collection points",
-        "bg": "Информация относно изискванията за разделно събиране и наличните места за събиране",
-        "de": "Informationen zu den Anforderungen an die getrennte Sammlung und verfügbaren Sammelstellen",
-        "hr": "Informacije o zahtjevima za odvojenom zbir kom i dostupnim mjestima zbirke",
-        "cs": "Informace o požadavcích na separovaný sběr a dostupných sběrných místech",
-        "da": "Oplysninger om krav til separat indsamling og tilgængelige indsamlingssteder",
-        "nl": "Informatie over vereisten voor gescheiden inzameling en beschikbare inzamellocaties",
-        "et": "Teave eraldi kogumise nõuete ja saadaolevate kogumispunktide kohta",
-        "fi": "Tiedot erillisen keräyksen vaatimuksista ja käytettävissä olevista keräyspisteistä",
-        "fr": "Informations sur les obligations de collecte séparée et les points de collecte disponibles",
-        "hu": "Információ a külön gyűjtés követelményeiről és az elérhető gyűjtőpontokról",
-        "ga": "Faisnéis faoi riachtanais bhailithe ar leith agus pointe bailithe a bhíonn ar fáil",
-        "it": "Informazioni sui requisiti di raccolta separata e sui punti di raccolta disponibili",
-        "lv": "Informācija par atdalītas savākšanas prasībām un pieejamajiem savākšanas punktiem",
-        "lt": "Informacija apie atskiro surinkimo reikalavimus ir prieinamus surinkimo centrus",
-        "mt": "Informazzjoni dwar ir-rekwiżiti ta' ġbir separat u l-punti ta' ġbir disponibbli",
-        "pl": "Informacje o wymogach oddzielnej kolekcji i dostępnych punktach zbiórkowych",
-        "pt": "Informações sobre requisitos de recolha separada e pontos de recolha disponíveis",
-        "ro": "Informații despre cerințele de colectare separată și punctele de colectare disponibile",
-        "sk": "Informácie o požiadavkách na oddelený zber a dostupných zberných miestach",
-        "sl": "Informacije o zahtevah za ločeno zbiranje in razpoložljivih zbirnih mestih",
-        "es": "Información sobre requisitos de recogida separada y puntos de recogida disponibles",
-        "sv": "Information om krav på separat insamling och tillgängliga insamlingspunkter",
-        "el": "Πληροφορίες για τις απαιτήσεις χωριστής συλλογής και τα διαθέσιμα σημεία συλλογής"
+        "en": "Information on the role of end-users in contributing to the separate collection of waste batteries in accordance with their obligations under Art. 64, to allow their treatment and high-quality recycling.",
+        "bg": "Информация за ролята на крайните потребители в допринасянето за разделното събиране на отпадни батерии в съответствие с техните задължения по чл. 64, за да позволят тяхното третиране и рециклиране с висококачествен резултат.",
+        "de": "Informationen über die Rolle der Endnutzer bei der getrennten Sammlung von Altbatterien gemäß ihren Verpflichtungen nach Art. 64, um deren Behandlung und hochwertiges Recycling zu ermöglichen.",
+        "hr": "Informacije o ulozi krajnjih korisnika u doprinosu odvojenom sakupljanju otpadnih baterija u skladu s njihovim obvezama prema čl. 64, kako bi se omogućila obrada i visokokvalitetno recikliranje.",
+        "cs": "Informace o roli koncových uživatelů při přispívání k oddělené sbírce odpadních baterií v souladu s jejich povinnostmi podle čl. 64, aby bylo umožněno jejich zpracování a vysoce kvalitní recyklace.",
+        "da": "Oplysninger om slutbrugernes rolle i den separate indsamling af affaldsbatterier i overensstemmelse med deres forpligtelser efter art. 64, for at muliggøre behandling og høj kvalitets genbrug.",
+        "nl": "Informatie over de rol van eindgebruikers bij de gescheiden inzameling van afvalbatterijen overeenkomstig hun verplichtingen krachtens art. 64, om de behandeling en hoogwaardig recycling mogelijk te maken.",
+        "et": "Teave lõppkasutajate rolli kohta jäätmeks muutunud akude eraldi kogumisse panustamisel vastavalt nende kohustusele Art. 64 alusel, et võimaldada nende töötlemist ja kõrgetasemelist ringlussevõttu.",
+        "fi": "Tiedot loppukäyttäjien roolista jäteakkujen erillisen keräyksen edistämisessä art. 64 mukaisten velvoitteidensa mukaisesti, jotta mahdollistetaan niiden käsittely ja korkealaatuinen kierrätys.",
+        "fr": "Informations sur le rôle des utilisateurs finaux dans la collecte séparée des piles et batteries usagées conformément à leurs obligations au titre de l'art. 64, pour permettre leur traitement et leur recyclage de qualité.",
+        "hu": "Információ a végfelhasználók szerepéről az elhasznált akkumulátorok különválasztott gyűjtéséhez való hozzájárulásban a 64. cikk szerinti kötelezettségeikkel összhangban, hogy lehetővé váljon azok kezelése és minőségi újrahasznosítása.",
+        "ga": "Faisnéis maidir le ról úsáideoirí deireannacha i ranníocaíocht le bailiú ar leith cadhnraí dramhaíola i gcomhréir lena n-oibleagáidí faoi Airteagal 64, chun a gcóireáil agus a n-athchúrsáil ardchaighdeánach a cheadú.",
+        "it": "Informazioni sul ruolo degli utenti finali nel contribuire alla raccolta separata delle batterie a fine vita in conformità con i loro obblighi ai sensi dell'art. 64, al fine di consentirne il trattamento e il riciclaggio di alta qualità.",
+        "lv": "Informācija par galapatērētāju lomu atdalītās savākšanas veicināšanā nolietoto akumulatoru savākšanai atbilstoši to pienākumiem saskaņā ar Art. 64, lai nodrošinātu to apstrādi un augstas kvalitātes pārstrādi.",
+        "lt": "Informacija apie galutinių naudotojų vaidmenį prisidedant prie atliekų baterijų atskiro surinkimo pagal jų įsipareigojimus pagal 64 str., kad būtų galima jas apdoroti ir kokybiškai perdirbti.",
+        "mt": "Informazzjoni dwar ir-rwol tal-utenti finali fil-kontribuzzjoni għall-ġbir separat tal-batteriji tal-iskart skont l-obbligi tagħhom taħt l-Art. 64, biex jippermettu l-ipproċessar u r-riċiklaġġ ta' kwalità għolja tagħhom.",
+        "pl": "Informacje o roli użytkowników końcowych w przyczynianiu się do selektywnej zbiórki zużytych baterii zgodnie z ich obowiązkami wynikającymi z art. 64, aby umożliwić ich przetwarzanie i wysokojakościowe recyklowanie.",
+        "pt": "Informações sobre o papel dos utilizadores finais na contribuição para a recolha seletiva de baterias usadas em conformidade com as suas obrigações ao abrigo do art. 64.º, para permitir o seu tratamento e reciclagem de alta qualidade.",
+        "ro": "Informații privind rolul utilizatorilor finali în contribuția la colectarea separată a bateriilor uzate în conformitate cu obligațiile acestora în temeiul Art. 64, pentru a permite prelucrarea și reciclarea lor de înaltă calitate.",
+        "sk": "Informácie o úlohe koncových používateľov pri prispievaní k triedenému zberu odpadových batérií v súlade s ich povinnosťami podľa čl. 64, aby bolo umožnené ich spracovanie a vysoko kvalitné recyklovanie.",
+        "sl": "Informacije o vlogi končnih uporabnikov pri prispevanju k ločenemu zbiranju odpadnih baterij v skladu z njihovimi obveznostmi po čl. 64, da se omogoči njihova obdelava in visokokakovostno recikliranje.",
+        "es": "Información sobre el papel de los usuarios finales en la contribución a la recogida separada de baterías usadas de acuerdo con sus obligaciones en virtud del art. 64, para permitir su tratamiento y reciclaje de alta calidad.",
+        "sv": "Information om slutanvändares roll i bidragandet till separat insamling av avfallsbatterier i enlighet med deras skyldigheter enligt art. 64, för att möjliggöra behandling och återvinning av hög kvalitet.",
+        "el": "Πληροφορίες για τον ρόλο των τελικών χρηστών στη συμβολή για τη χωριστή συλλογή αποβλήτων μπαταριών σύμφωνα με τις υποχρεώσεις τους βάσει του Άρθρου 64, για να επιτραπεί η επεξεργασία τους και η ποιοτική ανακύκλωσή τους."
       },
-      "dataType": "url",
+      "dataType": "string",
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -6108,7 +6108,7 @@
             "provision": "Annex XIII 1(s) with Art. 74(1)(b)",
             "carrier": "passport",
             "condition": null,
-            "quote": "the role of end-users in contributing to the separate collection of waste batteries"
+            "quote": "the role of end-users in contributing to the separate collection of waste batteries in accordance with their obligations under Article 64 to allow their treatment;"
           }
         ],
         "verifiedAgainstPrimaryText": {
@@ -6123,7 +6123,7 @@
           "collection points",
           "recycling collection"
         ],
-        "expectedFormat": "URL or descriptive text",
+        "expectedFormat": "Text (may include URL) describing end-users' role in separate collection",
         "extractionPriority": 3
       }
     },
@@ -6701,7 +6701,7 @@
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
-        "required": false,
+        "required": true,
         "min": null,
         "max": null,
         "minLength": null,
@@ -6738,20 +6738,26 @@
       "sortOrder": 46,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Art. 11(1)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Art. 11(1)",
+        "provision": "Annex XIII 2(c)",
         "kind": "legislation",
-        "description": "Art. 11(1) removal and replacement instructions cover products incorporating PORTABLE batteries, which carry no passport; not an Annex XIII point.",
+        "article": "Battery Regulation Annex XIII 2(c)",
+        "description": "Annex XIII 2(c) requires dismantling information (accessible to persons with a legitimate interest) including exploded diagrams, disassembly sequences, fastening techniques, tools, warnings and cell layout. removalInformation holds the URL to the removal and dismantling procedure document for the battery — the navigable/downloadable component of the 2(c) dismantling information set. The previous citation (Art. 11(1)) covered products with incorporated PORTABLE batteries, which carry no passport.",
         "obligations": [
           {
             "instrument": "32023R1542",
-            "provision": "Art. 11(1)",
-            "carrier": "document",
-            "condition": "products incorporating portable batteries, which are outside the passport",
-            "quote": "products are accompanied with instructions and safety information on the use, removal and replacement of the batteries"
+            "provision": "Annex XIII 2(c)",
+            "carrier": "passport",
+            "condition": null,
+            "quote": "dismantling information, including at least:"
           }
-        ]
+        ],
+        "verifiedAgainstPrimaryText": {
+          "on": "2026-09-29",
+          "celex": "02023R1542-20260813",
+          "by": "TracePass"
+        }
       },
       "aiHints": {
         "alternateNames": [
@@ -6896,60 +6902,60 @@
     {
       "key": "safetyInformationEndOfLife",
       "label": {
-        "en": "Safety Information for End-of-Life",
-        "bg": "Информация за безопасност при край на жизнения цикъл",
-        "de": "Sicherheitsinformationen für das Lebensende",
-        "hr": "Sigurnosne informacije za kraj životnog ciklusa",
-        "cs": "Bezpečnostní informace pro konec životnosti",
-        "da": "Sikkerhedsoplysninger for slutning af levetid",
-        "nl": "Veiligheidsinformatie voor end-of-life",
-        "et": "Ohutustehisandmed elutsükli lõpu jaoks",
-        "fi": "Turvatiedot elinkaaren lopun käsittelylle",
-        "fr": "Informations de sécurité pour la fin de vie",
-        "hu": "Biztonsági információ az élet végén",
-        "ga": "Faisnéis Shábháilteachta do Dheireadh an tSaoil",
-        "it": "Informazioni sulla Sicurezza per la Fine Vita",
-        "lv": "Drošības informācija dzīves cikla beigās",
-        "lt": "Saugos informacija gyvavimo ciklo pabaigai",
-        "mt": "Informazzjoni ta' Sigurezza għat-Tmiem tal-Ħajja",
-        "pl": "Informacje o bezpieczeństwie koniec żywotności",
-        "pt": "Informações de Segurança para Fim de Vida",
-        "ro": "Informații de Siguranță pentru Sfârșit de Viață",
-        "sk": "Bezpečnostné informácie na konci životnosti",
-        "sl": "Varnostne informacije za konec življenjske dobe",
-        "es": "Información de Seguridad para Fin de Vida",
-        "sv": "Säkerhetsinformation för slut på livscykeln",
-        "el": "Πληροφορίες ασφαλείας για το τέλος ζωής"
+        "en": "Safety Measures for Dismantling",
+        "bg": "Мерки за безопасност при демонтаж",
+        "de": "Sicherheitsmaßnahmen für die Demontage",
+        "hr": "Sigurnosne mjere za rastavljanje",
+        "cs": "Bezpečnostní opatření pro demontáž",
+        "da": "Sikkerhedsforanstaltninger for demontering",
+        "nl": "Veiligheidsmaatregelen voor demontage",
+        "et": "Ohutusabinõud demonteerimiseks",
+        "fi": "Turvatoimenpiteet purkamiselle",
+        "fr": "Mesures de sécurité pour le démontage",
+        "hu": "Biztonsági intézkedések szétszereléshez",
+        "ga": "Bearta Sábháilteachta do Dhí-Astarraingt",
+        "it": "Misure di Sicurezza per lo Smontaggio",
+        "lv": "Drošības pasākumi demontāžai",
+        "lt": "Saugos priemonės ardymui",
+        "mt": "Miżuri ta' Sigurezza għad-Diżassemblazzjoni",
+        "pl": "Środki bezpieczeństwa dla demontażu",
+        "pt": "Medidas de Segurança para Desmontagem",
+        "ro": "Măsuri de Siguranță pentru Demontare",
+        "sk": "Bezpečnostné opatrenia pre demontáž",
+        "sl": "Varnostni ukrepi za demontažo",
+        "es": "Medidas de Seguridad para el Desmontaje",
+        "sv": "Säkerhetsåtgärder för demontering",
+        "el": "Μέτρα ασφαλείας για αποσυναρμολόγηση"
       },
       "description": {
-        "en": "Safety measures and precautions for end-of-life handling of the battery",
-        "bg": "Мерки за безопасност и предпазни мерки при работа с батерията в края на жизнения й цикъл",
-        "de": "Sicherheitsmaßnahmen und Vorkehrungen für den Umgang mit der Batterie am Ende ihrer Lebensdauer",
-        "hr": "Sigurnosne mjere i predostoroznosti za rukovanje baterijom na kraju životnog ciklusa",
-        "cs": "Bezpečnostní opatření a upozornění pro manipulaci s baterií na konci její životnosti",
-        "da": "Sikkerhedstiltag og forholdsregler for håndtering af batteriet ved slutning af levetid",
-        "nl": "Veiligheidsmaatregelen en voorzorgsmaatregelen voor end-of-life-behandeling van batterij",
-        "et": "Turvanõuded ja ettevaatusabinõud akude elutsükli lõpul käitlemiseks",
-        "fi": "Turvatoimenpiteet ja varotoimet akun elinkaaren lopun käsittelylle",
-        "fr": "Mesures de sécurité et précautions pour la manipulation en fin de vie de la batterie",
-        "hu": "Biztonsági intézkedések és óvintézkedések az akkumulátor élet végi kezeléséhez",
-        "ga": "Bearta sábháilteachta agus réamhchúramanna do bhobhail lámhála deireannacha bataora",
-        "it": "Misure di sicurezza e precauzioni per la gestione della batteria a fine vita",
-        "lv": "Drošības pasākumi un piesardzības noteikumi akumulatora dzīves cikla beigu apstrādes gadījumā",
-        "lt": "Saugumo priemonės ir atsargumo rekomendacijos akumuliatoriaus gyvavimo ciklo pabaigos apdorojimui",
-        "mt": "Miżuri ta' sigurezza u prekawzjonijiet għall-immanejdżment tal-tmiem tal-ħajja tal-batterija",
-        "pl": "Środki bezpieczeństwa i ostrożności przy obsłudze koniec żywotności baterii",
-        "pt": "Medidas de segurança e precauções para manipulação da bateria no fim de vida",
-        "ro": "Măsuri de siguranță și precauții pentru manipularea bateriei la sfârșitul vieții",
-        "sk": "Bezpečnostné opatrenia a opatrenia prevencie pri manipulácii s batériou na konci jej životnosti",
-        "sl": "Varnostni ukrepi in previdnostni ukrepi za ravnanje z baterijo na koncu njene življenjske dobe",
-        "es": "Medidas de seguridad y precauciones para manipulación de fin de vida de la batería",
-        "sv": "Säkerhetsmått och försiktighetsåtgärder för hantering av batteri vid slut på livscykeln",
-        "el": "Μέτρα ασφαλείας και προφυλάξεις για τον χειρισμό της μπαταρίας στο τέλος ζωής"
+        "en": "Safety measures required for dismantling the battery, covering precautions and procedures for operators performing dismantling, repurposing or remanufacturing (Annex XIII 2(d), legitimate-interest tier). Distinct from safetyInstructionsWasteBatteries (Annex XIII 1(s) Art. 74(1)(d)), which covers safety instructions for end-users handling waste batteries and is publicly accessible.",
+        "bg": "Мерки за безопасност, необходими за демонтажа на батерията, включващи предпазни мерки и процедури за оператори, извършващи демонтаж, преназначаване или рефабрикуване (Анекс XIII 2(г), ниво на законен интерес). Различно от safetyInstructionsWasteBatteries (Анекс XIII 1(с) чл. 74(1)(г)), обхващащ инструкциите за безопасност за крайните потребители.",
+        "de": "Sicherheitsmaßnahmen für die Demontage der Batterie, einschließlich Vorsichtsmaßnahmen und Verfahren für Betreiber, die Demontage, Umwidmung oder Wiederaufarbeitung durchführen (Anhang XIII 2(d), Ebene berechtigtes Interesse). Unterscheidet sich von safetyInstructionsWasteBatteries (Anhang XIII 1(s) Art. 74(1)(d)), der Sicherheitsanweisungen für Endnutzer enthält.",
+        "hr": "Sigurnosne mjere potrebne za rastavljanje baterije, uključujući mjere predostrožnosti i postupke za operatere koji obavljaju rastavljanje, prenamjenu ili ponovnu proizvodnju (Prilog XIII 2(d), razina legitimnog interesa). Razlikuje se od safetyInstructionsWasteBatteries (Prilog XIII 1(s) čl. 74(1)(d)), koji se odnosi na upute za sigurnost za krajnje korisnike.",
+        "cs": "Bezpečnostní opatření nutná pro demontáž baterie, zahrnující opatření pro operátory provádějící demontáž, přeúčelování nebo přepracování (Příloha XIII 2(d), úroveň oprávněného zájmu). Odlišné od safetyInstructionsWasteBatteries (Příloha XIII 1(s) čl. 74(1)(d)), který pokrývá bezpečnostní pokyny pro koncové uživatele.",
+        "da": "Sikkerhedsforanstaltninger krævet til demontering af batteriet, herunder forholdsregler og procedurer for operatører der udfører demontering, genanvendelse til andet formål eller remanufacturing (Bilag XIII 2(d), niveau for legitim interesse). Adskiller sig fra safetyInstructionsWasteBatteries (Bilag XIII 1(s) art. 74(1)(d)), som dækker sikkerhedsinstruktioner til slutbrugere.",
+        "nl": "Veiligheidsmaatregelen vereist voor demontage van de batterij, inclusief voorzorgsmaatregelen en procedures voor operators die demontage, herbestemming of remanufacturing uitvoeren (Bijlage XIII 2(d), niveau legitiem belang). Onderscheiden van safetyInstructionsWasteBatteries (Bijlage XIII 1(s) art. 74(1)(d)), die veiligheidsinstructies voor eindgebruikers omvat.",
+        "et": "Ohutusabinõud, mis on vajalikud aku demonteerimiseks, hõlmates ettevaatusabinõusid ja menetlusi operaatoritele, kes teostavad demonteerimist, ümberprofileerimist või uuendamist (Lisa XIII 2(d), seadusliku huvi tase). Erinev safetyInstructionsWasteBatteries (Lisa XIII 1(s) Art. 74(1)(d)) väljast, mis katab lõppkasutajate ohutussuuniseid.",
+        "fi": "Turvatoimenpiteet, jotka vaaditaan akun purkamiseen, kattaen varotoimet ja menettelyt operaattoreille, jotka suorittavat purkamista, uudelleenkäyttöä tai uudelleenvalmistusta (Liite XIII 2(d), oikeutetun intressin taso). Erottuu safetyInstructionsWasteBatteries-kentästä (Liite XIII 1(s) Art. 74(1)(d)), joka kattaa loppukäyttäjien turvallisuusohjeet.",
+        "fr": "Mesures de sécurité requises pour le démontage de la batterie, couvrant les précautions et procédures pour les opérateurs effectuant le démontage, le réemploi à d'autres fins ou le remanufacturing (Annexe XIII 2(d), niveau intérêt légitime). Distinct de safetyInstructionsWasteBatteries (Annexe XIII 1(s) Art. 74(1)(d)), qui couvre les instructions de sécurité pour les utilisateurs finaux.",
+        "hu": "Az akkumulátor szétszereléséhez szükséges biztonsági intézkedések, beleértve az elővigyázatossági intézkedéseket és az eljárásokat a szétszerelést, más célra való felhasználást vagy újragyártást végző üzemeltetők számára (XIII. melléklet 2(d) pont, jogos érdek szintje). Eltér a safetyInstructionsWasteBatteries mezőtől (XIII. melléklet 1(s) pont Art. 74(1)(d)), amely a végfelhasználóknak szóló biztonsági utasításokat tartalmazza.",
+        "ga": "Bearta sábháilteachta a theastaíonn chun an cadhnra a dhí-astarraingt, ag clúdach réamhchúraimí agus nósanna imeachta d'oibreoirí a dhéanann dí-astarraingt, athchaipitliú nó athdhéantúsaíocht (Iarscríbhinn XIII 2(d), leibhéal leasa dhlíthiúil). Ar leith ó safetyInstructionsWasteBatteries (Iarscríbhinn XIII 1(s) Airteagal 74(1)(d)), a chlúdaíonn treoracha sábháilteachta d'úsáideoirí deireannacha.",
+        "it": "Misure di sicurezza richieste per lo smontaggio della batteria, comprese le precauzioni e le procedure per gli operatori che eseguono smontaggio, reimpiego o rimanufacturing (Allegato XIII 2(d), livello interesse legittimo). Distinto da safetyInstructionsWasteBatteries (Allegato XIII 1(s) Art. 74(1)(d)), che copre le istruzioni di sicurezza per gli utenti finali.",
+        "lv": "Drošības pasākumi, kas nepieciešami akumulatora demontāžai, ietverot piesardzības pasākumus un procedūras operatoriem, kas veic demontāžu, pārprofilēšanu vai pārražošanu (Pielikums XIII 2(d), likumīgu interešu līmenis). Atšķiras no safetyInstructionsWasteBatteries (Pielikums XIII 1(s) Art. 74(1)(d)), kas aptver drošības norādījumus galapatērētājiem.",
+        "lt": "Saugos priemonės, reikalingos akumuliatoriaus ardymui, apimančios atsargumo priemones ir procedūras operatoriams, atliekantiems ardymą, perprofilėjimą ar perdirbimą (Priedo XIII 2(d), teisėto intereso lygis). Skiriasi nuo safetyInstructionsWasteBatteries (Priedo XIII 1(s) Art. 74(1)(d)), apimančio saugos instrukcijas galutiniams naudotojams.",
+        "mt": "Miżuri ta' sigurezza meħtieġa għad-diżassemblazzjoni tal-batterija, li jkopru l-prekawzjonijiet u l-proċeduri għall-operaturi li jwettqu d-diżassemblazzjoni, l-użu mill-ġdid għal skopijiet oħra jew ir-rimanufattura (Anness XIII 2(d), livell ta' interess leġittimu). Distint minn safetyInstructionsWasteBatteries (Anness XIII 1(s) Art. 74(1)(d)), li jkopri l-istruzzjonijiet ta' sigurezza għall-utenti finali.",
+        "pl": "Środki bezpieczeństwa wymagane do demontażu baterii, obejmujące środki ostrożności i procedury dla operatorów wykonujących demontaż, zmianę przeznaczenia lub remanufacturing (Załącznik XIII 2(d), poziom uzasadnionego interesu). Odróżnia się od safetyInstructionsWasteBatteries (Załącznik XIII 1(s) art. 74(1)(d)), który obejmuje instrukcje bezpieczeństwa dla użytkowników końcowych.",
+        "pt": "Medidas de segurança necessárias para desmontar a bateria, abrangendo precauções e procedimentos para operadores que realizam desmontagem, requalificação ou refabricação (Anexo XIII 2(d), nível de interesse legítimo). Distinto de safetyInstructionsWasteBatteries (Anexo XIII 1(s) Art. 74(1)(d)), que abrange as instruções de segurança para os utilizadores finais.",
+        "ro": "Măsuri de siguranță necesare pentru demontarea bateriei, incluzând precauțiile și procedurile pentru operatorii care efectuează demontarea, realocarea sau remanufacturarea (Anexa XIII 2(d), nivelul interesului legitim). Distinct față de safetyInstructionsWasteBatteries (Anexa XIII 1(s) Art. 74(1)(d)), care acoperă instrucțiunile de siguranță pentru utilizatorii finali.",
+        "sk": "Bezpečnostné opatrenia potrebné na demontáž batérie, zahŕňajúce opatrenia a postupy pre operátorov vykonávajúcich demontáž, iné použitie alebo repasáž (Príloha XIII 2(d), úroveň oprávneného záujmu). Odlišné od safetyInstructionsWasteBatteries (Príloha XIII 1(s) čl. 74(1)(d)), ktorý pokrývá bezpečnostné pokyny pre koncových používateľov.",
+        "sl": "Varnostni ukrepi, potrebni za demontažo baterije, ki zajemajo previdnostne ukrepe in postopke za operaterje, ki izvajajo demontažo, prenamembnost ali predelavo (Priloga XIII 2(d), raven zakonitega interesa). Razlikuje se od safetyInstructionsWasteBatteries (Priloga XIII 1(s) čl. 74(1)(d)), ki pokriva varnostna navodila za končne uporabnike.",
+        "es": "Medidas de seguridad requeridas para el desmontaje de la batería, abarcando precauciones y procedimientos para operadores que realizan desmontaje, reconfiguración o remanufactura (Anexo XIII 2(d), nivel de interés legítimo). Distinto de safetyInstructionsWasteBatteries (Anexo XIII 1(s) Art. 74(1)(d)), que cubre las instrucciones de seguridad para usuarios finales.",
+        "sv": "Säkerhetsåtgärder som krävs för demontering av batteriet, inklusive försiktighetsåtgärder och rutiner för operatörer som utför demontering, omändamålsanvändning eller ånytillverkning (Bilaga XIII 2(d), nivå för legitimt intresse). Skild från safetyInstructionsWasteBatteries (Bilaga XIII 1(s) Art. 74(1)(d)), som täcker säkerhetsinstruktioner för slutanvändare.",
+        "el": "Μέτρα ασφαλείας που απαιτούνται για την αποσυναρμολόγηση της μπαταρίας, που καλύπτουν προφυλάξεις και διαδικασίες για χειριστές που εκτελούν αποσυναρμολόγηση, επαναπροσδιορισμό χρήσης ή ανακατασκευή (Παράρτημα XIII 2(δ), επίπεδο έννομου συμφέροντος). Διακριτό από το safetyInstructionsWasteBatteries (Παράρτημα XIII 1(σ) Άρθρο 74(1)(δ)), που καλύπτει οδηγίες ασφαλείας για τελικούς χρήστες."
       },
-      "dataType": "url",
+      "dataType": "string",
       "unit": null,
-      "translatable": false,
+      "translatable": true,
       "defaultValue": null,
       "enumOptions": null,
       "validation": {
@@ -6958,7 +6964,7 @@
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$"
+        "pattern": null
       },
       "category": "end_of_life",
       "categoryLabel": {
@@ -7008,16 +7014,16 @@
           "on": "2026-09-29",
           "celex": "02023R1542-20260813",
           "by": "TracePass"
-        }
+        },
+        "description": "Annex XIII 2(d) requires 'safety measures' in the legitimate-interest tier of the battery passport (section 2: information accessible to persons with a legitimate interest). This covers safety precautions for dismantling, repurposing and remanufacturing operations. It is distinct from the publicly accessible safetyInstructionsWasteBatteries field (Annex XIII 1(s) with Art. 74(1)(d)), which carries end-user safety instructions for handling waste batteries."
       },
       "aiHints": {
         "alternateNames": [
-          "EoL safety info",
-          "end of life safety",
-          "disposal safety",
-          "recycling safety"
+          "dismantling safety measures",
+          "battery disassembly safety",
+          "safety precautions for dismantling"
         ],
-        "expectedFormat": "URL to safety documentation",
+        "expectedFormat": "Text describing safety measures for dismantling operations",
         "extractionPriority": 5
       }
     },
@@ -16282,7 +16288,7 @@
     }
   ],
   "fieldCount": 124,
-  "requiredFieldCount": 40,
+  "requiredFieldCount": 41,
   "_note": "The source markdown lists ~93 fields; CRM sub-fields (name/weight%/country) and hazardous-substance sub-fields (name/CAS/concentration/classification/location) are modeled as array items within criticalRawMaterials and hazardousSubstances respectively.",
   "categories": [
     "general_info",
@@ -16294,5 +16300,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1)."
+  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1). | v6: Four end-of-life field corrections. (1) roleOfEndUsersInWastePrevention: dataType url → string (text may contain URL), description updated to verbatim Art. 74(1)(a) scope (extending use phase, re-use, repurposing, remanufacturing). (2) informationOnSeparateCollection: dataType url → string, description corrected to Art. 74(1)(b) (end-users' role in separate collection under Art. 64), not Art. 74(1)(c) (collection points). (3) safetyInformationEndOfLife: dataType url → string, translatable false → true, label/description updated to 'safety measures for dismantling' (Annex XIII 2(d), legitimate-interest tier), distinguished from safetyInstructionsWasteBatteries (74(1)(d), public). (4) removalInformation: re-cited from Art. 11(1) (portable batteries in products, no passport) to Annex XIII 2(c) (dismantling information, legitimate-interest tier), required false → true (consistent with dismantlingInformation also under 2(c)). requiredFieldCount 40 → 41."
 }
