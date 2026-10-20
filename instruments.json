@@ -869,6 +869,16 @@
         "XV"
       ],
       "annexesVerifiedFrom": "32026R1738"
+    },
+    "32026R1778": {
+      "kind": "legislation",
+      "shortName": "DPP Registry Implementing Regulation",
+      "title": "Commission Implementing Regulation (EU) 2026/1778 laying down the implementation arrangements for the digital product passport registry set up under Regulation (EU) 2024/1781",
+      "eli": "http://data.europa.eu/eli/reg_impl/2026/1778/oj",
+      "createsDpp": false,
+      "note": "Adopted 16 Jul 2026 under ESPR Art. 13(5), OJ 17 Jul 2026, in force 6 Aug 2026 (twentieth day after publication; no separate application date). Implementation arrangements for the ESPR Art. 13 registry. Creates no passport and no product data of its own: it binds products whose own act requires a passport and its registration — ESPR Art. 4 delegated acts, batteries (Reg 2023/1542 Art. 77), construction products (Reg 2024/3110 Art. 76), toys (Reg 2025/2509 Art. 19), detergents (Reg 2026/405 Art. 21) and any other Union act that does (Art. 1(1)). A passport is registered at the granularity its own act sets, the most granular where several apply (Art. 8(1)-(3)); the registry then generates a unique and persistent registration identifier and returns it to the registrant (Art. 8(8), 8(10)); the registrant can generate a proof of registration sealed with a qualified electronic seal (Art. 9). No annexes.",
+      "annexes": [],
+      "annexesVerifiedFrom": "32026R1778"
     }
   },
   "plannedActs": {
@@ -1070,6 +1080,80 @@
         "url": "http://data.europa.eu/eli/reg/2024/3110/oj"
       },
       "lastChecked": "2026-10-09"
+    },
+    "battery-art77-9-ia": {
+      "framework": "32023R1542",
+      "article": "Art. 77(9)",
+      "kind": "procedural",
+      "productGroup": "Battery passport access rights",
+      "note": "Implementing act: which persons have a legitimate interest in Annex XIII points 2 and 4, which of that information they may access, and how far they may download, share, publish and re-use it. Art. 77(9) required adoption by 18 Aug 2026; that deadline passed. Draft published on Have Your Say on 19 Oct 2026, feedback open until 16 Nov 2026.",
+      "stage": "consultation",
+      "hysId": 16473,
+      "planned": {
+        "date": "2026-Q4",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16473"
+      },
+      "lastChecked": "2026-10-20"
+    },
+    "battery-art77-3-da": {
+      "framework": "32023R1542",
+      "article": "Art. 77(3), third subparagraph",
+      "kind": "procedural",
+      "productGroup": "Battery passport QR code and unique identifier standards",
+      "note": "Delegated act that replaces the ISO/IEC 15459 series in Art. 77(3), second subparagraph, with EN 18220:2026 for the QR code and EN 18219:2026 for the unique identifier, 'or their equivalent' (draft Art. 2(1)). The same act sets minimum electrochemical performance and durability values for rechargeable industrial batteries and amends Annexes IV, V and VII (also adopted under Art. 10(5), 10(6), 12(3) and 14(4)). Draft published on Have Your Say on 29 Sep 2026, feedback open until 27 Oct 2026. The portal's planned adoption quarter, Q3 2026, has passed.",
+      "stage": "consultation",
+      "hysId": 14460,
+      "planned": {
+        "date": "2026-Q3",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14460"
+      },
+      "lastChecked": "2026-10-20"
+    },
+    "espr-art12-da": {
+      "framework": "32024R1781",
+      "article": "Art. 12(4)",
+      "kind": "procedural",
+      "productGroup": "Unique identifier and data carrier life-cycle rules",
+      "note": "Delegated act on the life-cycle management of unique identifiers and data carriers: criteria for and role of issuing agencies, rules for economic operators that create their own identifiers and carriers, global uniqueness and verifiability, creating, updating and withdrawing identifiers, and data management (Art. 12(4)-(5)). No Have Your Say initiative, and neither the ESPR working plan COM(2025) 187 nor the Commission's DPP timeline schedules it.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": null,
+        "precision": "none",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "act",
+        "url": "http://data.europa.eu/eli/reg/2024/1781/oj"
+      },
+      "lastChecked": "2026-10-20"
+    },
+    "espr-art11-credentials-ia": {
+      "framework": "32024R1781",
+      "article": "Art. 11, fourth subparagraph",
+      "kind": "procedural",
+      "productGroup": "Digital credentials of actors with passport access rights",
+      "note": "Implementing act setting procedures to issue and verify the digital credentials of economic operators and other actors with access rights to passport data, adopted by the examination procedure (Art. 73(3)). Discretionary: the Commission 'may' adopt it, and no deadline applies. No Have Your Say initiative, and neither the ESPR working plan COM(2025) 187 nor the Commission's DPP timeline schedules it.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": null,
+        "precision": "none",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "act",
+        "url": "http://data.europa.eu/eli/reg/2024/1781/oj"
+      },
+      "lastChecked": "2026-10-20"
     }
   },
   "nonLegislative": {
