@@ -7,7 +7,7 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 994,
+    "fields": 998,
     "requiredFields": 66,
     "anticipatedFields": 176
   },
@@ -33,7 +33,7 @@
       "label": "Construction Materials",
       "file": "templates/construction.json",
       "version": 2,
-      "fieldCount": 50,
+      "fieldCount": 54,
       "requiredFieldCount": 0,
       "anticipatedFieldCount": 0,
       "regulation": {

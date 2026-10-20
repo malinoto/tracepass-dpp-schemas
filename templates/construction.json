@@ -6623,9 +6623,556 @@
         "expectedFormat": "true or false",
         "extractionPriority": 6
       }
+    },
+    {
+      "key": "productContactPointsForConstruction",
+      "label": {
+        "en": "Product Contact Points for Construction",
+        "bg": "Звена за контакт относно продукти в строителството",
+        "de": "Produktinformationsstellen für das Bauwesen",
+        "lt": "Statybos srities produktų kontaktiniai punktai",
+        "es": "Puntos de contacto de productos de construcción",
+        "hr": "Kontaktne točke za građevne proizvode",
+        "cs": "Kontaktní místa pro stavební výrobky",
+        "da": "Produktkontaktpunkter for byggeri og anlæg",
+        "nl": "Productcontactpunten voor de bouw",
+        "et": "Ehitusvaldkonna toodete kontaktpunktid",
+        "fi": "Rakennustuoteyhteyspisteet",
+        "fr": "Points de contact «produits de construction»",
+        "el": "Σημεία επαφής για τα δομικά προϊόντα",
+        "hu": "Építésitermék-információs kapcsolattartó pontok",
+        "ga": "Pointí teagmhála táirgí don fhoirgníocht",
+        "it": "Punti di contatto per i prodotti da costruzione",
+        "lv": "Būvizstrādājumu informācijas punkti",
+        "mt": "Punti ta’ kuntatt għall-prodotti għall-bini",
+        "pl": "Punkty kontaktowe ds. wyrobów budowlanych",
+        "pt": "Pontos de contacto para produtos do setor da construção",
+        "ro": "Puncte de informare despre produse pentru construcții",
+        "sk": "Kontaktné miesta pre stavebné výrobky",
+        "sl": "Kontaktne točke za proizvode za gradbeništvo",
+        "sv": "Kontaktpunkter för byggprodukter"
+      },
+      "description": {
+        "en": "Contact details of the product contact point for construction in each Member State where the product is made available.",
+        "bg": "Данни за връзка със звеното за контакт относно продукти в строителството във всяка държава членка, в която продуктът се предоставя.",
+        "de": "Kontaktdaten der Produktinformationsstelle für das Bauwesen in jedem Mitgliedstaat, in dem das Produkt bereitgestellt wird.",
+        "lt": "Statybos srities produktų kontaktinio punkto kontaktiniai duomenys kiekvienoje valstybėje narėje, kurioje produktas tiekiamas.",
+        "es": "Datos de contacto del punto de contacto del producto de construcción en cada Estado miembro en el que se comercialice el producto.",
+        "hr": "Podatci za kontakt kontaktne točke za građevne proizvode u svakoj državi članici u kojoj se proizvod stavlja na raspolaganje.",
+        "cs": "Kontaktní údaje kontaktního místa pro stavební výrobky v každém členském státě, v němž je výrobek dodáván na trh.",
+        "da": "Kontaktoplysninger for produktkontaktpunktet for byggeri og anlæg i hver medlemsstat, hvor varen gøres tilgængelig.",
+        "nl": "Contactgegevens van het productcontactpunt voor de bouw in elke lidstaat waar het product op de markt wordt aangeboden.",
+        "et": "Ehitusvaldkonna toodete kontaktpunkti kontaktandmed igas liikmesriigis, kus toode on kättesaadavaks tehtud.",
+        "fi": "Rakennustuoteyhteyspisteen yhteystiedot kussakin jäsenvaltiossa, jossa tuote asetetaan saataville.",
+        "fr": "Coordonnées du point de contact «produits de construction» dans chaque État membre dans lequel le produit est mis à disposition.",
+        "el": "Στοιχεία επικοινωνίας του σημείου επαφής δομικών προϊόντων σε κάθε κράτος μέλος στο οποίο διατίθεται το προϊόν.",
+        "hu": "Az építésitermék-információs kapcsolattartó pont elérhetőségei minden olyan tagállamban, ahol a terméket forgalmazzák.",
+        "ga": "Sonraí teagmhála an phointe teagmhála táirgí don fhoirgníocht i ngach Ballstát ina gcuirtear an táirge ar fáil.",
+        "it": "Dati di contatto del punto di contatto per i prodotti da costruzione in ciascuno Stato membro in cui il prodotto è reso disponibile.",
+        "lv": "Būvizstrādājumu informācijas punkta kontaktinformācija katrā dalībvalstī, kurā izstrādājums ir darīts pieejams.",
+        "mt": "Dettalji ta’ kuntatt tal-punt ta’ kuntatt tal-prodott għall-bini f’kull Stat Membru li fih il-prodott jitqiegħed għad-dispożizzjoni.",
+        "pl": "Dane kontaktowe punktu kontaktowego ds. wyrobów budowlanych w każdym państwie członkowskim, w którym wyrób jest udostępniany.",
+        "pt": "Dados de contacto do ponto de contacto do produto para construção em cada Estado-Membro em que o produto é disponibilizado.",
+        "ro": "Datele de contact ale punctului de informare despre produsul pentru construcții din fiecare stat membru în care este pus la dispoziție produsul.",
+        "sk": "Kontaktné údaje kontaktného miesta pre stavebné výrobky v každom členskom štáte, v ktorom sa výrobok sprístupňuje na trhu.",
+        "sl": "Kontaktni podatki kontaktne točke za gradbene proizvode v vsaki državi članici, v kateri je proizvod dostopen.",
+        "sv": "Kontaktuppgifter för kontaktpunkten för byggprodukter i varje medlemsstat där produkten tillhandahålls."
+      },
+      "dataType": "array",
+      "entryProperties": {
+        "memberState": {
+          "type": "string",
+          "format": "iso3166-alpha2",
+          "required": true
+        },
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "postalAddress": {
+          "type": "string"
+        },
+        "telephone": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        }
+      },
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false
+      },
+      "category": "product_identification",
+      "categoryLabel": {
+        "en": "Product Identification",
+        "bg": "Идентификация на продукта",
+        "de": "Produktidentifikation",
+        "lt": "Produkto identifikacija",
+        "es": "Identificación del Producto",
+        "hr": "Identifikacija proizvoda",
+        "cs": "Identifikace produktu",
+        "da": "Produktidentifikation",
+        "nl": "Productidentificatie",
+        "et": "Toote identifitseerimine",
+        "fi": "Tuotteen tunnistus",
+        "fr": "Identification du produit",
+        "el": "Ταυτοποίηση προϊόντος",
+        "hu": "Termékazonosítás",
+        "ga": "Sainaithint táirge",
+        "it": "Identificazione del prodotto",
+        "lv": "Produkta identifikācija",
+        "mt": "Identifikazzjoni tal-prodott",
+        "pl": "Identyfikacja produktu",
+        "pt": "Identificação do produto",
+        "ro": "Identificarea produsului",
+        "sk": "Identifikácia produktu",
+        "sl": "Identifikacija izdelka",
+        "sv": "Produktidentifiering"
+      },
+      "sortOrder": 49,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "CPR Annex IV, point 1.5",
+        "annex": "Annex IV",
+        "instrument": "32024R3110",
+        "provision": "Art. 22(6) + Annex IV point 1.5",
+        "kind": "legislation",
+        "description": "Annex IV point 1.5 asks for the contact details of the product contact point for construction in the Member State where the product is made available; each Member State designates at least one such point (Art. 72). Art. 22(6) makes the Annex IV information accompany the product, and the passport carries it once Art. 22(7) applies (Art. 76(2)(a)(ii)). Art. 22 binds a product family only one year after an Art. 5(8) or 6(1) implementing act covers it (Art. 95(9)), and none is adopted, so the duty is deferred, not absent.",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Annex IV, point 1.5",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "Contact details of the product contact point for construction in the Member State in which the product is made available."
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 22(6) + Annex IV, point 1.5",
+            "carrier": "document",
+            "condition": "construction products under Reg (EU) 2024/3110, from one year after an Art. 5(8) or 6(1) implementing act covers the product family (Art. 95(9))",
+            "quote": "When making a product available on the market, the manufacturer shall ensure that it is accompanied by general product information, instructions for use and safety information, as set out in Annex IV"
+          }
+        ]
+      },
+      "aiHints": {
+        "alternateNames": [
+          "product contact point",
+          "PCPC",
+          "national contact point for construction products"
+        ],
+        "expectedFormat": "Array of objects: [{memberState: 'DE', name: 'Produktinformationsstelle Bauwesen', email: 'info@example.de'}]. Each item: memberState (string, ISO 3166-1 alpha-2, required); name (string, required); postalAddress (string); telephone (string); email (string); website (string).",
+        "extractionPriority": 8
+      }
+    },
+    {
+      "key": "declarationOfPerformanceConformity",
+      "label": {
+        "en": "Declaration of Performance and Conformity",
+        "bg": "Декларация за експлоатационни показатели и за съответствие",
+        "de": "Leistungs- und Konformitätserklärung",
+        "lt": "Eksploatacinių savybių ir atitikties deklaracija",
+        "es": "Declaración de prestaciones y de conformidad",
+        "hr": "Izjava o svojstvima i sukladnosti",
+        "cs": "Prohlášení o vlastnostech a shodě",
+        "da": "Ydeevnedeklaration og overensstemmelseserklæring",
+        "nl": "Prestatie- en conformiteitsverklaring",
+        "et": "Toimivus- ja vastavusdeklaratsioon",
+        "fi": "Suoritustaso- ja vaatimustenmukaisuusilmoitus",
+        "fr": "Déclaration des performances et de conformité",
+        "el": "Δήλωση επιδόσεων και συμμόρφωσης",
+        "hu": "Teljesítmény- és megfelelőségi nyilatkozat",
+        "ga": "Dearbhú feidhmíochta agus comhréireachta",
+        "it": "Dichiarazione di prestazione e di conformità",
+        "lv": "Snieguma un atbilstības deklarācija",
+        "mt": "Dikjarazzjoni tal-prestazzjoni u tal-konformità",
+        "pl": "Deklaracja właściwości użytkowych i zgodności",
+        "pt": "Declaração de desempenho e conformidade",
+        "ro": "Declarație de performanță și de conformitate",
+        "sk": "Vyhlásenie o parametroch a zhode",
+        "sl": "Izjava o lastnostih in skladnosti",
+        "sv": "Prestanda- och överensstämmelsedeklaration"
+      },
+      "description": {
+        "en": "Link to the declaration of performance and conformity drawn up under Article 15 and Annex V of Regulation (EU) 2024/3110.",
+        "bg": "Връзка към декларацията за експлоатационни показатели и за съответствие, изготвена съгласно член 15 и приложение V към Регламент (ЕС) 2024/3110.",
+        "de": "Link zur Leistungs- und Konformitätserklärung, erstellt gemäß Artikel 15 und Anhang V der Verordnung (EU) 2024/3110.",
+        "lt": "Nuoroda į eksploatacinių savybių ir atitikties deklaraciją, parengtą pagal Reglamento (ES) 2024/3110 15 straipsnį ir V priedą.",
+        "es": "Enlace a la declaración de prestaciones y de conformidad elaborada con arreglo al artículo 15 y al anexo V del Reglamento (UE) 2024/3110.",
+        "hr": "Poveznica na izjavu o svojstvima i sukladnosti sastavljenu u skladu s člankom 15. i Prilogom V. Uredbe (EU) 2024/3110.",
+        "cs": "Odkaz na prohlášení o vlastnostech a shodě vypracované podle článku 15 a přílohy V nařízení (EU) 2024/3110.",
+        "da": "Link til ydeevnedeklarationen og overensstemmelseserklæringen udarbejdet i henhold til artikel 15 og bilag V i forordning (EU) 2024/3110.",
+        "nl": "Link naar de prestatie- en conformiteitsverklaring, opgesteld overeenkomstig artikel 15 en bijlage V van Verordening (EU) 2024/3110.",
+        "et": "Link määruse (EL) 2024/3110 artikli 15 ja V lisa kohaselt koostatud toimivus- ja vastavusdeklaratsioonile.",
+        "fi": "Linkki asetuksen (EU) 2024/3110 15 artiklan ja liitteen V mukaisesti laadittuun suoritustaso- ja vaatimustenmukaisuusilmoitukseen.",
+        "fr": "Lien vers la déclaration des performances et de conformité établie conformément à l’article 15 et à l’annexe V du règlement (UE) 2024/3110.",
+        "el": "Σύνδεσμος προς τη δήλωση επιδόσεων και συμμόρφωσης που καταρτίζεται σύμφωνα με το άρθρο 15 και το παράρτημα V του κανονισμού (ΕΕ) 2024/3110.",
+        "hu": "Hivatkozás az (EU) 2024/3110 rendelet 15. cikke és V. melléklete szerint kiállított teljesítmény- és megfelelőségi nyilatkozatra.",
+        "ga": "Nasc chuig an dearbhú feidhmíochta agus comhréireachta arna tharraingt suas faoi Airteagal 15 agus Iarscríbhinn V a ghabhann le Rialachán (AE) 2024/3110.",
+        "it": "Link alla dichiarazione di prestazione e di conformità redatta a norma dell’articolo 15 e dell’allegato V del regolamento (UE) 2024/3110.",
+        "lv": "Saite uz snieguma un atbilstības deklarāciju, kas sagatavota saskaņā ar Regulas (ES) 2024/3110 15. pantu un V pielikumu.",
+        "mt": "Link għad-dikjarazzjoni tal-prestazzjoni u tal-konformità mfassla skont l-Artikolu 15 u l-Anness V tar-Regolament (UE) 2024/3110.",
+        "pl": "Link do deklaracji właściwości użytkowych i zgodności sporządzonej zgodnie z art. 15 i załącznikiem V do rozporządzenia (UE) 2024/3110.",
+        "pt": "Ligação para a declaração de desempenho e conformidade elaborada nos termos do artigo 15.º e do anexo V do Regulamento (UE) 2024/3110.",
+        "ro": "Link către declarația de performanță și de conformitate întocmită în conformitate cu articolul 15 și anexa V la Regulamentul (UE) 2024/3110.",
+        "sk": "Odkaz na vyhlásenie o parametroch a zhode vypracované podľa článku 15 a prílohy V k nariadeniu (EÚ) 2024/3110.",
+        "sl": "Povezava do izjave o lastnostih in skladnosti, pripravljene v skladu s členom 15 in Prilogo V k Uredbi (EU) 2024/3110.",
+        "sv": "Länk till prestanda- och överensstämmelsedeklarationen som upprättats enligt artikel 15 och bilaga V till förordning (EU) 2024/3110."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": true,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false
+      },
+      "category": "compliance",
+      "categoryLabel": {
+        "en": "Compliance & Certification",
+        "bg": "Съответствие и сертификация",
+        "de": "Konformität und Zertifizierung",
+        "lt": "Atitiktis ir sertifikavimas",
+        "es": "Cumplimiento y Certificación",
+        "hr": "Usklađenost i certifikacija",
+        "cs": "Soulad a certifikace",
+        "da": "Overholdelse og certificering",
+        "nl": "Naleving en certificering",
+        "et": "Vastavus ja sertifitseerimine",
+        "fi": "Vaatimustenmukaisuus ja sertifiointi",
+        "fr": "Conformité et certification",
+        "el": "Συμμόρφωση και πιστοποίηση",
+        "hu": "Megfelelőség és tanúsítás",
+        "ga": "Comhlíonadh agus deimhniú",
+        "it": "Conformità e certificazione",
+        "lv": "Atbilstība un sertifikācija",
+        "mt": "Konformità u ċertifikazzjoni",
+        "pl": "Zgodność i certyfikacja",
+        "pt": "Conformidade e certificação",
+        "ro": "Conformitate și certificare",
+        "sk": "Súlad a certifikácia",
+        "sl": "Skladnost in certificiranje",
+        "sv": "Överensstämmelse och certifiering"
+      },
+      "sortOrder": 50,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "CPR Art. 76(2)(a)(i)",
+        "annex": "Annex V",
+        "instrument": "32024R3110",
+        "provision": "Art. 76(2)(a)(i) + Art. 15 + Annex V",
+        "kind": "legislation",
+        "description": "Reg (EU) 2024/3110 puts the declaration of performance and conformity (DoPC, Art. 15 and the Annex V model) in the construction passport (Art. 76(2)(a)(i)), which is deferred to the delegated act under Art. 75(1). A DoPC in a passport that meets Art. 76 replaces the separately supplied electronic copy (Art. 16(1)). Products under Regulation (EU) No 305/2011 standards carry its declaration of performance instead, supplied on paper or electronically (Art. 7(1)).",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 76(2)(a)(i)",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "the declaration of performance and conformity referred to in Article 15"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 16(1)",
+            "carrier": "document",
+            "condition": "construction products under Reg (EU) 2024/3110, unless the declaration is in a passport that meets Art. 76",
+            "quote": "The manufacturer shall supply by electronic means a copy of the declaration of performance and conformity of each product which is made available on the market"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 7(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "A copy of the declaration of performance of each product which is made available on the market shall be supplied either in paper form or by electronic means"
+          }
+        ]
+      },
+      "aiHints": {
+        "alternateNames": [
+          "DoPC",
+          "declaration of performance",
+          "DoP",
+          "Leistungserklärung"
+        ],
+        "expectedFormat": "URL to the declaration of performance and conformity document",
+        "extractionPriority": 3
+      }
+    },
+    {
+      "key": "declarationCode",
+      "label": {
+        "en": "Declaration Code",
+        "bg": "Код на декларацията",
+        "de": "Erklärungscode",
+        "lt": "Deklaracijos kodas",
+        "es": "Código de la declaración",
+        "hr": "Šifra izjave",
+        "cs": "Kód prohlášení",
+        "da": "Deklarationskode",
+        "nl": "Verklaringscode",
+        "et": "Deklaratsiooni kood",
+        "fi": "Ilmoituksen koodi",
+        "fr": "Code de déclaration",
+        "el": "Κωδικός δήλωσης",
+        "hu": "A nyilatkozat kódja",
+        "ga": "Cód dearbhaithe",
+        "it": "Codice di dichiarazione",
+        "lv": "Deklarācijas kods",
+        "mt": "Kodiċi tad-dikjarazzjoni",
+        "pl": "Kod deklaracji",
+        "pt": "Código de declaração",
+        "ro": "Codul declarației",
+        "sk": "Kód vyhlásenia",
+        "sl": "Koda izjave",
+        "sv": "Deklarationskod"
+      },
+      "description": {
+        "en": "The declaration code of the declaration of performance and conformity: one unique code per product type, shown after the CE marking.",
+        "bg": "Кодът на декларацията за експлоатационни показатели и за съответствие: един уникален код за тип продукт, който се посочва след маркировката „СЕ“.",
+        "de": "Erklärungscode der Leistungs- und Konformitätserklärung: ein eindeutiger Code je Produkttyp, der auf die CE-Kennzeichnung folgt.",
+        "lt": "Eksploatacinių savybių ir atitikties deklaracijos kodas: vienas unikalus kodas kiekvienam produkto tipui, nurodomas po CE ženklo.",
+        "es": "Código de la declaración de prestaciones y de conformidad: un único código por tipo de producto, que figura a continuación del marcado CE.",
+        "hr": "Šifra izjave o svojstvima i sukladnosti: jedna jedinstvena šifra po vrsti proizvoda, navedena nakon oznake CE.",
+        "cs": "Kód prohlášení o vlastnostech a shodě: jeden jedinečný kód pro každý typ výrobku, uvedený za označením CE.",
+        "da": "Deklarationskoden for ydeevnedeklarationen og overensstemmelseserklæringen: én entydig kode pr. varetype, angivet efter CE-mærkningen.",
+        "nl": "Verklaringscode van de prestatie- en conformiteitsverklaring: één unieke code per producttype, vermeld na de CE-markering.",
+        "et": "Toimivus- ja vastavusdeklaratsiooni kood: üks kordumatu kood tootetüübi kohta, mis järgneb CE-märgisele.",
+        "fi": "Suoritustaso- ja vaatimustenmukaisuusilmoituksen koodi: yksi yksilöllinen koodi tuotetyyppiä kohden, merkitään CE-merkinnän jälkeen.",
+        "fr": "Code de déclaration de la déclaration des performances et de conformité : un code unique par produit type, qui suit le marquage CE.",
+        "el": "Ο κωδικός δήλωσης της δήλωσης επιδόσεων και συμμόρφωσης: ένας μοναδικός κωδικός ανά τύπο προϊόντος, που ακολουθεί τη σήμανση CE.",
+        "hu": "A teljesítmény- és megfelelőségi nyilatkozat kódja: terméktípusonként egyetlen egyedi kód, amely a CE-jelölést követi.",
+        "ga": "Cód dearbhaithe an dearbhaithe feidhmíochta agus comhréireachta: cód uathúil amháin in aghaidh an chineáil táirge, a thaispeántar i ndiaidh an mharcála CE.",
+        "it": "Codice di dichiarazione della dichiarazione di prestazione e di conformità: un unico codice per prodotto-tipo, riportato dopo la marcatura CE.",
+        "lv": "Snieguma un atbilstības deklarācijas kods: viens unikāls kods katram izstrādājuma tipam, kas norādīts aiz CE zīmes.",
+        "mt": "Il-kodiċi tad-dikjarazzjoni tal-prestazzjoni u tal-konformità: kodiċi uniku wieħed għal kull tip ta’ prodott, li jidher wara l-immarkar CE.",
+        "pl": "Kod deklaracji właściwości użytkowych i zgodności: jeden niepowtarzalny kod na typ wyrobu, umieszczany po oznakowaniu CE.",
+        "pt": "Código de declaração da declaração de desempenho e conformidade: um código único por tipo de produto, indicado a seguir à marcação CE.",
+        "ro": "Codul declarației de performanță și de conformitate: un singur cod unic pentru fiecare tip de produs, care urmează marcajului CE.",
+        "sk": "Kód vyhlásenia o parametroch a zhode: jeden jedinečný kód pre každý typ výrobku, uvedený za označením CE.",
+        "sl": "Koda izjave o lastnostih in skladnosti: ena enotna koda za vsak tip proizvoda, navedena za oznako CE.",
+        "sv": "Deklarationskoden för prestanda- och överensstämmelsedeklarationen: en unik kod per produkttyp, som anges efter CE-märkningen."
+      },
+      "dataType": "string",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false
+      },
+      "category": "compliance",
+      "categoryLabel": {
+        "en": "Compliance & Certification",
+        "bg": "Съответствие и сертификация",
+        "de": "Konformität und Zertifizierung",
+        "lt": "Atitiktis ir sertifikavimas",
+        "es": "Cumplimiento y Certificación",
+        "hr": "Usklađenost i certifikacija",
+        "cs": "Soulad a certifikace",
+        "da": "Overholdelse og certificering",
+        "nl": "Naleving en certificering",
+        "et": "Vastavus ja sertifitseerimine",
+        "fi": "Vaatimustenmukaisuus ja sertifiointi",
+        "fr": "Conformité et certification",
+        "el": "Συμμόρφωση και πιστοποίηση",
+        "hu": "Megfelelőség és tanúsítás",
+        "ga": "Comhlíonadh agus deimhniú",
+        "it": "Conformità e certificazione",
+        "lv": "Atbilstība un sertifikācija",
+        "mt": "Konformità u ċertifikazzjoni",
+        "pl": "Zgodność i certyfikacja",
+        "pt": "Conformidade e certificação",
+        "ro": "Conformitate și certificare",
+        "sk": "Súlad a certifikácia",
+        "sl": "Skladnost in certificiranje",
+        "sv": "Överensstämmelse och certifiering"
+      },
+      "sortOrder": 51,
+      "defaultAccessLevel": "public",
+      "regulationRef": {
+        "article": "CPR Art. 18(2)(e)",
+        "annex": "Annex V",
+        "instrument": "32024R3110",
+        "provision": "Art. 18(2)(e) + Annex V (declaration code)",
+        "kind": "legislation",
+        "description": "The declaration code heads the DoPC, one unique, unequivocal code per product type even where there are variants (Annex V, note 2), and follows the CE marking (Art. 18(2)(e)). A data carrier linking to the DoPC may replace it, and a data carrier to the passport lets it be omitted (Art. 18(2), second subparagraph). Under Regulation (EU) No 305/2011 the CE marking carries the reference number of the declaration of performance instead (Art. 9(2)).",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 18(2)(e)",
+            "carrier": "product",
+            "condition": "construction products under Reg (EU) 2024/3110; replaceable by a data carrier linking to the declaration, or omitted where the passport data carrier is shown (Art. 18(2), second subparagraph)",
+            "quote": "the declaration code of the declaration of performance and conformity"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Annex V, note (2)",
+            "carrier": "document",
+            "condition": "construction products under Reg (EU) 2024/3110",
+            "quote": "Only one unique, unequivocal declaration code per product type shall be used"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 9(2)",
+            "carrier": "product",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "the reference number of the declaration of performance"
+          }
+        ]
+      },
+      "aiHints": {
+        "alternateNames": [
+          "DoPC code",
+          "DoP number",
+          "declaration of performance number",
+          "DoP reference number"
+        ],
+        "expectedFormat": "The manufacturer's declaration code as printed on the DoPC, e.g. 'DoPC-0001-2027'",
+        "extractionPriority": 3
+      }
+    },
+    {
+      "key": "technicalDocumentation",
+      "label": {
+        "en": "Technical Documentation",
+        "bg": "Техническа документация",
+        "de": "Technische Dokumentation",
+        "lt": "Techniniai dokumentai",
+        "es": "Documentación técnica",
+        "hr": "Tehnička dokumentacija",
+        "cs": "Technická dokumentace",
+        "da": "Teknisk dokumentation",
+        "nl": "Technische documentatie",
+        "et": "Tehniline dokumentatsioon",
+        "fi": "Tekniset asiakirjat",
+        "fr": "Documentation technique",
+        "el": "Τεχνική τεκμηρίωση",
+        "hu": "Műszaki dokumentáció",
+        "ga": "Doiciméadacht theicniúil",
+        "it": "Documentazione tecnica",
+        "lv": "Tehniskā dokumentācija",
+        "mt": "Dokumentazzjoni teknika",
+        "pl": "Dokumentacja techniczna",
+        "pt": "Documentação técnica",
+        "ro": "Documentație tehnică",
+        "sk": "Technická dokumentácia",
+        "sl": "Tehnična dokumentacija",
+        "sv": "Teknisk dokumentation"
+      },
+      "description": {
+        "en": "Reference to the technical documentation drawn up as the basis for the declaration of performance and conformity.",
+        "bg": "Препратка към техническата документация, изготвена като основа за декларацията за експлоатационни показатели и за съответствие.",
+        "de": "Verweis auf die technische Dokumentation, die als Grundlage für die Leistungs- und Konformitätserklärung erstellt wurde.",
+        "lt": "Nuoroda į techninius dokumentus, parengtus kaip eksploatacinių savybių ir atitikties deklaracijos pagrindas.",
+        "es": "Referencia a la documentación técnica elaborada como base de la declaración de prestaciones y de conformidad.",
+        "hr": "Upućivanje na tehničku dokumentaciju sastavljenu kao osnovu za izjavu o svojstvima i sukladnosti.",
+        "cs": "Odkaz na technickou dokumentaci vypracovanou jako podklad pro prohlášení o vlastnostech a shodě.",
+        "da": "Henvisning til den tekniske dokumentation, der er udarbejdet som grundlag for ydeevnedeklarationen og overensstemmelseserklæringen.",
+        "nl": "Verwijzing naar de technische documentatie die is opgesteld als basis voor de prestatie- en conformiteitsverklaring.",
+        "et": "Viide tehnilisele dokumentatsioonile, mis on koostatud toimivus- ja vastavusdeklaratsiooni alusena.",
+        "fi": "Viittaus teknisiin asiakirjoihin, jotka on laadittu suoritustaso- ja vaatimustenmukaisuusilmoituksen perustaksi.",
+        "fr": "Référence à la documentation technique établie comme base de la déclaration des performances et de conformité.",
+        "el": "Παραπομπή στην τεχνική τεκμηρίωση που καταρτίζεται ως βάση για τη δήλωση επιδόσεων και συμμόρφωσης.",
+        "hu": "Hivatkozás a teljesítmény- és megfelelőségi nyilatkozat alapjául szolgáló műszaki dokumentációra.",
+        "ga": "Tagairt don doiciméadacht theicniúil arna tarraingt suas mar bhonn don dearbhú feidhmíochta agus comhréireachta.",
+        "it": "Riferimento alla documentazione tecnica redatta come base della dichiarazione di prestazione e di conformità.",
+        "lv": "Atsauce uz tehnisko dokumentāciju, kas sagatavota kā pamats snieguma un atbilstības deklarācijai.",
+        "mt": "Referenza għad-dokumentazzjoni teknika mfassla bħala l-bażi għad-dikjarazzjoni tal-prestazzjoni u tal-konformità.",
+        "pl": "Odniesienie do dokumentacji technicznej sporządzonej jako podstawa deklaracji właściwości użytkowych i zgodności.",
+        "pt": "Referência à documentação técnica elaborada como base da declaração de desempenho e conformidade.",
+        "ro": "Trimitere la documentația tehnică întocmită ca bază pentru declarația de performanță și de conformitate.",
+        "sk": "Odkaz na technickú dokumentáciu vypracovanú ako základ pre vyhlásenie o parametroch a zhode.",
+        "sl": "Sklic na tehnično dokumentacijo, pripravljeno kot podlaga za izjavo o lastnostih in skladnosti.",
+        "sv": "Hänvisning till den tekniska dokumentation som upprättats som grund för prestanda- och överensstämmelsedeklarationen."
+      },
+      "dataType": "url",
+      "unit": null,
+      "translatable": false,
+      "defaultValue": null,
+      "enumOptions": [],
+      "validation": {
+        "required": false
+      },
+      "category": "compliance",
+      "categoryLabel": {
+        "en": "Compliance & Certification",
+        "bg": "Съответствие и сертификация",
+        "de": "Konformität und Zertifizierung",
+        "lt": "Atitiktis ir sertifikavimas",
+        "es": "Cumplimiento y Certificación",
+        "hr": "Usklađenost i certifikacija",
+        "cs": "Soulad a certifikace",
+        "da": "Overholdelse og certificering",
+        "nl": "Naleving en certificering",
+        "et": "Vastavus ja sertifitseerimine",
+        "fi": "Vaatimustenmukaisuus ja sertifiointi",
+        "fr": "Conformité et certification",
+        "el": "Συμμόρφωση και πιστοποίηση",
+        "hu": "Megfelelőség és tanúsítás",
+        "ga": "Comhlíonadh agus deimhniú",
+        "it": "Conformità e certificazione",
+        "lv": "Atbilstība un sertifikācija",
+        "mt": "Konformità u ċertifikazzjoni",
+        "pl": "Zgodność i certyfikacja",
+        "pt": "Conformidade e certificação",
+        "ro": "Conformitate și certificare",
+        "sk": "Súlad a certifikácia",
+        "sl": "Skladnost in certificiranje",
+        "sv": "Överensstämmelse och certifiering"
+      },
+      "sortOrder": 52,
+      "defaultAccessLevel": "authority",
+      "regulationRef": {
+        "article": "CPR Art. 76(2)(a)(iii)",
+        "annex": "",
+        "instrument": "32024R3110",
+        "provision": "Art. 76(2)(a)(iii) + Art. 22(3)",
+        "kind": "legislation",
+        "description": "The construction passport includes the technical documentation of Art. 22(3) with the sections Arts. 59 to 61 require (Art. 76(2)(a)(iii)), deferred like the rest of the passport. Art. 76(2)(f) leaves the access levels to the passport system, so the default here is authority-only. Today it is the document the manufacturer draws up as the basis for the DoPC (Art. 22(3)); under Regulation (EU) No 305/2011 it is kept for 10 years (Art. 11(2)).",
+        "obligations": [
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 76(2)(a)(iii)",
+            "carrier": "passport",
+            "condition": "deferred: from 18 months after the delegated act under Art. 75(1) of Reg (EU) 2024/3110, not yet adopted",
+            "quote": "the technical documentation referred to in Article 22(3) including the specific sections required pursuant to Articles 59 to 61"
+          },
+          {
+            "instrument": "32024R3110",
+            "provision": "Art. 22(3)",
+            "carrier": "document",
+            "condition": "construction products under Reg (EU) 2024/3110, from one year after an Art. 5(8) or 6(1) implementing act covers the product family (Art. 95(9))",
+            "quote": "The manufacturer shall, as the basis for the declaration of performance and conformity, draw up a technical documentation"
+          },
+          {
+            "instrument": "32011R0305",
+            "provision": "Art. 11(1)",
+            "carrier": "document",
+            "condition": "construction products covered by a harmonised standard under Reg (EU) 305/2011, which applies until 8 January 2040",
+            "quote": "Manufacturers shall, as the basis for the declaration of performance, draw up technical documentation describing all the relevant elements related to the required system of assessment and verification of constancy of performance"
+          }
+        ]
+      },
+      "aiHints": {
+        "alternateNames": [
+          "technical file",
+          "technical documentation",
+          "TD",
+          "technische Dokumentation"
+        ],
+        "expectedFormat": "URL or reference to the technical documentation",
+        "extractionPriority": 7
+      }
     }
   ],
-  "fieldCount": 50,
+  "fieldCount": 54,
   "requiredFieldCount": 0,
   "categories": [
     {
