@@ -7117,7 +7117,7 @@
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
       "sortOrder": 49,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "authority",
       "regulationRef": {
         "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
