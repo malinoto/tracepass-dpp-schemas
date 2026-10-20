@@ -10,7 +10,7 @@ import { join, dirname } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { checkQuotes } from "./evidence-checks.mjs";
-import { checkUseDataDefaults, checkGuidanceDatapoints, checkEntryShapes } from "./content-checks.mjs";
+import { checkUseDataDefaults, checkGuidanceDatapoints, checkEntryShapes, checkAnnexFreeText } from "./content-checks.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const TEMPLATES = join(here, "..", "templates");
@@ -258,6 +258,39 @@ test("[22] a URL inside a quoted example value is not read as a member", () => {
   const f = field(t, "jewelry", "customCertificates");
   assert.ok(f.aiHints.expectedFormat.includes("https://"), "fixture lost its URL example");
   assert.deepEqual(checkEntryShapes(t).filter((x) => x.id === "jewelry.customCertificates"), []);
+});
+
+// ── [23] `annex` holds only an annex name ─────────────────────────────────
+test("[23] the shipped templates' annex values are annex names only", () =>
+  assert.deepEqual(checkAnnexFreeText(load()), []));
+
+test("[23] a point after the annex is reported (the dpp-schemas 1.23.1 defect)", () => {
+  const t = load();
+  field(t, "construction", "maintenanceGuidance").regulationRef.annex = "Annex IV point 2.3";
+  assert.ok(checkAnnexFreeText(t).some((x) => x.id === "construction.maintenanceGuidance"));
+});
+
+test("[23] a standard or notes in the annex slot are reported", () => {
+  const t = load();
+  const steelFirst = t.find(([f]) => f === "steel.json")[1].fields[0];
+  steelFirst.regulationRef = { ...steelFirst.regulationRef, annex: "EN 10204" };
+  field(t, "battery", "batteryStatus").regulationRef.annex = "Annex I; ISO 3758";
+  const ids = checkAnnexFreeText(t).map((x) => x.id);
+  assert.ok(ids.includes("battery.batteryStatus"), ids.join(", "));
+  assert.ok(ids.includes(`steel.${steelFirst.key}`), ids.join(", "));
+  assert.equal(ids.length, 2, ids.join(", "));
+});
+
+test("[23] an annex with no instrument is reported; Part, paragraph and Requirements forms pass", () => {
+  const t = load();
+  const f = field(t, "construction", "maintenanceGuidance");
+  delete f.regulationRef.instrument;
+  assert.ok(checkAnnexFreeText(t).some((x) => x.id === "construction.maintenanceGuidance" && /no instrument/.test(x.problem)));
+  const g = field(t, "battery", "batteryStatus").regulationRef;
+  for (const ok of ["Annex VI Part A", "Annex XIII (1)", "Annex I, Requirements 3 and 7"]) {
+    g.annex = ok; g.instrument = g.instrument || "32023R1542";
+    assert.ok(!checkAnnexFreeText(t).some((x) => x.id === "battery.batteryStatus"), ok);
+  }
 });
 
 test("[22] an object list without entryProperties is reported", () => {

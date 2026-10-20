@@ -337,6 +337,31 @@ export function checkEntryShapes(templates) {
   return out;
 }
 
+// [23] `annex` names an annex and nothing else. It is printed to customers as a
+// chip in the PDF field guides, and it has been used as a notes slot ("GTIN",
+// "EN 10204", "Annex IV point 2.3"). [19] reads only the leading "Annex <roman>",
+// so a value with a point or a standard after it passes there: dpp-schemas 1.23.1
+// shipped "Annex IV point 2.3" and needed 1.23.2. Points and sub-points belong in
+// `provision`. An annex also needs an instrument to be an annex of.
+// "Requirements 3 and 7" is still one annex reference (CPR Annex I splits the old
+// hygiene/health/environment requirement into 3 and 7).
+const ANNEX_ONLY =
+  /^Annex\s+[IVXLC]+(\s+Part\s+[A-Z])?(\s*\(\d+[a-z]?\))?(,\s*Requirements?\s+\d+(\s+and\s+\d+)?)?$/;
+
+export function checkAnnexFreeText(templates) {
+  const out = [];
+  for (const [, d] of templates) {
+    for (const f of d.fields) {
+      const ref = f.regulationRef ?? {};
+      const annex = (ref.annex ?? "").trim();
+      if (annex === "") continue;
+      if (!ANNEX_ONLY.test(annex)) out.push({ id: `${d.category}.${f.key}`, annex, problem: "more than an annex name" });
+      else if (!ref.instrument) out.push({ id: `${d.category}.${f.key}`, annex, problem: "an annex with no instrument" });
+    }
+  }
+  return out;
+}
+
 export function runContentChecks(templates, registry = {}) {
   const index = loadJson(join(here, "provision-index.json"), {});
   const known = loadJson(join(here, "known-distinct.json"), { pairs: [] });
@@ -351,6 +376,7 @@ export function runContentChecks(templates, registry = {}) {
     annexInventory: checkAnnexInventory(templates, registry),
     useDataDefaults: checkUseDataDefaults(templates),
     entryShapes: checkEntryShapes(templates),
+    annexFreeText: checkAnnexFreeText(templates),
     guidanceDatapoints: checkGuidanceDatapoints(
       templates,
       loadJson(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), null),

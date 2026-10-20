@@ -339,6 +339,7 @@ function audit(dir, label) {
   findings.useDataDefaults = content.useDataDefaults;
   findings.guidanceDatapoints = content.guidanceDatapoints;
   findings.entryShapes = content.entryShapes;
+  findings.annexFreeText = content.annexFreeText;
   const evidence = runEvidenceChecks(templates);
   findings.unverified = evidence.unverified;
   findings.carrier = evidence.carrier;
@@ -462,6 +463,10 @@ function audit(dir, label) {
   if (findings.entryShapes?.length) {
     console.log(`\n[22] declared entry shape disagrees with the extraction hint (${findings.entryShapes.length}) — align entryProperties and aiHints.expectedFormat`);
     for (const f of findings.entryShapes) console.log(`    ${f.id.padEnd(48)} ${f.problem}`);
+  }
+  if (findings.annexFreeText?.length) {
+    console.log(`\n[23] \`annex\` holds more than an annex name (${findings.annexFreeText.length}) — it is printed in the PDF guides; put points, standards and notes in \`provision\` or \`description\``);
+    for (const f of findings.annexFreeText) console.log(`    ${f.id.padEnd(48)} ${JSON.stringify(f.annex)}: ${f.problem}`);
   }
 
   // Verified-share report — informational, not a finding. Shows per-category how
