@@ -924,9 +924,9 @@
       "sortOrder": 8,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation (no element)",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "No element of Annex II, III or VII: the label and product information sheet carry the supplier's trade name (Annex III(a)) and the tyre type identifier, not a commercial name",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -1034,9 +1034,9 @@
       "sortOrder": 9,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation Annex III; Annex VII",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -1231,9 +1231,9 @@
       "sortOrder": 10,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Art. 2",
+        "article": "Tyre Labelling Regulation Annex II",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 2 — C1/C2/C3 definitions determining which label applies",
+        "provision": "Annex II point 2 (tyre class shown on the label); classes defined in Art. 3",
         "kind": "legislation",
         "description": "A scoping definition governing which label applies, not a disclosure duty of its own."
       },
@@ -1449,9 +1449,9 @@
       "sortOrder": 12,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II; UNECE Reg. 30/54",
-        "instrument": "32020R0740",
-        "provision": "UNECE R30 / R54 — marking moulded on the tyre sidewall under type approval",
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "instrument": "32019R2144",
+        "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.9 / No 54): week and year of manufacture moulded on the sidewall",
         "kind": "legislation",
         "description": "Discharged by the marking moulded into the sidewall under type approval, not by a passport entry.",
         "standards": [
@@ -1562,9 +1562,9 @@
       "sortOrder": 13,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation Annex III",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Annex III(i) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry)",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -1670,9 +1670,9 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation Annex III",
         "instrument": "32020R0740",
-        "provision": "Annex II",
+        "provision": "Annex III(j) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry)",
         "kind": "legislation",
         "description": "It governs the tyre label's format and content. The production period is part of how a tyre type is identified for labelling and for the EPREL entry, not a datum the Regulation requires to be published as product data."
       },
@@ -1891,9 +1891,9 @@
       "sortOrder": 16,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Art. 4(2)",
+        "article": "Tyre Labelling Regulation Art. 5(1)",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Art. 5(1) + Annex VII: the supplier registers the tyre type in EPREL; no provision requires the registration number or link to be shown",
         "kind": "legislation",
         "description": "The duty IS the EPREL database entry; the number is its receipt. Publishing it here does not create or replace the registration."
       },
@@ -2000,10 +2000,10 @@
       "sortOrder": 17,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation",
+        "article": "Tyre Labelling Regulation Art. 5(1)",
         "instrument": "32020R0740",
         "kind": "legislation",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Art. 5(1) + Annex VII: the supplier registers the tyre type in EPREL; no provision requires the registration number or link to be shown",
         "description": "The link points at EPREL, which is itself the vehicle discharging the duty."
       },
       "aiHints": {
@@ -2477,9 +2477,9 @@
       "sortOrder": 20,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II; UNECE Reg. 30/54",
+        "article": "Tyre Labelling Regulation Annex III; Annex VII",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field.",
         "standards": [
@@ -2590,9 +2590,9 @@
       "sortOrder": 21,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation Annex III; Annex VII",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -2787,9 +2787,9 @@
       "sortOrder": 22,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
-        "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "instrument": "32019R2144",
+        "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.8): sidewall marking",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -2898,9 +2898,9 @@
       "sortOrder": 23,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex II",
+        "article": "Tyre Labelling Regulation Annex III; Annex VII",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Art. 4 + Art. 10 — registered in the EPREL database and shown on the tyre label",
+        "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -3262,12 +3262,15 @@
       "sortOrder": 25,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "UNECE Reg. 30/54",
-        "kind": "standard",
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "kind": "legislation",
         "standards": [
           "UNECE R30",
           "UNECE R54"
-        ]
+        ],
+        "instrument": "32019R2144",
+        "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.3; No 54 for C2/C3)",
+        "description": "Discharged by the marking moulded on the sidewall under type approval (UN Regulation No 30, or No 54 for C2/C3, binding through GSR Art. 5(3) + Annex II), not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -4396,11 +4399,11 @@
         "sv": "EU-märkningens prestanda"
       },
       "sortOrder": 33,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex I Part A; UNECE Reg. 117 Annex 6",
+        "article": "Tyre Labelling Regulation Art. 4(5); Annex VII point 2(e)",
         "instrument": "32020R0740",
-        "provision": "Reg. (EU) 2020/740 Annex I Part A + Annex II — measured value in the EPREL product information sheet",
+        "provision": "Art. 4(5) (values used to determine the class, given to the national authority) + Annex VII point 2(e) (EPREL compliance part); not in the label or product information sheet",
         "kind": "legislation",
         "description": "Discharged by the physical/point-of-sale label and the EPREL database entry, not by a passport field."
       },
@@ -4760,11 +4763,11 @@
         "sv": "EU-märkningens prestanda"
       },
       "sortOrder": 35,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex I Part B",
+        "article": "Tyre Labelling Regulation Art. 4(5); Annex VII point 2(e)",
         "instrument": "32020R0740",
-        "provision": "Annex I",
+        "provision": "Art. 4(5) (values used to determine the class, given to the national authority) + Annex VII point 2(e) (EPREL compliance part); not in the label or product information sheet",
         "kind": "legislation",
         "description": "Part B defines the wet grip CLASSES, and what the Regulation requires is that the class appear on the tyre label and in the product information sheet, with the supporting data in the EPREL product database. The underlying index is the measured input to that class rather than the declared value."
       },
@@ -5287,14 +5290,11 @@
       "sortOrder": 39,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Tyre Labelling Regulation Annex I Part E; ISO 19447",
+        "article": "Tyre Labelling Regulation Annex I Part E",
         "instrument": "32020R0740",
-        "provision": "Art. 4 + Annex I (ice-grip marking, C1 tyres, per ISO 19447)",
+        "provision": "Art. 4 + Annex I Part E (ice-grip pictogram for a C1 tyre meeting the minimum ice grip index)",
         "kind": "legislation",
-        "description": "Annex I Part E requires ice grip to be tested by reliable, accurate and reproducible methods reflecting the state of the art, and a qualifying C1 tyre carries the ice-grip PICTOGRAM on the label. Like snow grip, the obligation is a mark rather than a published figure.",
-        "standards": [
-          "ISO 19447"
-        ]
+        "description": "Annex I Part E requires ice grip to be tested by reliable, accurate and reproducible methods reflecting the generally recognised state of the art, and names no standard (ISO 19447 appears only in the recitals, as the future basis). A qualifying C1 tyre carries the ice-grip pictogram on the label. Like snow grip, the obligation is a mark rather than a published figure."
       },
       "aiHints": {
         "alternateNames": [
@@ -6271,9 +6271,9 @@
       "sortOrder": 46,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a); delegated act (tyres)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I; delegated act (tyres)",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -6384,9 +6384,9 @@
       "sortOrder": 48,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -6496,9 +6496,9 @@
       "sortOrder": 49,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -6608,9 +6608,9 @@
       "sortOrder": 50,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(b)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -6717,9 +6717,9 @@
       "sortOrder": 51,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(b)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and a tyres delegated act is scheduled (ESPR working plan COM(2025) 187: 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -6825,9 +6825,9 @@
       "sortOrder": 52,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(b)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and a tyres delegated act is scheduled (ESPR working plan COM(2025) 187: 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -6933,9 +6933,9 @@
       "sortOrder": 53,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(b)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(b)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — and a tyres delegated act is scheduled (ESPR working plan COM(2025) 187: 2027), but whether it will require this datum is not known — so this field is optional. Verified against the EUR-Lex text."
       },
@@ -7609,9 +7609,9 @@
       "sortOrder": 59,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a); PEF methodology",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I; PEF methodology",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -8264,9 +8264,9 @@
       "sortOrder": 65,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a); delegated act (tyres)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I; delegated act (tyres)",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -8589,9 +8589,9 @@
       "sortOrder": 68,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(a)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(a)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR Art. 7 mandates no data on its own and no tyre delegated act exists; the statutory guarantee under Dir. (EU) 2019/771 binds the seller."
       },
@@ -8806,9 +8806,9 @@
       "sortOrder": 70,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c); UNECE Reg. 108/109",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I; UNECE Reg. 108/109",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(c)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text.",
         "standards": [
@@ -9136,9 +9136,9 @@
       "sortOrder": 73,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(c)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -9260,9 +9260,9 @@
       "sortOrder": 74,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(b)(i) + Annex I",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(c)",
+        "provision": "Art. 7(2)(b)(i) + Annex I",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -9481,9 +9481,9 @@
       "sortOrder": 76,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "ESPR Art. 7(2)(c)",
+        "article": "ESPR Art. 7(2)(b)(iii)",
         "instrument": "32024R1781",
-        "provision": "Art. 7(2)(c)",
+        "provision": "Art. 7(2)(b)(iii)",
         "kind": "legislation",
         "description": "ESPR 32024R1781 mandates no product data of its own. Art. 7(1) makes information requirements those 'laid down in the delegated acts adopted pursuant to Article 4'; Art. 9(2) says those acts 'shall … specify' what a passport carries; and Art. 27 binds manufacturers only 'when placing products COVERED BY a delegated act adopted pursuant to Article 4' on the market. All three defer to an Art. 4 act, and none is adopted for this category — so this field is anticipated, not required. Verified against the EUR-Lex text."
       },
@@ -9797,12 +9797,15 @@
       "sortOrder": 79,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "UNECE Reg. 30 (C1) / Reg. 54 (C2/C3)",
-        "kind": "standard",
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "kind": "legislation",
         "standards": [
           "UNECE R30",
           "UNECE R54"
-        ]
+        ],
+        "instrument": "32019R2144",
+        "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 5.4; No 54 for C2/C3)",
+        "description": "Discharged by the marking moulded on the sidewall under type approval (UN Regulation No 30, or No 54 for C2/C3, binding through GSR Art. 5(3) + Annex II), not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -10124,11 +10127,11 @@
       "sortOrder": 82,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR Art. 9",
-        "instrument": "32023R0988",
-        "provision": "UNECE R30 / R54 — type approval evidenced by the approval mark on the sidewall and the approval dossier",
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "instrument": "32019R2144",
+        "provision": "Conformity is shown by the UN Regulation No 30/54 approval mark (No 30 para 5.4) under GSR Art. 5(3) + Annex II; tyres have no EU declaration of conformity, and GPSR Art. 9 does not apply to them (GPSR Art. 2(1), third subparagraph, point (b))",
         "kind": "legislation",
-        "description": "Tyre conformity is evidenced by the E-mark and the type-approval dossier; there is no EU DoC publication duty for tyres.",
+        "description": "Tyre conformity is evidenced by the E-mark and the type-approval dossier; there is no EU declaration of conformity for tyres.",
         "standards": [
           "UNECE R30",
           "UNECE R54"
@@ -10680,10 +10683,11 @@
       "sortOrder": 88,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "General Safety Regulation (vehicles) Art. 6",
+        "article": "General Safety Regulation Art. 5(1)–(2) (binds vehicles, not tyres)",
         "instrument": "32019R2144",
         "kind": "legislation",
-        "description": "TPMS is required by Reg (EU) 2019/2144 (General Safety Regulation), which repealed Reg (EC) 661/2009 with effect from 6 July 2022; references to the old regulation are construed as references to this one. The duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data."
+        "description": "TPMS is required by Reg (EU) 2019/2144 (General Safety Regulation), which repealed Reg (EC) 661/2009 with effect from 6 July 2022; references to the old regulation are construed as references to this one. The duty binds the VEHICLE's type-approval, not the tyre, and is discharged through that approval rather than through tyre product data.",
+        "provision": "Art. 5(1)–(2): tyre-pressure monitoring is a vehicle requirement"
       },
       "aiHints": {
         "alternateNames": [
@@ -10787,8 +10791,11 @@
       "sortOrder": 89,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Product specification",
-        "kind": "specification"
+        "article": "General Safety Regulation Art. 5(3) + Annex II; UN Regulation No 30/54",
+        "kind": "legislation",
+        "instrument": "32019R2144",
+        "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.3 and 3.1.12; No 54 for C2/C3)",
+        "description": "Discharged by the marking moulded on the sidewall under type approval (UN Regulation No 30, or No 54 for C2/C3, binding through GSR Art. 5(3) + Annex II), not by a passport entry."
       },
       "aiHints": {
         "alternateNames": [
@@ -10893,9 +10900,9 @@
       "sortOrder": 90,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "GPSR",
-        "instrument": "32023R0988",
-        "provision": "GPSR (EU) 2023/988 Art. 9(7) — warnings and safety information, where the product's risks require them",
+        "article": "Tyre Labelling Regulation Annex IV",
+        "instrument": "32020R0740",
+        "provision": "No passport duty. GPSR Art. 9(7) does not apply to tyres (GPSR Art. 2(1), third subparagraph, point (b)); the nearest tyre-specific information duty is 2020/740 Annex IV (technical promotional material)",
         "kind": "legislation",
         "description": "GPSR requires warnings accompany the product where its risks require them; it is not an unconditional field."
       },

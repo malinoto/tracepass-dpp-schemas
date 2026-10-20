@@ -7117,7 +7117,7 @@
         "el": "Κυκλικότητα και αποδοτικότητα πόρων"
       },
       "sortOrder": 49,
-      "defaultAccessLevel": "authority",
+      "defaultAccessLevel": "public",
       "regulationRef": {
         "article": "Battery Regulation Art. 8",
         "annex": "Annex XIII",
@@ -10246,7 +10246,7 @@
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
       "sortOrder": 73,
-      "defaultAccessLevel": "public",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": null,
         "instrument": null,
@@ -12561,7 +12561,7 @@
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
       "sortOrder": 91,
-      "defaultAccessLevel": "authority",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
@@ -12793,7 +12793,7 @@
         "el": "Επιδόσεις και ανθεκτικότητα"
       },
       "sortOrder": 93,
-      "defaultAccessLevel": "authority",
+      "defaultAccessLevel": "restricted",
       "regulationRef": {
         "annex": "Annex XIII",
         "instrument": "32023R1542",
