@@ -1119,6 +1119,25 @@
       },
       "lastChecked": "2026-10-20"
     },
+    "battery-art13-10-ia": {
+      "framework": "32023R1542",
+      "article": "Art. 13(10)",
+      "kind": "procedural",
+      "productGroup": "Battery labelling specifications",
+      "note": "Implementing act with harmonised specifications for the labelling requirements of Art. 13(1)-(3); the draft also covers the Art. 7 carbon footprint label (WTO notification G/TBT/N/EU/1181). Art. 13(10) required adoption by 18 Aug 2025; that deadline passed. Draft published on Have Your Say on 15 Dec 2025, feedback closed on 26 Jan 2026. The portal's planned adoption quarter, Q2 2025, has passed. The Art. 13(1) label applies from 18 Aug 2026 or 18 months after this act enters into force, whichever is later. The act has no mandate over the Art. 13(6) QR code, which applies from 18 Feb 2027.",
+      "stage": "consultation",
+      "hysId": 14456,
+      "planned": {
+        "date": "2025-Q2",
+        "precision": "quarter",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "hys",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14456"
+      },
+      "lastChecked": "2026-10-25"
+    },
     "espr-art12-da": {
       "framework": "32024R1781",
       "article": "Art. 12(4)",
