@@ -35,7 +35,7 @@
           "passportFrom": "2027-08-18",
           "status": "dated",
           "note": "Postponed from 18 Aug 2025 by Reg (EU) 2025/1561. Not in the passport at the February 2027 start.",
-          "source": "DG GROW battery data-point guidance v2.0 (15 Aug 2026) DP 19; Commission Battery Passport FAQ (1st ed., Sep 2026) §7.3",
+          "source": "DG GROW battery data-point guidance v3.2 (19 Oct 2026) DP 19; Commission Battery Passport FAQ (1st ed., Sep 2026) §7.3",
           "otherDates": [
             "2025-08-18"
           ]
@@ -50,7 +50,7 @@
             "LMT": "2033-08-18"
           },
           "note": "EV, industrial >2 kWh and SLI: 18 Aug 2028 or 24 months after the Art. 8(1) delegated act enters into force, whichever is later (act not adopted). Minimum shares under Art. 8(2) apply from 2031 and 2036.",
-          "source": "Reg (EU) 2023/1542 Art. 8 (consolidated 02023R1542-20260813); guidance v2.0 DP 20-23",
+          "source": "Reg (EU) 2023/1542 Art. 8 (consolidated 02023R1542-20260813); guidance v3.2 DP 20-23",
           "otherDates": [
             "2031",
             "2036"
@@ -63,7 +63,7 @@
           "passportFrom": null,
           "status": "pending-act",
           "note": "Applies once the Commission's calculation-method delegated act and format implementing act apply; no date can be stated.",
-          "source": "Guidance v2.0 DP 17-18; Battery Passport FAQ §7.2-7.3",
+          "source": "Guidance v3.2 DP 17-18; Battery Passport FAQ §7.2-7.3",
           "otherDates": [
             "2025-02-18"
           ]

@@ -2462,7 +2462,7 @@
         "maxLength": 2048,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "labels_markings",
@@ -3096,7 +3096,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3215,7 +3215,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3333,7 +3333,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3450,7 +3450,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3568,7 +3568,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -3890,7 +3890,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -4009,7 +4009,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 17/18: not to be filled/displayed as of February 2027. Art. 7 applies once both Commission acts are adopted and apply: the delegated act on the calculation method (Art. 7(1)) and the implementing act on the declaration format. No date can be stated.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "carbon_footprint",
@@ -4126,7 +4126,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
+        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as envisaged by Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
         "anticipatedUnder": "32023R1542"
       },
       "category": "supply_chain",
@@ -4164,7 +4164,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
         "kind": "legislation",
-        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but the due diligence obligations apply from 18 Aug 2027 (Art. 48(1) as amended by Reg. (EU) 2025/1561), and the Commission's data-points guidance v2.0 (DP 19) says it is not to be filled or displayed as of February 2027 and is required from August 2027, later than the passport itself."
+        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but the due diligence obligations apply from 18 Aug 2027 (Art. 48(1) as amended by Reg. (EU) 2025/1561), and the Commission's data-points guidance v3.2 (DP 19) says it is not to be filled or displayed as of February 2027 and is required from August 2027, later than the passport itself."
       },
       "aiHints": {
         "alternateNames": [
@@ -4274,12 +4274,11 @@
       "sortOrder": 30,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 52",
-        "annex": "Annex XIII",
+        "article": "Battery Regulation Art. 48(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII 1(d)",
+        "provision": "Art. 48(1)",
         "kind": "legislation",
-        "description": "It requires the policy to exist and be verified; what Annex XIII 1(d) carries into the passport is the Art. 52(3) REPORT on that policy, not the policy document. Publishing the policy itself is voluntary."
+        "description": "Art. 48(1) requires economic operators to set up and implement battery due diligence policies, from 18 August 2027 (as amended by Regulation (EU) 2025/1561). Annex XIII 1(d) carries the Art. 52(3) REPORT on that policy into the passport (supplyChainDueDiligenceReport), not the policy document, so publishing the policy here is voluntary."
       },
       "aiHints": {
         "alternateNames": [
@@ -4358,7 +4357,7 @@
         "maxLength": 2048,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
+        "anticipatedNote": "Art. 52(1) applies with the battery due-diligence obligations, from 18 August 2027 (Art. 48(1), as amended by Regulation (EU) 2025/1561). It is a duty to make audit and verification reports available to authorities on request, outside the passport; it is not the public Annex XIII 1(d) data point (DP 19 of the DG GROW guidance), which supplyChainDueDiligenceReport carries.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "supply_chain",
@@ -5469,7 +5468,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v3.2 (19 Oct 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5586,7 +5585,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v3.2 (19 Oct 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5703,7 +5702,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v3.2 (19 Oct 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -5820,7 +5819,7 @@
         "maxLength": null,
         "pattern": null,
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v2.0 (15 Aug 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
+        "anticipatedNote": "DG GROW guidance 'Digital Batteries Passport - data points by category' v3.2 (19 Oct 2026), DP 20-23: not to be filled/displayed as of February 2027. Art. 8(1): applies from 18 August 2028, or 24 months after the delegated act on the calculation and verification methodology enters into force if that is later (not adopted); LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -7085,7 +7084,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v2.0 (DP 20-23) says are not to be filled/displayed as of February 2027. Required with the shares: from 18 August 2028, or 24 months after the Art. 8(1) delegated act enters into force if that is later; LMT batteries from 18 August 2033.",
+        "anticipatedNote": "Evidence for the Annex XIII 1(e) recycled-content shares, which guidance v3.2 (DP 20-23) says are not to be filled/displayed as of February 2027. Required with the shares: from 18 August 2028, or 24 months after the Art. 8(1) delegated act enters into force if that is later; LMT batteries from 18 August 2033.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "end_of_life",
@@ -15627,12 +15626,11 @@
       "sortOrder": 106,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentNickel figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentNickel figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -15741,12 +15739,11 @@
       "sortOrder": 107,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentCobalt figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentCobalt figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -15855,12 +15852,11 @@
       "sortOrder": 108,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentLithium figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentLithium figure is the passport obligation; this field records only the battery manufacturing waste component (Art. 3(1)(51)), as a voluntary breakdown. Art. 8 minimum shares (from 18 Aug 2031 for EV, from 18 Aug 2036 for LMT) apply to the combined share; this split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -15969,12 +15965,11 @@
       "sortOrder": 109,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentNickel figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentNickel figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain nickel in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -16083,12 +16078,11 @@
       "sortOrder": 110,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentCobalt figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentCobalt figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain cobalt in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -16197,12 +16191,11 @@
       "sortOrder": 111,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Art. 8(1); Annex XIII 1(e)",
-        "annex": "Annex XIII (1e)",
+        "article": "Battery Regulation Art. 8(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (1e)",
+        "provision": "Art. 8(1)",
         "kind": "legislation",
-        "description": "Annex XIII 1(e) passport content under Art. 8(1). The combined recycledContentLithium figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
+        "description": "Not Annex XIII 1(e) content: Art. 8(1) documents one share per metal, recovered from battery manufacturing waste or post-consumer waste, and 1(e) carries only that documentation (the DG GROW data-points guidance has no split). The combined recycledContentLithium figure is the passport obligation; this field records only the post-consumer recycled component, as a voluntary breakdown. Art. 8(2) minimum shares (from 18 Aug 2031) are set against the COMBINED share, not the post-consumer component alone; the post-consumer/manufacturing-waste split becomes binding only if the Art. 8(1) delegated act requires it (not yet adopted). Applies only to batteries that contain lithium in their active materials."
       },
       "aiHints": {
         "alternateNames": [
@@ -17283,5 +17276,5 @@
     "performance"
   ],
   "createdBy": "system",
-  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v2.0 (15 Aug 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1). | v6: Four end-of-life field corrections. (1) roleOfEndUsersInWastePrevention: dataType url → string (text may contain URL), description updated to verbatim Art. 74(1)(a) scope (extending use phase, re-use, repurposing, remanufacturing). (2) informationOnSeparateCollection: dataType url → string, description corrected to Art. 74(1)(b) (end-users' role in separate collection under Art. 64), not Art. 74(1)(c) (collection points). (3) safetyInformationEndOfLife: dataType url → string, translatable false → true, label/description updated to 'safety measures for dismantling' (Annex XIII 2(d), legitimate-interest tier), distinguished from safetyInstructionsWasteBatteries (74(1)(d), public). (4) removalInformation: re-cited from Art. 11(1) (portable batteries in products, no passport) to Annex XIII 2(c) (dismantling information, legitimate-interest tier), required stays false (optional supporting URL; the obligation is fully discharged by dismantlingInformation which is already required). requiredFieldCount stays 40."
+  "changelog": "v3: Per-category field applicability (requiredBy) for the EV/LMT/industrial state-of-health inversion (DP 33, 61-66). Demoted carbon-footprint (DP 17/18 deferred format) and due-diligence (DP 19 deferred format) fields to anticipated. Demoted truly optional/conditional fields (DP 5 manufacturer web/email, DP 35 commercial warranty, DP 41 Cd/Pb symbols, DP 68-71 if-applicable SoH). Added 6 new fields: DP 24 renewable content share, DP 37 RTE at 50% cycle-life, DP 46 component part numbers, DP 53 dynamic power, DP 57 dynamic energy RTE, DP 64 remaining round-trip efficiency. Fixed DP 40/41 citations per Corrigendum 2026/90285. | v4: Add 13 Annex XIII fields (pre/post-consumer recycled shares Ni/Co/Li, SoC-split power capability, temperature information, cadmium/lead symbols URL, component part numbers URL, spare parts sources URL, accidents information URL). Closes GEFEG mapping gaps. | v5: Per DG GROW data-points guidance v3.2 (19 Oct 2026): demoted DP 20-23 recycled-content shares (Co/Li/Ni/Pb, Annex XIII 1(e)) and their documentation link from required to anticipated (not to be filled as of Feb 2027, pending the Art. 8 delegated act); DP 19 due-diligence notes now state 'required from August 2027' per Art. 48(1). | v6: Four end-of-life field corrections. (1) roleOfEndUsersInWastePrevention: dataType url → string (text may contain URL), description updated to verbatim Art. 74(1)(a) scope (extending use phase, re-use, repurposing, remanufacturing). (2) informationOnSeparateCollection: dataType url → string, description corrected to Art. 74(1)(b) (end-users' role in separate collection under Art. 64), not Art. 74(1)(c) (collection points). (3) safetyInformationEndOfLife: dataType url → string, translatable false → true, label/description updated to 'safety measures for dismantling' (Annex XIII 2(d), legitimate-interest tier), distinguished from safetyInstructionsWasteBatteries (74(1)(d), public). (4) removalInformation: re-cited from Art. 11(1) (portable batteries in products, no passport) to Annex XIII 2(c) (dismantling information, legitimate-interest tier), required stays false (optional supporting URL; the obligation is fully discharged by dismantlingInformation which is already required). requiredFieldCount stays 40."
 }
