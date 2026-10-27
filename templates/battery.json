@@ -16597,7 +16597,7 @@
         "el": "URL συμβόλων καδμίου και μολύβδου"
       },
       "description": {
-        "en": "URI linking to the artwork or documentation for the cadmium and/or lead chemical symbols required to be marked on qualifying batteries per Annex XIII 1(q) (as corrected by 32023R1542R(13)) with Art. 13(4) and (5). Applicable only to batteries containing more than 0.002 % cadmium or more than 0.004 % lead by weight. The symbol is printed on the battery; this URL is a GEFEG data-model format choice to link the artwork, not a substitute for the marking itself.",
+        "en": "URI linking to the artwork or documentation for the cadmium and/or lead chemical symbols required to be marked on qualifying batteries per Annex XIII 1(q) (as corrected) with Art. 13(4) and (5). Applicable only to batteries containing more than 0.002 % cadmium or more than 0.004 % lead by weight. The symbol is printed on the battery; this URL is a GEFEG data-model format choice to link the artwork, not a substitute for the marking itself.",
         "bg": "URI препратка към графичните материали или документацията за химичните символи на кадмий и олово, изискващи се за маркиране на батерията съгласно чл. 13(5). Допълва булевите полета cadmiumSymbol и leadSymbol, които само указват наличие.",
         "de": "URI, der auf das Bildmaterial oder die Dokumentation für die auf der Batterie gemäß Art. 13(5) vorgeschriebenen chemischen Symbole für Cadmium und Blei verweist. Ergänzt die booleschen Felder cadmiumSymbol und leadSymbol, die nur das Vorhandensein anzeigen.",
         "hr": "URI koji upućuje na oznake za kemijske simbole kadmija i olova prema čl. 13(5).",
