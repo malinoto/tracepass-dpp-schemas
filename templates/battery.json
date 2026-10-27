@@ -2128,7 +2128,7 @@
       "sortOrder": 14,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII 1(q), as corrected by 32023R1542R(13)",
+        "article": "Battery Regulation Annex XIII 1(q) (as corrected)",
         "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(q), as corrected by 32023R1542R(13)",
@@ -16551,10 +16551,10 @@
       "sortOrder": 114,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII (4d)",
-        "annex": "Annex XIII (4d)",
+        "article": "Battery Regulation Annex XIII 4(d)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (4d)",
+        "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "description": "Annex XIII 4(d) covers periodically recorded operating environmental conditions including temperature. Per-battery data restricted to persons with a legitimate interest; distinct from the Annex XIII 1(l) non-use temperature range, which is public."
       },
@@ -16670,8 +16670,8 @@
       "sortOrder": 115,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII 1(q), as corrected by 32023R1542R(13)",
-        "annex": "Annex XIII (1q)",
+        "article": "Battery Regulation Annex XIII 1(q) (as corrected)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(q) as corrected by 32023R1542R(13) together with Art. 13(5)",
         "kind": "legislation",
@@ -16784,10 +16784,10 @@
       "sortOrder": 116,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII (2b)",
-        "annex": "Annex XIII (2b)",
+        "article": "Battery Regulation Annex XIII 2(b)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (2b)",
+        "provision": "Annex XIII 2(b)",
         "kind": "legislation",
         "description": "Annex XIII 2(b) requires the component part-number data (carried by the componentPartNumbers array field), not a URI per se. This URL field is a GEFEG data-model format choice (format:uri requirement) — it is not an independent legal duty. Omit if the componentPartNumbers array already carries the structured part-number list."
       },
@@ -16898,10 +16898,10 @@
       "sortOrder": 117,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII (2b)",
-        "annex": "Annex XIII (2b)",
+        "article": "Battery Regulation Annex XIII 2(b)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (2b)",
+        "provision": "Annex XIII 2(b)",
         "kind": "legislation",
         "description": "Annex XIII 2(b) requires the spare-parts source data (carried by the sparePartsInformation array field), not a URI per se. This URL field is a GEFEG data-model format choice (format:uri requirement) — it is not an independent legal duty. Omit if the sparePartsInformation array already carries the structured source details."
       },
@@ -17017,10 +17017,10 @@
       "sortOrder": 118,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII (4d)",
-        "annex": "Annex XIII (4d)",
+        "article": "Battery Regulation Annex XIII 4(d)",
+        "annex": "Annex XIII",
         "instrument": "32023R1542",
-        "provision": "Annex XIII (4d)",
+        "provision": "Annex XIII 4(d)",
         "kind": "legislation",
         "description": "Annex XIII 4(d) names negative events such as accidents as per-battery data accessible only to persons with a legitimate interest. A link is a delivery convenience; the access restriction still governs what it resolves to."
       },
