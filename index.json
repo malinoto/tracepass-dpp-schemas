@@ -7,7 +7,7 @@
   },
   "totals": {
     "categories": 13,
-    "fields": 998,
+    "fields": 1006,
     "requiredFields": 66,
     "anticipatedFields": 176
   },
@@ -17,7 +17,7 @@
       "label": "Battery",
       "file": "templates/battery.json",
       "version": 6,
-      "fieldCount": 124,
+      "fieldCount": 132,
       "requiredFieldCount": 40,
       "anticipatedFieldCount": 15,
       "regulation": {

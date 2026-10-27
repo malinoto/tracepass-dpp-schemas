@@ -144,6 +144,30 @@
       "a": "notifiedBody",
       "b": "notifiedBodyCertificateReference",
       "why": "The notified body's name and number vs the reference of the certificate it issued; Reg (EU) 2025/2509 Annex VI Part I(j) lists both."
+    },
+    {
+      "category": "battery",
+      "a": "nominalVoltageTemperatureRangeMin",
+      "b": "minimumVoltageTemperatureRangeMin",
+      "why": "Nominal voltage temperature range (lower bound for the rated operating voltage) vs minimum voltage temperature range (lower bound for the lowest permissible voltage). Both are Annex XIII 1(h) but apply to different voltage values which serve distinct safety and design purposes."
+    },
+    {
+      "category": "battery",
+      "a": "nominalVoltageTemperatureRangeMin",
+      "b": "maximumVoltageTemperatureRangeMin",
+      "why": "Nominal voltage temperature range (lower bound for the rated operating voltage) vs maximum voltage temperature range (lower bound for the highest permissible voltage). Both are Annex XIII 1(h) but apply to different voltage values which serve distinct safety and design purposes."
+    },
+    {
+      "category": "battery",
+      "a": "nominalVoltageTemperatureRangeMax",
+      "b": "minimumVoltageTemperatureRangeMax",
+      "why": "Nominal voltage temperature range (upper bound for the rated operating voltage) vs minimum voltage temperature range (upper bound for the lowest permissible voltage). Both are Annex XIII 1(h) but apply to different voltage values which serve distinct safety and design purposes."
+    },
+    {
+      "category": "battery",
+      "a": "nominalVoltageTemperatureRangeMax",
+      "b": "maximumVoltageTemperatureRangeMax",
+      "why": "Nominal voltage temperature range (upper bound for the rated operating voltage) vs maximum voltage temperature range (upper bound for the highest permissible voltage). Both are Annex XIII 1(h) but apply to different voltage values which serve distinct safety and design purposes."
     }
   ],
   "contrasts": [
