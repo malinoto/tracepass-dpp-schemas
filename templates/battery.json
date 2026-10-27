@@ -4391,12 +4391,11 @@
       "sortOrder": 31,
       "defaultAccessLevel": "authority",
       "regulationRef": {
-        "article": "Battery Regulation Art. 52",
-        "annex": "Annex XIII",
+        "article": "Battery Regulation Art. 52(1)",
         "instrument": "32023R1542",
-        "provision": "Annex XIII 1(d)",
+        "provision": "Art. 52(1)",
         "kind": "legislation",
-        "description": "Third-party verification is part of the Art. 52 due diligence regime, and its results support the Art. 52(3) report that Annex XIII 1(d) carries. The audit output itself is not separately enumerated as passport content."
+        "description": "Art. 52(1) obliges the economic operator to make the Art. 51 verification report and approval decision, and the Art. 48(2) audit reports, available to market surveillance or national authorities on request. That duty runs outside the passport; this field links those reports for authority readers. Annex XIII 1(d) carries only the public Art. 52(3) report."
       },
       "aiHints": {
         "alternateNames": [
@@ -5038,7 +5037,7 @@
         },
         "massPercent": {
           "type": "number",
-          "description": "Optional: % of the battery's total mass. Annex XIII asks for the materials, not their quantities.",
+          "description": "Optional: % of the battery's total mass, the basis of the Annex VI Part A(10) threshold (\"present in the battery in a concentration of more than 0,1 % weight by weight\").",
           "required": false
         },
         "countryOfOrigin": {
