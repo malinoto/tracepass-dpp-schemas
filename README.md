@@ -313,6 +313,8 @@ record.
 
 **`aiHints`** lists the synonyms a supplier datasheet might use for the field. If you are
 extracting values from unstructured PDFs, these are the search terms that work.
+`expectedFormat` describes the value's shape, and `extractionPriority` ranks the field's
+importance from 0 (lowest) to 10 (highest).
 
 **`entryProperties`** types the entries of an `array` field whose entries are objects:
 each member has a `type` (`string` | `number` | `boolean`), and optionally `required`,

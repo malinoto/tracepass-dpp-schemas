@@ -677,7 +677,7 @@
             },
             "extractionPriority": {
               "type": "integer",
-              "description": "Higher runs first when extraction budget is limited."
+              "description": "Relative importance of the field, from 0 (lowest) to 10 (highest)."
             }
           }
         }
