@@ -2566,7 +2566,7 @@
         "sv": "Förklaring av alla etiketter och symboler på batteriet eller länk till dokumentation",
         "el": "Επεξήγηση όλων των σημάνσεων και συμβόλων στη μπαταρία ή σύνδεσμος προς την τεκμηρίωση"
       },
-      "dataType": "url",
+      "dataType": "string",
       "unit": null,
       "translatable": true,
       "defaultValue": null,
@@ -4320,32 +4320,32 @@
         "el": "Αποτελέσματα ελέγχου από τρίτους"
       },
       "description": {
-        "en": "URL to third-party audit results, accessible to authorities only",
-        "bg": "URL адрес към резултатите от одита на трета страна, достъпни само за компетентните органи",
-        "de": "URL zu den Ergebnissen der Drittprüfung, nur für Behörden zugänglich",
-        "hr": "URL rezultata revizije treće strane, dostupan samo vlastima",
-        "cs": "URL výsledků auditu třetí strany, přístupné pouze orgánům",
-        "da": "URL til resultater af tredjepartsrevision, kun tilgængelig for myndigheder",
-        "nl": "URL naar resultaten externe audit, alleen toegankelijk voor autoriteiten",
-        "et": "URL kolmanda osapoole auditi tulemustele, pääs ainult asutustele",
-        "fi": "URL-osoite kolmannen osapuolen auditoinnin tuloksiin, joihin pääsy on vain viranomaisilla",
-        "fr": "URL des résultats d'audit par tiers, accessibles uniquement aux autorités",
-        "hu": "Harmadik fél audit eredményeire mutató URL, csak a hatóságok számára elérhető",
-        "ga": "URL chuig torthaí iniúchta tríú páirtí, inrochtana do na húdaráis amháin",
-        "it": "URL dei risultati dell'audit di terzi, accessibili solo alle autorità",
-        "lv": "URL uz trešās puses audita rezultātiem, pieejams tikai iestādēm",
-        "lt": "URL nuoroda į trečiųjų šalių audito rezultatus, prieinamus tik valdžios institucijoms",
-        "mt": "URL għar-riżultati tal-awdit ta' terza parti, aċċessibbli biss lill-awtoritajiet",
-        "pl": "Adres URL wyników audytu trzeciej strony, dostępny tylko dla organów",
-        "pt": "URL dos resultados de auditoria de terceiros, acessíveis apenas às autoridades",
-        "ro": "URL-ul rezultatelor auditului de terț, accesibil doar autorităților",
-        "sk": "URL na výsledky auditu tretej strany, dostupné len pre orgány",
-        "sl": "URL rezultatov revizije tretje strani, dostopni samo organom",
-        "es": "URL de resultados de auditoría de terceros, accesible solo a autoridades",
-        "sv": "URL till resultaten från tredjepartsrevisioner, endast tillgänglig för myndigheter",
-        "el": "URL αποτελεσμάτων ελέγχου από τρίτους, προσβάσιμα μόνο στις αρχές"
+        "en": "Third-party audit results (text or URL), accessible to authorities only",
+        "bg": "Резултатите от одита на трета страна (текст или URL адрес), достъпни само за компетентните органи",
+        "de": "Ergebnisse der Drittprüfung (Text oder URL), nur für Behörden zugänglich",
+        "hr": "Rezultati revizije treće strane (tekst ili URL), dostupni samo vlastima",
+        "cs": "Výsledky auditu třetí strany (text nebo URL), přístupné pouze orgánům",
+        "da": "Resultater af tredjepartsrevision (tekst eller URL), kun tilgængelige for myndigheder",
+        "nl": "Resultaten externe audit (tekst of URL), alleen toegankelijk voor autoriteiten",
+        "et": "Kolmanda osapoole auditi tulemused (tekst või URL), pääs ainult asutustele",
+        "fi": "Kolmannen osapuolen auditoinnin tulokset (teksti tai URL-osoite), joihin pääsy on vain viranomaisilla",
+        "fr": "Résultats d'audit par tiers (texte ou URL), accessibles uniquement aux autorités",
+        "hu": "Harmadik fél audit eredményei (szöveg vagy URL), csak a hatóságok számára elérhető",
+        "ga": "Torthaí iniúchta tríú páirtí (téacs nó URL), inrochtana do na húdaráis amháin",
+        "it": "Risultati dell'audit di terzi (testo o URL), accessibili solo alle autorità",
+        "lv": "Trešās puses audita rezultāti (teksts vai URL), pieejami tikai iestādēm",
+        "lt": "Trečiųjų šalių audito rezultatai (tekstas arba URL), prieinami tik valdžios institucijoms",
+        "mt": "Ir-riżultati tal-awdit ta' terza parti (test jew URL), aċċessibbli biss lill-awtoritajiet",
+        "pl": "Wyniki audytu trzeciej strony (tekst lub adres URL), dostępne tylko dla organów",
+        "pt": "Resultados de auditoria de terceiros (texto ou URL), acessíveis apenas às autoridades",
+        "ro": "Rezultatele auditului de terț (text sau URL), accesibile doar autorităților",
+        "sk": "Výsledky auditu tretej strany (text alebo URL), dostupné len pre orgány",
+        "sl": "Rezultati revizije tretje strani (besedilo ali URL), dostopni samo organom",
+        "es": "Resultados de auditoría de terceros (texto o URL), accesibles solo a autoridades",
+        "sv": "Resultaten från tredjepartsrevisioner (text eller URL), endast tillgängliga för myndigheter",
+        "el": "Αποτελέσματα ελέγχου από τρίτους (κείμενο ή URL), προσβάσιμα μόνο στις αρχές"
       },
-      "dataType": "url",
+      "dataType": "string",
       "unit": null,
       "translatable": false,
       "defaultValue": null,
@@ -4356,7 +4356,7 @@
         "max": null,
         "minLength": null,
         "maxLength": 2048,
-        "pattern": "^https?://.*$",
+        "pattern": null,
         "anticipated": true,
         "anticipatedNote": "DG GROW guidance v2.0 (15 Aug 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as provided in Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
         "anticipatedUnder": "32023R1542"
@@ -4395,7 +4395,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 52(1)",
         "kind": "legislation",
-        "description": "Art. 52(1) obliges the economic operator to make the Art. 51 verification report and approval decision, and the Art. 48(2) audit reports, available to market surveillance or national authorities on request. That duty runs outside the passport; this field links those reports for authority readers. Annex XIII 1(d) carries only the public Art. 52(3) report."
+        "description": "Art. 52(1) obliges the economic operator to make the Art. 51 verification report and approval decision, and the Art. 48(2) audit reports, available to market surveillance or national authorities on request. That duty runs outside the passport; this field holds their results, as text or a link, for authority readers. Annex XIII 1(d) carries only the public Art. 52(3) report."
       },
       "aiHints": {
         "alternateNames": [
@@ -4404,7 +4404,7 @@
           "external audit",
           "compliance audit"
         ],
-        "expectedFormat": "URL to audit report",
+        "expectedFormat": "Summary of the audit results as text, or a URL to the report",
         "extractionPriority": 4
       }
     },
