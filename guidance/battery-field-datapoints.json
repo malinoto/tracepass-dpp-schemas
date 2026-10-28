@@ -1,5 +1,5 @@
 {
-  "_note": "Which official data point(s) of the DG GROW battery-passport guidance (battery-datapoints-v2.0.json) each battery.json field carries. Audit check [21] reads it: a field required for a category must carry a data point that is mandatory there; a conditional one, a data point that is mandatory or applies in certain cases. Only fields that can block publishing (required or conditional in some category) need an entry.",
+  "_note": "Which official data point(s) of the DG GROW battery-passport guidance (battery-datapoints-v3.2.json) each battery.json field carries. Audit check [21] reads it: a field required for a category must carry a data point that is mandatory there; a conditional one, a data point that is mandatory or applies in certain cases. Only fields that can block publishing (required or conditional in some category) need an entry.",
   "fields": {
     "accidentsInformationUrl": {
       "dp": [
@@ -9,9 +9,9 @@
     },
     "anodeActiveMaterials": {
       "dp": [
-        45
+        46
       ],
-      "why": "anode part of detailed composition, Annex XIII 2(a)"
+      "why": "anode part of detailed composition, Annex XIII 2(a) — v3.2 DP 46 (was v2.0 DP 45)"
     },
     "batteryCategory": {
       "dp": [
@@ -57,9 +57,9 @@
     },
     "cadmiumLeadSymbolsUrl": {
       "dp": [
-        41
+        42
       ],
-      "why": "cadmium/lead symbol, if applicable"
+      "why": "cadmium/lead symbol, if applicable — v3.2 DP 42 (was v2.0 DP 41)"
     },
     "capacityFade": {
       "dp": [
@@ -75,15 +75,15 @@
     },
     "cathodeActiveMaterials": {
       "dp": [
-        45
+        46
       ],
-      "why": "cathode part of detailed composition, Annex XIII 2(a)"
+      "why": "cathode part of detailed composition, Annex XIII 2(a) — v3.2 DP 46 (was v2.0 DP 45)"
     },
     "componentPartNumbers": {
       "dp": [
-        46
+        47
       ],
-      "why": "component part numbers, Annex XIII 2(b)"
+      "why": "component part numbers, Annex XIII 2(b) — v3.2 DP 47 merged (was v2.0 DP 46)"
     },
     "criticalRawMaterials": {
       "dp": [
@@ -129,15 +129,15 @@
     },
     "electrolyteComposition": {
       "dp": [
-        45
+        46
       ],
-      "why": "electrolyte part of detailed composition, Annex XIII 2(a)"
+      "why": "electrolyte part of detailed composition, Annex XIII 2(a) — v3.2 DP 46 (was v2.0 DP 45)"
     },
     "euDeclarationOfConformity": {
       "dp": [
-        42
+        43
       ],
-      "why": "EU DoC, Annex XIII 1(r)"
+      "why": "EU DoC, Annex XIII 1(r) — v3.2 DP 43 (was v2.0 DP 42)"
     },
     "evolutionOfSelfDischargeRate": {
       "dp": [
@@ -177,21 +177,21 @@
     },
     "impactOfHazardousSubstances": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(f) part of waste info"
+      "why": "Art. 74(1)(f) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "informationOnCollectionAndEndOfLifeTreatment": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(c) part of waste info"
+      "why": "Art. 74(1)(c) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "informationOnSeparateCollection": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(b) part of waste info"
+      "why": "Art. 74(1)(b) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "initialEnergyRoundTripEfficiency": {
       "dp": [
@@ -261,9 +261,9 @@
     },
     "meaningOfLabelsAndSymbols": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(e) part of waste info, Annex XIII 1(s)"
+      "why": "Art. 74(1)(e) part of waste info, Annex XIII 1(s) — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "minimumVoltage": {
       "dp": [
@@ -334,9 +334,9 @@
     },
     "roleOfEndUsersInWastePrevention": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(a) part of waste info"
+      "why": "Art. 74(1)(a) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "roundTripEfficiencyAtHalfCycleLife": {
       "dp": [
@@ -352,21 +352,21 @@
     },
     "safetyInstructionsWasteBatteries": {
       "dp": [
-        43
+        44
       ],
-      "why": "Art. 74(1)(d) part of waste info"
+      "why": "Art. 74(1)(d) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
     "separateCollectionSymbol": {
       "dp": [
-        40
+        41
       ],
-      "why": "Art. 13(4) marking, Annex XIII 1(q)"
+      "why": "Art. 13(4) marking, Annex XIII 1(q) — v3.2 DP 41 (was v2.0 DP 40)"
     },
     "sparePartsInformation": {
       "dp": [
         47
       ],
-      "why": "contact details of spare sources, Annex XIII 2(b)"
+      "why": "contact details of spare sources, Annex XIII 2(b) — v3.2 DP 47 merged (was v2.0 DP 47)"
     },
     "stateOfCertifiedEnergy": {
       "dp": [
@@ -397,6 +397,36 @@
         50
       ],
       "why": "test report results, Annex XIII 3"
+    },
+    "numberOfFullEquivalentChargingCycles": {
+      "dp": [
+        68
+      ],
+      "why": "number of charging and discharging cycles, Annex XIII 4(d)"
+    },
+    "numberOfChargingEvents": {
+      "dp": [
+        68
+      ],
+      "why": "number of charging events, Annex XIII 4(d)"
+    },
+    "negativeEvents": {
+      "dp": [
+        69
+      ],
+      "why": "negative events such as accidents, Annex XIII 4(d)"
+    },
+    "temperatureConditionsHistorical": {
+      "dp": [
+        70
+      ],
+      "why": "periodically recorded operating environmental conditions incl. temperature, Annex XIII 4(d)"
+    },
+    "currentStateOfCharge": {
+      "dp": [
+        71
+      ],
+      "why": "periodically recorded state of charge, Annex XIII 4(d)"
     }
   },
   "primaryTextOnly": {}

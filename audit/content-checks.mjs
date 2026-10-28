@@ -246,7 +246,7 @@ export function checkUseDataDefaults(templates) {
 }
 
 // ── [21] battery field required against the official data-point list ────────
-// The DG GROW battery-passport guidance (guidance/battery-datapoints-v2.0.json)
+// The DG GROW battery-passport guidance (guidance/battery-datapoints-v3.2.json)
 // says, per data point and battery category, whether the data is mandatory,
 // applies in certain cases, is optional, or must not be filled. A template field
 // that can block publishing must rest on it:
@@ -379,7 +379,7 @@ export function runContentChecks(templates, registry = {}) {
     annexFreeText: checkAnnexFreeText(templates),
     guidanceDatapoints: checkGuidanceDatapoints(
       templates,
-      loadJson(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), null),
+      loadJson(join(here, "..", "guidance", "battery-datapoints-v3.2.json"), null),
       loadJson(join(here, "..", "guidance", "battery-field-datapoints.json"), null),
     ),
   };

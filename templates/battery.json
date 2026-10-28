@@ -12891,7 +12891,12 @@
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13260,7 +13265,12 @@
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13521,7 +13531,12 @@
         "max": null,
         "minLength": 0,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13637,7 +13652,12 @@
         "max": 100,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13753,7 +13773,12 @@
         "max": null,
         "minLength": null,
         "maxLength": null,
-        "pattern": null
+        "pattern": null,
+        "requiredBy": {
+          "EV": "conditional",
+          "LMT": "conditional",
+          "industrial_gt_2kwh": "conditional"
+        }
       },
       "category": "performance",
       "categoryLabel": {
@@ -13974,30 +13999,30 @@
         "el": "Αναγνωριστικό οικονομικού φορέα"
       },
       "description": {
-        "en": "Registration or EORI identifier of the economic operator responsible for placing the battery on the market.",
-        "bg": "Регистрационен или EORI идентификатор на икономическия оператор, отговорен за пускането на батерията на пазара.",
-        "de": "Registrierungs- oder EORI-Kennung des Wirtschaftsakteurs, der für das Inverkehrbringen der Batterie verantwortlich ist.",
-        "hr": "Registracijski ili EORI identifikator gospodarskog subjekta odgovornog za stavljanje baterije na tržište.",
-        "cs": "Registrační nebo EORI identifikátor hospodářského subjektu odpovědného za uvedení baterie na trh.",
-        "da": "Registrerings- eller EORI-identifikator for den erhvervsdrivende, der er ansvarlig for at bringe batteriet i omsætning.",
-        "nl": "Registratie- of EORI-identificatie van de marktdeelnemer die verantwoordelijk is voor het in de handel brengen van de batterij.",
-        "et": "Akut turule laskmise eest vastutava ettevõtja registreerimis- või EORI-identifikaator.",
-        "fi": "Akun markkinoille saattamisesta vastaavan talouden toimijan rekisteröinti- tai EORI-tunniste.",
-        "fr": "Identifiant d'enregistrement ou EORI de l'opérateur économique responsable de la mise sur le marché de la batterie.",
-        "hu": "A akkumulátor forgalomba hozataláért felelős gazdasági szereplő nyilvántartási vagy EORI-azonosítója.",
-        "ga": "Aitheantóir cláraithe nó EORI an oibreora eacnamaíoch atá freagrach as an gceallra a chur ar an margadh.",
-        "it": "Identificatore di registrazione o EORI dell'operatore economico responsabile dell'immissione della batteria sul mercato.",
-        "lv": "Par baterijas laišanu tirgū atbildīgā uzņēmēja reģistrācijas vai EORI identifikators.",
-        "lt": "Už baterijos pateikimą rinkai atsakingo ekonominės veiklos vykdytojo registracijos arba EORI identifikatorius.",
-        "mt": "Identifikatur ta' reġistrazzjoni jew EORI tal-operatur ekonomiku responsabbli għat-tqegħid tal-batterija fis-suq.",
-        "pl": "Identyfikator rejestracyjny lub EORI podmiotu gospodarczego odpowiedzialnego za wprowadzenie baterii do obrotu.",
-        "pt": "Identificador de registo ou EORI do operador económico responsável pela colocação da bateria no mercado.",
-        "ro": "Identificatorul de înregistrare sau EORI al operatorului economic responsabil de introducerea bateriei pe piață.",
-        "sk": "Registračný alebo EORI identifikátor hospodárskeho subjektu zodpovedného za uvedenie batérie na trh.",
-        "sl": "Registracijski ali EORI identifikator gospodarskega subjekta, odgovornega za dajanje baterije na trg.",
-        "es": "Identificador de registro o EORI del agente económico responsable de la introducción de la batería en el mercado.",
-        "sv": "Registrerings- eller EORI-identifierare för den ekonomiska aktör som ansvarar för att släppa ut batteriet på marknaden.",
-        "el": "Αναγνωριστικό μητρώου ή EORI του οικονομικού φορέα που είναι υπεύθυνος για τη διάθεση της μπαταρίας στην αγορά."
+        "en": "The economic operator's identifier under an EN 18219 scheme (e.g. LEI or GLN).",
+        "bg": "Идентификаторът на икономическия оператор съгласно схема EN 18219 (напр. LEI или GLN).",
+        "de": "Die Kennung des Wirtschaftsakteurs nach einem EN-18219-Schema (z. B. LEI oder GLN).",
+        "hr": "Identifikator gospodarskog subjekta prema shemi EN 18219 (npr. LEI ili GLN).",
+        "cs": "Identifikátor hospodářského subjektu podle schématu EN 18219 (např. LEI nebo GLN).",
+        "da": "Den erhvervsdrivendes identifikator under en EN 18219-ordning (f.eks. LEI eller GLN).",
+        "nl": "De identificatie van de marktdeelnemer onder een EN 18219-schema (bijv. LEI of GLN).",
+        "et": "Ettevõtja identifikaator EN 18219 skeemi alusel (nt LEI või GLN).",
+        "fi": "Talouden toimijan tunniste EN 18219 -järjestelmän mukaisesti (esim. LEI tai GLN).",
+        "fr": "L'identifiant de l'opérateur économique selon un schéma EN 18219 (par exemple LEI ou GLN).",
+        "hu": "A gazdasági szereplő azonosítója EN 18219 séma szerint (pl. LEI vagy GLN).",
+        "ga": "Aitheantóir an oibreora eacnamaíoch faoi scéim EN 18219 (m.sh. LEI nó GLN).",
+        "it": "L'identificatore dell'operatore economico ai sensi di uno schema EN 18219 (ad es. LEI o GLN).",
+        "lv": "Uzņēmēja identifikators saskaņā ar EN 18219 shēmu (piemēram, LEI vai GLN).",
+        "lt": "Ekonominės veiklos vykdytojo identifikatorius pagal EN 18219 schemą (pvz., LEI arba GLN).",
+        "mt": "L-identifikatur tal-operatur ekonomiku skont skema EN 18219 (p.e. LEI jew GLN).",
+        "pl": "Identyfikator podmiotu gospodarczego zgodnie ze schematem EN 18219 (np. LEI lub GLN).",
+        "pt": "O identificador do operador económico nos termos de um esquema EN 18219 (por exemplo, LEI ou GLN).",
+        "ro": "Identificatorul operatorului economic conform unei scheme EN 18219 (de exemplu, LEI sau GLN).",
+        "sk": "Identifikátor hospodárskeho subjektu podľa schémy EN 18219 (napr. LEI alebo GLN).",
+        "sl": "Identifikator gospodarskega subjekta po shemi EN 18219 (npr. LEI ali GLN).",
+        "es": "El identificador del agente económico con arreglo a un esquema EN 18219 (p. ej., LEI o GLN).",
+        "sv": "Den ekonomiska aktörens identifierare enligt ett EN 18219-schema (t.ex. LEI eller GLN).",
+        "el": "Το αναγνωριστικό του οικονομικού φορέα βάσει συστήματος EN 18219 (π.χ. LEI ή GLN)."
       },
       "dataType": "string",
       "unit": null,
@@ -14042,21 +14067,22 @@
       "sortOrder": 96,
       "defaultAccessLevel": "public",
       "regulationRef": {
-        "article": "Battery Regulation Annex XIII 1(a) with Annex VI Part A(1)",
-        "annex": "Annex VI Part A",
+        "article": "Battery Regulation (EU) 2023/1542 Art. 77(4) and 77(10)",
+        "annex": null,
         "instrument": "32023R1542",
-        "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
+        "provision": "Art. 77(4) and Art. 77(10)",
         "kind": "legislation",
-        "description": "Annex XIII 1(a) puts the Annex VI Part A information in the passport, and Annex VI Part A(1) identifies the manufacturer by name and postal address (as Art. 38(7) requires) — not by a registration or EORI number. An operator identifier is therefore optional here."
+        "description": "Art. 77(4) requires the economic operator placing the battery on the market to keep the passport accurate, complete and up to date. Art. 77(10) confers rights to the economic operator's successors or new holders. No provision mandates a specific identifier field in the passport; this field is informative."
       },
       "aiHints": {
         "alternateNames": [
-          "EORI",
           "operator registration number",
           "economic operator id",
-          "registration number"
+          "registration number",
+          "LEI",
+          "GLN"
         ],
-        "expectedFormat": "EORI or national registration id",
+        "expectedFormat": "LEI or GLN (EN 18219 scheme identifier)",
         "extractionPriority": 6
       }
     },
@@ -15438,30 +15464,30 @@
         "el": "Εναπομένουσα απόδοση πλήρους κύκλου"
       },
       "description": {
-        "en": "Where possible, the remaining energy round-trip efficiency as part of the state-of-health information per Annex XIII 4(b) DP 64. Applies to LMT batteries (mandatory); conditional for industrial; not applicable to EV.",
-        "bg": "При възможност, оставащата ефективност на кръговото преминаване на енергията като част от информацията за техническото състояние съгласно приложение XIII 4(б) DP 64. Прилага се за LMT батерии (задължително); условна за промишлени; не се прилага за EV.",
-        "de": "Soweit möglich, der verbleibende Energiekreiswirkungsgrad als Teil der Gesundheitszustandsinformationen gemäß Anhang XIII 4(b) DP 64. Gilt für LMT-Batterien (verpflichtend); bedingt für Industriebatterien; nicht anwendbar für EV.",
-        "hr": "Ako je moguće, preostala energetska učinkovitost ciklusa punjenja i pražnjenja kao dio informacija o zdravstvenom stanju u skladu s Prilogom XIII. točkom 4. podtočkom (b), DP 64. Primjenjuje se na baterije LMT (obvezno); uvjetno za industrijske baterije; ne primjenjuje se na EV.",
-        "cs": "Je-li to možné, zbývající energetická účinnost cyklu nabití a vybití jako součást informací o zdravotním stavu podle přílohy XIII bodu 4 písm. b), DP 64. Platí pro baterie LMT (povinně); podmíněně pro průmyslové baterie; nevztahuje se na EV.",
-        "da": "Hvor det er muligt, den resterende energieffektivitet tur-retur som en del af oplysningerne om sundhedstilstanden jf. bilag XIII, punkt 4, litra b), DP 64. Gælder for LMT-batterier (obligatorisk); betinget for industribatterier; ikke relevant for EV.",
-        "nl": "Waar mogelijk, de resterende round-trip-energie-efficiëntie als onderdeel van de informatie over de gezondheidstoestand overeenkomstig bijlage XIII, punt 4, onder b), DP 64. Geldt voor LMT-batterijen (verplicht); voorwaardelijk voor industriële batterijen; niet van toepassing op EV.",
-        "et": "Võimaluse korral järelejäänud energia edasi-tagasi kasutegur osana seisunditeabest (state of health) vastavalt XIII lisa punkti 4 alapunktile b, DP 64. Kehtib LMT-akude puhul (kohustuslik); tingimuslik tööstusakude puhul; ei kohaldata EV puhul.",
-        "fi": "Mahdollisuuksien mukaan jäljellä oleva energian edestakainen hyötysuhde osana kuntoa koskevia tietoja liitteessä XIII olevan 4 kohdan b alakohdan mukaisesti, DP 64. Koskee LMT-akkuja (pakollinen); ehdollinen teollisuusakuille; ei sovelleta EV-akkuihin.",
-        "fr": "Dans la mesure du possible, le rendement énergétique aller-retour restant, dans le cadre des informations sur l'état de santé, conformément à l'annexe XIII, point 4 b), DP 64. S'applique aux batteries LMT (obligatoire) ; conditionnel pour les batteries industrielles ; non applicable aux EV.",
-        "hu": "Lehetőség szerint a hátralévő energia-oda-vissza hatásfok az egészségi állapotra vonatkozó információk részeként, a XIII. melléklet 4. pont b) alpontja szerint (DP 64). LMT-akkumulátorokra vonatkozik (kötelező); ipari akkumulátorok esetében feltételes; EV esetében nem alkalmazandó.",
-        "ga": "I gcás inar féidir, an éifeachtúlacht fuinnimh turais fillte atá fágtha mar chuid den fhaisnéis faoin staid sláinte de réir Iarscríbhinn XIII, pointe 4(b), DP 64. Baineann sé le ceallraí LMT (éigeantach); coinníollach do cheallraí tionsclaíocha; ní bhaineann sé le EV.",
-        "it": "Ove possibile, l'efficienza energetica di andata e ritorno residua, come parte delle informazioni sullo stato di salute ai sensi dell'allegato XIII, punto 4, lettera b), DP 64. Obbligatoria per le batterie LMT; condizionale per le industriali; non applicabile ai veicoli elettrici.",
-        "lv": "Ja iespējams, atlikusī enerģijas cikla efektivitāte kā daļa no veselības stāvokļa informācijas saskaņā ar XIII pielikuma 4. punkta b) apakšpunktu, DP 64. Attiecas uz LMT baterijām (obligāti); rūpnieciskajām baterijām – nosacīti; neattiecas uz EV.",
-        "lt": "Kai įmanoma, likęs energijos apytakos efektyvumas kaip būklės informacijos dalis pagal XIII priedo 4 punkto b papunktį, DP 64. Taikoma LMT baterijoms (privaloma); pramoninėms baterijoms – sąlyginai; EV netaikoma.",
-        "mt": "Fejn possibbli, l-effiċjenza enerġetika tar-round trip li fadal bħala parti mill-informazzjoni dwar l-istat tas-saħħa skont l-Anness XIII, punt 4(b), DP 64. Tapplika għall-batteriji LMT (obbligatorja); kundizzjonali għall-batteriji industrijali; mhux applikabbli għal EV.",
-        "pl": "W miarę możliwości pozostała sprawność energetyczna w cyklu ładowania i rozładowania jako część informacji o stanie zdrowia zgodnie z załącznikiem XIII pkt 4 lit. b), DP 64. Dotyczy baterii LMT (obowiązkowo); warunkowe dla baterii przemysłowych; nie dotyczy EV.",
-        "pt": "Sempre que possível, a eficiência energética de ida e volta restante, como parte das informações sobre o estado de saúde, nos termos do anexo XIII, ponto 4, alínea b), DP 64. Aplica-se às baterias LMT (obrigatório); condicional para as baterias industriais; não aplicável a EV.",
-        "ro": "Dacă este posibil, eficiența energetică dus-întors rămasă, ca parte a informațiilor privind starea de sănătate, în conformitate cu anexa XIII punctul 4 litera (b), DP 64. Se aplică bateriilor LMT (obligatoriu); condiționat pentru bateriile industriale; nu se aplică pentru EV.",
-        "sk": "Ak je to možné, zostávajúca energetická účinnosť cyklu nabitia a vybitia ako súčasť informácií o zdravotnom stave podľa prílohy XIII bodu 4 písm. b), DP 64. Vzťahuje sa na batérie LMT (povinne); podmienene na priemyselné batérie; nevzťahuje sa na EV.",
-        "sl": "Kjer je mogoče, preostala energijska učinkovitost cikla polnjenja in praznjenja kot del informacij o zdravstvenem stanju v skladu s točko 4(b) Priloge XIII, DP 64. Velja za baterije LMT (obvezno); pogojno za industrijske baterije; se ne uporablja za EV.",
-        "es": "Cuando sea posible, la eficiencia energética de ida y vuelta restante como parte de la información sobre el estado de salud, conforme al anexo XIII, punto 4, letra b), DP 64. Se aplica a las baterías LMT (obligatorio); condicional para las baterías industriales; no aplicable a EV.",
-        "sv": "Om möjligt, den återstående energieffektiviteten tur och retur som en del av informationen om hälsotillståndet enligt bilaga XIII punkt 4 b, DP 64. Gäller LMT-batterier (obligatoriskt); villkorad för industribatterier; ej tillämplig på EV.",
-        "el": "Όπου είναι δυνατόν, η εναπομένουσα ενεργειακή απόδοση κύκλου φόρτισης-εκφόρτισης ως μέρος των πληροφοριών για την κατάσταση υγείας σύμφωνα με το παράρτημα XIII σημείο 4 στοιχείο β, DP 64. Ισχύει για μπαταρίες LMT (υποχρεωτικά)· υπό όρους για βιομηχανικές μπαταρίες· δεν ισχύει για EV."
+        "en": "Where possible, the remaining energy round-trip efficiency as part of the state-of-health information per Annex XIII 4(b) DP 64. Conditional for LMT and industrial batteries (Annex VII Part A pt 3); not applicable to EV.",
+        "bg": "При възможност, оставащата ефективност на кръговото преминаване на енергията като част от информацията за техническото състояние съгласно Приложение XIII 4(б), DP 64. Условна за LMT и промишлени батерии (Приложение VII, Част А, т. 3); не се прилага за EV.",
+        "de": "Soweit möglich, der verbleibende Energiekreiswirkungsgrad als Teil der Gesundheitszustandsinformationen gemäß Anhang XIII 4(b), DP 64. Bedingt für LMT- und Industrie-Batterien (Anhang VII Teil A Nr. 3); nicht anwendbar für EV.",
+        "hr": "Ako je moguće, preostala energetska učinkovitost ciklusa punjenja i pražnjenja kao dio informacija o zdravstvenom stanju u skladu s Prilogom XIII. točkom 4(b), DP 64. Uvjetna za baterije LMT i industrijske baterije (Prilog VII., dio A, točka 3.); ne primjenjuje se na EV.",
+        "cs": "Je-li to možné, zbývající energetická účinnost cyklu nabití a vybití jako součást informací o zdravotním stavu podle přílohy XIII bodu 4 písm. b), DP 64. Podmíněná pro baterie LMT a průmyslové baterie (příloha VII část A bod 3); nevztahuje se na EV.",
+        "da": "Hvor det er muligt, den resterende energieffektivitet tur-retur som en del af oplysningerne om sundhedstilstanden jf. bilag XIII, punkt 4, litra b), DP 64. Betinget for LMT- og industribatterier (bilag VII, del A, punkt 3); ikke relevant for EV.",
+        "nl": "Waar mogelijk, de resterende round-trip-energie-efficiëntie als onderdeel van de informatie over de gezondheidstoestand overeenkomstig bijlage XIII, punt 4, onder b), DP 64. Voorwaardelijk voor LMT- en industriële batterijen (bijlage VII, deel A, punt 3); niet van toepassing op EV.",
+        "et": "Võimaluse korral järelejäänud energia edasi-tagasi kasutegur osana seisunditeabest vastavalt XIII lisa punkti 4 alapunktile b, DP 64. Tingimuslik LMT- ja tööstusakude puhul (XIII lisa VII osa A punkt 3); ei kohaldata EV puhul.",
+        "fi": "Mahdollisuuksien mukaan jäljellä oleva energian edestakainen hyötysuhde osana kuntoa koskevia tietoja liitteessä XIII olevan 4 kohdan b alakohdan mukaisesti, DP 64. Ehdollinen LMT- ja teollisuusakuille (liite VII, osa A, kohta 3); ei sovelleta EV-akkuihin.",
+        "fr": "Dans la mesure du possible, le rendement énergétique aller-retour restant, dans le cadre des informations sur l'état de santé, conformément à l'annexe XIII, point 4 b), DP 64. Conditionnel pour les batteries LMT et industrielles (annexe VII, partie A, point 3) ; non applicable aux VE.",
+        "hu": "Lehetőség szerint a hátralévő energia-oda-vissza hatásfok az egészségi állapotra vonatkozó információk részeként, a XIII. melléklet 4. pont b) alpontja szerint (DP 64). Feltételes az LMT- és ipari akkumulátorok esetében (VII. melléklet A. rész 3. pont); EV esetében nem alkalmazandó.",
+        "ga": "I gcás inar féidir, an éifeachtúlacht fuinnimh turais fillte atá fágtha mar chuid den fhaisnéis faoin staid sláinte de réir Iarscríbhinn XIII, pointe 4(b), DP 64. Coinníollach do cheallraí LMT agus tionsclaíocha (Iarscríbhinn VII, Cuid A, mír 3); ní bhaineann sé le EV.",
+        "it": "Ove possibile, l'efficienza energetica di andata e ritorno residua, come parte delle informazioni sullo stato di salute ai sensi dell'allegato XIII, punto 4, lettera b), DP 64. Condizionale per le batterie LMT e industriali (allegato VII, parte A, punto 3); non applicabile ai veicoli elettrici.",
+        "lv": "Ja iespējams, atlikusī enerģijas cikla efektivitāte kā daļa no veselības stāvokļa informācijas saskaņā ar XIII pielikuma 4. punkta b) apakšpunktu, DP 64. Nosacīta LMT un rūpnieciskajām baterijām (VII pielikuma A daļas 3. punkts); neattiecas uz EV.",
+        "lt": "Kai įmanoma, likęs energijos apytakos efektyvumas kaip būklės informacijos dalis pagal XIII priedo 4 punkto b papunktį, DP 64. Sąlyginis LMT ir pramoninėms baterijoms (VII priedo A dalies 3 punktas); EV netaikoma.",
+        "mt": "Fejn possibbli, l-effiċjenza enerġetika tar-round trip li fadal bħala parti mill-informazzjoni dwar l-istat tas-saħħa skont l-Anness XIII, punt 4(b), DP 64. Kundizzjonali għall-batteriji LMT u industrijali (Anness VII, Parti A, punt 3); mhux applikabbli għal EV.",
+        "pl": "W miarę możliwości pozostała sprawność energetyczna w cyklu ładowania i rozładowania jako część informacji o stanie zdrowia zgodnie z załącznikiem XIII pkt 4 lit. b), DP 64. Warunkowe dla baterii LMT i przemysłowych (załącznik VII część A pkt 3); nie dotyczy EV.",
+        "pt": "Sempre que possível, a eficiência energética de ida e volta restante, como parte das informações sobre o estado de saúde, nos termos do anexo XIII, ponto 4, alínea b), DP 64. Condicional para baterias LMT e industriais (anexo VII, parte A, ponto 3); não aplicável a EV.",
+        "ro": "Dacă este posibil, eficiența energetică dus-întors rămasă, ca parte a informațiilor privind starea de sănătate, în conformitate cu anexa XIII punctul 4 litera (b), DP 64. Condiționat pentru bateriile LMT și industriale (anexa VII, partea A, punctul 3); nu se aplică pentru EV.",
+        "sk": "Ak je to možné, zostávajúca energetická účinnosť cyklu nabitia a vybitia ako súčasť informácií o zdravotnom stave podľa prílohy XIII bodu 4 písm. b), DP 64. Podmienená pre batérie LMT a priemyselné batérie (príloha VII časť A bod 3); nevzťahuje sa na EV.",
+        "sl": "Kjer je mogoče, preostala energijska učinkovitost cikla polnjenja in praznjenja kot del informacij o zdravstvenem stanju v skladu s točko 4(b) Priloge XIII, DP 64. Pogojno za baterije LMT in industrijske baterije (Priloga VII, del A, točka 3); se ne uporablja za EV.",
+        "es": "Cuando sea posible, la eficiencia energética de ida y vuelta restante como parte de la información sobre el estado de salud, conforme al anexo XIII, punto 4, letra b), DP 64. Condicional para las baterías LMT e industriales (anexo VII, parte A, punto 3); no aplicable a EV.",
+        "sv": "Om möjligt, den återstående energieffektiviteten tur och retur som en del av informationen om hälsotillståndet enligt bilaga XIII punkt 4 b, DP 64. Villkorad för LMT- och industribatterier (bilaga VII, del A, punkt 3); ej tillämplig på EV.",
+        "el": "Όπου είναι δυνατόν, η εναπομένουσα ενεργειακή απόδοση κύκλου φόρτισης-εκφόρτισης ως μέρος των πληροφοριών για την κατάσταση υγείας σύμφωνα με το παράρτημα XIII σημείο 4 στοιχείο β, DP 64. Υπό όρους για μπαταρίες LMT και βιομηχανικές μπαταρίες (παράρτημα VII, μέρος Α, σημείο 3)· δεν ισχύει για EV."
       },
       "dataType": "number",
       "unit": "%",

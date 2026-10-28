@@ -192,15 +192,16 @@ test("[20] the declared battery status (point 4(c)) may keep its default", () =>
   assert.deepEqual(checkUseDataDefaults(t), []);
 });
 
-const GUIDANCE = JSON.parse(readFileSync(join(here, "..", "guidance", "battery-datapoints-v2.0.json"), "utf-8"));
+const GUIDANCE = JSON.parse(readFileSync(join(here, "..", "guidance", "battery-datapoints-v3.2.json"), "utf-8"));
 const DP_MAP = JSON.parse(readFileSync(join(here, "..", "guidance", "battery-field-datapoints.json"), "utf-8"));
 const g21 = (t) => checkGuidanceDatapoints(t, GUIDANCE, DP_MAP);
 
 test("[21] the guidance table parses to the Commission's per-category totals", () => {
   const tally = (cat) => Object.values(GUIDANCE.datapoints).reduce((a, d) => ({ ...a, [d[cat]]: (a[d[cat]] ?? 0) + 1 }), {});
-  assert.deepEqual(tally("EV"), { mandatory: 47, "certain-cases": 8, optional: 1, "not-to-be-filled": 15 });
-  assert.deepEqual(tally("LMT"), { mandatory: 50, "certain-cases": 8, optional: 1, "not-to-be-filled": 12 });
-  assert.deepEqual(tally("industrial"), { mandatory: 32, "certain-cases": 26, optional: 1, "not-to-be-filled": 12 });
+  // v3.2: new optional DP 40 (discharge C-rate) shifts EV mandatory 47→46, LMT 50→49, industrial 32→31; optional 1→2 for all.
+  assert.deepEqual(tally("EV"), { mandatory: 46, "certain-cases": 8, optional: 2, "not-to-be-filled": 15 });
+  assert.deepEqual(tally("LMT"), { mandatory: 49, "certain-cases": 8, optional: 2, "not-to-be-filled": 12 });
+  assert.deepEqual(tally("industrial"), { mandatory: 31, "certain-cases": 26, optional: 2, "not-to-be-filled": 12 });
 });
 
 test("[21] the shipped battery template has no field blocking publication without a data point", () =>
