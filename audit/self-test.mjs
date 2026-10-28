@@ -50,10 +50,14 @@ test("each piece of an elided quote must occur", () => {
 
 test("corrected wording is found only in the corrigendum", () => {
   const t = load();
+  // Both separateCollectionMarkingOnBattery and separateCollectionSymbol reference
+  // the corrigendum; strip both to make the corrigendum file unused.
+  field(t, "battery", "separateCollectionMarkingOnBattery").regulationRef.obligations[0].provision = "Annex XIII 1(q)";
   field(t, "battery", "separateCollectionSymbol").regulationRef.obligations[0].provision = "Annex XIII 1(q)";
   // The corrigendum text is then quoted by nothing, which is reported as well.
   assert.deepEqual(checkQuotes(t).map((f) => f.id), [
     "battery.separateCollectionSymbol",
+    "battery.separateCollectionMarkingOnBattery",
     "audit/acts/32023R1542R(13).txt",
   ]);
 });

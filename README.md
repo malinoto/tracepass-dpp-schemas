@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@tracepass/dpp-schemas.svg)](https://www.npmjs.com/package/@tracepass/dpp-schemas)
-[![Fields](https://img.shields.io/badge/fields-1006-informational)](#whats-in-here)
+[![Fields](https://img.shields.io/badge/fields-1010-informational)](#whats-in-here)
 [![Categories](https://img.shields.io/badge/categories-13-informational)](#whats-in-here)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-success)](#no-build-step)
 [![Schema](https://img.shields.io/badge/JSON%20Schema-2020--12-orange)](./schema.json)
@@ -39,14 +39,14 @@ this repository contains.
 
 ## What's in here
 
-Thirteen JSON files, one per product category. **1,006 fields in total. 66 are required by
+Thirteen JSON files, one per product category. **1,010 fields in total. 66 are required by
 a law that creates a passport; 176 are anticipated under a rule that does not apply yet.**
 Every other legal duty (on the product, the label, a safety data sheet, a document) is
 recorded per field in `regulationRef.obligations` instead of being marked required.
 
 | Category | Fields | Required | Instrument |
 |---|---:|---:|---|
-| `battery` | 132 | 40 | Regulation (EU) 2023/1542 |
+| `battery` | 136 | 40 | Regulation (EU) 2023/1542 |
 | `construction` | 54 | 0 | CPR (EU) 2024/3110 |
 | `detergents` | 77 | 12 | Regulation (EU) 2026/405 |
 | `electronics` | 160 | 0 | ESPR (EU) 2024/1781 |

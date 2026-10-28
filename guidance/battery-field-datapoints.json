@@ -53,7 +53,13 @@
       "dp": [
         39
       ],
-      "why": "C-rate of cycle-life test, Annex XIII 1(p)"
+      "why": "charge C-rate of cycle-life test, Annex XIII 1(p)"
+    },
+    "commercialWarrantyPeriod": {
+      "dp": [
+        35
+      ],
+      "why": "commercial warranty period, Annex XIII 1(m) — conditional on warranty being offered"
     },
     "cadmiumLeadSymbolsUrl": {
       "dp": [
@@ -356,11 +362,17 @@
       ],
       "why": "Art. 74(1)(d) part of waste info — v3.2 DP 44 (was v2.0 DP 43)"
     },
+    "separateCollectionMarkingOnBattery": {
+      "dp": [
+        41
+      ],
+      "why": "boolean confirming the Art. 13(4) marking is present on the battery, Annex XIII 1(q) — v3.2 DP 41"
+    },
     "separateCollectionSymbol": {
       "dp": [
         41
       ],
-      "why": "Art. 13(4) marking, Annex XIII 1(q) — v3.2 DP 41 (was v2.0 DP 40)"
+      "why": "Art. 13(4) marking symbol URL, Annex XIII 1(q) — v3.2 DP 41 (was v2.0 DP 40); now optional (boolean field separateCollectionMarkingOnBattery carries the required duty)"
     },
     "sparePartsInformation": {
       "dp": [
