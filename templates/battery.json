@@ -10122,7 +10122,7 @@
         "provision": null,
         "kind": "specification",
         "article": null,
-        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW data-point guidance (v3.2, 19 Oct 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -11243,12 +11243,12 @@
       "sortOrder": 73,
       "defaultAccessLevel": "restricted",
       "regulationRef": {
-        "annex": null,
-        "instrument": null,
-        "provision": null,
-        "kind": "specification",
-        "article": null,
-        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
+        "annex": "Annex XIII",
+        "instrument": "32023R1542",
+        "provision": "Annex XIII 2(c)",
+        "kind": "legislation",
+        "article": "Battery Regulation Annex XIII 2(c)",
+        "description": "Annex XIII 2(c) lists the \"amount of cells used and layout\" within the dismantling information, accessible only to persons with a legitimate interest. The required dismantlingInformation field discharges 2(c); this field is an optional structured part of it."
       },
       "aiHints": {
         "alternateNames": [
@@ -11480,7 +11480,7 @@
         "provision": null,
         "kind": "specification",
         "article": null,
-        "description": "Not a Commission Annex XIII/VI data point — the DG GROW list (v1.0, 28 Jul 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
+        "description": "Not a Commission Annex XIII/VI data point — the DG GROW data-point guidance (v3.2, 19 Oct 2026) enumerates 13 Annex VI Part A points and none covers this. Kept as a widely-supplied datasheet attribute; not compelled by the Regulation."
       },
       "aiHints": {
         "alternateNames": [
@@ -15547,7 +15547,7 @@
         "annex": "Annex XIII",
         "kind": "legislation",
         "article": "Battery Regulation Annex XIII 4(b)",
-        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. It binds from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries; the template-level flag is false because the duty varies by battery type — see validation.requiredBy."
+        "description": "Annex XIII point 4 is per-battery data that the Regulation makes accessible ONLY to persons with a legitimate interest, never to the public. From 18 Feb 2027 it is owed \"where possible\" for LMT and industrial batteries (Annex VII Part A point 3) and does not apply to EV batteries — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
