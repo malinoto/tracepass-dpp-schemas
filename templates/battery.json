@@ -11133,7 +11133,7 @@
         "provision": "Annex XIII 1(m)",
         "kind": "legislation",
         "article": "Battery Regulation Art. 77",
-        "description": "The period for which the commercial warranty for calendar life applies is publicly accessible passport content from 18 Feb 2027. It binds for LMT, industrial >2 kWh and EV batteries; the field is not flagged required at template level only because the duty is not uniform across battery types — see validation.requiredBy."
+        "description": "The period for which the commercial warranty for calendar life applies is publicly accessible passport content from 18 Feb 2027 for LMT, industrial >2 kWh and EV batteries. It has a value only where such a warranty is offered, so the template marks it conditional for those types — see validation.requiredBy."
       },
       "aiHints": {
         "alternateNames": [
