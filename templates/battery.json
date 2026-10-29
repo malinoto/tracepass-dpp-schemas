@@ -14077,7 +14077,7 @@
         "instrument": "32023R1542",
         "provision": "Art. 77(4) and Art. 77(10)",
         "kind": "legislation",
-        "description": "Art. 77(4) requires the economic operator placing the battery on the market to keep the passport accurate, complete and up to date. Art. 77(10) confers rights to the economic operator's successors or new holders. No provision mandates a specific identifier field in the passport; this field is informative."
+        "description": "Art. 77(4) requires the economic operator placing the battery on the market to keep the passport accurate, complete and up to date. Art. 77(10) requires the economic operator placing the battery on the market or putting it into service to upload the unique identifier to the registry under ESPR (EU) 2024/1781 Art. 13(1). No provision mandates a specific identifier field in the passport; this field is informative."
       },
       "aiHints": {
         "alternateNames": [
@@ -17776,7 +17776,6 @@
       },
       "aiHints": {
         "alternateNames": [
-          "manufacturer name",
           "economic operator name",
           "responsible operator",
           "passport responsible party"
