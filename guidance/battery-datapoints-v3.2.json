@@ -3,7 +3,7 @@
   "notes": {
     "40": "NEW in v3.2: Discharge C-rate of the relevant cycle-life test, optional for all three categories.",
     "47": "Merged from v2.0 DP 46 (component part numbers) + DP 47 (contact details of sources for replacement spares). Both are now a single mandatory data point.",
-    "51": "EV/LMT cell 'same as data point 11 (capacity), but now dynamic' normalised to mandatory (DP 11 is mandatory; required to hit the 46/49 totals)",
+    "51": "EV/LMT cell 'Same as data point 11 (capacity)' normalised to mandatory (DP 11 is mandatory; required to hit the 46/49 totals); industrial adds 'only for rechargeable batteries', so certain-cases",
     "accessTiers": "v3.2 adds explicit access-tier column: Public (DP 1–45) vs Restricted (DP 46–71). Stored as accessTier: 'public'|'restricted'.",
     "raw": "Cell text de-wrapped from PDF column extraction (line breaks joined with single spaces)."
   },
@@ -666,9 +666,9 @@
       "LMT": "mandatory",
       "industrial": "certain-cases",
       "raw": {
-        "EV": "same as data point 11 (capacity), but now dynamic",
-        "LMT": "same as data point 11 (capacity), but now dynamic",
-        "industrial": "if applicable, but now dynamic"
+        "EV": "Same as data point 11 (capacity)",
+        "LMT": "Same as data point 11 (capacity)",
+        "industrial": "Same as data point 11 (capacity); only for rechargeable batteries"
       }
     },
     "52": {
