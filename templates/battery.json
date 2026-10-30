@@ -9883,7 +9883,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 4(b) with Annex VII Part A(4)",
         "kind": "legislation",
-        "description": "Self-discharge enters the Regulation only as the evolution of self-discharging rates, Annex VII state-of-health data (via Annex XIII 4(b)) for stationary storage and LMT batteries. The initial rate is that evolution's baseline, not a value the Regulation names; guidance v3.2 (DP 65) words it \"where possible\".",
+        "description": "Self-discharge enters the Regulation only as the evolution of self-discharging rates, Annex VII state-of-health data (via Annex XIII 4(b)) for stationary storage and LMT batteries. The initial rate is that evolution's baseline, not a value the Regulation names; guidance v3.2 has no data point for it (its DP 65 is the evolution).",
         "obligations": [
           {
             "instrument": "32023R1542",
