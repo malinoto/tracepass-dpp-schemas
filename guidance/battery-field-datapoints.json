@@ -439,6 +439,12 @@
         71
       ],
       "why": "periodically recorded state of charge, Annex XIII 4(d)"
+    },
+    "notInUseTemperatureRangeTest": {
+      "dp": [
+        34
+      ],
+      "why": "reference test of the idle temperature range, Annex XIII 1(l)"
     }
   },
   "primaryTextOnly": {}
