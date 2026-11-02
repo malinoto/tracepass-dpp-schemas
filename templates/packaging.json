@@ -27,6 +27,7 @@
     "sv": "Förpackning"
   },
   "version": 2,
+  "modelVersion": "2.0.0",
   "isLatest": true,
   "regulation": {
     "name": "Packaging and Packaging Waste Regulation",

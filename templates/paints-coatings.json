@@ -27,6 +27,7 @@
     "sv": "Färger och beläggningar"
   },
   "version": 1,
+  "modelVersion": "1.0.0",
   "isLatest": true,
   "regulation": {
     "name": "Decopaint Directive (no passport act adopted or scheduled)",

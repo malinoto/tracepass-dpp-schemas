@@ -27,6 +27,7 @@
     "sv": "Textil"
   },
   "version": 2,
+  "modelVersion": "2.0.0",
   "isLatest": true,
   "regulation": {
     "name": "EU ESPR - Textiles",

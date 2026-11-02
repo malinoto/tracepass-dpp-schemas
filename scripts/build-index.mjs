@@ -37,6 +37,7 @@ const categories = readdirSync(templatesDir)
       label: typeof t.categoryLabel === 'string' ? t.categoryLabel : t.categoryLabel.en,
       file: `templates/${file}`,
       version: t.version,
+      modelVersion: t.modelVersion,
       fieldCount: fields.length,
       requiredFieldCount,
       anticipatedFieldCount,

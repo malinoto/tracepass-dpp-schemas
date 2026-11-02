@@ -8,6 +8,7 @@
     "category",
     "categoryLabel",
     "version",
+    "modelVersion",
     "isLatest",
     "regulation",
     "fields",
@@ -34,7 +35,12 @@
     "version": {
       "type": "integer",
       "minimum": 1,
-      "description": "Template version. Increments when fields are added, removed, or their validation changes."
+      "description": "Legacy integer label, kept because the v1 API returns it. Nothing enforces a bump; the data-model version is modelVersion."
+    },
+    "modelVersion": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
+      "description": "SemVer name of the category data model: the template keys listed in model-subset.json. MAJOR when a passport that met the old model can fail the new one or data a reader relies on goes away; MINOR for compatible additions and relaxations; PATCH for model changes that change no outcome (a corrected citation). model-versions.json pairs every released version with its SHA-256 model hash, and npm run check:model fails a model change without a bump."
     },
     "isLatest": {
       "type": "boolean",

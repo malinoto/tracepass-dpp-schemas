@@ -390,6 +390,53 @@ runs it on every push:
   [`audit/README.md`](./audit/README.md).
 - **Planned acts** (`scripts/check-planned-acts.mjs`): every `plannedActs` entry names
   an instrument it is adopted under, and its planned date matches its source's precision.
+- **Data-model versions** (`scripts/check-model-versions.mjs`): every template's
+  `modelVersion` matches its hash in `model-versions.json`. See below.
+
+## Data-model versions
+
+Each template carries `modelVersion`, a SemVer name for its **data model**: the parts
+that decide whether a passport is valid and who may see each field. These are field
+keys, data types, units, allowed values, validation, access levels, the citations and
+the regulation dates. Labels, descriptions, translations and editorial notes are not
+part of the model. [`model-subset.json`](./model-subset.json) lists which keys are in
+and which are out.
+
+[`model-versions.json`](./model-versions.json) pairs every released version with a
+hash of the model, so a version number can always be checked:
+
+- **The hash** is `sha256:` over the [RFC 8785](https://www.rfc-editor.org/rfc/rfc8785)
+  (JCS) canonical form of the template projected onto `model-subset.json`
+  ([`scripts/model-hash.mjs`](./scripts/model-hash.mjs)). In the projection:
+  - `fields` is keyed by field key;
+  - enum values and obligations are sorted;
+  - `null`, `[]` and `{}` count as absent.
+- **The gate** (`npm run check:model`, part of `npm run check`) fails two cases: a model
+  that changed without a new version, and a template key that `model-subset.json` does
+  not classify.
+
+The version number moves like this:
+
+| Level | When |
+|---|---|
+| MAJOR | A passport that met the old model can fail the new one, or data a reader relies on disappears or changes meaning. This covers a field added as required, made required, removed or renamed; a type or unit changed; an allowed value removed; validation tightened; a date moved earlier; an access level tightened. |
+| MINOR | Compatible additions and relaxations. This covers an optional field added, an allowed value added, validation relaxed, a field no longer required, a date moved later, an access level loosened. |
+| PATCH | A model change with no effect on any outcome, such as a corrected citation. |
+
+To bump a version after editing a template:
+
+```bash
+npm run bump:model -- battery minor     # --dry-run to preview
+```
+
+The bump command:
+
+1. finds the recorded model in git history;
+2. lists what changed;
+3. works out the smallest allowed level and refuses anything below it;
+4. sets `modelVersion` and appends the new entry to the ledger.
+
+The integer `version` is a legacy label and is not enforced.
 
 ## Recent changes
 

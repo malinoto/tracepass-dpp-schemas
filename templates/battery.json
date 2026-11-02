@@ -27,6 +27,7 @@
     "el": "Μπαταρία"
   },
   "version": 7,
+  "modelVersion": "7.0.0",
   "isLatest": true,
   "regulation": {
     "name": "EU Battery Regulation",

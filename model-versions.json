@@ -1,0 +1,81 @@
+{
+  "$comment": "Every released data-model version per category, oldest first: the SemVer `modelVersion` and the SHA-256 hash of the template's model-bearing subset (model-subset.json, scripts/model-hash.mjs). Append-only: written by `npm run bump:model`, checked by `npm run check:model`. Bump rules: README § Data-model versions.",
+  "battery": [
+    {
+      "modelVersion": "7.0.0",
+      "hash": "sha256:ef8e6aca08374637d5af750453201363dc884713b84a8d719a322741e8e8731c"
+    }
+  ],
+  "construction": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:44d80921f85e5321780f441b08b3c7a4a53637bdab452102718f26bb18474110"
+    }
+  ],
+  "detergents": [
+    {
+      "modelVersion": "1.0.0",
+      "hash": "sha256:c5549127a7f42b4e4cb4055385333a72480cdbc8a5e9033d17d6519b4559fef7"
+    }
+  ],
+  "electronics": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:e5417e6a028e6b075d762c11aea6ca8b9cc38903bb3ba05eef73999b663130dc"
+    }
+  ],
+  "fmcg": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:e4823795088f3ce435baf40fb8eef8385710163677a6fba25e80ae01aada2d8e"
+    }
+  ],
+  "furniture": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:d0192751eab541c295dda13d9c058ae99de3807bb380ab09664baf5d319c159e"
+    }
+  ],
+  "jewelry": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:f7a25b15c0b6b9da8c35a60bb45c097273971f77efdce0be4fd1a5bb7ecc8d77"
+    }
+  ],
+  "packaging": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:9d1132587dce4099c35ceb3b8c846091f16a7d510e68d091a138c73fab1096b0"
+    }
+  ],
+  "paints-coatings": [
+    {
+      "modelVersion": "1.0.0",
+      "hash": "sha256:7a221ba90143665a59b256948b5819290c1ea76156ce23b9b7b80d60e7de8716"
+    }
+  ],
+  "steel": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:28a8bf4c26be983b962fe5fe32c8378bc8f0affd6cf36cdd76d44b601e807860"
+    }
+  ],
+  "textile": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:b7b769aa3fe145b51875005fc407ffa9adeb02bf5162cc7da5ccf2c1335adf29"
+    }
+  ],
+  "toys": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:38b301f68fa8c66d2dc2616eec8e0765a63a9a533df25d9a655ddcd48a3e52bf"
+    }
+  ],
+  "tyres": [
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:1a6afc60b278d79751be19ce467851dad3dda831f9d79350e6008ca34acb9874"
+    }
+  ]
+}

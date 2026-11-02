@@ -27,6 +27,7 @@
     "sv": "Tvätt- och rengöringsmedel och tensider"
   },
   "version": 1,
+  "modelVersion": "1.0.0",
   "isLatest": true,
   "regulation": {
     "name": "Detergents Regulation",

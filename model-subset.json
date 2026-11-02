@@ -1,0 +1,35 @@
+{
+  "$comment": "Which template keys make up a category's data model: the parts that decide whether a passport is valid and who may see what. scripts/model-hash.mjs projects a template onto the 'include' keys and hashes the result (SHA-256 over RFC 8785 JCS); labels, descriptions, translations and editorial notes are 'exclude' and never change the hash. Every key found in a template must be listed in one of the two, so a new key fails `npm run check:model` until it is placed. The platform mirrors this file and must hash the same way.",
+  "template": {
+    "include": ["category", "regulation", "fields"],
+    "exclude": ["categoryLabel", "version", "modelVersion", "isLatest", "fieldCount", "requiredFieldCount", "categories", "createdBy", "changelog", "_note"]
+  },
+  "regulation": {
+    "include": ["number", "effectiveDate", "mandatoryDate", "dateBasis", "datePrecision", "mandatoryDatePrecision"],
+    "exclude": ["name"]
+  },
+  "field": {
+    "include": ["key", "dataType", "unit", "translatable", "enumOptions", "validation", "defaultAccessLevel", "regulationRef", "entryProperties"],
+    "exclude": ["label", "description", "category", "categoryLabel", "sortOrder", "aiHints", "defaultValue"]
+  },
+  "validation": {
+    "include": ["required", "min", "max", "minLength", "maxLength", "pattern", "anticipated", "anticipatedUnder", "requiredBy"],
+    "exclude": ["anticipatedNote"]
+  },
+  "enumOption": {
+    "include": ["value"],
+    "exclude": ["label"]
+  },
+  "entryProperty": {
+    "include": ["type", "required", "format", "enum"],
+    "exclude": ["description"]
+  },
+  "regulationRef": {
+    "include": ["instrument", "provision", "kind", "obligations"],
+    "exclude": ["article", "annex", "description", "standards", "source", "verifiedAgainstPrimaryText"]
+  },
+  "obligation": {
+    "include": ["instrument", "provision", "carrier", "condition"],
+    "exclude": ["quote"]
+  }
+}
