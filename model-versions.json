@@ -16,6 +16,10 @@
     {
       "modelVersion": "1.0.0",
       "hash": "sha256:c5549127a7f42b4e4cb4055385333a72480cdbc8a5e9033d17d6519b4559fef7"
+    },
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:1ddc1a164fafd9efdf726addac15bd7d93a393c1f44f22c2580986977e66e344"
     }
   ],
   "electronics": [
@@ -52,12 +56,20 @@
     {
       "modelVersion": "1.0.0",
       "hash": "sha256:7a221ba90143665a59b256948b5819290c1ea76156ce23b9b7b80d60e7de8716"
+    },
+    {
+      "modelVersion": "2.0.0",
+      "hash": "sha256:b18c7ab89207d8784fe14a042db1cc7c2ded2571ad56d72dbe3fd4ec2b8f34d6"
     }
   ],
   "steel": [
     {
       "modelVersion": "2.0.0",
       "hash": "sha256:28a8bf4c26be983b962fe5fe32c8378bc8f0affd6cf36cdd76d44b601e807860"
+    },
+    {
+      "modelVersion": "3.0.0",
+      "hash": "sha256:38cd5f6635587371e822d330fea69a1ae087fe16ddfd0939ea8c48aa5df05c1c"
     }
   ],
   "textile": [

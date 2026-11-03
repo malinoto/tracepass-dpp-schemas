@@ -27,7 +27,7 @@
     "sv": "Färger och beläggningar"
   },
   "version": 1,
-  "modelVersion": "1.0.0",
+  "modelVersion": "2.0.0",
   "isLatest": true,
   "regulation": {
     "name": "Decopaint Directive (no passport act adopted or scheduled)",
@@ -6259,13 +6259,15 @@
         "sl": "Vrsta nosilca podatkov, uporabljenega za DPP (koda QR, NFC, RFID itd.).",
         "sv": "Typ av databärare som används för DPP (QR-kod, NFC, RFID osv.)."
       },
-      "dataType": "enum",
+      "dataType": "multi_enum",
       "unit": null,
       "translatable": false,
-      "defaultValue": "QR",
+      "defaultValue": [
+        "qr_code"
+      ],
       "enumOptions": [
         {
-          "value": "QR",
+          "value": "qr_code",
           "label": {
             "en": "QR code",
             "bg": "QR код",
@@ -6294,7 +6296,36 @@
           }
         },
         {
-          "value": "NFC",
+          "value": "data_matrix",
+          "label": {
+            "en": "Data Matrix",
+            "bg": "Data Matrix",
+            "de": "Data Matrix",
+            "fr": "Data Matrix",
+            "hr": "Data Matrix",
+            "cs": "Data Matrix",
+            "da": "Data Matrix",
+            "nl": "Data Matrix",
+            "et": "Data Matrix",
+            "fi": "Data Matrix",
+            "el": "Data Matrix",
+            "hu": "Data Matrix",
+            "ga": "Data Matrix",
+            "it": "Data Matrix",
+            "lv": "Data Matrix",
+            "lt": "Data Matrix",
+            "mt": "Data Matrix",
+            "pl": "Data Matrix",
+            "pt": "Data Matrix",
+            "ro": "Data Matrix",
+            "sk": "Data Matrix",
+            "sl": "Data Matrix",
+            "es": "Data Matrix",
+            "sv": "Data Matrix"
+          }
+        },
+        {
+          "value": "nfc_tag",
           "label": {
             "en": "NFC tag",
             "bg": "NFC таг",
@@ -6323,7 +6354,7 @@
           }
         },
         {
-          "value": "RFID",
+          "value": "rfid_tag",
           "label": {
             "en": "RFID tag",
             "bg": "RFID таг",
@@ -6352,32 +6383,32 @@
           }
         },
         {
-          "value": "DataMatrix",
+          "value": "other",
           "label": {
-            "en": "Data Matrix",
-            "bg": "Data Matrix",
-            "de": "Data Matrix",
-            "fr": "Data Matrix",
-            "hr": "Data Matrix",
-            "cs": "Data Matrix",
-            "da": "Data Matrix",
-            "nl": "Data Matrix",
-            "et": "Data Matrix",
-            "fi": "Data Matrix",
-            "el": "Data Matrix",
-            "hu": "Data Matrix",
-            "ga": "Data Matrix",
-            "it": "Data Matrix",
-            "lv": "Data Matrix",
-            "lt": "Data Matrix",
-            "mt": "Data Matrix",
-            "pl": "Data Matrix",
-            "pt": "Data Matrix",
-            "ro": "Data Matrix",
-            "sk": "Data Matrix",
-            "sl": "Data Matrix",
-            "es": "Data Matrix",
-            "sv": "Data Matrix"
+            "en": "Other",
+            "bg": "Друго",
+            "de": "Andere",
+            "fr": "Autre",
+            "hr": "Drugo",
+            "cs": "Jiné",
+            "da": "Andet",
+            "nl": "Anders",
+            "et": "Muu",
+            "fi": "Muu",
+            "el": "Άλλο",
+            "hu": "Egyéb",
+            "ga": "Eile",
+            "it": "Altro",
+            "lv": "Cits",
+            "lt": "Kita",
+            "mt": "Oħra",
+            "pl": "Inne",
+            "pt": "Outro",
+            "ro": "Altul",
+            "sk": "Iné",
+            "sl": "Drugo",
+            "es": "Otro",
+            "sv": "Annat"
           }
         }
       ],
@@ -6426,7 +6457,7 @@
           "QR code",
           "digital link type"
         ],
-        "expectedFormat": "One of: QR, NFC, RFID, DataMatrix",
+        "expectedFormat": "QR, DataMatrix, RFID, or NFC",
         "extractionPriority": 5
       }
     },
