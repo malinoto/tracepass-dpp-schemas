@@ -355,6 +355,17 @@ matching types.
 npm install @tracepass/dpp-schemas
 ```
 
+Every JSON file the package ships can be imported by its path: the manifest as the
+package root, then `schema.json`, `templates/<category>.json`, `instruments.json`,
+`standards.json`, `units.json`, `model-subset.json`, `model-versions.json` and
+`guidance/<file>.json`.
+
+```js
+import manifest from "@tracepass/dpp-schemas" with { type: "json" };
+import battery from "@tracepass/dpp-schemas/templates/battery.json" with { type: "json" };
+import units from "@tracepass/dpp-schemas/units.json" with { type: "json" };
+```
+
 ## Validating the specs themselves
 
 [`schema.json`](./schema.json) is a JSON Schema (Draft 2020-12) describing the template
@@ -392,6 +403,8 @@ runs it on every push:
   an instrument it is adopted under, and its planned date matches its source's precision.
 - **Data-model versions** (`scripts/check-model-versions.mjs`): every template's
   `modelVersion` matches its hash in `model-versions.json`. See below.
+- **Exports** (`scripts/check-exports.mjs`): every JSON file the package ships resolves
+  through Node's own resolver, so nothing ships that a consumer cannot import.
 
 ## Data-model versions
 

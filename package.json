@@ -1,6 +1,6 @@
 {
   "name": "@tracepass/dpp-schemas",
-  "version": "1.32.0",
+  "version": "1.33.0",
   "description": "Machine-readable field specifications for EU Digital Product Passports (ESPR) — 13 product categories, 1016 fields, each traced to the article of EU law that mandates it. Pure JSON, no dependencies.",
   "keywords": [
     "digital-product-passport",
@@ -26,7 +26,12 @@
     ".": "./index.json",
     "./schema.json": "./schema.json",
     "./templates/*.json": "./templates/*.json",
-    "./instruments.json": "./instruments.json"
+    "./instruments.json": "./instruments.json",
+    "./standards.json": "./standards.json",
+    "./units.json": "./units.json",
+    "./model-subset.json": "./model-subset.json",
+    "./model-versions.json": "./model-versions.json",
+    "./guidance/*.json": "./guidance/*.json"
   },
   "files": [
     "templates",
@@ -50,7 +55,7 @@
     "validate": "python3 -c \"import json,glob,sys;from jsonschema import Draft202012Validator as V;v=V(json.load(open('schema.json')));bad=0\nfor p in sorted(glob.glob('templates/*.json')):\n    e=list(v.iter_errors(json.load(open(p))));bad+=bool(e);print(('FAIL' if e else 'ok  '),p)\n    [print('     ',str(x.absolute_path),x.message[:120]) for x in e[:3]]\nsys.exit(1 if bad else 0)\"",
     "build:index": "node scripts/build-index.mjs",
     "check:index": "node scripts/build-index.mjs --check",
-    "check": "npm run validate && npm run check:index && npm run check:standards && npm run check:locales && npm run check:audit && npm run test:audit && npm run check:planned && npm run test:planned && npm run check:model && npm run test:model",
+    "check": "npm run validate && npm run check:index && npm run check:standards && npm run check:locales && npm run check:audit && npm run test:audit && npm run check:planned && npm run test:planned && npm run check:model && npm run test:model && npm run check:exports && npm run test:exports",
     "check:standards": "node scripts/check-standards.mjs",
     "check:locales": "node scripts/check-locales.mjs",
     "check:audit": "node audit/audit.mjs",
@@ -58,6 +63,8 @@
     "check:planned": "node scripts/check-planned-acts.mjs",
     "test:planned": "node --test scripts/check-planned-acts.test.mjs",
     "check:model": "node scripts/check-model-versions.mjs",
+    "check:exports": "node scripts/check-exports.mjs",
+    "test:exports": "node --test scripts/check-exports.test.mjs",
     "test:model": "node --test scripts/model-hash.test.mjs",
     "bump:model": "node scripts/bump-model.mjs"
   }
