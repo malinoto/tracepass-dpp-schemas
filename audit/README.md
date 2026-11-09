@@ -7,13 +7,10 @@ finding. `npm run check` runs it, and CI runs that on every push.
 
 ```bash
 npm run check:audit                  # this repo's templates
-node audit/audit.mjs --platform      # a second copy of the templates
-node audit/audit.mjs --both          # both, plus the drift between them
 ```
 
-`--platform` reads `DPP_TEMPLATES_PRIMARY`, or a sibling checkout's
-`tracepass-platform/templates`. `DPP_TEMPLATES_PUBLIC` and `DPP_INSTRUMENTS` override
-this repo's own paths, so the audit runs against any template corpus.
+`DPP_TEMPLATES_PUBLIC` and `DPP_INSTRUMENTS` override this repo's own paths, so the
+audit runs against any template corpus.
 
 ## Form checks [1]–[8]
 

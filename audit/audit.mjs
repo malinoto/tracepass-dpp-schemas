@@ -4,8 +4,6 @@
  * cannot see. Read-only: prints findings, changes nothing, exits 1 on any finding.
  *
  *   node audit/audit.mjs                # this repo's templates/ (npm run check:audit)
- *   node audit/audit.mjs --platform     # a second template copy (see DIRS below)
- *   node audit/audit.mjs --both         # both, plus the drift between them
  *
  * What each check means and why it exists: audit/README.md.
  */
@@ -16,22 +14,13 @@ import { runContentChecks } from "./content-checks.mjs";
 import { runEvidenceChecks } from "./evidence-checks.mjs";
 
 const REPO = join(dirname(fileURLToPath(import.meta.url)), "..");
-const which = process.argv.includes("--platform") ? "platform" : "schemas";
-const both = process.argv.includes("--both");
-
-// Paths are overridable so this runs against any template corpus. `platform` is a
-// second copy of the templates kept by a downstream consumer; by default it is
-// looked for in a sibling checkout and is only read for --platform / --both.
-const DIRS = {
-  platform: process.env.DPP_TEMPLATES_PRIMARY ?? join(REPO, "..", "tracepass-platform", "templates"),
-  schemas: process.env.DPP_TEMPLATES_PUBLIC ?? join(REPO, "templates"),
-};
+// Paths are overridable so this runs against any template corpus.
+const TEMPLATES = process.env.DPP_TEMPLATES_PUBLIC ?? join(REPO, "templates");
 const INSTRUMENTS = process.env.DPP_INSTRUMENTS ?? join(REPO, "instruments.json");
-for (const d of both ? Object.values(DIRS) : [DIRS[which]])
-  if (!existsSync(d)) {
-    console.error(`audit: template directory not found: ${d}`);
-    process.exit(2);
-  }
+if (!existsSync(TEMPLATES)) {
+  console.error(`audit: template directory not found: ${TEMPLATES}`);
+  process.exit(2);
+}
 
 const registry = JSON.parse(readFileSync(INSTRUMENTS, "utf-8"));
 const instruments = registry.instruments;
@@ -497,36 +486,6 @@ function audit(dir, label) {
   return n;
 }
 
-let total = audit(DIRS[which], which);
-
-if (both) {
-  const other = which === "platform" ? "schemas" : "platform";
-  total += audit(DIRS[other], other);
-  // Copy drift: same keys, different content.
-  console.log("\n=== copy drift (platform vs schemas) ===");
-  let drift = 0;
-  for (const f of readdirSync(DIRS.platform).filter((x) => x.endsWith(".json"))) {
-    const a = join(DIRS.platform, f), b = join(DIRS.schemas, f);
-    const da = JSON.parse(readFileSync(a, "utf-8"));
-    // `templates/` is not all category templates: units.json and
-    // instruments.json are helper registries with no category+fields pair, and
-    // the platform's own loader skips them. Skip before the existence check or
-    // they report as "missing in schemas" forever.
-    if (!Array.isArray(da.fields) || !da.category) continue;
-    if (!existsSync(b)) { console.log(`    ${basename(f, ".json")}: missing in schemas`); drift++; continue; }
-    const db = JSON.parse(readFileSync(b, "utf-8"));
-    const ka = new Set(da.fields.map((x) => x.key)), kb = new Set(db.fields.map((x) => x.key));
-    const only = [...ka].filter((k) => !kb.has(k)).concat([...kb].filter((k) => !ka.has(k)));
-    const fa = Object.fromEntries(da.fields.map((x) => [x.key, x]));
-    const fb = Object.fromEntries(db.fields.map((x) => [x.key, x]));
-    const differing = [...ka].filter((k) => kb.has(k) && JSON.stringify(fa[k]) !== JSON.stringify(fb[k])).length;
-    if (only.length || differing) {
-      console.log(`    ${basename(f, ".json").padEnd(13)} keyDelta=${only.length ? only.join(",") : "-"} fieldsDiffering=${differing}`);
-      drift++;
-    }
-  }
-  if (!drift) console.log("    in sync");
-  total += drift;
-}
+let total = audit(TEMPLATES, "schemas");
 
 process.exit(total ? 1 : 0);
