@@ -1,0 +1,636 @@
+{
+  "$comment": "Generated from tracepass-platform (src/lib/passport-check/cirpass2-map.ts) by scripts/cirpass2/build-alignment.ts. Do not hand-edit.",
+  "template": {
+    "category": "textile",
+    "version": 2,
+    "fields": 60
+  },
+  "ontology": {
+    "ontologie-textiles": {
+      "repository": "https://github.com/CIRPASS-2/ontologie-textiles",
+      "commit": "40b08bff9316ba47b0b8b0c2b5265ef2ddbdfe6b",
+      "date": "2026-11-03"
+    },
+    "ontologies-docs": {
+      "repository": "https://github.com/CIRPASS-2/ontologies-docs",
+      "commit": "ff8a429f232771e3b8c7326c6b9c1e2cb8b1e337",
+      "date": "2026-11-04"
+    }
+  },
+  "matchTypes": {
+    "exact": "A CIRPASS-2 datatype property for the same datum.",
+    "structured": "CIRPASS-2 models the same datum as a node (a class, or an object property to a vocabulary or record); a converter builds the node."
+  },
+  "summary": {
+    "exact": 4,
+    "structured": 21,
+    "none": 35
+  },
+  "fields": [
+    {
+      "key": "productIdentifier",
+      "label": "Product Identifier (GTIN-14)",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasUniqueProductIdentifier",
+        "curie": "eudpp:hasUniqueProductIdentifier",
+        "label": "has unique product identifier",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to its unique product identifier node."
+    },
+    {
+      "key": "modelNumber",
+      "label": "Model Number",
+      "provision": "Art. 19(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batchLotNumber",
+      "label": "Batch Number",
+      "provision": "Art. 27(5)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "serialNumber",
+      "label": "Serial Number",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturerName",
+      "label": "Manufacturer Name",
+      "provision": "Art. 19(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#actorName",
+        "curie": "eudpp:actorName",
+        "label": "actor name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "The name of the manufacturer actor."
+    },
+    {
+      "key": "manufacturerAddress",
+      "label": "Manufacturer Address",
+      "provision": "Art. 19(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "importerName",
+      "label": "Importer Name",
+      "provision": "Art. 29(3)(a); Annex III(j)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#actorName",
+        "curie": "eudpp:actorName",
+        "label": "actor name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "The name of the importer actor."
+    },
+    {
+      "key": "importerAddress",
+      "label": "Importer Address",
+      "provision": "Art. 29(3)(a); Annex III(j)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "euResponsiblePerson",
+      "label": "EU Responsible Person",
+      "provision": "Art. 9(2)(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "productName",
+      "label": "Product Name",
+      "provision": "Art. 19(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#productName",
+        "curie": "eudpp:productName",
+        "label": "product name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "productCategory",
+      "label": "Product Category",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "productDescription",
+      "label": "Product Description",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#description",
+        "curie": "eudpp:description",
+        "label": "description",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "fiberComposition",
+      "label": "Fiber Composition",
+      "provision": "Reg. (EU) 1007/2011 Arts. 9(1), 14(1), 16 — a durable, legible label physically attached to the product, in the language of the Member State",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-core#hasFibreCompositionComponent",
+        "curie": "tx-core:hasFibreCompositionComponent",
+        "label": "has fibre composition component",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Each fibre is a textile-core:FibreCompositionComponent with its share."
+    },
+    {
+      "key": "recycledContentPercentage",
+      "label": "Recycled Content Percentage",
+      "provision": "Art. 7(2)(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-recyclability#RecycledContent",
+        "curie": "tx-rec:RecycledContent",
+        "label": "Recycled content",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A recycled-content declaration node, with its source and share."
+    },
+    {
+      "key": "careInstructions",
+      "label": "Care Instructions",
+      "provision": "Art. 7(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-process#hasCareInstruction",
+        "curie": "tx-proc:hasCareInstruction",
+        "label": "has care instruction",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to a textile care instruction node."
+    },
+    {
+      "key": "substancesOfConcern",
+      "label": "Substances of Concern",
+      "provision": "REACH Art. 33(1)–(2) — to every recipient of the article, and to a consumer on request, above 0.1% w/w; minimum content the substance name",
+      "term": {
+        "uri": "https://w3id.org/eudpp#containsSubstanceOfConcern",
+        "curie": "eudpp:containsSubstanceOfConcern",
+        "label": "contains substance of concern",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to each substance of concern node."
+    },
+    {
+      "key": "certifications",
+      "label": "Certifications",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "countryOfManufacture",
+      "label": "Country of Manufacture",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": "eudpp:countryOfOrigin is the customs country of origin, which can differ from where the product was made."
+    },
+    {
+      "key": "carbonFootprint",
+      "label": "Carbon Footprint",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#CarbonFootprint",
+        "curie": "eudpp:CarbonFootprint",
+        "label": "Carbon Footprint",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An LCIA result node, eudpp:CarbonFootprint."
+    },
+    {
+      "key": "environmentalFootprintScore",
+      "label": "Environmental Footprint Score (PEF)",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#EnvironmentalFootprintScore",
+        "curie": "eudpp:EnvironmentalFootprintScore",
+        "label": "Environmental Footprint Score",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An aggregated single-score indicator node."
+    },
+    {
+      "key": "recyclabilityScore",
+      "label": "Recyclability Score",
+      "provision": "Art. 7(2)(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-recyclability#hasRecyclabilityScore",
+        "curie": "tx-rec:hasRecyclabilityScore",
+        "label": "has recyclability score",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links an assessment result to its method-specific score."
+    },
+    {
+      "key": "recyclabilityLabel",
+      "label": "Recyclability Label",
+      "provision": "Art. 7(2)(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-recyclability#hasRecyclabilityLabel",
+        "curie": "tx-rec:hasRecyclabilityLabel",
+        "label": "has recyclability label",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links a score to its method-specific label concept."
+    },
+    {
+      "key": "monoMaterialPercentage",
+      "label": "Mono-Material Percentage",
+      "provision": "Art. 7(2)(b)",
+      "term": null,
+      "match": null,
+      "note": "eudpp:materialPercentage is one material's share, not the single-material share of the product."
+    },
+    {
+      "key": "expectedLifespan",
+      "label": "Expected Lifespan",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-indicator#LifetimeOfProduct",
+        "curie": "tx-ind:LifetimeOfProduct",
+        "label": "Lifetime of product",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A lifetime indicator node, with its descriptor and assumptions."
+    },
+    {
+      "key": "durabilityPillingResistance",
+      "label": "Pilling Resistance",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-durability#PillingResistance",
+        "curie": "tx-dur:PillingResistance",
+        "label": "Pilling resistance",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A durability performance parameter node, with its test method."
+    },
+    {
+      "key": "durabilityAbrasionResistance",
+      "label": "Abrasion Resistance",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-durability#AbrasionResistance",
+        "curie": "tx-dur:AbrasionResistance",
+        "label": "Abrasion resistance",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A durability performance parameter node, with its test method."
+    },
+    {
+      "key": "durabilityColorFastnessWashing",
+      "label": "Color Fastness to Washing",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-durability#ColourFastness",
+        "curie": "tx-dur:ColourFastness",
+        "label": "Colour fastness",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Colour fastness, with washing as the test condition."
+    },
+    {
+      "key": "durabilityColorFastnessLight",
+      "label": "Color Fastness to Light",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-durability#ColourFastness",
+        "curie": "tx-dur:ColourFastness",
+        "label": "Colour fastness",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Colour fastness, with light as the test condition."
+    },
+    {
+      "key": "durabilityDimensionalStability",
+      "label": "Dimensional Stability (Shrinkage)",
+      "provision": "Art. 7(2)(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-durability#DimensionalStability",
+        "curie": "tx-dur:DimensionalStability",
+        "label": "Dimensional stability",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A durability performance parameter node, with its test method."
+    },
+    {
+      "key": "durabilityTearStrength",
+      "label": "Tear Strength",
+      "provision": "Art. 7(2)(c)",
+      "term": null,
+      "match": null,
+      "note": "textile-durability:TearOrRip is a failure mode, not a strength measurement."
+    },
+    {
+      "key": "repairInstructions",
+      "label": "Repair Instructions",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-repairability#hasRepairGuidance",
+        "curie": "tx-rep:hasRepairGuidance",
+        "label": "has repair guidance",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to repair guidance."
+    },
+    {
+      "key": "sparePartsAvailability",
+      "label": "Spare Parts Availability",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "disassemblyInstructions",
+      "label": "Disassembly Instructions",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recyclingInstructions",
+      "label": "Recycling Instructions",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "collectionPointsUrl",
+      "label": "Collection Points URL",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "takeBackProgram",
+      "label": "Take-Back Program",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "microplasticsRelease",
+      "label": "Microplastics Release",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MicroplasticRelease",
+        "curie": "eudpp:MicroplasticRelease",
+        "label": "Microplastic release",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A microplastic-release parameter node (ESPR Annex I(p))."
+    },
+    {
+      "key": "microplasticsSheddingRate",
+      "label": "Microplastics Shedding Rate",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MicroplasticRelease",
+        "curie": "eudpp:MicroplasticRelease",
+        "label": "Microplastic release",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The quantified release on the same microplastic-release node."
+    },
+    {
+      "key": "supplyChainTraceability",
+      "label": "Supply Chain Traceability",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "weavingCountry",
+      "label": "Weaving Country",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dyeingCountry",
+      "label": "Dyeing Country",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "assemblyCountry",
+      "label": "Assembly Country",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dyeingMethod",
+      "label": "Dyeing Method",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "finishingProcesses",
+      "label": "Finishing Processes",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp/textile-process#FinishingProcess",
+        "curie": "tx-proc:FinishingProcess",
+        "label": "Finishing process",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Each finishing step is a textile process node."
+    },
+    {
+      "key": "waterConsumptionLiters",
+      "label": "Water Consumption",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#WaterConsumptionResult",
+        "curie": "eudpp:WaterConsumptionResult",
+        "label": "Water Consumption Result",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An LCA inventory result node."
+    },
+    {
+      "key": "energyConsumptionKwh",
+      "label": "Energy Consumption",
+      "provision": "Art. 7(2)(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#EnergyConsumptionResult",
+        "curie": "eudpp:EnergyConsumptionResult",
+        "label": "Energy Consumption Result",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An LCA inventory result node."
+    },
+    {
+      "key": "transportDistanceKm",
+      "label": "Transport Distance",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "transportMode",
+      "label": "Transport Mode",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "laborConditionsCertification",
+      "label": "Labor Conditions Certification",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "animalWelfareStatus",
+      "label": "Animal Welfare Status",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "packagingRecycledContentPct",
+      "label": "Packaging Recycled Content",
+      "provision": "Art. 7(2)(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "packagingRecyclability",
+      "label": "Packaging Recyclability",
+      "provision": "Art. 7(2)(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "ecoScoreValue",
+      "label": "Eco-Score Value",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "ecoScoreGrade",
+      "label": "Eco-Score Grade",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pefClimateChange",
+      "label": "PEF Climate Change Impact",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pefWaterUse",
+      "label": "PEF Water Use",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pefEutrophication",
+      "label": "PEF Eutrophication",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pefResourceDepletion",
+      "label": "PEF Resource Depletion",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "durabilityBonusMalus",
+      "label": "Durability Bonus/Malus",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "microfiberReleaseCoefficient",
+      "label": "Microfiber Release Coefficient",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    }
+  ]
+}

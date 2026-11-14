@@ -1205,13 +1205,13 @@
       "label": "Economic Operator Identifier",
       "provision": "Art. 77(4) and Art. 77(10)",
       "term": {
-        "uri": "https://w3id.org/eudpp#ActorIdentifier",
-        "curie": "eudpp:ActorIdentifier",
-        "label": "Actor identifier",
-        "kind": "class"
+        "uri": "https://w3id.org/eudpp#hasUniqueOperatorIdentifier",
+        "curie": "eudpp:hasUniqueOperatorIdentifier",
+        "label": "has unique operator identifier",
+        "kind": "objectProperty"
       },
       "match": "structured",
-      "note": "An identifier node, eudpp:ActorIdentifier."
+      "note": "Links the operator to its unique operator identifier node."
     },
     {
       "key": "ceMarkingStatus",

@@ -458,18 +458,26 @@ with the changes it carries, and each template records its own history in its `c
 
 ## Vocabulary alignment
 
-[`alignment/cirpass2-battery.md`](alignment/cirpass2-battery.md) lists every field of
-the `battery` template with its counterpart in the
-[CIRPASS-2 EU DPP ontologies](https://github.com/CIRPASS-2/ontologies-battery), or
-"none" where CIRPASS-2 has no term. A match is **exact** where CIRPASS-2 has a datatype
-property for the same datum, and **structured** where it models the datum as a node
-(a class, or an object property to a vocabulary). Every term was checked against the
-ontology Turtle at the pinned commits the table names. The same data is in
-[`alignment/cirpass2-battery.json`](alignment/cirpass2-battery.json).
+Three templates have a sectoral CIRPASS-2 ontology to align with, and each has a
+field-by-field table:
+
+- [`alignment/cirpass2-battery.md`](alignment/cirpass2-battery.md) — the
+  [battery ontology](https://github.com/CIRPASS-2/ontologies-battery)
+- [`alignment/cirpass2-tyres.md`](alignment/cirpass2-tyres.md) — the
+  [example tyre ontology](https://github.com/CIRPASS-2/ontologies-tyre) (ETO)
+- [`alignment/cirpass2-textile.md`](alignment/cirpass2-textile.md) — the
+  [textile ontology](https://github.com/CIRPASS-2/ontologie-textiles)
+
+Each lists every field with its CIRPASS-2 term, or "none" where CIRPASS-2 has no
+term. A match is **exact** where CIRPASS-2 has a datatype property for the same
+datum, and **structured** where it models the datum as a node (a class, or an object
+property to a vocabulary or record). Every term was checked against the ontology
+Turtle at the pinned commits each table names. The same data is in the `.json` file
+next to each table.
 
 The CIRPASS-2 ontologies are a research draft and say so. The model the EU DPP
-Registry validates against is the Commission's semantic package. CIRPASS-2 also
-publishes tyre and textile ontologies; those templates are not aligned yet.
+Registry validates against for batteries is the Commission's semantic package. The
+other categories have no CIRPASS-2 sectoral ontology yet.
 
 ## Related
 

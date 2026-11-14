@@ -1,0 +1,925 @@
+{
+  "$comment": "Generated from tracepass-platform (src/lib/passport-check/cirpass2-map.ts) by scripts/cirpass2/build-alignment.ts. Do not hand-edit.",
+  "template": {
+    "category": "tyres",
+    "version": 2,
+    "fields": 93
+  },
+  "ontology": {
+    "ontologies-tyre": {
+      "repository": "https://github.com/CIRPASS-2/ontologies-tyre",
+      "commit": "bc9d172c678a66fe8eb3ac54b527b30cc3a87c53",
+      "date": "2026-11-03"
+    },
+    "ontologies-docs": {
+      "repository": "https://github.com/CIRPASS-2/ontologies-docs",
+      "commit": "ff8a429f232771e3b8c7326c6b9c1e2cb8b1e337",
+      "date": "2026-11-04"
+    }
+  },
+  "matchTypes": {
+    "exact": "A CIRPASS-2 datatype property for the same datum.",
+    "structured": "CIRPASS-2 models the same datum as a node (a class, or an object property to a vocabulary or record); a converter builds the node."
+  },
+  "summary": {
+    "exact": 6,
+    "structured": 24,
+    "none": 63
+  },
+  "fields": [
+    {
+      "key": "uniqueProductIdentifier",
+      "label": "Unique Product Identifier",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasUniqueProductIdentifier",
+        "curie": "eudpp:hasUniqueProductIdentifier",
+        "label": "has unique product identifier",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to its unique product identifier node."
+    },
+    {
+      "key": "uniqueOperatorIdentifier",
+      "label": "Unique Operator Identifier",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasUniqueOperatorIdentifier",
+        "curie": "eudpp:hasUniqueOperatorIdentifier",
+        "label": "has unique operator identifier",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the operator to its unique operator identifier node."
+    },
+    {
+      "key": "uniqueFacilityIdentifier",
+      "label": "Unique Facility Identifier",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasUniqueFacilityIdentifier",
+        "curie": "eudpp:hasUniqueFacilityIdentifier",
+        "label": "has unique facility identifier",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the facility to its unique facility identifier node."
+    },
+    {
+      "key": "supplierName",
+      "label": "Supplier Name",
+      "provision": "Annex III(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#actorName",
+        "curie": "eudpp:actorName",
+        "label": "actor name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "The name of the supplier actor."
+    },
+    {
+      "key": "supplierAddress",
+      "label": "Supplier Address",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "importerName",
+      "label": "Importer Name",
+      "provision": "Art. 9(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#actorName",
+        "curie": "eudpp:actorName",
+        "label": "actor name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "The name of the importer actor."
+    },
+    {
+      "key": "importerEoriNumber",
+      "label": "Importer EORI Number",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "commercialName",
+      "label": "Commercial Name",
+      "provision": "No element of Annex II, III or VII: the label and product information sheet carry the supplier's trade name (Annex III(a)) and the tyre type identifier, not a commercial name",
+      "term": {
+        "uri": "https://w3id.org/eudpp#productName",
+        "curie": "eudpp:productName",
+        "label": "product name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "tyreTypeIdentifier",
+      "label": "Tyre Type Identifier",
+      "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "tyreClass",
+      "label": "Tyre Class",
+      "provision": "Annex II point 2 (tyre class shown on the label); classes defined in Art. 3",
+      "term": null,
+      "match": null,
+      "note": "No term for the C1/C2/C3 tyre class."
+    },
+    {
+      "key": "batchLotNumber",
+      "label": "Batch or Serial Number",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dateOfManufactureWeekYear",
+      "label": "Date of Manufacture (Week/Year)",
+      "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.9 / No 54): week and year of manufacture moulded on the sidewall",
+      "term": {
+        "uri": "https://w3id.org/eudpp#manufacturingDate",
+        "curie": "eudpp:manufacturingDate",
+        "label": "manufacturing date",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "Its range is left open for sectors; tyres use the DOT week and year."
+    },
+    {
+      "key": "dateStartOfProduction",
+      "label": "Date Start of Production",
+      "provision": "Annex III(i) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#productionStartWeek",
+        "curie": "eto:productionStartWeek",
+        "label": "production start week",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "dateEndOfProduction",
+      "label": "Date End of Production",
+      "provision": "Annex III(j) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#productionEndWeek",
+        "curie": "eto:productionEndWeek",
+        "label": "production end week",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "countryOfManufacture",
+      "label": "Country of Manufacture",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "eprelRegistrationNumber",
+      "label": "EPREL Registration Number",
+      "provision": "Art. 5(1) + Annex VII: the supplier registers the tyre type in EPREL; no provision requires the registration number or link to be shown",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "eprelProductUrl",
+      "label": "EPREL Product URL",
+      "provision": "Art. 5(1) + Annex VII: the supplier registers the tyre type in EPREL; no provision requires the registration number or link to be shown",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#EPRELRecordReferenceUrl",
+        "curie": "eto:EPRELRecordReferenceUrl",
+        "label": "EPREL Record Reference Url",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "dataCarrierType",
+      "label": "Data Carrier Type",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "passportIssuer",
+      "label": "Passport Issuer",
+      "provision": "Art. 9(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "tyreSizeDesignation",
+      "label": "Tyre Size Designation",
+      "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#GeometricalTyreSize",
+        "curie": "eto:GeometricalTyreSize",
+        "label": "Geometrical Tyre Size",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "loadCapacityIndex",
+      "label": "Load Capacity Index",
+      "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#LoadIndex",
+        "curie": "eto:LoadIndex",
+        "label": "Load Index",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "loadVersion",
+      "label": "Load Version",
+      "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.8): sidewall marking",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#LoadVersion",
+        "curie": "eto:LoadVersion",
+        "label": "Load Version",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "speedCategorySymbol",
+      "label": "Speed Category Symbol",
+      "provision": "Annex III(b)–(c) (product information sheet) + Art. 5(1) and Annex VII (EPREL entry); shown on the label under Art. 4(1)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#SpeedSymbol",
+        "curie": "eto:SpeedSymbol",
+        "label": "Speed Symbol",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "speedRatingKmh",
+      "label": "Speed Rating (km/h)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "tyreConstruction",
+      "label": "Tyre Construction",
+      "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.3; No 54 for C2/C3)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#Structure",
+        "curie": "eto:Structure",
+        "label": "Structure",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class. Radial, diagonal or bias-belted."
+    },
+    {
+      "key": "tyreType",
+      "label": "Tyre Type",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "sectionWidthMm",
+      "label": "Section Width (mm)",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#SectionWidth",
+        "curie": "eto:SectionWidth",
+        "label": "Section Width",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "aspectRatio",
+      "label": "Aspect Ratio",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#AspectRatio",
+        "curie": "eto:AspectRatio",
+        "label": "Aspect Ratio",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "rimDiameterInches",
+      "label": "Rim Diameter (inches)",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#RimCode",
+        "curie": "eto:RimCode",
+        "label": "Rim Code",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class. The rim code is the nominal rim diameter in inches."
+    },
+    {
+      "key": "treadDepthMm",
+      "label": "Tread Depth (mm)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": "The example tyre ontology has the in-use remaining tread depth, not the new-tyre depth."
+    },
+    {
+      "key": "tyreWeightKg",
+      "label": "Tyre Weight (kg)",
+      "provision": null,
+      "term": {
+        "uri": "https://w3id.org/eudpp#Weight",
+        "curie": "eudpp:Weight",
+        "label": "Weight",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A quantity node, eudpp:Weight."
+    },
+    {
+      "key": "fuelEfficiencyClass",
+      "label": "Fuel Efficiency Class",
+      "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part A — class shown on the tyre label and registered in EPREL",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#RollingResistanceClass",
+        "curie": "eto:RollingResistanceClass",
+        "label": "Rolling Resistance Class",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class. The label's fuel-efficiency class is the rolling-resistance class."
+    },
+    {
+      "key": "rollingResistanceCoefficientNKn",
+      "label": "Rolling Resistance Coefficient (N/kN)",
+      "provision": "Art. 4(5) (values used to determine the class, given to the national authority) + Annex VII point 2(e) (EPREL compliance part); not in the label or product information sheet",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "wetGripClass",
+      "label": "Wet Grip Class",
+      "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part B — class shown on the tyre label and registered in EPREL",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#WetClass",
+        "curie": "eto:WetClass",
+        "label": "Wet Class",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "wetGripIndex",
+      "label": "Wet Grip Index",
+      "provision": "Art. 4(5) (values used to determine the class, given to the national authority) + Annex VII point 2(e) (EPREL compliance part); not in the label or product information sheet",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "externalRollingNoiseClass",
+      "label": "External Rolling Noise Class",
+      "provision": "Reg. (EU) 2020/740 Art. 4 + Annex I Part C — class shown on the tyre label and registered in EPREL",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#NoiseClass",
+        "curie": "eto:NoiseClass",
+        "label": "Noise Class",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "externalRollingNoiseDb",
+      "label": "External Rolling Noise (dB)",
+      "provision": "Reg. (EU) 2020/740 Annex I Part C — measured dB value on the label and in EPREL",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#NoisePerformance",
+        "curie": "eto:NoisePerformance",
+        "label": "Noise Performance",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "snowGrip",
+      "label": "Snow Grip",
+      "provision": "Art. 4 + Annex I (3PMSF snow-grip pictogram where applicable)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#SevereSnowMarking",
+        "curie": "eto:SevereSnowMarking",
+        "label": "Severe Snow Marking",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class. The 3PMSF severe-snow marking."
+    },
+    {
+      "key": "iceGrip",
+      "label": "Ice Grip",
+      "provision": "Art. 4 + Annex I Part E (ice-grip pictogram for a C1 tyre meeting the minimum ice grip index)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#IceGripMarking",
+        "curie": "eto:IceGripMarking",
+        "label": "Ice Grip Marking",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "tyreAbrasionRateMgKm",
+      "label": "Tyre Abrasion Rate (mg/km)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "abrasionIndex",
+      "label": "Abrasion Index",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "abrasionTestMethod",
+      "label": "Abrasion Test Method",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "testDistanceKm",
+      "label": "Test Distance (km)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "microplasticsEmissionClass",
+      "label": "Microplastics Emission Class",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "mileageWarrantyKm",
+      "label": "Mileage Warranty (km)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "billOfMaterials",
+      "label": "Bill of Materials",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MaterialOfComposition",
+        "curie": "eudpp:MaterialOfComposition",
+        "label": "Material of composition",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Each entry is an eudpp:MaterialOfComposition."
+    },
+    {
+      "key": "naturalRubberContentPercentage",
+      "label": "Natural Rubber Content (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "syntheticRubberContentPercentage",
+      "label": "Synthetic Rubber Content (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recycledContentPercentage",
+      "label": "Recycled Content (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recycledRubberContentPercentage",
+      "label": "Recycled Rubber Content (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recycledCarbonBlackPercentage",
+      "label": "Recycled Carbon Black (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "renewableMaterialContentPercentage",
+      "label": "Renewable Material Content (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pahContentCompliant",
+      "label": "PAH Content Compliant",
+      "provision": "REACH Annex XVII entry 50 — restriction on PAH content in extender oils and tyres",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "svhcCandidateListSubstances",
+      "label": "SVHC Candidate List Substances",
+      "provision": "Art. 33(1)–(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#containsSubstanceOfConcern",
+        "curie": "eudpp:containsSubstanceOfConcern",
+        "label": "contains substance of concern",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to each substance of concern node."
+    },
+    {
+      "key": "sixPpdContent",
+      "label": "6PPD Content",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "heavyMetalsCompliance",
+      "label": "Heavy Metals Compliance",
+      "provision": "REACH Annex XVII — market-placement restriction; evidence retained by the manufacturer",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "reachCompliance",
+      "label": "REACH Compliance",
+      "provision": "REACH (EC) 1907/2006 — registration and restriction obligations evidenced in the manufacturer's records",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "carbonFootprint",
+      "label": "Carbon Footprint (kg CO2e)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": {
+        "uri": "https://w3id.org/eudpp#CarbonFootprint",
+        "curie": "eudpp:CarbonFootprint",
+        "label": "Carbon Footprint",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An LCIA result node, eudpp:CarbonFootprint."
+    },
+    {
+      "key": "carbonFootprintMethodology",
+      "label": "Carbon Footprint Methodology",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "fuelSavingsOverLifetimeLiters",
+      "label": "Fuel Savings Over Lifetime (liters)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "co2SavingsOverLifetimeKg",
+      "label": "CO2 Savings Over Lifetime (kg)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "naturalRubberDeforestationFree",
+      "label": "Natural Rubber Deforestation-Free",
+      "provision": "EUDR (EU) 2023/1115 Art. 4 — due diligence statement lodged in the EU Information System by the operator",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "naturalRubberSustainabilityCertification",
+      "label": "Natural Rubber Sustainability Certification",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "expectedMileageKm",
+      "label": "Expected Mileage (km)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "treadwearRating",
+      "label": "Treadwear Rating",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "minimumTreadDepthMm",
+      "label": "Minimum Tread Depth (mm)",
+      "provision": "Dir. 2014/45/EU Annex I — roadworthiness test requirement on the vehicle in use",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "warrantyPeriodYears",
+      "label": "Warranty Period (years)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maxAgeRecommendationYears",
+      "label": "Max Age Recommendation (years)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "retreadable",
+      "label": "Retreadable",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumRetreadCycles",
+      "label": "Maximum Retread Cycles",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": "eto:RetreadingCycle describes a retreading that took place, not the casing's maximum."
+    },
+    {
+      "key": "retreadServiceLifeExtensionKm",
+      "label": "Retread Service Life Extension (km)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recyclabilityPercentage",
+      "label": "Recyclability (%)",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recyclabilityBreakdown",
+      "label": "Recyclability Breakdown",
+      "provision": "Art. 7(2)(b)(i) + Annex I",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "eltCollectionScheme",
+      "label": "ELT Collection Scheme",
+      "provision": "WFD Dir. 2008/98/EC Art. 8a — extended producer responsibility discharged through national EPR scheme registration",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "disassemblyInstructionsUrl",
+      "label": "Disassembly Instructions URL",
+      "provision": "Art. 7(2)(b)(iii)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "pyrolysisSuitability",
+      "label": "Pyrolysis Suitability",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "devulcanizationSuitability",
+      "label": "Devulcanization Suitability",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "typeApprovalNumber",
+      "label": "Type Approval Number",
+      "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 5.4; No 54 for C2/C3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "euro7Compliance",
+      "label": "Euro 7 Compliance",
+      "provision": "Reg. (EU) 2024/1257 — tyre abrasion limits not yet in force",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "euTyreLabelImageUrl",
+      "label": "EU Tyre Label Image URL",
+      "provision": "Reg. (EU) 2020/740 Arts. 4 and 6 — label displayed in visual form at the point of sale",
+      "term": {
+        "uri": "https://w3id.org/eudpp/eto#LabelPictureUrl",
+        "curie": "eto:LabelPictureUrl",
+        "label": "Label Picture Url",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "The CIRPASS-2 tyre ontology is an example ontology from the tyre pilot and models each attribute as a class."
+    },
+    {
+      "key": "declarationOfConformityUrl",
+      "label": "Declaration of Conformity URL",
+      "provision": "Conformity is shown by the UN Regulation No 30/54 approval mark (No 30 para 5.4) under GSR Art. 5(3) + Annex II; tyres have no EU declaration of conformity, and GPSR Art. 9 does not apply to them (GPSR Art. 2(1), third subparagraph, point (b))",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasEUDeclarationOfConformity",
+        "curie": "eudpp:hasEUDeclarationOfConformity",
+        "label": "has EU Declaration of Conformity",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to an eudpp:EUDeclarationOfConformity."
+    },
+    {
+      "key": "otherCertifications",
+      "label": "Other Certifications",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recommendedInflationPressureKpa",
+      "label": "Recommended Inflation Pressure (kPa)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumInflationPressureKpa",
+      "label": "Maximum Inflation Pressure (kPa)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumLoadKg",
+      "label": "Maximum Load (kg)",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "tyrePressureMonitoringCompatible",
+      "label": "TPMS Compatible",
+      "provision": "Art. 5(1)–(2): tyre-pressure monitoring is a vehicle requirement",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "runFlatCapability",
+      "label": "Run-Flat Capability",
+      "provision": "Art. 5(3) + Annex II (UN Regulation No 30 para 3.1.3 and 3.1.12; No 54 for C2/C3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "safetyWarnings",
+      "label": "Safety Warnings",
+      "provision": "No passport duty. GPSR Art. 9(7) does not apply to tyres (GPSR Art. 2(1), third subparagraph, point (b)); the nearest tyre-specific information duty is 2020/740 Annex IV (technical promotional material)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "storageInstructions",
+      "label": "Storage Instructions",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dppSchemaVersion",
+      "label": "DPP Schema Version",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "lastUpdatedAt",
+      "label": "Last Updated At",
+      "provision": "Art. 10",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "accessLevel",
+      "label": "Access Rights",
+      "provision": "Art. 10(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dataFormat",
+      "label": "Data Format",
+      "provision": "Art. 9-10",
+      "term": null,
+      "match": null,
+      "note": null
+    }
+  ]
+}

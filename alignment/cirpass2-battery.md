@@ -10,11 +10,8 @@ ontology Turtle at the commits below and means the same datum. Field keys, label
 provisions are those of [`templates/battery.json`](../templates/battery.json).
 
 **What CIRPASS-2 is.** An EU-funded coordination action preparing the DPP
-ecosystem. Its ontologies are a research draft: they state that they are not an
-official ontology for the battery passport and do not represent the European
-Commission or CEN/CENELEC JTC 24. The data model the EU DPP Registry validates
-against is the Commission's own semantic package (core and batteries 1.0.0),
-which is a separate artefact.
+ecosystem. Its ontologies are a research draft and say they are not an official
+artefact of the European Commission or CEN/CENELEC JTC 24. The data model the EU DPP Registry validates against is the Commission's own semantic package (core and batteries 1.0.0), which is a separate artefact.
 
 **Ontology source**
 
@@ -30,9 +27,7 @@ which is a separate artefact.
 
 **Summary**: 45 exact, 20 structured, 77 with no CIRPASS-2 term.
 
-Prefixes: `bat:` https://w3id.org/eudpp/battery# · `bat-perf:` …/battery-performance# ·
-`bat-label:` …/battery-labeling# · `bat-mat:` …/battery-materials# · `eudpp:`
-https://w3id.org/eudpp#
+Prefixes: `bat:` https://w3id.org/eudpp/battery# · `bat-perf:` …/battery-performance# · `bat-label:` …/battery-labeling# · `bat-mat:` …/battery-materials# · `eudpp:` https://w3id.org/eudpp#
 
 | Field | Label | Provision | CIRPASS-2 term | Match | Note |
 |---|---|---|---|---|---|
@@ -147,7 +142,7 @@ https://w3id.org/eudpp#
 | `currentStateOfCharge` | Current State of Charge — SoC | Annex XIII 4(d) | [`bat-perf:stateOfCharge`](https://w3id.org/eudpp/battery-performance#stateOfCharge) | exact |  |
 | `temperatureConditionsHistorical` | Temperature Conditions Historical | Annex XIII 4(d) | — | none |  |
 | `batteryModelIdentifier` | Battery Model Identifier | Annex XIII 1(a) with Annex VI Part A(2) | — | none |  |
-| `economicOperatorIdentifier` | Economic Operator Identifier | Art. 77(4) and Art. 77(10) | [`eudpp:ActorIdentifier`](https://w3id.org/eudpp#ActorIdentifier) | structured | An identifier node, eudpp:ActorIdentifier. |
+| `economicOperatorIdentifier` | Economic Operator Identifier | Art. 77(4) and Art. 77(10) | [`eudpp:hasUniqueOperatorIdentifier`](https://w3id.org/eudpp#hasUniqueOperatorIdentifier) | structured | Links the operator to its unique operator identifier node. |
 | `ceMarkingStatus` | CE Marking Status | Art. 20(1) | — | none |  |
 | `extinguishingAgent` | Extinguishing Agent | Annex XIII 1(a) with Annex VI Part A(9) | [`bat-label:extinguishingAgent`](https://w3id.org/eudpp/battery-labeling#extinguishingAgent) | structured | Points at the battery-extinguisher-classes vocabulary; the template holds free text. |
 | `renewableContentShare` | Share of Renewable Content | Annex XIII 1(f) | — | none |  |
