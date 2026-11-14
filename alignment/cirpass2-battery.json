@@ -1,0 +1,1492 @@
+{
+  "$comment": "Generated from tracepass-platform (src/lib/passport-check/cirpass2-map.ts) by scripts/cirpass2/build-alignment.ts. Do not hand-edit.",
+  "template": {
+    "category": "battery",
+    "version": 7,
+    "fields": 142
+  },
+  "ontology": {
+    "ontologies-battery": {
+      "repository": "https://github.com/CIRPASS-2/ontologies-battery",
+      "commit": "c8e584748cb8a9085ad157cd7e8be1579dfb825e",
+      "date": "2026-11-04"
+    },
+    "ontologies-docs": {
+      "repository": "https://github.com/CIRPASS-2/ontologies-docs",
+      "commit": "ff8a429f232771e3b8c7326c6b9c1e2cb8b1e337",
+      "date": "2026-11-04"
+    }
+  },
+  "matchTypes": {
+    "exact": "A CIRPASS-2 datatype property for the same datum.",
+    "structured": "CIRPASS-2 models the same datum as a node (a class, or an object property to a vocabulary or record); a converter builds the node."
+  },
+  "summary": {
+    "exact": 45,
+    "structured": 20,
+    "none": 77
+  },
+  "fields": [
+    {
+      "key": "batteryUniqueIdentifier",
+      "label": "Battery Unique Identifier",
+      "provision": "Art. 77(3)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasUniqueProductIdentifier",
+        "curie": "eudpp:hasUniqueProductIdentifier",
+        "label": "has unique product identifier",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to its unique product identifier node."
+    },
+    {
+      "key": "batteryIdDmcCode",
+      "label": "Battery ID DMC Code",
+      "provision": "Art. 77(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batteryPassportIdentifier",
+      "label": "Battery Passport Identifier",
+      "provision": "Art. 77(3)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#DPPIdentifier",
+        "curie": "eudpp:DPPIdentifier",
+        "label": "DPP identifier",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An identifier node, eudpp:DPPIdentifier."
+    },
+    {
+      "key": "manufacturerName",
+      "label": "Manufacturer Name",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#actorName",
+        "curie": "eudpp:actorName",
+        "label": "actor name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": "The name of the manufacturer actor."
+    },
+    {
+      "key": "manufacturerTradeName",
+      "label": "Manufacturer Trade Name",
+      "provision": "Art. 38(7)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#registeredTradeName",
+        "curie": "eudpp:registeredTradeName",
+        "label": "registered trade name",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "manufacturerPostalAddress",
+      "label": "Manufacturer Postal Address",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturerEmail",
+      "label": "Manufacturer Email",
+      "provision": "Art. 38(7)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturerWebAddress",
+      "label": "Manufacturer Web Address",
+      "provision": "Art. 38(7)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturingDate",
+      "label": "Manufacturing Date",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(4)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#manufacturingDate",
+        "curie": "eudpp:manufacturingDate",
+        "label": "manufacturing date",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "manufacturingPlace",
+      "label": "Manufacturing Place",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturingCity",
+      "label": "Manufacturing Place — City",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturingRegion",
+      "label": "Manufacturing Place — Region",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "manufacturingCountry",
+      "label": "Manufacturing Place — Country",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(3)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batteryCategory",
+      "label": "Battery Category",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(2)",
+      "term": null,
+      "match": null,
+      "note": "Modelled as the battery-categories vocabulary (five legal categories), not as a property. The template splits industrial at 2 kWh, the Art. 77(1) passport threshold; mapping to the five is lossless in that direction only."
+    },
+    {
+      "key": "batteryWeight",
+      "label": "Battery Weight",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(5)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#Weight",
+        "curie": "eudpp:Weight",
+        "label": "Weight",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A quantity node, eudpp:Weight."
+    },
+    {
+      "key": "batteryStatus",
+      "label": "Battery Status",
+      "provision": "Annex XIII 4(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#hasBatteryStatus",
+        "curie": "bat:hasBatteryStatus",
+        "label": "has battery status",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Points at the battery-statuses vocabulary, which spells one value \"re-used\"; the template's value is \"reused\"."
+    },
+    {
+      "key": "separateCollectionSymbol",
+      "label": "Separate Collection Symbol",
+      "provision": "Annex XIII 1(q), as corrected by 32023R1542R(13)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-labeling#separateCollectionSymbol",
+        "curie": "bat-label:separateCollectionSymbol",
+        "label": "separate collection symbol",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "cadmiumSymbol",
+      "label": "Cadmium Symbol",
+      "provision": "Annex XIII 1(q)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-labeling#cadmiumSymbol",
+        "curie": "bat-label:cadmiumSymbol",
+        "label": "symbol for cadmium",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "leadSymbol",
+      "label": "Lead Symbol",
+      "provision": "Annex XIII 1(q)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-labeling#leadSymbol",
+        "curie": "bat-label:leadSymbol",
+        "label": "symbol for lead",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "carbonFootprintLabel",
+      "label": "Carbon Footprint Label",
+      "provision": "Art. 7(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "meaningOfLabelsAndSymbols",
+      "label": "Meaning of Labels and Symbols",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(e)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "euDeclarationOfConformity",
+      "label": "EU Declaration of Conformity",
+      "provision": "Annex XIII 1(r)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#hasEUDeclarationOfConformity",
+        "curie": "eudpp:hasEUDeclarationOfConformity",
+        "label": "has EU Declaration of Conformity",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Links the product to an eudpp:EUDeclarationOfConformity."
+    },
+    {
+      "key": "testReportResults",
+      "label": "Results of Test Reports",
+      "provision": "Annex XIII 3",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#testReportResults",
+        "curie": "bat:testReportResults",
+        "label": "test report results",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "ceMarking",
+      "label": "CE Marking",
+      "provision": "Art. 20(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "carbonFootprintTotal",
+      "label": "Battery Carbon Footprint — Total",
+      "provision": "Annex XIII 1(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#CarbonFootprint",
+        "curie": "eudpp:CarbonFootprint",
+        "label": "Carbon Footprint",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An LCIA result node, eudpp:CarbonFootprint."
+    },
+    {
+      "key": "cfRawMaterialAcquisition",
+      "label": "CF — Raw Material Acquisition & Pre-processing",
+      "provision": "Annex XIII 1(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "cfMainProductProduction",
+      "label": "CF — Main Product Production",
+      "provision": "Annex XIII 1(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "cfDistribution",
+      "label": "CF — Distribution",
+      "provision": "Annex XIII 1(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "cfEndOfLifeRecycling",
+      "label": "CF — End of Life & Recycling",
+      "provision": "Annex XIII 1(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "carbonFootprintPerformanceClass",
+      "label": "Carbon Footprint Performance Class",
+      "provision": "Annex XIII 1(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "carbonFootprintStudyUrl",
+      "label": "Carbon Footprint Study URL",
+      "provision": "Art. 7(1)(g)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "supplyChainDueDiligenceReport",
+      "label": "Supply Chain Due Diligence Report",
+      "provision": "Annex XIII 1(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#dueDiligenceReport",
+        "curie": "bat:dueDiligenceReport",
+        "label": "due diligence report",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "dueDiligencePolicy",
+      "label": "Due Diligence Policy",
+      "provision": "Art. 48(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "thirdPartyAuditResults",
+      "label": "Third-Party Audit Results",
+      "provision": "Art. 52(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batteryChemistry",
+      "label": "Battery Chemistry",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(7)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-materials#hasBatteryChemistry",
+        "curie": "bat-mat:hasBatteryChemistry",
+        "label": "has battery chemistry",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Points at the battery-chemistries vocabulary."
+    },
+    {
+      "key": "cathodeActiveMaterials",
+      "label": "Cathode Active Materials",
+      "provision": "Annex XIII 2(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MaterialOfComposition",
+        "curie": "eudpp:MaterialOfComposition",
+        "label": "Material of composition",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Each entry is an eudpp:MaterialOfComposition, placed with battery-materials:hasBatteryLocation."
+    },
+    {
+      "key": "anodeActiveMaterials",
+      "label": "Anode Active Materials",
+      "provision": "Annex XIII 2(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MaterialOfComposition",
+        "curie": "eudpp:MaterialOfComposition",
+        "label": "Material of composition",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Each entry is an eudpp:MaterialOfComposition, placed with battery-materials:hasBatteryLocation."
+    },
+    {
+      "key": "electrolyteComposition",
+      "label": "Electrolyte Composition",
+      "provision": "Annex XIII 2(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#MaterialOfComposition",
+        "curie": "eudpp:MaterialOfComposition",
+        "label": "Material of composition",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "Each entry is an eudpp:MaterialOfComposition, placed with battery-materials:hasBatteryLocation."
+    },
+    {
+      "key": "criticalRawMaterials",
+      "label": "Critical Raw Materials",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(10)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#isCriticalRawMaterial",
+        "curie": "eudpp:isCriticalRawMaterial",
+        "label": "critical raw material",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "A flag on each material of composition, rather than a list."
+    },
+    {
+      "key": "hazardousSubstances",
+      "label": "Hazardous Substances",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(8)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "scipNotificationNumber",
+      "label": "SCIP Notification Number",
+      "provision": "Art. 77",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "recycledContentCobalt",
+      "label": "Recycled Content — Cobalt",
+      "provision": "Annex XIII 1(e)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#materialRecycledContent",
+        "curie": "eudpp:materialRecycledContent",
+        "label": "recycled content amount in material",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "The recycled share on the cobalt material node."
+    },
+    {
+      "key": "recycledContentLithium",
+      "label": "Recycled Content — Lithium",
+      "provision": "Annex XIII 1(e)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#materialRecycledContent",
+        "curie": "eudpp:materialRecycledContent",
+        "label": "recycled content amount in material",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "The recycled share on the lithium material node."
+    },
+    {
+      "key": "recycledContentNickel",
+      "label": "Recycled Content — Nickel",
+      "provision": "Annex XIII 1(e)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#materialRecycledContent",
+        "curie": "eudpp:materialRecycledContent",
+        "label": "recycled content amount in material",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "The recycled share on the nickel material node."
+    },
+    {
+      "key": "recycledContentLead",
+      "label": "Recycled Content — Lead",
+      "provision": "Annex XIII 1(e)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#materialRecycledContent",
+        "curie": "eudpp:materialRecycledContent",
+        "label": "recycled content amount in material",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "The recycled share on the lead material node."
+    },
+    {
+      "key": "roleOfEndUsersInWastePrevention",
+      "label": "Role of End-Users in Waste Prevention",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "informationOnSeparateCollection",
+      "label": "Information on Separate Collection",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "informationOnCollectionAndEndOfLifeTreatment",
+      "label": "Collection and End-of-Life Treatment Information",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "safetyInstructionsWasteBatteries",
+      "label": "Safety Instructions for Waste Batteries",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(d)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "impactOfHazardousSubstances",
+      "label": "Impact of Hazardous Substances",
+      "provision": "Annex XIII 1(s) with Art. 74(1)(f)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dismantlingInformation",
+      "label": "Dismantling Information / Manual",
+      "provision": "Annex XIII 2(c)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#dismantlingInformation",
+        "curie": "bat:dismantlingInformation",
+        "label": "dismantling information",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "removalInformation",
+      "label": "Removal Information / Manual",
+      "provision": "Annex XIII 2(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "sparePartsInformation",
+      "label": "Spare Parts Information",
+      "provision": "Annex XIII 2(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "safetyInformationEndOfLife",
+      "label": "Safety Measures for Dismantling",
+      "provision": "Annex XIII 2(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#SafetyInstruction",
+        "curie": "bat:SafetyInstruction",
+        "label": "Safety instruction",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A safety-instruction document node; bat:safetyMeasures is deprecated in its favour."
+    },
+    {
+      "key": "safetyMeasures",
+      "label": "Safety Measures Document",
+      "provision": "Annex XIII 2(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#SafetyInstruction",
+        "curie": "bat:SafetyInstruction",
+        "label": "Safety instruction",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "A safety-instruction document node; bat:safetyMeasures is deprecated in its favour."
+    },
+    {
+      "key": "recycledContentDocumentation",
+      "label": "Recycled Content Documentation",
+      "provision": "Annex XIII 1(e)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batteryRemovabilityReplaceability",
+      "label": "Battery Removability & Replaceability",
+      "provision": "Art. 11(5)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "ratedCapacity",
+      "label": "Rated Capacity",
+      "provision": "Annex XIII 1(g)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#ratedCapacity",
+        "curie": "bat-perf:ratedCapacity",
+        "label": "rated capacity",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "nominalVoltage",
+      "label": "Nominal Voltage",
+      "provision": "Annex XIII 1(h)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#nominalVoltage",
+        "curie": "bat-perf:nominalVoltage",
+        "label": "nominal voltage",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "nominalVoltageTemperatureRangeMin",
+      "label": "Nominal Voltage — Temperature Range Min",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "nominalVoltageTemperatureRangeMax",
+      "label": "Nominal Voltage — Temperature Range Max",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "minimumVoltage",
+      "label": "Minimum Voltage",
+      "provision": "Annex XIII 1(h)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#minimumVoltage",
+        "curie": "bat-perf:minimumVoltage",
+        "label": "minimum voltage",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "minimumVoltageTemperatureRangeMin",
+      "label": "Minimum Voltage — Temperature Range Min",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "minimumVoltageTemperatureRangeMax",
+      "label": "Minimum Voltage — Temperature Range Max",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumVoltage",
+      "label": "Maximum Voltage",
+      "provision": "Annex XIII 1(h)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#maximumVoltage",
+        "curie": "bat-perf:maximumVoltage",
+        "label": "maximum voltage",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "maximumVoltageTemperatureRangeMin",
+      "label": "Maximum Voltage — Temperature Range Min",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumVoltageTemperatureRangeMax",
+      "label": "Maximum Voltage — Temperature Range Max",
+      "provision": "Annex XIII 1(h)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "originalPowerCapability",
+      "label": "Original Power Capability",
+      "provision": "Annex XIII 1(i)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#originalPowerCapability",
+        "curie": "bat-perf:originalPowerCapability",
+        "label": "original power capability",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "maximumAllowedBatteryPower",
+      "label": "Maximum Allowed Battery Power",
+      "provision": "Annex XIII 1(i)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#maximumPermittedBatteryPower",
+        "curie": "bat-perf:maximumPermittedBatteryPower",
+        "label": "maximum permitted battery power",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "maximumAllowedBatteryPowerTemperatureRangeMin",
+      "label": "Maximum Allowed Battery Power — Temperature Range Min",
+      "provision": "Annex XIII 1(i)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "maximumAllowedBatteryPowerTemperatureRangeMax",
+      "label": "Maximum Allowed Battery Power — Temperature Range Max",
+      "provision": "Annex XIII 1(i)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "ratioMaxPowerMaxEnergy",
+      "label": "Ratio Nominal Power / Energy",
+      "provision": "Annex IV Part B(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#powerToEnergyRatio",
+        "curie": "bat-perf:powerToEnergyRatio",
+        "label": "ratio between nominal battery power and battery energy",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "initialEnergyRoundTripEfficiency",
+      "label": "Initial Energy Round-Trip Efficiency",
+      "provision": "Annex XIII 1(n)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#initialRoundTripEnergyEfficiency",
+        "curie": "bat-perf:initialRoundTripEnergyEfficiency",
+        "label": "initial round trip energy efficiency",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "initialInternalResistancePack",
+      "label": "Initial Internal Resistance — Pack",
+      "provision": "Annex XIII 1(o)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#initialPackInternalResistance",
+        "curie": "bat-perf:initialPackInternalResistance",
+        "label": "initial internal resistance of battery pack",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "initialInternalResistanceCell",
+      "label": "Initial Internal Resistance — Cell",
+      "provision": "Annex XIII 1(o)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#initialCellInternalResistance",
+        "curie": "bat-perf:initialCellInternalResistance",
+        "label": "initial internal resistance of battery cell",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "initialInternalResistanceModule",
+      "label": "Initial Internal Resistance — Module",
+      "provision": "Annex XIII 1(o)",
+      "term": null,
+      "match": null,
+      "note": "CIRPASS-2 has cell and pack terms only; module resistance is not an Annex XIII datum."
+    },
+    {
+      "key": "initialSelfDischargeRate",
+      "label": "Initial Self-Discharge Rate",
+      "provision": "Annex XIII 4(b) with Annex VII Part A(4)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#initialSelfDischargeRate",
+        "curie": "bat-perf:initialSelfDischargeRate",
+        "label": "initial self-discharge rate",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "batteryEnergyTotal",
+      "label": "Battery Energy Total",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": "No rated-energy term. battery-performance:certifiedUsableBatteryEnergy is the certified usable energy, a different datum."
+    },
+    {
+      "key": "energyDensity",
+      "label": "Energy Density",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "expectedLifetimeCycles",
+      "label": "Expected Lifetime — Cycles",
+      "provision": "Annex XIII 1(j)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#expectedLifetimeCycles",
+        "curie": "bat-perf:expectedLifetimeCycles",
+        "label": "expected lifetime: number of charge-discharge cycles",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "expectedLifetimeYears",
+      "label": "Expected Lifetime — Years",
+      "provision": "Annex XIII 4(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#expectedLifetimeCalendarYears",
+        "curie": "bat-perf:expectedLifetimeCalendarYears",
+        "label": "expected lifetime in calendar years",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "expectedLifetimeReferenceConditions",
+      "label": "Expected Lifetime — Reference Conditions",
+      "provision": "Annex XIII 1(j)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "capacityThresholdForExhaustion",
+      "label": "Capacity Threshold for Exhaustion",
+      "provision": "Annex XIII 1(k)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#capacityThresholdForExhaustion",
+        "curie": "bat-perf:capacityThresholdForExhaustion",
+        "label": "capacity threshold for exhaustion",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "temperatureRangeIdleMin",
+      "label": "Temperature Range Idle — Min",
+      "provision": "Annex XIII 1(l)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateLowerBoundary",
+        "curie": "bat-perf:temperatureRangeIdleStateLowerBoundary",
+        "label": "temperature range idle state, lower boundary",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "temperatureRangeIdleMax",
+      "label": "Temperature Range Idle — Max",
+      "provision": "Annex XIII 1(l)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#temperatureRangeIdleStateUpperBoundary",
+        "curie": "bat-perf:temperatureRangeIdleStateUpperBoundary",
+        "label": "temperature range idle state, upper boundary",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "notInUseTemperatureRangeTest",
+      "label": "Temperature Range Idle — Reference Test",
+      "provision": "Annex XIII 1(l)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "cRateRelevantCycleLifeTest",
+      "label": "Charge C-Rate of Relevant Cycle-Life Test",
+      "provision": "Annex XIII 1(p)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#chargeCRateOfCycleLifeTest",
+        "curie": "bat-perf:chargeCRateOfCycleLifeTest",
+        "label": "charge C-rate of relevant cycle-life test",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "commercialWarrantyPeriod",
+      "label": "Commercial Warranty Period",
+      "provision": "Annex XIII 1(m)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#warrantyPeriod",
+        "curie": "bat:warrantyPeriod",
+        "label": "warranty period",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "numberOfCells",
+      "label": "Number of Cells",
+      "provision": "Annex XIII 2(c)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "cellType",
+      "label": "Cell Type",
+      "provision": null,
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "stateOfHealth",
+      "label": "State of Health — SoH",
+      "provision": "Annex XIII 4(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "stateOfCertifiedEnergy",
+      "label": "State of Certified Energy — SOCE",
+      "provision": "Annex XIII 4(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#stateOfCertifiedEnergy",
+        "curie": "bat-perf:stateOfCertifiedEnergy",
+        "label": "state of certified energy (SOCE)",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "remainingCapacity",
+      "label": "Remaining Capacity",
+      "provision": "Annex XIII 4(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#remainingCapacity",
+        "curie": "bat-perf:remainingCapacity",
+        "label": "remaining capacity",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "remainingPowerCapability",
+      "label": "Remaining Power Capability",
+      "provision": "Annex XIII 4(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#remainingPowerCapability",
+        "curie": "bat-perf:remainingPowerCapability",
+        "label": "remaining power capability",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "remainingEnergy",
+      "label": "Remaining Energy",
+      "provision": "Art. 77",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#remainingUsableBatteryEnergy",
+        "curie": "bat-perf:remainingUsableBatteryEnergy",
+        "label": "remaining usable battery energy",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "currentInternalResistancePack",
+      "label": "Ohmic Resistance — Pack (State of Health)",
+      "provision": "Annex XIII 4(b)",
+      "term": null,
+      "match": null,
+      "note": "No term for the current ohmic resistance; internalResistanceIncrease is the change, not the value."
+    },
+    {
+      "key": "internalResistanceIncrease",
+      "label": "Internal Resistance Increase",
+      "provision": "Annex XIII 4(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#internalResistanceIncrease",
+        "curie": "bat-perf:internalResistanceIncrease",
+        "label": "internal resistance increase of pack",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "capacityFade",
+      "label": "Capacity Fade",
+      "provision": "Annex XIII 4(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#capacityFade",
+        "curie": "bat-perf:capacityFade",
+        "label": "capacity fade",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "powerFade",
+      "label": "Power Fade",
+      "provision": "Annex XIII 4(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#powerFade",
+        "curie": "bat-perf:powerFade",
+        "label": "power fade",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "roundTripEfficiencyFade",
+      "label": "Round-Trip Efficiency Fade",
+      "provision": "Annex XIII 4(a)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyFade",
+        "curie": "bat-perf:roundTripEnergyEfficiencyFade",
+        "label": "energy round trip efficiency fade",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "evolutionOfSelfDischargeRate",
+      "label": "Evolution of Self-Discharge Rate",
+      "provision": "Annex XIII 4(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#selfDischargeRateEvolution",
+        "curie": "bat-perf:selfDischargeRateEvolution",
+        "label": "evolution of self-discharge rates",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "selfDischargingRecordedTime",
+      "label": "Self-Discharge Rate — Date Measured",
+      "provision": "Annex XIII 4(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "numberOfFullEquivalentChargingCycles",
+      "label": "Number of Full Equivalent Charging Cycles",
+      "provision": "Annex XIII 4(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#numberOfFullCycles",
+        "curie": "bat-perf:numberOfFullCycles",
+        "label": "number of full charging and discharging cycles",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "capacityThroughput",
+      "label": "Capacity Throughput",
+      "provision": "Annex XIII 4(b) with Annex VII Part B(3)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#capacityThroughput",
+        "curie": "bat-perf:capacityThroughput",
+        "label": "capacity throughput",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "energyThroughput",
+      "label": "Energy Throughput",
+      "provision": "Annex XIII 4(b) with Annex VII Part B(2)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#energyThroughput",
+        "curie": "bat-perf:energyThroughput",
+        "label": "energy throughput",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "numberOfChargingEvents",
+      "label": "Number of Charging Events",
+      "provision": "Annex XIII 4(d)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dateOfServiceEntry",
+      "label": "Date of Service Entry",
+      "provision": "Annex XIII 4(b) with Annex VII Part B(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "negativeEvents",
+      "label": "Negative Events",
+      "provision": "Annex XIII 4(d)",
+      "term": null,
+      "match": null,
+      "note": "CIRPASS-2 counts deep-discharge and overcharge events separately (numberOfDeepDischargeEvents, numberOfOverchargeEvents); the template keeps one list of events."
+    },
+    {
+      "key": "currentStateOfCharge",
+      "label": "Current State of Charge — SoC",
+      "provision": "Annex XIII 4(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#stateOfCharge",
+        "curie": "bat-perf:stateOfCharge",
+        "label": "state of charge (SoC)",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "temperatureConditionsHistorical",
+      "label": "Temperature Conditions Historical",
+      "provision": "Annex XIII 4(d)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "batteryModelIdentifier",
+      "label": "Battery Model Identifier",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(2)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "economicOperatorIdentifier",
+      "label": "Economic Operator Identifier",
+      "provision": "Art. 77(4) and Art. 77(10)",
+      "term": {
+        "uri": "https://w3id.org/eudpp#ActorIdentifier",
+        "curie": "eudpp:ActorIdentifier",
+        "label": "Actor identifier",
+        "kind": "class"
+      },
+      "match": "structured",
+      "note": "An identifier node, eudpp:ActorIdentifier."
+    },
+    {
+      "key": "ceMarkingStatus",
+      "label": "CE Marking Status",
+      "provision": "Art. 20(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "extinguishingAgent",
+      "label": "Extinguishing Agent",
+      "provision": "Annex XIII 1(a) with Annex VI Part A(9)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-labeling#extinguishingAgent",
+        "curie": "bat-label:extinguishingAgent",
+        "label": "extinguishing agent",
+        "kind": "objectProperty"
+      },
+      "match": "structured",
+      "note": "Points at the battery-extinguisher-classes vocabulary; the template holds free text."
+    },
+    {
+      "key": "renewableContentShare",
+      "label": "Share of Renewable Content",
+      "provision": "Annex XIII 1(f)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "roundTripEfficiencyAtHalfCycleLife",
+      "label": "Round-Trip Energy Efficiency at 50% of Cycle-Life",
+      "provision": "Annex XIII 1(n)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#roundTripEnergyEfficiencyAt50PercentCycleLife",
+        "curie": "bat-perf:roundTripEnergyEfficiencyAt50PercentCycleLife",
+        "label": "round trip energy efficiency at 50% of cycle life",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "componentPartNumbers",
+      "label": "Part Numbers for Components",
+      "provision": "Annex XIII 2(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery#partNumber",
+        "curie": "bat:partNumber",
+        "label": "part number",
+        "kind": "datatypeProperty"
+      },
+      "match": "structured",
+      "note": "One part number per component node."
+    },
+    {
+      "key": "dynamicPowerCapability",
+      "label": "Power Capability (Dynamic, in W)",
+      "provision": "Annex XIII 4(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dynamicEnergyRoundTripEfficiency",
+      "label": "Energy Round-Trip Efficiency (Dynamic, %)",
+      "provision": "Annex XIII 4(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dynamicRatedCapacity",
+      "label": "Rated Capacity (Dynamic, in Ah)",
+      "provision": "Annex XIII 4(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dynamicInternalResistance",
+      "label": "Internal Resistance (Dynamic, in Ω)",
+      "provision": "Annex XIII 4(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dynamicExpectedLifetimeCycles",
+      "label": "Expected Lifetime (Dynamic, in cycles)",
+      "provision": "Annex XIII 4(a)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "remainingRoundTripEfficiency",
+      "label": "Remaining Round-Trip Efficiency",
+      "provision": "Annex XIII 4(b)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#remainingRoundTripEnergyEfficiency",
+        "curie": "bat-perf:remainingRoundTripEnergyEfficiency",
+        "label": "remaining round trip energy efficiency",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "preConsumerRecycledNickelShare",
+      "label": "Recycled Content — Nickel (battery manufacturing waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "preConsumerRecycledCobaltShare",
+      "label": "Recycled Content — Cobalt (battery manufacturing waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "preConsumerRecycledLithiumShare",
+      "label": "Recycled Content — Lithium (battery manufacturing waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "postConsumerRecycledNickelShare",
+      "label": "Recycled Content — Nickel (post-consumer waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "postConsumerRecycledCobaltShare",
+      "label": "Recycled Content — Cobalt (post-consumer waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "postConsumerRecycledLithiumShare",
+      "label": "Recycled Content — Lithium (post-consumer waste)",
+      "provision": "Art. 8(1)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "originalPowerCapabilityAt80Soc",
+      "label": "Original Power Capability at 80% SoC",
+      "provision": "Annex IV Part B(4)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "originalPowerCapabilityAt20Soc",
+      "label": "Original Power Capability at 20% SoC",
+      "provision": "Annex IV Part B(4)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "temperatureInformation",
+      "label": "Temperature Information",
+      "provision": "Annex XIII 4(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#temperatureInformation",
+        "curie": "bat-perf:temperatureInformation",
+        "label": "temperature information",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "cadmiumLeadSymbolsUrl",
+      "label": "Cadmium and Lead Symbols URL",
+      "provision": "Annex XIII 1(q) as corrected by 32023R1542R(13) together with Art. 13(5)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "componentPartNumbersUrl",
+      "label": "Component Part Numbers URL",
+      "provision": "Annex XIII 2(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "sparePartsSourcesUrl",
+      "label": "Spare Parts Sources URL",
+      "provision": "Annex XIII 2(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "accidentsInformationUrl",
+      "label": "Accidents Information URL",
+      "provision": "Annex XIII 4(d)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#accidentInformation",
+        "curie": "bat-perf:accidentInformation",
+        "label": "information on accidents",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "remainingPowerCapabilityAt80Soc",
+      "label": "Remaining Power Capability at 80% SoC",
+      "provision": "Annex XIII 4(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "remainingPowerCapabilityAt20Soc",
+      "label": "Remaining Power Capability at 20% SoC",
+      "provision": "Annex XIII 4(b)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "separateCollectionMarkingOnBattery",
+      "label": "Separate Collection Marking on Battery",
+      "provision": "Annex XIII 1(q), as corrected by 32023R1542R(13); Art. 13(4)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "separateCollectionMarkingOnPackaging",
+      "label": "Separate Collection Marking on Packaging",
+      "provision": "Annex XIII 1(q), as corrected by 32023R1542R(13); Art. 13(4)",
+      "term": null,
+      "match": null,
+      "note": null
+    },
+    {
+      "key": "dischargeCRateRelevantCycleLifeTest",
+      "label": "Discharge C-Rate of Relevant Cycle-Life Test",
+      "provision": "Annex XIII 1(p)",
+      "term": {
+        "uri": "https://w3id.org/eudpp/battery-performance#dischargeCRateOfCycleLifeTest",
+        "curie": "bat-perf:dischargeCRateOfCycleLifeTest",
+        "label": "discharge C-rate of relevant cycle-life test",
+        "kind": "datatypeProperty"
+      },
+      "match": "exact",
+      "note": null
+    },
+    {
+      "key": "responsibleEconomicOperatorName",
+      "label": "Responsible Economic Operator Name",
+      "provision": "Art. 77(4)",
+      "term": null,
+      "match": null,
+      "note": null
+    }
+  ]
+}
