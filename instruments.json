@@ -1045,6 +1045,25 @@
       },
       "lastChecked": "2026-10-09"
     },
+    "espr-da-smartphones-tablets": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Mobile phones and tablets",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption end 2030. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2030",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
     "espr-dppsp-da": {
       "framework": "32024R1781",
       "article": "Art. 11, third subparagraph",
