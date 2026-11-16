@@ -1064,6 +1064,253 @@
       },
       "lastChecked": "2026-11-16"
     },
+    "espr-da-low-temperature-emitters": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Low-temperature emitters",
+      "note": "New product. The working plan lists an energy label and no ecodesign requirements, adoption 2026. It does not say whether an act will require a digital product passport.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2026",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-displays": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Displays",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption 2027. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2027",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-ev-chargers": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "EV chargers",
+      "note": "New product. The working plan lists ecodesign requirements and an energy label as 'to be specified', adoption 2028. It does not say whether the act will require a digital product passport.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2028",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-professional-laundry-appliances": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Professional laundry appliances",
+      "note": "New product. The working plan lists ecodesign requirements and an energy label 'to be specified', adoption 2026. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2026",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-professional-dishwashers": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Professional dishwashers",
+      "note": "New product. The working plan lists ecodesign requirements and an energy label 'to be specified', adoption 2026. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2026",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-electric-motors": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Electric motors and variable speed drives",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and no energy label, adoption 2028. It does not say whether the act will require a digital product passport.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2028",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-refrigerating-appliances": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Refrigerating appliances",
+      "note": "Includes household fridges and freezers. Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption 2028. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2028",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-refrigerating-appliances-sales-function": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Refrigerating appliances with a sales function",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption 2028. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2028",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-light-sources": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Light sources and separate control gears",
+      "note": "Separate control gears are covered by the ecodesign requirements only, not by the energy label. Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption 2029. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2029",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-welding-equipment": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Welding equipment",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and no energy label, adoption end 2030. It does not say whether the act will require a digital product passport.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2030",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-local-space-heaters": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Local space heaters",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements (adoption mid-2030) and an energy label (adoption 2026). The planned date is that of the ecodesign requirements. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2030",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-da-tumble-dryers": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "product-group",
+      "productGroup": "Tumble dryers",
+      "note": "Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and an energy label, adoption end 2030. It does not say whether the act will require a digital product passport; products with an energy label may be served by the EPREL database instead.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2030",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
+    "espr-horizontal-standby-off-mode": {
+      "framework": "32024R1781",
+      "article": "Art. 4",
+      "kind": "horizontal",
+      "productGroup": "Standby and off mode consumption",
+      "note": "Applies across energy-related products rather than to one product group. Carried over from the 2022-2024 ecodesign and energy labelling working plan; the working plan lists ecodesign requirements and no energy label, adoption end 2030. It does not say whether the act will require a digital product passport.",
+      "stage": "not-scheduled",
+      "planned": {
+        "date": "2030",
+        "precision": "year",
+        "event": "adoption"
+      },
+      "source": {
+        "kind": "working_plan",
+        "document": "COM(2025) 187",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0187"
+      },
+      "lastChecked": "2026-11-16"
+    },
     "espr-dppsp-da": {
       "framework": "32024R1781",
       "article": "Art. 11, third subparagraph",
