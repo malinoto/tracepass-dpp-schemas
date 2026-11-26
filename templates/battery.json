@@ -4484,7 +4484,7 @@
         "maxLength": 2048,
         "pattern": "^https?://.*$",
         "anticipated": true,
-        "anticipatedNote": "DG GROW guidance v3.2 (19 Oct 2026), DP 19: not to be filled/displayed as of February 2027; required from August 2027 as envisaged by Art. 48(1) (due-diligence obligations postponed by Regulation (EU) 2025/1561).",
+        "anticipatedNote": "DG GROW guidance v4 (19 Nov 2026), DP 19: not to be filled/displayed as of 18 February 2027; required from 18 August 2028 as envisaged by Art. 52(3). The due-diligence obligations apply from 18 August 2027 (Art. 48(1), postponed by Regulation (EU) 2025/1561), and the Art. 52(3) report is annual.",
         "anticipatedUnder": "32023R1542"
       },
       "category": "supply_chain",
@@ -4522,7 +4522,7 @@
         "instrument": "32023R1542",
         "provision": "Annex XIII 1(d)",
         "kind": "legislation",
-        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but the due diligence obligations apply from 18 Aug 2027 (Art. 48(1) as amended by Reg. (EU) 2025/1561), and the Commission's data-points guidance v3.2 (DP 19) says it is not to be filled or displayed as of February 2027 and is required from August 2027, later than the passport itself."
+        "description": "Annex XIII 1(d) makes the Art. 52(3) due diligence report passport content, so this is genuine passport data — but the due diligence obligations apply from 18 Aug 2027 (Art. 48(1) as amended by Reg. (EU) 2025/1561), and the Commission's data-points guidance v4 (DP 19) says it is not to be filled or displayed as of 18 February 2027 and is required from 18 August 2028, a year after the duty starts, since the Art. 52(3) report is annual."
       },
       "aiHints": {
         "alternateNames": [

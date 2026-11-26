@@ -32,12 +32,13 @@
           "id": "battery-due-diligence",
           "topic": "supply-chain due diligence report",
           "provision": "Art. 48, Art. 52(3); Annex XIII 1(d)",
-          "passportFrom": "2027-08-18",
+          "passportFrom": "2028-08-18",
           "status": "dated",
-          "note": "Postponed from 18 Aug 2025 by Reg (EU) 2025/1561. Not in the passport at the February 2027 start.",
-          "source": "DG GROW battery data-point guidance v3.2 (19 Oct 2026) DP 19; Commission Battery Passport FAQ (1st ed., Sep 2026) §7.3",
+          "note": "The Art. 48(1) due-diligence duty applies from 18 Aug 2027 (postponed from 18 Aug 2025 by Reg (EU) 2025/1561). Annex XIII 1(d) carries the Art. 52(3) report, which is reviewed and published annually, so the Commission's guidance puts the data point in the passport from 18 Aug 2028. Not in the passport at the February 2027 start.",
+          "source": "DG GROW battery data-point guidance v4 (19 Nov 2026) DP 19; Reg (EU) 2023/1542 Art. 48(1) as amended by Reg (EU) 2025/1561, Art. 52(3)",
           "otherDates": [
-            "2025-08-18"
+            "2025-08-18",
+            "2027-08-18"
           ]
         },
         {
